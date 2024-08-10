@@ -1,0 +1,58 @@
+characters = {
+	victor_yanukovich = {
+		name = victor_yanukovich
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/Yanukovich.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {  
+			}
+		}
+	}
+	yulia_timoshenko = {
+		name = yulia_timoshenko
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/Timoshenko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {  
+			}
+		}
+	}
+	petro_poroshenko = {
+		name = petro_poroshenko
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/poroshenko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {  
+			}
+		}
+	}
+	dmytro_yarosh = {
+		name = dmytro_yarosh
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/Yarosh.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = nazism
+			traits = {  
+			}
+		}
+	}
+}
