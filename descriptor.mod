@@ -18,4 +18,4 @@ tags={
 }
 name="Divided Donbass"
 supported_version="1.14.7"
-path="C:/Users/Master/Documents/Paradox Interactive/Hearts of Iron IV/mod/DividedDonbass"
+path="D:/Divided-Donbass"
