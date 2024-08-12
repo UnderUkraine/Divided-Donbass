@@ -25,16 +25,5 @@ bookmarks = {
 
 			}	
 		}
-
-		### Minors from mod ####
-		"BEL"={
-		    minor = yes
-			history = "BEL_EC_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}	
-		}
 	}
 }
