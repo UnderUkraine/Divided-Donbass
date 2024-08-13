@@ -1,2 +1,3 @@
 UKR = "countries/UKR.txt"
 RUS = "countries/RUS.txt"
+CRI = "countries/CRI.txt"
