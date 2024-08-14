@@ -5,7 +5,11 @@ state={
 	provinces={
 		2886 3242 11003 13975 17346 18693 21291 27171 50264 50305 50351 
 	}
-	manpower=0
+	history = {
+        owner = CRI
+    }
+	state_category=city
+	manpower=69786
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
