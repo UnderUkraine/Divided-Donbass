@@ -25,5 +25,14 @@ bookmarks = {
 
 			}	
 		}
+		"CRI"={
+			history = "CRI_EC_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+
+			}	
+		}
 	}
 }

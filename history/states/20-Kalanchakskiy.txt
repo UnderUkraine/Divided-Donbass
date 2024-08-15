@@ -7,10 +7,12 @@ state={
 	}
 	
 	history = {
+        owner = UKR
 		victory_points = {47646 3}
 		victory_points = {47961 1}
 		victory_points = {2614 1}
 		victory_points= {47609 1}
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
