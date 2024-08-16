@@ -30,13 +30,13 @@
 		trade = no
 	}
 
-	required_provinces = { 15949 7547 }
+	required_provinces = { 11674 49850 }
 
 	is_disabled = {
 		has_global_flag = CRIMEA_BRIDGE_BLOCKED
 		tooltip = crimea_bridge_blocked_tt
 	}
 
-	#icon = 15949
+	icon = 15949
 	offset = { 0 0 0 }
 }
