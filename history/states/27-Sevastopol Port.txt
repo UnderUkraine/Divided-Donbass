@@ -4,7 +4,10 @@ state={
 	provinces={
 		50691 
 	}
-	manpower=0
+	history={
+		owner = RUS
+	}
+	manpower=30
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
