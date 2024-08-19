@@ -5,6 +5,9 @@ state={
 	provinces={
 		2367 6368 7665 13157 16136 17665 20798 21452 24365 33244 33435 33491 33587 33728 33787 33879 
 	}
+	history = {
+        owner = UKR
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
