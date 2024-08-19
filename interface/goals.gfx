@@ -1,0 +1,6 @@
+spriteTypes = {	
+    SpriteType = {
+	    name = "GFX_focus_UKR_Yanukovich_rule"
+	    texturefile = "gfx/interface/goals/UKR/UKR_Yanukovich_rule.dds"			
+	}	
+}
