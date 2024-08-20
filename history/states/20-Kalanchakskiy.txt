@@ -12,8 +12,12 @@ state={
 		victory_points = {47961 1}
 		victory_points = {2614 1}
 		victory_points= {47609 1}
+
+		add_core_of = UKR	
 	}
-	manpower=0
+
+	state_category=rural
+	manpower=21135
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
