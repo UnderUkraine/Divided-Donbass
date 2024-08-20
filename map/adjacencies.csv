@@ -1,4 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11674;49850;sea;50740;-1;-1;-1;-1;CRIMEA_BRIDGE;Crimeabridge
 1112;46756;sea;50704;-1;-1;-1;-1;;BudjakBridge1
+7715;19070;sea;50781;-1;-1;-1;-1;;Slavyansk-Liman
+26372;20341;sea;50781;-1;-1;-1;-1;;Slavyansk-Liman2
 -1;-1;;-1;-1;-1;-1;-1;-1

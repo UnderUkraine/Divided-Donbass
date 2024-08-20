@@ -3,6 +3,10 @@ UKR = {
 	color_ui = rgb { 74 147 255 }
 }
 CRI = {
-	color = rgb { 103 171 219 }
-	color_ui = rgb { 103 171 219 }
+	color = rgb { 62 147 207 }
+	color_ui = rgb { 62 147 2079 }
+}
+RUS = {
+	color = rgb { 58 110 53 }
+	color_ui = rgb { 58 110 53 }
 }
