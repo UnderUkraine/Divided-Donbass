@@ -7,7 +7,10 @@ state={
 	}
 	history = {
         owner = UKR
+		add_core_of = UKR
 	}
+
+	state_category=town
 	manpower=57983
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
