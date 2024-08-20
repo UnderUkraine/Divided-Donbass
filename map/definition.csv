@@ -50750,9 +50750,9 @@
 50749;10;50;39;sea;true;ocean;0
 50750;15;19;5;sea;true;ocean;0
 50751;47;31;20;sea;true;ocean;0
-50752;59;7;7;sea;true;ocean;0
+50752;59;7;7;land;true;plains;1
 50753;0;15;67;sea;true;ocean;0
-50754;35;10;41;sea;true;ocean;0
+50754;35;10;41;land;true;plains;1
 50755;19;60;9;sea;true;ocean;0
 50756;72;2;25;sea;true;ocean;0
 50757;45;27;1;sea;true;ocean;0
@@ -50781,6 +50781,6 @@
 50780;5;59;17;sea;true;ocean;0
 50781;64;16;21;lake;false;lakes;0
 50782;19;6;81;lake;false;lakes;0
-50783;75;50;21;lake;false;lakes;0
+50783;75;50;21;land;true;plains;1
 50784;5;90;18;lake;false;lakes;0
 50785;67;40;10;lake;false;lakes;0
