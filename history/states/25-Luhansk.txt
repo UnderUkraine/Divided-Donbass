@@ -8,7 +8,7 @@ state={
 	history = {
         owner = UKR
 	}
-	manpower=1
+	manpower=424113
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
