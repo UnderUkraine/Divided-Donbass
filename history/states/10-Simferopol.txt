@@ -7,6 +7,8 @@ state={
 	}
 	history = {
         owner = CRI
+		add_core_of = CRI
+		
     }
 	state_category=city
 	manpower=152091
