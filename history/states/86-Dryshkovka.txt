@@ -2,17 +2,18 @@
 state={
 	id=86
 	name="STATE_86"
-	provinces={
-		2367 6368 7665 13157 16136 17665 20798 21452 24365 33244 33435 33491 33587 33728 33787 33879 
-	}
-	history = {
-        owner = UKR
+
+	history={
+		owner = UKR
 		add_core_of = UKR
 
 	}
 
-	state_category=town
+	provinces={
+		2367 6368 7665 13157 16136 17665 20798 21452 24365 33244 33435 33491 33587 33728 33787 33879 
+	}
 	manpower=67772
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }
