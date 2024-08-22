@@ -1,0 +1,15 @@
+
+state={
+	id=108
+	name="STATE_108"
+	provinces={
+		2398 4450 8406 10960 13041 16802 23986 24182 26127 26837 31941 32086 32204 32224 32329 32471 32549 32662 32714 32715 32731 32798 32947 
+	}
+	history = {
+        owner = UKR
+		add_core_of = UKR
+    }
+	manpower=1094
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

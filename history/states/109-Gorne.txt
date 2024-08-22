@@ -1,0 +1,15 @@
+
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		1850 5024 13626 14344 15753 16846 19839 25939 37575 37622 37692 37730 37752 38116 38168 38326 38369 
+	}
+	history = {
+        owner = UKR
+		add_core_of = UKR
+    }
+	manpower=1409
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
