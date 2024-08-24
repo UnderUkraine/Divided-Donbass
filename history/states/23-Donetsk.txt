@@ -1,4 +1,3 @@
-
 state={
 	id=23
 	name="STATE_23"
@@ -7,6 +6,11 @@ state={
 		owner = UKR
 		add_core_of = UKR
 
+	}
+
+	resources = {
+		steel = 1
+		coal = 1
 	}
 
 	provinces={
