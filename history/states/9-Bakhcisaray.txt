@@ -2,16 +2,18 @@
 state={
 	id=9
 	name="STATE_9"
-	provinces={
-		2053 2690 4020 4249 4609 4695 8699 9713 10929 11039 12978 13676 15481 16216 18746 23400 24024 25657 26203 26209 50329 50347 50509 50543 
-	}
-	history = {
-        owner = CRI
+
+	history={
+		owner = CRI
 		add_core_of = CRI
-		
-    }
-	state_category=city
+
+	}
+
+	provinces={
+		2053 2690 4020 4249 4609 8699 10929 11039 12978 13676 16216 18746 23400 24024 25657 26203 26209 50329 50347 50509 50543 
+	}
 	manpower=90900
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }
