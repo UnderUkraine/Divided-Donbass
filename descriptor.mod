@@ -21,5 +21,5 @@ tags={
 	"Map"
 }
 name="Divided Donbass"
-supported_version="1.14.7"
+supported_version="1.14.8"
 path="D:/Divided-Donbass"
