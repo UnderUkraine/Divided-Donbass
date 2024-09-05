@@ -1,0 +1,18 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		5175 10349 15432 41915 41936 41953 42138 
+	}
+
+	history = {
+        owner = PMR
+        
+		add_core_of = PMR
+	}
+
+	manpower=43410
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
