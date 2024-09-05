@@ -10,3 +10,7 @@ RUS = {
 	color = rgb { 60 99 58 }
 	color_ui = rgb { 49 77 47 }
 }
+RUS = {
+	color = rgb { 201 27 14 }
+	color_ui = rgb { 219 48 35 }
+}
