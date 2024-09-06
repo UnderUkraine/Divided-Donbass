@@ -14,3 +14,7 @@ PMR = {
 	color = rgb { 201 27 14 }
 	color_ui = rgb { 219 48 35 }
 }
+MLV = {
+	color = rgb { 255 191 28 }
+	color_ui = rgb { 255 205 79 }
+}
