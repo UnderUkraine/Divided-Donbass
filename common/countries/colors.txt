@@ -22,3 +22,7 @@ AZV = {
 	color = rgb { 182 191 86 }
 	color_ui = rgb { 182 191 86 }
 }
+ROM = {
+	color = rgb { 252 144 3 }
+	color_ui = rgb { 255 164 46 }
+}
