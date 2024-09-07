@@ -18,3 +18,7 @@ MLV = {
 	color = rgb { 255 191 28 }
 	color_ui = rgb { 255 205 79 }
 }
+AZV = {
+	color = rgb { 182 191 86 }
+	color_ui = rgb { 182 191 86 }
+}

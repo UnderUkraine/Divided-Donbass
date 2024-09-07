@@ -1,0 +1,18 @@
+﻿capital = 4308
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2019.05.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#recruit_character = victor_yanukovich
+
+set_popularities = {
+	fascism = 90
+	neutrality = 10
+}
