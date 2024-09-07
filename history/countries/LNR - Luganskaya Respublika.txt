@@ -4,7 +4,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "2014.08.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -13,8 +13,8 @@ set_politics = {
 recruit_character = victor_yanukovich
 
 set_popularities = {
-	democratic = 1
-	fascism = 60
-	communism = 38
-	neutrality = 1
+	democratic = 0
+	fascism = 5
+	communism = 25
+	neutrality = 70
 }

@@ -11,8 +11,8 @@ RUS = {
 	color_ui = rgb { 49 77 47 }
 }
 PMR = {
-	color = rgb { 201 27 14 }
-	color_ui = rgb { 219 48 35 }
+	color = rgb { 120 2 2 }
+	color_ui = rgb { 179 12 12 }
 }
 MLV = {
 	color = rgb { 255 191 28 }
