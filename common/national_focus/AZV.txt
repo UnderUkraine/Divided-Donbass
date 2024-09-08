@@ -173,5 +173,132 @@ focus_tree = {
 			add_political_power = 50
 			#TODO Shoto eshe
 		}
+	}	
+	focus = {
+			id = AZV_reydi_rog_post
+			icon = GFX_goal_unknown
+			cost = 1
+			x = 1
+			y = 1
+			relative_position_id = AZV_offensive_success
+	
+			prerequisite = {focus = AZV_offensive_success}
+	
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+	
+			completion_reward = {
+				#TODO Timed mission
+			}
+	}	
+	focus = {
+		id = AZV_kooperation_VSU
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_offensive_success
+
+		prerequisite = {focus = AZV_offensive_success}
+		prerequisite = {focus = AZV_offensive_is_delayed}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_reforma_polk
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_kooperation_VSU
+
+		prerequisite = {focus = AZV_kooperation_VSU}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_pochinit_bmp
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_reforma_polk
+
+		prerequisite = {focus = AZV_reforma_polk}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_tanki_v_polku
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_reforma_polk
+
+		prerequisite = {focus = AZV_reforma_polk}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_obhod_sankciy
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_reforma_polk
+
+		prerequisite = {focus = AZV_reforma_polk}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_perehod_v_NGU
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+		relative_position_id = AZV_reforma_polk
+
+		prerequisite = {focus = AZV_obhod_sankciy focus = AZV_tanki_v_polku focus = AZV_pochinit_bmp}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
 	}
 }
