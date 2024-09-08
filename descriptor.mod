@@ -16,6 +16,7 @@ replace_path="gfx/leaders"
 replace_path="music"
 replace_path="music/hoi3"
 replace_path="music/hoi2"
+replace_path="common/ideas"
 tags={
 	"National Focuses"
 	"Map"
