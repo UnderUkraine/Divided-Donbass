@@ -251,7 +251,7 @@ focus_tree = {
 		id = AZV_tanki_v_polku
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = AZV_reforma_polk
 
@@ -269,7 +269,7 @@ focus_tree = {
 		id = AZV_obhod_sankciy
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = AZV_reforma_polk
 

@@ -1,6 +1,6 @@
 UKR = {
-	color = rgb { 86 117 166 }
-	color_ui = rgb { 97 131 186 }
+	color = rgb { 55 111 232 }
+	color_ui = rgb { 55 111 232 }
 }
 CRI = {
 	color = rgb { 112 144 194 }
@@ -33,4 +33,8 @@ DNR = {
 LNR = {
 	color = rgb { 148 1 1 }
 	color_ui = rgb { 138 15 15 }
+}
+BOR = {
+	color = rgb { 74 74 74 }
+	color_ui = rgb { 74 74 74 }
 }
