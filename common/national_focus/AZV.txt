@@ -1,0 +1,177 @@
+focus_tree = {
+	id = azov_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AZV
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 4000 }
+	
+	focus = {
+		id = AZV_batalion_of_azov
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 5
+		y = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Spawn divisions
+		}
+	}
+	focus = {
+		id = AZV_assault_on_Mariupol
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_batalion_of_azov
+
+		prerequisite = {focus = AZV_batalion_of_azov}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Dynamic modifier on Mariupol state
+		}
+	}
+	focus = {
+		id = AZV_form_base_in_Mariupol
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_assault_on_Mariupol
+
+		prerequisite = {focus = AZV_assault_on_Mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Dynamic modifier on Mariupol state
+		}
+	}
+	focus = {
+		id = AZV_search_for_recruits
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_assault_on_Mariupol
+
+		prerequisite = {focus = AZV_assault_on_Mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			AZV = {
+				add_manpower = 1000
+			}
+		}
+	}
+	focus = {
+		id = AZV_liberate_the_south
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_search_for_recruits
+
+		prerequisite = {focus = AZV_search_for_recruits}
+		prerequisite = {focus = AZV_form_base_in_Mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_get_additional_weapons
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_search_for_recruits
+
+		prerequisite = {focus = AZV_search_for_recruits}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Decisions to buy weapons for money
+		}
+	}
+	focus = {
+		id = AZV_population_support
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -3
+		y = 1
+		relative_position_id = AZV_search_for_recruits
+
+		prerequisite = {focus = AZV_form_base_in_Mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Potom pridymaem
+		}
+	}
+	focus = {
+		id = AZV_offensive_is_delayed
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_liberate_the_south
+
+		prerequisite = {focus = AZV_liberate_the_south}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			#TODO Shoto eshe
+		}
+	}
+	focus = {
+		id = AZV_offensive_success
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_liberate_the_south
+
+		prerequisite = {focus = AZV_liberate_the_south}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			#TODO Shoto eshe
+		}
+	}
+}

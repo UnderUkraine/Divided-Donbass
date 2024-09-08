@@ -8,4 +8,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 48317;1217;sea;50741;-1;-1;-1;-1;;BridgeInKhersonOblast3
 12923;46671;sea;50720;-1;-1;-1;-1;;BridgeInKhersonOblast4
 22762;46009;sea;50720;-1;-1;-1;-1;;AntonovBridge
+1661;2049;sea;50714;-1;-1;-1;-1;;Pivnicniy
+18772;5984;sea;50714;-1;-1;-1;-1;;Pivdeniy
+10727;27676;sea;50714;-1;-1;-1;-1;;Patona
 -1;-1;;-1;-1;-1;-1;-1;-1
