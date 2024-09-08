@@ -1,5 +1,5 @@
 state_categories={
-	pastoral = {
+	port = {
 		local_building_slots = 2
 	
 		color = { 160 160 0 }

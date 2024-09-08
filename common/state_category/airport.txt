@@ -1,5 +1,5 @@
 state_categories={
-	pastoral = {
+	airport = {
 		local_building_slots = 0
 	
 		color = { 160 160 0 }

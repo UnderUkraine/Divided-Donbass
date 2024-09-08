@@ -1,5 +1,5 @@
 state_categories={
-	small_island = {
+	industrial_zone = {
 		local_building_slots = 10
 	
 		color = { 200 160 0 }
