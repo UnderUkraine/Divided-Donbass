@@ -115,7 +115,7 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=-390 y =200 }
+		position = { x=-390 y =170 }
 		orientation = UPPER_RIGHT
 		origo = UPPER_RIGHT
 		

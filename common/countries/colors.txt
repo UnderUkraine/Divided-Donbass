@@ -38,3 +38,7 @@ BOR = {
 	color = rgb { 74 74 74 }
 	color_ui = rgb { 74 74 74 }
 }
+MLR = {
+	color = rgb { 42 54 71 }
+	color_ui = rgb { 42 54 71 }
+}

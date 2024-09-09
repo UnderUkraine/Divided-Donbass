@@ -37,6 +37,6 @@
 		tooltip = crimea_bridge_blocked_tt
 	}
 
-	icon = 15949
+	icon = 49850
 	offset = { 0 0 0 }
 }
