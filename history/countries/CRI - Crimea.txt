@@ -18,3 +18,9 @@ set_popularities = {
 	communism = 20
 	neutrality = 15
 }
+
+add_ideas = {
+    CRI_protest_in_ukraine
+    CRI_russian_in_crime
+    CRI_avtonomy_ukraine
+}

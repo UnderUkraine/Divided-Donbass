@@ -1,0 +1,108 @@
+ideas = {
+    country = {
+        CRI_avtonomy_ukraine = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                monthly_population = 0.15
+				stability_factor = 0.2
+                political_power_factor = 0.1
+            }
+        }  
+        CRI_russian_in_crime = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+				stability_factor = 0.05
+            }
+        } 
+        CRI_protest_in_ukraine = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+				stability_factor = -0.2
+                war_support_factor = -0.1
+            }
+        }  
+        CRI_subject_russia = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                monthly_population = 0.1
+                political_power_factor = 0.15
+				stability_factor = 0.15
+                war_support_factor = 0.05
+            }
+        }  
+        CRI_russia_goods = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                political_power_factor = 0.15
+				stability_factor = 0.15
+                # Сюда еще прописать прирост денег (Когда будет экономика)
+            }
+        }  
+        CRI_russia_literature = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                # Заполнить когда Андер допишет что оно будет давать
+            }
+        }  
+    }    
+}
