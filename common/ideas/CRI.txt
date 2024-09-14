@@ -18,7 +18,7 @@ ideas = {
                 political_power_factor = 0.1
             }
         }  
-        CRI_russian_in_crime = {
+        CRI_russian_in_crimea = {
             allowed = {
                 always = yes
             }
