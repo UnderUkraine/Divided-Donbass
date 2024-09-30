@@ -1,0 +1,37 @@
+ideas = {
+    country = {
+        AZV_fight_for_ukraine = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_attack_factor= 0.1
+				stability_factor = 0.1
+            }
+        }
+        AZV_sanctions_usa = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                #Это как то реализовать надо, но как
+            }
+        }     
+    }    
+}
