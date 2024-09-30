@@ -42,3 +42,7 @@ MLR = {
 	color = rgb { 42 54 71 }
 	color_ui = rgb { 42 54 71 }
 }
+KPR = {
+	color = rgb { 90 145 63 }
+	color_ui = rgb { 90 145 63 }
+}

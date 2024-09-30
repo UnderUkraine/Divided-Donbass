@@ -54,3 +54,15 @@
  MLR:0 "Malorosia"
  MLR_DEF:0 "Republic of Malorosia"
  MLR_ADJ:0 "Malorosian"
+
+ LNR:0 "Lugansk People's Republic"
+ LNR_DEF:0 "Lugansk People's Republic"
+ LNR_ADJ:0 "Lugansk citizens"
+
+ DNR:0 "Donetsk People's Republic"
+ DNR_DEF:0 "Donetsk People's Republic"
+ DNR_ADJ:0 "Donetsk citizens"
+
+ KPR:0 "Kharkov People's Republic"
+ KPR_DEF:0 "Kharkov People's Republic"
+ KPR_ADJ:0 "Kharkov citizens"
