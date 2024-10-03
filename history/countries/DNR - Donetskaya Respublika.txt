@@ -10,7 +10,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = victor_yanukovich
+#recruit_character = victor_yanukovich
 
 set_popularities = {
 	democratic = 0
