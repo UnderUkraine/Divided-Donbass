@@ -4,6 +4,14 @@ state={
 	provinces={
 		658 1008 4234 5415 6743 7072 9343 10182 12325 20709 21474 23412 51202 51235 51261 51293 51311 51344 51435 
 	}
+	history={
+		owner = CRI
+		buildings = {
+
+		}
+		add_core_of = CRI
+
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = rural
