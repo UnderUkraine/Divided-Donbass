@@ -4,6 +4,15 @@ state={
 	provinces={
 		90 2497 7872 10052 11997 13961 14539 14881 16730 17416 17850 18413 20511 21241 22979 23620 25322 25422 32670 32759 32811 32861 32973 33003 33034 33074 33156 33238 33318 33356 33357 33430 33456 33486 33800 
 	}
+	history = {
+		owner = UKR
+		
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+    
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = rural

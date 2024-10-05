@@ -4,6 +4,15 @@ state={
 	provinces={
 		15300 15510 34027 34059 34168 34234 
 	}
+	history = {
+		owner = UKR
+		
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+    
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = rural
