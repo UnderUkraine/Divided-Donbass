@@ -1,0 +1,326 @@
+focus_tree = {
+	id = ukraine_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 4000 }
+	
+	focus = {
+		id = UKR_anarchy_in_goverment
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+        #Автоскип
+		}
+	}
+	focus = {
+		id = UKR_destability_in_goverment
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 1
+
+		prerequisite = {focus = UKR_anarchy_in_goverment}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_annex_crimea
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 2
+
+		prerequisite = {focus = UKR_destability_in_goverment}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_appel_the_un
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 3
+
+		prerequisite = {focus = UKR_annex_crimea}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_resistance_kharkov
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 4
+
+		prerequisite = {focus = UKR_appel_the_un}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_clashes_odessa
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 4
+		y = 4
+
+		prerequisite = {focus = UKR_appel_the_un}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_sbu_on_donbass
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 6
+		y = 4
+
+		prerequisite = {focus = UKR_appel_the_un}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+	    }
+    }
+	focus = {
+		id = UKR_defence_donbass
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 6
+		y = 5
+
+		prerequisite = {focus = UKR_sbu_on_donbass}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_stabilisatiob_region
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 5
+
+		prerequisite = {focus = UKR_resistance_kharkov}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_deep_all_militsia_on_odessa
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 4
+		y = 5
+
+		prerequisite = {focus = UKR_clashes_odessa}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_preparing_for_the_inevitable
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 6
+
+		prerequisite = {focus = UKR_defence_donbass}
+		prerequisite = {focus = UKR_deep_all_militsia_on_odessa}
+		prerequisite = {focus = UKR_stabilisatiob_region}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_soziv_rnbo
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 5
+		y = 7
+
+		prerequisite = {focus = UKR_preparing_for_the_inevitable}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_ato
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = 7
+		y = 8
+
+		prerequisite = {focus = UKR_soziv_rnbo}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}	
