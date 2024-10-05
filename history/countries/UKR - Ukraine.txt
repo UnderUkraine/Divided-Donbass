@@ -12,9 +12,21 @@ set_politics = {
 
 recruit_character = victor_yanukovich
 
+set_autonomy = {
+	target = CRI
+	autonomous_state = autonomy_puppet
+}
+
 set_popularities = {
 	democratic = 35
 	fascism = 5
 	communism = 15
 	neutrality = 45
 }
+
+complete_national_focus = UKR_Yanukovich_rule
+complete_national_focus = UKR_Eurointegration
+complete_national_focus = UKR_Decline_to_sign_agreement
+complete_national_focus = UKR_Protests_on_streets
+#complete_national_focus = UKR_Stop_protesters
+complete_national_focus = UKR_Cooperate_with_russia
