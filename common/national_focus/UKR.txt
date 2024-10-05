@@ -2,10 +2,6 @@ focus_tree = {
 	id = ukraine_focus
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = UKR
-		}
 	}
 	default = no
 	continuous_focus_position = { x = 100 y = 4000 }
@@ -295,7 +291,7 @@ focus_tree = {
 		y = 1
 
 		prerequisite = {focus = UKR_preparing_for_the_inevitable}
-		relative_position_id = UKR_stabilisation_region
+		relative_position_id = UKR_preparing_for_the_inevitable
 		
 		ai_will_do = {
 			factor = 1
