@@ -16,4 +16,24 @@ spriteTypes = {
 	    name = "GFX_focus_UKR_Cooperate_with_russia"
 	    texturefile = "gfx/interface/goals/UKR/CooperationWithRussia.dds"			
 	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_anarchy_in_goverment"
+	    texturefile = "gfx/interface/goals/UKR/anarhiainukraine.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_destability_on_east"
+	    texturefile = "gfx/interface/goals/UKR/UKR_destability_on_east.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_annex_crimea"
+	    texturefile = "gfx/interface/goals/UKR/UKR_annex_crimea.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_appel_the_un"
+	    texturefile = "gfx/interface/goals/UKR/UKR_appel_the_un.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_sbu_on_donbass"
+	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
+	}	
 }

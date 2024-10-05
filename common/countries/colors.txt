@@ -51,18 +51,18 @@ POL = {
 	color_ui = rgb { 163 52 52 }
 }
 BLR = {
-	color = rgb { 26 105 18 }
-	color_ui = rgb { 42 117 34 }
+	color = rgb { 184 184 184 }
+	color_ui = rgb { 184 184 184 }
 }
 SLV = {
 	color = rgb { 25 112 158 }
 	color_ui = rgb { 46 124 166 }
 }
 HUN = {
-	color = rgb { 194 110 37 }
-	color_ui = rgb { 171 105 46 }
+	color = rgb { 70 120 81 }
+	color_ui = rgb { 70 143 86 }
 }
 SER = {
-	color = rgb { 8 27 112 }
-	color_ui = rgb { 22 37 105 }
+	color = rgb { 50 62 102 }
+	color_ui = rgb { 62 77 125 }
 }
