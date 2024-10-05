@@ -1,6 +1,19 @@
 spriteTypes = {	
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/focusnenaiden.dds"
+		legacy_lazy_load = no
+	}
     SpriteType = {
 	    name = "GFX_focus_UKR_Yanukovich_rule"
 	    texturefile = "gfx/interface/goals/UKR/UKR_Yanukovich_rule.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_Eurointegration"
+	    texturefile = "gfx/interface/goals/UKR/fakeeurointegration.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_Cooperate_with_russia"
+	    texturefile = "gfx/interface/goals/UKR/CooperationWithRussia.dds"			
 	}	
 }

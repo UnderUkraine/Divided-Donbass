@@ -39,7 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Eurointegration
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Eurointegration
 		cost = 1
 		x = -2
 		y = 1
@@ -174,7 +174,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Cooperate_with_russia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Cooperate_with_russia
 		cost = 1
 		x = 0
 		y = 1
