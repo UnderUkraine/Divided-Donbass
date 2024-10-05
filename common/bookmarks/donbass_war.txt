@@ -13,7 +13,9 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-
+                UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
 			}	
 		}
 		"RUS"={
