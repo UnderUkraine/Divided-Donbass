@@ -4,6 +4,16 @@ state={
 	provinces={
 		3452 4437 4959 7002 8743 12601 12940 16229 18842 51792 51813 51818 51836 
 	}
+		
+	history = {
+		owner = RUS
+		
+		buildings = {
+		}
+		
+		add_core_of = RUS
+	}
+    
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = rural
