@@ -175,7 +175,7 @@ focus_tree = {
 		}
 	}	
 	focus = {
-			id = AZV_reydi_rog_post
+			id = AZV_border_post_raids
 			icon = GFX_goal_unknown
 			cost = 1
 			x = 1
@@ -193,7 +193,7 @@ focus_tree = {
 			}
 	}	
 	focus = {
-		id = AZV_kooperation_VSU
+		id = AZV_cooperation_afu
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -212,14 +212,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_reforma_polk
+		id = AZV_reform_in_the_regiment
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_kooperation_VSU
+		relative_position_id = AZV_cooperation_afu
 
-		prerequisite = {focus = AZV_kooperation_VSU}
+		prerequisite = {focus = AZV_cooperation_afu}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -230,14 +230,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_pochinit_bmp
+		id = AZV_repair_bmp
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_reforma_polk
+		relative_position_id = AZV_reform_in_the_regiment
 
-		prerequisite = {focus = AZV_reforma_polk}
+		prerequisite = {focus = AZV_reform_in_the_regiment}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -248,14 +248,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_tanki_v_polku
+		id = AZV_tanks_in_regiment
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 2
 		y = 1
-		relative_position_id = AZV_reforma_polk
+		relative_position_id = AZV_reform_in_the_regiment
 
-		prerequisite = {focus = AZV_reforma_polk}
+		prerequisite = {focus = AZV_reform_in_the_regiment}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -266,14 +266,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_obhod_sankciy
+		id = AZV_circumvention_sanctions #Обход санкций
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
-		relative_position_id = AZV_reforma_polk
+		relative_position_id = AZV_reform_in_the_regiment
 
-		prerequisite = {focus = AZV_reforma_polk}
+		prerequisite = {focus = AZV_reform_in_the_regiment}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -284,14 +284,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_perehod_v_NGU
+		id = AZV_transfer_to_NGU
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 2
-		relative_position_id = AZV_reforma_polk
+		relative_position_id = AZV_reform_in_the_regiment
 
-		prerequisite = {focus = AZV_obhod_sankciy focus = AZV_tanki_v_polku focus = AZV_pochinit_bmp}
+		prerequisite = {focus = AZV_circumvention_sanctions focus = AZV_tanks_in_regiment focus = AZV_repair_bmp}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
