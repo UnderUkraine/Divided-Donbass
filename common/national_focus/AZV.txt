@@ -14,8 +14,8 @@ focus_tree = {
 		id = AZV_batalion_of_azov
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 5
-		y = 0
+		x = 12
+		y = 1
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -26,14 +26,34 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = AZV_black_corps
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		relative_position_id = AZV_batalion_of_azov
+
+		prerequisite = {focus = AZV_batalion_of_azov}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Черные человечки
+		}
+	}
+	focus = {
 		id = AZV_assault_on_Mariupol
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_batalion_of_azov
+		relative_position_id = AZV_black_corps
 
-		prerequisite = {focus = AZV_batalion_of_azov}
+		prerequisite = {focus = AZV_black_corps}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -137,7 +157,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_offensive_is_delayed
+		id = AZV_ukr_finance
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -154,35 +174,17 @@ focus_tree = {
 			add_political_power = -50
 			#TODO Shoto eshe
 		}
-	}
-	focus = {
-		id = AZV_offensive_success
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 1
-		y = 1
-		relative_position_id = AZV_liberate_the_south
-
-		prerequisite = {focus = AZV_liberate_the_south}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 50
-			#TODO Shoto eshe
-		}
 	}	
 	focus = {
 			id = AZV_border_post_raids
 			icon = GFX_goal_unknown
 			cost = 1
-			x = 1
-			y = 1
-			relative_position_id = AZV_offensive_success
+			x = 2
+			y = 2
+			relative_position_id = AZV_liberate_the_south
 	
-			prerequisite = {focus = AZV_offensive_success}
+			prerequisite = {focus = AZV_cooperation_afu}
+			prerequisite = {focus = AZV_ukr_finance}
 	
 			cancel_if_invalid = yes
 			continue_if_invalid = no
@@ -196,12 +198,30 @@ focus_tree = {
 		id = AZV_cooperation_afu
 		icon = GFX_goal_unknown
 		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_liberate_the_south
+
+		prerequisite = {focus = AZV_liberate_the_south}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_ss_galicina
+		icon = GFX_goal_unknown
+		cost = 1
 		x = -1
 		y = 1
-		relative_position_id = AZV_offensive_success
+		relative_position_id = AZV_cooperation_afu
 
-		prerequisite = {focus = AZV_offensive_success}
-		prerequisite = {focus = AZV_offensive_is_delayed}
+		prerequisite = {focus = AZV_cooperation_afu}
+		prerequisite = {focus = AZV_ukr_finance}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -217,63 +237,9 @@ focus_tree = {
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_cooperation_afu
+		relative_position_id = AZV_ss_galicina
 
-		prerequisite = {focus = AZV_cooperation_afu}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_repair_bmp
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 0
-		y = 1
-		relative_position_id = AZV_reform_in_the_regiment
-
-		prerequisite = {focus = AZV_reform_in_the_regiment}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_tanks_in_regiment
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 2
-		y = 1
-		relative_position_id = AZV_reform_in_the_regiment
-
-		prerequisite = {focus = AZV_reform_in_the_regiment}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_circumvention_sanctions #Обход санкций
-		icon = GFX_goal_unknown
-		cost = 1
-		x = -2
-		y = 1
-		relative_position_id = AZV_reform_in_the_regiment
-
-		prerequisite = {focus = AZV_reform_in_the_regiment}
+		prerequisite = {focus = AZV_ss_galicina}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -288,10 +254,280 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = AZV_reform_in_the_regiment
 
-		prerequisite = {focus = AZV_circumvention_sanctions focus = AZV_tanks_in_regiment focus = AZV_repair_bmp}
+		prerequisite = {focus = AZV_reform_in_the_regiment}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_change_commander
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_transfer_to_NGU
+
+		prerequisite = {focus = AZV_transfer_to_NGU}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_continue_the_course_Biletsky
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_change_commander
+
+		prerequisite = {focus = AZV_change_commander}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}	
+	focus = {
+		id = AZV_fortification_mariupol
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_continue_the_course_Biletsky
+
+		prerequisite = {focus = AZV_continue_the_course_Biletsky}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_continue_reorganization
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id = AZV_fortification_mariupol
+
+		prerequisite = {focus = AZV_fortification_mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_contract_foreign_volunteer_corps
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = AZV_fortification_mariupol
+
+		prerequisite = {focus = AZV_fortification_mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_weapon_azov
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 5
+		y = 1
+		relative_position_id = AZV_reform_in_the_regiment
+
+		prerequisite = {focus = AZV_reform_in_the_regiment}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_medical_service
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_weapon_azov
+
+		prerequisite = {focus = AZV_weapon_azov}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_sniper_squad
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_medical_service
+
+		prerequisite = {focus = AZV_medical_service}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_reconnaissance_squad
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_sniper_squad
+
+		prerequisite = {focus = AZV_sniper_squad}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_mortar_battery
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+		relative_position_id = AZV_weapon_azov
+
+		prerequisite = {focus = AZV_weapon_azov}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_artillery_division
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_mortar_battery
+
+		prerequisite = {focus = AZV_mortar_battery}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_anti_aircraft_missile_artillery_division
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_artillery_division
+
+		prerequisite = {focus = AZV_artillery_division}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_engineer_sapper_division
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+		relative_position_id = AZV_weapon_azov
+
+		prerequisite = {focus = AZV_weapon_azov}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_anti_tank_company
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_engineer_sapper_division
+
+		prerequisite = {focus = AZV_engineer_sapper_division}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_tanks_company
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_anti_tank_company
+
+		prerequisite = {focus = AZV_anti_tank_company}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
