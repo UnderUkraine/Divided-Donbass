@@ -6,12 +6,12 @@ state={
 	}
 
 	history = {
-		owner = PMR
+		owner = TMR
 		
 		buildings = {
 		}
 		
-		add_core_of = PMR
+		add_core_of = TMR
 	}
 
 	buildings_max_level_factor=1.000
