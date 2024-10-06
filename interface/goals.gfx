@@ -48,4 +48,36 @@ spriteTypes = {
 	    name = "GFX_focus_UKR_sbu_on_donbass"
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_battalion_of_azov"
+	    texturefile = "gfx/interface/goals/AZV/AZV_battalion_of_azov.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_black_corps"
+	    texturefile = "gfx/interface/goals/AZV/AZV_black_corps.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_mortar_battery"
+	    texturefile = "gfx/interface/goals/AZV/AZV_mortar_battery.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_artillery_division"
+	    texturefile = "gfx/interface/goals/AZV/AZV_artillery_division.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_anti_tank_company"
+	    texturefile = "gfx/interface/goals/AZV/AZV_anti_tank_company.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_medical_service"
+	    texturefile = "gfx/interface/goals/AZV/AZV_medical_service.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_sniper_squad"
+	    texturefile = "gfx/interface/goals/AZV/AZV_sniper_squad.dds"		
+	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_engineer_sapper_division"
+	    texturefile = "gfx/interface/goals/AZV/AZV_engineer_sapper_division.dds"		
+	}	
 }
