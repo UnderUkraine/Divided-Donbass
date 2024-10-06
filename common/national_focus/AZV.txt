@@ -47,7 +47,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_assault_on_Mariupol
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_assault_on_Mariupol
 		cost = 1
 		x = 0
 		y = 1
@@ -83,7 +83,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_search_for_recruits
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_search_for_recruits
 		cost = 1
 		x = 1
 		y = 1
@@ -103,7 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_liberate_the_south
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_liberate_the_south
 		cost = 1
 		x = -1
 		y = 1
@@ -196,7 +196,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = AZV_cooperation_afu
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_cooperation_afu
 		cost = 1
 		x = 1
 		y = 1
@@ -359,7 +359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_weapon_azov
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_weapon_azov
 		cost = 1
 		x = 5
 		y = 1
@@ -413,7 +413,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_reconnaissance_squad
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_reconnaissance_squad
 		cost = 1
 		x = 0
 		y = 1
@@ -467,7 +467,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_anti_aircraft_missile_artillery_division
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_anti_aircraft_missile_artillery_division
 		cost = 1
 		x = 0
 		y = 1
@@ -521,7 +521,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AZV_tanks_company
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AZV_tanks_company
 		cost = 1
 		x = 0
 		y = 1

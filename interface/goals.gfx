@@ -80,4 +80,36 @@ spriteTypes = {
 	    name = "GFX_focus_AZV_engineer_sapper_division"
 	    texturefile = "gfx/interface/goals/AZV/AZV_engineer_sapper_division.dds"		
 	}	
+	SpriteType = {
+	    name = "GFX_focus_AZV_weapon_azov"
+	    texturefile = "gfx/interface/goals/AZV/AZV_weapon_azov.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_anti_aircraft_missile_artillery_division"
+	    texturefile = "gfx/interface/goals/AZV/AZV_anti_aircraft_missile_artillery_division.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_tanks_company"
+	    texturefile = "gfx/interface/goals/AZV/AZV_tanks_company.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_reconnaissance_squad"
+	    texturefile = "gfx/interface/goals/AZV/AZV_reconnaissance_squad.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_search_for_recruits"
+	    texturefile = "gfx/interface/goals/AZV/AZV_search_for_recruits.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_liberate_the_south"
+	    texturefile = "gfx/interface/goals/AZV/AZV_liberate_the_south.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_cooperation_afu"
+	    texturefile = "gfx/interface/goals/AZV/AZV_cooperation_afu.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_assault_on_Mariupol"
+	    texturefile = "gfx/interface/goals/AZV/AZV_assault_on_Mariupol.dds"		
+	}
 }
