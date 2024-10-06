@@ -7,8 +7,11 @@ state={
 	history = {
 		owner = UKR
 		
+<<<<<<< Updated upstream
 		victory_points = { 18092 20 }
 
+=======
+>>>>>>> Stashed changes
 		buildings = {
 		}
 		

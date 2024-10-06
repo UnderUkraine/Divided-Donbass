@@ -3,6 +3,14 @@ state={
 	name="STATE_83"
 	provinces={
 		12518 16612 36574 36710 36728 36990 37071 
+	}	
+	history = {
+		owner = UKR
+		
+		buildings = {
+		}
+		
+		add_core_of = UKR
 	}
 	buildings_max_level_factor=1.000
         manpower=1

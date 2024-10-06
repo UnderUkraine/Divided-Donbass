@@ -10,6 +10,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+load_oob = "UKR_2014"
+
 recruit_character = victor_yanukovich
 
 set_autonomy = {

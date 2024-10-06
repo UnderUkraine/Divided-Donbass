@@ -1,2 +1,4 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+33583;22775;sea;51875;-1;-1;-1;-1;;KyivBridge
+51878;51465;sea;51878;-1;-1;-1;-1;;Crimeabridge
 -1;-1;;-1;-1;-1;-1;-1;-1
