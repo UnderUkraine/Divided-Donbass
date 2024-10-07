@@ -244,7 +244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Sell_heavy_equipment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Sell_heavy_equipment
 		cost = 1
 		x = 2
 		y = 1

@@ -97,7 +97,7 @@ focus_tree = {
 
 		completion_reward = {
 			AZV = {
-				add_manpower = 1000
+				add_manpower = 2000
 			}
 		}
 	}

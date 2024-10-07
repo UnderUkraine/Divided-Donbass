@@ -110,6 +110,14 @@ spriteTypes = {
 	}
 	SpriteType = {
 	    name = "GFX_focus_AZV_assault_on_Mariupol"
-	    texturefile = "gfx/interface/goals/AZV/AZV_assault_on_Mariupol.dds"		
+		exturefile = "gfx/interface/goals/AZV/AZV_assault_on_Mariupol.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_UKR_ato"
+		exturefile = "gfx/interface/goals/UKR/UKR_ato.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_UKR_Sell_heavy_equipment"
+		exturefile = "gfx/interface/goals/UKR/UKR_Sell_heavy_equipment.dds"		
 	}
 }
