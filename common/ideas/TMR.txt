@@ -1,6 +1,6 @@
 ideas = {
     country = {
-        PMR_bad_army = {
+        TMR_bad_army = {
             allowed = {
                 always = yes
             }
@@ -13,8 +13,8 @@ ideas = {
         
             
             modifier = {
-                army_attack_factor=-0.2
-				army_defence_factor=-0.2
+                army_attack_factor=-0.3
+				army_defence_factor=-0.3
             }
         }    
     }    
