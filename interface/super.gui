@@ -16,8 +16,8 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "Super_Event_Image_Second_World_War"
-			spriteType = "GFX_sp_event_Second_World_War"
+			name = "Super_Event_Image_Ukr_ato_start"
+			spriteType = "GFX_sp_event_Ukr_ato_start"
 			position = {x = 0 y = 0}
 		}
 		
