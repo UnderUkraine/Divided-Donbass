@@ -1,0 +1,14 @@
+defined_text = {
+    name = get_maidan_support
+	
+    text = {
+        localization_key = "maidan_support_variable"
+    }
+}
+defined_text = {
+    name = get_maidan_description
+	
+    text = {
+        localization_key = "maidan_description"
+    }
+}

@@ -1,0 +1,18 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		2882 4468 7551 16976 19120 20674 22023 25176 51076 51169 51193 51208 51280 51334 
+	}
+	history={
+		owner = CRI
+		buildings = {
+
+		}
+		add_core_of = CRI
+
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

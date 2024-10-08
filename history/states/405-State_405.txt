@@ -1,0 +1,20 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		315 397 1764 1913 3373 5180 9246 10039 12936 15139 18945 19293 19524 20713 21695 23062 23343 26358 35163 35459 36037 36252 36325 36696 36792 37196 37262 37290 37470 37862 38028 38412 
+	}
+		
+	history = {
+		owner = RUS
+		
+		buildings = {
+		}
+		
+		add_core_of = RUS
+	}
+    
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}
