@@ -16,7 +16,3 @@ set_popularities = {
 	fascism = 90
 	neutrality = 10
 }
-
-add_ideas = {
-	AZV_fight_for_ukraine
-}

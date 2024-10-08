@@ -1,0 +1,14 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		50691 
+	}
+	history={
+		owner = RUS
+	}
+	manpower=30
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

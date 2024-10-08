@@ -1,0 +1,19 @@
+
+state={
+	id=146
+	name="STATE_146"
+	provinces={
+		41 1661 2049 4165 5984 10727 11867 18772 21566 23683 27625 27665 27676 27703 50811 50813 50815 50816 50817 
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			10727 5
+		}
+	}
+	manpower=2868702
+	buildings_max_level_factor=1.000
+	state_category = large_city
+	local_supplies=0.000
+}

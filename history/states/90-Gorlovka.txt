@@ -1,0 +1,25 @@
+
+state={
+	id=90
+	name="STATE_90"
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	resources = {
+		coal = 1
+		aluminium = 1
+		chromium = 1
+	}
+
+	provinces={
+		650 2111 3020 4072 4484 5954 6387 6436 14533 14812 15322 15573 15723 17699 18158 18582 19137 20098 20390 22583 23852 23860 23928 24295 25826 25904 27233 34380 34447 34515 34533 34545 34595 34738 34787 34828 34899 34942 35004 35073 35202 35245 35355 35488 35504 35563 35918 36119 36332 36536 
+	}
+	manpower=254416
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

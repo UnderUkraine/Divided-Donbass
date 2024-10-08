@@ -1,4 +1,4 @@
-﻿capital = 59
+﻿capital = 146
 set_technology = {
 	infantry_weapons = 1
 }
@@ -10,16 +10,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-load_oob = "UKR_2014"
-
 recruit_character = victor_yanukovich
-
-set_autonomy = {
-	target = CRI
-	autonomous_state = autonomy_puppet
-}
-
-set_variable = { UKR_maidan_support = 65 }
 
 set_popularities = {
 	democratic = 35
@@ -27,10 +18,3 @@ set_popularities = {
 	communism = 15
 	neutrality = 45
 }
-
-complete_national_focus = UKR_Yanukovich_rule
-complete_national_focus = UKR_Eurointegration
-complete_national_focus = UKR_Decline_to_sign_agreement
-complete_national_focus = UKR_Protests_on_streets
-#complete_national_focus = UKR_Stop_protesters
-complete_national_focus = UKR_Cooperate_with_russia

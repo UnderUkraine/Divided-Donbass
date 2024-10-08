@@ -1,0 +1,23 @@
+
+state={
+	id=23
+	name="STATE_23"
+	resources={
+		steel=1.000
+		coal=1.000
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		97 3081 6685 8977 11319 12363 12984 15013 15750 18962 19387 19549 19642 21784 23539 24077 25967 36444 36535 36568 36668 36879 37064 37297 37341 37521 37574 37596 37621 37729 37781 37818 37845 37886 37917 37998 38166 50786 50791 50792 50793 50794 50795 50796 
+	}
+	manpower=950372
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

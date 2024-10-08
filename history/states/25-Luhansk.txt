@@ -1,0 +1,19 @@
+
+state={
+	id=25
+	name="STATE_25"
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		567 3540 5861 6894 7193 10459 13083 14111 15779 16472 16645 16683 17260 20246 21515 21604 22266 22736 22934 25610 32842 33014 33030 33231 33352 33388 33404 33679 33790 33833 33850 33982 34039 34242 34336 
+	}
+	manpower=424113
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

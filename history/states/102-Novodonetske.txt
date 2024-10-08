@@ -1,0 +1,19 @@
+
+state={
+	id=102
+	name="STATE_102"
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		634 5155 5421 9697 10572 12407 13403 14174 16767 17304 19414 23555 23726 24994 32313 32351 32470 32648 32661 32750 32920 32989 33132 33150 33193 33274 
+	}
+	manpower=5775
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

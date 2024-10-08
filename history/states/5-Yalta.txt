@@ -1,0 +1,17 @@
+
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		2229 5763 7698 7725 16035 16451 50589 50615 50625 50643 
+	}
+	history = {
+        owner = CRI
+		add_core_of = CRI
+		
+    }
+	state_category=city
+	manpower=137000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

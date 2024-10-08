@@ -1,0 +1,38 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = UKR
+		victory_points = {
+			5337 2 
+		}
+		victory_points = {
+			47683 1 
+		}
+		victory_points = {
+			20015 1 
+		}
+		victory_points = {
+			47758 1 
+		}
+		victory_points = {
+			9067 1 
+		}
+		victory_points = {
+			47048 1 
+		}
+
+		add_core_of = UKR		
+	}
+
+	provinces={
+		941 960 1222 1578 2054 2168 3101 3392 5337 6284 6581 7421 9067 10274 16153 16168 16817 18357 19046 20015 20517 21681 22747 23330 25043 25441 25516 25828 26195 27190 46554 46704 46714 46804 46818 46819 46842 46843 46894 46952 46953 46976 47032 47048 47113 47124 47148 47168 47241 47249 47321 47357 47432 47584 47585 47673 47683 47710 
+	}
+
+	state_category=rural
+	manpower=34314
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

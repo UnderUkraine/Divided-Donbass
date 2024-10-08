@@ -1,0 +1,15 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		1724 2157 6295 6391 11205 16315 17313 19942 50398 50470 50480 50500 50526 50552 
+	}
+	history = {
+        owner = UKR
+		add_core_of = UKR
+    }
+	state_category=city
+	manpower=390161
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

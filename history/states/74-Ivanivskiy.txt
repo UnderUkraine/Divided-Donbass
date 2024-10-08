@@ -1,0 +1,18 @@
+
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		795 5985 8895 10054 10697 11892 12239 12441 13187 15250 16476 17810 18451 19354 23304 23620 23795 26557 26929 27126 45059 45075 45161 45199 45287 45423 45626 45653 45766 45869 45942 46029 46060 46170 46171 46202 46278 46398 
+	}
+	history = {
+        owner = UKR
+
+		add_core_of = UKR	
+	}
+
+	state_category=rural
+	manpower=16244
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		6459 13333 18328 20149 23721 49922 50019 50034 50062 
+	}
+
+	history = {
+        owner = CRI
+        
+		add_core_of = CRI
+	}
+
+	manpower=105719
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

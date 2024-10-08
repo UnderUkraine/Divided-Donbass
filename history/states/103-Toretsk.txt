@@ -1,0 +1,19 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		1137 5752 8300 17791 19738 20511 24495 25265 34379 34431 34594 34618 34827 35027 35052 
+	}
+	manpower=34750
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
