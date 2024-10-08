@@ -19,6 +19,8 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
+set_variable = { UKR_maidan_support = 65 }
+
 set_popularities = {
 	democratic = 35
 	fascism = 5

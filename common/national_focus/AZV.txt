@@ -213,7 +213,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_ss_galicina
+		id = AZV_сhain_of_command
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -237,9 +237,9 @@ focus_tree = {
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_ss_galicina
+		relative_position_id = AZV_сhain_of_command
 
-		prerequisite = {focus = AZV_ss_galicina}
+		prerequisite = {focus = AZV_сhain_of_command}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

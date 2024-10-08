@@ -1,0 +1,15 @@
+scripted_gui = {
+	maidan_gui = {
+		window_name = "maidan_window"
+		context_type = decision_category
+
+		visible = {
+			victor_yanukovich = {
+				is_country_leader = yes
+			}
+		}
+		
+		triggers = {
+		}
+	}
+}
