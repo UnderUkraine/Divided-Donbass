@@ -1,0 +1,18 @@
+state={
+	id=440
+	name="STATE_440"
+	provinces={
+		1400 2381 10036 10157 18026 18973 23217 25782 27333 44621 44782 44882 44952 44972 45099 45100 45154 45155 45316 45426 45462 45463 45518 45610 
+	}
+	history = {
+		owner = HUN
+		
+		buildings = {
+		}
+		
+		add_core_of = HUN
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		903 6622 7200 7965 8652 9429 12796 13137 15184 16490 16936 20247 22562 23393 23671 23794 26069 30294 30361 30422 30440 30499 30528 30535 30625 30636 30731 30838 30839 30920 30927 30934 30973 30993 
+	}
+	history = {
+		owner = UKR
+		
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

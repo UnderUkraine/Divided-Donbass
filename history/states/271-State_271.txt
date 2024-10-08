@@ -1,0 +1,18 @@
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		239 539 2340 3558 5179 11805 12624 12648 13848 14388 15501 17951 19657 22310 26187 49435 49490 49505 49512 49517 49569 49701 49752 49797 49798 49841 49853 49916 49943 49956 
+	}
+	history = {
+		owner = UKR
+		
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

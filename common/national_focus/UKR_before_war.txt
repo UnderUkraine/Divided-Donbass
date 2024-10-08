@@ -16,14 +16,6 @@ focus_tree = {
 		cost = 1
 		x = 5
 		y = 0
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -39,21 +31,13 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Eurointegration
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Eurointegration
 		cost = 1
 		x = -2
 		y = 1
 
 		prerequisite = {focus = UKR_Yanukovich_rule}
 		relative_position_id = UKR_Yanukovich_rule
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -72,14 +56,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_Eurointegration}
 		relative_position_id = UKR_Eurointegration
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -96,20 +72,12 @@ focus_tree = {
 	focus = {
 		id = UKR_Protests_on_streets
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 0.2
 		x = 0
 		y = 1
 
 		prerequisite = {focus = UKR_Decline_to_sign_agreement}
 		relative_position_id = UKR_Decline_to_sign_agreement
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -122,24 +90,17 @@ focus_tree = {
 	focus = {
 		id = UKR_Stop_protesters
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 20
 		x = 0
 		y = 1
 
 		prerequisite = {focus = UKR_Protests_on_streets}
 		relative_position_id = UKR_Protests_on_streets
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		cancelable = no
 
 		completion_reward = {
 			add_political_power = -100
@@ -174,7 +135,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Cooperate_with_russia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Cooperate_with_russia
 		cost = 1
 		x = 0
 		y = 1
@@ -204,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Kharkiv_pact
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Kharkiv_pact
 		cost = 1
 		x = 0
 		y = 1
@@ -230,7 +191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Join_Union_State_project
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Join_Union_State_project
 		cost = 1
 		x = 0
 		y = 1
@@ -283,7 +244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Sell_heavy_equipment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Sell_heavy_equipment
 		cost = 1
 		x = 2
 		y = 1

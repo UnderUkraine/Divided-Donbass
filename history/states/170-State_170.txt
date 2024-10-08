@@ -1,0 +1,23 @@
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		333 803 2856 8364 9847 9916 11004 15867 15897 16168 16383 17316 18577 19845 19868 21218 23272 23339 25754 26253 44087 44123 44137 44138 44237 44281 44544 44633 44668 44696 44716 44808 44844 
+	}
+	history = {
+		owner = UKR
+		
+<<<<<<< Updated upstream
+		victory_points = { 44237 20 }
+
+=======
+>>>>>>> Stashed changes
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

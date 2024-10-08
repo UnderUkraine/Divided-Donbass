@@ -1,0 +1,22 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		2617 3765 5595 5793 8860 9490 10898 14661 15426 16397 17235 18357 19944 20686 22055 23210 23835 23952 24249 27122 38119 38233 38306 38550 38676 38838 39050 39069 39348 39444 39477 39514 39565 39604 39628 39665 39666 39744 39830 39949 40253 40411 40473 40753 
+	}
+	history = {
+		owner = UKR
+<<<<<<< Updated upstream
+
+=======
+		
+>>>>>>> Stashed changes
+		buildings = {
+		}
+		
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

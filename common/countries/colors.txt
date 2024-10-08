@@ -10,7 +10,7 @@ RUS = {
 	color = rgb { 60 99 58 }
 	color_ui = rgb { 49 77 47 }
 }
-PMR = {
+TMR = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 48 48 }
 }
@@ -41,4 +41,28 @@ BOR = {
 MLR = {
 	color = rgb { 42 54 71 }
 	color_ui = rgb { 42 54 71 }
+}
+KPR = {
+	color = rgb { 90 145 63 }
+	color_ui = rgb { 90 145 63 }
+}
+POL = {
+	color = rgb { 158 40 40 }
+	color_ui = rgb { 163 52 52 }
+}
+BLR = {
+	color = rgb { 184 184 184 }
+	color_ui = rgb { 184 184 184 }
+}
+SLV = {
+	color = rgb { 25 112 158 }
+	color_ui = rgb { 46 124 166 }
+}
+HUN = {
+	color = rgb { 70 120 81 }
+	color_ui = rgb { 70 143 86 }
+}
+SER = {
+	color = rgb { 50 62 102 }
+	color_ui = rgb { 62 77 125 }
 }
