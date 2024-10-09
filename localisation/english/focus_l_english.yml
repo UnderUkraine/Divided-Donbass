@@ -1,6 +1,31 @@
 ﻿l_english:
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "National Focus"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
+
+ ############
+ #    UKR   #
+ ############
+ 
+ #Before war
+ UKR_Yanukovich_rule: "Yanukovich rule"
+ UKR_Eurointegration: "Eurointegration?"
+ UKR_Decline_to_sign_agreement: "Decline to sign agreement"
+ UKR_Protests_on_streets: "Protests on streets"
+ UKR_Stop_protesters: "Stop protesters"
+ UKR_Victory_over_protesters: "Victory over protesters"
+ UKR_Cooperate_with_russia: "Cooperate with Russia"
+ UKR_Kharkiv_pact: "Kharkiv pact"
+ UKR_Join_Union_State_project: "Join "Union State" project"
+ UKR_Two_language_state: "Two language state"
+ UKR_Sell_heavy_equipment: "Sell heavy equipment"
+
+ ############
+ #    AZV   #
+ ############
 
  AZV_batalion_of_azov: "Battalion of Azov"
  AZV_black_corps: "Black corps"

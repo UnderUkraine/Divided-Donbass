@@ -1,0 +1,6 @@
+#spriteTypes = {
+#	SpriteType = { 
+#		name = "GFX_ideology_UKR_neutrality_group"
+#		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+#	}
+#}

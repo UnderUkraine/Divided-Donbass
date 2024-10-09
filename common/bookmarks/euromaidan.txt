@@ -9,16 +9,18 @@ bookmarks = {
 		
 		"UKR"={
 			history = "UKR_EC_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
-
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
 			}	
 		}
 		"RUS"={
 			history = "RUS_EC_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
@@ -27,7 +29,7 @@ bookmarks = {
 		}
 		"CRI"={
 			history = "CRI_EC_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
