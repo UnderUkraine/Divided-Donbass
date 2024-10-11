@@ -54,7 +54,7 @@ BLR = {
 	color = rgb { 184 184 184 }
 	color_ui = rgb { 184 184 184 }
 }
-SLV = {
+SLO = {
 	color = rgb { 25 112 158 }
 	color_ui = rgb { 46 124 166 }
 }

@@ -10,6 +10,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = oligarchism
 			traits = {  
+				oligarch_avtokrat
 			}
 		}
 	}

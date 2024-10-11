@@ -7478,23 +7478,115 @@ spriteTypes = {
     
 
 	SpriteType = {
-		name = "GFX_infantry_weapons_medium"
+		name = "GFX_UKR_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/AKM.dds"
 	}	
 	SpriteType = {
-		name = "GFX_infantry_weapons1_medium"
+		name = "GFX_UKR_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/AK74.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/vulkan.dds"
+		texturefile = "gfx/interface/technologies/aks74u.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_infantry_weapons3_medium"
-		texturefile = "gfx/interface/technologies/vepr.dds"
+		texturefile = "gfx/interface/technologies/vulkan.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/vepr.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_infantry_weapons5_medium"
 		texturefile = "gfx/interface/technologies/uar15.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_rpg_weapons_medium"
+		texturefile = "gfx/interface/technologies/RPG7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_rpg_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RPG22.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_rpg_weapons2_medium"
+		texturefile = "gfx/interface/technologies/RPG26.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_rpg_weapons3_medium"
+		texturefile = "gfx/interface/technologies/RPG27.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_atgm_weapons_medium"
+		texturefile = "gfx/interface/technologies/fagot.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_atgm_weapons1_medium"
+		texturefile = "gfx/interface/technologies/metis.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_atgm_weapons2_medium"
+		texturefile = "gfx/interface/technologies/stugna.dds"
+	}	
+
+
+	#RUSSIA
+
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AKM.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AK74.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/aks74u.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AK74m.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ak12.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ak12m1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_RUS_rpg_weapons_medium"
+		texturefile = "gfx/interface/technologies/RPG7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_rpg_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RPG22.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_rpg_weapons2_medium"
+		texturefile = "gfx/interface/technologies/RPG26.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_rpg_weapons3_medium"
+		texturefile = "gfx/interface/technologies/RPG27.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_RUS_atgm_weapons_medium"
+		texturefile = "gfx/interface/technologies/fagot.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_atgm_weapons1_medium"
+		texturefile = "gfx/interface/technologies/metis.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_atgm_weapons2_medium"
+		texturefile = "gfx/interface/technologies/kornet.dds"
 	}	
 }
