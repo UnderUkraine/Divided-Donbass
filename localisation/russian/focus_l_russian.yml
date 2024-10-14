@@ -1,0 +1,64 @@
+﻿l_russian:
+ WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
+ generic_focus:0 "Национальные Фокусы"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
+
+ ############
+ #    UKR   #
+ ############
+ 
+ #Перед войной
+ UKR_Yanukovich_rule: "Правление Януковича"
+ UKR_Eurointegration: "Евроинтеграция?"
+ UKR_Decline_to_sign_agreement: "Decline to sign agreement"
+ UKR_Protests_on_streets: "Протесты на улицах"
+ UKR_Stop_protesters: "Остановить протесты"
+ UKR_Victory_over_protesters: "Победа над протестующими"
+ UKR_Cooperate_with_russia: "Кооперация с Росисией"
+ UKR_Kharkiv_pact: "Харьковский Пакт"
+ UKR_Join_Union_State_project: "Вступить в союзное государство"
+ UKR_Two_language_state: "Двух язычное государство"
+ UKR_Sell_heavy_equipment: "Продать тяжёлое вооружение"
+ #После войны
+ UKR_ato: "АТО"
+
+ ############
+ #    AZV   #
+ ############
+
+ AZV_change_commander: "Смена командира"
+ AZV_weapon_azov: "Вооружение Азова"
+ AZV_medical_service: "Медицинская служба"
+ AZV_sniper_squad: "Снайперский Отряд"
+ AZV_batalion_of_azov "Батальйон Азов"
+ AZV_black_corps "Черный Корпус"
+ AZV_assault_on_Mariupol "Штурм Мариуполя"
+ AZV_form_base_in_Mariupol "Сформировать базу в Мариуполе"
+ AZV_search_for_recruits "Рекрутинговая компания"
+ AZV_liberate_the_south "Освобождение Юга"
+ AZV_get_additional_weapons "Получить дополнительное Оружие
+ AZV_population_support "Поднять поддержку"
+ AZV_ukr_finance "Украинское Финансирование"
+ AZV_border_post_raids "Рейды пограничных постов"
+ AZV_cooperation_afu "Кооперация с ВСУ"
+ AZV_reform_in_the_regiment "Реформа в полк"
+ AZV_transfer_to_NGU "Перейти в НГУ"
+ AZV_continue_the_course_Biletsky "Продолжить курс Билецкого"
+ AZV_fortification_mariupol "Укрепление мариуполя"
+ AZV_continue_reorganization "Продожить реорганизацию"
+ AZV_contract_foreign_volunteer_corps "Контракты с другими добровольческими формированиями"
+ AZV_change_commander: "Смена командира"
+ AZV_weapon_azov: "Вооружение Азова"
+ AZV_medical_service: "Медицинская служба"
+ AZV_sniper_squad: "Снайперский отряд"
+ AZV_reconnaissance_squad "Разведывательный отряд"
+ AZV_mortar_battery "Минометная батарея"
+ AZV_artillery_division "Артиллерийский дивизион"
+ AZV_anti_aircraft_missile_artillery_division "Противоздушно-Артилерийский дивизион"
+ AZV_engineer_sapper_division "Ижинерно-саперная рота"
+ AZV_anti_tank_company "Протитанковая рота"
+ AZV_tanks_company "Танковая рота"
+ 
