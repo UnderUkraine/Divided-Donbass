@@ -13,7 +13,7 @@
  #Перед войной
  UKR_Yanukovich_rule: "Правление Януковича"
  UKR_Eurointegration: "Евроинтеграция?"
- UKR_Decline_to_sign_agreement: "Decline to sign agreement"
+ UKR_Decline_to_sign_agreement: "Отказ подписать соглашение"
  UKR_Protests_on_streets: "Протесты на улицах"
  UKR_Stop_protesters: "Остановить протесты"
  UKR_Victory_over_protesters: "Победа над протестующими"
@@ -24,6 +24,7 @@
  UKR_Sell_heavy_equipment: "Продать тяжёлое вооружение"
  #После войны
  UKR_ato: "АТО"
+ UKR_information_front:ы "Информационный фронт"
 
  ############
  #    AZV   #
@@ -61,4 +62,3 @@
  AZV_engineer_sapper_division "Ижинерно-саперная рота"
  AZV_anti_tank_company "Протитанковая рота"
  AZV_tanks_company "Танковая рота"
- 

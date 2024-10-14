@@ -333,4 +333,232 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = UKR_dobrovolcheskiye_formirovaniya
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_dobrovolcheskiye_formirovaniya_specnaz_mvd
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 2
+
+		prerequisite = {focus = UKR_dobrovolcheskiye_formirovaniya}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_battalion_azov
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 3
+
+		prerequisite = {focus = UKR_dobrovolcheskiye_formirovaniya_specnaz_mvd}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_chastichnaya_mobilization
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 4
+
+		prerequisite = {focus = UKR_battalion_azov}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_vopros_armii
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_sbori_na_armiyu
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 2
+		y = 2
+
+		prerequisite = {focus = UKR_vopros_armii}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_gen_shtab_ukraine
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_massive_rivok
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_gen_shtab_ukraine}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_information_front
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_dobrovolcheskiye_formirovaniya_specnaz_mvd}
+		prerequisite = {focus = UKR_sbori_na_armiyu}
+		prerequisite = {focus = UKR_massive_rivok}
+		relative_position_id = UKR_gen_shtab_ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
 }	
