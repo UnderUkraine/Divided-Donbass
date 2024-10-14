@@ -4,7 +4,7 @@
 
 add_namespace = ukraine
 
-#Maidan protests have reached a peak
+#Maidan protests have reached a peak 
 country_event = {
 	id = ukraine.1
 	title = ukraine.1.t
@@ -29,23 +29,5 @@ country_event = {
 	
 	option = {
 		name = ukraine.2.a
-	}
-}
-
-#Загрузка древа после янукевича
-country_event = {
-	id = ukraine.3
-	title = ukraine.3.t
-	desc = ukraine.3.d
-	#picture = Загрузка другого древа
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = ukraine.3.a
-		hidden_effect = {
-			UKR = {
-				load_focus_tree = ukraine_focus
-			}
 	}
 }
