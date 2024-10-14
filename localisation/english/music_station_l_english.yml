@@ -1,3 +1,12 @@
 ﻿l_english:
- iw_test_station_TITLE:0 "Test Station"
- test_song:0 "Test Song"
+  super_station_TITLE:0 "Not Selectable\n§GThank you for using Vanilla Super Events!§!"
+  super_ukr_ato_start:0 "ATO_START"
+
+  #Stations
+  ukraine_station_TITLE:0 "Ukraine"
+  #Music
+  zrodilismi_orkestr:0 "Zrodilys my - Orkestr"
+  oyulyzichervonakalina:0 "Oy y lyzi chervona kalyna"
+  tihopriyshov:0 "Tyho prishov, tyho pishov"
+  orest_lutiy_rosianvdonbasenet:0 "Orest Lutiy - Rosiyan v Donbase net"
+  praviy_sektor_tinaleshehmeniYkraino:0 "Praviy Sektor - You belong to me Ukraine"

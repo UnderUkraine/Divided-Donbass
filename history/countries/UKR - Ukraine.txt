@@ -32,7 +32,27 @@ capital = 59
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	infantry_weapons1_2 = 1
+	infantry_weapons_2 = 1
 	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_weapons5 = 1
+	infantry_weapons6 = 1
+	infantry_weapons7 = 1
+
+	rpg_weapons = 1
+	rpg_weapons1 = 1
+	rpg_weapons2 = 1
+	rpg_weapons3 = 1
+	rpg_weapons4 = 1
+
+	atgm_weapons = 1
+	atgm_weapons1 = 1
+	atgm_weapons2 = 1
+	atgm_weapons3 = 1
+
+	tech_engineers = 1
 }
 
 set_politics = {
