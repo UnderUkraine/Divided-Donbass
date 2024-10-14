@@ -120,4 +120,8 @@ spriteTypes = {
 	    name = "GFX_focus_UKR_Sell_heavy_equipment"
 		texturefile = "gfx/interface/goals/UKR/UKR_Sell_heavy_equipment.dds"		
 	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_form_base_in_Mariupol"
+		texturefile = "gfx/interface/goals/AZV/AZV_form_base_in_Mariupol.dds"		
+	}
 }
