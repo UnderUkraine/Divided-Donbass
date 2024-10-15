@@ -22,9 +22,27 @@
  UKR_Join_Union_State_project: "Вступить в союзное государство"
  UKR_Two_language_state: "Двух язычное государство"
  UKR_Sell_heavy_equipment: "Продать тяжёлое вооружение"
- #После войны
+ #После начала войны
  UKR_ato: "АТО"
  UKR_information_front: "Информационный фронт"
+ UKR_Volunteer_formations_spesial_forces_mvs: "Добровольческие формирования МВД"
+ UKR_Volunteer_formations: "Добровольческие формирования"
+ UKR_battalion_azov: "Батальйон Азов"
+ UKR_partial_mobilization: "Частичная мобилизация"
+ UKR_army_question: "Вопрос армии"
+ UKR_Collections_for_the_army: "Сборы на армию"
+ UKR_general_staff: "Генеральный Штаб Украины"
+ UKR_annex_crimea: "Аннексия Крыма"
+ UKR_anarchy_in_goverment: "Анархия в правительстве"
+ UKR_destability_on_east: "Дестабилизация на востоке"
+ UKR_appel_the_un: "Обращение в ООН"
+ UKR_resistance_kharkov: "Сопротивление в Харькове"
+ UKR_sbu_on_donbass: "СБУ на Донбассе"
+ UKR_defence_donbass: "Защита Донбасса"
+ UKR_clashes_odessa: "Столкновения в Одессе"
+ UKR_deep_all_militsia_on_odessa: "Увеличить контингент полиции в Одессе"
+ UKR_convocation_nsds: "Созыв СНБО"
+ UKR_cold_war: ""Холодная война""
 
  ############
  #    AZV   #

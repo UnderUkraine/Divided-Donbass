@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # Ukrainian Events
 ###########################
 
@@ -32,3 +32,22 @@ country_event = {
 		complete_national_focus = UKR_anarchy_in_goverment
 	}
 }
+
+#Загрузка древа после янукевича
+country_event = {
+	id = ukraine.3
+	title = ukraine.3.t
+	desc = ukraine.3.d
+	#picture = Загрузка другого древа
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.3.a
+		hidden_effect = {
+			UKR = {
+				load_focus_tree = ukraine_focus
+			}
+		}		
+	}	
+} #АНДЕР НЕ ТРОГАЙ БЛЯТЬ, ДАЙ НОРМАЛЬНО ПОРАБОТАТЬ	
