@@ -116,11 +116,35 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
+					name = "infantry_year8"
+					position = { x = 700 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1990"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "infantry_year10"
+					position = { x = 1050 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2000"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
 					name = "infantry_year11"
 					position = { x = 1400 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "2014"
+					text = "2010"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -132,7 +156,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "support_weapons_tree"
-				position = { x = 140 y = 240 }
+				position = { x = 140 y = 210 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -140,14 +164,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "rpg_weapons_tree"
-				position = { x = 140 y = 500 }
+				position = { x = 140 y = 460 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "atgm_weapons_tree"
-				position = { x = 140 y = 620 }
+				position = { x = 140 y = 600 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -169,7 +193,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "infantry_weapons_tree"
-				position = { x = 140 y = 230 }
+				position = { x = 140 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 
@@ -177,28 +201,28 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_trucks_tree"
-				position = { x = 140 y = 980 }
+				position = { x = 140 y = 620 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "manpads_weapons_tree"
-				position = { x = 140 y = 740 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			
-			gridboxtype = {
-				name = "mortar_weapons_tree"
-				position = { x = 140 y = 860 }
+				name = "marines_tree"
+				position = { x = 140 y = 825 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "camo_weapons_tree"
-				position = { x = 140 y = 1100 }
+				name = "tech_mountaineers_tree"
+				position = { x = 140 y = 930 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "paratroopers_tree"
+				position = { x = 140 y = 1035 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -4123,7 +4147,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=-2 y=0-1 }
+			position = { x=3 y=3 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
