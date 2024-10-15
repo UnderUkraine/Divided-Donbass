@@ -10,12 +10,23 @@ on_actions = {
 					days = 6
 				}
 			}
-			UKR = {
-				country_event = {
-					id = ukraine.2
-					days = 56
-				}
-			}
+			#UKR = {
+			#	set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			#	country_event = {
+			#		id = ukraine.2
+			#		days = 56
+			#	}
+			#	victor_yanukovich = {
+			#		retire_country_leader = yes
+			#	}
+			#	set_politics = {
+			#	    ruling_party = democratic
+			#	    elections_allowed = yes
+			#    }
+			#    UKR = {
+			#	    load_focus_tree = ukraine_focus
+			#    }
+			#}
 		}
 	}
 }

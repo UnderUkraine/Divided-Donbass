@@ -1,20 +1,49 @@
 UKR_Maidan_Support_category = {
-	UKR_TEST = { 
-		priority = 200
-
-		#icon = eng_ally_imperialist_coup
-
-		allowed = {
-			original_tag = UKR
+	yanukovich_overthrow = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 56
+		selectable_mission = no
+		available = {
+			victor_yanukovich = {
+				is_country_leader = no
+			}
 		}
-
+		activation = {
+			victor_yanukovich = {
+				is_country_leader = yes
+			}
+		}
 		visible = {
-			
+			victor_yanukovich = {
+				is_country_leader = yes
+			}
 		}
-
-		cost = 0
-
-		complete_effect = {
+		timeout_effect = {
+			country_event = ukraine.2
+			hidden_effect = {
+				set_variable = { UKR_dpr_support = 45 }
+				set_variable = { UKR_lpr_support = 45 }
+				set_variable = { UKR_kpr_support = 35 }
+				set_variable = { UKR_opr_support = 35 }
+			UKR = {
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+				victor_yanukovich = {
+					retire_country_leader = yes
+				}
+				set_politics = {
+				    ruling_party = democratic
+				    elections_allowed = yes
+			    }
+			    UKR = {
+				    load_focus_tree = ukraine_focus
+			    }
+			}
 		}
-	}	
+	}
+}
+}
+
+UKR_Separatists_in_Ukraine = {
+
 }

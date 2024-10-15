@@ -1,0 +1,35 @@
+defined_text = {
+    name = get_dpr_support
+	
+    text = {
+        localization_key = "dpr_support_variable"
+    }
+}
+defined_text = {
+    name = get_lpr_support
+	
+    text = {
+        localization_key = "lpr_support_variable"
+    }
+}
+defined_text = {
+    name = get_kpr_support
+	
+    text = {
+        localization_key = "kpr_support_variable"
+    }
+}
+defined_text = {
+    name = get_opr_support
+	
+    text = {
+        localization_key = "opr_support_variable"
+    }
+}
+defined_text = {
+    name = get_separatists_in_Ukraine_description
+	
+    text = {
+        localization_key = "separatists_in_Ukraine_description"
+    }
+}

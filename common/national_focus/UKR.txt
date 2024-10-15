@@ -27,6 +27,7 @@ focus_tree = {
 
 		completion_reward = {
         #Автоскип
+		add_political_power = -75
 		}
 	}
 	focus = {
@@ -82,7 +83,7 @@ focus_tree = {
 	focus = {
 		id = UKR_appel_the_un
 		icon = GFX_focus_UKR_appel_the_un
-		cost = 1
+		cost = 0.4
 		x = 0
 		y = 1
 
@@ -94,12 +95,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 		}

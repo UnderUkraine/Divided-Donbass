@@ -13,6 +13,7 @@ set_politics = {
 load_oob = "UKR_2014"
 
 recruit_character = victor_yanukovich
+recruit_character = alexander_tyrchinov
 
 set_autonomy = {
 	target = CRI

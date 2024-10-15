@@ -1,0 +1,13 @@
+scripted_gui = {
+	separatists_gui = {
+		window_name = "separatists_window"
+		context_type = decision_category
+
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		
+		triggers = {
+		}
+	}
+}

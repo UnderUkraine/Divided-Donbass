@@ -27,6 +27,20 @@ characters = {
 			}
 		}
 	}
+	alexander_tyrchinov = {
+		name = alexander_tyrchinov
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/turchinov.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {  
+			}
+		}
+	}
 	petro_poroshenko = {
 		name = petro_poroshenko
 		portraits = {

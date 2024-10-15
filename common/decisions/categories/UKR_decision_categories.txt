@@ -13,3 +13,17 @@ UKR_Maidan_Support_category = {
 	}
 	scripted_gui = maidan_gui
 }
+
+UKR_Separatists_in_Ukraine = {
+	icon = GFX_gerb_Ukraine_decision
+	picture = GFX_separatists_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+	}
+	scripted_gui = separatists_gui
+}

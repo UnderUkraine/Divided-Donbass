@@ -7,6 +7,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/decisions/Maidan_picture.dds"
 	}
 	spriteType = {
+		name = "GFX_separatists_background_image"
+		textureFile = "gfx/interface/decisions/Separatists_picture.dds"
+	}
+	spriteType = {
 		name = "GFX_gerb_Ukraine_decision"
 		textureFile = "gfx/interface/decisions/gerb_of_Ukraine.dds"
 	}
