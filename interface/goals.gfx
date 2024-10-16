@@ -29,6 +29,54 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_stabilisation_region"
+	    texturefile = "gfx/interface/goals/UKR/stabilization_of_region.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_defence_donbass"
+	    texturefile = "gfx/interface/goals/UKR/UKR_defence_donbass.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_deep_all_militsia_on_odessa"
+	    texturefile = "gfx/interface/goals/UKR/UKR_deep_all_militsia_on_odessa.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_preparing_for_the_inevitable"
+	    texturefile = "gfx/interface/goals/UKR/UKR_preparing_for_the_inevitable.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_convocation_nsds"
+	    texturefile = "gfx/interface/goals/UKR/UKR_convocation_nsds.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_resistance_kharkov"
+	    texturefile = "gfx/interface/goals/UKR/5468d96c75282734.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_clashes_odessa"
+	    texturefile = "gfx/interface/goals/UKR/UKR_clashes_odessa.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_army_question"
+	    texturefile = "gfx/interface/goals/UKR/UKR_army_question.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_general_staff"
+	    texturefile = "gfx/interface/goals/UKR/UKR_general_staff.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_informations_front"
+	    texturefile = "gfx/interface/goals/UKR/UKR_informations_front.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_razoblacheniye_feikov"
+	    texturefile = "gfx/interface/goals/UKR/UKR_razoblacheniye_feikov.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_misk_dva"
+	    texturefile = "gfx/interface/goals/UKR/minsk2.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_anarchy_in_goverment"
 	    texturefile = "gfx/interface/goals/UKR/anarhiainukraine.dds"			
 	}	
@@ -43,10 +91,6 @@ spriteTypes = {
 	SpriteType = {
 	    name = "GFX_focus_UKR_appel_the_un"
 	    texturefile = "gfx/interface/goals/UKR/UKR_appel_the_un.dds"			
-	}	
-	SpriteType = {
-	    name = "GFX_focus_UKR_sbu_on_donbass"
-	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"

@@ -26,8 +26,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-        #Автоскип
-		add_political_power = -75
+            #Автоскип
+		    add_political_power = -75
 		}
 	}
 	focus = {
@@ -78,6 +78,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.10
+			#TODO -деньги
 		}
 	}
 	focus = {
@@ -102,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_resistance_kharkov
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_resistance_kharkov
 		cost = 1
 		x = 0
 		y = 1
@@ -127,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_clashes_odessa
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_clashes_odessa
 		cost = 1
 		x = -2
 		y = 1
@@ -177,7 +180,7 @@ focus_tree = {
     }
 	focus = {
 		id = UKR_defence_donbass
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_defence_donbass
 		cost = 1
 		x = 0
 		y = 1
@@ -202,7 +205,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_stabilisation_region
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_stabilisation_region
 		cost = 1
 		x = 0
 		y = 1
@@ -227,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_deep_all_militsia_on_odessa
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
 		cost = 1
 		x = 0
 		y = 1
@@ -252,7 +255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_preparing_for_the_inevitable
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 1
 		x = 0
 		y = 1
@@ -281,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_convocation_nsds #СНБО / РНБО
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_convocation_nsds
 		cost = 1
 		x = 0
 		y = 1
@@ -431,7 +434,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_army_question
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_army_question
 		cost = 1
 		x = 2
 		y = 1
@@ -481,7 +484,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_general_staff
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_general_staff
 		cost = 1
 		x = 0
 		y = 1
@@ -531,7 +534,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_informations_front
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_informations_front
 		cost = 1
 		x = 0
 		y = 2
@@ -558,7 +561,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_razoblacheniye_feikov
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_razoblacheniye_feikov
 		cost = 1
 		x = 0
 		y = 1
@@ -909,7 +912,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_misk_dva
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_misk_dva
 		cost = 1
 		x = 0
 		y = 1
