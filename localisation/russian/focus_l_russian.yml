@@ -120,3 +120,12 @@
  AZV_engineer_sapper_division "Ижинерно-саперная рота"
  AZV_anti_tank_company "Протитанковая рота"
  AZV_tanks_company "Танковая рота"
+
+###########
+####TMR####
+###########
+
+ TMR_pridnestovie_dwa_nol_chitirnadtsat: "Приднестровье в 2014"
+ TMR_horzhan: "Хоржан"
+ TMR_shevshuk: "Шевчук"
+ TMR_krasnoselskiy: "Красносельский"
