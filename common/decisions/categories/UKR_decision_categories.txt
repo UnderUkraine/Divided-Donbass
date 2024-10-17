@@ -27,3 +27,24 @@ UKR_Separatists_in_Ukraine = {
 	}
 	scripted_gui = separatists_gui
 }
+
+UKR_Escalation = {
+	icon = GFX_gerb_Ukraine_decision
+	#picture = GFX_separatists_background_image
+	priority = 110
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = RUS
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_ATO_Started
+	}
+	scripted_gui = escalation_gui
+}

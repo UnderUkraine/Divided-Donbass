@@ -45,5 +45,31 @@ UKR_Maidan_Support_category = {
 }
 
 UKR_Separatists_in_Ukraine = {
+	rebeltion_on_east = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 47 #47 days from Maidan to start of ATO
+		selectable_mission = no
+		available = {
+			NOT = {
+				has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			}
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		timeout_effect = {
+			clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			set_global_flag = UKR_ATO_Started
+			country_event = super.1
 
+			set_variable = { escalation_on_donbass_variable = 35 }
+			set_variable = { escalation_on_donbass_every_week_variable = 2 }
+
+			#TODO Separatist begin to rebel
+		}
+	}
 }

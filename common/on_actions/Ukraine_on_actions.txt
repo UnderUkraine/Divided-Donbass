@@ -29,4 +29,16 @@ on_actions = {
 			#}
 		}
 	}
+
+	on_weekly = {
+		effect = {
+			IF = {
+				limit = {
+					has_global_flag = UKR_ATO_Started
+				}
+
+				add_to_variable = { escalation_on_donbass_variable = escalation_on_donbass_every_week_variable }
+			}
+		}
+	}
 }

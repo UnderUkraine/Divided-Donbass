@@ -1,7 +1,13 @@
 ﻿l_english:
- separatists_in_Ukraine_description:0 "After the ouster of President Yanukovych, we faced a new challenge. While Kyiv and the western regions celebrated the victory of the Revolution of Dignity, the eastern regions of the country, particularly Donbas and Crimea, found themselves at the center of a political crisis. Pro-Russian forces dissatisfied with Ukraine's new course began organizing protests demanding greater autonomy and even secession from Kyiv."
+ maidan_support_variable:0 "Current support of Maidan : §O[?UKR_maidan_support]§!"
+ maidan_description:0 "Thousands of Ukrainians gathered in the capital's main square to protest the government's decision to suspend Ukraine's integration with the European Union. The protests began as a peaceful rally for European choice, but quickly grew into a nationwide movement that sought to put an end to a corrupt regime that put its own interests above those of the people."
+ separatists_in_Ukraine_description:0 "After the ouster of President Yanukovych, we faced a new challenge. While Kyiv and the western regions celebrated the victory of the Revolution of Dignity, the eastern regions of the country, particularly Donbas and Crimea, found themselves at the center of a political crisis."
 
  dpr_support_variable:0 "[DPR.GetFlag]Donetsk : §O[?UKR_dpr_support]§!"
  lpr_support_variable:0 "[DPR.GetFlag]Luhansk : §O[?UKR_lpr_support]§!"
  kpr_support_variable:0 "[DPR.GetFlag]Kharkiv : §O[?UKR_kpr_support]§!"
  opr_support_variable:0 "[DPR.GetFlag]Odesa : §O[?UKR_opr_support]§!"
+
+#Escalation
+ escalation_variable:0 "Escalation on Donbass : §O[?escalation_on_donbass_variable]§!"
+ weekly_escalation_variable:0 "Weekly growth : §O[?escalation_on_donbass_every_week_variable]§!"
