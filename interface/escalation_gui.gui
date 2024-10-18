@@ -12,7 +12,6 @@ guiTypes = {
             spriteType = "GFX_DonbassMap"
             position = { x= -70 y = -170 }
             Orientation = "CENTER"
-			pdx_tooltip = Escalation_Donbass_map_tt
         }   
 		instantTextboxType = {
 			name = "escalation_text"

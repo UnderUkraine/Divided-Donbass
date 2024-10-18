@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 56
+		days_mission_timeout = 1 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -48,12 +48,10 @@ UKR_Separatists_in_Ukraine = {
 	rebeltion_on_east = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 47 #47 days from Maidan to start of ATO
+		days_mission_timeout = 1 #47 days from Maidan to start of ATO
 		selectable_mission = no
 		available = {
-			NOT = {
-				has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
-			}
+			always = no
 		}
 		activation = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
@@ -66,8 +64,21 @@ UKR_Separatists_in_Ukraine = {
 			set_global_flag = UKR_ATO_Started
 			country_event = super.1
 
-			set_variable = { escalation_on_donbass_variable = 35 }
-			set_variable = { escalation_on_donbass_every_week_variable = 2 }
+			hidden_effect = {
+				set_variable = { escalation_on_donbass_variable = 35 }
+				set_variable = { escalation_on_donbass_every_week_variable = 1 }
+
+				set_variable = {Escalation_stability_factor = -0.07}
+				set_variable = {Escalation_war_support_factor = 0.07}
+				set_variable = {Escalation_resistance_growth = 0.07}
+				set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+				set_variable = {Escalation_fascism_drift = 0.1}
+				UKR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+			}
 
 			#TODO Separatist begin to rebel
 		}

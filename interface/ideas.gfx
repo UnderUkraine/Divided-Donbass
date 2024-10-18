@@ -4,4 +4,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
 		noOfFrames = 18
 	}
+
+	SpriteType = {
+		name = "GFX_idea_AZV_fight_for_ukraine"
+		texturefile = "gfx/interface/ideas/Fight_for_Ukraine.dds"
+	}
 }

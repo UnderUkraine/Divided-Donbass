@@ -38,6 +38,59 @@ on_actions = {
 				}
 
 				add_to_variable = { escalation_on_donbass_variable = escalation_on_donbass_every_week_variable }
+
+				IF = {
+					LIMIT = {
+						check_variable = { escalation_on_donbass_variable > 10 }
+					}
+
+					set_variable = {Escalation_stability_factor = -0.02}
+					set_variable = {Escalation_war_support_factor = 0.02}
+					set_variable = {Escalation_resistance_growth = 0.02}
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { escalation_on_donbass_variable > 25 }
+					}
+
+					set_variable = {Escalation_stability_factor = -0.05}
+					set_variable = {Escalation_war_support_factor = 0.05}
+					set_variable = {Escalation_resistance_growth = 0.05}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.07} #Не могу найти стоимость
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { escalation_on_donbass_variable > 40 }
+					}
+
+					set_variable = {Escalation_stability_factor = -0.07}
+					set_variable = {Escalation_war_support_factor = 0.07}
+					set_variable = {Escalation_resistance_growth = 0.07}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+					set_variable = {Escalation_fascism_drift = 0.1}
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { escalation_on_donbass_variable > 60 }
+					}
+
+					set_variable = {Escalation_stability_factor = -0.15}
+					set_variable = {Escalation_war_support_factor = 0.15}
+					set_variable = {Escalation_resistance_growth = 0.10}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.17} #Не могу найти стоимость
+					set_variable = {Escalation_fascism_drift = 0.25}
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { escalation_on_donbass_variable > 100 }
+					}
+
+					set_variable = {Escalation_stability_factor = -0.20}
+					set_variable = {Escalation_war_support_factor = 0.20}
+					set_variable = {Escalation_resistance_growth = 0.17}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.25} #Не могу найти стоимость
+					set_variable = {Escalation_fascism_drift = 0.35}
+				}
 			}
 		}
 	}
