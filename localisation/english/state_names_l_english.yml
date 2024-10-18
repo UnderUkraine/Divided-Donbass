@@ -479,4 +479,6 @@
  STATE_478:0 "STATE_478"
  STATE_479:0 "STATE_479"
  STATE_480:0 "Sevastopol Port"
- STATE_481:0 "Azov base"
+ STATE_481:1 "Azov base"
+ STATE_482:1 "STATE_482"
+ STATE_483:0 "Velykonovoselivskiy"
