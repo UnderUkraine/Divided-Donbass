@@ -29,6 +29,12 @@ set_popularities = {
 	neutrality = 45
 }
 
+add_ideas = {
+	UKR_oligarhy_autocraty
+	UKR_cooperation_russia
+	UKR_protests
+}
+
 complete_national_focus = UKR_Yanukovich_rule
 complete_national_focus = UKR_Eurointegration
 complete_national_focus = UKR_Decline_to_sign_agreement
