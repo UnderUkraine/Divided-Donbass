@@ -506,7 +506,7 @@
 505;230;154;243;land;false;forest;1
 506;163;198;240;land;false;urban;1
 507;245;151;106;land;false;mountain;1
-508;144;221;186;land;true;urban;1
+508;144;221;186;land;true;kyiv_urban;1
 509;238;193;172;land;false;forest;1
 510;250;221;161;land;false;marsh;1
 511;254;151;183;land;false;plains;1
@@ -3008,7 +3008,7 @@
 3007;154;207;226;land;false;plains;1
 3008;163;151;201;land;false;plains;1
 3009;229;213;168;land;false;marsh;1
-3010;95;185;232;land;false;urban;1
+3010;95;185;232;land;false;kyiv_urban;1
 3011;181;159;216;land;false;mountain;1
 3012;244;242;90;land;false;forest;1
 3013;239;251;197;land;false;forest;1
@@ -5494,7 +5494,7 @@
 5493;86;231;198;land;false;forest;1
 5494;165;213;234;land;false;plains;1
 5495;99;172;250;land;false;plains;1
-5496;226;253;161;land;true;urban;1
+5496;226;253;161;land;true;kyiv_urban;1
 5497;84;218;224;land;false;desert;1
 5498;251;230;227;land;false;marsh;1
 5499;175;236;193;land;false;forest;1
@@ -15508,7 +15508,7 @@
 15507;177;247;129;land;false;plains;1
 15508;160;195;207;land;false;jungle;1
 15509;234;194;109;land;false;desert;1
-15510;220;180;217;land;false;urban;1
+15510;220;180;217;land;false;kyiv_urban;1
 15511;242;226;70;land;false;plains;1
 15512;196;148;231;land;false;forest;1
 15513;205;131;203;land;false;plains;1
@@ -16896,7 +16896,7 @@
 16895;226;80;223;land;false;mountain;1
 16896;215;224;133;land;false;plains;1
 16897;221;72;221;land;false;mountain;1
-16898;218;72;214;land;false;forest;1
+16898;218;72;214;land;false;kyiv_urban;1
 16899;87;200;245;land;false;urban;1
 16900;220;187;121;land;false;desert;1
 16901;229;220;213;land;false;mountain;1
@@ -17956,7 +17956,7 @@
 17955;241;191;80;land;false;forest;1
 17956;243;238;111;land;false;plains;1
 17957;164;214;175;land;false;urban;1
-17958;235;217;72;land;true;urban;1
+17958;235;217;72;land;true;kyiv_urban;1
 17959;247;88;215;land;false;plains;1
 17960;217;232;120;land;false;forest;1
 17961;215;148;159;land;false;urban;1
@@ -18910,7 +18910,7 @@
 18909;248;247;100;land;false;forest;1
 18910;242;243;201;land;false;marsh;1
 18911;168;158;195;land;false;plains;1
-18912;231;93;232;land;true;urban;1
+18912;231;93;232;land;true;kyiv_urban;1
 18913;145;220;150;land;false;mountain;1
 18914;243;228;203;land;false;plains;1
 18915;215;211;126;land;false;urban;1
@@ -24066,7 +24066,7 @@
 24065;147;233;147;land;false;jungle;1
 24066;173;218;115;land;false;mountain;1
 24067;176;214;127;land;false;plains;1
-24068;201;215;161;land;false;urban;1
+24068;201;215;161;land;false;kyiv_urban;1
 24069;167;138;201;land;false;urban;1
 24070;211;147;204;land;false;forest;1
 24071;203;216;155;land;false;forest;1
@@ -24753,7 +24753,7 @@
 24752;123;240;185;land;false;mountain;1
 24753;230;150;211;land;false;hills;1
 24754;217;205;159;land;false;plains;1
-24755;246;166;110;land;false;urban;1
+24755;246;166;110;land;false;kyiv_urban;1
 24756;194;231;110;land;false;plains;1
 24757;201;156;179;land;false;plains;1
 24758;198;194;249;land;false;plains;1
@@ -33565,7 +33565,7 @@
 33564;153;251;133;land;false;plains;1
 33565;166;244;98;land;true;plains;1
 33566;225;135;171;land;false;plains;1
-33567;168;195;224;land;false;urban;1
+33567;168;195;224;land;false;kyiv_urban;1
 33568;209;199;173;land;false;plains;1
 33569;168;175;190;land;false;mountain;1
 33570;247;203;157;land;false;mountain;1
@@ -33581,7 +33581,7 @@
 33580;196;161;242;land;false;mountain;1
 33581;206;141;164;land;false;forest;1
 33582;134;240;159;land;false;plains;1
-33583;232;176;191;land;true;urban;1
+33583;232;176;191;land;true;kyiv_urban;1
 33584;224;191;95;land;false;plains;1
 33585;196;231;246;land;false;plains;1
 33586;240;174;157;land;false;mountain;1
@@ -33689,7 +33689,7 @@
 33688;183;174;148;land;false;plains;1
 33689;137;201;172;land;false;plains;1
 33690;252;222;87;land;false;marsh;1
-33691;184;135;235;land;false;forest;1
+33691;184;135;235;land;false;kyiv_urban;1
 33692;217;237;81;land;false;marsh;1
 33693;203;166;222;land;false;plains;1
 33694;123;237;236;land;false;plains;1
@@ -33732,7 +33732,7 @@
 33731;76;254;179;land;false;plains;1
 33732;235;90;229;land;false;plains;1
 33733;228;144;171;land;false;plains;1
-33734;106;239;212;land;false;urban;1
+33734;106;239;212;land;false;kyiv_urban;1
 33735;252;195;215;land;false;plains;1
 33736;92;241;217;land;false;plains;1
 33737;127;234;198;land;false;plains;1
@@ -33852,7 +33852,7 @@
 33851;225;181;187;land;false;plains;1
 33852;237;236;32;land;false;mountain;1
 33853;128;193;254;land;false;forest;1
-33854;253;236;175;land;false;forest;1
+33854;253;236;175;land;false;kyiv_urban;1
 33855;171;190;246;land;false;plains;1
 33856;223;223;231;land;false;hills;1
 33857;221;178;175;land;false;mountain;1
@@ -33989,7 +33989,7 @@
 33988;199;235;160;land;false;plains;1
 33989;118;202;189;land;false;plains;1
 33990;157;220;141;land;false;mountain;1
-33991;222;243;53;land;true;urban;1
+33991;222;243;53;land;true;kyiv_urban;1
 33992;207;235;83;land;false;plains;1
 33993;192;133;195;land;false;forest;1
 33994;206;226;246;land;false;plains;1
@@ -34009,7 +34009,7 @@
 34008;202;79;240;land;false;plains;1
 34009;133;165;231;land;false;plains;1
 34010;70;215;253;land;false;mountain;1
-34011;223;158;143;land;false;urban;1
+34011;223;158;143;land;false;kyiv_urban;1
 34012;233;61;241;land;false;urban;1
 34013;196;187;119;land;false;urban;1
 34014;253;178;155;land;false;urban;1
@@ -34166,7 +34166,7 @@
 34165;77;227;211;land;false;urban;1
 34166;241;189;97;land;false;plains;1
 34167;115;206;222;land;false;mountain;1
-34168;154;120;245;land;false;urban;1
+34168;154;120;245;land;false;kyiv_urban;1
 34169;104;234;168;land;false;plains;1
 34170;195;208;138;land;false;forest;1
 34171;245;212;111;land;false;urban;1
@@ -34232,7 +34232,7 @@
 34231;224;161;182;land;false;forest;1
 34232;203;183;203;land;false;urban;1
 34233;149;159;253;land;false;urban;1
-34234;244;73;230;land;true;urban;1
+34234;244;73;230;land;true;kyiv_urban;1
 34235;172;225;222;land;false;plains;1
 34236;213;138;182;land;false;forest;1
 34237;222;201;200;land;false;plains;1
@@ -34306,7 +34306,7 @@
 34305;205;208;146;land;false;plains;1
 34306;203;211;164;land;false;urban;1
 34307;249;200;202;land;false;urban;1
-34308;200;152;159;land;false;urban;1
+34308;200;152;159;land;false;kyiv_urban;1
 34309;62;229;228;land;false;plains;1
 34310;249;147;211;land;false;plains;1
 34311;218;228;74;land;false;plains;1
@@ -34808,7 +34808,7 @@
 34807;197;244;96;land;false;urban;1
 34808;225;175;143;land;false;forest;1
 34809;190;207;115;land;false;plains;1
-34810;149;166;197;land;false;urban;1
+34810;149;166;197;land;false;kyiv_urban;1
 34811;242;241;241;land;false;forest;1
 34812;226;205;159;land;false;plains;1
 34813;130;221;243;land;false;urban;1
@@ -52092,19 +52092,19 @@
 52091;19;85;39;lake;false;lakes;0
 52092;12;7;115;lake;false;lakes;0
 52093;57;217;38;land;false;urban;0
-52094;232;210;168;land;false;unknown;0
-52095;170;246;123;land;false;unknown;0
-52096;241;73;128;land;false;unknown;0
-52097;182;194;168;land;false;unknown;0
-52098;162;189;210;land;false;unknown;0
-52099;54;191;143;land;false;unknown;0
-52100;129;129;61;land;false;unknown;0
-52101;75;55;179;land;false;unknown;0
-52102;150;92;252;land;false;unknown;0
-52103;119;124;63;land;false;unknown;0
-52104;95;192;167;land;false;unknown;0
-52105;43;254;52;land;false;unknown;0
-52106;172;75;143;land;false;unknown;0
-52107;245;20;47;land;false;unknown;0
-52108;120;152;191;land;false;unknown;0
-52109;182;251;44;land;false;unknown;0
+52094;232;210;168;land;false;urban;0
+52095;170;246;123;land;false;urban;0
+52096;241;73;128;land;false;urban;0
+52097;182;194;168;land;false;urban;0
+52098;162;189;210;land;false;urban;0
+52099;54;191;143;land;false;urban;0
+52100;129;129;61;land;false;urban;0
+52101;75;55;179;land;false;urban;0
+52102;150;92;252;land;false;urban;0
+52103;119;124;63;land;false;urban;0
+52104;95;192;167;land;false;urban;0
+52105;43;254;52;land;false;urban;0
+52106;172;75;143;land;false;urban;0
+52107;245;20;47;land;false;urban;0
+52108;120;152;191;land;false;urban;0
+52109;182;251;44;land;false;urban;0
