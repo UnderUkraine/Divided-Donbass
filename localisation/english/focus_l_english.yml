@@ -43,3 +43,25 @@
  AZV_weapon_azov: "Azov's Armament"
  AZV_medical_service: "Medical Service"
  AZV_sniper_squad: "Sniper Squad"
+
+ ############
+ #    RUS   #
+ ############
+
+ RUS_putins_russia: "Putin's Russia"
+ RUS_putins_russia_desc: "Putin's Russia"
+ RUS_crisis_in_Ukraine: "Crisis in Ukraine"
+ RUS_crisis_in_Ukraine_desc: "Crisis in Ukraine"
+ RUS_troops_in_sevastopol_port: "Troops in Sevastopol Port"
+ RUS_troops_in_sevastopol_port_desc: "Troops in Sevastopol Port"
+ RUS_support_Yanukovich: "Support Yanukovich"
+ RUS_support_Yanukovich_desc: "Support Yanukovich"
+ RUS_overthrow_of_Yanukovich: "Overthrow of Yanukovich!"
+ RUS_overthrow_of_Yanukovich_desc: "Overthrow of Yanukovich!"
+ RUS_crimea_is_russia: "Crimea is Russia!"
+ RUS_pro_russian_sentiment_in_Ukraine: "Pro-Russian sentiment in Ukraine"
+ RUS_pro_russian_sentiment_in_Ukraine_desc: "Pro-Russian sentiment in Ukraine"
+ RUS_support_ideas_of_dpr: "Support idea of Donetsk PR"
+ RUS_support_ideas_of_lpr: "Support idea of Lugansk PR"
+ RUS_support_ideas_of_kpr: "Support idea of Kharkov PR"
+ RUS_support_ideas_of_opr: "Support idea of Odessa PR"

@@ -124,4 +124,33 @@ spriteTypes = {
 	    name = "GFX_focus_AZV_form_base_in_Mariupol"
 		texturefile = "gfx/interface/goals/AZV/AZV_form_base_in_Mariupol.dds"		
 	}
+
+	SpriteType = {
+	    name = "GFX_focus_RUS_putins_russia"
+		texturefile = "gfx/interface/goals/RUS/putinsrussia.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_crisis_in_Ukraine"
+		texturefile = "gfx/interface/goals/RUS/crisisinUkraine.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_troops_in_sevastopol_port"
+		texturefile = "gfx/interface/goals/RUS/troopsinSevastopolport.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_Yanukovich"
+		texturefile = "gfx/interface/goals/RUS/supportyanukovich.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_overthrow_of_Yanukovich"
+		texturefile = "gfx/interface/goals/RUS/overthrowofyanukovich.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_crimea_is_russia"
+		texturefile = "gfx/interface/goals/RUS/crimeaisraska.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_pro_russian_sentiment_in_Ukraine"
+		texturefile = "gfx/interface/goals/RUS/2109159de412bdb2.dds"		
+	}
 }
