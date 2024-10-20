@@ -635,115 +635,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_pobeda_nad_separatistami
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -3
-		y = 1
-
-		prerequisite = {focus = UKR_united_ukraine}
-		relative_position_id = UKR_united_ukraine
-		mutually_exclusive = {focus = UKR_russia_trebuet_perigovori}
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_arest_pro_russian_deyatiley
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -3
-		y = 2
-
-		prerequisite = {focus = UKR_pobeda_nad_separatistami}
-		relative_position_id = UKR_united_ukraine
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_podnyat_vopros_krima
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -3
-		y = 3
-
-		prerequisite = {focus = UKR_arest_pro_russian_deyatiley}
-		relative_position_id = UKR_united_ukraine
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_podavlenie_rosiyskih_activistov
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -5
-		y = 3
-
-		prerequisite = {focus = UKR_arest_pro_russian_deyatiley}
-		relative_position_id = UKR_united_ukraine
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = UKR_russia_trebuet_perigovori
 		icon = GFX_focus_UKR_ato
 		cost = 1
-		x = 2
+		x = -5
 		y = 1
 
-		prerequisite = {focus = UKR_united_ukraine}
-		relative_position_id = UKR_united_ukraine
+		prerequisite = {focus = UKR_convocation_nsds}
+		relative_position_id = UKR_convocation_nsds
 		
 		ai_will_do = {
 			factor = 1
@@ -1019,56 +918,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
 		relative_position_id = UKR_nashi_utrashennie_zemli
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_vopros_krima
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 8
-		y = 1
-
-		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
-		relative_position_id = UKR_nashi_utrashennie_zemli
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_ne_priznavat_krim_russian
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_vopros_krima}
-		relative_position_id = UKR_vopros_krima
 		
 		ai_will_do = {
 			factor = 1
@@ -1388,110 +1237,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_operation_gur
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -6
-		y = 1
-
-		prerequisite = {focus = UKR_cold_war}
-		relative_position_id = UKR_cold_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_agenti_v_ordlo
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_operation_gur}
-		relative_position_id = UKR_operation_gur
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_verbovka_agentov
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -1
-		y = 2
-
-		prerequisite = {focus = UKR_agenti_v_ordlo}
-		relative_position_id = UKR_operation_gur
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_oslabit_boevikov
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 1
-		y = 2
-
-		prerequisite = {focus = UKR_agenti_v_ordlo}
-		relative_position_id = UKR_operation_gur
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = UKR_vneocheridnie_prezidenstkie_vibori
 		icon = GFX_focus_UKR_Yanukovich_rule
 		cost = 1
-		x = -5
+		x = -8
 		y = 1
 
 		prerequisite = {focus = UKR_preparing_for_the_inevitable}
