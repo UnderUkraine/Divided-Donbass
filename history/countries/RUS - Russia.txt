@@ -33,19 +33,19 @@ recruit_character = aleksei_navalniy
 
 capital = 202
 set_technology = {
-	infantry_weapons = 1
+    infantry_weapons = 1
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2019.05.20"
-	election_frequency = 48
-	elections_allowed = no
+    ruling_party = neutrality
+    last_election = "2019.05.20"
+    election_frequency = 48
+    elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 5
-	fascism = 5
+	democratic = 3
+	fascism = 7
 	communism = 10
 	neutrality = 80
 }
