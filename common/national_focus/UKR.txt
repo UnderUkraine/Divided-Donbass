@@ -685,107 +685,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_mi_ne_budem_ostanavlivatsa
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 4
-		y = 1
-
-		prerequisite = {focus = UKR_russia_trebuet_perigovori}
-		relative_position_id = UKR_russia_trebuet_perigovori
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_pryamoe_rus_vmeshatelsvo_v_konflict
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_mi_ne_budem_ostanavlivatsa}
-		relative_position_id = UKR_mi_ne_budem_ostanavlivatsa
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_vzorvat_mosti_v_dniepr
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 1
-		y = 1
-
-		prerequisite = {focus = UKR_pryamoe_rus_vmeshatelsvo_v_konflict}
-		relative_position_id = UKR_pryamoe_rus_vmeshatelsvo_v_konflict
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_defence_kharkiv
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = -1
-		y = 1
-
-		prerequisite = {focus = UKR_pryamoe_rus_vmeshatelsvo_v_konflict}
-		relative_position_id = UKR_pryamoe_rus_vmeshatelsvo_v_konflict
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_proval_misk_odin
+		id = UKR_proval_minsk_odin
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
@@ -810,14 +710,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_misk_dva
-		icon = GFX_focus_UKR_misk_dva
+		id = UKR_minsk_dva
+		icon = GFX_focus_UKR_minsk_dva
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_proval_misk_odin}
-		relative_position_id = UKR_proval_misk_odin
+		prerequisite = {focus = UKR_proval_minsk_odin}
+		relative_position_id = UKR_proval_minsk_odin
 		
 		ai_will_do = {
 			factor = 1
@@ -841,8 +741,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_misk_dva}
-		relative_position_id = UKR_misk_dva
+		prerequisite = {focus = UKR_minsk_dva}
+		relative_position_id = UKR_minsk_dva
 		
 		ai_will_do = {
 			factor = 1
@@ -860,7 +760,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_narusheniya_misk_dva
+		id = UKR_narusheniya_minsk_dva
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
@@ -891,8 +791,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_narusheniya_misk_dva}
-		relative_position_id = UKR_narusheniya_misk_dva
+		prerequisite = {focus = UKR_narusheniya_minsk_dva}
+		relative_position_id = UKR_narusheniya_minsk_dva
 		
 		ai_will_do = {
 			factor = 1
