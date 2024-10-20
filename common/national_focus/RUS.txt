@@ -1,0 +1,305 @@
+focus_tree = {
+	id = russia_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 100 y = 4000 }
+	
+	focus = {
+		id = RUS_putins_russia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 10
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_crisis_in_Ukraine
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_putins_russia}
+		relative_position_id = RUS_putins_russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_troops_in_sevastopol_port
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_crisis_in_Ukraine}
+		relative_position_id = RUS_crisis_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_Yanukovich
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_crisis_in_Ukraine}
+		relative_position_id = RUS_crisis_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_overthrow_of_Yanukovich
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_support_Yanukovich}
+		prerequisite = {focus = RUS_troops_in_sevastopol_port}
+		relative_position_id = RUS_support_Yanukovich
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_crimea_is_russia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_overthrow_of_Yanukovich}
+		relative_position_id = RUS_overthrow_of_Yanukovich
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_pro_russian_sentiment_in_Ukraine
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_crimea_is_russia}
+		relative_position_id = RUS_crimea_is_russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_dpr
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -3
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_lpr
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_kpr
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_opr
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 3
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_russian_spring
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = RUS_support_ideas_of_dpr
+			focus = RUS_support_ideas_of_lpr
+			focus = RUS_support_ideas_of_kpr
+			focus = RUS_support_ideas_of_opr
+	    }
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}	
