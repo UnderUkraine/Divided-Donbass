@@ -960,35 +960,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_stoitelstvo_ukrep_rayonov
+		id = UKR_defence_big_city
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_podgotovka_k_activnoy_faze}
-		relative_position_id = UKR_podgotovka_k_activnoy_faze
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_mission_obse_in_donbass
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 2
 		y = 1
 
 		prerequisite = {focus = UKR_podgotovka_k_activnoy_faze}
@@ -1013,13 +988,12 @@ focus_tree = {
 		id = UKR_snizeniye_eskalacii
 		icon = GFX_focus_UKR_ato
 		cost = 1
-		x = 1
+		x = 0
 		y = 2
 
 		prerequisite = {focus = UKR_mission_obse_in_donbass}
 		prerequisite = {focus = UKR_stoitelstvo_ukrep_rayonov}
 		relative_position_id = UKR_podgotovka_k_activnoy_faze
-		mutually_exclusive = {focus = UKR_drg_v_prigranichnih_rayonah}
 		
 		ai_will_do = {
 			factor = 1
@@ -1037,7 +1011,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_oos
+		id = UKR_dialog_s_rf
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
@@ -1045,131 +1019,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_snizeniye_eskalacii}
 		relative_position_id = UKR_snizeniye_eskalacii
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_snizeniye_obtrelov
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_oos}
-		relative_position_id = UKR_oos
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_nachat_obtreli_ordlo #Детям донецка посвящается
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 4
-		y = 1
-
-		prerequisite = {focus = UKR_podgotovka_k_activnoy_faze}
-		relative_position_id = UKR_podgotovka_k_activnoy_faze
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_drg_v_prigranichnih_rayonah
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_nachat_obtreli_ordlo}
-		relative_position_id = UKR_nachat_obtreli_ordlo
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_obrasheniye_k_rosii
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_drg_v_prigranichnih_rayonah}
-		relative_position_id = UKR_drg_v_prigranichnih_rayonah
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_zahvat_novoazovska
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_obrasheniye_k_rosii}
-		relative_position_id = UKR_obrasheniye_k_rosii
 		
 		ai_will_do = {
 			factor = 1
