@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 1 #56 to February 26
+		days_mission_timeout = 56 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -48,7 +48,7 @@ UKR_Separatists_in_Ukraine = {
 	rebeltion_on_east = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 1 #47 days from Maidan to start of ATO
+		days_mission_timeout = 47 #47 days from Maidan to start of ATO
 		selectable_mission = no
 		available = {
 			always = no
@@ -81,6 +81,42 @@ UKR_Separatists_in_Ukraine = {
 			}
 
 			#TODO Separatist begin to rebel
+		}
+	}
+}
+
+UKR_buy_equipment = {
+	UKR_test_1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+}
+
+UKR_SBU_operations = {
+	UKR_SBU_test_1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_sbu_icon_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
 		}
 	}
 }

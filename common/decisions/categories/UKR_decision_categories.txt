@@ -28,6 +28,34 @@ UKR_Separatists_in_Ukraine = {
 	scripted_gui = separatists_gui
 }
 
+UKR_buy_equipment = {
+	icon = GFX_icon_of_VSY_decision
+	picture = GFX_buy_equipment_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}
+
+UKR_SBU_operations = {
+	icon = GFX_sbu_icon_decision
+	picture = GFX_separatists_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}
+
 UKR_Escalation = {
 	icon = GFX_gerb_Ukraine_decision
 	#picture = GFX_separatists_background_image
