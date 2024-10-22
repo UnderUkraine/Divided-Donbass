@@ -1,0 +1,19 @@
+debug_category = {
+	load_ukraine_tree = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = generic_formable_nations
+        priority = 1000
+        days_re_enable = 1
+		fire_only_once = yes
+        complete_effect = {
+			load_focus_tree = ukraine_focus
+		}
+	}
+}
