@@ -153,4 +153,8 @@ spriteTypes = {
 	    name = "GFX_focus_RUS_pro_russian_sentiment_in_Ukraine"
 		texturefile = "gfx/interface/goals/RUS/2109159de412bdb2.dds"		
 	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_russian_spring"
+		texturefile = "gfx/interface/goals/RUS/russian_spring.dds"		
+	}
 }

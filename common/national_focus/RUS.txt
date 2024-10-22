@@ -274,7 +274,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_russian_spring
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_russian_spring
 		cost = 1
 		x = 0
 		y = 2
@@ -286,6 +286,215 @@ focus_tree = {
 			focus = RUS_support_ideas_of_opr
 	    }
 		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = RUS_help_peoples_republics
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_russian_spring}
+		relative_position_id = RUS_russian_spring
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ammunition_supply
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_machinery_supply
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_arms_supply
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Information_propaganda_on_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = RUS_machinery_supply
+		}
+		prerequisite = {
+			focus = RUS_ammunition_supply
+		}
+		prerequisite = {
+			focus = RUS_arms_supply
+		}
+		relative_position_id = RUS_machinery_supply
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Atrocities_of_the_Kiev_regime
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Information_propaganda_on_Donbass}
+		relative_position_id = RUS_Information_propaganda_on_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_volunteers_in_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Russian_instructors
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
 		
 		ai_will_do = {
 			factor = 1
