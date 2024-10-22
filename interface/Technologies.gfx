@@ -7606,7 +7606,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/m120_15_molot.dds"
 	}	
 	SpriteType = {
-		name = "GFX_UKR_mortar_weapons3_medium"
+		name = "GFX_UKR_mortar_weapons4_medium"
 		texturefile = "gfx/interface/technologies/MP120.dds"
 	}	
 
@@ -7749,6 +7749,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_RUS_manpads_weapons4_medium"
 		texturefile = "gfx/interface/technologies/iglas.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_RUS_mortar_weapons_medium"
+		texturefile = "gfx/interface/technologies/2b9.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_mortar_weapons1_medium"
+		texturefile = "gfx/interface/technologies/2b11.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_mortar_weapons2_medium"
+		texturefile = "gfx/interface/technologies/2b14.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_mortar_weapons3_medium"
+		texturefile = "gfx/interface/technologies/2b24.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_mortar_weapons4_medium"
+		texturefile = "gfx/interface/technologies/2b25.dds"
 	}	
 
 	SpriteType = {

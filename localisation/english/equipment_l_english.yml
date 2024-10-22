@@ -4272,6 +4272,17 @@
  RUS_manpads_equipment_4_short:0 "“Igla-S”"
  RUS_manpads_equipment_4_desc:0 "The 9K338 "Igla-S" is an advanced version of the Russian man-portable air-defense system, developed as a significant upgrade to the 9K38 "Igla". Introduced in the early 2000s, the Igla-S represents one of the most sophisticated portable surface-to-air missile systems available. It was designed to counter modern aircraft and helicopters by enhancing range, lethality, and resistance to countermeasures. The system is well-suited for engaging low-flying aircraft, drones, and even cruise missiles, providing infantry units with potent air defense capabilities."
 
+ RUS_mortar_equipment_0:0 "2B9 “Vasilek”"
+
+ RUS_mortar_equipment_1:0 "2B11"
+
+ RUS_mortar_equipment_2:0 "2B14 “Podnos”"
+
+ RUS_mortar_equipment_3:0 "2B24"
+
+ RUS_mortar_equipment_4:0 "2B25"
+ RUS_mortar_equipment_4_short:0 "2B25"
+
  RUS_motorized_equipment_0: "Gaz-66"
  RUS_motorized_equipment_0_desc:1 ""
  RUS_motorized_equipment_1:1 "Ural-375"
