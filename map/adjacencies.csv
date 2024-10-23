@@ -10,4 +10,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 51844;20654;sea;51875;-1;-1;-1;-1;;BridgeInKhersonkaOblast2
 18598;21470;sea;51875;-1;-1;-1;-1;;BridgeInKirovograd
 41133;40964;sea;51875;-1;-1;-1;-1;;BridgeInKirovograd2
+8055;21735;sea;51875;-1;-1;-1;-1;;BridgeInCherkasy
+39405;18784;sea;51875;-1;-1;-1;-1;;BridgeInCherkasy2
+44138;43971;sea;51875;-1;-1;-1;-1;;BridgeInDnipro
+44123;15836;sea;51875;-1;-1;-1;-1;;BridgeInDnipro2
+44668;44521;sea;51875;-1;-1;-1;-1;;BridgeInDnipro3
+11004;43860;sea;51875;-1;-1;-1;-1;;BridgeInDnipro4
+10117;24653;sea;51875;-1;-1;-1;-1;;BridgeInZaporizhia
+24653;47117;sea;51875;-1;-1;-1;-1;;BridgeInZaporizhia2
+9653;46917;sea;51875;-1;-1;-1;-1;;BridgeInZaporizhia3
 -1;-1;;-1;-1;-1;-1;-1;-1
