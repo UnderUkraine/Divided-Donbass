@@ -1,7 +1,7 @@
 {
   "normalMapStrength": 1.5,
-  "exportRiversMapWithWaterPixels": true,
-  "generateNormalMap": true,
+  "exportRiversMapWithWaterPixels": false,
+  "generateNormalMap": false,
   "wipsEnabled": [],
   "MAP_SCALE_PIXEL_TO_KM": 7.114,
   "WATER_HEIGHT": 9.5
