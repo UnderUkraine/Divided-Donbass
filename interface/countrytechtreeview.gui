@@ -66,7 +66,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
-					position = { x = 30 y = 110 }
+					position = { x = 30 y = 140 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -78,30 +78,82 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
+					name = "infantry_subtitle_rpg"
+					position = { x = 30 y = 430 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL"
+					text = "INFANTRY_TITLE_RPG"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 
-				#instantTextBoxType = {
-				#	name = "infantry_subtitle_motorized"
-				#	position = { x = 30 y = 510 }
-				#	textureFile = ""
-				#	font = "hoi_33"
-				#	borderSize = { x = 0 y = 0}
-				#	text = "INFANTRY_TITLE_MOTORISED"
-				#	maxWidth = 600
-				#	maxHeight = 62
-				#	format = left
-				#	Orientation = "UPPER_LEFT"
-				#}
+				instantTextBoxType = {
+					name = "infantry_subtitle_atgm"
+					position = { x = 30 y = 575 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_ATGM"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "infantry_subtitle_manpads"
+					position = { x = 30 y = 720 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_MANPADS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "infantry_subtitle_mortars"
+					position = { x = 30 y = 860 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_MORTAR"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "infantry_subtitle_trucks"
+					position = { x = 30 y = 1010 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_TRUCKS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "infantry_subtitle_camo"
+					position = { x = 30 y = 1150 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_CAMO"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 
 				instantTextBoxType = {
 					name = "infantry_year6"
@@ -140,14 +192,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "rpg_weapons_tree"
-				position = { x = 140 y = 500 }
+				position = { x = 140 y = 520 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "atgm_weapons_tree"
-				position = { x = 140 y = 620 }
+				position = { x = 140 y = 670 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -177,28 +229,28 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_trucks_tree"
-				position = { x = 140 y = 980 }
+				position = { x = 140 y = 1100 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "manpads_weapons_tree"
-				position = { x = 140 y = 740 }
+				position = { x = 140 y = 810 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
 				name = "mortar_weapons_tree"
-				position = { x = 140 y = 860 }
+				position = { x = 140 y = 950 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "camo_weapons_tree"
-				position = { x = 140 y = 1100 }
+				position = { x = 140 y = 1250 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

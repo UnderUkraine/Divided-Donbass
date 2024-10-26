@@ -876,9 +876,6 @@
  motorized_rocket_unit: "Моторизированная ракетная артиллерия"
  mot_rockets_research: "Темпы исследований моторизированной ракетной артиллерии"
  UNLOCK_DIVISION_TEMPLATE: "Открывает бесплатный §Hшаблон дивизии§!"
- INFANTRY_TITLE_WEAPONS: "ВООРУЖЕНИЕ И ТЕХНИКА"
- INFANTRY_TITLE_SPECIAL: "СПЕЦНАЗ"
- INFANTRY_TITLE_MOTORISED: "МОТОРИЗИРОВАННАЯ ПЕХОТА"
  ARMOUR_TITLE: "БРОНЕТЕХНИКА"
  ARMOUR_TITLE_HEAVY: "ТЯЖЕЛАЯ"
  ARMOUR_TITLE_MEDIUM: "СРЕДНЯЯ"
@@ -1199,3 +1196,13 @@
  mio_cat_tech_all_motorized_mechanized: "Все технологии моторизованной пехоты и бронетранспортеров"
  militia_tech: "Ополчение"
  TOA_jungle_pioneers_support_tech: "Инженеры для войны в джунглях"
+
+# DIVIDED DONBASS
+
+ INFANTRY_TITLE_WEAPONS:0 "ВООРУЖЕНИЕ"
+ INFANTRY_TITLE_RPG:0 "РПГ"
+ INFANTRY_TITLE_ATGM:0 "ПТУРы"
+ INFANTRY_TITLE_MANPADS:0 "ПЗРК"
+ INFANTRY_TITLE_MORTAR:0 "МИНОМЁТЫ"
+ INFANTRY_TITLE_TRUCKS:0 "ГРУЗОВИКИ"
+ INFANTRY_TITLE_CAMO:0 "КАМУФЛЯЖ"
