@@ -1089,6 +1089,14 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "btr1_chassis_tree"
+				position = { x= 400 y = 40 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
 				name = "armor_tech_1_tree"
 				position = { x = 0 y = 40 }
 				size = { width = 80% height = 80% }
@@ -4333,7 +4341,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=74 y=50 }
+			position = { x=90 y=45 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes

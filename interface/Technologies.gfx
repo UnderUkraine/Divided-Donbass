@@ -7636,6 +7636,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/pixel.dds"
 	}	
 
+	SpriteType = {
+		name = "GFX_archetype_btr1_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_light_tank_equipment.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_btr1_chassis_medium"
+		texturefile = "gfx/interface/technologies/btr_60.dds"
+	}	
+
 
 	#RUSSIA
 
