@@ -51,3 +51,18 @@ country_event = {
 		}		
 	}	
 } #АНДЕР НЕ ТРОГАЙ БЛЯТЬ, ДАЙ НОРМАЛЬНО ПОРАБОТАТЬ	
+
+#Azov creation
+country_event = {
+	id = ukraine.4
+	title = ukraine.4.t
+	desc = ukraine.4.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.4.a
+		#TODO Creation of Azov
+	}
+}
