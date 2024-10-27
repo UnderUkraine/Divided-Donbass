@@ -4181,10 +4181,6 @@ The AK-TK is a modernized version of the Soviet AK-74M, specially adapted for th
  UKR_camo_equipment_1:1 ""Pixel""
  UKR_camo_equipment_1_desc:0 "Ukrainian Pixel (also known as MM-14), is the standard digital camouflage pattern used by the Armed Forces of Ukraine. It was introduced in 2014 as part of Ukraine’s effort to modernize its military uniforms and equipment, replacing the Soviet-era camouflage patterns like “Dubok” and others. The Ukrainian Pixel pattern is designed to provide improved concealment for soldiers in a variety of environments, from forests and fields to urban areas, and it is optimized for modern warfare conditions."
 
- btr1_equipment:0 "BTR-60"
- btr1_equipment_short:0 "BTR-60"
- btr1_equipment_desc:0 ""
-
  #RUSSIA
 
  RUS_infantry_equipment_0:0 "Avtomat Kalashnikova Modernizirovanniy"
