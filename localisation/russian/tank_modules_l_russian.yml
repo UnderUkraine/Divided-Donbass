@@ -425,6 +425,71 @@
  RUS_btr1_chassis_0:0 "БТР-60"
  btr1_chassis_0:0 "Шасси БТР"
 
+ UKR_btr1_chassis_1_1:0 "БТР-70"
+ RUS_btr1_chassis_1_1:0 "БТР-70"
+ btr1_chassis_0:0 "Шасси БТР"
+
+ UKR_btr1_chassis_1_2:0 "БТР-80"
+ RUS_btr1_chassis_1_2:0 "БТР-80"
+ btr1_chassis_0:0 "Шасси БТР"
+
+ UKR_btr2_chassis_0:0 "БТР-3"
+ RUS_btr2_chassis_0:0 "БТР-82"
+ btr1_chassis_0:0 "Шасси БТР"
+
+ UKR_btr2_chassis_1:0 "БТР-4 «Буцефал»"
+ RUS_btr2_chassis_1:0 "БТР-К16"
+ btr1_chassis_0:0 "Шасси БТР"
+
+ UKR_tank_chassis_0:0 "Т-55"
+ RUS_tank_chassis_0:0 "Т-55"
+ tank_chassis_0:0 "Шасси танка первого поколения"
+
+ UKR_tank_chassis_1:0 "Т-64"
+ RUS_tank_chassis_1:0 "Т-64"
+ tank_chassis_1:0 "Шасси танка второго поколения"
+
+ UKR_tank_chassis_2:0 "Т-72"
+ RUS_tank_chassis_2:0 "Т-72"
+ tank_chassis_2:0 "Шасси танка второго поколения"
+
+ UKR_tank_chassis_3:0 "Т-80"
+ RUS_tank_chassis_3:0 "Т-80"
+ tank_chassis_3:0 "Шасси танка третего поколения"
+
+ UKR_tank_chassis_4:0 "Т-84"
+ RUS_tank_chassis_4:0 "Т-90"
+ tank_chassis_4:0 "Шасси танка третего поколения"
+
+ UKR_tank_chassis_5:0 "БМ «Оплот»"
+ RUS_tank_chassis_5:0 "Т-14 «Армата»"
+ tank_chassis_5:0 "Шасси танка четвертого поколения"
+
+ UKR_armored_vehicle_chassis_0:0 "Дозор-Б"
+ RUS_armored_vehicle_chassis_0:0 "ГАЗ 3937 «Водник»"
+ armored_vehicle_chassis_0:0 "Шасси бронеавтомобиля"
+
+ UKR_armored_vehicle_chassis_1:0 "КрАЗ Спартан"
+ RUS_armored_vehicle_chassis_1:0 "Газ 2330 «Тигр»"
+ armored_vehicle_chassis_1:0 "Шасси бронеавтомобиля"
+
+ UKR_armored_vehicle_chassis_2:0 "Козак-2"
+ RUS_armored_vehicle_chassis_2:0 "КамАЗ-43269 «Выстрел»"
+ armored_vehicle_chassis_2:0 "Шасси бронеавтомобиля"
+
+ UKR_armored_vehicle_chassis_3:0 "Варта"
+ RUS_armored_vehicle_chassis_3:0 "Буран"
+ armored_vehicle_chassis_3:0 "Шасси бронеавтомобиля"
+
+ UKR_armored_vehicle_chassis_4:0 "Новатор"
+ RUS_armored_vehicle_chassis_4:0 "КАМАЗ 53949 «Линза»"
+ armored_vehicle_chassis_4:0 "Шасси бронеавтомобиля"
+
+ bbm_chassis_0:0 "Корпус ББМ 1"
+ bbm_chassis_1:0 "Корпус ББМ 2"
+ bbm_chassis_2:0 "Корпус ББМ 3"
+ bbm_chassis_3:0 "Корпус ББМ 4"
+
  #btr1_equipment_0:0 "BTR 1"
  #UKR_btr1_equipment_0:0 "BTR-60 1"
  #UKR_btr1_equipment_short:0 "BTR-60 1"

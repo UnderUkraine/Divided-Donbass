@@ -7645,7 +7645,150 @@ spriteTypes = {
 		name = "GFX_btr1_chassis_medium"
 		texturefile = "gfx/interface/technologies/btr_60.dds"
 	}	
+	SpriteType = {
+		name = "GFX_btr1_1_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_70.dds"
+	}	
+	SpriteType = {
+		name = "GFX_btr1_2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_80.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_btr2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_btr2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_btr3_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_btr3_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_k16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_55.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/T_55.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/T_64.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank1_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_64.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/Tank72.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank2_chassis_medium"
+		texturefile = "gfx/interface/technologies/Tank72.dds"
+	}	
 
+	SpriteType = {
+		name = "GFX_tank_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/T_80.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tank3_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_80.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_tank_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/T_84.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_tank4_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_84.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_tank_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_tank4_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_tank_chassis_5_medium"
+		texturefile = "gfx/interface/technologies/BM_OPLOT.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_tank5_chassis_medium"
+		texturefile = "gfx/interface/technologies/BM_OPLOT.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_tank_chassis_5_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_tank5_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_chassis_medium"
+		texturefile = "gfx/interface/technologies/dozor.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_1_chassis_medium"
+		texturefile = "gfx/interface/technologies/kraz_spartan.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_2_chassis_medium"
+		texturefile = "gfx/interface/technologies/kozak.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_3_chassis_medium"
+		texturefile = "gfx/interface/technologies/varta.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_4_chassis_medium"
+		texturefile = "gfx/interface/technologies/novator.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_bbm_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/BBM1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_chassis_medium"
+		texturefile = "gfx/interface/technologies/BBM1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/BBM2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_1_chassis_medium"
+		texturefile = "gfx/interface/technologies/BBM2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/BBM3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BBM3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/BBM4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bbm_3_chassis_medium"
+		texturefile = "gfx/interface/technologies/BBM4.dds"
+	}	
 
 	#RUSSIA
 
