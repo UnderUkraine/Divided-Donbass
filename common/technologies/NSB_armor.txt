@@ -1567,9 +1567,7 @@ technologies = {
 			btr1_chassis_0
 		}
 		enable_subunits = {
-			light_armor
-			medium_armor
-			heavy_armor
+			btr1_unit
 		}
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
