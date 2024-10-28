@@ -1920,7 +1920,7 @@ equipments = {
 
 	tank_chassis_3 = {
 		abbreviation = "tn3"
-		derived_variant_name = tank_equipment_2
+		derived_variant_name = tank_equipment_3
 		visual_level = 3
 		year = 1959
 		archetype = tank_chassis
@@ -1938,7 +1938,7 @@ equipments = {
 	}
 	tank_chassis_4 = {
 		abbreviation = "tn4"
-		derived_variant_name = tank_equipment_3
+		derived_variant_name = tank_equipment_4
 		visual_level = 4
 		year = 1959
 		archetype = tank_chassis

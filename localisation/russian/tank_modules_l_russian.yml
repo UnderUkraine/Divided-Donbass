@@ -490,6 +490,13 @@
  bbm_chassis_2:0 "Корпус ББМ 3"
  bbm_chassis_3:0 "Корпус ББМ 4"
 
+ UKR_tank_equipment_0:0 "Т-55"
+ UKR_tank_equipment_1:0 "Т-64"
+ UKR_tank_equipment_2:0 "Т-72"
+ UKR_tank_equipment_3:0 "Т-80"
+ UKR_tank_equipment_4:0 "Т-84"
+ UKR_tank_equipment_5:0 "БМ «Оплот»"
+
  #btr1_equipment_0:0 "BTR 1"
  #UKR_btr1_equipment_0:0 "BTR-60 1"
  #UKR_btr1_equipment_short:0 "BTR-60 1"

@@ -67,6 +67,26 @@ set_technology = {
 	tech_trucks_3 = 1
 
 	camo_weapons = 1
+
+	#ARMOR
+	tank_chassis = 1
+	tank1_chassis = 1
+	tank2_chassis = 1
+	tank3_chassis = 1
+	tank4_chassis = 1
+	tank5_chassis = 1
+
+	btr1_chassis = 1
+	btr1_1_chassis = 1
+	btr1_2_chassis = 1
+	btr2_chassis = 1
+	btr3_chassis = 1
+
+	armored_vehicle_chassis = 1
+	armored_vehicle_1_chassis = 1
+
+	bbm_chassis = 1
+	bbm_1_chassis = 1
 }
 
 set_politics = {
