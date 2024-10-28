@@ -14,7 +14,7 @@ focus_tree = {
 		id = AZV_batalion_of_azov
 		icon = GFX_focus_AZV_battalion_of_azov
 		cost = 1
-		x = 12
+		x = 16
 		y = 1
 
 		cancel_if_invalid = yes
