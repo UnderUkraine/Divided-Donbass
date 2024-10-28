@@ -276,7 +276,7 @@ technologies = {
 		ai_will_do = {
 			base = 2
 		}
-	}
+	}	
 
 	rpg_weapons = {
 
