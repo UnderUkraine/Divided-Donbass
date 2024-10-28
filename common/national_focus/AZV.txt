@@ -268,96 +268,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_change_commander
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 0
-		y = 1
-		relative_position_id = AZV_transfer_to_NGU
-
-		prerequisite = {focus = AZV_transfer_to_NGU}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_continue_the_course_Biletsky
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 0
-		y = 1
-		relative_position_id = AZV_change_commander
-
-		prerequisite = {focus = AZV_change_commander}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}	
-	focus = {
-		id = AZV_fortification_mariupol
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 0
-		y = 1
-		relative_position_id = AZV_continue_the_course_Biletsky
-
-		prerequisite = {focus = AZV_continue_the_course_Biletsky}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_continue_reorganization
-		icon = GFX_goal_unknown
-		cost = 1
-		x = -1
-		y = 1
-		relative_position_id = AZV_fortification_mariupol
-
-		prerequisite = {focus = AZV_fortification_mariupol}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
-		id = AZV_contract_foreign_volunteer_corps
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 1
-		y = 1
-		relative_position_id = AZV_fortification_mariupol
-
-		prerequisite = {focus = AZV_fortification_mariupol}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#TODO Timed mission
-		}
-	}
-	focus = {
 		id = AZV_weapon_azov
 		icon = GFX_focus_AZV_weapon_azov
 		cost = 1
@@ -528,6 +438,354 @@ focus_tree = {
 		relative_position_id = AZV_anti_tank_company
 
 		prerequisite = {focus = AZV_anti_tank_company}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_change_commander
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+		relative_position_id = AZV_transfer_to_NGU
+
+		prerequisite = {focus = AZV_transfer_to_NGU}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_continue_the_course_Biletsky
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+		relative_position_id = AZV_change_commander
+
+		prerequisite = {focus = AZV_change_commander}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}	
+	focus = {
+		id = AZV_fortification_mariupol
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -3
+		y = 1
+		relative_position_id = AZV_continue_the_course_Biletsky
+
+		prerequisite = {focus = AZV_continue_the_course_Biletsky}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_financi_na_fortificacii
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_fortification_mariupol
+
+		prerequisite = {focus = AZV_fortification_mariupol}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_liniya_zov_pvsh
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_financi_na_fortificacii
+
+		prerequisite = {focus = AZV_financi_na_fortificacii}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_prodolzhit_reorganisation
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+		relative_position_id = AZV_tanks_company
+
+		prerequisite = {focus = AZV_tanks_company}
+		prerequisite = {focus = AZV_anti_aircraft_missile_artillery_division}
+		prerequisite = {focus = AZV_reconnaissance_squad}
+		prerequisite = {focus = AZV_continue_the_course_Biletsky}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}	
+	focus = {
+		id = AZV_voennya_shkola_konovalca_evgeniya
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_prodolzhit_reorganisation
+
+		prerequisite = {focus = AZV_prodolzhit_reorganisation}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_razrabotat_obucheniye
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+
+		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_god_v_dva_mecachya
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_razrabotat_obucheniye
+
+		prerequisite = {focus = AZV_razrabotat_obucheniye}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_kvalificied_serzhant_oficer_sklad
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_god_v_dva_mecachya
+
+		prerequisite = {focus = AZV_god_v_dva_mecachya}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_standarti_nato
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+
+		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_instruktori_nato
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_standarti_nato
+
+		prerequisite = {focus = AZV_standarti_nato}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_pizdezh
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_instruktori_nato
+
+		prerequisite = {focus = AZV_instruktori_nato}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_oper_taktik_podgotovka
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_pizdezh
+
+		prerequisite = {focus = AZV_pizdezh}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_kuzhya_serzhantov
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+
+		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_poligoni_in_kiev
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_kuzhya_serzhantov
+
+		prerequisite = {focus = AZV_kuzhya_serzhantov}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_povish_fiz_pogdotovka
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_poligoni_in_kiev
+
+		prerequisite = {focus = AZV_poligoni_in_kiev}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_intensiv_ognevaya_podgotovka
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		relative_position_id = AZV_povish_fiz_pogdotovka
+
+		prerequisite = {focus = AZV_povish_fiz_pogdotovka}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+		}
+	}
+	focus = {
+		id = AZV_polk_azov_professionali
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+		relative_position_id = AZV_intensiv_ognevaya_podgotovka
+
+		prerequisite = {focus = AZV_intensiv_ognevaya_podgotovka}
+		prerequisite = {focus = AZV_oper_taktik_podgotovka}
+		prerequisite = {focus = AZV_kvalificied_serzhant_oficer_sklad}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

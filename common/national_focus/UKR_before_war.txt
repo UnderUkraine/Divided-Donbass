@@ -268,4 +268,31 @@ focus_tree = {
 			#TODO Add money effect
 		}
 	}
+	focus = {
+		id = UKR_razbombit_mariupol
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+        y = 1
+
+		prerequisite = {focus = UKR_Two_language_state}
+		relative_position_id = UKR_Two_language_state
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			custom_effect_tooltip = UKR_two_language_state_tt
+		}
+	}
 }
