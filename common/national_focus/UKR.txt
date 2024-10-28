@@ -117,10 +117,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -140,10 +136,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -167,10 +159,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -190,10 +178,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -217,10 +201,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -242,9 +222,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -269,10 +246,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -346,10 +319,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -369,10 +338,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -396,10 +361,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -419,10 +380,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -446,10 +403,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -469,10 +422,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -496,10 +445,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -519,10 +464,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -548,10 +489,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -571,10 +508,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -598,10 +531,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -621,10 +550,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -1246,6 +1171,56 @@ focus_tree = {
 		prerequisite = {focus = UKR_verhovniy_gavnokomanduychiy}
 		prerequisite = {focus = UKR_standarti_ucheniy}
 		relative_position_id = UKR_put_standarti_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_pobeda_timoshenko
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = -6
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_petr_poroshenko
+		icon = GFX_focus_UKR_Yanukovich_rule
+		cost = 1
+		x = -12
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
 		
 		ai_will_do = {
 			factor = 1
