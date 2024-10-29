@@ -2391,11 +2391,14 @@ equipments = {
 		archetype = armored_vehicle_chassis
 		priority = 2000
 		module_slots = inherit
-
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
+		maximum_speed = 3
+		build_cost_ic = 10
+		reliability = 0.75
+		armor_value = 35
 	}
 
 	bbm_chassis_1 = {

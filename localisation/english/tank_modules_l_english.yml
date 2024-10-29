@@ -435,7 +435,81 @@
  expanded_fuel_tank_desc:0 "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."
 
  #DIVIDED DONBASS
- btr1_chassis_0:0 "BTR-60"
+ UKR_btr1_chassis_0:0 "BTR-60"
+ RUS_btr1_chassis_0:0 "BTR-60"
+ btr1_chassis_0:0 "APC Chassis"
+
+ UKR_btr1_chassis_1_1:0 "BTR-70"
+ RUS_btr1_chassis_1_1:0 "BTR-70"
+ btr1_chassis_0:0 "APC Chassis"
+
+ UKR_btr1_chassis_1_2:0 "BTR-80"
+ RUS_btr1_chassis_1_2:0 "BTR-80"
+ btr1_chassis_0:0 "APC Chassis"
+
+ UKR_btr2_chassis_0:0 "BTR-3"
+ RUS_btr2_chassis_0:0 "BTR-82"
+ btr1_chassis_0:0 "APC Chassis"
+
+ UKR_btr2_chassis_1:0 "BTR-4 «Bucefal»"
+ RUS_btr2_chassis_1:0 "BTR-K16"
+ btr1_chassis_0:0 "APC Chassis"
+
+ UKR_tank_chassis_0:0 "T-55"
+ RUS_tank_chassis_0:0 "T-55"
+ tank_chassis_0:0 "First generation tank chassis"
+
+ UKR_tank_chassis_1:0 "T-64"
+ RUS_tank_chassis_1:0 "T-64"
+ tank_chassis_1:0 "Second generation tank chassis"
+
+ UKR_tank_chassis_2:0 "T-72"
+ RUS_tank_chassis_2:0 "T-72"
+ tank_chassis_2:0 "Second generation tank chassis"
+
+ UKR_tank_chassis_3:0 "Т-80"
+ RUS_tank_chassis_3:0 "Т-80"
+ tank_chassis_3:0 "Third generation tank chassis"
+
+ UKR_tank_chassis_4:0 "T-84"
+ RUS_tank_chassis_4:0 "T-90"
+ tank_chassis_4:0 "Third generation tank chassis"
+
+ UKR_tank_chassis_5:0 "BM «Oplot»"
+ RUS_tank_chassis_5:0 "T-14 «Armata»"
+ tank_chassis_5:0 "Fourth generation tank chassis"
+
+ UKR_armored_vehicle_chassis_0:0 "Dozor-B"
+ RUS_armored_vehicle_chassis_0:0 "Gaz 3937 «Vodnik»"
+ armored_vehicle_chassis_0:0 "Armored vehicle chassis"
+
+ UKR_armored_vehicle_chassis_1:0 "KrAZ Spartan"
+ RUS_armored_vehicle_chassis_1:0 "Gaz 2330 «Tigr»"
+ armored_vehicle_chassis_1:0 "Armored vehicle chassis"
+
+ UKR_armored_vehicle_chassis_2:0 "Kozak-2"
+ RUS_armored_vehicle_chassis_2:0 "KamAZ-43269 «Vistrel»"
+ armored_vehicle_chassis_2:0 "Armored vehicle chassis"
+
+ UKR_armored_vehicle_chassis_3:0 "Varta"
+ RUS_armored_vehicle_chassis_3:0 "Byran"
+ armored_vehicle_chassis_3:0 "Armored vehicle chassis"
+
+ UKR_armored_vehicle_chassis_4:0 "Novator"
+ RUS_armored_vehicle_chassis_4:0 "KAMAZ 53949 «Linza»"
+ armored_vehicle_chassis_4:0 "Armored vehicle chassis"
+
+ bbm_chassis_0:0 "TBM hull 1"
+ bbm_chassis_1:0 "TBM hull 2"
+ bbm_chassis_2:0 "TBM hull 3"
+ bbm_chassis_3:0 "TBM hull 4"
+
+ UKR_tank_equipment_0:0 "Т-55"
+ UKR_tank_equipment_1:0 "Т-64"
+ UKR_tank_equipment_2:0 "Т-72"
+ UKR_tank_equipment_3:0 "Т-80"
+ UKR_tank_equipment_4:0 "Т-84"
+ UKR_tank_equipment_5:0 "BM «Oplot»"
 
  btr1_equipment_0:0 "BTR 1"
  UKR_btr1_equipment_0:0 "BTR-60 1"
