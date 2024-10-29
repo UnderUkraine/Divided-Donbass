@@ -23,7 +23,7 @@
  UKR_Two_language_state: "Двух язычное государство"
  UKR_Sell_heavy_equipment: "Продать тяжёлое вооружение"
  #После начала войны
- UKR_ato: "АТО"
+ UKR_ato: "Анти Террористическая Операция"
  UKR_information_fronts: "Информационный фронт"
  UKR_Volunteer_formations_spesial_forces_mvs: "Добровольческие формирования МВД"
  UKR_Volunteer_formations: "Добровольческие формирования"
@@ -40,7 +40,8 @@
  UKR_sbu_on_donbass: "СБУ на Донбассе"
  UKR_defence_donbass: "Защита Донбасса"
  UKR_clashes_odessa: "Столкновения в Одессе"
- UKR_deep_all_militsia_on_odessa: "Увеличить контингент полиции в Одессе"
+ UKR_deep_all_militsia_on_odessa: "Увеличить контингент милиции в Одессе"
+ UKR_stabilisation_region: "Стабилизация региона"
  UKR_convocation_nsds: "Созыв СНБО"
  UKR_cold_war: "Холодная война"
  UKR_massive_rivok: "Массивный рывок"

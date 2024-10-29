@@ -23,6 +23,33 @@
  UKR_Two_language_state: "Two language state"
  UKR_Sell_heavy_equipment: "Sell heavy equipment"
 
+ #New government
+ UKR_anarchy_in_goverment: "Anarchy in government!"
+ UKR_destability_on_east: "Destability on east"
+ UKR_annex_crimea: "Annexation of Crimea!"
+ UKR_appel_the_un: "Appel the UN"
+ UKR_resistance_kharkov: "Resistance in Kharkiv"
+ UKR_clashes_odessa: "Clashes in Odessa"
+ UKR_sbu_on_donbass: "SBU on Donbass"
+ UKR_defence_donbass: "Defense of Donbass"
+ UKR_stabilisation_region: "Stabilisation of region"
+ UKR_deep_all_militsia_on_odessa: "Increase militia contingent in the region"
+ UKR_preparing_for_the_inevitable: "Preparing for the inevitable"
+ UKR_convocation_nsds: "Convocation of NSDS"
+ UKR_ato: "Anti Terroristic Operation"
+ UKR_Volunteer_formations: "Volunteer formations"
+ UKR_Volunteer_formations_spesial_forces_mvs: "Volunteer Corps of Special Forces of MIA"
+ UKR_battalion_azov: "Battalion of "Azov""
+ UKR_partial_mobilization: "Partial mobilization"
+ UKR_army_question: "Army question"
+ UKR_buy_weapon: "Deconservation of equipment"
+ UKR_general_staff: "General staff"
+ UKR_massive_rivok: "A massive push"
+ UKR_informations_front: "Information front"
+ UKR_razoblacheniye_feikov: "Exposing the fakes"
+ UKR_operation_contr_razvedki_sbu: "SBU counterintelligence operations"
+ UKR_united_ukraine: "United Ukraine"
+
  ############
  #    AZV   #
  ############

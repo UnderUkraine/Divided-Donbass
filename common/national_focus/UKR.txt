@@ -411,7 +411,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_buy_weapon
+		###Changed to deconservation
+		id = UKR_buy_weapon 
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 2
@@ -917,8 +918,8 @@ focus_tree = {
 		x = -10
 		y = 1
 
-		prerequisite = {focus = UKR_preparing_for_the_inevitable}
-		relative_position_id = UKR_preparing_for_the_inevitable
+		prerequisite = {focus = UKR_convocation_nsds}
+		relative_position_id = UKR_convocation_nsds
 		
 		ai_will_do = {
 			factor = 1
