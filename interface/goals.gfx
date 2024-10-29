@@ -154,7 +154,43 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/RUS/2109159de412bdb2.dds"		
 	}
 	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_dpr"
+		texturefile = "gfx/interface/goals/RUS/59818633ff82f899.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_lpr"
+		texturefile = "gfx/interface/goals/RUS/49b650c5a520c869.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_kpr"
+		texturefile = "gfx/interface/goals/RUS/e9b97947877fb18a.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_opr"
+		texturefile = "gfx/interface/goals/RUS/c2e16db14d5f37f9.dds"		
+	}
+	SpriteType = {
 	    name = "GFX_focus_RUS_russian_spring"
 		texturefile = "gfx/interface/goals/RUS/russian_spring.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_help_peoples_republics"
+		texturefile = "gfx/interface/goals/RUS/7773bbc7509a59fb.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_arms_supply"
+		texturefile = "gfx/interface/goals/RUS/b6e989a8eb182fb3.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_ammunition_supply"
+		texturefile = "gfx/interface/goals/RUS/f7d18d5e679279c1.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_machinery_supply"
+		texturefile = "gfx/interface/goals/RUS/827605c589a92ff4.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_Victory_of_separatists"
+		texturefile = "gfx/interface/goals/RUS/RUS_Victory_of_separatists.dds"		
 	}
 }

@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_support_ideas_of_dpr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_support_ideas_of_dpr
 		cost = 1
 		x = -3
 		y = 1
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_support_ideas_of_lpr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_support_ideas_of_lpr
 		cost = 1
 		x = -1
 		y = 1
@@ -226,7 +226,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_support_ideas_of_kpr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_support_ideas_of_kpr
 		cost = 1
 		x = 1
 		y = 1
@@ -250,7 +250,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_support_ideas_of_opr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_support_ideas_of_opr
 		cost = 1
 		x = 3
 		y = 1
@@ -305,7 +305,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_help_peoples_republics
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_help_peoples_republics
 		cost = 1
 		x = 0
 		y = 1
@@ -330,7 +330,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_ammunition_supply
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_ammunition_supply
 		cost = 1
 		x = -2
 		y = 1
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_machinery_supply
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_machinery_supply
 		cost = 1
 		x = 0
 		y = 1
@@ -380,7 +380,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_arms_supply
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_arms_supply
 		cost = 1
 		x = 2
 		y = 1
@@ -541,7 +541,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_Victory_of_separatists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RUS_Victory_of_separatists
 		cost = 1
 		x = 1
 		y = 1
