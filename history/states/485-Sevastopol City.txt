@@ -1,0 +1,22 @@
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		11399 52128 52137 52138 
+	}
+	history={
+		owner = UKR
+		buildings = {
+
+		}
+		victory_points = {
+			52138 2
+		}
+		add_core_of = UKR
+        add_claim_by = CRI
+	}
+	manpower=393304
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

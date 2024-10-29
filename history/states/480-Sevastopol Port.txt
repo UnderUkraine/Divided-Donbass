@@ -1,0 +1,22 @@
+state={
+	id=480
+	name="STATE_480"
+	provinces={
+		52094 
+	}
+	history={
+		owner = RUS
+		victory_points = {
+			52094 5 
+		}
+		buildings = {
+
+		}
+		add_core_of = CRI
+		add_claim_by = UKR
+	}
+	state_category = rural
+	manpower=100
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
