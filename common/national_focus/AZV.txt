@@ -213,7 +213,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_сhain_of_command
+		id = AZV_change_of_commander
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -221,7 +221,6 @@ focus_tree = {
 		relative_position_id = AZV_cooperation_afu
 
 		prerequisite = {focus = AZV_cooperation_afu}
-		prerequisite = {focus = AZV_ukr_finance}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -237,9 +236,9 @@ focus_tree = {
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_сhain_of_command
+		relative_position_id = AZV_change_of_commander
 
-		prerequisite = {focus = AZV_сhain_of_command}
+		prerequisite = {focus = AZV_change_of_commander}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -452,7 +451,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = AZV_transfer_to_NGU
 
 		prerequisite = {focus = AZV_transfer_to_NGU}
@@ -487,7 +486,7 @@ focus_tree = {
 		id = AZV_fortification_mariupol
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -3
+		x = 0
 		y = 1
 		relative_position_id = AZV_continue_the_course_Biletsky
 
