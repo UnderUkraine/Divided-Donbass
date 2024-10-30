@@ -114,6 +114,21 @@ set_popularities = {
 	neutrality = 45
 }
 
+create_equipment_variant = {
+	name = "test variant"
+	type = tank_chassis_5
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_auto_cannon
+		special_type_slot_1 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_2_chassis_medium"
+}
+
 complete_national_focus = UKR_Yanukovich_rule
 complete_national_focus = UKR_Eurointegration
 complete_national_focus = UKR_Decline_to_sign_agreement

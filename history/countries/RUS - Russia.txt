@@ -77,6 +77,21 @@ set_technology = {
     camo_weapons1 = 1
 }
 
+create_equipment_variant = {
+	name = "БМД 4"
+	type = bbm_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_auto_cannon
+		special_type_slot_1 = tank_anti_armor_atgm_3
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_3_chassis_medium"
+}
+
 set_politics = {
     ruling_party = neutrality
     last_election = "2019.05.20"

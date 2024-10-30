@@ -1492,25 +1492,6 @@ equipments = {
 		}
 	}
 
-	btr1_chassis_1_1 = {
-		abbreviation = "br1_1"
-		derived_variant_name = btr1_equipment_1_1
-		visual_level = 2
-		year = 1959
-		archetype = btr1_chassis
-		parent = btr1_chassis_0
-		priority = 2000
-		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
-		reliability = 1.2
-		armor_value = 75
-		resources = {
-			steel = 2
-			chromium = 1
-		}
-	}
-
 	btr2_chassis = {
 		year = 1922
 		is_archetype = yes
@@ -1535,7 +1516,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_small_main_armament
-					tank_flamethrower
 				}
 			}
 			
@@ -1729,7 +1709,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_small_main_armament
-					tank_flamethrower
 				}
 			}
 			
