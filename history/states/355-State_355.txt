@@ -4,6 +4,10 @@ state={
 	provinces={
 		158 325 447 1290 1375 1569 1792 2359 2558 3389 3892 4013 4064 5600 6893 9055 9127 9259 
 	}
+	history={
+		owner = ROM
+		add_core_of = ROM
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

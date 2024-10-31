@@ -4,6 +4,10 @@ state={
 	provinces={
 		97 128 141 320 409 440 442 477 529 558 624 743 765 775 824 1040 1047 1223 1276 1388 1556 1706 1783 1929 2145 2445 3008 3097 3340 3552 4295 4532 4669 4710 5007 5391 5611 6625 6665 6861 7045 7096 7126 
 	}
+	history={
+		owner = POL
+		add_core_of = POL
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

@@ -4,6 +4,10 @@ state={
 	provinces={
 		241 343 719 801 849 1213 1342 1435 2021 2125 2431 2803 2815 3181 4383 4418 4703 4813 5308 5390 6111 7404 8500 9332 10006 10021 
 	}
+	history={
+		owner = BOR
+		add_core_of = BOR
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
