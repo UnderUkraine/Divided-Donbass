@@ -2,21 +2,9 @@ state={
 	id=274
 	name="STATE_274"
 	provinces={
-		116 274 427 1232 1919 2019 3630 4214 4233 4585 8502 8755 9201 9867 11206 11446 11680 12282 14324 14485 15319 16508 16777 18289 19946 22150 23580 26365 26531 49653 49680 49709 49716 49779 49900 49917 49945 49986 50014 50145 50195 50203 50213 50222 50223 50270 50271 
-	}
-	history = {
-		owner = UKR
-<<<<<<< Updated upstream
-
-=======
-		
->>>>>>> Stashed changes
-		buildings = {
-		}
-		
-		add_core_of = UKR
+		1770 1831 4246 4638 4696 5749 8556 8607 8647 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }

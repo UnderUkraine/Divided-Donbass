@@ -2,19 +2,9 @@ state={
 	id=264
 	name="STATE_264"
 	provinces={
-		14064 15646 49189 49249 
+		238 1497 3306 4964 5263 5936 6769 8444 8472 8482 8513 8532 
 	}
-		
-	history = {
-		owner = RUS
-		
-		buildings = {
-		}
-		
-		add_core_of = RUS
-	}
-    
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }
