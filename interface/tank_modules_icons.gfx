@@ -12,6 +12,10 @@ spriteTypes = {
 		name = "GFX_EMI_tank_anti_armor_atgm_3"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9k111_konkurs.dds"
 	}
+	spriteType = {
+		name = "GFX_EMI_tank_medium_gun_guided_armament_atgm_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bastion.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMI_tank_anti_air_cannon"

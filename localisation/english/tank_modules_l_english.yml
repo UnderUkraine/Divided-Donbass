@@ -514,6 +514,8 @@
  RUS_tank_equipment_5:0 "T-14 «Armata»"
 
  tank_anti_armor_atgm_1:0 "9K11 “Malyutka”"
- tank_anti_armor_atgm_2:0 "9K111-1 “Competition”"
+ tank_anti_armor_atgm_2:0 "9K111-1 “Konkurs”"
  UKR_tank_anti_armor_atgm_3:0 "Stugna-P"
  RUS_tank_anti_armor_atgm_3:0 "9K135 “Kornet”"
+
+ tank_medium_gun_guided_armament_atgm_1: "9K116 “Bastion”"

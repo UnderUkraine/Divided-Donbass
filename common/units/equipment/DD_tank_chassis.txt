@@ -1740,6 +1740,8 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
 				}
 			}
 
@@ -1749,6 +1751,8 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
 				}
 			}
 
@@ -1758,6 +1762,8 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
 				}
 			}
 
@@ -1767,6 +1773,8 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
 				}
 			}
 			

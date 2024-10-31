@@ -51,6 +51,12 @@ technologies = {
 			wet_ammo_storage
 			smoke_launchers
 			expanded_fuel_tank
+			tank_anti_armor_atgm_1
+			tank_anti_armor_atgm_2
+			tank_anti_armor_atgm_3
+			tank_medium_gun_guided_armament_atgm_1
+			tank_medium_gun_guided_armament_atgm_2
+			tank_medium_gun_guided_armament_atgm_3
 		}
 		enable_subunits = {
 			#light_armor

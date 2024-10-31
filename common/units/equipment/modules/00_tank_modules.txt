@@ -616,7 +616,7 @@ equipment_modules = {
 	#ATGM
 	tank_anti_armor_atgm_1 = {
 		abbreviation = "a_atgm1"
-		category = tank_special_module
+		category = tank_atgms_category
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -631,9 +631,9 @@ equipment_modules = {
 	}
 	tank_anti_armor_atgm_2 = {
 		abbreviation = "a_atgm2"
-		category = tank_special_module
+		category = tank_atgms_category
 		sfx = sfx_ui_sd_module_turret
-		parent = tank_anti_armor_atgm_1
+
 		add_stats = {
 			soft_attack = 1
 			defense = 2
@@ -641,16 +641,11 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 1
-		can_convert_from = {
-			module_category = tank_special_module
-			convert_cost_ic = 2
-		}
 	}
 	tank_anti_armor_atgm_3 = {
 		abbreviation = "a_atgm3"
-		category = tank_special_module
+		category = tank_atgms_category
 		sfx = sfx_ui_sd_module_turret
-		parent = tank_anti_armor_atgm_2
 		add_stats = {
 			soft_attack = 1
 			defense = 2
@@ -658,10 +653,19 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 1
-		can_convert_from = {
-			module_category = tank_special_module
-			convert_cost_ic = 2
+	}
+
+	tank_medium_gun_guided_armament_atgm_1 = {
+		abbreviation = "mgg_atgm1"
+		category = tank_mgg_atgms_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			soft_attack = 1
+			defense = 2
+			build_cost_ic = 0.5
 		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
 	}
 
 	###Weapons
