@@ -55,8 +55,10 @@ technologies = {
 			tank_anti_armor_atgm_2
 			tank_anti_armor_atgm_3
 			tank_medium_gun_guided_armament_atgm_1
-			tank_medium_gun_guided_armament_atgm_2
-			tank_medium_gun_guided_armament_atgm_3
+			tank_kontact_1
+			tank_kontact_5
+			tank_dynamic_armor_3
+			tank_dynamic_armor_4
 		}
 		enable_subunits = {
 			#light_armor

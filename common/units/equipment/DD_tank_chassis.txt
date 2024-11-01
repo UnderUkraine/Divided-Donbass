@@ -1742,6 +1742,7 @@ equipments = {
 					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
+					tank_dynamic_armor_category
 				}
 			}
 
@@ -1753,6 +1754,7 @@ equipments = {
 					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
+					tank_dynamic_armor_category
 				}
 			}
 
@@ -1764,6 +1766,7 @@ equipments = {
 					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
+					tank_dynamic_armor_category
 				}
 			}
 
@@ -1775,6 +1778,7 @@ equipments = {
 					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
+					tank_dynamic_armor_category
 				}
 			}
 			
