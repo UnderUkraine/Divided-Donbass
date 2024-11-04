@@ -9,13 +9,25 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9k111_konkurs.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_anti_armor_atgm_3"
+		name = "GFX_UKR_EMI_tank_anti_armor_atgm_3"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9k111_konkurs.dds"
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_medium_gun_guided_armament_atgm_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bastion.dds"
 	}
+	spriteType = {
+		name = "GFX_EMI_tank_atgms_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9K11_MALIUTKA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_mgg_atgms_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bastion.dds"
+		legacy_lazy_load = no
+	}
+
+	#VANILLA
 
 	spriteType = {
 		name = "GFX_EMI_tank_anti_air_cannon"

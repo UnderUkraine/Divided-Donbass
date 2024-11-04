@@ -513,12 +513,41 @@
  RUS_tank_equipment_4:0 "T-90"
  RUS_tank_equipment_5:0 "T-14 «Armata»"
 
+ EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ATGMs"
+ EQ_MOD_CAT_tank_dynamic_armor_category_TITLE:0 "Dynamic armor"
+ EQ_MOD_CAT_tank_mgg_atgms_category_TITLE:0 "Medium gun guided armament"
+ EQ_MOD_CAT_tank_gga_category_TITLE:0 "Gun guided armament"
+ EQ_MOD_CAT_tank_active_defense_category_TITLE:0 "Active defense"
+ EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Passive protection complexes"
+ EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Survivability modules"
+ EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Mine Countermeasures"
+
  tank_anti_armor_atgm_1:0 "9K11 “Malyutka”"
  tank_anti_armor_atgm_2:0 "9K111-1 “Konkurs”"
  UKR_tank_anti_armor_atgm_3:0 "Stugna-P"
  RUS_tank_anti_armor_atgm_3:0 "9K135 “Kornet”"
 
  tank_medium_gun_guided_armament_atgm_1: "9K116 “Bastion”"
+
+ tank_gun_guided_armament_1: "9K119 “Refleks”"
+ tank_gun_guided_armament_ARMATA: "ZUBK21 “Sprinter”"
+
+ tank_active_defense_drozd: "Drozd"
+ tank_active_defense_drozd2: "Drozd-2"
+ tank_active_defense_dozhd: "Dozhd"
+ tank_active_defense_arena: "Arena"
+ UKR_tank_active_defense_5: "Zaslon"
+ RUS_tank_active_defense_5: "Afganit"
+
+ tank_passive_protection_complex_1: "Passive protection complex 1"
+ tank_passive_protection_complex_2: "Passive protection complex 2"
+ tank_passive_protection_complex_3: "Passive protection complex 3"
+ tank_passive_protection_complex_4: "Passive protection complex 4"
+
+ tank_survivability_module_1: "Armor niche"
+ tank_survivability_module_2: "Armored capsule"
+
+ tank_anti_mine_module_1: "Mine trawl"
 
  tank_kontact_1: "Kontact-1"
  tank_kontact_5: "Kontact-5"

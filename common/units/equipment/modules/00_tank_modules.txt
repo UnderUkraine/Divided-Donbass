@@ -69,6 +69,352 @@ equipment_modules = {
 		}
 	}
 
+		#ATGM
+		tank_anti_armor_atgm_1 = {
+			abbreviation = "a_atgm1"
+			category = tank_atgms_category
+			sfx = sfx_ui_sd_module_turret
+	
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			xp_cost = 1
+			multiply_stats = {
+				
+			}
+		}
+		tank_anti_armor_atgm_2 = {
+			abbreviation = "a_atgm2"
+			category = tank_atgms_category
+			sfx = sfx_ui_sd_module_turret
+	
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_anti_armor_atgm_3 = {
+			abbreviation = "a_atgm3"
+			category = tank_atgms_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		#Medium gun guided armament
+	
+		tank_medium_gun_guided_armament_atgm_1 = {
+			abbreviation = "mgg_atgm1"
+			category = tank_mgg_atgms_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		#Guided armament
+	
+		tank_gun_guided_armament_1 = {
+			abbreviation = "gga1"
+			category = tank_gga_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+	
+		tank_gun_guided_armament_ARMATA = {
+			abbreviation = "gga2"
+			category = tank_gga_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+	
+		#Dynamic armor
+	
+		tank_kontact_1 = {
+			abbreviation = "da1"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_kontact_5 = {
+			abbreviation = "da2"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_dynamic_armor_3 = {
+			abbreviation = "da3"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_dynamic_armor_4 = {
+			abbreviation = "da4"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+				#Dynamic armor
+	
+		tank_kontact_1 = {
+			abbreviation = "da1"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_kontact_5 = {
+			abbreviation = "da2"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_dynamic_armor_3 = {
+			abbreviation = "da3"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_dynamic_armor_4 = {
+			abbreviation = "da4"
+			category = tank_dynamic_armor_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		#Active defense
+	
+		tank_active_defense_drozd = {
+			abbreviation = "ad1"
+			category = tank_active_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_active_defense_drozd2 = {
+			abbreviation = "ad2"
+			category = tank_active_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_active_defense_dozhd = {
+			abbreviation = "ad3"
+			category = tank_active_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_active_defense_arena = {
+			abbreviation = "ad4"
+			category = tank_active_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_active_defense_5 = {
+			abbreviation = "ad5"
+			category = tank_active_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		
+		#Passive protection complexes
+	
+		tank_passive_protection_complex_1 = {
+			abbreviation = "cpc1"
+			category = tank_passive_protection_complex_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		tank_passive_protection_complex_2 = {
+			abbreviation = "cpc2"
+			category = tank_passive_protection_complex_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		tank_passive_protection_complex_3 = {
+			abbreviation = "cpc3"
+			category = tank_passive_protection_complex_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		tank_passive_protection_complex_4 = {
+			abbreviation = "cpc4"
+			category = tank_passive_protection_complex_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		#Survivability modules
+	
+		tank_survivability_module_1 = {
+			abbreviation = "sm1"
+			category = tank_survivability_module_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+		tank_survivability_module_2 = {
+			abbreviation = "sm2"
+			category = tank_survivability_module_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		#Mine Countermeasures
+	
+		tank_anti_mine_module_1 = {
+			abbreviation = "am1"
+			category = tank_anti_mine_module_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
 	###Armor Types
 
 	tank_riveted_armor = {
@@ -611,112 +957,6 @@ equipment_modules = {
 		multiply_stats = {
 		}
 
-	}
-
-	#ATGM
-	tank_anti_armor_atgm_1 = {
-		abbreviation = "a_atgm1"
-		category = tank_atgms_category
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		xp_cost = 1
-		multiply_stats = {
-			
-		}
-	}
-	tank_anti_armor_atgm_2 = {
-		abbreviation = "a_atgm2"
-		category = tank_atgms_category
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-	tank_anti_armor_atgm_3 = {
-		abbreviation = "a_atgm3"
-		category = tank_atgms_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-
-	tank_medium_gun_guided_armament_atgm_1 = {
-		abbreviation = "mgg_atgm1"
-		category = tank_mgg_atgms_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-
-	#Dynamic armor
-
-	tank_kontact_1 = {
-		abbreviation = "da1"
-		category = tank_dynamic_armor_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-	tank_kontact_5 = {
-		abbreviation = "da2"
-		category = tank_dynamic_armor_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-	tank_dynamic_armor_3 = {
-		abbreviation = "da3"
-		category = tank_dynamic_armor_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
-	}
-	tank_dynamic_armor_4 = {
-		abbreviation = "da4"
-		category = tank_dynamic_armor_category
-		sfx = sfx_ui_sd_module_turret
-		add_stats = {
-			soft_attack = 1
-			defense = 2
-			build_cost_ic = 0.5
-		}
-		dismantle_cost_ic = 1
-		xp_cost = 1
 	}
 
 	###Weapons
