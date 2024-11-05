@@ -2,11 +2,7 @@ state={
 	id=552
 	name="STATE_552"
 	provinces={
-		381 458 462 682 2978 4881 6720 
-	}
-	history={
-		owner = SER
-		add_core_of = SER
+		4227 4647 4853 5049 5932 6734 14714 14719 14723 14728 14738 
 	}
 	buildings_max_level_factor=1.000
         manpower=1

@@ -2,7 +2,7 @@ state={
 	id=148
 	name="STATE_148"
 	provinces={
-		664 678 3057 5764 6033 7634 7663 
+		866 994 2131 3687 4375 7587 7681 9066 9323 
 	}
 	buildings_max_level_factor=1.000
         manpower=1

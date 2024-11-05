@@ -2,11 +2,7 @@ state={
 	id=500
 	name="STATE_500"
 	provinces={
-		46 50 287 309 364 404 486 670 1417 1432 1485 1663 1710 1868 2280 2380 2579 2855 2963 3246 3347 3621 3948 4157 5126 6186 6252 9809 9810 9918 9948 9980 
-	}
-	history={
-		owner = ROM
-		add_core_of = ROM
+		14836 
 	}
 	buildings_max_level_factor=1.000
         manpower=1

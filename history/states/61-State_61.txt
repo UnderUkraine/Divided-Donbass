@@ -2,11 +2,7 @@ state={
 	id=61
 	name="STATE_61"
 	provinces={
-		348 684 2065 2381 2802 3031 3889 4253 
-	}
-	history={
-		owner = POL
-		add_core_of = POL
+		138 1632 2028 2186 2484 3108 3186 4426 5145 5708 6951 
 	}
 	buildings_max_level_factor=1.000
         manpower=1

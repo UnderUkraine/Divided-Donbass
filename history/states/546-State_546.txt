@@ -2,11 +2,7 @@ state={
 	id=546
 	name="STATE_546"
 	provinces={
-		259 1329 
-	}
-	history={
-		owner = RUS
-		add_core_of = RUS
+		14853 
 	}
 	buildings_max_level_factor=1.000
         manpower=1

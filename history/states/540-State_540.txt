@@ -2,11 +2,7 @@ state={
 	id=540
 	name="STATE_540"
 	provinces={
-		1490 1506 2264 2640 2684 4728 5678 10015 
-	}
-	history={
-		owner = RUS
-		add_core_of = RUS
+		14851 
 	}
 	buildings_max_level_factor=1.000
         manpower=1
