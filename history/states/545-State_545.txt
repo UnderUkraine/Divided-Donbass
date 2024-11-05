@@ -4,6 +4,10 @@ state={
 	provinces={
 		1076 2298 2638 2712 3510 3985 6405 6801 6842 7578 7840 8113 14648 14650 14660 14668 14670 14685 14687 14693 14708 14711 14713 14718 
 	}
+	history={
+		owner = CRI
+		add_core_of = CRI
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
