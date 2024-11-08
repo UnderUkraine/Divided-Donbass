@@ -4,6 +4,10 @@ state={
 	provinces={
 		495 1054 1427 2267 3073 3161 3461 3562 3692 3759 7083 9046 9098 
 	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

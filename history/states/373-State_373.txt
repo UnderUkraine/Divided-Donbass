@@ -4,6 +4,10 @@ state={
 	provinces={
 		1014 2391 3322 6911 7325 13524 
 	}
+	history={
+		owner = MLV
+		add_core_of = MLV
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town

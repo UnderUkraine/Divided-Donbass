@@ -4,6 +4,11 @@ state={
 	provinces={
 		2058 2328 4533 6455 13312 13403 
 	}
+	history={
+		owner = TMR
+		add_core_of = TMR
+                add_claim_by = MLV
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
