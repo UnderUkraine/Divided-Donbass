@@ -26,6 +26,12 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_exit"
+		textureFile = "gfx/interface/main_lobby_button_exit.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
 
 	SpriteType = {
 		name = "GFX_main_lobby_button_highlight"
