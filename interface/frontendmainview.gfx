@@ -8,6 +8,25 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 
+	textSpriteType = {
+		name = "GFX_main_lobby_button_multiplayer"
+		textureFile = "gfx/interface/main_lobby_button_multiplayer.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_singleplayer"
+		textureFile = "gfx/interface/main_lobby_button_singleplayer.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_options"
+		textureFile = "gfx/interface/main_lobby_button_options.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
 	SpriteType = {
 		name = "GFX_main_lobby_button_highlight"
 		textureFile = "gfx/interface/main_lobby_button_transparent.dds"
