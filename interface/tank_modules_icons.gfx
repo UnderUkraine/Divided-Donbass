@@ -1,6 +1,18 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_EMI_tank_gtd_1000_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/gtd_1000.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gtd_1000TF_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/gtd_1000tf.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gtd_1250_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/gtd_1250.dds"
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_anti_armor_atgm_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9K11_MALIUTKA.dds"
 	}
@@ -19,6 +31,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_tank_gun_guided_armament_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9k119_reflex.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_kontact_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/kontakt_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_kontact_5"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/kontakt_5.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_dynamic_armor_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/relikt_nozh.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_dynamic_armor_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/malahit_nozh2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_additional_armor_plates"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/additional_armor_plates.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_anticumulative_grids"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/Anti_cumulative_grids.dds"
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_atgms_category"

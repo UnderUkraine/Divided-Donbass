@@ -467,8 +467,8 @@
  RUS_tank_chassis_2:0 "T-72"
  tank_chassis_2:0 "Second generation tank chassis"
 
- UKR_tank_chassis_3:0 "Т-80"
- RUS_tank_chassis_3:0 "Т-80"
+ UKR_tank_chassis_3:0 "T-80"
+ RUS_tank_chassis_3:0 "T-80"
  tank_chassis_3:0 "Third generation tank chassis"
 
  UKR_tank_chassis_4:0 "T-84"
@@ -504,11 +504,11 @@
  bbm_chassis_2:0 "TBM hull 3"
  bbm_chassis_3:0 "TBM hull 4"
 
- tank_equipment_0:0 "Т-55"
- tank_equipment_1:0 "Т-64"
- tank_equipment_2:0 "Т-72"
- tank_equipment_3:0 "Т-80"
- UKR_tank_equipment_4:0 "Т-84"
+ tank_equipment_0:0 "T-55"
+ tank_equipment_1:0 "T-64"
+ tank_equipment_2:0 "T-72"
+ tank_equipment_3:0 "T-80"
+ UKR_tank_equipment_4:0 "T-84"
  UKR_tank_equipment_5:0 "BM «Oplot»"
  RUS_tank_equipment_4:0 "T-90"
  RUS_tank_equipment_5:0 "T-14 «Armata»"
@@ -516,6 +516,7 @@
  EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ATGMs"
  EQ_MOD_CAT_tank_dynamic_armor_category_TITLE:0 "Dynamic armor"
  EQ_MOD_CAT_tank_mgg_atgms_category_TITLE:0 "Medium gun guided armament"
+ EQ_MOD_CAT_tank_additional_defense_category_TITLE:0 "Additional defense"
  EQ_MOD_CAT_tank_gga_category_TITLE:0 "Gun guided armament"
  EQ_MOD_CAT_tank_active_defense_category_TITLE:0 "Active defense"
  EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Passive protection complexes"
@@ -526,6 +527,9 @@
  tank_anti_armor_atgm_2:0 "9K111-1 “Konkurs”"
  UKR_tank_anti_armor_atgm_3:0 "“Baryer”"
  RUS_tank_anti_armor_atgm_3:0 "9K135 “Kornet”"
+
+ additional_armor_plates:0 "Additional armor plates"
+ anticumulative_grids:0 "Anti-cumulative grids"
 
  tank_medium_gun_guided_armament_atgm_1: "9K116 “Bastion”"
 

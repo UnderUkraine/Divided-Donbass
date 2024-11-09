@@ -21,7 +21,7 @@ equipment_modules = {
 			maximum_speed = 0.25
 		}
 	}
-	tank_gtd_1000T_engine = {
+	tank_gtd_1000TF_engine = {
 		abbreviation = "gtd1000t"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
@@ -190,11 +190,24 @@ equipment_modules = {
 			xp_cost = 1
 		}
 
-				#Dynamic armor
+		#Additional defense
 	
-		tank_kontact_1 = {
-			abbreviation = "da1"
-			category = tank_dynamic_armor_category
+		additional_armor_plates = {
+			abbreviation = "add1"
+			category = tank_additional_defense_category
+			sfx = sfx_ui_sd_module_turret
+			add_stats = {
+				soft_attack = 1
+				defense = 2
+				build_cost_ic = 0.5
+			}
+			dismantle_cost_ic = 1
+			xp_cost = 1
+		}
+
+		anticumulative_grids = {
+			abbreviation = "add2"
+			category = tank_additional_defense_category
 			sfx = sfx_ui_sd_module_turret
 			add_stats = {
 				soft_attack = 1

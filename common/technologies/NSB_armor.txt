@@ -25,11 +25,8 @@ technologies = {
 		enable_equipment_modules = {
 			tank_torsion_bar_suspension
 			tank_riveted_armor
-			tank_gasoline_engine
-			tank_diesel_engine
-			tank_petrol_electric_engine
 			tank_gtd_1000_engine
-			tank_gtd_1000T_engine
+			tank_gtd_1000TF_engine
 			tank_gtd_1250_engine
 			tank_cast_armor
 			tank_christie_suspension
@@ -63,6 +60,8 @@ technologies = {
 			tank_kontact_5
 			tank_dynamic_armor_3
 			tank_dynamic_armor_4
+			additional_armor_plates
+			anticumulative_grids
 			tank_active_defense_drozd
 			tank_active_defense_drozd2
 			tank_active_defense_dozhd

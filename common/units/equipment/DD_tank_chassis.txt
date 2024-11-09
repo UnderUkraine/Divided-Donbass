@@ -1743,6 +1743,7 @@ equipments = {
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
+					tank_additional_defense_category
 					tank_active_defense_category
 					tank_passive_protection_complex_category
 					tank_survivability_module_category
@@ -1760,6 +1761,7 @@ equipments = {
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
+					tank_additional_defense_category
 					tank_active_defense_category
 					tank_passive_protection_complex_category
 					tank_survivability_module_category
@@ -1777,6 +1779,7 @@ equipments = {
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
+					tank_additional_defense_category
 					tank_active_defense_category
 					tank_passive_protection_complex_category
 					tank_survivability_module_category
@@ -1794,6 +1797,7 @@ equipments = {
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
+					tank_additional_defense_category
 					tank_active_defense_category
 					tank_passive_protection_complex_category
 					tank_survivability_module_category
@@ -1803,6 +1807,10 @@ equipments = {
 			}
 			
 		}
+		module_count_limit = {
+			category = tank_additional_defense_category
+			count < 2
+		}	
 		module_count_limit = {
 			category = tank_dynamic_armor_category
 			count < 2

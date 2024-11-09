@@ -447,19 +447,19 @@
 
  UKR_tank_chassis_1:0 "Т-64"
  RUS_tank_chassis_1:0 "Т-64"
- tank_chassis_1:0 "Шасси танка второго поколения"
+ tank_chassis_1:0 "Шасси танка второго поколения 1"
 
  UKR_tank_chassis_2:0 "Т-72"
  RUS_tank_chassis_2:0 "Т-72"
- tank_chassis_2:0 "Шасси танка второго поколения"
+ tank_chassis_2:0 "Шасси танка второго поколения 2"
 
  UKR_tank_chassis_3:0 "Т-80"
  RUS_tank_chassis_3:0 "Т-80"
- tank_chassis_3:0 "Шасси танка третего поколения"
+ tank_chassis_3:0 "Шасси танка третего поколения 1"
 
  UKR_tank_chassis_4:0 "Т-84"
  RUS_tank_chassis_4:0 "Т-90"
- tank_chassis_4:0 "Шасси танка третего поколения"
+ tank_chassis_4:0 "Шасси танка третего поколения 2"
 
  UKR_tank_chassis_5:0 "БМ «Оплот»"
  RUS_tank_chassis_5:0 "Т-14 «Армата»"
@@ -490,18 +490,19 @@
  bbm_chassis_2:0 "Корпус ББМ 3"
  bbm_chassis_3:0 "Корпус ББМ 4"
 
- tank_equipment_0:0 "Т-55"
- tank_equipment_1:0 "Т-64"
- tank_equipment_2:0 "Т-72"
- tank_equipment_3:0 "Т-80"
- UKR_tank_equipment_4:0 "Т-84"
+ tank_equipment_0:0 "T-55"
+ tank_equipment_1:0 "T-64"
+ tank_equipment_2:0 "T-72"
+ tank_equipment_3:0 "T-80"
+ UKR_tank_equipment_4:0 "T-84"
  UKR_tank_equipment_5:0 "БМ «Оплот»"
- RUS_tank_equipment_4:0 "Т-90"
- RUS_tank_equipment_5:0 "Т-14 «Армата»"
+ RUS_tank_equipment_4:0 "T-90"
+ RUS_tank_equipment_5:0 "T-14 «Армата»"
 
  EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ПТРУы"
  EQ_MOD_CAT_tank_dynamic_armor_category_TITLE:0 "Динамическая броня"
  EQ_MOD_CAT_tank_mgg_atgms_category_TITLE:0 "Среднее пушечное управляемое вооружение"
+ EQ_MOD_CAT_tank_additional_defense_category_TITLE:0 "Дополнительная защита"
  EQ_MOD_CAT_tank_active_defense_category_TITLE:0 "Активная защита"
  EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Комплексы пассивной защиты"
  EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Модули повышения живучести"
@@ -509,10 +510,13 @@
 
  tank_anti_armor_atgm_1:0 "9K11 “Малютка”"
  tank_anti_armor_atgm_2:0 "9K111-1 “Конкурс”"
- UKR_tank_anti_armor_atgm_3:0 "Стугна-П"
+ UKR_tank_anti_armor_atgm_3:0 "“Барьер”"
  RUS_tank_anti_armor_atgm_3:0 "9K135 “Корнет”"
 
  tank_medium_gun_guided_armament_atgm_1: "9K116 “Бастион”"
+
+ additional_armor_plates:0 "Дополнительные бронеплиты"
+ anticumulative_grids:0 "Противокумулятивные решетки"
 
  tank_active_defense_drozd: "Дрозд"
  tank_active_defense_drozd2: "Дрозд-2"
