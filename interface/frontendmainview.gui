@@ -288,8 +288,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
-		size = { width = 320 height = 800 }
+		position = { x=0 y =110}
+		size = { width = 320 height = 1100 }
 		Orientation = center_right
 		Origo = center_right		
 
@@ -361,9 +361,9 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16 y = 3000 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_CAREER_PROFILE"
+			position = { x = 120 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_profile"
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -380,9 +380,9 @@ guiTypes = {
 		
 		buttonType = {
 			name = "friends_button"
-			position = { x = 16 y = 3000 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_FRIENDS"
+			position = { x = 16 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_friends"
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -390,9 +390,9 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 3000 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CREDITS"
+			position = {  x = 230 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_credits"	
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -400,7 +400,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 600 }
+			position = { x = 16 y = 880 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -408,10 +408,10 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 3000 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			position = { x = 16 y = 600 }
+			quadTextureSprite ="GFX_main_lobby_button_exit"
 			font = "hoi_24header"			
-			text = "FE_EXIT"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
