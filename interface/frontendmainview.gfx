@@ -32,6 +32,24 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_friends"
+		textureFile = "gfx/interface/main_lobby_button_friends.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_credits"
+		textureFile = "gfx/interface/main_lobby_button_credits.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_main_lobby_button_profile"
+		textureFile = "gfx/interface/main_lobby_button_profile.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
 
 	SpriteType = {
 		name = "GFX_main_lobby_button_highlight"
