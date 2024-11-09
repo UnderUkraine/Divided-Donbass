@@ -28,6 +28,9 @@ technologies = {
 			tank_gasoline_engine
 			tank_diesel_engine
 			tank_petrol_electric_engine
+			tank_gtd_1000_engine
+			tank_gtd_1000T_engine
+			tank_gtd_1250_engine
 			tank_cast_armor
 			tank_christie_suspension
 			tank_bogie_suspension
