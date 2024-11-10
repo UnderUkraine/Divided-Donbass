@@ -26,11 +26,11 @@ ROM = {
 	color = rgb { 252 144 3 }
 	color_ui = rgb { 255 164 46 }
 }
-DNR = {
-	color = rgb { 252 144 3 }
-	color_ui = rgb { 255 164 46 }
+DPR = {
+	color = rgb { 64 23 84 }
+	color_ui = rgb { 64 23 84 }
 }
-LNR = {
+LPR = {
 	color = rgb { 148 1 1 }
 	color_ui = rgb { 138 15 15 }
 }

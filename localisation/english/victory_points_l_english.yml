@@ -1,34 +1,20 @@
 ﻿l_english:
 
+##Ukraine
  #Kyiv
- VICTORY_POINTS_5496: "Kyiv"
+ VICTORY_POINTS_1007: "Kyiv"
+ VICTORY_POINTS_8510: "Obolonskiy raion"
+ VICTORY_POINTS_4769: "Golosiivskiy raion"
+ VICTORY_POINTS_3921: "Troeshyna"
 
- #Odesa
- VICTORY_POINTS_50475: "Odesa"
+##Borispol
+ VICTORY_POINTS_15076: "Borispol"
 
- #Luhansk
-  VICTORY_POINTS_43894: "Luhansk"
-
- #Kharkiv
- VICTORY_POINTS_8722: "Kharkiv"
-
-#Donetsk
- VICTORY_POINTS_26612: "Mariupol"
- VICTORY_POINTS_18092: "Donetsk"
- VICTORY_POINTS_46300: "Makiivka"
-
-#Zaporizhzhya
- VICTORY_POINTS_47117: "Zaporizhzhya"
-
-#Dnipropetrovsk
- VICTORY_POINTS_44237: "Dnipropetrovsk"
-
-
- VICTORY_POINTS_52141: "Energodar"
- VICTORY_POINTS_48302: "Vodiane"
- VICTORY_POINTS_48256: "Kamenka-Dneprovskaya"
- VICTORY_POINTS_52142: "Dneprovka"
- VICTORY_POINTS_22251: "Novovodovanoye"
- VICTORY_POINTS_48532: "Novodneprovka"
- VICTORY_POINTS_52144: "Ivanovka"
- VICTORY_POINTS_52145: "Blagoveshchenka"
+##Moldova
+ VICTORY_POINTS_14052: "Chişinău"
+ VICTORY_POINTS_15077: "Congaz"
+ VICTORY_POINTS_15079: "Beșalma"
+ VICTORY_POINTS_15080: "Comrat"
+ VICTORY_POINTS_15081: "Basarabeasca"
+ VICTORY_POINTS_15082: "Abaclia"
+ VICTORY_POINTS_15083: "Sadaclia"

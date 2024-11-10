@@ -7,6 +7,9 @@ state={
 	history={
 		owner = MLV
 		add_core_of = MLV
+		victory_points = {
+			14052 15
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1
