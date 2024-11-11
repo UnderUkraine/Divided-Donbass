@@ -1,2 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+6006;14234;sea;14864;-1;-1;-1;-1;;AntonovBridge
+2678;14851;sea;14866;-1;-1;-1;-1;;BridgeToTuzla
+14851;2653;sea;14866;-1;-1;-1;-1;CRIMEA_BRIDGE;CrimeanBridge
 -1;-1;;-1;-1;-1;-1;-1;-1
