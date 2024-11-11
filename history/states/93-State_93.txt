@@ -17,7 +17,19 @@ state={
 			4769 10
 		}
 		victory_points = {
-			3921 10
+			6216 10
+		}
+		victory_points = {
+			8522 10
+		}
+		victory_points = {
+			8507 10
+		}
+		victory_points = {
+			2413 10
+		}
+		victory_points = {
+			5288 10
 		}
 	}
 	buildings_max_level_factor=1.000

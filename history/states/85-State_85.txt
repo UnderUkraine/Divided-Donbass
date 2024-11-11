@@ -1,14 +1,41 @@
+
 state={
 	id=85
 	name="STATE_85"
-	provinces={
-		1460 2464 5058 6115 6416 6719 7406 
-	}
+
 	history={
 		owner = UKR
 		add_core_of = UKR
+		victory_points = {
+			15090 5 
+		}
+		victory_points = {
+			15089 5 
+		}
+		victory_points = {
+			15092 5
+		}
+		victory_points = {
+			15093 5 
+		}
+		victory_points = {
+			15094 5 
+		}
+		victory_points = {
+			15088 3 
+		}
+
+		buildings = {
+			air_base = 3
+		}
+
 	}
+
+	provinces={
+		1460 2464 5058 6115 6416 6719 7406 15088 15089 15090 15091 15092 15093 15094
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	state_category=town
+	local_supplies=0.000
 }

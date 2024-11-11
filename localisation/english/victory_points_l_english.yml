@@ -6,9 +6,27 @@
  VICTORY_POINTS_8510: "Obolonskiy raion"
  VICTORY_POINTS_4769: "Golosiivskiy raion"
  VICTORY_POINTS_3921: "Troeshyna"
+ VICTORY_POINTS_6216: "Podilskyi raion"
+ VICTORY_POINTS_8522: "Shevchenkivskyi raion"
+ VICTORY_POINTS_8507: "Sviatoshynskyi raion"
+ VICTORY_POINTS_2413: "Solomianskyi raion"
+ VICTORY_POINTS_6697: "Desnianskyi raion"
+ VICTORY_POINTS_8528: "Dniprovskyi raion"
+ VICTORY_POINTS_3707: "Darnytskyi raion"
+ VICTORY_POINTS_5288: "Pecherskyi raion"
 
-##Borispol
- VICTORY_POINTS_15076: "Borispol"
+##Kyiv Oblast
+ VICTORY_POINTS_15090: "Hostomel"
+ VICTORY_POINTS_15089: "Irpin"
+ VICTORY_POINTS_15092: "Vyshhorod"
+ VICTORY_POINTS_15093: "Bucha"
+ VICTORY_POINTS_15094: "Hostomel Airport"
+ VICTORY_POINTS_15088: "Vasylkiv"
+
+
+#Borispol
+ VICTORY_POINTS_15076: "Borispil"
+ VICTORY_POINTS_15095: "Airport "Boryspil""
 
 ##Moldova
  VICTORY_POINTS_14052: "Chişinău"

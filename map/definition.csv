@@ -5056,7 +5056,7 @@
 5055;247;143;174;land;false;forest;1
 5056;225;176;102;land;false;plains;1
 5057;181;154;208;land;false;plains;1
-5058;186;168;190;land;true;urban;1
+5058;186;168;190;land;true;plains;1
 5059;198;67;251;land;true;urban;1
 5060;183;239;128;land;false;urban;1
 5061;198;254;128;land;false;marsh;1
@@ -15074,13 +15074,23 @@
 15073;13;66;48;lake;false;lakes;0
 15074;27;16;90;lake;false;lakes;0
 15075;7;48;70;lake;false;lakes;0
-15076;211;215;56;land;false;unknown;0
-15077;5;138;207;land;false;unknown;0
-15078;222;16;252;land;false;unknown;0
-15079;91;139;254;land;false;unknown;0
-15080;254;13;144;land;false;unknown;0
-15081;223;61;6;land;false;unknown;0
-15082;75;70;39;land;false;unknown;0
-15083;250;77;82;land;false;unknown;0
-15084;133;231;187;land;false;unknown;0
-15085;189;9;243;land;false;unknown;0
+15076;211;215;56;land;false;urban;0
+15077;5;138;207;land;false;urban;0
+15078;222;16;252;land;false;urban;0
+15079;91;139;254;land;false;urban;0
+15080;254;13;144;land;false;urban;0
+15081;223;61;6;land;false;urban;0
+15082;75;70;39;land;false;urban;0
+15083;250;77;82;land;false;urban;0
+15084;133;231;187;land;false;urban;0
+15085;189;9;243;land;false;urban;0
+15086;179;233;20;land;false;urban;0
+15087;62;194;225;land;false;urban;0
+15088;158;105;39;land;false;urban;0
+15089;184;111;2;land;false;urban;0
+15090;11;178;4;land;false;urban;0
+15091;14;166;15;land;false;urban;0
+15092;242;130;130;land;false;urban;0
+15093;141;81;3;land;false;urban;0
+15094;167;62;162;land;false;urban;0 #TODO Airport prov type
+15095;52;226;31;land;false;urban;0 #TODO Airport prov type
