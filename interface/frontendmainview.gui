@@ -28,14 +28,14 @@ guiTypes = {
 		
 		buttonType =
 		{
-			position = { x = -230 y = 0 }
+			position = { x = -230 y = 1000 }
 			name ="dlc_button"
 			spriteType = "GFX_frontend_banner_dlc018"
 		}
 		
 		iconType = {
 			name = "glowup"
-			position = { x = -50 y = -21 }
+			position = { x = -50 y = 1000 }
 			spriteType = "GFX_spirit_glow"
 			scale = 0.8
 			#hide = yes
@@ -44,7 +44,7 @@ guiTypes = {
 		buttonType = {
 			name = "owned_tick"
 			spriteType = "GFX_BPT_area_defense_setting_tick"
-			position = { x = -6 y = 1 }
+			position = { x = -6 y = 1000 }
 			Orientation = center_left
 			scale = 0.56
 			alwaysTransparent = yes
@@ -54,7 +54,7 @@ guiTypes = {
 		buttonType = {
 			name = "enabled_tick"
 			spriteType = "GFX_general_check"
-			position = { x = 28 y = 24 }
+			position = { x = 28 y = 1000 }
 			Orientation = center_left
 			alwaysTransparent = yes
 		}
@@ -67,7 +67,7 @@ guiTypes = {
 		
 		buttonType =
 		{
-			position = { x = -230 y = 0 }
+			position = { x = -230 y = 1000 }
 			name ="dlc_button"
 			spriteType = "GFX_frontend_banner_dlc018"
 		}
@@ -75,7 +75,7 @@ guiTypes = {
 		buttonType = {
 			name = "owned_tick"
 			spriteType = "GFX_BPT_area_defense_setting_tick"
-			position = { x = -6 y = 1 }
+			position = { x = -6 y = 1000 }
 			Orientation = center_left
 			scale = 0.56
 			alwaysTransparent = yes
@@ -85,7 +85,7 @@ guiTypes = {
 		buttonType = {
 			name = "enabled_tick"
 			spriteType = "GFX_general_check"
-			position = { x = 28 y = 24 }
+			position = { x = 28 y = 1000 }
 			Orientation = center_left
 			alwaysTransparent = yes
 		}
@@ -115,14 +115,26 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=-390 y =170 }
-		orientation = UPPER_RIGHT
-		origo = UPPER_RIGHT
+		position = { x=0 y =0 }
+		orientation = UPPER_LEFT
+		origo = UPPER_LEFT
 		
 		iconType = {
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
 			position = { x= 0 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name ="mod_version_label"
+			position = { x = 90 y = 170 }
+			textureFile = ""
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "0.0.1v Pre-Alpha"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
 		}
 		
 	}
@@ -276,8 +288,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
-		size = { width = 320 height = 435 }
+		position = { x=0 y =110}
+		size = { width = 320 height = 1100 }
 		Orientation = center_right
 		Origo = center_right		
 
@@ -293,20 +305,20 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 16 y = 18 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			position = { x = 16 y = 0 }
+			quadTextureSprite ="GFX_main_lobby_button_singleplayer"
 			font = "hoi_24header"			
-			text = "FE_SINGLE_PLAYER"				
+			#text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
 		}
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
-			quadTextureSprite ="GFX_main_lobby_button"
+			position = { x = 16 y = 200}
+			quadTextureSprite ="GFX_main_lobby_button_multiplayer"
 			font = "hoi_24header"			
-			text = "FE_MULTI_PLAYER"			
+			#text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -321,7 +333,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 350 }
+			position = { x = 35 y = 3000 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -339,9 +351,9 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "OPTIONS"
+			position = { x = 16 y = 400 }
+			quadTextureSprite ="GFX_main_lobby_button_options"	
+			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -349,9 +361,9 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_CAREER_PROFILE"
+			position = { x = 120 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_profile"
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -368,9 +380,9 @@ guiTypes = {
 		
 		buttonType = {
 			name = "friends_button"
-			position = { x = 16 y = 178 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_FRIENDS"
+			position = { x = 16 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_friends"
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -378,9 +390,9 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 218 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CREDITS"
+			position = {  x = 230 y = 800 }
+			quadTextureSprite ="GFX_main_lobby_button_credits"	
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -388,7 +400,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 258 }
+			position = { x = 16 y = 880 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -396,10 +408,10 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 300 }
-			quadTextureSprite ="GFX_main_lobby_button"
+			position = { x = 16 y = 600 }
+			quadTextureSprite ="GFX_main_lobby_button_exit"
 			font = "hoi_24header"			
-			text = "FE_EXIT"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
