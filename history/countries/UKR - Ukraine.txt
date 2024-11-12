@@ -120,6 +120,7 @@ create_equipment_variant = {
 	parent_version = 0
 	modules = {
 		main_armament_slot = tank_auto_cannon
+		armor_type_slot = tank_rolled_homogeneous_armor
 		special_type_slot_1 = tank_anti_armor_atgm_1
 	}
 	upgrades = {

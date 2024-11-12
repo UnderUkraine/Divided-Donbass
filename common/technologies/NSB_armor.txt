@@ -23,12 +23,15 @@ technologies = {
 			tank_chassis_0
 		}
 		enable_equipment_modules = {
+			tank_rolled_homogeneous_armor
+			tank_combination_armor_one
+			tank_combination_armor_two
+			tank_rolled_homogeneous_armor_three
+			
 			tank_torsion_bar_suspension
-			tank_riveted_armor
 			tank_gtd_1000_engine
 			tank_gtd_1000TF_engine
 			tank_gtd_1250_engine
-			tank_cast_armor
 			tank_christie_suspension
 			tank_bogie_suspension
 			tank_interleaved_suspension
@@ -46,7 +49,6 @@ technologies = {
 			tank_super_heavy_four_man_tank_turret
 			tank_super_heavy_three_man_tank_turret
 			tank_modern_tank_turret
-			sloped_armor
 			extra_ammo_storage
 			wet_ammo_storage
 			smoke_launchers

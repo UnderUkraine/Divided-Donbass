@@ -513,6 +513,11 @@
  RUS_tank_equipment_4:0 "T-90"
  RUS_tank_equipment_5:0 "T-14 «Armata»"
 
+ tank_rolled_homogeneous_armor:0 "Rolled homogeneous armor"
+ tank_combination_armor_one:0 "Combination Armor 1"
+ tank_combination_armor_two:0 "Combination Armor 2"
+ tank_rolled_homogeneous_armor_three:0 "Rolled homogeneous armor 3"
+
  EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ATGMs"
  EQ_MOD_CAT_tank_dynamic_armor_category_TITLE:0 "Dynamic armor"
  EQ_MOD_CAT_tank_mgg_atgms_category_TITLE:0 "Medium gun guided armament"
