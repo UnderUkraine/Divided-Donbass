@@ -1028,6 +1028,418 @@ equipment_modules = {
 
 	###Weapons
 
+
+    ##SUPER LIGHT WEAPONS
+	
+	tank_7_62_mm = {
+		abbreviation = "762m"
+		category = tank_super_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_dshk_12_7mm = {
+		abbreviation = "dshk_127m"
+		category = tank_super_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_super_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_nsvt_12_7mm = {
+		abbreviation = "nsvt_127m"
+		category = tank_super_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_super_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_cord_12_7mm_RUSSIA = {
+		abbreviation = "cord_127m"
+		category = tank_super_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_super_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##LIGHT WEAPONS
+
+	tank_kpvt_14_5mm = {
+		abbreviation = "kpvt_145"
+		category = tank_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_30_mm_autocannon_2a42 = {
+		abbreviation = "30mm_autocannon"
+		category = tank_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	
+	tank_30_mm_autocannon_2a42_2 = {
+		abbreviation = "30mm_autocannon_2"
+		category = tank_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_30_mm_autocannon_2a72 = {
+		abbreviation = "30mm_autocannon_2a72"
+		category = tank_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_30_mm_autocannon_2a72_2 = {
+		abbreviation = "30mm_autocannon_2a72_2"
+		category = tank_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##LIGHT ANTI-AIRCRAFT WEAPONS
+
+	tank_23_mm_autocannon_azp_23 = {
+		abbreviation = "23mm_autocannon_azp_23"
+		category = tank_light_anti_aircraft_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_anti_aircraft_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_23_mm_autocannon_azp_23_2 = {
+		abbreviation = "23mm_autocannon_azp_23_2"
+		category = tank_light_anti_aircraft_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_anti_aircraft_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_dual_30mm_2a38 = {
+		abbreviation = "dual_30mm_2a38"
+		category = tank_light_anti_aircraft_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_anti_aircraft_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##MEDIUM WEAPONS
+
+	tank_73mm_weapon_2a28 = {
+		abbreviation = "dual_30mm_2a38"
+		category = tank_medium_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_57mm_autocannon_2a91 = {
+		abbreviation = "57mm_autocannon_2a91"
+		category = tank_medium_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_100mm_weapon_2a29 = {
+		abbreviation = "57mm_autocannon_2a91"
+		category = tank_medium_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##TANK WEAPONS
+
+	tank_125mm_2a46 = {
+		abbreviation = "125mm_2a46"
+		category = tank_tank_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_tank_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_125mm_2a46m_5 = {
+		abbreviation = "125mm_2a46m_5"
+		category = tank_tank_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_tank_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_125mm_2a82_1m = {
+		abbreviation = "125mm_2a82_1m"
+		category = tank_tank_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_tank_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##HEAVY TANK WEAPONS
+
+	tank_152mm_2a83_ARMATA = {
+		abbreviation = "152mm_2a83_ARMATA"
+		category = tank_heavy_tank_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_heavy_tank_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
 	tank_heavy_machine_gun = {
 		abbreviation = "hmg"
 		category = tank_small_main_armament

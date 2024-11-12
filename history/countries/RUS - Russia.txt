@@ -75,6 +75,29 @@ set_technology = {
 
 	camo_weapons = 1
     camo_weapons1 = 1
+
+	#ARMOR
+	tank_chassis = 1
+	tank1_chassis = 1
+	tank2_chassis = 1
+	tank3_chassis = 1
+	tank4_chassis = 1
+	tank5_chassis = 1
+
+	btr1_chassis = 1
+	btr1_1_chassis = 1
+	btr1_2_chassis = 1
+	btr2_chassis = 1
+	btr3_chassis = 1
+
+	armored_vehicle_chassis = 1
+	armored_vehicle_1_chassis = 1
+	armored_vehicle_2_chassis = 1
+
+	bbm_chassis = 1
+	bbm_1_chassis = 1
+	bbm_2_chassis = 1
+	bbm_3_chassis = 1
 }
 
 create_equipment_variant = {
@@ -90,6 +113,20 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_bbm_3_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "T-14 «Армата»"
+	type = tank_chassis_5
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_152mm_2a83_ARMATA
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_RUS_tank_chassis_5_medium"
 }
 
 set_politics = {

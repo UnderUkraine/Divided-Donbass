@@ -455,28 +455,28 @@
  RUS_btr2_chassis_1:0 "BTR-K16"
  btr1_chassis_0:0 "APC Chassis"
 
- UKR_tank_chassis_0:0 "T-55"
- RUS_tank_chassis_0:0 "T-55"
+ UKR_tank_chassis_0:0 "T-55 chassis"
+ RUS_tank_chassis_0:0 "T-55 chassis"
  tank_chassis_0:0 "First generation tank chassis"
 
- UKR_tank_chassis_1:0 "T-64"
- RUS_tank_chassis_1:0 "T-64"
+ UKR_tank_chassis_1:0 "T-64 chassis"
+ RUS_tank_chassis_1:0 "T-64 chassis"
  tank_chassis_1:0 "Second generation tank chassis"
 
- UKR_tank_chassis_2:0 "T-72"
- RUS_tank_chassis_2:0 "T-72"
+ UKR_tank_chassis_2:0 "T-72 chassis"
+ RUS_tank_chassis_2:0 "T-72 chassis"
  tank_chassis_2:0 "Second generation tank chassis"
 
- UKR_tank_chassis_3:0 "T-80"
- RUS_tank_chassis_3:0 "T-80"
+ UKR_tank_chassis_3:0 "T-80 chassis"
+ RUS_tank_chassis_3:0 "T-80 chassis"
  tank_chassis_3:0 "Third generation tank chassis"
 
- UKR_tank_chassis_4:0 "T-84"
- RUS_tank_chassis_4:0 "T-90"
+ UKR_tank_chassis_4:0 "T-84 chassis"
+ RUS_tank_chassis_4:0 "T-90 chassis"
  tank_chassis_4:0 "Third generation tank chassis"
 
- UKR_tank_chassis_5:0 "BM «Oplot»"
- RUS_tank_chassis_5:0 "T-14 «Armata»"
+ UKR_tank_chassis_5:0 "BM «Oplot» chassis"
+ RUS_tank_chassis_5:0 "T-14 «Armata» chassis"
  tank_chassis_5:0 "Fourth generation tank chassis"
 
  UKR_armored_vehicle_chassis_0:0 "Dozor-B"

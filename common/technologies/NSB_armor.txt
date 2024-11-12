@@ -76,6 +76,8 @@ technologies = {
 			tank_survivability_module_1
 			tank_survivability_module_2
 			tank_anti_mine_module_1
+
+			tank_152mm_2a83_ARMATA
 		}
 		enable_subunits = {
 			tank_unit

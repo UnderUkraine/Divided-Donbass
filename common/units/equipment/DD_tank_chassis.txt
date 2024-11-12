@@ -1708,7 +1708,12 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
+					tank_super_light_armament
+					tank_light_armament
+					tank_light_anti_aircraft_armament
+					tank_medium_weapon_armament
+					tank_tank_weapon_armament
+					tank_heavy_tank_weapon_armament
 				}
 			}
 			
@@ -2015,7 +2020,7 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		build_cost_ic = 12
-		maximum_speed = 5
+		maximum_speed = 45
 		reliability = 1.2
 		armor_value = 75
 		manpower = 3
