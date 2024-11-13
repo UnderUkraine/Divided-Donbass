@@ -564,3 +564,38 @@
  UKR_tank_dynamic_armor_4: "Nozh-2"
  RUS_tank_dynamic_armor_3: "Relict"
  RUS_tank_dynamic_armor_4: "Malahit"
+
+ EQ_MOD_CAT_tank_super_light_armament_TITLE:0 "Super light weapons"
+ EQ_MOD_CAT_tank_light_armament_TITLE:0 "Light weapons"
+ EQ_MOD_CAT_tank_light_anti_aircraft_armament_TITLE:0 "Light Anti-Aircraft weapons"
+ EQ_MOD_CAT_tank_medium_weapon_armament_TITLE:0 "Medium weapons"
+ EQ_MOD_CAT_tank_tank_weapon_armament_TITLE:0 "Tank weapons"
+ EQ_MOD_CAT_tank_heavy_tank_weapon_armament_TITLE:0 "Heavy tank weapons"
+
+ tank_7_62_mm: "7.62-mm PKT machine gun"
+ tank_dshk_12_7mm: "12.7-mm DSHK machine gun"
+ tank_nsvt_12_7mm: "12.7-mm NSVT machine gun"
+ tank_cord_12_7mm_RUSSIA: "12.7-mm CORD machine gun"
+
+ tank_kpvt_14_5mm: "14.5-mm KPVT machine gun"
+ tank_30_mm_autocannon_2a42: "30-mm autocannon 2A42"
+ tank_30_mm_autocannon_2a42_2: "30-mm dual autocannons 2A42" ##Тут не точный
+ RUS_tank_30_mm_autocannon_2a72: "30-mm autocannons 2A72"
+ UKR_tank_30_mm_autocannon_2a72: "KBA-2"
+ RUS_tank_30_mm_autocannon_2a72_2: "30-mm dual autocannons 2A72"
+ UKR_tank_30_mm_autocannon_2a72_2: "KBA-2"
+
+ tank_23_mm_autocannon_azp_23: "Dual 23-mm autocannons AZP-23"
+ tank_23_mm_autocannon_azp_23_2: "Quad 23-mm autocannons AZP-23"
+ tank_dual_30mm_2a38: "Dual 30-mm autocannons 2A38"
+
+ tank_73mm_weapon_2a28: "73-mm weapon 2A28"
+ tank_57mm_autocannon_2a91: "57-mm autocannon 2A91"
+ tank_100mm_weapon_2a29: "100-mm weapon 2A29"
+
+ RUS_tank_125mm_2a46: "125-mm weapon 2A46"
+ UKR_tank_125mm_2a46: "KBA-3"
+ tank_125mm_2a46m_5: "125-mm weapon 2A46M-5"
+ tank_125mm_2a82_1m: "125-mm weapon 2A82-1M"
+
+ tank_152mm_2a83_ARMATA: "152-mm weapon 2A83"

@@ -78,6 +78,24 @@ technologies = {
 			tank_anti_mine_module_1
 
 			tank_152mm_2a83_ARMATA
+			tank_125mm_2a82_1m
+			tank_125mm_2a46m_5
+			tank_125mm_2a46
+			tank_100mm_weapon_2a29
+			tank_57mm_autocannon_2a91
+			tank_73mm_weapon_2a28
+			tank_dual_30mm_2a38
+			tank_23_mm_autocannon_azp_23_2
+			tank_23_mm_autocannon_azp_23
+			tank_30_mm_autocannon_2a72_2
+			tank_30_mm_autocannon_2a72
+			tank_30_mm_autocannon_2a42_2
+			tank_30_mm_autocannon_2a42
+			tank_kpvt_14_5mm
+			tank_cord_12_7mm_RUSSIA
+			tank_nsvt_12_7mm
+			tank_dshk_12_7mm
+			tank_7_62_mm
 		}
 		enable_subunits = {
 			tank_unit
