@@ -349,7 +349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_battalion_azov
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_battalion_azov
 		cost = 1
 		x = -2
 		y = 3
@@ -413,7 +413,7 @@ focus_tree = {
 	focus = {
 		###Changed to deconservation
 		id = UKR_buy_weapon 
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_buy_weapon
 		cost = 1
 		x = 2
 		y = 2
@@ -562,7 +562,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_russia_trebuet_perigovori
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = -5
 		y = 1
@@ -587,7 +587,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_minsk_odin
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -612,7 +612,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_proval_minsk_odin
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -637,7 +637,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_minsk_dva
-		icon = GFX_focus_UKR_minsk_dva
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -662,7 +662,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_nashi_utrashennie_zemli
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -687,7 +687,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_narusheniya_minsk_dva
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -712,7 +712,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_cold_war
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -737,7 +737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_bezenchi_s_donbassa
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
@@ -762,7 +762,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_podgotovka_k_activnoy_faze
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -787,7 +787,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_defence_big_city
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -863,7 +863,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_zakupka_tehniki_u_stran_nato
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
@@ -888,7 +888,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_uvelichit_kontingent_voisk_na_donbasse
-		icon = GFX_focus_UKR_ato
+		icon = GFX_goal_unknown
 		cost = 1
 		x = -4
 		y = 1
@@ -913,7 +913,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_vneocheridnie_prezidenstkie_vibori
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
 		cost = 1
 		x = -10
 		y = 1
@@ -938,7 +938,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_vibori_v_verhovnuyu_radu
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -1189,8 +1189,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_pobeda_timoshenko
-		icon = GFX_focus_UKR_Yanukovich_rule
+		id = UKR_yulia_timoshenko
+		icon = GFX_focus_UKR_yulia_timoshenko
 		cost = 1
 		x = -6
 		y = 1
@@ -1215,7 +1215,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_petr_poroshenko
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_petr_poroshenko
 		cost = 1
 		x = -12
 		y = 1

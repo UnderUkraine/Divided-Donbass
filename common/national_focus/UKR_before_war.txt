@@ -49,7 +49,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Decline_to_sign_agreement
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Decline_to_sign_agreement
 		cost = 1
 		x = 0
 		y = 1
@@ -71,7 +71,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Protests_on_streets
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Protests_on_streets
 		cost = 0.2
 		x = 0
 		y = 1
