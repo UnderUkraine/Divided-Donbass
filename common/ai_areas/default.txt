@@ -1,0 +1,59 @@
+areas = {
+	donetsk = {
+        strategic_regions = {
+            4
+            6
+			5
+        }
+    }
+	luhansk = {
+        strategic_regions = {
+            7
+            8
+        }
+    }
+	kharkiv = {
+        strategic_regions = {
+            9
+            10
+        }
+    }
+	zaporizhia = {
+        strategic_regions = {
+            25
+        }
+    }
+	kherson = {
+        strategic_regions = {
+            24
+            23
+        }
+    }
+	odesa = {
+        strategic_regions = {
+			28
+			27
+        }
+    }
+	crimea = {
+        strategic_regions = {
+			2
+        }
+    }
+	ukraine = {
+        strategic_regions = {
+            39
+            41
+			42
+			43
+            37
+			11
+			36
+			26
+			30
+			40
+			38
+			29
+        }
+    }
+}

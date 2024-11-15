@@ -6,7 +6,9 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
-
+		victory_points = {
+			13978 10
+		}
 	}
 
 	provinces={
