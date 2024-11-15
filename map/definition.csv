@@ -15092,5 +15092,6 @@
 15091;14;166;15;land;false;urban;0
 15092;242;130;130;land;false;urban;0
 15093;141;81;3;land;false;urban;0
-15094;167;62;162;land;false;urban;0 #TODO Airport prov type
-15095;52;226;31;land;false;urban;0 #TODO Airport prov type
+15094;167;62;162;land;false;urban;0
+15095;52;226;31;land;false;urban;0
+15096;226;232;60;land;false;plains;0
