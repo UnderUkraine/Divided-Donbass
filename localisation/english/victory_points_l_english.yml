@@ -28,6 +28,25 @@
  VICTORY_POINTS_15076: "Borispil"
  VICTORY_POINTS_15095: "Airport "Boryspil""
 
+##Odesa
+ VICTORY_POINTS_14299: "Odesa"
+
+##Lviv
+ VICTORY_POINTS_9181: "Lviv"
+
+##Ivanofrankivsk
+ VICTORY_POINTS_5307: "Ivanofrankivsk"
+
+##Yzhorod
+ VICTORY_POINTS_946: "Yzhorod"
+
+##Volyn
+ VICTORY_POINTS_2536: "Lutsk"
+ VICTORY_POINTS_5487: "Kovel"
+
+##Rivne
+ VICTORY_POINTS_8482: "Rivne"
+
 ##Donbass
  VICTORY_POINTS_13909: "Stariy Krym"
  VICTORY_POINTS_13992: "Vynogradne"
@@ -40,6 +59,9 @@
  VICTORY_POINTS_13991: "«Azovstal»"
 
  VICTORY_POINTS_13915: "Nikolske"
+
+ VICTORY_POINTS_12880: "Kyrahove"
+ VICTORY_POINTS_12219: "Horlivka"
 
 ##Moldova
  VICTORY_POINTS_14052: "Chişinău"
