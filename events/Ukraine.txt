@@ -50,7 +50,7 @@ country_event = {
 			}
 		}		
 	}	
-} #АНДЕР НЕ ТРОГАЙ БЛЯТЬ, ДАЙ НОРМАЛЬНО ПОРАБОТАТЬ	
+}
 
 #Azov creation
 country_event = {
