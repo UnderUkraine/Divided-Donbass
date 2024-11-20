@@ -1,0 +1,14 @@
+state={
+	id=482
+	name="STATE_482"
+	provinces={
+		867 1914 1971 1978 3673 4035 4633 5425 6073 6170 14298 14345 14389 14414 14438 
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

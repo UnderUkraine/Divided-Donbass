@@ -1,13 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-33583;22775;sea;51875;-1;-1;-1;-1;;KyivBridge
-17958;18912;sea;51875;-1;-1;-1;-1;;KyivBridge2
-508;34234;sea;51875;-1;-1;-1;-1;;KyivBridge3
-30993;30956;sea;51875;-1;-1;-1;-1;;KyivOblastBridge
-51465;51866;sea;51878;-1;-1;-1;-1;;Crimeabridge1
-51866;51508;sea;51878;-1;-1;-1;-1;;Crimeabridge2
-50169;2600;sea;51875;-1;-1;-1;-1;;AntonovBridge
-16975;51844;sea;51875;-1;-1;-1;-1;;BridgeInKhersonkaOblast1
-51844;20654;sea;51875;-1;-1;-1;-1;;BridgeInKhersonkaOblast2
-18598;21470;sea;51875;-1;-1;-1;-1;;BridgeInKirovograd
-41133;40964;sea;51875;-1;-1;-1;-1;;BridgeInKirovograd2
+6006;14234;sea;14864;-1;-1;-1;-1;;AntonovBridge
+2678;14851;sea;14866;-1;-1;-1;-1;;BridgeToTuzla
+14851;2653;sea;14866;-1;-1;-1;-1;CRIMEA_BRIDGE;CrimeanBridge
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -2,9 +2,13 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		577 3218 16366 27551 27552 27553 27554 
+		25 72 109 591 625 1549 2014 2311 2869 3491 4168 6055 6806 8155 8160 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }

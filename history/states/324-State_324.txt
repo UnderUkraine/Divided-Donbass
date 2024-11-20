@@ -2,20 +2,13 @@ state={
 	id=324
 	name="STATE_324"
 	provinces={
-		232 384 795 978 3276 8194 12503 12711 17294 20534 26274 27267 51246 51271 51317 51333 51356 51376 51386 51392 51408 51418 
+		883 2017 2602 3346 3864 5348 5596 6082 6379 12299 12507 12550 12568 
 	}
 	history={
-		owner = CRI
-		buildings = {
-
-		}
-		victory_points = {
-			3276 2
-		}
-		add_core_of = CRI
-
+		owner = UKR
+		add_core_of = UKR
 	}
 	buildings_max_level_factor=1.000
-        manpower=11267
-        state_category = rural
+        manpower=1
+        state_category = town
 }

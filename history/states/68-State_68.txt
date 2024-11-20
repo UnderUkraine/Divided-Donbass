@@ -2,17 +2,13 @@ state={
 	id=68
 	name="STATE_68"
 	provinces={
-		6277 11844 25040 35469 35752 
+		1991 4551 7202 8426 
 	}
-	history = {
+	history={
 		owner = UKR
-		
-		buildings = {
-		}
-		
 		add_core_of = UKR
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }
