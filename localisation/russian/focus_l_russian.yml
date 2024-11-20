@@ -1,4 +1,33 @@
 ﻿l_russian:
+ WHILE_FOCUSING: "При выборе этого фокуса будут следующие эффекты:\n$EFF$"
+ generic_focus: "Национальный фокус"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE: "Эти ветви являются взаимоисключающими."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC: "Взаимоисключающая с"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY: "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT: "В настоящее время фокус не даёт каких-либо эффектов. Изменения политической ситуации в мире могут повлиять на это."
+
+ ############
+ #    RUS   #
+ ############
+
+ RUS_putins_russia: "Россия Путина"
+ RUS_putins_russia_desc: "Россия Путина"
+ RUS_crisis_in_Ukraine: "Кризис в Украине"
+ RUS_crisis_in_Ukraine_desc: "Кризис в Украине"
+ RUS_troops_in_sevastopol_port: "Войска в порту Севастополя"
+ RUS_troops_in_sevastopol_port_desc: "Войска в порту Севастополя"
+ RUS_support_Yanukovich: "Поддержать Януковича"
+ RUS_support_Yanukovich_desc: "Поддержать Януковича"
+ RUS_overthrow_of_Yanukovich: "Свержение Януковича!"
+ RUS_overthrow_of_Yanukovich_desc: "Свержение Януковича!"
+ RUS_crimea_is_russia: "Крым - Россия!"
+ RUS_pro_russian_sentiment_in_Ukraine: "Про-Российские настроения в Украине"
+ RUS_pro_russian_sentiment_in_Ukraine_desc: "Про-Российские настроения в Украине"
+ RUS_support_ideas_of_dpr: "Поддержать идеи Донецкой НР"
+ RUS_support_ideas_of_lpr: "Поддержать идеи Луганской НР"
+ RUS_support_ideas_of_kpr: "Поддержать идеи Харьковской НР"
+ RUS_support_ideas_of_opr: "Поддержать идеи Одесской НР"
+ 
  WHILE_FOCUSING:0 "При сосредоточении на этом будут следующие эффекты::\n$EFF$"
  generic_focus:0 "Национальные Фокусы"
  NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "Фокусы являются взаимоисключающими."

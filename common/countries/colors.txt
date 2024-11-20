@@ -27,8 +27,8 @@ ROM = {
 	color_ui = rgb { 255 164 46 }
 }
 DPR = {
-	color = rgb { 64 23 84 }
-	color_ui = rgb { 64 23 84 }
+	color = rgb { 72 35 102 }
+	color_ui = rgb { 72 35 102 }
 }
 LPR = {
 	color = rgb { 148 1 1 }

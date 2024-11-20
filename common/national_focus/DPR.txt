@@ -1,0 +1,415 @@
+focus_tree = {
+	id = donetsk_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DPR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1000 y = 2000 }
+	
+	focus = {
+		id = DPR_Donbass_will_be_free
+		icon = GFX_focus_DPR_Donbass_will_be_free
+		cost = 1
+		x = 7
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Heroic_militia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Donbass_will_be_free}
+		relative_position_id = DPR_Donbass_will_be_free
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Tank_Battalion_Diesel
+		icon = GFX_focus_DPR_Tank_Battalion_Diesel
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_Heroic_militia}
+		relative_position_id = DPR_Heroic_militia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Strela_ten_division
+		icon = GFX_focus_DPR_Strela_ten_division
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Tank_Battalion_Diesel}
+		relative_position_id = DPR_Tank_Battalion_Diesel
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_battalion_khan
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Strela_ten_division}
+		relative_position_id = DPR_Strela_ten_division
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = DPR_brigada_oplot
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Heroic_militia}
+		relative_position_id = DPR_Heroic_militia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_batalion_somali
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_brigada_oplot}
+		relative_position_id = DPR_brigada_oplot
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_battalion_sparta
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_batalion_somali}
+		relative_position_id = DPR_batalion_somali
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Heroes_of_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_battalion_sparta}
+		prerequisite = {focus = DPR_battalion_khan}
+
+		relative_position_id = DPR_battalion_sparta
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Cooperation_with_peoples_republics
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = DPR_Donbass_will_be_free}
+		relative_position_id = DPR_Donbass_will_be_free
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Defense_of_Donetsk_Citadel
+		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
+		cost = 1
+		x = 4
+		y = 1
+
+		prerequisite = {focus = DPR_Donbass_will_be_free}
+		relative_position_id = DPR_Donbass_will_be_free
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Iron_boundaries
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Defense_of_Donetsk_Citadel}
+		relative_position_id = DPR_Defense_of_Donetsk_Citadel
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Defense_of_cities
+		icon = GFX_focus_DPR_Defense_of_cities
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_Iron_boundaries}
+		relative_position_id = DPR_Iron_boundaries
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Trenching_in_Donetsk_neighborhoods
+		icon = GFX_focus_DPR_Trenching_in_Donetsk_neighborhoods
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Iron_boundaries}
+		relative_position_id = DPR_Iron_boundaries
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		cost = 1
+		x = -1
+		y = 1
+
+        prerequisite = {focus = DPR_Trenching_in_Donetsk_neighborhoods}
+		prerequisite = {focus = DPR_Defense_of_cities}
+
+		relative_position_id = DPR_Trenching_in_Donetsk_neighborhoods
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Diversions_on_the_home_front
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
+		relative_position_id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}	

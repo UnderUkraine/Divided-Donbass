@@ -204,4 +204,104 @@ spriteTypes = {
 	    name = "GFX_focus_AZV_form_base_in_Mariupol"
 		texturefile = "gfx/interface/goals/AZV/AZV_form_base_in_Mariupol.dds"		
 	}
+
+	SpriteType = {
+	    name = "GFX_focus_RUS_putins_russia"
+		texturefile = "gfx/interface/goals/RUS/putinsrussia.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_crisis_in_Ukraine"
+		texturefile = "gfx/interface/goals/RUS/crisisinUkraine.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_troops_in_sevastopol_port"
+		texturefile = "gfx/interface/goals/RUS/troopsinSevastopolport.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_Yanukovich"
+		texturefile = "gfx/interface/goals/RUS/supportyanukovich.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_overthrow_of_Yanukovich"
+		texturefile = "gfx/interface/goals/RUS/overthrowofyanukovich.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_crimea_is_russia"
+		texturefile = "gfx/interface/goals/RUS/crimeaisraska.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_pro_russian_sentiment_in_Ukraine"
+		texturefile = "gfx/interface/goals/RUS/2109159de412bdb2.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_dpr"
+		texturefile = "gfx/interface/goals/RUS/59818633ff82f899.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_lpr"
+		texturefile = "gfx/interface/goals/RUS/49b650c5a520c869.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_kpr"
+		texturefile = "gfx/interface/goals/RUS/e9b97947877fb18a.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_support_ideas_of_opr"
+		texturefile = "gfx/interface/goals/RUS/c2e16db14d5f37f9.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_russian_spring"
+		texturefile = "gfx/interface/goals/RUS/russian_spring.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_help_peoples_republics"
+		texturefile = "gfx/interface/goals/RUS/7773bbc7509a59fb.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_arms_supply"
+		texturefile = "gfx/interface/goals/RUS/b6e989a8eb182fb3.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_ammunition_supply"
+		texturefile = "gfx/interface/goals/RUS/f7d18d5e679279c1.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_machinery_supply"
+		texturefile = "gfx/interface/goals/RUS/827605c589a92ff4.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_RUS_Victory_of_separatists"
+		texturefile = "gfx/interface/goals/RUS/RUS_Victory_of_separatists.dds"		
+	}
+
+	SpriteType = {
+	    name = "GFX_focus_DPR_Donbass_will_be_free"
+		texturefile = "gfx/interface/goals/DPR/DonbasswillbefreeZOV.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_Tank_Battalion_Diesel"
+		texturefile = "gfx/interface/goals/DPR/e22efdb4e1190b8c.dds"		
+	}
+
+	SpriteType = {
+	    name = "GFX_focus_DPR_Defense_of_Donetsk_Citadel"
+		texturefile = "gfx/interface/goals/DPR/bf4593f44be579fb.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_Defense_of_cities"
+		texturefile = "gfx/interface/goals/DPR/city_defense.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_Trenching_in_Donetsk_neighborhoods"
+		texturefile = "gfx/interface/goals/DPR/d7fe7df269100c80.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast"
+		texturefile = "gfx/interface/goals/DPR/dwadadwada.dds"		
+	}
+
+	SpriteType = {
+	    name = "GFX_focus_DPR_Strela_ten_division"
+		texturefile = "gfx/interface/goals/DPR/strela.dds"		
+	}
 }
