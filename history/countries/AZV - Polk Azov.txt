@@ -10,7 +10,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-#recruit_character = victor_yanukovich
+recruit_character = andrii_biletsky
 
 set_popularities = {
 	fascism = 90
