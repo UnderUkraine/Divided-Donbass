@@ -7,7 +7,10 @@ state={
 	history={
 		owner = TMR
 		add_core_of = TMR
-                add_claim_by = MLV
+        add_claim_by = MLV
+		victory_points = {
+			6995 30
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

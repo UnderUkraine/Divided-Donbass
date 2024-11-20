@@ -4,6 +4,10 @@ state={
 	provinces={
 		89 1082 4269 5057 11974 12189 
 	}
+	history={
+		owner = HUN
+		add_core_of = HUN
+	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
