@@ -662,7 +662,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_nashi_utrashennie_zemli
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_nashi_utrashennie_zemli
 		cost = 1
 		x = 0
 		y = 1
@@ -737,7 +737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_bezenchi_s_donbassa
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_bezenchi_s_donbassa
 		cost = 1
 		x = -2
 		y = 1

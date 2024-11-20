@@ -89,6 +89,14 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/ba70361f0ceb4444.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_nashi_utrashennie_zemli"
+	    texturefile = "gfx/interface/goals/UKR/52194f978881513e.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_bezenchi_s_donbassa"
+	    texturefile = "gfx/interface/goals/UKR/d197507510675f4c.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_buy_weapon"
 	    texturefile = "gfx/interface/goals/UKR/deconservation.dds"			
 	}	

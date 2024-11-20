@@ -41,3 +41,5 @@ complete_national_focus = UKR_Decline_to_sign_agreement
 complete_national_focus = UKR_Protests_on_streets
 #complete_national_focus = UKR_Stop_protesters
 complete_national_focus = UKR_Cooperate_with_russia
+complete_national_focus = UKR_Kharkiv_pact
+complete_national_focus = UKR_Sell_heavy_equipment
