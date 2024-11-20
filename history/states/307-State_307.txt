@@ -2,20 +2,13 @@ state={
 	id=307
 	name="STATE_307"
 	provinces={
-		6831 50863 
+		4395 
 	}
 	history={
-		owner = CRI
-		buildings = {
-
-		}
-		victory_points = {
-			50863 2
-		}
-		add_core_of = CRI
-
+		owner = UKR
+		add_core_of = UKR
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }

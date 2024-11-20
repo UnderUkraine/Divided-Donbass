@@ -13,6 +13,14 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/fakeeurointegration.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Decline_to_sign_agreement"
+	    texturefile = "gfx/interface/goals/UKR/6414345e0178fe2f.dds"			
+	}
+	SpriteType = {
+	    name = "GFX_focus_UKR_Protests_on_streets"
+	    texturefile = "gfx/interface/goals/UKR/UKR_Protests_on_streets.dds"			
+	}
+	SpriteType = {
 	    name = "GFX_focus_UKR_Cooperate_with_russia"
 	    texturefile = "gfx/interface/goals/UKR/CooperationWithRussia.dds"			
 	}	
@@ -27,6 +35,70 @@ spriteTypes = {
 	SpriteType = {
 	    name = "GFX_focus_UKR_sbu_on_donbass"
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_stabilisation_region"
+	    texturefile = "gfx/interface/goals/UKR/stabilization_of_region.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_defence_donbass"
+	    texturefile = "gfx/interface/goals/UKR/UKR_defence_donbass.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_deep_all_militsia_on_odessa"
+	    texturefile = "gfx/interface/goals/UKR/UKR_deep_all_militsia_on_odessa.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_preparing_for_the_inevitable"
+	    texturefile = "gfx/interface/goals/UKR/UKR_preparing_for_the_inevitable.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_convocation_nsds"
+	    texturefile = "gfx/interface/goals/UKR/UKR_convocation_nsds.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_resistance_kharkov"
+	    texturefile = "gfx/interface/goals/UKR/5468d96c75282734.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_clashes_odessa"
+	    texturefile = "gfx/interface/goals/UKR/UKR_clashes_odessa.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_army_question"
+	    texturefile = "gfx/interface/goals/UKR/UKR_army_question.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_general_staff"
+	    texturefile = "gfx/interface/goals/UKR/UKR_general_staff.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_informations_front"
+	    texturefile = "gfx/interface/goals/UKR/UKR_informations_front.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_razoblacheniye_feikov"
+	    texturefile = "gfx/interface/goals/UKR/UKR_razoblacheniye_feikov.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_misk_dva"
+	    texturefile = "gfx/interface/goals/UKR/minsk2.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_battalion_azov"
+	    texturefile = "gfx/interface/goals/UKR/ba70361f0ceb4444.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_nashi_utrashennie_zemli"
+	    texturefile = "gfx/interface/goals/UKR/52194f978881513e.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_bezenchi_s_donbassa"
+	    texturefile = "gfx/interface/goals/UKR/d197507510675f4c.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_buy_weapon"
+	    texturefile = "gfx/interface/goals/UKR/deconservation.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_UKR_anarchy_in_goverment"
@@ -45,8 +117,16 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_appel_the_un.dds"			
 	}	
 	SpriteType = {
-	    name = "GFX_focus_UKR_sbu_on_donbass"
-	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
+	    name = "GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori"
+	    texturefile = "gfx/interface/goals/UKR/president_elections_2014.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_petr_poroshenko"
+	    texturefile = "gfx/interface/goals/UKR/petr_poroshenko.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_yulia_timoshenko"
+	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"

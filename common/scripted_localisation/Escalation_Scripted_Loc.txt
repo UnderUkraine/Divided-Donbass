@@ -1,0 +1,14 @@
+defined_text = {
+    name = get_escalation_variable
+	
+    text = {
+        localization_key = "escalation_variable"
+    }
+}
+defined_text = {
+    name = get_weekly_escalation_variable
+	
+    text = {
+        localization_key = "weekly_escalation_variable"
+    }
+}

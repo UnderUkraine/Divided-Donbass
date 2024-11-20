@@ -1,0 +1,10 @@
+Escalation_modifier = {
+	enable = { always = yes }
+	#hidden = no
+	icon = GFX_idea_Escalation_modifier
+	stability_factor = Escalation_stability_factor
+	war_support_factor = Escalation_war_support_factor
+	resistance_growth = Escalation_resistance_growth
+	opinion_gain_monthly_factor = Escalation_opinion_gain_monthly_factor
+	fascism_drift = Escalation_fascism_drift
+}

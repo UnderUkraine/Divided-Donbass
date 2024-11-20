@@ -1,0 +1,58 @@
+ideas = {
+    country = {
+        UKR_protests = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                war_support_factor = -0.2
+				stability_factor = -0.35
+            }
+        }  
+    }    
+    country = {
+        UKR_cooperation_russia = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                #Хер пойми что писать
+            }
+        }  
+    } 
+    country = {
+        UKR_oligarhy_autocraty = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                war_support_factor = -0.1
+				stability_factor = -0.1
+            }
+        }  
+    }    
+}

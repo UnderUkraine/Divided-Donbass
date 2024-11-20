@@ -34,3 +34,178 @@ news_event = {
         }
 	}
 }
+
+# Ukrainian elections Poroshenko victory
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.2.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.2.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+
+# Ukrainian elections Timoshenko victory
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.3.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.3.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+
+# Minsk 1
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.4.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.4.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+
+# Minsk fails
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.5.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.5.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+
+# Minsk 2
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.6.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.6.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}

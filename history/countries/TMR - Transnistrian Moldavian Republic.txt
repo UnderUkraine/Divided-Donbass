@@ -21,4 +21,5 @@ set_popularities = {
 
 add_ideas = {
 	TMR_bad_army
+	TMR_pobeda
 }

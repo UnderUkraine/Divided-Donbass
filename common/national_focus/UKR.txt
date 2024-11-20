@@ -26,7 +26,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-        #Автоскип
+            #Автоскип
+		    add_political_power = -75
 		}
 	}
 	focus = {
@@ -77,12 +78,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.10
+			#TODO -деньги
 		}
 	}
 	focus = {
 		id = UKR_appel_the_un
 		icon = GFX_focus_UKR_appel_the_un
-		cost = 1
+		cost = 0.4
 		x = 0
 		y = 1
 
@@ -94,19 +98,14 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 
 		completion_reward = {
 		}
 	}
 	focus = {
 		id = UKR_resistance_kharkov
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_resistance_kharkov
 		cost = 1
 		x = 0
 		y = 1
@@ -118,10 +117,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -131,7 +126,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_clashes_odessa
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_clashes_odessa
 		cost = 1
 		x = -2
 		y = 1
@@ -141,10 +136,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -168,10 +159,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -181,7 +168,7 @@ focus_tree = {
     }
 	focus = {
 		id = UKR_defence_donbass
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_defence_donbass
 		cost = 1
 		x = 0
 		y = 1
@@ -193,10 +180,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -206,7 +189,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_stabilisation_region
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_stabilisation_region
 		cost = 1
 		x = 0
 		y = 1
@@ -218,10 +201,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -231,7 +210,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_deep_all_militsia_on_odessa
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
 		cost = 1
 		x = 0
 		y = 1
@@ -243,9 +222,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -256,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_preparing_for_the_inevitable
-		icon = GFX_focus_UKR_Yanukovich_rule
+		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 1
 		x = 0
 		y = 1
@@ -272,10 +248,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -284,8 +256,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_soziv_rnbo
-		icon = GFX_focus_UKR_Yanukovich_rule
+		id = UKR_convocation_nsds #СНБО / РНБО
+		icon = GFX_focus_UKR_convocation_nsds
 		cost = 1
 		x = 0
 		y = 1
@@ -315,8 +287,941 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		prerequisite = {focus = UKR_soziv_rnbo}
-		relative_position_id = UKR_soziv_rnbo
+		prerequisite = {focus = UKR_convocation_nsds}
+		relative_position_id = UKR_convocation_nsds
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Volunteer_formations
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Volunteer_formations_spesial_forces_mvs
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 2
+
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_battalion_azov
+		icon = GFX_focus_UKR_battalion_azov
+		cost = 1
+		x = -2
+		y = 3
+
+		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_partial_mobilization
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = -2
+		y = 4
+
+		prerequisite = {focus = UKR_battalion_azov}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_army_question
+		icon = GFX_focus_UKR_army_question
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		###Changed to deconservation
+		id = UKR_buy_weapon 
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 2
+		y = 2
+
+		prerequisite = {focus = UKR_army_question}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_general_staff
+		icon = GFX_focus_UKR_general_staff
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_massive_rivok
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_general_staff}
+		relative_position_id = UKR_ato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_informations_front
+		icon = GFX_focus_UKR_informations_front
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
+		prerequisite = {focus = UKR_buy_weapon}
+		prerequisite = {focus = UKR_massive_rivok}
+		relative_position_id = UKR_general_staff
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_razoblacheniye_feikov
+		icon = GFX_focus_UKR_razoblacheniye_feikov
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_informations_front}
+		relative_position_id = UKR_informations_front
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_operation_contr_razvedki_sbu
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_informations_front}
+		relative_position_id = UKR_informations_front
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_united_ukraine
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = UKR_informations_front}
+		relative_position_id = UKR_informations_front
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_russia_trebuet_perigovori
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -5
+		y = 1
+
+		prerequisite = {focus = UKR_convocation_nsds}
+		relative_position_id = UKR_convocation_nsds
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_minsk_odin
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_russia_trebuet_perigovori}
+		relative_position_id = UKR_russia_trebuet_perigovori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_proval_minsk_odin
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_minsk_odin}
+		relative_position_id = UKR_minsk_odin
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_minsk_dva
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_proval_minsk_odin}
+		relative_position_id = UKR_proval_minsk_odin
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_nashi_utrashennie_zemli
+		icon = GFX_focus_UKR_nashi_utrashennie_zemli
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_minsk_dva}
+		relative_position_id = UKR_minsk_dva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_narusheniya_minsk_dva
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
+		relative_position_id = UKR_nashi_utrashennie_zemli
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_cold_war
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_narusheniya_minsk_dva}
+		relative_position_id = UKR_narusheniya_minsk_dva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_bezenchi_s_donbassa
+		icon = GFX_focus_UKR_bezenchi_s_donbassa
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
+		relative_position_id = UKR_nashi_utrashennie_zemli
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_podgotovka_k_activnoy_faze
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_cold_war}
+		relative_position_id = UKR_cold_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_defence_big_city
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_podgotovka_k_activnoy_faze}
+		relative_position_id = UKR_podgotovka_k_activnoy_faze
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_snizeniye_eskalacii
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_mission_obse_in_donbass}
+		prerequisite = {focus = UKR_stoitelstvo_ukrep_rayonov}
+		relative_position_id = UKR_podgotovka_k_activnoy_faze
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_dialog_s_rf
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_snizeniye_eskalacii}
+		relative_position_id = UKR_snizeniye_eskalacii
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_zakupka_tehniki_u_stran_nato
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_cold_war}
+		relative_position_id = UKR_cold_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_uvelichit_kontingent_voisk_na_donbasse
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -4
+		y = 1
+
+		prerequisite = {focus = UKR_cold_war}
+		relative_position_id = UKR_cold_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_vneocheridnie_prezidenstkie_vibori
+		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
+		cost = 1
+		x = -10
+		y = 1
+
+		prerequisite = {focus = UKR_convocation_nsds}
+		relative_position_id = UKR_convocation_nsds
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_vibori_v_verhovnuyu_radu
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_reform_army
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 12
+		y = 1
+
+		relative_position_id = UKR_appel_the_un
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_put_standarti_nato
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_reform_army}
+		relative_position_id = UKR_reform_army
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_otkaz_ot_soviet_doctrine
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_put_standarti_nato}
+		relative_position_id = UKR_put_standarti_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_equip_army
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_otkaz_ot_soviet_doctrine}
+		relative_position_id = UKR_otkaz_ot_soviet_doctrine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_drg_otradi
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_otkaz_ot_soviet_doctrine}
+		relative_position_id = UKR_otkaz_ot_soviet_doctrine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_vozrozhdehiye_ngu
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_otkaz_ot_soviet_doctrine}
+		relative_position_id = UKR_otkaz_ot_soviet_doctrine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_standarti_ucheniy
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_drg_otradi}
+		prerequisite = {focus = UKR_equip_army}
+		relative_position_id = UKR_drg_otradi
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_verhovniy_gavnokomanduychiy
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 3
+		y = 1
+
+		prerequisite = {focus = UKR_vozrozhdehiye_ngu}
+		prerequisite = {focus = UKR_equip_army}
+		relative_position_id = UKR_drg_otradi
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_standarti_nato
+		icon = GFX_focus_UKR_resistance_kharkov
+		cost = 1
+		x = 0
+		y = 4
+
+		prerequisite = {focus = UKR_verhovniy_gavnokomanduychiy}
+		prerequisite = {focus = UKR_standarti_ucheniy}
+		relative_position_id = UKR_put_standarti_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_yulia_timoshenko
+		icon = GFX_focus_UKR_yulia_timoshenko
+		cost = 1
+		x = -6
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_petr_poroshenko
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -12
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
 		
 		ai_will_do = {
 			factor = 1

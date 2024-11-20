@@ -30,7 +30,7 @@ DPR = {
 	color = rgb { 72 35 102 }
 	color_ui = rgb { 72 35 102 }
 }
-DPR = {
+LPR = {
 	color = rgb { 148 1 1 }
 	color_ui = rgb { 138 15 15 }
 }
@@ -54,15 +54,19 @@ BLR = {
 	color = rgb { 184 184 184 }
 	color_ui = rgb { 184 184 184 }
 }
-SLV = {
-	color = rgb { 25 112 158 }
-	color_ui = rgb { 46 124 166 }
+SLO = {
+	color = rgb { 74 96 130 }
+	color_ui = rgb { 74 96 130 }
 }
 HUN = {
-	color = rgb { 70 120 81 }
-	color_ui = rgb { 70 143 86 }
+	color = rgb {68 117 50}
+	color_ui = rgb {68 117 50}
 }
 SER = {
 	color = rgb { 50 62 102 }
 	color_ui = rgb { 62 77 125 }
+}
+LIT = {
+	color = rgb { 219 219 119 }
+	color_ui = rgb { 255 255 155 }
 }
