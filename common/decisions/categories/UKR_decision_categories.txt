@@ -13,3 +13,66 @@ UKR_Maidan_Support_category = {
 	}
 	scripted_gui = maidan_gui
 }
+
+UKR_Separatists_in_Ukraine = {
+	icon = GFX_gerb_Ukraine_decision
+	picture = GFX_separatists_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+	}
+	scripted_gui = separatists_gui
+}
+
+UKR_buy_equipment = {
+	icon = GFX_icon_of_VSY_decision
+	picture = GFX_buy_equipment_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}
+
+UKR_SBU_operations = {
+	icon = GFX_sbu_icon_decision
+	picture = GFX_separatists_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}
+
+UKR_Escalation = {
+	icon = GFX_gerb_Ukraine_decision
+	#picture = GFX_separatists_background_image
+	priority = 110
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = RUS
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
+	}
+	visible_when_empty = yes
+	visible = {
+		#has_global_flag = UKR_ATO_Started
+	}
+	scripted_gui = escalation_gui
+}

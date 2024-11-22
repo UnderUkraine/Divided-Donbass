@@ -2,17 +2,13 @@ state={
 	id=196
 	name="STATE_196"
 	provinces={
-		3661 6130 8481 8596 12569 13576 14128 14382 16554 25856 26882 45869 45954 45968 46078 46103 46177 46200 46236 46262 46324 46353 46384 46397 46422 46481 46525 46635 46648 46778 47071 
+		408 972 1149 1342 1587 1694 1796 2147 3948 4639 5018 10659 
 	}
-	history = {
-		owner = UKR
-		
-		buildings = {
-		}
-		
-		add_core_of = UKR
+	history={
+		owner = SLO
+		add_core_of = SLO
 	}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = rural
+        state_category = town
 }

@@ -7,7 +7,23 @@ spriteTypes = {
 		textureFile = "gfx/interface/decisions/Maidan_picture.dds"
 	}
 	spriteType = {
+		name = "GFX_separatists_background_image"
+		textureFile = "gfx/interface/decisions/Separatists_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_buy_equipment_background_image"
+		textureFile = "gfx/interface/decisions/Buy_equipment_picture.dds"
+	}
+	spriteType = {
 		name = "GFX_gerb_Ukraine_decision"
 		textureFile = "gfx/interface/decisions/gerb_of_Ukraine.dds"
+	}
+	spriteType = {
+		name = "GFX_sbu_icon_decision"
+		textureFile = "gfx/interface/decisions/sbu_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_of_VSY_decision"
+		textureFile = "gfx/interface/decisions/icon_of_VSY.dds"
 	}
 }

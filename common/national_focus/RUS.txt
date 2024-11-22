@@ -1,0 +1,719 @@
+focus_tree = {
+	id = russia_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3000 y = 1350 }
+
+	focus = {
+		id = RUS_putins_russia
+		icon = GFX_focus_RUS_putins_russia
+		cost = 1
+		x = 10
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_crisis_in_Ukraine
+		icon = GFX_focus_RUS_crisis_in_Ukraine
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_putins_russia}
+		relative_position_id = RUS_putins_russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_troops_in_sevastopol_port
+		icon = GFX_focus_RUS_troops_in_sevastopol_port
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_crisis_in_Ukraine}
+		relative_position_id = RUS_crisis_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_Yanukovich
+		icon = GFX_focus_RUS_support_Yanukovich
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_crisis_in_Ukraine}
+		relative_position_id = RUS_crisis_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_overthrow_of_Yanukovich
+		icon = GFX_focus_RUS_overthrow_of_Yanukovich
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_support_Yanukovich}
+		prerequisite = {focus = RUS_troops_in_sevastopol_port}
+		relative_position_id = RUS_support_Yanukovich
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_crimea_is_russia
+		icon = GFX_focus_RUS_crimea_is_russia
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_overthrow_of_Yanukovich}
+		relative_position_id = RUS_overthrow_of_Yanukovich
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_pro_russian_sentiment_in_Ukraine
+		icon = GFX_focus_RUS_pro_russian_sentiment_in_Ukraine
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_crimea_is_russia}
+		relative_position_id = RUS_crimea_is_russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_dpr
+		icon = GFX_focus_RUS_support_ideas_of_dpr
+		cost = 1
+		x = -3
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_lpr
+		icon = GFX_focus_RUS_support_ideas_of_lpr
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_kpr
+		icon = GFX_focus_RUS_support_ideas_of_kpr
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_support_ideas_of_opr
+		icon = GFX_focus_RUS_support_ideas_of_opr
+		cost = 1
+		x = 3
+		y = 1
+
+		prerequisite = {focus = RUS_pro_russian_sentiment_in_Ukraine}
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_russian_spring
+		icon = GFX_focus_RUS_russian_spring
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {
+			focus = RUS_support_ideas_of_dpr
+			focus = RUS_support_ideas_of_lpr
+			focus = RUS_support_ideas_of_kpr
+			focus = RUS_support_ideas_of_opr
+	    }
+		relative_position_id = RUS_pro_russian_sentiment_in_Ukraine
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = RUS_help_peoples_republics
+		icon = GFX_focus_RUS_help_peoples_republics
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_russian_spring}
+		relative_position_id = RUS_russian_spring
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ammunition_supply
+		icon = GFX_focus_RUS_ammunition_supply
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_machinery_supply
+		icon = GFX_focus_RUS_machinery_supply
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_arms_supply
+		icon = GFX_focus_RUS_arms_supply
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = RUS_help_peoples_republics}
+		relative_position_id = RUS_help_peoples_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Information_propaganda_on_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = RUS_machinery_supply
+		}
+		prerequisite = {
+			focus = RUS_ammunition_supply
+		}
+		prerequisite = {
+			focus = RUS_arms_supply
+		}
+		relative_position_id = RUS_machinery_supply
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Atrocities_of_the_Kiev_regime
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Information_propaganda_on_Donbass}
+		relative_position_id = RUS_Information_propaganda_on_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_volunteers_in_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Russian_instructors
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = RUS_The_war_dragged_on
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_volunteers_in_Donbass}
+		prerequisite = {focus = RUS_Russian_instructors}
+		relative_position_id = RUS_volunteers_in_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = RUS_Victory_of_separatists
+		icon = GFX_focus_RUS_Victory_of_separatists
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_volunteers_in_Donbass}
+		prerequisite = {focus = RUS_Russian_instructors}
+		relative_position_id = RUS_Russian_instructors
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = RUS_Minsk_Protocols
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_The_war_dragged_on}
+		relative_position_id = RUS_The_war_dragged_on
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Ukraine_is_violating_the_treaty
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Minsk_Protocols}
+		relative_position_id = RUS_Minsk_Protocols
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Bring_troops_to_Donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Ukraine_is_violating_the_treaty}
+		relative_position_id = RUS_Ukraine_is_violating_the_treaty
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Roll_back_the_enemy
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Bring_troops_to_Donbass}
+		relative_position_id = RUS_Bring_troops_to_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Minsk_two
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Roll_back_the_enemy}
+		relative_position_id = RUS_Roll_back_the_enemy
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_Russians_are_saved
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = RUS_Minsk_two}
+		relative_position_id = RUS_Minsk_two
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}	

@@ -1,9 +1,0 @@
-on_actions = {
-	on_startup = {
-		effect = {
-			UKR = {
-				set_variable = { show_background = 1 }
-			}
-		}
-	}
-}

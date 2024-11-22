@@ -1,0 +1,13 @@
+scripted_gui = {
+	escalation_gui = {
+		window_name = "escalation_window"
+		context_type = decision_category
+
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		
+		triggers = {
+		}
+	}
+}

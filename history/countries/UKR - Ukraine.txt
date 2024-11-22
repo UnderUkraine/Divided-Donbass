@@ -1,4 +1,4 @@
-﻿#⠀⠀⠀⠀⠀⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⠀⣸⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠀⢻⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⡀⠴⣾⣿⣿⣿⣤⣿⣿⣿⣿⣷⣦⣄⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⠀⠀⣤⣾⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -29,6 +29,7 @@
 #Under & Kalm & Celodojmolvek - first developers of Divided Donbass (DO NOT TOUCH, THIS IS FOR MEMORY)
 
 capital = 59
+capital = 93
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons_2 = 1
@@ -99,6 +100,7 @@ set_politics = {
 load_oob = "UKR_2014"
 
 recruit_character = victor_yanukovich
+recruit_character = alexander_tyrchinov
 
 set_autonomy = {
 	target = CRI
@@ -130,9 +132,17 @@ create_equipment_variant = {
 	icon = "GFX_bbm_2_chassis_medium"
 }
 
+add_ideas = {
+	UKR_oligarhy_autocraty
+	UKR_cooperation_russia
+	UKR_protests
+}
+
 complete_national_focus = UKR_Yanukovich_rule
 complete_national_focus = UKR_Eurointegration
 complete_national_focus = UKR_Decline_to_sign_agreement
 complete_national_focus = UKR_Protests_on_streets
 #complete_national_focus = UKR_Stop_protesters
 complete_national_focus = UKR_Cooperate_with_russia
+complete_national_focus = UKR_Kharkiv_pact
+complete_national_focus = UKR_Sell_heavy_equipment

@@ -1,28 +1,78 @@
 ﻿l_english:
 
+##Ukraine
  #Kyiv
- VICTORY_POINTS_5496: "Kyiv"
+ VICTORY_POINTS_1007: "Kyiv"
+ VICTORY_POINTS_8510: "Obolonskiy raion"
+ VICTORY_POINTS_4769: "Golosiivskiy raion"
+ VICTORY_POINTS_3921: "Troeshyna"
+ VICTORY_POINTS_6216: "Podilskyi raion"
+ VICTORY_POINTS_8522: "Shevchenkivskyi raion"
+ VICTORY_POINTS_8507: "Sviatoshynskyi raion"
+ VICTORY_POINTS_2413: "Solomianskyi raion"
+ VICTORY_POINTS_6697: "Desnianskyi raion"
+ VICTORY_POINTS_8528: "Dniprovskyi raion"
+ VICTORY_POINTS_3707: "Darnytskyi raion"
+ VICTORY_POINTS_5288: "Pecherskyi raion"
 
- #Odesa
- VICTORY_POINTS_50475: "Odesa"
-
- #Luhansk
-  VICTORY_POINTS_43894: "Luhansk"
-
- #Kharkiv
- VICTORY_POINTS_8722: "Kharkiv"
-
-#Donetsk
- VICTORY_POINTS_26612: "Mariupol"
- VICTORY_POINTS_18092: "Donetsk"
- VICTORY_POINTS_46300: "Makiivka"
-
-#Zaporizhzhya
- VICTORY_POINTS_47117: "Zaporizhzhya"
-
-#Dnipropetrovsk
- VICTORY_POINTS_44237: "Dnipropetrovsk"
-
+##Kyiv Oblast
+ VICTORY_POINTS_15090: "Hostomel"
+ VICTORY_POINTS_15089: "Irpin"
+ VICTORY_POINTS_15092: "Vyshhorod"
+ VICTORY_POINTS_15093: "Bucha"
+ VICTORY_POINTS_15094: "Hostomel Airport"
+ VICTORY_POINTS_15088: "Vasylkiv"
 
 
- 
+#Borispol
+ VICTORY_POINTS_15076: "Borispil"
+ VICTORY_POINTS_15095: "Airport "Boryspil""
+
+##Odesa
+ VICTORY_POINTS_14299: "Odesa"
+
+##Lviv
+ VICTORY_POINTS_9181: "Lviv"
+
+##Ivanofrankivsk
+ VICTORY_POINTS_5307: "Ivanofrankivsk"
+
+##Yzhorod
+ VICTORY_POINTS_946: "Yzhorod"
+
+##Volyn
+ VICTORY_POINTS_2536: "Lutsk"
+ VICTORY_POINTS_5487: "Kovel"
+
+##Rivne
+ VICTORY_POINTS_8482: "Rivne"
+
+##Donbass
+ VICTORY_POINTS_13909: "Staryi Krym"
+ VICTORY_POINTS_13992: "Vynohradne"
+ VICTORY_POINTS_13944: "Kalynivka"
+ VICTORY_POINTS_13918: "Sartana"
+ VICTORY_POINTS_14026: "Pokrovske"
+ VICTORY_POINTS_13833: "Khersones"
+ VICTORY_POINTS_13801: "Makedonivka"
+ VICTORY_POINTS_7527: "Kasyanivka"
+ VICTORY_POINTS_13991: "«Azovstal»"
+
+ VICTORY_POINTS_13915: "Nikolske"
+
+ VICTORY_POINTS_12880: "Kyrahove"
+ VICTORY_POINTS_12219: "Horlivka"
+
+##Crimea
+ VICTORY_POINTS_3845: "Evpatoriya"
+
+##Moldova
+ VICTORY_POINTS_14052: "Chişinău"
+ VICTORY_POINTS_15077: "Congaz"
+ VICTORY_POINTS_15079: "Besalma"
+ VICTORY_POINTS_15080: "Comrat"
+ VICTORY_POINTS_15081: "Basarabeasca"
+ VICTORY_POINTS_15082: "Abaclia"
+ VICTORY_POINTS_15083: "Sadaclia"
+
+ VICTORY_POINTS_6995: "Tiraspol"

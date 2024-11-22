@@ -1,20 +1,122 @@
 UKR_Maidan_Support_category = {
-	UKR_TEST = { 
-		priority = 200
-
-		#icon = eng_ally_imperialist_coup
-
-		allowed = {
-			original_tag = UKR
+	yanukovich_overthrow = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 56 #56 to February 26
+		selectable_mission = no
+		available = {
+			victor_yanukovich = {
+				is_country_leader = no
+			}
 		}
-
+		activation = {
+			victor_yanukovich = {
+				is_country_leader = yes
+			}
+		}
 		visible = {
-			
+			victor_yanukovich = {
+				is_country_leader = yes
+			}
 		}
-
-		cost = 0
-
-		complete_effect = {
+		timeout_effect = {
+			country_event = ukraine.2
+			hidden_effect = {
+				set_variable = { UKR_dpr_support = 45 }
+				set_variable = { UKR_lpr_support = 45 }
+				set_variable = { UKR_kpr_support = 35 }
+				set_variable = { UKR_opr_support = 35 }
+			UKR = {
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+				victor_yanukovich = {
+					retire_country_leader = yes
+				}
+				set_politics = {
+				    ruling_party = democratic
+				    elections_allowed = yes
+			    }
+			    UKR = {
+				    load_focus_tree = ukraine_focus
+			    }
+			}
 		}
-	}	
+	}
+}
+}
+
+UKR_Separatists_in_Ukraine = {
+	rebeltion_on_east = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 47 #47 days from Maidan to start of ATO
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		timeout_effect = {
+			clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			set_global_flag = UKR_ATO_Started
+			country_event = super.1
+
+			hidden_effect = {
+				set_variable = { escalation_on_donbass_variable = 35 }
+				set_variable = { escalation_on_donbass_every_week_variable = 1 }
+
+				set_variable = {Escalation_stability_factor = -0.07}
+				set_variable = {Escalation_war_support_factor = 0.07}
+				set_variable = {Escalation_resistance_growth = 0.07}
+				set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+				set_variable = {Escalation_fascism_drift = 0.1}
+				UKR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+			}
+
+			#TODO Separatist begin to rebel
+		}
+	}
+}
+
+UKR_buy_equipment = {
+	UKR_test_1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+}
+
+UKR_SBU_operations = {
+	UKR_SBU_test_1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_sbu_icon_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
 }

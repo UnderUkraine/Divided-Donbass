@@ -29,6 +29,7 @@ country_event = {
 	
 	option = {
 		name = ukraine.2.a
+		complete_national_focus = UKR_anarchy_in_goverment
 	}
 }
 
@@ -47,5 +48,21 @@ country_event = {
 			UKR = {
 				load_focus_tree = ukraine_focus
 			}
+		}		
+	}	
+}
+
+#Azov creation
+country_event = {
+	id = ukraine.4
+	title = ukraine.4.t
+	desc = ukraine.4.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.4.a
+		#TODO Creation of Azov
 	}
 }

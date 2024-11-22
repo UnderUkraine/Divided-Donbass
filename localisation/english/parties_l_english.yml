@@ -50,7 +50,7 @@
  populism: "Populism"
  populism_desc: "A political movement with little clear ideological framework. Populists advocate for policies from across the spectrum that are popular with the electorate or are perceived as at odds with the preferences of the political 'elite.'"
 
- UKR_fascism_party:0 "UNA-UNSO"
- UKR_democratic_party:0 "Blok Petra Poroshenko"
+ UKR_fascism_party:0 "Pravyu Sektor"
+ UKR_democratic_party:0 "Batkivshina"
  UKR_communism_party:0 "CPP"
  UKR_neutrality_party:0 "Partia Regioniv"

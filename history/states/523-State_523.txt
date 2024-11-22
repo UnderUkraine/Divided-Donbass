@@ -1,0 +1,14 @@
+state={
+	id=523
+	name="STATE_523"
+	provinces={
+		4500 4529 4830 5701 5778 6015 6887 7142 7207 7236 14496 14504 14508 14514 14529 14531 14532 14552 14590 
+	}
+	history={
+		owner = CRI
+		add_core_of = CRI
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}
