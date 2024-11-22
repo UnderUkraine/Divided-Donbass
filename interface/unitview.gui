@@ -1789,8 +1789,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "unit_stats_view_subunit_entry"
-		position = { x= 0 y= 0 }
-		size = { width=76 height=53}
+		position = { x=0 y=0}
+		size = { width=76 height=53 }
 		clipping = no
 
 		background = {
@@ -1800,12 +1800,10 @@ guiTypes = {
 
 		iconType = {
 			name = "unit_icon"
-                        spriteType = "GFX_locked_icon"
 			position = { x = 1 y = 12 }
+			spriteType = "GFX_locked_icon"
 			Orientation = CENTER_LOWER
-                        	                             
-			}
-                		
+		}
 	}
 
 	containerWindowType = {
@@ -2075,15 +2073,15 @@ guiTypes = {
 				name = "support_grid"
 				position = { x = 4 y = 78 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 72 height = 42 }
+				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
-                                			
 			}
-                       	gridboxtype = {
+
+			gridboxtype = {
 				name = "regiments_grid"
-				position = { x = 150 y = 78 }
+				position = { x = 110 y = 78 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 72 height = 52 }
+				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -2181,7 +2179,7 @@ guiTypes = {
 			#verticalScrollbar = "right_vertical_slider"
 
 			iconType = {
-				name = "big_unit_template_tab_bg"
+				name = "unit_template_tab_bg"
 				quadTextureSprite ="GFX_unit_stats_template_tab_bg"
 				position = { x= 1 y = 21 }
 				Orientation = "UPPER_LEFT"
