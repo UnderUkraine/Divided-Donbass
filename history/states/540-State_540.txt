@@ -8,6 +8,8 @@ state={
 		owner = UKR
 		add_core_of = UKR
 		add_claim_by = RUS
+
+		set_demilitarized_zone = yes
 	}
 	buildings_max_level_factor=1.000
         manpower=1

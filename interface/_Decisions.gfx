@@ -1,6 +1,3 @@
-#######################################################################
-# Generated using the Plaza Modding Toolkit (PMT)
-#######################################################################
 spriteTypes = {
 	spriteType = {
 		name = "GFX_maidan_background_image"
