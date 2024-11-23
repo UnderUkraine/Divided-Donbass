@@ -9,6 +9,6 @@ state={
 		add_core_of = HUN
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=565326
         state_category = town
 }
