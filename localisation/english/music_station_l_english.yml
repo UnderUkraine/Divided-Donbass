@@ -1,6 +1,15 @@
 ﻿l_english:
-super_station_TITLE:0 "Not Selectable\n§GThank you for using Vanilla Super Events!§!"
-soviet_station_TITLE:0 "Soviet Music"
+  #Stations
+  ukraine_station_TITLE:0 "Ukraine"
+  super_station_TITLE:0 "Not Selectable\n§GThank you for using Vanilla Super Events!§!"
+  soviet_station_TITLE:0 "Soviet Music"
 
-maintheme:0 "I want a change! - Victor Tsoi"
-super_ukr_ato_start:0 "ATO_START"
+  #Music
+  maintheme:0 "I want a change! - Victor Tsoi"
+
+  #UKRAINE
+  zrodilismi_orkestr:0 "Zrodilys my - Orkestr"
+  oyulyzichervonakalina:0 "Oy y lyzi chervona kalyna"
+  tihopriyshov:0 "Tyho priyshov, tyho pishov"
+  orest_lutiy_rosianvdonbasenet:0 "Orest Lutiy - Rosiyan v Donbase net"
+  praviy_sektor_tinaleshehmeniYkraino:0 "Praviy Sektor - You belong to me, Ukraine!"
