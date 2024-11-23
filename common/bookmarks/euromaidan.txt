@@ -27,14 +27,5 @@ bookmarks = {
 
 			}	
 		}
-		"CRI"={
-			history = "CRI_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-
-			}	
-		}
 	}
 }

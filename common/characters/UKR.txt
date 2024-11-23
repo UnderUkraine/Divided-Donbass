@@ -9,7 +9,8 @@ characters = {
 		country_leader = {
 			expire = "1965.1.1"
 			ideology = oligarchism
-			traits = {  
+			traits = {
+				oligarch_avtokrat  
 			}
 		}
 	}

@@ -1,4 +1,6 @@
 ﻿capital = 93
+
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -30,10 +32,14 @@ set_popularities = {
 }
 
 add_ideas = {
+	UKR_protests
 	UKR_oligarhy_autocraty
 	UKR_cooperation_russia
-	UKR_protests
+	UKR_demographic_crisis1
+	UKR_dead_VPK
 }
+
+add_manpower = 20000
 
 complete_national_focus = UKR_Yanukovich_rule
 complete_national_focus = UKR_Eurointegration
