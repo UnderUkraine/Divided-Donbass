@@ -3,13 +3,13 @@ guiTypes = {
 	containerWindowType = {
 		name = "separatists_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 350 }
+		size = { width = 500 height = 330 }
 		orientation = center
 		origo = center 
 
 		instantTextboxType = {
 			name = "dpr_support"
-			position = { x = -110 y = 180 }
+			position = { x = -110 y = 210 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_dpr_support]"
@@ -18,7 +18,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "lpr_support"
-			position = { x = -110 y = 220 }
+			position = { x = -110 y = 240 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_lpr_support]"
@@ -27,7 +27,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "kpr_support"
-			position = { x = -110 y = 260 }
+			position = { x = -110 y = 270 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_kpr_support]"

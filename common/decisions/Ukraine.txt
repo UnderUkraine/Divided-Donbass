@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 1 #56 to February 26
+		days_mission_timeout = 56 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -25,7 +25,7 @@ UKR_Maidan_Support_category = {
 				set_variable = { UKR_dpr_support = 45 }
 				set_variable = { UKR_lpr_support = 45 }
 				set_variable = { UKR_kpr_support = 35 }
-				set_variable = { UKR_opr_support = 35 }
+				set_variable = { UKR_opr_support = 25 }
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
 				victor_yanukovich = {
@@ -48,7 +48,7 @@ UKR_Separatists_in_Ukraine = {
 	rebeltion_on_east = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 1 #47 days from Maidan to start of ATO
+		days_mission_timeout = 47 #47 days from Maidan to start of ATO
 		selectable_mission = no
 		available = {
 			always = no

@@ -1,7 +1,7 @@
 UKR_Maidan_Support_category = {
 	icon = GFX_gerb_Ukraine_decision
 	picture = GFX_maidan_background_image
-	priority = 80
+	priority = 300
 	allowed = {
 		original_tag = UKR
 	}
@@ -17,7 +17,7 @@ UKR_Maidan_Support_category = {
 UKR_Separatists_in_Ukraine = {
 	icon = GFX_gerb_Ukraine_decision
 	picture = GFX_separatists_background_image
-	priority = 100
+	priority = 300
 	allowed = {
 		original_tag = UKR
 	}

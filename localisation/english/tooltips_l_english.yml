@@ -4,6 +4,8 @@
  UKR_start_fake_eurointegration_tt:0 "We will start §B“European integration”§! to §Rappease§! the people."
  UKR_kharkiv_pact_tt:0 "Agreement on the presence of the [RUS.GetFlag]Russian fleet in the bay of §YSevastopol§! will be extended until §Y2017§!"
 
+ russia_invastion_of_crimea_tt:0 "Together with the militia, we will launch an §Roperation to take over [CRI.GetFlag]Crimea§!."
+
  Separatists_support_minus_5_tt:0 "§gSupport of separatists will decrease by §!§O5§!"
  Separatists_support_minus_4_tt:0 "§gSupport of separatists will decrease by §!§O4§!"
  Separatists_support_minus_3_tt:0 "§gSupport of separatists will decrease by §!§O3§!"

@@ -36,7 +36,25 @@ music = {
 	}
 }
 music = {
-	song = "praviy_sektor_tinaleshehmeniYkraino"
+	song = "de_buv_ti"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "ne_zapisyite_v_geroi"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "anastimoza_hrizantemi"
 	chance = {
 		factor = 0
 		modifier = {

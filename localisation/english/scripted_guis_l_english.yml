@@ -4,9 +4,9 @@
  separatists_in_Ukraine_description:0 "After the ouster of President Yanukovych, we faced a new challenge. While Kyiv and the western regions celebrated the victory of the Revolution of Dignity, the eastern regions of the country, particularly Donbas and Crimea, found themselves at the center of a political crisis."
 
  dpr_support_variable:0 "[DPR.GetFlag]Donetsk : §O[?UKR_dpr_support]§!"
- lpr_support_variable:0 "[DPR.GetFlag]Luhansk : §O[?UKR_lpr_support]§!"
- kpr_support_variable:0 "[DPR.GetFlag]Kharkiv : §O[?UKR_kpr_support]§!"
- opr_support_variable:0 "[DPR.GetFlag]Odesa : §O[?UKR_opr_support]§!"
+ lpr_support_variable:0 "[LPR.GetFlag]Luhansk : §O[?UKR_lpr_support]§!"
+ kpr_support_variable:0 "[KPR.GetFlag]Kharkiv : §O[?UKR_kpr_support]§!"
+ opr_support_variable:0 "[OPR.GetFlag]Odesa : §O[?UKR_opr_support]§!"
 
 #Escalation
  escalation_variable:0 "Escalation on Donbass : §O[?escalation_on_donbass_variable]§!"
