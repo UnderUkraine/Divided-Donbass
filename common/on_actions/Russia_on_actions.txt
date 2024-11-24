@@ -1,0 +1,20 @@
+on_actions = {
+	on_capitulation_immediate = {
+		effect = {
+			IF = {
+				limit = {
+					RUS = {
+						has_war_with = CRI
+					}
+				}
+			}
+			RUS = {
+				annex_country = {
+					target = CRI
+				}
+				country_event = russia.2
+				news_event = news.9
+			}
+		}
+	}
+}

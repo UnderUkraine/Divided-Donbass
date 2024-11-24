@@ -39,6 +39,78 @@ country_event = {
 				set_province_controller = 2678
 				transfer_state = 540
 			}
+			news_event = news.8
+		}
+	}
+}
+
+#Annexation
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.2.a
+		add_stability = 0.05
+		add_political_power = 75
+		
+		553 = {
+			add_core_of = RUS
+		}
+		551 = {
+			add_core_of = RUS
+		}
+		559 = {
+			add_core_of = RUS
+		}
+		542 = {
+			add_core_of = RUS
+		}
+		547 = {
+			add_core_of = RUS
+		}
+		528 = {
+			add_core_of = RUS
+		}
+		522 = {
+			add_core_of = RUS
+		}
+		514 = {
+			add_core_of = RUS
+		}
+		502 = {
+			add_core_of = RUS
+		}
+		498 = {
+			add_core_of = RUS
+		}
+		523 = {
+			add_core_of = RUS
+		}
+		526 = {
+			add_core_of = RUS
+		}
+		536 = {
+			add_core_of = RUS
+		}
+		519 = {
+			add_core_of = RUS
+		}
+		545 = {
+			add_core_of = RUS
+		}
+		539 = {
+			add_core_of = RUS
+		}
+		525 = {
+			add_core_of = RUS
+		}
+		517 = {
+			add_core_of = RUS
 		}
 	}
 }
