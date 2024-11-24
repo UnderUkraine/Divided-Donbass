@@ -10,8 +10,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = eugeniu_vasilievici
-
 set_popularities = {
 	democratic = 0
 	fascism = 0
