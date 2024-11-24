@@ -22,12 +22,10 @@
  VICTORY_POINTS_15093: "Bucha"
  VICTORY_POINTS_15094: "Hostomel Airport"
  VICTORY_POINTS_15088: "Vasylkiv"
-
-
-#Borispol
  VICTORY_POINTS_15076: "Borispil"
  VICTORY_POINTS_15095: "Airport "Boryspil""
-
+ VICTORY_POINTS_1718: "Brovary"
+ 
 ##Odesa
  VICTORY_POINTS_14299: "Odesa"
 
@@ -69,6 +67,7 @@
  VICTORY_POINTS_13915: "Mykilske"
  VICTORY_POINTS_6963: "Starodubivka"
  VICTORY_POINTS_13966: "Zakharivka"
+ VICTORY_POINTS_12219: "Horlivka"
 
  VICTORY_POINTS_13978: "Novoazovsk"
  VICTORY_POINTS_13988: "Bezimenne"
@@ -79,7 +78,7 @@
  VICTORY_POINTS_12941: "Marinka"
  VICTORY_POINTS_6124: "Oleksandrivka"
 
- VICTORY_POINTS_12219: "Horlivka"
+ VICTORY_POINTS_2231: "Zaporizhzhia"
 
 # Zaporizhia
 

@@ -1,4 +1,4 @@
 music = {
 	name = "super_start_ato"
-	file = "atostart.ogg"
+	file = "super_events/atostart.ogg"
 }
