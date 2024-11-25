@@ -3,8 +3,8 @@ on_actions = {
 		effect = {
 			IF = {
 				limit = {
-					RUS = {
-						has_war_with = CRI
+					FROM = {
+						tag = CRI
 					}
 				}
 			}
