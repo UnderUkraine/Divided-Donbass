@@ -78,9 +78,149 @@ UKR_Separatists_in_Ukraine = {
 						modifier = Escalation_modifier
 					}
 				}
-			}
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR_dpr_support
+								value = 20
+								compare = greater_than
+							}
+						}
 
-			#TODO Separatist begin to rebel
+						DPR = {
+							set_province_controller = 7663
+							set_province_controller = 4237
+							set_province_controller = 12219
+							set_province_controller = 12200
+							set_province_controller = 12153
+							set_province_controller = 12941
+							set_province_controller = 12912
+							set_province_controller = 12902
+							set_province_controller = 6124
+							set_province_controller = 12988
+
+							set_province_controller = 12788
+							set_province_controller = 12764
+							set_province_controller = 3287
+							set_province_controller = 12894
+							set_province_controller = 12834
+						}
+
+						355 = {
+							add_core_of = DPR
+						}
+						347 = {
+							add_core_of = DPR
+						}
+						375 = {
+							add_core_of = DPR
+						}
+						363 = {
+							add_core_of = DPR
+						}
+						377 = {
+							add_core_of = DPR
+						}
+						332 = {
+							add_core_of = DPR
+						}
+						315 = {
+							add_core_of = DPR
+						}
+						396 = {
+							add_core_of = DPR
+						}
+						422 = {
+							add_core_of = DPR
+						}
+						387 = {
+							add_core_of = DPR
+						}
+						353 = {
+							add_core_of = DPR
+						}
+						336 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+						}
+
+						DPR = {
+							add_dynamic_modifier = {
+								modifier = Escalation_modifier
+							}
+							declare_war_on = {
+								target = UKR
+								type = annex_everything
+							}
+						}
+					}
+
+					#TODO Separatists units
+					activate_mission = luhansk_uprising
+			}
+		}
+	}
+	luhansk_uprising = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 60 #27 april luhansk pr
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		}
+		timeout_effect = {
+			hidden_effect = {
+				LPR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR_lpr_support
+								value = 20
+								compare = greater_than
+							}
+						}
+
+						LPR = {
+							set_province_controller = 11805
+							set_province_controller = 11847
+							set_province_controller = 5683
+							set_province_controller = 11848
+							set_province_controller = 11813
+
+							set_province_controller = 10613
+							set_province_controller = 8086
+							set_province_controller = 10695
+							set_province_controller = 10673
+						}
+
+						304 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+						}
+
+						LPR = {
+							set_capital = {
+								state = 269
+							}
+							declare_war_on = {
+								target = UKR
+								type = annex_everything
+							}
+						}
+					}
+
+					#TODO Separatists units
+			}
 		}
 	}
 }

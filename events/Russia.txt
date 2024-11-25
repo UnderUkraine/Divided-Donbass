@@ -23,11 +23,18 @@ country_event = {
 			CRI = {
 				drop_cosmetic_tag = yes 
 				transfer_state = 553
+				add_ideas = {
+					CRI_russian_invasion
+				}
 			}
 			RUS = {
 				declare_war_on = {
 					type = annex_everything
 					target = CRI
+				}
+				add_timed_idea = {
+					idea = RUS_defense_of_crimea_2014
+					days = 90
 				}
 				set_province_controller = 14681
 				set_province_controller = 3096
@@ -110,6 +117,9 @@ country_event = {
 			add_core_of = RUS
 		}
 		517 = {
+			add_core_of = RUS
+		}
+		543 = {
 			add_core_of = RUS
 		}
 	}

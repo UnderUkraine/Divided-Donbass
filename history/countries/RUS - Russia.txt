@@ -31,7 +31,7 @@
 recruit_character = vladimir_putin
 recruit_character = aleksei_navalniy
 
-capital = 202
+capital = 558
 set_technology = {
     infantry_weapons = 1
 }
@@ -41,6 +41,10 @@ set_politics = {
     last_election = "2019.05.20"
     election_frequency = 48
     elections_allowed = no
+}
+
+add_ideas = {
+    #RUS_defense_of_crimea_2014
 }
 
 set_oob = "RUS_2014"

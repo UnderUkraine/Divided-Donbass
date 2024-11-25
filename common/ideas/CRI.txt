@@ -51,6 +51,23 @@ ideas = {
                 war_support_factor = -0.1
             }
         }  
+        CRI_russian_invasion = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_attack_factor = -0.02
+                surrender_limit = -0.6
+            }
+        }  
         CRI_subject_russia = {
             allowed = {
                 always = yes
