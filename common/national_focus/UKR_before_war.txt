@@ -72,7 +72,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Protests_on_streets
 		icon = GFX_focus_UKR_Protests_on_streets
-		cost = 0.2
+		cost = 20
 		x = 0
 		y = 1
 
@@ -88,34 +88,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Stop_protesters
-		icon = GFX_goal_unknown
-		cost = 20
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_Protests_on_streets}
-		relative_position_id = UKR_Protests_on_streets
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cancelable = no
-
-		completion_reward = {
-			add_political_power = -100
-			custom_effect_tooltip = UKR_stop_protesters_tt
-		}
-	}
-	focus = {
 		id = UKR_Victory_over_protesters
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_Stop_protesters}
-		relative_position_id = UKR_Stop_protesters
+		prerequisite = {focus = UKR_Protests_on_streets}
+		relative_position_id = UKR_Protests_on_streets
 		
 		ai_will_do = {
 			factor = 1
