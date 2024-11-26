@@ -85,7 +85,7 @@ UKR_Separatists_in_Ukraine = {
 					IF = {
 						limit = {
 							check_variable = {
-								var = UKR_dpr_support
+								var = UKR.dpr_support
 								value = 20
 								compare = greater_than
 							}
@@ -355,7 +355,7 @@ UKR_Separatists_in_Ukraine = {
 					IF = {
 						limit = {
 							check_variable = {
-								var = UKR_lpr_support
+								var = UKR.lpr_support
 								value = 20
 								compare = greater_than
 							}

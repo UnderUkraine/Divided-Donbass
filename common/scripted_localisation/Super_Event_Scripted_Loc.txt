@@ -8,11 +8,8 @@ defined_text = {
         }
         localization_key = "sp_event_Ukr_ato_start"
     }
-}
-defined_text = {
-    name = get_super_event_title
-	
-    text = {
+
+	text = {
         trigger = {
             has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
         }
@@ -25,31 +22,18 @@ defined_text = {
     name = get_super_event_remark
 	text = { 
 		trigger = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+		}
+		localization_key = "sp_event_Ukr_yanukovich_overthrow_REMARK"
+	}
+	text = { 
+		trigger = {
 			has_global_flag = UKR_ATO
 		}
 		localization_key = "sp_event_Ukr_ato_start_REMARK"
 	}
 }
-defined_text = {
-    name = get_super_event_remark
-	text = { 
-		trigger = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
-		}
-		localization_key = "sp_event_Ukr_yanukovich_overthrow_REMARK"
-	}
-}
-	
-defined_text = {
-    name = get_super_event_quote
 
-	text = { 
-		trigger = {
-			has_global_flag = UKR_ATO
-		}
-		localization_key = "sp_event_Ukr_ato_start_QUOTE"
-	}
-}
 defined_text = {
     name = get_super_event_quote
 
@@ -58,5 +42,11 @@ defined_text = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
 		}
 		localization_key = "sp_event_Ukr_yanukovich_overthrow_QUOTE"
+	}
+	text = { 
+		trigger = {
+			has_global_flag = UKR_ATO
+		}
+		localization_key = "sp_event_Ukr_ato_start_QUOTE"
 	}
 }
