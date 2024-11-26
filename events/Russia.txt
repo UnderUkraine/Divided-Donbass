@@ -17,6 +17,7 @@ country_event = {
 		name = russia.1.a
 		custom_effect_tooltip = russia_invastion_of_crimea_tt
 		hidden_effect = {
+			set_country_flag = RUS_rush_in_crimea
 			UKR = {
 				end_puppet = CRI
 			}
@@ -66,63 +67,67 @@ country_event = {
 		name = russia.2.a
 		add_stability = 0.05
 		add_political_power = 75
+
+		clr_country_flag = RUS_rush_in_crimea
 		
-		553 = {
-			add_core_of = RUS
-		}
-		551 = {
-			add_core_of = RUS
-		}
-		559 = {
-			add_core_of = RUS
-		}
-		542 = {
-			add_core_of = RUS
-		}
-		547 = {
-			add_core_of = RUS
-		}
-		528 = {
-			add_core_of = RUS
-		}
-		522 = {
-			add_core_of = RUS
-		}
-		514 = {
-			add_core_of = RUS
-		}
-		502 = {
-			add_core_of = RUS
-		}
-		498 = {
-			add_core_of = RUS
-		}
-		523 = {
-			add_core_of = RUS
-		}
-		526 = {
-			add_core_of = RUS
-		}
-		536 = {
-			add_core_of = RUS
-		}
-		519 = {
-			add_core_of = RUS
-		}
-		545 = {
-			add_core_of = RUS
-		}
-		539 = {
-			add_core_of = RUS
-		}
-		525 = {
-			add_core_of = RUS
-		}
-		517 = {
-			add_core_of = RUS
-		}
-		543 = {
-			add_core_of = RUS
+		hidden_effect = {
+			553 = {
+				add_core_of = RUS
+			}
+			551 = {
+				add_core_of = RUS
+			}
+			559 = {
+				add_core_of = RUS
+			}
+			542 = {
+				add_core_of = RUS
+			}
+			547 = {
+				add_core_of = RUS
+			}
+			528 = {
+				add_core_of = RUS
+			}
+			522 = {
+				add_core_of = RUS
+			}
+			514 = {
+				add_core_of = RUS
+			}
+			502 = {
+				add_core_of = RUS
+			}
+			498 = {
+				add_core_of = RUS
+			}
+			523 = {
+				add_core_of = RUS
+			}
+			526 = {
+				add_core_of = RUS
+			}
+			536 = {
+				add_core_of = RUS
+			}
+			519 = {
+				add_core_of = RUS
+			}
+			545 = {
+				add_core_of = RUS
+			}
+			539 = {
+				add_core_of = RUS
+			}
+			525 = {
+				add_core_of = RUS
+			}
+			517 = {
+				add_core_of = RUS
+			}
+			543 = {
+				add_core_of = RUS
+			}
 		}
 	}
 }

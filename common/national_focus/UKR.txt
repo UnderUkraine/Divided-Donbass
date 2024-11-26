@@ -101,6 +101,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 25
 		}
 	}
 	focus = {
@@ -117,11 +118,20 @@ focus_tree = {
 			factor = 1
 		}
 
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.kpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
 		}
 	}
 	focus = {
@@ -143,6 +153,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.opr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
 		}
 	}
 	focus = {
@@ -164,6 +179,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.dpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_donetsk_tt
+			}
+			subtract_from_variable = {
+				var = UKR.lpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_luhansk_tt
+			}
 	    }
     }
 	focus = {
@@ -185,6 +210,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.dpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_donetsk_tt
+			}
+			subtract_from_variable = {
+				var = UKR.lpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_luhansk_tt
+			}
 		}
 	}
 	focus = {
@@ -206,6 +241,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.kpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
 		}
 	}
 	focus = {
@@ -228,6 +268,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.opr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
 		}
 	}
 	focus = {

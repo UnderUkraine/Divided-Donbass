@@ -21,11 +21,11 @@ UKR_Maidan_Support_category = {
 		}
 		timeout_effect = {
 			country_event = ukraine.2
+			set_variable = { UKR.dpr_support = 45 }
+			set_variable = { UKR.lpr_support = 45 }
+			set_variable = { UKR.kpr_support = 35 }
+			set_variable = { UKR.opr_support = 25 }
 			hidden_effect = {
-				set_variable = { UKR_dpr_support = 45 }
-				set_variable = { UKR_lpr_support = 45 }
-				set_variable = { UKR_kpr_support = 35 }
-				set_variable = { UKR_opr_support = 25 }
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
