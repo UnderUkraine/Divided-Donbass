@@ -309,10 +309,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_preparing_for_the_inevitable}
 		relative_position_id = UKR_preparing_for_the_inevitable
-
-		allow_branch = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
-		}
 		
 		ai_will_do = {
 			factor = 1
