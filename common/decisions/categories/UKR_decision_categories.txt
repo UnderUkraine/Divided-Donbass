@@ -72,7 +72,7 @@ UKR_Escalation = {
 	}
 	visible_when_empty = yes
 	visible = {
-		#has_global_flag = UKR_ATO_Started
+		has_global_flag = UKR_ATO_Started
 	}
 	scripted_gui = escalation_gui
 }

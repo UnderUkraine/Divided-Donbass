@@ -9,6 +9,16 @@ defined_text = {
         localization_key = "sp_event_Ukr_ato_start"
     }
 }
+defined_text = {
+    name = get_super_event_title
+	
+    text = {
+        trigger = {
+            has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+        }
+        localization_key = "sp_event_Ukr_yanukovich_overthrow"
+    }
+}
 
 #Remarks
 defined_text = {
@@ -19,10 +29,15 @@ defined_text = {
 		}
 		localization_key = "sp_event_Ukr_ato_start_REMARK"
 	}
-	
-	###############
-	###BOSPHORUS###
-	###############
+}
+defined_text = {
+    name = get_super_event_remark
+	text = { 
+		trigger = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+		}
+		localization_key = "sp_event_Ukr_yanukovich_overthrow_REMARK"
+	}
 }
 	
 defined_text = {
@@ -33,5 +48,15 @@ defined_text = {
 			has_global_flag = UKR_ATO
 		}
 		localization_key = "sp_event_Ukr_ato_start_QUOTE"
+	}
+}
+defined_text = {
+    name = get_super_event_quote
+
+	text = { 
+		trigger = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+		}
+		localization_key = "sp_event_Ukr_yanukovich_overthrow_QUOTE"
 	}
 }

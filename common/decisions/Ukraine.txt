@@ -27,7 +27,8 @@ UKR_Maidan_Support_category = {
 				set_variable = { UKR_kpr_support = 35 }
 				set_variable = { UKR_opr_support = 25 }
 			UKR = {
-				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 				victor_yanukovich = {
 					retire_country_leader = yes
 				}
@@ -39,13 +40,16 @@ UKR_Maidan_Support_category = {
 				    load_focus_tree = ukraine_focus
 			    }
 			}
+			RUS = {
+				country_event = russia.1
+			}
 		}
 	}
 }
 }
 
 UKR_Separatists_in_Ukraine = {
-	rebeltion_on_east = {
+	donetsk_uprising = {
 		icon = mission_icon
 		is_good = yes
 		days_mission_timeout = 47 #47 days from Maidan to start of ATO
@@ -54,13 +58,13 @@ UKR_Separatists_in_Ukraine = {
 			always = no
 		}
 		activation = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 		}
 		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 		}
 		timeout_effect = {
-			clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 			set_global_flag = UKR_ATO_Started
 			country_event = super.1
 
@@ -87,64 +91,227 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 
-						DPR = {
-							set_province_controller = 7663
-							set_province_controller = 4237
-							set_province_controller = 12219
-							set_province_controller = 12200
-							set_province_controller = 12153
-							set_province_controller = 12941
-							set_province_controller = 12912
-							set_province_controller = 12902
-							set_province_controller = 6124
-							set_province_controller = 12988
-
-							set_province_controller = 12788
-							set_province_controller = 12764
-							set_province_controller = 3287
-							set_province_controller = 12894
-							set_province_controller = 12834
-						}
-
 						355 = {
 							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
 						}
 						347 = {
 							add_core_of = DPR
-						}
-						375 = {
-							add_core_of = DPR
-						}
-						363 = {
-							add_core_of = DPR
-						}
-						377 = {
-							add_core_of = DPR
-						}
-						332 = {
-							add_core_of = DPR
-						}
-						315 = {
-							add_core_of = DPR
-						}
-						396 = {
-							add_core_of = DPR
-						}
-						422 = {
-							add_core_of = DPR
-						}
-						387 = {
-							add_core_of = DPR
-						}
-						353 = {
-							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
 						}
 						336 = {
 							add_core_of = DPR
 							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						353 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						369 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+
+						#Cores
+						375 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						363 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						377 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						332 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						315 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						422 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						387 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						301 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						364 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						340 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						356 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						396 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						390 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						405 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						420 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						443 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						359 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						330 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						322 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						289 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						237 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						317 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						310 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						285 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						253 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						272 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						284 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						264 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						259 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						283 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						219 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						439 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
+						}
+						259 = {
+							add_core_of = DPR
+							transfer_state_to = DPR
+							set_state_controller_to = UKR
 						}
 
 						DPR = {
+							set_province_controller = 7663
+							set_province_controller = 4104
+							set_province_controller = 12834
+							set_province_controller = 4237
+							set_province_controller = 12873
+							set_province_controller = 12893
+
+							set_province_controller = 12788
+							set_province_controller = 3287
+							set_province_controller = 12764
+
+							set_province_controller = 12219
+							set_province_controller = 12168
+							set_province_controller = 12200
+							set_province_controller = 12153
+
+							set_province_controller = 6124
+							set_province_controller = 12988
+							set_province_controller = 13022
+
+							set_province_controller = 12941
+
+							set_province_controller = 12502
+						}
+
+						DPR = {
+							create_faction = "Новороссия"
 							add_dynamic_modifier = {
 								modifier = Escalation_modifier
 							}
@@ -153,29 +320,33 @@ UKR_Separatists_in_Ukraine = {
 								type = annex_everything
 							}
 						}
+
+						DPR = {
+							load_oob = "DPR_2014"
+						}
 					}
 
 					#TODO Separatists units
-					activate_mission = luhansk_uprising
 			}
 		}
 	}
 	luhansk_uprising = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 60 #27 april luhansk pr
+		days_mission_timeout = 60 #27 april luhansk pr (60 days)
 		selectable_mission = no
 		available = {
 			always = no
 		}
 		activation = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 		}
 		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 		}
 		timeout_effect = {
 			hidden_effect = {
+				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 				LPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -188,6 +359,147 @@ UKR_Separatists_in_Ukraine = {
 								value = 20
 								compare = greater_than
 							}
+						}
+
+						269 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						304 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						305 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						295 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						331 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						342 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						292 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						271 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						280 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						278 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						263 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						238 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						210 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						171 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						136 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						156 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						161 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						170 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						180 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						248 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						228 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						200 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						203 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						242 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						265 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						245 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						267 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
+						}
+						229 = {
+							add_core_of = LPR
+							transfer_state_to = LPR
+							set_state_controller_to = UKR
 						}
 
 						LPR = {
@@ -203,9 +515,8 @@ UKR_Separatists_in_Ukraine = {
 							set_province_controller = 10673
 						}
 
-						304 = {
-							add_core_of = LPR
-							transfer_state_to = LPR
+						DPR = {
+							add_to_faction = LPR
 						}
 
 						LPR = {

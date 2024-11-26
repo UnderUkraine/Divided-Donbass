@@ -45,6 +45,8 @@ country_event = {
 				set_province_controller = 14588
 				set_province_controller = 2678
 				transfer_state = 540
+
+				load_oob = "CRIMEAN_MILITIA"
 			}
 			news_event = news.8
 		}

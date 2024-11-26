@@ -31,6 +31,10 @@ country_event = {
 		name = ukraine.2.a
 		complete_national_focus = UKR_anarchy_in_goverment
 		complete_national_focus = UKR_destability_on_east
+
+		set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+		set_global_flag = Super_Event_Visible
+		play_song = "super_yanukovich_overthrow"
 	}
 }
 
