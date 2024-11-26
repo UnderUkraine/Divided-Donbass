@@ -8,3 +8,9 @@ Escalation_modifier = {
 	opinion_gain_monthly_factor = Escalation_opinion_gain_monthly_factor
 	fascism_drift = Escalation_fascism_drift
 }
+
+City_of_Sevastopol = {
+	enable = { always = yes }
+	#hidden = no
+	icon = GFX_idea_City_of_Sevastopol
+}
