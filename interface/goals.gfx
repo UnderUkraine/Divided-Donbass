@@ -129,6 +129,14 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Fight_against_corruption"
+	    texturefile = "gfx/interface/goals/UKR/bdec479ef5728e85.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_NABU"
+	    texturefile = "gfx/interface/goals/UKR/nabu.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"
 	    texturefile = "gfx/interface/goals/AZV/AZV_battalion_of_azov.dds"		
 	}

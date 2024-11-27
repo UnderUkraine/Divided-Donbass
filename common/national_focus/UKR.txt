@@ -1108,6 +1108,306 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = UKR_poroshenko_corruption
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -12
+		y = 1
+
+		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
+		relative_position_id = UKR_Post_Maidan_Stabilisierung
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Fight_against_corruption
+		icon = GFX_focus_UKR_Fight_against_corruption
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_corruption}
+		relative_position_id = UKR_poroshenko_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_NABU
+		icon = GFX_focus_UKR_NABU
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Fight_against_corruption}
+		relative_position_id = UKR_Fight_against_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_NAPK
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_NABU}
+		relative_position_id = UKR_NABU
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Privatization_of_private_property
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_SAP focus = UKR_NAPK}
+		relative_position_id = UKR_NAPK
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_SAP
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_NABU}
+		relative_position_id = UKR_NABU
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Electronic_declaration_of_officials
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_SAP focus = UKR_NAPK}
+		relative_position_id = UKR_SAP
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Economic_machinations
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_corruption}
+		relative_position_id = UKR_poroshenko_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Roshen_factory
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Economic_machinations}
+		relative_position_id = UKR_Economic_machinations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Offshoring
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Roshen_factory}
+		relative_position_id = UKR_Roshen_factory
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Ukroboronprom
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Economic_machinations}
+		relative_position_id = UKR_Economic_machinations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Smuggling_of_Russian_weapons
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Ukroboronprom}
+		relative_position_id = UKR_Ukroboronprom
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
 		id = UKR_negotations_with_MVF
 		icon = GFX_focus_UKR_petr_poroshenko
 		cost = 1
@@ -1209,7 +1509,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_corruption_problem
-		icon = GFX_focus_UKR_petr_poroshenko
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
