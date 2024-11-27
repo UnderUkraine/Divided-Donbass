@@ -1,0 +1,56 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "negotations_window"	
+		position = { x = 0 y = 0 }	
+		size = { width = 500 height = 300 }
+		orientation = center
+		origo = center 
+
+		instantTextboxType = {
+			name = "minsk_protocols_text"
+			position = { x = -85 y = 25 }
+			font = "hoi_24header"
+			format = center
+			text = "[get_minsk_protocols_status]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+		instantTextboxType = {
+			name = "minsk_two_text"
+			position = { x = -85 y = 55 }
+			font = "hoi_24header"
+			format = center
+			text = "[get_minsk_two_status]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+		instantTextboxType = {
+			name = "minsk_two_sign_progress_text"
+			position = { x = -85 y = 120 }
+			font = "hoi_24header"
+			format = center
+			text = "[get_minsk_two_progress_text]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+		instantTextboxType = {
+			name = "minsk_two_sign_progress_Ukraine"
+			position = { x = -85 y = 150 }
+			font = "hoi_24header"
+			format = center
+			text = "[get_minsk_two_progress_Ukraine]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+		instantTextboxType = {
+			name = "minsk_two_sign_progress_Russia"
+			position = { x = -85 y = 180 }
+			font = "hoi_24header"
+			format = center
+			text = "[get_minsk_two_progress_Russia]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+	}
+}

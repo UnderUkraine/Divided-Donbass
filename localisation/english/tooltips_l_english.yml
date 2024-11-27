@@ -10,6 +10,8 @@
  RUS_support_ideas_kpr:0 "We will support idea of [KPR.GetFlag]Kharkov PR by §O5§!."
  RUS_support_ideas_opr:0 "We will support idea of [OPR.GetFlag]Odesa PR by §O5§!."
 
+ RUS_propaganda_on_donbass_tt:0 "The decision block with §Rpropaganda§! will open"
+
  Separatists_support_minus_5_tt:0 "§gSupport of separatists will decrease by §!§O5§!"
  Separatists_support_minus_4_tt:0 "§gSupport of separatists will decrease by §!§O4§!"
  Separatists_support_minus_3_tt:0 "§gSupport of separatists will decrease by §!§O3§!"

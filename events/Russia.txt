@@ -131,3 +131,68 @@ country_event = {
 		}
 	}
 }
+
+#War on donbass is dragged on
+country_event = {
+	id = russia.3
+	title = russia.3.t
+	desc = russia.3.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.3.a
+
+	    UKR = {
+			country_event = ukraine.5
+		}
+	}
+}
+
+#Ukraine accepts negotations
+country_event = {
+	id = russia.4
+	title = russia.4.t
+	desc = russia.4.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.4.a
+	}
+}
+#Ukraine declines negotations
+country_event = {
+	id = russia.5
+	title = russia.5.t
+	desc = russia.5.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.5.a
+
+		ai_chance = {
+			base = 2
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
+		}
+	}
+	option = {
+		name = russia.5.b
+		ai_chance = {
+			base = 2
+		}
+	}
+	option = {
+		name = russia.5.c
+		ai_chance = {
+			base = 2
+		}
+	}
+}

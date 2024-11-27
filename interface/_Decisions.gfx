@@ -23,4 +23,13 @@ spriteTypes = {
 		name = "GFX_icon_of_VSY_decision"
 		textureFile = "gfx/interface/decisions/icon_of_VSY.dds"
 	}
+
+	spriteType = {
+		name = "GFX_Ukraine_and_russia_gerbs_decision"
+		textureFile = "gfx/interface/decisions/Ukraine_and_russia_gerbs.dds"
+	}
+	spriteType = {
+		name = "GFX_Minsk_image"
+		textureFile = "gfx/interface/decisions/Minsk_picture.dds"
+	}
 }

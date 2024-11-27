@@ -71,3 +71,43 @@ country_event = {
 		#TODO Creation of Azov
 	}
 }
+
+#Russia demands negotations
+country_event = {
+	id = ukraine.5
+	title = ukraine.5.t
+	desc = ukraine.5.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.5.a
+		ai_chance = {
+			base = 2
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
+		}
+		RUS = {
+			country_event = {
+				id = russia.4
+				days = 1
+			}
+		}
+		set_global_flag = UKR_Negotations_started
+	}
+	option = {
+		name = ukraine.5.b
+		ai_chance = {
+			base = 2
+		}
+		RUS = {
+			country_event = {
+				id = russia.5
+				days = 1
+			}
+		}
+	}
+}

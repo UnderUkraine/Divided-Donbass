@@ -8,6 +8,20 @@
  kpr_support_variable:0 "[KPR.GetFlag]Kharkiv : §O[?UKR.kpr_support]§!"
  opr_support_variable:0 "[OPR.GetFlag]Odesa : §O[?UKR.opr_support]§!"
 
+ minsk_protocol_active:0 "Minsk protocols status : §GActive§!"
+ minsk_protocol_failed:0 "Minsk protocols status : §RFailed!§!"
+
+ minsk_two_active:0 "Minsk-2 protocols status : §GActive§!"
+ minsk_two_failed:0 "Minsk-2 protocols status : §RFailed!§!"
+ minsk_two_not_signed:0 "Minsk-2 status : §ONot signed§!"
+
+ minsk_two_progress_text:0 "Minsk-2 signing process:"
+ minsk_two_not_signed_ukraine:0 "[UKR.GetFlag]Ukraine: §ONot signed§!"
+ minsk_two_signed_ukraine:0 "[UKR.GetFlag]Ukraine: §GSigned§!"
+
+ minsk_two_not_signed_russia:0 "[RUS.GetFlag]Russia: §ONot signed§!"
+ minsk_two_signed_russia:0 "[RUS.GetFlag]Russia: §GSigned§!"
+
 #Escalation
  escalation_variable:0 "Escalation on Donbass : §O[?escalation_on_donbass_variable]§!"
  weekly_escalation_variable:0 "Weekly growth : §O[?escalation_on_donbass_every_week_variable]§!"

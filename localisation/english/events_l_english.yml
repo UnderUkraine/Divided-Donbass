@@ -51,3 +51,44 @@ news.9.d: "desc"
 news.9.a: "We don't recognize it!"
 news.9.u: "It's a failure..."
 news.9.r: "Slava Rosii!"
+
+#russia
+russia.1.t: "Defense of Crimea"
+russia.1.d: "Desc"
+russia.1.a: "We should start secret operation..."
+
+russia.2.t: "Full occupation of Crimea"
+russia.2.d: "Desc"
+russia.2.a: "Krim - Rosiya!"
+
+russia.3.t: "War is getting gragged on"
+russia.3.d: "Desc"
+russia.3.a: "We should start negotations..."
+
+russia.4.t: "Ukraine accepts negotations"
+russia.4.d: "Desc"
+russia.4.a: "This should stop the war."
+
+russia.5.t: "Ukraine refuses negotations!"
+russia.5.d: "Desc"
+russia.5.a: "Send more troops to Donbass!"
+russia.5.b: "Start the invasion!"
+russia.5.c: "Now we wait..."
+
+#Ukraine
+ukraine.1.t: "Maidan protests have reached a peak"
+ukraine.1.d: "Desc"
+ukraine.1.a: "..."
+
+ukraine.2.t: "Overthrow of Yanukovych"
+ukraine.2.d: "Desc"
+ukraine.2.a: "Slava Ukraini!"
+
+ukraine.4.t: "Azov creation"
+ukraine.4.d: "Desc"
+ukraine.4.a: "Slava bataliony Azov!"
+
+ukraine.5.t: "Russia demands negotations"
+ukraine.5.d: "Desc"
+ukraine.5.a: "We should accept..."
+ukraine.5.b: "Never!"

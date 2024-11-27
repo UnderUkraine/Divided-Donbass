@@ -14,3 +14,9 @@ City_of_Sevastopol = {
 	#hidden = no
 	icon = GFX_idea_City_of_Sevastopol
 }
+
+Russian_offensive_in_donbass_war = {
+	enable = { always = yes }
+	#hidden = no
+	icon = GFX_idea_City_of_Sevastopol
+}

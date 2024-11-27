@@ -571,3 +571,41 @@ UKR_SBU_operations = {
 		}
 	}
 }
+
+UKR_Negotations = {
+	UKR_accept_minsk_2 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_Ukraine_and_russia_gerbs_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			set_global_flag = global_ukraine_minsk_two_signed
+		}
+	}
+}
+
+UKR_Negotations = {
+	RUS_accept_minsk_2 = {
+		allowed = {
+            tag = RUS
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_Ukraine_and_russia_gerbs_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			set_global_flag = global_russia_minsk_two_signed
+		}
+	}
+}
