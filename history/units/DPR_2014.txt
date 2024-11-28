@@ -72,4 +72,53 @@ units = {
         start_equipment_factor = 1
 		start_manpower_factor = 1
     }
+    division= {
+        name = "TEST DIVKA"
+        location = 12219
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "TEST DIVKA"
+        location = 12219
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "TEST DIVKA"
+        location = 12200
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "TEST DIVKA"
+        location = 12168
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+
+    division= {
+        name = "TEST DIVKA"
+        location = 12941
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "TEST DIVKA"
+        location = 6124
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
 }

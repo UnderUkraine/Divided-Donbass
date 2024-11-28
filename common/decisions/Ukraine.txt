@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 2 #56 to February 26
+		days_mission_timeout = 56 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -29,6 +29,8 @@ UKR_Maidan_Support_category = {
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 				victor_yanukovich = {
 					retire_country_leader = yes
 				}
@@ -50,10 +52,11 @@ UKR_Maidan_Support_category = {
 
 UKR_Separatists_in_Ukraine = {
 	donetsk_uprising = {
-		icon = mission_icon
+		icon = GFX_flag_of_dpr
 		is_good = yes
 		days_mission_timeout = 47 #47 days from Maidan to start of ATO
 		selectable_mission = no
+		fire_only_once = yes
 		available = {
 			always = no
 		}
@@ -64,277 +67,206 @@ UKR_Separatists_in_Ukraine = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 		}
 		timeout_effect = {
-			clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 			set_global_flag = UKR_ATO_Started
 			country_event = super.1
 
 			hidden_effect = {
-				set_variable = { escalation_on_donbass_variable = 35 }
-				set_variable = { escalation_on_donbass_every_week_variable = 1 }
-
-				set_variable = {Escalation_stability_factor = -0.07}
-				set_variable = {Escalation_war_support_factor = 0.07}
-				set_variable = {Escalation_resistance_growth = 0.07}
-				set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-				set_variable = {Escalation_fascism_drift = 0.1}
-				UKR = {
-					add_dynamic_modifier = {
-						modifier = Escalation_modifier
+                IF = {
+					limit = {
+						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 					}
+					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
+					set_variable = { escalation_on_donbass_variable = 35 }
+					set_variable = { escalation_on_donbass_every_week_variable = 1 }
+	
+					set_variable = {Escalation_stability_factor = -0.07}
+					set_variable = {Escalation_war_support_factor = 0.07}
+					set_variable = {Escalation_resistance_growth = 0.07}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+					set_variable = {Escalation_fascism_drift = 0.1}
+					UKR = {
+						add_dynamic_modifier = {
+							modifier = Escalation_modifier
+						}
+					}
+						IF = {
+							limit = {
+								check_variable = {
+									var = UKR.dpr_support
+									value = 20
+									compare = greater_than
+								}
+							}
+	
+							355 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+							347 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+							336 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+							353 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+							369 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+							315 = {
+								add_core_of = DPR
+								transfer_state_to = DPR
+								set_state_controller_to = UKR
+							}
+	
+							#Cores
+							422 = {
+								add_core_of = DPR
+							}
+							387 = {
+								add_core_of = DPR
+							}
+							301 = {
+								add_core_of = DPR
+							}
+							364 = {
+								add_core_of = DPR
+							}
+							340 = {
+								add_core_of = DPR
+							}
+							356 = {
+								add_core_of = DPR
+							}
+							396 = {
+								add_core_of = DPR
+							}
+							390 = {
+								add_core_of = DPR
+							}
+							405 = {
+								add_core_of = DPR
+							}
+							420 = {
+								add_core_of = DPR
+							}
+							443 = {
+								add_core_of = DPR
+							}
+							359 = {
+								add_core_of = DPR
+							}
+							330 = {
+								add_core_of = DPR
+							}
+							322 = {
+								add_core_of = DPR
+							}
+							289 = {
+								add_core_of = DPR
+							}
+							237 = {
+								add_core_of = DPR
+							}
+							317 = {
+								add_core_of = DPR
+							}
+							310 = {
+								add_core_of = DPR
+							}
+							285 = {
+								add_core_of = DPR
+							}
+							253 = {
+								add_core_of = DPR
+							}
+							272 = {
+								add_core_of = DPR
+							}
+							284 = {
+								add_core_of = DPR
+							}
+							264 = {
+								add_core_of = DPR
+							}
+							259 = {
+								add_core_of = DPR
+							}
+							283 = {
+								add_core_of = DPR
+							}
+							219 = {
+								add_core_of = DPR
+							}
+							439 = {
+								add_core_of = DPR
+							}
+							259 = {
+								add_core_of = DPR
+							}
+	
+							DPR = {
+								set_province_controller = 7663
+								set_province_controller = 4104
+								set_province_controller = 12834
+								set_province_controller = 4237
+								set_province_controller = 12873
+								set_province_controller = 12893
+	
+								set_province_controller = 12788
+								set_province_controller = 3287
+								set_province_controller = 12764
+	
+								set_province_controller = 12219
+								set_province_controller = 12168
+								set_province_controller = 12200
+								set_province_controller = 12153
+	
+								set_province_controller = 6124
+								set_province_controller = 12988
+								set_province_controller = 13022
+	
+								set_province_controller = 12941
+	
+								set_province_controller = 12502
+	
+								set_province_controller = 7290
+							}
+	
+							DPR = {
+								create_faction = "Новороссия"
+								add_dynamic_modifier = {
+									modifier = Escalation_modifier
+								}
+								declare_war_on = {
+									target = UKR
+									type = annex_everything
+								}
+								load_oob = "DPR_2014"
+							}
+						}
+	
+						#TODO Separatists units
 				}
-					IF = {
-						limit = {
-							check_variable = {
-								var = UKR.dpr_support
-								value = 20
-								compare = greater_than
-							}
-						}
-
-						355 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						347 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						336 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						353 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						369 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-
-						#Cores
-						375 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						363 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						377 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						332 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						315 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						422 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						387 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						301 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						364 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						340 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						356 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						396 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						390 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						405 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						420 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						443 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						359 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						330 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						322 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						289 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						237 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						317 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						310 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						285 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						253 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						272 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						284 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						264 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						259 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						283 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						219 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						439 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-						259 = {
-							add_core_of = DPR
-							transfer_state_to = DPR
-							set_state_controller_to = UKR
-						}
-
-						DPR = {
-							set_province_controller = 7663
-							set_province_controller = 4104
-							set_province_controller = 12834
-							set_province_controller = 4237
-							set_province_controller = 12873
-							set_province_controller = 12893
-
-							set_province_controller = 12788
-							set_province_controller = 3287
-							set_province_controller = 12764
-
-							set_province_controller = 12219
-							set_province_controller = 12168
-							set_province_controller = 12200
-							set_province_controller = 12153
-
-							set_province_controller = 6124
-							set_province_controller = 12988
-							set_province_controller = 13022
-
-							set_province_controller = 12941
-
-							set_province_controller = 12502
-						}
-
-						DPR = {
-							create_faction = "Новороссия"
-							add_dynamic_modifier = {
-								modifier = Escalation_modifier
-							}
-							declare_war_on = {
-								target = UKR
-								type = annex_everything
-							}
-						}
-
-						DPR = {
-							load_oob = "DPR_2014"
-						}
-					}
-
-					#TODO Separatists units
 			}
 		}
 	}
 	luhansk_uprising = {
-		icon = mission_icon
+		icon = GFX_flag_of_lpr
 		is_good = yes
 		days_mission_timeout = 60 #27 april luhansk pr (60 days)
 		selectable_mission = no
+		fire_only_once = yes
 		available = {
 			always = no
 		}
@@ -346,7 +278,11 @@ UKR_Separatists_in_Ukraine = {
 		}
 		timeout_effect = {
 			hidden_effect = {
-				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+				IF = {
+					limit = {
+						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+					}
+					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 				LPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -373,133 +309,81 @@ UKR_Separatists_in_Ukraine = {
 						}
 						305 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						295 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						331 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						342 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						292 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						271 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						280 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						278 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						263 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						238 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						210 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						171 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						136 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						156 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						161 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						170 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						180 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						248 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						228 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						200 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						203 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						242 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						265 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						245 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						267 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 						229 = {
 							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
 						}
 
 						LPR = {
@@ -531,95 +415,105 @@ UKR_Separatists_in_Ukraine = {
 					}
 
 					#TODO Separatists units
-			}
-		}
-	}
-	Odessa_uprising = {
-		icon = mission_icon
-		is_good = yes
-		days_mission_timeout = 67 #4 мая могли восстать (67 days)
-		selectable_mission = no
-		available = {
-			always = no
-		}
-		activation = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
-		}
-		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
-		}
-		timeout_effect = {
-			hidden_effect = {
-				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
-				OPR = {
-					add_dynamic_modifier = {
-						modifier = Escalation_modifier
-					}
 				}
-					IF = {
-						limit = {
-							check_variable = {
-								var = UKR.lpr_support
-								value = 20
-								compare = greater_than
-							}
-						}
-
-						269 = {
-							add_core_of = OPR
-							transfer_state_to = OPR
-							set_state_controller_to = UKR
-						}
-
-						OPR = {
-							set_province_controller = 14299
-							set_province_controller = 4498
-							set_province_controller = 14320
-							set_province_controller = 14282
-							set_province_controller = 14270
-
-							set_province_controller = 5346
-							set_province_controller = 14343
-							set_province_controller = 6823
-							set_province_controller = 3143
-						}
-
-						DPR = {
-							add_to_faction = OPR
-						}
-
-						OPR = {
-							set_capital = {
-								state = 269
-							}
-							declare_war_on = {
-								target = UKR
-								type = annex_everything
-							}
-						}
-					}
-
-					#TODO Separatists units
 			}
 		}
 	}
 	Kharkiv_uprising = {
-		icon = mission_icon
+		icon = GFX_flag_of_kpr
 		is_good = yes
 		days_mission_timeout = 40 #7 апреля могли восстать (40 days)
 		selectable_mission = no
+		fire_only_once = yes
 		available = {
 			always = no
 		}
 		activation = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 		}
 		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 		}
 		timeout_effect = {
 			hidden_effect = {
-				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+				IF = {
+					limit = {
+						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
+					}
+					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
+				KPR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR.kpr_support
+								value = 20
+								compare = greater_than
+							}
+						}
+
+						137 = {
+							add_core_of = KPR
+							transfer_state_to = KPR
+							set_state_controller_to = UKR
+						}
+						117 = {
+							add_core_of = KPR
+							transfer_state_to = UKR
+							set_state_controller_to = UKR
+						}
+
+						KPR = {
+							set_province_controller = 8936
+							set_province_controller = 8996
+							set_province_controller = 8966
+							set_province_controller = 9015
+							set_province_controller = 8997
+						}
+
+						KPR = {
+							set_capital = {
+								state = 137
+							}
+							declare_war_on = {
+								target = UKR
+								type = annex_everything
+							}
+							add_to_faction = OPR
+						}
+					}
+
+					#TODO Separatists units
+				}
+			}
+		}
+	}
+	Odessa_uprising = {
+		icon = GFX_flag_of_opr
+		is_good = yes
+		days_mission_timeout = 67 #4 мая могли восстать (67 days)
+		selectable_mission = no
+		fire_only_once = yes
+		available = {
+			always = no
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+		}
+		timeout_effect = {
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+					}
+				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 				OPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -628,13 +522,13 @@ UKR_Separatists_in_Ukraine = {
 					IF = {
 						limit = {
 							check_variable = {
-								var = UKR.lpr_support
+								var = UKR.opr_support
 								value = 20
 								compare = greater_than
 							}
 						}
 
-						269 = {
+						467 = {
 							add_core_of = OPR
 							transfer_state_to = OPR
 							set_state_controller_to = UKR
@@ -659,7 +553,7 @@ UKR_Separatists_in_Ukraine = {
 
 						OPR = {
 							set_capital = {
-								state = 269
+								state = 467
 							}
 							declare_war_on = {
 								target = UKR
@@ -669,6 +563,7 @@ UKR_Separatists_in_Ukraine = {
 					}
 
 					#TODO Separatists units
+				}
 			}
 		}
 	}

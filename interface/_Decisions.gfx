@@ -25,6 +25,23 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_flag_of_kpr"
+		textureFile = "gfx/interface/decisions/flag_of_kpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_dpr"
+		textureFile = "gfx/interface/decisions/flag_of_dpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_lpr"
+		textureFile = "gfx/interface/decisions/flag_of_lpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_opr"
+		textureFile = "gfx/interface/decisions/flag_of_opr.dds"
+	}
+
+	spriteType = {
 		name = "GFX_Ukraine_and_russia_gerbs_decision"
 		textureFile = "gfx/interface/decisions/Ukraine_and_russia_gerbs.dds"
 	}
