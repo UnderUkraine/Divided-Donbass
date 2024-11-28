@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 56 #56 to February 26
+		days_mission_timeout = 1 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -76,14 +76,23 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
-					set_variable = { escalation_on_donbass_variable = 35 }
-					set_variable = { escalation_on_donbass_every_week_variable = 1 }
-	
-					set_variable = {Escalation_stability_factor = -0.07}
-					set_variable = {Escalation_war_support_factor = 0.07}
-					set_variable = {Escalation_resistance_growth = 0.07}
-					set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-					set_variable = {Escalation_fascism_drift = 0.1}
+					if = {
+						limit = {
+							NOT = {
+							    has_global_flag = Escalation_activated
+							}
+						}
+                        set_global_flag = Escalation_activated
+
+						set_variable = { escalation_on_donbass_variable = 35 }
+						set_variable = { escalation_on_donbass_every_week_variable = 1 }
+		
+						set_variable = {Escalation_stability_factor = -0.07}
+						set_variable = {Escalation_war_support_factor = 0.07}
+						set_variable = {Escalation_resistance_growth = 0.07}
+						set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+						set_variable = {Escalation_fascism_drift = 0.1}
+					}
 					UKR = {
 						add_dynamic_modifier = {
 							modifier = Escalation_modifier
@@ -214,6 +223,15 @@ UKR_Separatists_in_Ukraine = {
 							259 = {
 								add_core_of = DPR
 							}
+							377 = {
+								add_core_of = DPR
+							}
+							363 = {
+								add_core_of = DPR
+							}
+							332 = {
+								add_core_of = DPR
+							}
 	
 							DPR = {
 								set_province_controller = 7663
@@ -283,6 +301,23 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+					if = {
+						limit = {
+							NOT = {
+							    has_global_flag = Escalation_activated
+							}
+						}
+						set_global_flag = Escalation_activated
+
+						set_variable = { escalation_on_donbass_variable = 35 }
+						set_variable = { escalation_on_donbass_every_week_variable = 1 }
+		
+						set_variable = {Escalation_stability_factor = -0.07}
+						set_variable = {Escalation_war_support_factor = 0.07}
+						set_variable = {Escalation_resistance_growth = 0.07}
+						set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+						set_variable = {Escalation_fascism_drift = 0.1}
+					}
 				LPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -441,6 +476,23 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
+					if = {
+						limit = {
+							NOT = {
+							    has_global_flag = Escalation_activated
+							}
+						}
+                        set_global_flag = Escalation_activated
+
+						set_variable = { escalation_on_donbass_variable = 35 }
+						set_variable = { escalation_on_donbass_every_week_variable = 1 }
+		
+						set_variable = {Escalation_stability_factor = -0.07}
+						set_variable = {Escalation_war_support_factor = 0.07}
+						set_variable = {Escalation_resistance_growth = 0.07}
+						set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+						set_variable = {Escalation_fascism_drift = 0.1}
+					}
 				KPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -514,6 +566,23 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 					}
 				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+				if = {
+					limit = {
+						NOT = {
+							has_global_flag = Escalation_activated
+						}
+					}
+                    set_global_flag = Escalation_activated
+
+					set_variable = { escalation_on_donbass_variable = 35 }
+					set_variable = { escalation_on_donbass_every_week_variable = 1 }
+	
+					set_variable = {Escalation_stability_factor = -0.07}
+					set_variable = {Escalation_war_support_factor = 0.07}
+					set_variable = {Escalation_resistance_growth = 0.07}
+					set_variable = {Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+					set_variable = {Escalation_fascism_drift = 0.1}
+				}
 				OPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -614,12 +683,62 @@ UKR_Negotations = {
 			always = yes
         }
         available = {
+		
         }
         icon = GFX_Ukraine_and_russia_gerbs_decision
         priority = 10
         days_re_enable = 1
+		cost = 100
         complete_effect = {
 			set_global_flag = global_ukraine_minsk_two_signed
+
+			if = {
+				limit = {
+					has_global_flag = global_russia_minsk_two_signed
+				}
+				#TODO MINSK BORDERS
+
+				#DONETSK
+                IF = {limit = { DPR = { controls_state = 355 }} DPR = { transfer_state = 355 }}
+
+                IF = {limit = { DPR = { controls_state = 347 }} DPR = { transfer_state = 347 }}
+				IF = {limit = { DPR = { controls_state = 375 }} DPR = { transfer_state = 375 }}
+				IF = {limit = { DPR = { controls_state = 396 }} DPR = { transfer_state = 396 }}
+				IF = {limit = { DPR = { controls_state = 387 }} DPR = { transfer_state = 387 }}
+				IF = {limit = { DPR = { controls_state = 422 }} DPR = { transfer_state = 422 }}
+				IF = {limit = { DPR = { controls_state = 405 }} DPR = { transfer_state = 405 }}
+				IF = {limit = { DPR = { controls_state = 420 }} DPR = { transfer_state = 420 }}
+				IF = {limit = { DPR = { controls_state = 443 }} DPR = { transfer_state = 443 }}
+				IF = {limit = { DPR = { controls_state = 390 }} DPR = { transfer_state = 390 }}
+				IF = {limit = { DPR = { controls_state = 369 }} DPR = { transfer_state = 369 }}
+				IF = {limit = { DPR = { controls_state = 356 }} DPR = { transfer_state = 356 }}
+				IF = {limit = { DPR = { controls_state = 364 }} DPR = { transfer_state = 364 }}
+				IF = {limit = { DPR = { controls_state = 353 }} DPR = { transfer_state = 353 }}
+				IF = {limit = { DPR = { controls_state = 340 }} DPR = { transfer_state = 340 }}
+				IF = {limit = { DPR = { controls_state = 322 }} DPR = { transfer_state = 322 }}
+				IF = {limit = { DPR = { controls_state = 289 }} DPR = { transfer_state = 289 }}
+				IF = {limit = { DPR = { controls_state = 259 }} DPR = { transfer_state = 259 }}
+				IF = {limit = { DPR = { controls_state = 237 }} DPR = { transfer_state = 237 }}
+				IF = {limit = { DPR = { controls_state = 219 }} DPR = { transfer_state = 219 }}
+				IF = {limit = { DPR = { controls_state = 253 }} DPR = { transfer_state = 253 }}
+				IF = {limit = { DPR = { controls_state = 264 }} DPR = { transfer_state = 264 }}
+				IF = {limit = { DPR = { controls_state = 315 }} DPR = { transfer_state = 315 }}
+				IF = {limit = { DPR = { controls_state = 332 }} DPR = { transfer_state = 332 }}
+				IF = {limit = { DPR = { controls_state = 272 }} DPR = { transfer_state = 272 }}
+				IF = {limit = { DPR = { controls_state = 284 }} DPR = { transfer_state = 284 }}
+				IF = {limit = { DPR = { controls_state = 439 }} DPR = { transfer_state = 439 }}
+				IF = {limit = { DPR = { controls_state = 377 }} DPR = { transfer_state = 377 }}
+				IF = {limit = { DPR = { controls_state = 363 }} DPR = { transfer_state = 363 }}
+				IF = {limit = { DPR = { controls_state = 317 }} DPR = { transfer_state = 317 }}
+				IF = {limit = { DPR = { controls_state = 310 }} DPR = { transfer_state = 310 }}
+				IF = {limit = { DPR = { controls_state = 285 }} DPR = { transfer_state = 285 }}
+				IF = {limit = { DPR = { controls_state = 359 }} DPR = { transfer_state = 359 }}
+				
+				UKR = {
+					white_peace = DPR
+					white_peace = LPR
+				}
+			}
 		}
 	}
 }
@@ -639,6 +758,13 @@ UKR_Negotations = {
         days_re_enable = 1
         complete_effect = {
 			set_global_flag = global_russia_minsk_two_signed
+			if = {
+				limit = {
+					has_global_flag = global_ukraine_minsk_two_signed
+				}
+				#TODO MINSK BORDERS
+				news_event = news.1
+			}
 		}
 	}
 }

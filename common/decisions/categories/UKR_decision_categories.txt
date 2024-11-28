@@ -80,6 +80,7 @@ UKR_Escalation = {
 			original_tag = KPR
 			original_tag = OPR
 		}
+		has_global_flag = UKR_ATO_Started
 	}
 	visible_when_empty = yes
 	visible = {

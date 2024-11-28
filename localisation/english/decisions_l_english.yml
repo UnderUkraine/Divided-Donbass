@@ -29,5 +29,10 @@
  UKR_buy_equipment:0 "Arms Procurement"
  UKR_buy_equipment_desc:0 " "
 
+ donetsk_uprising:0 "Donetsk uprising"
+ luhansk_uprising:0 "Luhansk uprising"
+ Kharkiv_uprising:0 "Kharkiv uprising"
+ Odessa_uprising:0 "Odessa uprising"
+
  UKR_Negotations:0 "Negotations"
  UKR_Negotations_desc:0 " "

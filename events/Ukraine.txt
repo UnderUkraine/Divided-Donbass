@@ -111,3 +111,22 @@ country_event = {
 		}
 	}
 }
+
+#Minsk 2
+country_event = {
+	id = ukraine.6
+	title = ukraine.6.t
+	desc = ukraine.6.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		has_global_flag = global_ukraine_minsk_two_signed
+		has_global_flag = global_russia_minsk_two_signed
+	}
+
+	option = {
+		name = ukraine.6.a
+	}
+}
