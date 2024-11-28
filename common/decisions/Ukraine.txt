@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 56 #56 to February 26
+		days_mission_timeout = 2 #56 to February 26
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -520,6 +520,144 @@ UKR_Separatists_in_Ukraine = {
 						}
 
 						LPR = {
+							set_capital = {
+								state = 269
+							}
+							declare_war_on = {
+								target = UKR
+								type = annex_everything
+							}
+						}
+					}
+
+					#TODO Separatists units
+			}
+		}
+	}
+	Odessa_uprising = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 67 #4 мая могли восстать (67 days)
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+		}
+		timeout_effect = {
+			hidden_effect = {
+				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+				OPR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR.lpr_support
+								value = 20
+								compare = greater_than
+							}
+						}
+
+						269 = {
+							add_core_of = OPR
+							transfer_state_to = OPR
+							set_state_controller_to = UKR
+						}
+
+						OPR = {
+							set_province_controller = 14299
+							set_province_controller = 4498
+							set_province_controller = 14320
+							set_province_controller = 14282
+							set_province_controller = 14270
+
+							set_province_controller = 5346
+							set_province_controller = 14343
+							set_province_controller = 6823
+							set_province_controller = 3143
+						}
+
+						DPR = {
+							add_to_faction = OPR
+						}
+
+						OPR = {
+							set_capital = {
+								state = 269
+							}
+							declare_war_on = {
+								target = UKR
+								type = annex_everything
+							}
+						}
+					}
+
+					#TODO Separatists units
+			}
+		}
+	}
+	Kharkiv_uprising = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 40 #7 апреля могли восстать (40 days)
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		activation = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+		}
+		timeout_effect = {
+			hidden_effect = {
+				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+				OPR = {
+					add_dynamic_modifier = {
+						modifier = Escalation_modifier
+					}
+				}
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR.lpr_support
+								value = 20
+								compare = greater_than
+							}
+						}
+
+						269 = {
+							add_core_of = OPR
+							transfer_state_to = OPR
+							set_state_controller_to = UKR
+						}
+
+						OPR = {
+							set_province_controller = 14299
+							set_province_controller = 4498
+							set_province_controller = 14320
+							set_province_controller = 14282
+							set_province_controller = 14270
+
+							set_province_controller = 5346
+							set_province_controller = 14343
+							set_province_controller = 6823
+							set_province_controller = 3143
+						}
+
+						DPR = {
+							add_to_faction = OPR
+						}
+
+						OPR = {
 							set_capital = {
 								state = 269
 							}
