@@ -1440,6 +1440,301 @@ equipment_modules = {
 		}
 	}
 
+	##LIGHT MLRS WEAPONS
+
+	tank_122mm_MRLS= {
+		abbreviation = "122mm_MRLS"
+		category = tank_light_rzso_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_rzso_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_220mm_MRLS= {
+		abbreviation = "220mm_MRLS"
+		category = tank_light_rzso_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_rzso_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_220mm_flamethrower_MRLS= {
+		abbreviation = "220mm_flamethrower_MRLS"
+		category = tank_light_rzso_weapon_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_rzso_weapon_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##LIGHT SAMs
+
+	tank_medium_anti_aircraft_missle_1= {
+		abbreviation = "medium_anti_aircraft_missle_1"
+		category = tank_light_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_medium_anti_aircraft_missle_2= {
+		abbreviation = "medium_anti_aircraft_missle_2"
+		category = tank_light_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_manpads_on_chassis = {
+		abbreviation = "manpads_on_chassis"
+		category = tank_light_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##MEDIUM SAMs
+
+	tank_buk_m1_missles= {
+		abbreviation = "buk_m1_missles"
+		category = tank_medium_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_buk_m2_rus_missles= {
+		abbreviation = "buk_m2_rus_missles"
+		category = tank_medium_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_buk_m3_rus_missles= {
+		abbreviation = "buk_m3_rus_missles"
+		category = tank_medium_zrk_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_zrk_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##ARTILLERY WEAPONS
+
+	tank_122mm_2a18_arta = {
+		abbreviation = "122mm_2a18_arta"
+		category = tank_medium_artillery_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_artillery_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_152mm_2a36_arta = {
+		abbreviation = "152mm_2a36_arta"
+		category = tank_medium_artillery_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_artillery_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_152mm_2a64_arta = {
+		abbreviation = "152mm_2a64_arta"
+		category = tank_medium_artillery_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_artillery_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_152mm_2a88_rus_arta = {
+		abbreviation = "152mm_2a88_rus_arta"
+		category = tank_medium_artillery_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_medium_artillery_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	##LIGHT ARTILLERY WEAPONS
+
+	tank_120mm_2a80_arta = {
+		abbreviation = "120mm_2a80_arta"
+		category = tank_light_artillery_armament
+		sfx = sfx_ui_sd_module_turret
+	
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_light_artillery_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
 	tank_heavy_machine_gun = {
 		abbreviation = "hmg"
 		category = tank_small_main_armament

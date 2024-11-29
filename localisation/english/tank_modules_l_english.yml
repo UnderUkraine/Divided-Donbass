@@ -527,6 +527,12 @@
  EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Passive protection complexes"
  EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Survivability modules"
  EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Mine Countermeasures"
+ EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "Light MRLS"
+ EQ_MOD_CAT_tank_light_zrk_armament_TITLE:0 "Light Anti-Aircraft missles"
+ EQ_MOD_CAT_tank_medium_zrk_armament_TITLE:0 "Medium Anti-Aircraft missles"
+ EQ_MOD_CAT_tank_medium_artillery_armament_TITLE:0 "Medium Artillery weapons"
+ EQ_MOD_CAT_tank_light_artillery_armament_TITLE:0 "Light Artillery weapons"
+
 
  tank_anti_armor_atgm_1:0 "9K11 “Malyutka”"
  tank_anti_armor_atgm_2:0 "9K111-1 “Konkurs”"
@@ -599,3 +605,21 @@
  tank_125mm_2a82_1m: "125-mm weapon 2A82-1M"
 
  tank_152mm_2a83_ARMATA: "152-mm weapon 2A83"
+
+ tank_122mm_MRLS: "122-mm MRLS"
+ tank_220mm_MRLS: "220-mm MRLS"
+ tank_220mm_flamethrower_MRLS: "220-mm flamethrower MRLS"
+
+ tank_medium_anti_aircraft_missle_1: "Medium Anti-Aircraft Missle 1"
+ tank_medium_anti_aircraft_missle_2: "Medium Anti-Aircraft Missle 2"
+ tank_manpads_on_chassis: "MANPADS on chassis"
+
+ tank_buk_m1_missles: "BUK-M1 Missles"
+ tank_buk_m2_rus_missles: "BUK-M2 Missles"
+ tank_buk_m3_rus_missles: "BUK-M3 Missles"
+
+ tank_122mm_2a18_arta: "122-mm 2A18"
+ tank_152mm_2a36_arta: "152-mm 2A36"
+ tank_152mm_2a64_arta: "152-mm 2A64"
+ RUS_tank_152mm_2a88_rus_arta: "152-mm 2A88"
+ UKR_tank_152mm_2a88_rus_arta: "155-mm"

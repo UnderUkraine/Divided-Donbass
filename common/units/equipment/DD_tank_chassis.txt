@@ -1714,6 +1714,10 @@ equipments = {
 					tank_medium_weapon_armament
 					tank_tank_weapon_armament
 					tank_heavy_tank_weapon_armament
+					tank_light_rzso_weapon_armament
+					tank_light_zrk_armament
+					tank_medium_zrk_armament
+					tank_medium_artillery_armament
 				}
 			}
 			

@@ -77,6 +77,18 @@ technologies = {
 			tank_survivability_module_2
 			tank_anti_mine_module_1
 
+			tank_122mm_MRLS
+			tank_220mm_MRLS
+			tank_220mm_flamethrower_MRLS
+			tank_medium_anti_aircraft_missle_1
+			tank_medium_anti_aircraft_missle_2
+			tank_manpads_on_chassis
+			tank_buk_m1_missles
+			tank_buk_m2_rus_missles
+			tank_buk_m3_rus_missles
+
+			tank_122mm_2a18_arta
+
 			tank_152mm_2a83_ARMATA
 			tank_125mm_2a82_1m
 			tank_125mm_2a46m_5
