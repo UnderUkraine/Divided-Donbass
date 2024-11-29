@@ -647,6 +647,7 @@ UKR_buy_equipment = {
 			always = yes
         }
         available = {
+			always = yes
         }
         icon = GFX_icon_of_VSY_decision
         priority = 10
@@ -737,6 +738,8 @@ UKR_Negotations = {
 				UKR = {
 					white_peace = DPR
 					white_peace = LPR
+					white_peace = KPR
+					white_peace = OPR
 				}
 			}
 		}

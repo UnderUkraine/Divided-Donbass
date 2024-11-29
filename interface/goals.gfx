@@ -33,6 +33,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_Join_Union_State_project.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Victory_over_protesters"
+	    texturefile = "gfx/interface/goals/UKR/victorymiting.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_sbu_on_donbass"
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	

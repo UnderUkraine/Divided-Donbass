@@ -89,7 +89,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Victory_over_protesters
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_Victory_over_protesters
 		cost = 1
 		x = 0
 		y = 1
