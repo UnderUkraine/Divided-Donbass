@@ -19,6 +19,7 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = RUS_rush_in_crimea
 			UKR = {
+				release = CRI
 				end_puppet = CRI
 			}
 			CRI = {

@@ -102,7 +102,6 @@ UKR_Negotations = {
 			original_tag = KPR
 			original_tag = OPR
 		}
-		has_global_flag = UKR_Negotations_started
 	}
 	visible_when_empty = yes
 	visible = {

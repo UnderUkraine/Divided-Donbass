@@ -5,7 +5,8 @@ state={
 		4458 5280 5867 14787 14798 14802 
 	}
 	history={
-		owner = CRI
+		owner = UKR
+		add_core_of = UKR
 		add_core_of = CRI
 	}
 	buildings_max_level_factor=1.000

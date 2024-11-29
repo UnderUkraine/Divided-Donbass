@@ -5,7 +5,8 @@ state={
 		1475 4538 14674 14675 14677 14678 14681 14699 14704 
 	}
 	history={
-		owner = CRI
+		owner = UKR
+		add_core_of = UKR
 		add_core_of = CRI
 		victory_points = {
 			1475 15
