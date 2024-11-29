@@ -30,6 +30,11 @@ country_event = {
 	option = {
 		name = ukraine.2.a
 		complete_national_focus = UKR_anarchy_in_goverment
+		complete_national_focus = UKR_destability_on_east
+
+		set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+		set_global_flag = Super_Event_Visible
+		play_song = "super_yanukovich_overthrow"
 	}
 }
 
@@ -64,5 +69,64 @@ country_event = {
 	option = {
 		name = ukraine.4.a
 		#TODO Creation of Azov
+	}
+}
+
+#Russia demands negotations
+country_event = {
+	id = ukraine.5
+	title = ukraine.5.t
+	desc = ukraine.5.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.5.a
+		ai_chance = {
+			base = 2
+			modifier = {
+				is_historical_focus_on = yes
+				add = 100
+			}
+		}
+		RUS = {
+			country_event = {
+				id = russia.4
+				days = 1
+			}
+		}
+		set_global_flag = UKR_Negotations_started
+	}
+	option = {
+		name = ukraine.5.b
+		ai_chance = {
+			base = 2
+		}
+		RUS = {
+			country_event = {
+				id = russia.5
+				days = 1
+			}
+		}
+	}
+}
+
+#Minsk 2
+country_event = {
+	id = ukraine.6
+	title = ukraine.6.t
+	desc = ukraine.6.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+    trigger = {
+		has_global_flag = global_ukraine_minsk_two_signed
+		has_global_flag = global_russia_minsk_two_signed
+	}
+
+	option = {
+		name = ukraine.6.a
 	}
 }

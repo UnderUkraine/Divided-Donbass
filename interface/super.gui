@@ -20,6 +20,11 @@ guiTypes = {
 			spriteType = "GFX_sp_event_Ukr_ato_start"
 			position = {x = 0 y = 0}
 		}
+		iconType = {
+			name = "Super_Event_Image_Ukr_Yanukovich_overthrow"
+			spriteType = "GFX_sp_event_Ukr_Yanukovich_overthrow"
+			position = {x = 0 y = 0}
+		}
 		
 		###############
 		###INTERFACE###

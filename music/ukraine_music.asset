@@ -15,6 +15,14 @@ music = {
 	file = "UKR/orest_lutiy_rosianvdonbasenet.ogg"
 }
 music = {
-	name = "praviy_sektor_tinaleshehmeniYkraino"
-	file = "UKR/praviy_sektor_tinaleshehmeniYkraino.ogg"
+	name = "de_buv_ti"
+	file = "UKR/de_buv_ti.ogg"
+}
+music = {
+	name = "ne_zapisyite_v_geroi"
+	file = "UKR/ne_zapisyite_v_geroi.ogg"
+}
+music = {
+	name = "anastimoza_hrizantemi"
+	file = "UKR/anastimoza_hrizantemi.ogg"
 }

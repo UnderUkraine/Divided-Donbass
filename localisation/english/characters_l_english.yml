@@ -1,6 +1,4 @@
 ﻿l_english:
-  #UKRAINE
-  victor_yanukovich: "Victor Yanukovich"
-
-  #RUSSIA
-  vladimir_putin: "Vladimir Putin"
+ victor_yanukovich:0 "Victor Yanukovich"
+ vladimir_putin:0 "Vladimir Putin"
+ alexander_lykashenko:0 "Alexander Lukashenko"

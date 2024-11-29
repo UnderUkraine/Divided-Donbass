@@ -1,4 +1,8 @@
 music = {
 	name = "super_start_ato"
-	file = "atostart.ogg"
+	file = "super_events/atostart.ogg"
+}
+music = {
+	name = "super_yanukovich_overthrow"
+	file = "super_events/yanukovichoverthrow.ogg"
 }

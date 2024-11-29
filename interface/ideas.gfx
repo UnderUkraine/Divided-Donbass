@@ -13,4 +13,9 @@ spriteTypes = {
 		name = "GFX_idea_AZV_fight_for_ukraine"
 		texturefile = "gfx/interface/ideas/Fight_for_Ukraine.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_City_of_Sevastopol"
+		texturefile = "gfx/interface/ideas/cityofSevastopol.dds"
+	}
 }

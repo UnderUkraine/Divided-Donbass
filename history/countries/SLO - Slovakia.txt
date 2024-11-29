@@ -4,13 +4,11 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "2010.02.07"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-recruit_character = victor_yanukovich
 
 set_popularities = {
 	democratic = 35

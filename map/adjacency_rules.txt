@@ -1,13 +1,6 @@
 ﻿adjacency_rule = {
 	name = "CRIMEA_BRIDGE"
 
-	is_friend = {
-		NOT = { 
-            has_global_flag = CRIMEA_BRIDGE_BUILDED 
-            has_global_flag = CRIMEA_BRIDGE_BLOCKED
-        }
-	}
-
 	contested = {
 		army = yes
 		navy = yes
@@ -33,17 +26,12 @@
 		trade = no
 	}
 
-	required_provinces = { 14851 2653 }
+	required_provinces = { 14866 }
 
-	is_disabled = {
-		has_global_flag = CRIMEA_BRIDGE_BUILDED
-		tooltip = crimea_bridge_not_builded_tt
-	}
-
-    is_disabled = {
-		has_global_flag = CRIMEA_BRIDGE_BLOCKED
-		tooltip = crimea_bridge_blocked_tt
-	}
+	#is_disabled = {
+	#	has_global_flag = CRIMEA_BRIDGE_BUILDED
+	#	tooltip = crimea_bridge_not_builded_tt
+	#}
 
 	icon = 14851
 	offset = { 0 0 0 }

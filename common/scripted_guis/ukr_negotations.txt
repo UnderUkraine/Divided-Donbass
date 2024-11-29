@@ -1,0 +1,13 @@
+scripted_gui = {
+	negotations_gui = {
+		window_name = "negotations_window"
+		context_type = decision_category
+
+		visible = {
+			always = yes
+		}
+		
+		triggers = {
+		}
+	}
+}

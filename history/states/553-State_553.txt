@@ -11,8 +11,12 @@ state={
 		victory_points = {
 			14757 30
 		}
+
+		add_dynamic_modifier = {
+			modifier = City_of_Sevastopol
+		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=383907
         state_category = town
 }

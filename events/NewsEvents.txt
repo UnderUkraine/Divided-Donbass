@@ -209,3 +209,105 @@ news_event = {
         }
 	}
 }
+# Yanukovich overthrow
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.7.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.7.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+# Greenmans in Crimea
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.8.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.8.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}
+# Annexation of Crimea
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.9.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.9.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}

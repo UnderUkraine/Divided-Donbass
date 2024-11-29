@@ -1,9 +1,12 @@
 UKR_Maidan_Support_category = {
 	icon = GFX_gerb_Ukraine_decision
 	picture = GFX_maidan_background_image
-	priority = 80
+	priority = 300
 	allowed = {
-		original_tag = UKR
+		OR = {
+			original_tag = UKR
+			has_country_flag = RUS_Open_maidan_gui
+		}
 	}
 	visible_when_empty = yes
 	visible = {
@@ -17,9 +20,17 @@ UKR_Maidan_Support_category = {
 UKR_Separatists_in_Ukraine = {
 	icon = GFX_gerb_Ukraine_decision
 	picture = GFX_separatists_background_image
-	priority = 100
+	priority = 300
 	allowed = {
-		original_tag = UKR
+		OR = {
+			original_tag = UKR
+			IF = {
+				limit = {
+					original_tag = RUS
+					has_country_flag = RUS_pro_russian_sentiment_focus_flag
+				}
+			}
+		}
 	}
 	visible_when_empty = yes
 	visible = {
@@ -69,10 +80,33 @@ UKR_Escalation = {
 			original_tag = KPR
 			original_tag = OPR
 		}
+		has_global_flag = UKR_ATO_Started
 	}
 	visible_when_empty = yes
 	visible = {
-		#has_global_flag = UKR_ATO_Started
+		has_global_flag = UKR_ATO_Started
 	}
 	scripted_gui = escalation_gui
+}
+
+UKR_Negotations = {
+	icon = GFX_Ukraine_and_russia_gerbs_decision
+	picture = GFX_Minsk_image
+	priority = 300
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = RUS
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
+		has_global_flag = UKR_Negotations_started
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_Negotations_started
+	}
+	scripted_gui = negotations_gui
 }

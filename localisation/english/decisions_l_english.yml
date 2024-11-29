@@ -22,8 +22,17 @@
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
 
  UKR_Maidan_Support_category:0 "Situation in Ukraine"
+ yanukovich_overthrow:0 "Yanukovich overthrow"
  UKR_Separatists_in_Ukraine:0 "Separatism in Ukraine"
  UKR_SBU_operations:0 "SBU operations"
  UKR_Escalation:0 "Escalation"
  UKR_buy_equipment:0 "Arms Procurement"
  UKR_buy_equipment_desc:0 " "
+
+ donetsk_uprising:0 "Donetsk uprising"
+ luhansk_uprising:0 "Luhansk uprising"
+ Kharkiv_uprising:0 "Kharkiv uprising"
+ Odessa_uprising:0 "Odessa uprising"
+
+ UKR_Negotations:0 "Negotations"
+ UKR_Negotations_desc:0 " "

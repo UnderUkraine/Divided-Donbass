@@ -1,0 +1,24 @@
+UKR_counteroffensive_in_donetsk = {
+	allowed = {
+		original_tag = UKR
+	}
+
+	enable = {
+		#has_global_flag = 
+	}
+
+	abort = {
+		NOT = {
+			#has_global_flag = 
+		}
+	}
+	
+	ai_strategy = {
+		type = front_control
+		tag = DPR
+		ratio = 0.1
+		ordertype = front
+		execution_type = rush
+		manual_attack = no
+	}
+}

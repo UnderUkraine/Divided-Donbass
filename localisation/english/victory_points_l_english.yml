@@ -22,12 +22,10 @@
  VICTORY_POINTS_15093: "Bucha"
  VICTORY_POINTS_15094: "Hostomel Airport"
  VICTORY_POINTS_15088: "Vasylkiv"
-
-
-#Borispol
  VICTORY_POINTS_15076: "Borispil"
  VICTORY_POINTS_15095: "Airport "Boryspil""
-
+ VICTORY_POINTS_1718: "Brovary"
+ 
 ##Odesa
  VICTORY_POINTS_14299: "Odesa"
 
@@ -48,6 +46,9 @@
  VICTORY_POINTS_8482: "Rivne"
 
 ##Donbass
+ VICTORY_POINTS_11805: "Luhansk"
+ LPR_VICTORY_POINTS_11805: "Lugansk"
+
  VICTORY_POINTS_13909: "Staryi Krym"
  VICTORY_POINTS_13992: "Vynohradne"
  VICTORY_POINTS_13944: "Kalynivka"
@@ -55,13 +56,36 @@
  VICTORY_POINTS_14026: "Pokrovske"
  VICTORY_POINTS_13833: "Khersones"
  VICTORY_POINTS_13801: "Makedonivka"
- VICTORY_POINTS_7527: "Kasyanivka"
+ VICTORY_POINTS_7527: "Kasianivka"
  VICTORY_POINTS_13991: "«Azovstal»"
 
- VICTORY_POINTS_13915: "Nikolske"
-
- VICTORY_POINTS_12880: "Kyrahove"
+ VICTORY_POINTS_8118: "Manhush"
+ VICTORY_POINTS_5865: "Suzhenka"
+ VICTORY_POINTS_14119: "Yalta"
+ VICTORY_POINTS_6808: "Melekine"
+ VICTORY_POINTS_7627: "Shyrokyne"
+ VICTORY_POINTS_14006: "Berdianske"
+ VICTORY_POINTS_13792: "Pavlopil"
+ VICTORY_POINTS_13790: "Shevchenko"
+ VICTORY_POINTS_13915: "Mykilske"
+ VICTORY_POINTS_6963: "Starodubivka"
+ VICTORY_POINTS_13966: "Zakharivka"
  VICTORY_POINTS_12219: "Horlivka"
+
+ VICTORY_POINTS_13978: "Novoazovsk"
+ VICTORY_POINTS_13988: "Bezimenne"
+ VICTORY_POINTS_13884: "Markyne"
+ VICTORY_POINTS_14008: "Siedove"
+
+ VICTORY_POINTS_12880: "Kurakhove"
+ VICTORY_POINTS_12941: "Marinka"
+ VICTORY_POINTS_6124: "Oleksandrivka"
+
+ VICTORY_POINTS_2231: "Zaporizhzhia"
+
+# Zaporizhia
+
+ VICTORY_POINTS_2689: "Berdiansk"
 
 ##Crimea
  VICTORY_POINTS_3845: "Evpatoriya"

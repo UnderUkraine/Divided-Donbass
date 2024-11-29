@@ -33,6 +33,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_Join_Union_State_project.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Victory_over_protesters"
+	    texturefile = "gfx/interface/goals/UKR/victorymiting.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_sbu_on_donbass"
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	
@@ -127,6 +131,14 @@ spriteTypes = {
 	SpriteType = {
 	    name = "GFX_focus_UKR_yulia_timoshenko"
 	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_Fight_against_corruption"
+	    texturefile = "gfx/interface/goals/UKR/bdec479ef5728e85.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_NABU"
+	    texturefile = "gfx/interface/goals/UKR/nabu.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"

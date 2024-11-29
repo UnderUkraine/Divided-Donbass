@@ -14,7 +14,7 @@ focus_tree = {
 		id = RUS_putins_russia
 		icon = GFX_focus_RUS_putins_russia
 		cost = 1
-		x = 10
+		x = 15
 		y = 0
 		
 		ai_will_do = {
@@ -29,6 +29,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -53,6 +54,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_country_flag = RUS_Open_maidan_gui
+			#Event
 		}
 	}
 	focus = {
@@ -101,6 +104,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#Money to Ukraine
 		}
 	}
 	focus = {
@@ -150,6 +154,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -174,6 +179,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#TODO Idea to Ukraine
+			set_country_flag = RUS_pro_russian_sentiment_focus_flag
+			UKR = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.1
+				}
+			}
 		}
 	}
 	focus = {
@@ -198,6 +211,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_to_variable = {
+				var = UKR.dpr_support
+				value = 5
+				tooltip = RUS_support_ideas_dpr
+			}
 		}
 	}
 	focus = {
@@ -222,6 +240,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+				UKR = {
+					add_to_variable = {
+						var = UKR.lpr_support
+						value = 5
+						tooltip = RUS_support_ideas_lpr
+					}
+				}
+				var = UKR_lpr_support
+				value = 5
+				tooltip = RUS_support_ideas_lpr
 		}
 	}
 	focus = {
@@ -246,6 +274,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_to_variable = {
+				var = UKR.kpr_support
+				value = 5
+				tooltip = RUS_support_ideas_kpr
+			}
 		}
 	}
 	focus = {
@@ -270,6 +303,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_to_variable = {
+				var = UKR.opr_support
+				value = 5
+				tooltip = RUS_support_ideas_opr
+			}
 		}
 	}
 	focus = {
@@ -318,7 +356,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
+
 		}
 
 		cancel_if_invalid = yes
@@ -426,7 +464,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -434,6 +471,23 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+
+            custom_effect_tooltip = RUS_propaganda_on_donbass_tt
+
+			DPR = {
+				add_stability = 0.05
+			}
+			LPR = {
+				add_stability = 0.05
+			}
+			KPR = {
+				add_stability = 0.05
+			}
+			OPR = {
+				add_stability = 0.05
+			}
+
+			set_country_flag = RUS_propaganda_on_donbass_flag
 		}
 	}
 	focus = {
@@ -451,7 +505,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
+
 		}
 
 		cancel_if_invalid = yes
@@ -536,6 +590,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = -0.05
+			add_political_power = -50
+
+            #set_global_flag = UKR_Negotations_started
+			country_event = russia.3
 		}
 	}
 
@@ -614,6 +673,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = -10
+			#opinion modifier
 		}
 	}
 	focus = {
