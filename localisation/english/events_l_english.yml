@@ -92,3 +92,15 @@ ukraine.5.t: "Russia demands negotations"
 ukraine.5.d: "Desc"
 ukraine.5.a: "We should accept..."
 ukraine.5.b: "Never!"
+
+ukraine.6.t: "Minsk-1"
+ukraine.6.d: "Desc"
+ukraine.6.a: "This will stop war!"
+
+ukraine.7.t: "Minsk-1 fails!"
+ukraine.7.d: "Desc"
+ukraine.7.a: "War continues..."
+
+ukraine.8.t: "Minsk-2 agreements"
+ukraine.8.d: "Desc"
+ukraine.8.a: "This WILL stop war..."
