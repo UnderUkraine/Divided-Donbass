@@ -5,8 +5,18 @@ state={
 		4227 4647 4853 5049 5932 6734 14714 14719 14723 14728 14738 
 	}
 	history={
-		owner = CRI
+		owner = UKR
+		add_core_of = UKR
 		add_core_of = CRI
+		victory_points = {
+			5828 10
+		}
+		victory_points = {
+			3292 5
+		}
+		victory_points = {
+			14546 5
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

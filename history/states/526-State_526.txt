@@ -5,7 +5,8 @@ state={
 		2221 2453 2968 3034 3369 4226 4251 4705 5377 6548 6957 7030 7855 14542 14561 14562 14624 14626 14633 
 	}
 	history={
-		owner = CRI
+		owner = UKR
+		add_core_of = UKR
 		add_core_of = CRI
 	}
 	buildings_max_level_factor=1.000

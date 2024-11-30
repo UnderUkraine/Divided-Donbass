@@ -90,13 +90,19 @@ country_event = {
 				add = 100
 			}
 		}
-		RUS = {
-			country_event = {
-				id = russia.4
-				days = 1
+		hidden_effect = {
+			RUS = {
+				country_event = russia.4
 			}
+			country_event = ukraine.6
+			country_event = {
+				id = ukraine.7
+				days = 3
+			}
+
+			set_global_flag = UKR_Negotations_started
+			set_global_flag = global_minsk_one
 		}
-		set_global_flag = UKR_Negotations_started
 	}
 	option = {
 		name = ukraine.5.b
@@ -104,15 +110,12 @@ country_event = {
 			base = 2
 		}
 		RUS = {
-			country_event = {
-				id = russia.5
-				days = 1
-			}
+			country_event = russia.5
 		}
 	}
 }
 
-#Minsk 2
+#Minsk 1
 country_event = {
 	id = ukraine.6
 	title = ukraine.6.t
@@ -120,13 +123,38 @@ country_event = {
 	#picture = GFX_report_event_royal_parade
 	
 	is_triggered_only = yes
-	
-    trigger = {
-		has_global_flag = global_ukraine_minsk_two_signed
-		has_global_flag = global_russia_minsk_two_signed
-	}
 
 	option = {
 		name = ukraine.6.a
+	}
+}
+
+#Minsk 1 fails
+country_event = {
+	id = ukraine.7
+	title = ukraine.7.t
+	desc = ukraine.7.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.7.a
+		clr_global_flag = global_minsk_one
+		set_global_flag = global_minsk_one_failed
+	}
+}
+
+#Minsk 2
+country_event = {
+	id = ukraine.8
+	title = ukraine.8.t
+	desc = ukraine.8.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.8.a
 	}
 }
