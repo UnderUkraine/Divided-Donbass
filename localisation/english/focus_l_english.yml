@@ -25,8 +25,10 @@
 
  #New government
  UKR_anarchy_in_goverment: "Anarchy in government!"
+ UKR_coalition_in_rada: "Coalition in the Verkhovna Rada"
+ UKR_coalition_in_rada_desc: "Now that the will of the people has been realized, our priority is to form a new majority in the Verkhovna Rada. The creation of a coalition government capable of ensuring a stable and reliable system of governance is essential to prevent counter-revolution and the return of Yanukovych's people to power. Only through the combined efforts of all political parties will we be able to lay the foundation for building a new, democratic and strong Ukraine!"
  UKR_destability_on_east: "Destability on east"
- UKR_annex_crimea: "Annexation of Crimea!"
+ UKR_destability_on_east_desc: "The events of the Revolution of Dignity have caused sharp discontent among the residents of the eastern regions of Ukraine, where Anti-Maidan activists have begun to oppose our authorities. Every day the situation in the southeast is becoming more and more threatening. In Kharkiv, Luhansk and Donetsk regions, separatist sentiments are developing into open resistance supported by external forces. Armed groups are seizing administrative buildings, and Russian flags are becoming the banner of the radicals. We must immediately develop a plan of action to stabilize the regions, whether through negotiations or the suppression of traitors by force."
  UKR_appel_the_un: "Appel the UN"
  UKR_resistance_kharkov: "Resistance in Kharkiv"
  UKR_clashes_odessa: "Clashes in Odessa"

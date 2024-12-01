@@ -31,8 +31,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_destability_on_east
-		icon = GFX_focus_UKR_destability_on_east
+		id = UKR_coalition_in_rada
+		icon = GFX_focus_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -56,14 +56,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_annex_crimea
-		icon = GFX_focus_UKR_annex_crimea
+		id = UKR_destability_on_east
+		icon = GFX_focus_UKR_destability_on_east
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_coalition_in_rada}
+		relative_position_id = UKR_coalition_in_rada
 		
 		ai_will_do = {
 			factor = 1
@@ -90,8 +90,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_annex_crimea}
-		relative_position_id = UKR_annex_crimea
+		prerequisite = {focus = UKR_destability_on_east}
+		relative_position_id = UKR_destability_on_east
 		
 		ai_will_do = {
 			factor = 1
