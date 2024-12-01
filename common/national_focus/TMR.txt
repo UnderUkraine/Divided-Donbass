@@ -173,15 +173,13 @@ focus_tree = {
 					add_building_construction = {
 	
 							type = arms_factory
-							   level = 2
-	
+							    level = 2	
 					}
 	
 					add_building_construction = {
 	
 							type = industrial_complex
-							   level = 4
-	
+                                level = 4
 					}
 				}
 			}
