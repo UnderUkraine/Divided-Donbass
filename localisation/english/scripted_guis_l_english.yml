@@ -23,5 +23,5 @@
  minsk_two_signed_russia:0 "[RUS.GetFlag]Russia: §GSigned§!"
 
 #Escalation
- escalation_variable:0 "Escalation on Donbass : §O[?escalation_on_donbass_variable]§!"
- weekly_escalation_variable:0 "Weekly growth : §O[?escalation_on_donbass_every_week_variable]§!"
+ escalation_variable:0 "Escalation on Donbass : §O[?global.escalation_on_donbass_variable]§!"
+ weekly_escalation_variable:0 "Weekly growth : §O[?global.escalation_on_donbass_every_week_variable]§!"

@@ -158,3 +158,18 @@ country_event = {
 		name = ukraine.8.a
 	}
 }
+
+#DPR capitulate
+country_event = {
+	id = ukraine.9
+	title = ukraine.9.t
+	desc = ukraine.9.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.9.a
+		add_war_support = 0.1
+	}
+}
