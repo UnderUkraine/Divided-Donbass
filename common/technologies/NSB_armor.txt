@@ -35,20 +35,22 @@ technologies = {
 			tank_christie_suspension
 			tank_bogie_suspension
 			tank_interleaved_suspension
-			tank_light_one_man_tank_turret
-			tank_light_two_man_tank_turret
-			tank_light_three_man_tank_turret
-			tank_light_fixed_superstructure_turret
-			tank_medium_one_man_tank_turret
-			tank_medium_two_man_tank_turret
-			tank_medium_three_man_tank_turret
-			tank_medium_fixed_superstructure_turret
-			tank_heavy_two_man_tank_turret
-			tank_heavy_three_man_tank_turret
-			tank_heavy_fixed_superstructure_turret
-			tank_super_heavy_four_man_tank_turret
-			tank_super_heavy_three_man_tank_turret
-			tank_modern_tank_turret
+
+            tank_open_armored_box
+			tank_remote_controlled_module
+			tank_light_tower_1
+			tank_enlarged_tower
+			tank_uninhabited_tower_1
+			tank_light_tower_2
+			tank_uninhabited_tower_2
+			tank_light_tower_3
+			tank_сasting_tower
+			tank_uninhabited_heavy_tower
+			tank_artillery_tower
+			tank_welded_tower
+			tank_uninhabited_artillery_tower
+			tank_no_tower_setup
+
 			extra_ammo_storage
 			wet_ammo_storage
 			smoke_launchers
