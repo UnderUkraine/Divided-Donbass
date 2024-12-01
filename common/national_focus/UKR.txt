@@ -350,7 +350,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
+
 		}
 
 		cancel_if_invalid = yes
@@ -379,6 +379,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_confused_army
+				add_idea = UKR_volunteer_army
+			}
 		}
 	}
 	focus = {
