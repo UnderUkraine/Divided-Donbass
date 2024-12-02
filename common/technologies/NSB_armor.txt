@@ -1176,9 +1176,6 @@ technologies = {
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
 		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		research_cost = 2
 		start_year = 1959
@@ -1216,9 +1213,6 @@ technologies = {
 		}
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
-		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		research_cost = 2
@@ -1258,9 +1252,6 @@ technologies = {
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
 		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		research_cost = 2
 		start_year = 1959
@@ -1298,9 +1289,6 @@ technologies = {
 		}
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
-		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		research_cost = 2

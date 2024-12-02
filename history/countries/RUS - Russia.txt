@@ -73,9 +73,6 @@ set_technology = {
 	tech_trucks_2 = 1
 	tech_trucks_3 = 1
 
-	camo_weapons = 1
-    camo_weapons1 = 1
-
 	#ARMOR
 	tank_chassis = 1
 	tank1_chassis = 1

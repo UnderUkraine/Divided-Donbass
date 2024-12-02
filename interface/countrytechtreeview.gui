@@ -148,19 +148,6 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_camo"
-					position = { x = 30 y = 1150 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_CAMO"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
 					name = "infantry_year6"
 					position = { x = 400 y = 50 }
 					font = "hoi_36header"
@@ -252,14 +239,6 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-			gridboxtype = {
-				name = "camo_weapons_tree"
-				position = { x = 140 y = 1250 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
 
 			gridboxtype = {
 				name = "tech_special_forces_tree"
@@ -3411,7 +3390,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "support_folder_tab"
-				position = { x = 111 y = 1000 }
+				position = { x = 111 y = 10000 }
 				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_support
