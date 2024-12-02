@@ -202,30 +202,30 @@ JAM_se_calculate_army_ammo_demand = {
                     option = enable
                 }
             }
-            if = {
-                limit = { has_tech = support_weapons }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_1_mult }
-            }
-            if = {
-                limit = { has_tech = support_weapons2 }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_2_mult }
-            }
-            if = {
-                limit = { has_tech = support_weapons3 }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_3_mult }
-            }
-            if = {
-                limit = { has_tech = support_weapons4 }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_4_mult }
-            }
-            if = {
-                limit = { has_tech = infantry_at }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_at_rfl_1_mult }
-            }
-            if = {
-                limit = { has_tech = infantry_at2 }
-                add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_at_rfl_2_mult }
-            }
+            #if = {
+            #    limit = { has_tech = support_weapons }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_1_mult }
+            #}
+            #if = {
+            #    limit = { has_tech = support_weapons2 }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_2_mult }
+            #}
+            #if = {
+            #    limit = { has_tech = support_weapons3 }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_3_mult }
+            #}
+            #if = {
+            #    limit = { has_tech = support_weapons4 }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_sweps_4_mult }
+            #}
+            #if = {
+            #    limit = { has_tech = infantry_at }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_at_rfl_1_mult }
+            #}
+            #if = {
+            #    limit = { has_tech = infantry_at2 }
+            #    add_to_temp_variable = { inf_demand_mult = @JAM_inf_ammo_at_rfl_2_mult }
+            #}
         }
         set_variable = { debug_var = inf_demand_mult }
         
