@@ -32,6 +32,20 @@ technologies = {
 			tank_gtd_1000_engine
 			tank_gtd_1000TF_engine
 			tank_gtd_1250_engine
+            tank_v_46_engine
+			tank_v_84_engine
+			tank_v_92С2_engine
+			tank_5tdf_engine
+			tank_6td2_engine
+			tank_a_85_3a_armata_engine
+			tank_kamaz_740_engine
+			tank_utd_20_engine
+			tank_3_td_engine
+			tank_ymz_5347_engine
+			tank_ymz_536_engine
+
+
+
 			tank_christie_suspension
 			tank_bogie_suspension
 			tank_interleaved_suspension
