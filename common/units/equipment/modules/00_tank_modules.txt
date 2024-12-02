@@ -2289,6 +2289,111 @@ equipment_modules = {
 		}
 	}
 
+	#ADDITIONAL WEAPONS
+	tank_additional_7_62_mm = {
+		abbreviation = "additional_762m"
+		category = tank_additional_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_additional_dshk_12_7mm = {
+		abbreviation = "additional_dshk_127m"
+		category = tank_additional_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_additional_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_additional_nsvt_12_7mm = {
+		abbreviation = "additional_nsvt_127m"
+		category = tank_additional_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_additional_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
+	tank_additional_cord_12_7mm_RUSSIA = {
+		abbreviation = "additional_cord_127m"
+		category = tank_additional_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_additional_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+	tank_additional_automatic_grenade_launcher = {
+		abbreviation = "additional_automatic_grenade_launche"
+		category = tank_additional_light_armament
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			soft_attack = 15
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 1.5
+			maximum_speed = -0.1
+			reliability = -0.1
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_additional_light_armament
+			convert_cost_ic = 1.5
+		}
+	}
+
 	tank_heavy_machine_gun = {
 		abbreviation = "hmg"
 		category = tank_small_main_armament

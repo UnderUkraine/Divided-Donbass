@@ -124,6 +124,12 @@ technologies = {
 			tank_nsvt_12_7mm
 			tank_dshk_12_7mm
 			tank_7_62_mm
+
+			tank_additional_7_62_mm
+			tank_additional_dshk_12_7mm
+			tank_additional_nsvt_12_7mm
+			tank_additional_cord_12_7mm_RUSSIA
+			tank_additional_automatic_grenade_launcher
 		}
 		enable_subunits = {
 			tank_unit
