@@ -32,6 +32,38 @@ ideas = {
             modifier = {
                 #Это как то реализовать надо, но как
             }
-        }     
+        }    
+        AZV_cooperation_zsu = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                #Хуй пойми
+            }
+        } 
+        AZV_podchineniye_ngu = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                #Хуй пойми
+            }
+        } 
     }    
 }

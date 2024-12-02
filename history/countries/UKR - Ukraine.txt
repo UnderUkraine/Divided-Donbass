@@ -81,6 +81,7 @@ add_ideas = {
 	UKR_protests
 	UKR_oligarhy_autocraty
 	UKR_cooperation_russia
+	UKR_confused_army
 	UKR_demographic_crisis1
 	UKR_dead_VPK
 }

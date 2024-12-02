@@ -31,8 +31,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_destability_on_east
-		icon = GFX_focus_UKR_destability_on_east
+		id = UKR_coalition_in_rada
+		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
@@ -53,17 +53,18 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			#TODO RADA NEW
 		}
 	}
 	focus = {
-		id = UKR_annex_crimea
-		icon = GFX_focus_UKR_annex_crimea
-		cost = 1
+		id = UKR_destability_on_east
+		icon = GFX_focus_UKR_destability_on_east
+		cost = 0.5
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_coalition_in_rada}
+		relative_position_id = UKR_coalition_in_rada
 		
 		ai_will_do = {
 			factor = 1
@@ -78,9 +79,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = -50
-			add_stability = -0.10
-			#TODO -деньги
+			subtract_from_variable = {
+				var = UKR.opr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
+			subtract_from_variable = {
+				var = UKR.kpr_support
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
 		}
 	}
 	focus = {
@@ -90,8 +98,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_annex_crimea}
-		relative_position_id = UKR_annex_crimea
+		prerequisite = {focus = UKR_destability_on_east}
+		relative_position_id = UKR_destability_on_east
 		
 		ai_will_do = {
 			factor = 1
@@ -137,7 +145,7 @@ focus_tree = {
 	focus = {
 		id = UKR_clashes_odessa
 		icon = GFX_focus_UKR_clashes_odessa
-		cost = 1
+		cost = 0.5
 		x = -2
 		y = 1
 
@@ -163,7 +171,7 @@ focus_tree = {
 	focus = {
 		id = UKR_sbu_on_donbass
 		icon = GFX_focus_UKR_sbu_on_donbass
-		cost = 1
+		cost = 0.5
 		x = 2
 		y = 1
 
@@ -194,7 +202,7 @@ focus_tree = {
 	focus = {
 		id = UKR_defence_donbass
 		icon = GFX_focus_UKR_defence_donbass
-		cost = 1
+		cost = 0.5
 		x = 0
 		y = 1
 
@@ -225,7 +233,7 @@ focus_tree = {
 	focus = {
 		id = UKR_stabilisation_region
 		icon = GFX_focus_UKR_stabilisation_region
-		cost = 1
+		cost = 0.5
 		x = 0
 		y = 1
 
@@ -251,7 +259,7 @@ focus_tree = {
 	focus = {
 		id = UKR_deep_all_militsia_on_odessa
 		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
-		cost = 1
+		cost = 0.5
 		x = 0
 		y = 1
 
@@ -298,6 +306,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_war_support = 0.05
+			add_manpower = 5000
 		}
 	}
 	focus = {
@@ -340,7 +350,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
+
 		}
 
 		cancel_if_invalid = yes
@@ -369,6 +379,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_confused_army
+				add_idea = UKR_volunteer_army
+			}
 		}
 	}
 	focus = {

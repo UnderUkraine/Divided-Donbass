@@ -27,7 +27,9 @@ UKR_Separatists_in_Ukraine = {
 			IF = {
 				limit = {
 					original_tag = RUS
-					has_country_flag = RUS_pro_russian_sentiment_focus_flag
+					RUS = {
+						has_country_flag = RUS_pro_russian_sentiment_focus_flag
+					}
 				}
 			}
 		}

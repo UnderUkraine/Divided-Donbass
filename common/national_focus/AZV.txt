@@ -22,7 +22,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#TODO Spawn divisions
+			AZV = {
+				add_manpower = 400
+			#и спавн дивизий
+			    add_political_power = 50
+			    add_manpower = 150
+			}
 		}
 	}
 	focus = {
@@ -42,7 +47,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#Черные человечки
+			AZV = {
+				add_manpower = 100
+			}
 		}
 	}
 	focus = {
@@ -97,7 +104,7 @@ focus_tree = {
 
 		completion_reward = {
 			AZV = {
-				add_manpower = 2000
+				add_manpower = 400
 			}
 		}
 	}
