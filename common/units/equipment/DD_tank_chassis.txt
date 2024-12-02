@@ -2207,8 +2207,16 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
-					tank_flamethrower
+					tank_super_light_armament
+					tank_light_armament
+					tank_light_anti_aircraft_armament
+					tank_medium_weapon_armament
+					tank_tank_weapon_armament
+					tank_heavy_tank_weapon_armament
+					tank_light_rzso_weapon_armament
+					tank_light_zrk_armament
+					tank_medium_zrk_armament
+					tank_medium_artillery_armament
 				}
 			}
 			
@@ -2237,9 +2245,8 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
+					tank_additional_light_armament
+					tank_additional_zrk_armament
 				}
 			}
 
@@ -2249,6 +2256,15 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
+					tank_dynamic_armor_category
+					tank_additional_defense_category
+					tank_active_defense_category
+					tank_passive_protection_complex_category
+					tank_survivability_module_category
+					tank_anti_mine_module_category
+					tank_gga_category
 				}
 			}
 
@@ -2258,6 +2274,15 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
+					tank_dynamic_armor_category
+					tank_additional_defense_category
+					tank_active_defense_category
+					tank_passive_protection_complex_category
+					tank_survivability_module_category
+					tank_anti_mine_module_category
+					tank_gga_category
 				}
 			}
 
@@ -2267,66 +2292,63 @@ equipments = {
 					tank_special_module
 					tank_radio_module
 					tank_secondary_turret
+					tank_atgms_category
+					tank_mgg_atgms_category
+					tank_dynamic_armor_category
+					tank_additional_defense_category
+					tank_active_defense_category
+					tank_passive_protection_complex_category
+					tank_survivability_module_category
+					tank_anti_mine_module_category
+					tank_gga_category
 				}
 			}
 			
 		}
 		module_count_limit = {
-			module = sloped_armor
+			category = tank_additional_defense_category
 			count < 2
 		}	
 		module_count_limit = {
-			category = tank_radio_module
+			category = tank_dynamic_armor_category
 			count < 2
-		}
+		}		
 		module_count_limit = {
-			category = tank_secondary_turret
+			category = tank_mgg_atgms_category
 			count < 2
-		}
+		}		
 		module_count_limit = {
-			module = amphibious_drive
+			category = tank_atgms_category
 			count < 2
-		}
+		}		
+		module_count_limit = {
+			category = tank_active_defense_category
+			count < 2
+		}		
+		module_count_limit = {
+			category = tank_passive_protection_complex_category
+			count < 2
+		}		
+		module_count_limit = {
+			category = tank_survivability_module_category
+			count < 2
+		}		
+		module_count_limit = {
+			category = tank_anti_mine_module_category
+			count < 2
+		}		
+		module_count_limit = {
+			category = tank_gga_category
+			count < 2
+		}		
 
-		module_count_limit = {
-			module = wet_ammo_storage
-			count < 2
-		}
-
-		module_count_limit = {
-			module = squeezebore_adaptor
-			count < 2
-		}
-
-		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-
-		module_count_limit = {
-			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = auto_loader
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
-			count < 2
-		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
+		#default_modules = {
+		#	main_armament_slot = empty
+		#	turret_type_slot = tank_light_tower_1
+		#	suspension_type_slot = tank_bogie_suspension
+		#	armor_type_slot = tank_riveted_armor
+		#	engine_type_slot = tank_gasoline_engine
+		#}
 
 		fuel_consumption = 0
 		maximum_speed = 4
@@ -2340,8 +2362,7 @@ equipments = {
 
 		lend_lease_cost = 10
 
-		manpower = 2
-
+		manpower = 3
 	}
 
 	bbm_chassis_0 = {
@@ -2349,7 +2370,7 @@ equipments = {
 		derived_variant_name = bbm_equipment_0
 		visual_level = 0
 		year = 1959
-		archetype = armored_vehicle_chassis
+		archetype = bbm_chassis
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
