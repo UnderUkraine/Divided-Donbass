@@ -130,6 +130,10 @@ technologies = {
 			tank_additional_nsvt_12_7mm
 			tank_additional_cord_12_7mm_RUSSIA
 			tank_additional_automatic_grenade_launcher
+
+			tank_additional_medium_anti_aircraft_missle_1
+			tank_additional_medium_anti_aircraft_missle_2
+			tank_additional_manpads_on_chassis
 		}
 		enable_subunits = {
 			tank_unit

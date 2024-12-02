@@ -1751,6 +1751,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_additional_light_armament
+					tank_additional_zrk_armament
 				}
 			}
 
