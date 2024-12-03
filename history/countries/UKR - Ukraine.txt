@@ -230,6 +230,25 @@ create_equipment_variant = {
 	icon = "GFX_bbm_chassis_medium"
 }
 
+create_equipment_variant = {
+	name = "БМД ТЕСТ"
+	type = bmd_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_73mm_weapon_2a28
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_rolled_homogeneous_armor
+		engine_type_slot = tank_utd_20_engine
+		special_type_slot_1 = tank_additional_7_62_mm
+		special_type_slot_2 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+}
+
 add_ideas = {
 	UKR_protests
 	UKR_oligarhy_autocraty

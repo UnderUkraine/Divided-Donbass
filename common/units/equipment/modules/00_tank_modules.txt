@@ -972,6 +972,9 @@ equipment_modules = {
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = bmd_type
+		forbid_equipment_type_exact_match = armor
+
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
