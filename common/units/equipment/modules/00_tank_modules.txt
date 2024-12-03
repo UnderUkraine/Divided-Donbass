@@ -1050,11 +1050,6 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_heavy_main_armament
-			}
-		}
 		xp_cost = 2
 		dismantle_cost_ic = 1
 
@@ -1076,11 +1071,6 @@ equipment_modules = {
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
-				tank_heavy_main_armament
-			}
-		}
-		allowed_module_categories = {
-			main_armament_slot = {
 				tank_heavy_main_armament
 			}
 		}
@@ -1108,11 +1098,6 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_heavy_main_armament
-			}
-		}
 		xp_cost = 2
 		dismantle_cost_ic = 1
 
@@ -1134,11 +1119,6 @@ equipment_modules = {
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
-				tank_heavy_main_armament
-			}
-		}
-		allowed_module_categories = {
-			main_armament_slot = {
 				tank_heavy_main_armament
 			}
 		}
@@ -1166,11 +1146,6 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
-		allowed_module_categories = {
-			main_armament_slot = {
-				tank_heavy_main_armament
-			}
-		}
 		xp_cost = 2
 		dismantle_cost_ic = 1
 
@@ -1192,11 +1167,6 @@ equipment_modules = {
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_medium_main_armament
-				tank_heavy_main_armament
-			}
-		}
-		allowed_module_categories = {
-			main_armament_slot = {
 				tank_heavy_main_armament
 			}
 		}
