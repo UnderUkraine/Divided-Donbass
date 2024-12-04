@@ -417,22 +417,22 @@ JAM_se_init_onstart_ammo = {
     
     # Mobilization multiplier
     set_temp_variable = { mob_mult = 0.25 }
-    if = {
-        limit = { has_idea = low_economic_mobilisation }
-        set_temp_variable = { mob_mult = 0.5 }
-    }
-    else_if = {
-        limit = { has_idea = partial_economic_mobilisation }
-        set_temp_variable = { mob_mult = 0.75 }
-    }
-    else_if = {
-        limit = { has_idea = war_economy }
-        set_temp_variable = { mob_mult = 1 }
-    }
-    else_if = {
-        limit = { has_idea = tot_economic_mobilisation }
-        set_temp_variable = { mob_mult = 1.25 }
-    }
+    #if = {
+    #    limit = { has_idea = low_economic_mobilisation }
+    #    set_temp_variable = { mob_mult = 0.5 }
+    #}
+    #else_if = {
+    #    limit = { has_idea = partial_economic_mobilisation }
+    #    set_temp_variable = { mob_mult = 0.75 }
+    #}
+    #else_if = {
+    #    limit = { has_idea = war_economy }
+    #    set_temp_variable = { mob_mult = 1 }
+    #}
+    #else_if = {
+    #    limit = { has_idea = tot_economic_mobilisation }
+    #    set_temp_variable = { mob_mult = 1.25 }
+    #}
     multiply_temp_variable = { produced_ammo = mob_mult }
     
     # Specific countries
