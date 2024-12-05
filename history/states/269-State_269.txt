@@ -7,6 +7,10 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+		2015.1.1 = {
+			transfer_state_to = LPR
+			add_core_of = LPR
+		}
 		victory_points = {
 			11805 30
 		}

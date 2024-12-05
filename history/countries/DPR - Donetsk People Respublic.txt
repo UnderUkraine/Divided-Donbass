@@ -14,6 +14,15 @@ add_ideas = {
 	DPR_Peoples_republic
 }
 
+2015.1.1 = {
+	declare_war_on = {
+		target = UKR
+		type = annex_everything
+	}
+
+	load_oob = "DPR_2014"
+}
+
 #recruit_character = victor_yanukovich
 
 set_popularities = {

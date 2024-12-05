@@ -45,7 +45,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -71,7 +70,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes

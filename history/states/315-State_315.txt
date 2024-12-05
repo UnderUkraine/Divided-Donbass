@@ -7,11 +7,62 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+		2015.1.1 = {
+			transfer_state_to = DPR
+			add_core_of = DPR
+
+			UKR = {
+				#set_province_controller = 7271
+				set_province_controller = 12479
+				set_province_controller = 4260
+				set_province_controller = 12417
+				set_province_controller = 12366
+				set_province_controller = 12353
+
+				set_province_controller = 12307
+				set_province_controller = 12290
+				set_province_controller = 4270
+				set_province_controller = 5100
+
+				set_province_controller = 12346
+				set_province_controller = 12404
+				set_province_controller = 6114
+
+				set_province_controller = 12101
+				set_province_controller = 2270
+				set_province_controller = 5021
+				set_province_controller = 12338
+				set_province_controller = 12368
+				set_province_controller = 301
+
+				set_province_controller = 12319
+				set_province_controller = 12220
+				set_province_controller = 12210
+				set_province_controller = 12159
+				set_province_controller = 12131
+
+				set_province_controller = 4451
+
+				set_province_controller = 12038
+				set_province_controller = 3823
+				set_province_controller = 12065
+				set_province_controller = 12028
+				set_province_controller = 11998
+				set_province_controller = 12029
+				set_province_controller = 11985
+				set_province_controller = 5949
+				set_province_controller = 12008
+				set_province_controller = 11970
+		   }
+		}
 		victory_points = {
 			12219 10
 		}
 		victory_points = {
 			7290 5
+		}
+		victory_points = {
+			12410 3
 		}
 	}
 	buildings_max_level_factor=1.000

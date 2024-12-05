@@ -49,6 +49,26 @@
  VICTORY_POINTS_11805: "Luhansk"
  LPR_VICTORY_POINTS_11805: "Lugansk"
 
+ VICTORY_POINTS_7663: "Donetsk"
+ VICTORY_POINTS_4104: "Kyivskyi raion"
+ VICTORY_POINTS_12872: "Kuibyshivskyi raion"
+ VICTORY_POINTS_7748: "Kirovskyi raion"
+ VICTORY_POINTS_12893: "Leninskyi & Budonivskyi raion"
+ VICTORY_POINTS_12982: "Petrovskyi raion"
+ VICTORY_POINTS_12894: "Proletarskyi raion"
+ VICTORY_POINTS_15100: "Donetsk airport"
+ VICTORY_POINTS_12711: "Vesele"
+ VICTORY_POINTS_12704: "Spartak"
+ VICTORY_POINTS_12674: "Yakovlivka"
+ VICTORY_POINTS_12637: "Mineralne"
+ VICTORY_POINTS_13026: "Kreminets"
+ VICTORY_POINTS_12844: "Krasnohorivka"
+
+ VICTORY_POINTS_12410: "Bunhe"
+
+ VICTORY_POINTS_12245: "Debaltseve"
+ VICTORY_POINTS_12181: "Novohryhorivka"
+
  VICTORY_POINTS_13909: "Staryi Krym"
  VICTORY_POINTS_13992: "Vynohradne"
  VICTORY_POINTS_13944: "Kalynivka"
@@ -90,7 +110,7 @@
  VICTORY_POINTS_13958: "Pryazovske"
 
  VICTORY_POINTS_12880: "Kurakhove"
- VICTORY_POINTS_12941: "Marinka"
+ VICTORY_POINTS_12941: "Mariinka"
  VICTORY_POINTS_6124: "Oleksandrivka"
 
  VICTORY_POINTS_2231: "Zaporizhzhia"
