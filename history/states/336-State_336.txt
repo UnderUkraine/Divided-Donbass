@@ -9,7 +9,7 @@ state={
 		add_core_of = UKR
 
 		victory_points = {
-			12502 10
+			12546 10
 		}
 	}
 	buildings_max_level_factor=1.000

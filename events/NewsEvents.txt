@@ -320,8 +320,6 @@ news_event = {
 	picture = GFX_news_event_004
 	
 	major = yes
-	
-	is_triggered_only = yes
 
 	trigger = {
 		OR = {
@@ -330,10 +328,15 @@ news_event = {
 			}
 			DPR = {
 				any_allied_country = {
-                    controls_province = 15100
+					controls_province = 15100
 				}
 			}
 		}
+		NOT = { has_global_flag = DPR_captured_donetsk_airport } 
+	}
+
+	immediate = {
+		set_global_flag = DPR_captured_donetsk_airport
 	}
 	
 	option = {
