@@ -11,8 +11,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 65 #Under kogda ZP?
+	democratic = 55
 	fascism = 0
-	communism = 15
-	neutrality = 25
+	communism = 35
+	neutrality = 15
+}
+
+add_ideas = {
+	MLV_Transnistria_problem
 }

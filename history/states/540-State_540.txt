@@ -9,6 +9,11 @@ state={
 		add_core_of = UKR
 		add_claim_by = RUS
 
+		2015.1.1 = {
+			transfer_state_to = RUS
+			add_core_of = RUS
+		}
+
 		set_demilitarized_zone = yes
 	}
 	buildings_max_level_factor=1.000

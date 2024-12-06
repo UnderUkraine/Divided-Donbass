@@ -7,6 +7,23 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+
+		2015.1.1 = {
+			add_core_of = LPR
+
+			LPR = {
+				set_province_controller = 11719
+				set_province_controller = 11783
+				set_province_controller = 11817
+
+				set_province_controller = 11709
+				set_province_controller = 11714
+				set_province_controller = 11763
+				set_province_controller = 11744
+				set_province_controller = 11767
+				set_province_controller = 11787
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

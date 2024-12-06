@@ -67,7 +67,7 @@ country_event = {
 	
 	option = {
 		name = ukraine.4.a
-		#TODO Creation of Azov
+
 		AZV = {
 			transfer_state = 562
 		}
@@ -80,7 +80,7 @@ country_event = {
 		hidden_effect = {
 			AZV = {
 				set_politics = {
-					ruling_party = fashism
+					ruling_party = fascism
 					last_election = "2010.02.07"
 					election_frequency = 48
 					elections_allowed = no

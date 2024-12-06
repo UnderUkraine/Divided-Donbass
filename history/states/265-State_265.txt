@@ -8,7 +8,7 @@ state={
 		owner = UKR
 		add_core_of = UKR
 		victory_points = {
-			11576 5
+			11576 10
 		}
 	}
 	buildings_max_level_factor=1.000

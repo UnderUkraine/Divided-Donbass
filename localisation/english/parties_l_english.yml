@@ -52,5 +52,8 @@
 
  UKR_fascism_party:0 "Pravyu Sektor"
  UKR_democratic_party:0 "Batkivshina"
- UKR_communism_party:0 "CPP"
+ UKR_communism_party:0 "CPU"
  UKR_neutrality_party:0 "Partia Regioniv"
+
+ UKR_democratic_party_BPP:0 "BPP"
+ UKR_democratic_party_BPP_long:0 "Blok Petra Poroshenko"

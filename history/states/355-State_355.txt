@@ -18,13 +18,9 @@ state={
 				set_province_controller = 7503
 				set_province_controller = 12815
 				set_province_controller = 4957
-				set_province_controller = 7353
-				set_province_controller = 12930
 				set_province_controller = 15100
-
 				set_province_controller = 12912
 				set_province_controller = 8064
-				set_province_controller = 6200
 				set_province_controller = 7324
 				set_province_controller = 12808
 				set_province_controller = 5599
@@ -74,6 +70,12 @@ state={
 		}
 		victory_points = {
 			13026 5
+		}
+		victory_points = {
+			7324 5
+		}
+		victory_points = {
+			12808 3
 		}
 		buildings = {
 			air_base = 3

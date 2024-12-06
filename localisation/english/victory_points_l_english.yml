@@ -46,8 +46,10 @@
  VICTORY_POINTS_8482: "Rivne"
 
 ##Donbass
- VICTORY_POINTS_11805: "Luhansk"
- LPR_VICTORY_POINTS_11805: "Lugansk"
+ VICTORY_POINTS_11697: "Luhansk"
+ LPR_VICTORY_POINTS_11697: "Lugansk"
+
+ VICTORY_POINTS_11576: "Stanytsia Luhanska"
 
  VICTORY_POINTS_7663: "Donetsk"
  VICTORY_POINTS_4104: "Kyivskyi raion"
@@ -71,6 +73,8 @@
  VICTORY_POINTS_12503: "Betmanove"
  VICTORY_POINTS_12495: "Panteleimonivka"
  VICTORY_POINTS_8082: "Mykhailivka"
+ VICTORY_POINTS_7324: "Staromykhailivka"
+ VICTORY_POINTS_12808: "Lozove"
 
  VICTORY_POINTS_12410: "Bunhe"
 
