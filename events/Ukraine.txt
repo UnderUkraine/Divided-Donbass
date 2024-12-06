@@ -186,8 +186,83 @@ country_event = {
 	
 	is_triggered_only = yes
 
+    immediate = {
+		add_war_support = 0.05
+	}
+
 	option = {
 		name = ukraine.9.a
-		add_war_support = 0.1
+	}
+}
+
+#LPR capitulate
+country_event = {
+	id = ukraine.10
+	title = ukraine.10.t
+	desc = ukraine.10.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		add_war_support = 0.05
+	}
+
+	option = {
+		name = ukraine.10.a
+	}
+}
+
+#KPR capitulate
+country_event = {
+	id = ukraine.11
+	title = ukraine.11.t
+	desc = ukraine.11.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		add_war_support = 0.03
+	}
+
+	option = {
+		name = ukraine.11.a
+	}
+}
+
+#OPR capitulate
+country_event = {
+	id = ukraine.12
+	title = ukraine.12.t
+	desc = ukraine.12.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		add_war_support = 0.03
+	}
+
+	option = {
+		name = ukraine.12.a
+	}
+}
+
+#Victory over separatists
+country_event = {
+	id = ukraine.13
+	title = ukraine.13.t
+	desc = ukraine.13.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.13.a
+
+		set_global_flag = UKR_Victory_over_separatists_event
+		set_global_flag = Super_Event_Visible
+		play_song = "super_yanukovich_overthrow"
 	}
 }
