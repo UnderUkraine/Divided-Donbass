@@ -124,6 +124,33 @@ on_actions = {
 					country_event = ukraine.9
 				}
 			}
+			else_if = {
+				limit = {
+					UKR = {
+						has_war_with = LPR
+					}
+					FROM.tag = LPR
+				}
+				UKR = {
+					annex_country = {
+						target = LPR
+					}
+					country_event = ukraine.10
+				}
+				IF = {
+					limit = {
+						NOT = {
+							country_exists = DPR
+							country_exists = LPR
+							country_exists = KPR
+							country_exists = OPR
+						}
+					}
+					UKR = {
+						country_event = ukraine.13
+					}
+				}
+			}
 		}
 	}
 }

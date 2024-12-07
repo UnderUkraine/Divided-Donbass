@@ -829,7 +829,7 @@ country_event = {
 	id = ukraine.9
 	title = ukraine.9.t
 	desc = ukraine.9.d
-	#picture = GFX_report_event_royal_parade
+	picture = GFX_report_event_capture_of_dpr
 	
 	is_triggered_only = yes
 
@@ -910,7 +910,7 @@ country_event = {
 
 		set_global_flag = UKR_Victory_over_separatists_event
 		set_global_flag = Super_Event_Visible
-		play_song = "super_yanukovich_overthrow"
+		play_song = "ukrainian_victory_over_separatists"
 	}
 }
 
@@ -1005,7 +1005,7 @@ country_event = {
 			IF = {limit = { LPR = { controls_state = 342 }} LPR = { transfer_state = 342 }}
 			IF = {limit = { LPR = { controls_state = 331 }} LPR = { transfer_state = 331 }}
 			IF = {limit = { LPR = { controls_state = 295 }} LPR = { transfer_state = 295 }}
-			IF = {limit = { LPR = { controls_state = 305 }} LPR = { transfer_state = 137 }}
+			IF = {limit = { LPR = { controls_state = 305 }} LPR = { transfer_state = 305 }}
 			IF = {limit = { LPR = { controls_state = 269 }} LPR = { transfer_state = 305 }}
 			IF = {limit = { LPR = { controls_state = 271 }} LPR = { transfer_state = 271 }}
 			IF = {limit = { LPR = { controls_state = 304 }} LPR = { transfer_state = 304 }}
