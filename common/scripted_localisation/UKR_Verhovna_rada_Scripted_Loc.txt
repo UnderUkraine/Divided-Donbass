@@ -1,0 +1,155 @@
+defined_text = {
+    name = get_party_one
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_one_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_one_temp_government_1"
+    }
+}
+defined_text = {
+    name = get_party_two
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_two_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_two_temp_government_1"
+    }
+}
+defined_text = {
+    name = get_party_three
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_three_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_three_temp_government_1"
+    }
+}
+defined_text = {
+    name = get_party_four
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_four_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_four_temp_government_1"
+    }
+}
+defined_text = {
+    name = get_party_five
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_five_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_five_temp_government_1"
+    }
+}
+defined_text = {
+    name = get_party_six
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "party_six_yanukovich_rule"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "party_six_temp_government_1"
+    }
+}
+
+defined_text = {
+    name = get_rada_pic
+	
+    text = {
+        trigger = {
+            victor_yanukovich = {
+				is_country_leader = yes
+			}
+        }
+        localization_key = "GFX_rada1_deputaty"
+    }
+
+    text = {
+        trigger = {
+            alexander_tyrchinov = {
+				is_country_leader = yes
+			}
+            #Country flag rada
+        }
+        localization_key = "GFX_rada2_deputaty"
+    }
+}

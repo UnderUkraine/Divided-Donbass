@@ -1,0 +1,19 @@
+scripted_gui = {
+	verhovna_rada_gui = {
+		window_name = "verhovna_rada_window"
+		context_type = decision_category
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			rada_deputaty = {
+				image = "[get_rada_pic]"
+			} 
+		}
+		
+		triggers = {
+		}
+	}
+}

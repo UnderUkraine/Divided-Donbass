@@ -52,7 +52,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#TODO RADA NEW
+			set_variable = { UKR.party_one_deputaty = 187 }
+			set_variable = { UKR.party_two_deputaty = 102 }
+			set_variable = { UKR.party_three_deputaty = 40 }
+			set_variable = { UKR.party_four_deputaty = 38 }
+			set_variable = { UKR.party_five_deputaty = 32 }
+			set_variable = { UKR.party_six_deputaty = 51 }
 		}
 	}
 	focus = {
@@ -107,7 +112,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 25
+			country_event = ukraine.15
 		}
 	}
 	focus = {
@@ -331,6 +336,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
+            add_war_support = 0.05
+
+			hidden_effect = {
+				add_manpower = 5000
+			}
 		}
 	}
 	focus = {

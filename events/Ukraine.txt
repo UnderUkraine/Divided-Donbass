@@ -109,6 +109,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			complete_national_focus = UKR_russia_trebuet_perigovori
 			RUS = {
 				country_event = russia.4
 			}
@@ -467,6 +468,7 @@ country_event = {
 
 	option = {
 		name = ukraine.6.a
+		complete_national_focus = UKR_minsk_odin
 	}
 }
 
@@ -482,6 +484,8 @@ country_event = {
 	immediate = {
 		clr_global_flag = global_minsk_one
 		set_global_flag = global_minsk_one_failed
+		
+		complete_national_focus = UKR_proval_minsk_odin
 
 			#DONETSK OBLAST
 			355 = {
@@ -821,6 +825,8 @@ country_event = {
 
 	option = {
 		name = ukraine.8.a
+
+		complete_national_focus = UKR_minsk_dva
 	}
 }
 
@@ -1074,5 +1080,21 @@ country_event = {
 				hours = 1
 			}
 		}
+	}
+}
+
+#Appel to UN
+country_event = {
+	id = ukraine.15
+	title = ukraine.15.t
+	desc = ukraine.15.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.15.a
+
+		add_political_power = 25
 	}
 }

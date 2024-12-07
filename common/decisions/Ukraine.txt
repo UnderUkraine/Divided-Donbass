@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 52 #56 to February 22
+		days_mission_timeout = 52 #52 to February 22
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -25,6 +25,14 @@ UKR_Maidan_Support_category = {
 			set_variable = { UKR.lpr_support = 45 }
 			set_variable = { UKR.kpr_support = 35 }
 			set_variable = { UKR.opr_support = 25 }
+
+			set_variable = { UKR.party_one_deputaty = 86 }
+			set_variable = { UKR.party_two_deputaty = 78 }
+			set_variable = { UKR.party_three_deputaty = 41 }
+			set_variable = { UKR.party_four_deputaty = 41 }
+			set_variable = { UKR.party_five_deputaty = 35 }
+			set_variable = { UKR.party_six_deputaty = 164 }
+
 			hidden_effect = {
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
@@ -640,7 +648,6 @@ UKR_Separatists_in_Ukraine = {
 			tag = RUS
 		}
 		activation = {
-			has_global_flag = UKR_ATO_Started
 		}
 		timeout_effect = {
 			RUS = {
@@ -699,9 +706,14 @@ UKR_Negotations = {
 			has_global_flag = global_minsk_one_failed
         }
         icon = GFX_Ukraine_and_russia_gerbs_decision
+		ai_will_do = {
+			modifier = {
+				add = 40
+			}
+		}
         priority = 10
 		fire_only_once = yes
-		days_remove = 1
+		days_remove = 55 #55 days??
 		cost = 100
         remove_effect = {
 			set_global_flag = global_russia_minsk_two_signed

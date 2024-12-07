@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_rada1_deputaty"
+		textureFile = "/gfx/UKR_Verhovna_rada/Rada_2006.dds"
+	}
+	spriteType = {
+		name = "GFX_rada2_deputaty"
+		textureFile = "/gfx/UKR_Verhovna_rada/Rada_temp_government_1.dds"
+	}
+}

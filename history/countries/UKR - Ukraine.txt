@@ -70,6 +70,13 @@ capital = 93
 		UKR_demographic_crisis1
 		UKR_dead_VPK
 	}
+
+	set_variable = { UKR.party_one_deputaty = 187 }
+	set_variable = { UKR.party_two_deputaty = 102 }
+	set_variable = { UKR.party_three_deputaty = 40 }
+	set_variable = { UKR.party_four_deputaty = 38 }
+	set_variable = { UKR.party_five_deputaty = 32 }
+	set_variable = { UKR.party_six_deputaty = 51 }
 	
 	add_manpower = 20000
 	
