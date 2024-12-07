@@ -1,6 +1,6 @@
 UKR = {
-	color = rgb { 55 111 232 }
-	color_ui = rgb { 55 111 232 }
+	color = rgb { 55 108 163 }
+	color_ui = rgb { 55 108 163 }
 }
 CRI = {
 	color = rgb { 112 144 194 }

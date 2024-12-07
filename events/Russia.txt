@@ -199,3 +199,17 @@ country_event = {
 		}
 	}
 }
+
+#Ukraine accepts minsk 2
+country_event = {
+	id = russia.6
+	title = russia.6.t
+	desc = russia.6.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.6.a
+	}
+}
