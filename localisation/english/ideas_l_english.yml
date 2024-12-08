@@ -14,6 +14,43 @@
  navy_chief:0 "Chief of Navy"
  air_chief:0 "Chief of Airforce"
  high_command:0 "Military High Command"
+ cabinet_of_ministers:0 "Cabinet of ministers"
+ military_laws:0 "Military laws"
+
+ world_recognition:0 "Worldwide recognition"
+ regional_recognition:0 "Regional recognition"
+ partial_recognition:0 "Partial recognition"
+ not_recognized_state:0 "Unrecognized state"
+ military_formation:0 "Military formation"
+
+ total_corruption:0 "Total corruption"
+ strong_corruption:0 "Strong corruption"
+ medium_corruption:0 "Medium corruption"
+ minimal_corruption:0 "Minimal corruption"
+
+ parlament_president_republic:0 "Parlament-President republic"
+ president_parlament_republic:0 "President-Parlament republic"
+ mixed_republic:0 "Mixed republic"
+ one_party_state:0 "One-party state"
+ military_dictatorship_law:0 "Military dictatorship"
+
+ all_to_the_frontline:0 "§RAll to the frontline§!"
+ military_laths:0 "Military laths"
+ standard_financing:0 "Standart financing"
+ minimal_expenses:0 "Minimal expenses"
+ sergeant_schools:0 "Sergeant schools"
+ army_without_funding:0 "Army without funding"
+
+ use_nukes_first:0 "Nuke doctrine"
+ use_in_defense:0 "Use in defense"
+ no_nuke_state:0 "No nuke state"
+
+ nato_standarts:0 "NATO Standarts"
+ russian_army:0 "Russian army"
+ military_academies:0 "Military academies"
+ officers_schools:0 "Officers schools"
+ sergeant_schools:0 "Sergeant schools"
+ straight_to_the_frontline:0 "§RStraight to the frontline§!"
 
  UKR_protests:0 "Protests"
  UKR_protests_desc:0 "Protests"
