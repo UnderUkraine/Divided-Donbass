@@ -3,4 +3,24 @@ spriteTypes = {
         name = "GFX_DonbassMap"
         texturefile = "gfx/Escalation/DonbassMap.dds"
     }
+    spriteType = {
+        name = "GFX_escalation1"
+        texturefile = "gfx/Escalation/escalation1.png"
+    }
+    spriteType = {
+        name = "GFX_escalation2"
+        texturefile = "gfx/Escalation/escalation2.png"
+    }
+    spriteType = {
+        name = "GFX_escalation3"
+        texturefile = "gfx/Escalation/escalation3.png"
+    }
+    spriteType = {
+        name = "GFX_escalation4"
+        texturefile = "gfx/Escalation/escalation4.png"
+    }
+    spriteType = {
+        name = "GFX_escalation5"
+        texturefile = "gfx/Escalation/escalation5.png"
+    }
 }
