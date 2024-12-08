@@ -45,6 +45,8 @@ set_politics = {
 
 add_ideas = {
     #RUS_defense_of_crimea_2014
+
+    world_recognition
 }
 
 set_oob = "RUS_2014"

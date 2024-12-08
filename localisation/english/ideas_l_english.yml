@@ -1,4 +1,20 @@
 ﻿l_english:
+
+ government:1 "Laws & Government"
+ research_production:0 "Research & Production"
+ military_staff:0 "Military Staff"
+ political_advisor:0 "Political Advisor"
+ mobilization_laws:0 "Conscription Law"
+ trade_laws:0 "Trade Law"
+ economy:0 "Economy Law"
+ aircraft_manufacturer:0 "Aircraft Designer"
+ materiel_manufacturer:0 "Materiel Designer"
+ industry_concern:0 "Industry Concern"
+ army_chief:0 "Chief of Army"
+ navy_chief:0 "Chief of Navy"
+ air_chief:0 "Chief of Airforce"
+ high_command:0 "Military High Command"
+
  UKR_protests:0 "Protests"
  UKR_protests_desc:0 "Protests"
 

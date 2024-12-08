@@ -71,6 +71,8 @@ capital = 93
 		UKR_confused_army
 		UKR_demographic_crisis1
 		UKR_dead_VPK
+
+		world_recognition
 	}
 
 	set_variable = { UKR.party_one_deputaty = 187 }

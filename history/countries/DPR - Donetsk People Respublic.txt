@@ -12,6 +12,8 @@ set_politics = {
 
 add_ideas = {
 	DPR_Peoples_republic
+
+	not_recognized_state
 }
 
 recruit_character = DPR_zakharchenko

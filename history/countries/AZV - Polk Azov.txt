@@ -19,4 +19,6 @@ set_popularities = {
 
 add_ideas = {
 	AZV_fight_for_ukraine
+
+	military_formation
 }

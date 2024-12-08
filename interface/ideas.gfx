@@ -23,4 +23,10 @@ spriteTypes = {
 		name = "GFX_idea_City_of_Sevastopol"
 		texturefile = "gfx/interface/ideas/cityofSevastopol.dds"
 	}
+
+    #LAWS
+	SpriteType = {
+		name = "GFX_idea_world_recognition"
+		texturefile = "gfx/interface/ideas/world_recognition.dds"
+	}
 }

@@ -10,13 +10,13 @@ UKR_Maidan_Support_category = {
 			}
 		}
 		activation = {
-			victor_yanukovich = {
-				is_country_leader = yes
+			has_country_leader = {
+                character = victor_yanukovich
 			}
 		}
 		visible = {
-			victor_yanukovich = {
-				is_country_leader = yes
+			has_country_leader = {
+                character = victor_yanukovich
 			}
 		}
 		timeout_effect = {
