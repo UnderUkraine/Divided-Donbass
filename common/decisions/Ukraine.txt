@@ -26,13 +26,6 @@ UKR_Maidan_Support_category = {
 			set_variable = { UKR.kpr_support = 35 }
 			set_variable = { UKR.opr_support = 25 }
 
-			set_variable = { UKR.party_one_deputaty = 86 }
-			set_variable = { UKR.party_two_deputaty = 78 }
-			set_variable = { UKR.party_three_deputaty = 41 }
-			set_variable = { UKR.party_four_deputaty = 41 }
-			set_variable = { UKR.party_five_deputaty = 35 }
-			set_variable = { UKR.party_six_deputaty = 164 }
-
 			hidden_effect = {
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
@@ -78,7 +71,6 @@ UKR_Separatists_in_Ukraine = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 		}
 		timeout_effect = {
-			set_global_flag = UKR_ATO_Started
 			UKR = {
 				country_event = super.1
 			}
@@ -92,19 +84,10 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-                        set_global_flag = Escalation_activated
-
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+                        set_global_flag = UKR_ATO_Started
 					}
 					UKR = {
 						add_dynamic_modifier = {
@@ -301,19 +284,10 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-						set_global_flag = Escalation_activated
-
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+						set_global_flag = UKR_ATO_Started
 					}
 				LPR = {
 					add_dynamic_modifier = {
@@ -474,19 +448,10 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-                        set_global_flag = Escalation_activated
-
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+                        set_global_flag = UKR_ATO_Started
 					}
 				KPR = {
 					add_dynamic_modifier = {
@@ -564,19 +529,10 @@ UKR_Separatists_in_Ukraine = {
 				if = {
 					limit = {
 						NOT = {
-							has_global_flag = Escalation_activated
+							has_global_flag = UKR_ATO_Started
 						}
 					}
-                    set_global_flag = Escalation_activated
-
-					set_variable = { global.escalation_on_donbass_variable = 35 }
-					set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-	
-					set_variable = {global.Escalation_stability_factor = -0.07}
-					set_variable = {global.Escalation_war_support_factor = 0.07}
-					set_variable = {global.Escalation_resistance_growth = 0.07}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.1}
+                    set_global_flag = UKR_ATO_Started
 				}
 				OPR = {
 					add_dynamic_modifier = {

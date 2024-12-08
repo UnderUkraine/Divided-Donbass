@@ -3,9 +3,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_one_yanukovich_rule"
     }
@@ -25,9 +23,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_two_yanukovich_rule"
     }
@@ -47,9 +43,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_three_yanukovich_rule"
     }
@@ -69,9 +63,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_four_yanukovich_rule"
     }
@@ -91,9 +83,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_five_yanukovich_rule"
     }
@@ -113,9 +103,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "party_six_yanukovich_rule"
     }
@@ -136,9 +124,7 @@ defined_text = {
 	
     text = {
         trigger = {
-            victor_yanukovich = {
-				is_country_leader = yes
-			}
+            has_country_flag = rada_2012
         }
         localization_key = "GFX_rada1_deputaty"
     }

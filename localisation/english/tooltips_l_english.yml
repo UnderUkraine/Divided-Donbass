@@ -3,6 +3,8 @@
 
  UKR_start_fake_eurointegration_tt:0 "We will start §B“European integration”§! to §Rappease§! the people."
  UKR_kharkiv_pact_tt:0 "Agreement on the presence of the [RUS.GetFlag]Russian fleet in the bay of §YSevastopol§! will be extended until §Y2017§!"
+ UKR_decline_to_sign_agreement_tt:0 "§gWe will refuse to sign the§! “Association Agreement with the EU” §RThis could lead to protests§!"
+ UKR_join_union_state_project_tt:0 "We will join "Union State" project"
 
  russia_invastion_of_crimea_tt:0 "Together with the militia, we will launch an §Roperation to take over [CRI.GetFlag]Crimea§!."
  RUS_support_ideas_dpr:0 "We will support idea of [DPR.GetFlag]Donetsk PR by §O5§!."
@@ -26,6 +28,8 @@
  Separatists_won_tt:0 "Separatists won"
 
  Prepare_for_invinteble_mobilize_tt:0 "We will §Rmobilize§! small part of police to military reserve"
+
+ UKR_new_rada_temp_government_tt:0 "We will divide the seats in the Verkhovna Rada to create a majority"
 
 
  Escalation_Donbass_map_tt:0 "§Yworkz!!1§!"

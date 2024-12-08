@@ -53,6 +53,17 @@ country_event = {
 	trigger = {
 	}
 
+	immediate = {
+		set_variable = { global.escalation_on_donbass_variable = 35 }
+		set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
+
+		set_variable = {global.Escalation_stability_factor = -0.07}
+		set_variable = {global.Escalation_war_support_factor = 0.07}
+		set_variable = {global.Escalation_resistance_growth = 0.07}
+		set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+		set_variable = {global.Escalation_fascism_drift = 0.1}
+	}
+
 	option = {
 		name = super.1.a
 		

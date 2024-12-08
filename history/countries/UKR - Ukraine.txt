@@ -61,6 +61,8 @@ capital = 93
 		communism = 15
 		neutrality = 45
 	}
+
+	set_country_flag = rada_2012
 	
 	add_ideas = {
 		UKR_protests

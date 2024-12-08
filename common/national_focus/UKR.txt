@@ -58,6 +58,8 @@ focus_tree = {
 			set_variable = { UKR.party_four_deputaty = 38 }
 			set_variable = { UKR.party_five_deputaty = 32 }
 			set_variable = { UKR.party_six_deputaty = 51 }
+
+			custom_effect_tooltip = UKR_new_rada_temp_government_tt
 		}
 	}
 	focus = {
