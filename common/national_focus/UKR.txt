@@ -33,7 +33,7 @@ focus_tree = {
 	focus = {
 		id = UKR_coalition_in_rada
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 5
 		x = 0
 		y = 1
 
@@ -52,6 +52,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+            clr_country_flag = rada_2012
+
 			set_variable = { UKR.party_one_deputaty = 187 }
 			set_variable = { UKR.party_two_deputaty = 102 }
 			set_variable = { UKR.party_three_deputaty = 40 }
@@ -65,7 +67,7 @@ focus_tree = {
 	focus = {
 		id = UKR_destability_on_east
 		icon = GFX_focus_UKR_destability_on_east
-		cost = 0.5
+		cost = 10
 		x = 0
 		y = 1
 
@@ -99,7 +101,7 @@ focus_tree = {
 	focus = {
 		id = UKR_appel_the_un
 		icon = GFX_focus_UKR_appel_the_un
-		cost = 0.4
+		cost = 3
 		x = 0
 		y = 1
 
@@ -120,7 +122,7 @@ focus_tree = {
 	focus = {
 		id = UKR_resistance_kharkov
 		icon = GFX_focus_UKR_resistance_kharkov
-		cost = 1
+		cost = 5
 		x = 0
 		y = 1
 
@@ -150,7 +152,7 @@ focus_tree = {
 	focus = {
 		id = UKR_clashes_odessa
 		icon = GFX_focus_UKR_clashes_odessa
-		cost = 0.5
+		cost = 5
 		x = -2
 		y = 1
 
@@ -176,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = UKR_sbu_on_donbass
 		icon = GFX_focus_UKR_sbu_on_donbass
-		cost = 0.5
+		cost = 10
 		x = 2
 		y = 1
 
@@ -207,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = UKR_defence_donbass
 		icon = GFX_focus_UKR_defence_donbass
-		cost = 0.5
+		cost = 10
 		x = 0
 		y = 1
 
@@ -238,7 +240,7 @@ focus_tree = {
 	focus = {
 		id = UKR_stabilisation_region
 		icon = GFX_focus_UKR_stabilisation_region
-		cost = 0.5
+		cost = 5
 		x = 0
 		y = 1
 
@@ -264,7 +266,7 @@ focus_tree = {
 	focus = {
 		id = UKR_deep_all_militsia_on_odessa
 		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
-		cost = 0.5
+		cost = 5
 		x = 0
 		y = 1
 
@@ -291,7 +293,7 @@ focus_tree = {
 	focus = {
 		id = UKR_preparing_for_the_inevitable
 		icon = GFX_focus_UKR_preparing_for_the_inevitable
-		cost = 1
+		cost = 5
 		x = 0
 		y = 1
 
@@ -349,7 +351,7 @@ focus_tree = {
 	focus = {
 		id = UKR_ato
 		icon = GFX_focus_UKR_ato
-		cost = 1
+		cost = 3
 		x = 0
 		y = 1
 
@@ -374,7 +376,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations
 		icon = GFX_focus_UKR_ato
-		cost = 1
+		cost = 20
 		x = -2
 		y = 1
 
@@ -399,7 +401,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations_spesial_forces_mvs
 		icon = GFX_focus_UKR_ato
-		cost = 1
+		cost = 25
 		x = -2
 		y = 2
 
@@ -420,7 +422,7 @@ focus_tree = {
 	focus = {
 		id = UKR_battalion_azov
 		icon = GFX_focus_UKR_battalion_azov
-		cost = 1
+		cost = 20
 		x = -2
 		y = 3
 
@@ -442,7 +444,7 @@ focus_tree = {
 	focus = {
 		id = UKR_partial_mobilization
 		icon = GFX_focus_UKR_ato
-		cost = 1
+		cost = 10
 		x = -2
 		y = 4
 
@@ -463,7 +465,7 @@ focus_tree = {
 	focus = {
 		id = UKR_army_question
 		icon = GFX_focus_UKR_army_question
-		cost = 1
+		cost = 20
 		x = 2
 		y = 1
 

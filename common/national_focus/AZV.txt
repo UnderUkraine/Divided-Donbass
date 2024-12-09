@@ -62,6 +62,25 @@ focus_tree = {
 
 		prerequisite = {focus = AZV_black_corps}
 
+		available = {
+			OR = {
+				NOT = {
+					UKR = {
+						controls_state = 439
+					}
+					AZV = {
+						controls_state = 439
+					}
+				}
+			}
+		}
+
+		bypass = {
+			UKR = {
+				controls_state = 439
+			}
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -79,6 +98,17 @@ focus_tree = {
 		relative_position_id = AZV_assault_on_Mariupol
 
 		prerequisite = {focus = AZV_assault_on_Mariupol}
+
+		available = {
+			OR = {
+				UKR = {
+					controls_state = 439
+				}
+				AZV = {
+					controls_state = 439
+				}
+			}
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

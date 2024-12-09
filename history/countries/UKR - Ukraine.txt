@@ -81,6 +81,8 @@ capital = 93
 	set_variable = { UKR.party_four_deputaty = 38 }
 	set_variable = { UKR.party_five_deputaty = 32 }
 	set_variable = { UKR.party_six_deputaty = 51 }
+
+	set_variable = { global.escalation_on_donbass_variable = 1 }
 	
 	add_manpower = 20000
 	

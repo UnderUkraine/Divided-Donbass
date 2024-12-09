@@ -38,11 +38,9 @@ on_actions = {
 					has_global_flag = UKR_ATO_Started
 				}
 
-				add_to_variable = { global.escalation_on_donbass_variable = global.escalation_on_donbass_every_week_variable }
-
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 10 }
+						check_variable = { global.escalation_on_donbass_variable = 1 }
 					}
 
 					set_variable = {global.Escalation_stability_factor = -0.02}
@@ -51,7 +49,7 @@ on_actions = {
 				}
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 25 }
+						check_variable = { global.escalation_on_donbass_variable = 2 }
 					}
 
 					set_variable = {global.Escalation_stability_factor = -0.05}
@@ -61,7 +59,7 @@ on_actions = {
 				}
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 40 }
+						check_variable = { global.escalation_on_donbass_variable = 3 }
 					}
 
 					set_variable = {global.Escalation_stability_factor = -0.07}
@@ -72,7 +70,7 @@ on_actions = {
 				}
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 60 }
+						check_variable = { global.escalation_on_donbass_variable = 4 }
 					}
 
 					set_variable = {global.Escalation_stability_factor = -0.15}
@@ -83,22 +81,9 @@ on_actions = {
 				}
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 99 }
+						check_variable = { global.escalation_on_donbass_variable > 5 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.20}
-					set_variable = {global.Escalation_war_support_factor = 0.20}
-					set_variable = {global.Escalation_resistance_growth = 0.17}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.25} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.35}
-				}
-				IF = {
-					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 100 }
-					}
-
-					set_variable = {global.escalation_on_donbass_variable = 100}
-					
 					set_variable = {global.Escalation_stability_factor = -0.20}
 					set_variable = {global.Escalation_war_support_factor = 0.20}
 					set_variable = {global.Escalation_resistance_growth = 0.17}

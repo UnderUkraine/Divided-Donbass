@@ -88,6 +88,10 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
                         set_global_flag = UKR_ATO_Started
+
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 					UKR = {
 						add_dynamic_modifier = {
@@ -288,6 +292,10 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 						set_global_flag = UKR_ATO_Started
+
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 				LPR = {
 					add_dynamic_modifier = {
@@ -452,6 +460,10 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
                         set_global_flag = UKR_ATO_Started
+
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 				KPR = {
 					add_dynamic_modifier = {
@@ -533,6 +545,10 @@ UKR_Separatists_in_Ukraine = {
 						}
 					}
                     set_global_flag = UKR_ATO_Started
+
+					RUS = {
+						activate_decision = RUS_end_the_war
+					}
 				}
 				OPR = {
 					add_dynamic_modifier = {
@@ -591,7 +607,7 @@ UKR_Separatists_in_Ukraine = {
 	RUS_end_the_war = {
 		icon = GFX_flag_of_dpr
 		is_good = yes
-		days_mission_timeout = 150
+		days_mission_timeout = 151
 		selectable_mission = no
 		fire_only_once = yes
 		available = {

@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Eurointegration
 		icon = GFX_focus_UKR_Eurointegration
-		cost = 1
+		cost = 50
 		x = -2
 		y = 1
 
@@ -68,7 +68,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Protests_on_streets
 		icon = GFX_focus_UKR_Protests_on_streets
-		cost = 20
+		cost = 120
 		x = 0
 		y = 1
 
@@ -111,7 +111,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Cooperate_with_russia
 		icon = GFX_focus_UKR_Cooperate_with_russia
-		cost = 1
+		cost = 15
 		x = 0
 		y = 1
 
@@ -140,7 +140,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Kharkiv_pact
 		icon = GFX_focus_UKR_Kharkiv_pact
-		cost = 1
+		cost = 5
 		x = 0
 		y = 1
 
@@ -165,7 +165,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Join_Union_State_project
 		icon = GFX_focus_UKR_Join_Union_State_project
-		cost = 1
+		cost = 50
 		x = 0
 		y = 1
 
@@ -190,7 +190,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Sell_heavy_equipment
 		icon = GFX_focus_UKR_Sell_heavy_equipment
-		cost = 1
+		cost = 25
 		x = 2
 		y = 1
 

@@ -88,6 +88,31 @@ country_event = {
 			}
 		}
 	}
+
+	option = {
+		name = ukraine.4.b
+
+		AZV = {
+			transfer_state = 562
+		}
+		UKR = {
+			set_autonomy = {
+				target = AZV
+				autonomy_state = autonomy_puppet
+			}
+		}
+		hidden_effect = {
+			AZV = {
+				set_politics = {
+					ruling_party = fascism
+					last_election = "2010.02.07"
+					election_frequency = 48
+					elections_allowed = no
+				}
+			}
+		}
+		AZV = { change_tag_from = UKR }
+	}
 }
 
 #Russia demands negotations
