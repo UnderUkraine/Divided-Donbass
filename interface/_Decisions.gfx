@@ -53,4 +53,8 @@ spriteTypes = {
 		name = "GFX_Verhovna_rada_decision"
 		textureFile = "gfx/interface/decisions/Verhovna_rada_decisions.dds"
 	}
+	spriteType = {
+		name = "GFX_donbass_map_icon_decision"
+		textureFile = "gfx/interface/decisions/donbass_map_icon.dds"
+	}
 }

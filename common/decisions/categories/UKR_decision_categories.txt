@@ -84,7 +84,7 @@ UKR_SBU_operations = {
 }
 
 UKR_Escalation = {
-	icon = GFX_gerb_Ukraine_decision
+	icon = GFX_donbass_map_icon_decision
 	#picture = GFX_separatists_background_image
 	priority = 110
 	allowed = {
