@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 1000 y = 2000 }
+	continuous_focus_position = { x = 2000 y = 2000 }
 	
 	focus = {
 		id = DPR_Donbass_will_be_free
@@ -920,7 +920,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -7
-		y = 2
+		y = 1
 
 		prerequisite = {focus = DPR_Free_state}
 		relative_position_id = DPR_Free_state
