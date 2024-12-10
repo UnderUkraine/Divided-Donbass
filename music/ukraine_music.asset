@@ -22,7 +22,3 @@ music = {
 	name = "ne_zapisyite_v_geroi"
 	file = "UKR/ne_zapisyite_v_geroi.ogg"
 }
-music = {
-	name = "anastimoza_hrizantemi"
-	file = "UKR/anastimoza_hrizantemi.ogg"
-}
