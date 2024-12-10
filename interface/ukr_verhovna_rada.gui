@@ -3,20 +3,46 @@ guiTypes = {
 	containerWindowType = {
 		name = "verhovna_rada_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 420 }
+		size = { width = 500 height = 600 }
 		orientation = center
 		origo = center 
 
         iconType ={
             name ="rada_deputaty"
             spriteType = "[get_rada_pic]"
-            position = { x= 0 y = 0 }
+            position = { x= 0 y = 200 }
+           # Orientation = "center"
+        }    
+		iconType ={
+            name ="holova_vry"
+            spriteType = "GFX_holova_vry_1"
+            position = { x= 15 y = 0 }
+			pdx_tooltip = verhovna_rada_holova_effects_tt
            # Orientation = "center"
         }    
 
 		instantTextboxType = {
+			name = "holova_vry_name"
+			position = { x = 160 y = 0 }
+			font = "hoi_24header"
+			format = center
+			text = "Alexandr Tyrchinov"
+			maxWidth = 300
+			maxHeight = 50
+		}
+		instantTextboxType = {
+			name = "holova_vry_name_posada"
+			position = { x = 160 y = 25 }
+			font = "hoi_24header"
+			format = center
+			text = "Head of Verhovna Rada"
+			maxWidth = 300
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
 			name = "party_one"
-			position = { x = -110 y = 210 }
+			position = { x = -110 y = 410 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_one]"
@@ -25,7 +51,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "party_two"
-			position = { x = -110 y = 240 }
+			position = { x = -110 y = 440 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_two]"
@@ -34,7 +60,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "party_three"
-			position = { x = -110 y = 270 }
+			position = { x = -110 y = 470 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_three]"
@@ -43,7 +69,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "party_four"
-			position = { x = -110 y = 300 }
+			position = { x = -110 y = 500 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_four]"
@@ -52,7 +78,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "party_five"
-			position = { x = -110 y = 330 }
+			position = { x = -110 y = 530 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_five]"
@@ -61,7 +87,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "party_six"
-			position = { x = -110 y = 360 }
+			position = { x = -110 y = 560 }
 			font = "hoi_24header"
 			format = center
 			text = "[get_party_six]"
