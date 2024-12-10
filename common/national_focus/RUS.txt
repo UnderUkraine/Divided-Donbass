@@ -491,7 +491,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_Atrocities_of_the_Kiev_regime
+		id = RUS_Atrocities_of_the_kiev_regime
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
@@ -576,6 +576,7 @@ focus_tree = {
 		prerequisite = {focus = RUS_volunteers_in_Donbass}
 		prerequisite = {focus = RUS_Russian_instructors}
 		relative_position_id = RUS_volunteers_in_Donbass
+		mutually_exclusive = { focus = RUS_Victory_of_separatists }
 		
 		ai_will_do = {
 			factor = 1
@@ -608,6 +609,7 @@ focus_tree = {
 		prerequisite = {focus = RUS_volunteers_in_Donbass}
 		prerequisite = {focus = RUS_Russian_instructors}
 		relative_position_id = RUS_Russian_instructors
+		mutually_exclusive = { focus = RUS_The_war_dragged_on }
 		
 		ai_will_do = {
 			factor = 1
@@ -777,4 +779,664 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = RUS_operation_fsb
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -4
+		y = 1
+
+		prerequisite = {focus = RUS_Russians_are_saved}
+		relative_position_id = RUS_Russians_are_saved
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_start_razval_ukrainian_obshestva
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_operation_fsb}
+		relative_position_id = RUS_operation_fsb
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_attack_bot_social_media
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_start_razval_ukrainian_obshestva}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_once_narod
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = RUS_start_razval_ukrainian_obshestva}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_karmanniye_partii
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = RUS_start_razval_ukrainian_obshestva}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ukraine_on_tv
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 2
+
+		prerequisite = {focus = RUS_once_narod}
+		prerequisite = {focus = RUS_attack_bot_social_media}
+		prerequisite = {focus = RUS_karmanniye_partii}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_nazi_in_azov
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 2
+
+		prerequisite = {focus = RUS_once_narod}
+		prerequisite = {focus = RUS_attack_bot_social_media}
+		prerequisite = {focus = RUS_karmanniye_partii}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_zombie_humans
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = RUS_ukraine_on_tv}
+		prerequisite = {focus = RUS_nazi_in_azov}
+		relative_position_id = RUS_start_razval_ukrainian_obshestva
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_secret_cooperation_republic
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 4
+		y = 1
+
+		prerequisite = {focus = RUS_Russians_are_saved}
+		relative_position_id = RUS_Russians_are_saved
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ugol_po_skidke
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_secret_cooperation_republic}
+		relative_position_id = RUS_secret_cooperation_republic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_gumanitarnie_postavki
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_ugol_po_skidke}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_fondi_novososii
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_gumanitarnie_postavki}
+		relative_position_id = RUS_gumanitarnie_postavki
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_sovmesntie_ucheniya
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = RUS_ugol_po_skidke}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_dableniye_na_ukrainu
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 2
+
+		prerequisite = {focus = RUS_ugol_po_skidke}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_help_shells
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = RUS_ugol_po_skidke}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_send_kalashi
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 2
+
+		prerequisite = {focus = RUS_ugol_po_skidke}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_glaz_na_donbass
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = RUS_dableniye_na_ukrainu}
+		prerequisite = {focus = RUS_fondi_novososii}
+		prerequisite = {focus = RUS_send_kalashi}
+		relative_position_id = RUS_ugol_po_skidke
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ne_vse_celi_doctignuti
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 6
+
+		prerequisite = {focus = RUS_zombie_humans}
+		prerequisite = {focus = RUS_glaz_na_donbass}
+		relative_position_id = RUS_Russians_are_saved
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_concentration_in_granica
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_ne_vse_celi_doctignuti}
+		relative_position_id = RUS_ne_vse_celi_doctignuti
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_zasedaniya_genstaba
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_concentration_in_granica}
+		relative_position_id = RUS_concentration_in_granica
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_usilenie_obstrelov
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_zasedaniya_genstaba}
+		relative_position_id = RUS_zasedaniya_genstaba
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_priznaniye_respublic
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_usilenie_obstrelov}
+		relative_position_id = RUS_usilenie_obstrelov
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_kalibrovka_raket
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = RUS_priznaniye_respublic}
+		relative_position_id = RUS_priznaniye_respublic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_podgotovit_air
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = RUS_priznaniye_respublic}
+		relative_position_id = RUS_priznaniye_respublic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_poclednyaa_kapla
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = RUS_podgotovit_air}
+		prerequisite = {focus = RUS_kalibrovka_raket}
+		relative_position_id = RUS_priznaniye_respublic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_special_military_operation
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = RUS_poclednyaa_kapla}
+		relative_position_id = RUS_priznaniye_respublic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
 }	
