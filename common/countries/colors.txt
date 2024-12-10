@@ -78,3 +78,7 @@ NVR = {
 	color = rgb { 138 52 45 }
 	color_ui = rgb { 138 52 45 }
 }
+EUR = {
+	color = rgb { 10 64 171 }
+	color_ui = rgb { 10 64 171 }
+}
