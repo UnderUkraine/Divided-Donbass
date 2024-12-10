@@ -667,7 +667,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
-		y = 2
+		y = 1
 
 		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
 		relative_position_id = DPR_Zaharchenko_is_our_leader
@@ -1120,7 +1120,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
-		y = 2
+		y = 1
 
 		prerequisite = {focus = DPR_Unification_with_LPR}
 		prerequisite = {focus = DPR_Call_to_Putin}
@@ -1146,8 +1146,8 @@ focus_tree = {
 		id = DPR_Fight_with_banderites
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 2
-		y = 2
+		x = 1
+		y = 1
 
 		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
 		relative_position_id = DPR_Zaharchenko_is_our_leader
