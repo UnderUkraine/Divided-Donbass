@@ -250,7 +250,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_change_of_commander
+		id = AZV_command_rate
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -273,9 +273,9 @@ focus_tree = {
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_change_of_commander
+		relative_position_id = AZV_command_rate
 
-		prerequisite = {focus = AZV_change_of_commander}
+		prerequisite = {focus = AZV_command_rate}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

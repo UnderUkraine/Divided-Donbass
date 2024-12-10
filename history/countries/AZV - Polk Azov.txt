@@ -40,6 +40,8 @@ add_equipment_to_stockpile = {
 	amount = 30
 }
 
+add_manpower = 500
+
 recruit_character = andrii_biletsky
 
 set_popularities = {
