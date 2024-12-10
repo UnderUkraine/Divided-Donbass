@@ -268,3 +268,136 @@ complete_national_focus = UKR_Decline_to_sign_agreement
 complete_national_focus = UKR_Cooperate_with_russia
 complete_national_focus = UKR_Kharkiv_pact
 complete_national_focus = UKR_Sell_heavy_equipment
+2014.1.1 = {
+	set_technology = {
+		infantry_weapons = 1
+	}
+	
+	recruit_character = victor_yanukovich
+	recruit_character = alexander_tyrchinov
+	
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "2010.02.07"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	load_oob = "UKR_2014"
+	
+	#set_autonomy = {
+	#	target = CRI
+	#	autonomous_state = autonomy_puppet
+	#}
+	
+	set_variable = { UKR_maidan_support = 65 }
+	
+	set_popularities = {
+		democratic = 35
+		fascism = 5
+		communism = 15
+		neutrality = 45
+	}
+
+	set_country_flag = rada_2012
+	
+	add_ideas = {
+		UKR_protests
+		UKR_oligarhy_autocraty
+		UKR_cooperation_russia
+		UKR_confused_army
+		UKR_demographic_crisis1
+		UKR_dead_VPK
+
+		world_recognition
+	}
+
+	set_variable = { UKR.party_one_deputaty = 187 }
+	set_variable = { UKR.party_two_deputaty = 102 }
+	set_variable = { UKR.party_three_deputaty = 40 }
+	set_variable = { UKR.party_four_deputaty = 38 }
+	set_variable = { UKR.party_five_deputaty = 32 }
+	set_variable = { UKR.party_six_deputaty = 51 }
+
+	set_variable = { global.escalation_on_donbass_variable = 1 }
+	
+	add_manpower = 20000
+	
+	complete_national_focus = UKR_Yanukovich_rule
+	complete_national_focus = UKR_Eurointegration
+	complete_national_focus = UKR_Decline_to_sign_agreement
+	#complete_national_focus = UKR_Protests_on_streets
+	#complete_national_focus = UKR_Stop_protesters
+	complete_national_focus = UKR_Cooperate_with_russia
+	complete_national_focus = UKR_Kharkiv_pact
+	complete_national_focus = UKR_Sell_heavy_equipment
+}
+
+2015.1.1 = {
+	set_technology = {
+		infantry_weapons = 1
+	}
+	
+	create_country_leader = {
+		name = petro_poroshenko
+		#desc = petro_poroshenko_desc
+		ideology = conservatism_bpp
+		picture = gfx/leaders/UKR/poroshenko.dds
+		traits = { }
+	}
+
+	set_party_name = {
+		ideology = democratic
+		long_name = UKR_democratic_party_long_BPP
+		name = UKR_democratic_party_BPP
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2010.06.07"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	#load_oob = "UKR_2014"
+	
+	#set_autonomy = {
+	#	target = CRI
+	#	autonomous_state = autonomy_puppet
+	#}
+	
+	set_popularities = {
+		democratic = 75
+		fascism = 10
+		communism = 5
+		neutrality = 10
+	}
+	
+	add_ideas = {
+		UKR_demographic_crisis1
+		UKR_dead_VPK
+	}
+	
+	add_manpower = 20000
+
+	load_focus_tree = ukraine_focus
+
+	complete_national_focus = UKR_anarchy_in_goverment
+	complete_national_focus = UKR_coalition_in_rada
+	complete_national_focus = UKR_destability_on_east
+	complete_national_focus = UKR_appel_the_un
+	complete_national_focus = UKR_resistance_kharkov
+	complete_national_focus = UKR_clashes_odessa
+	complete_national_focus = UKR_sbu_on_donbass
+	complete_national_focus = UKR_defence_donbass
+	complete_national_focus = UKR_stabilisation_region
+	complete_national_focus = UKR_deep_all_militsia_on_odessa
+	complete_national_focus = UKR_preparing_for_the_inevitable
+	complete_national_focus = UKR_convocation_nsds
+	complete_national_focus = UKR_ato
+	complete_national_focus = UKR_Volunteer_formations
+	complete_national_focus = UKR_Volunteer_formations_spesial_forces_mvs
+	complete_national_focus = UKR_battalion_azov
+	complete_national_focus = UKR_army_question
+	complete_national_focus = UKR_buy_weapon
+}

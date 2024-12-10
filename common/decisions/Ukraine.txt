@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 56 #56 to February 26
+		days_mission_timeout = 52 #52 to February 22
 		selectable_mission = no
 		available = {
 			victor_yanukovich = {
@@ -10,13 +10,13 @@ UKR_Maidan_Support_category = {
 			}
 		}
 		activation = {
-			victor_yanukovich = {
-				is_country_leader = yes
+			has_country_leader = {
+                character = victor_yanukovich
 			}
 		}
 		visible = {
-			victor_yanukovich = {
-				is_country_leader = yes
+			has_country_leader = {
+                character = victor_yanukovich
 			}
 		}
 		timeout_effect = {
@@ -25,6 +25,7 @@ UKR_Maidan_Support_category = {
 			set_variable = { UKR.lpr_support = 45 }
 			set_variable = { UKR.kpr_support = 35 }
 			set_variable = { UKR.opr_support = 25 }
+
 			hidden_effect = {
 			UKR = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
@@ -70,7 +71,6 @@ UKR_Separatists_in_Ukraine = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 		}
 		timeout_effect = {
-			set_global_flag = UKR_ATO_Started
 			UKR = {
 				country_event = super.1
 			}
@@ -84,19 +84,14 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-                        set_global_flag = Escalation_activated
+                        set_global_flag = UKR_ATO_Started
 
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 					UKR = {
 						add_dynamic_modifier = {
@@ -215,6 +210,12 @@ UKR_Separatists_in_Ukraine = {
 							375 = {
 								add_core_of = DPR
 							}
+							347 = {
+                                add_core_of = DPR
+							}
+							315 = {
+								add_core_of = DPR
+							}
 	
 							DPR = {
 								set_province_controller = 7663
@@ -287,19 +288,14 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-						set_global_flag = Escalation_activated
+						set_global_flag = UKR_ATO_Started
 
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 				LPR = {
 					add_dynamic_modifier = {
@@ -460,19 +456,14 @@ UKR_Separatists_in_Ukraine = {
 					if = {
 						limit = {
 							NOT = {
-							    has_global_flag = Escalation_activated
+							    has_global_flag = UKR_ATO_Started
 							}
 						}
-                        set_global_flag = Escalation_activated
+                        set_global_flag = UKR_ATO_Started
 
-						set_variable = { global.escalation_on_donbass_variable = 35 }
-						set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-		
-						set_variable = {global.Escalation_stability_factor = -0.07}
-						set_variable = {global.Escalation_war_support_factor = 0.07}
-						set_variable = {global.Escalation_resistance_growth = 0.07}
-						set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-						set_variable = {global.Escalation_fascism_drift = 0.1}
+						RUS = {
+							activate_decision = RUS_end_the_war
+						}
 					}
 				KPR = {
 					add_dynamic_modifier = {
@@ -550,19 +541,14 @@ UKR_Separatists_in_Ukraine = {
 				if = {
 					limit = {
 						NOT = {
-							has_global_flag = Escalation_activated
+							has_global_flag = UKR_ATO_Started
 						}
 					}
-                    set_global_flag = Escalation_activated
+                    set_global_flag = UKR_ATO_Started
 
-					set_variable = { global.escalation_on_donbass_variable = 35 }
-					set_variable = { global.escalation_on_donbass_every_week_variable = 1 }
-	
-					set_variable = {global.Escalation_stability_factor = -0.07}
-					set_variable = {global.Escalation_war_support_factor = 0.07}
-					set_variable = {global.Escalation_resistance_growth = 0.07}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.1}
+					RUS = {
+						activate_decision = RUS_end_the_war
+					}
 				}
 				OPR = {
 					add_dynamic_modifier = {
@@ -621,7 +607,7 @@ UKR_Separatists_in_Ukraine = {
 	RUS_end_the_war = {
 		icon = GFX_flag_of_dpr
 		is_good = yes
-		days_mission_timeout = 150
+		days_mission_timeout = 151
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
@@ -634,7 +620,6 @@ UKR_Separatists_in_Ukraine = {
 			tag = RUS
 		}
 		activation = {
-			has_global_flag = UKR_ATO_Started
 		}
 		timeout_effect = {
 			RUS = {
@@ -682,12 +667,40 @@ UKR_SBU_operations = {
 }
 
 UKR_Negotations = {
+	RUS_pressure_Ukraine_to_sign_new_peace = {
+		allowed = {
+            tag = RUS
+        }
+        visible = {
+			has_global_flag = global_minsk_one_failed
+        }
+        available = {
+			has_global_flag = global_minsk_one_failed
+        }
+        icon = GFX_Ukraine_and_russia_gerbs_decision
+		ai_will_do = {
+			modifier = {
+				add = 40
+			}
+		}
+        priority = 10
+		fire_only_once = yes
+		days_remove = 55 #55 days??
+		cost = 100
+        remove_effect = {
+			set_global_flag = global_russia_minsk_two_signed
+
+			UKR = {
+				country_event = ukraine.14
+			}
+		}
+	}
 	RUS_accept_minsk_2 = {
 		allowed = {
             tag = RUS
         }
         visible = {
-			always = yes
+			always = no
         }
         available = {
         }
@@ -710,7 +723,7 @@ UKR_Negotations = {
             tag = UKR
         }
         visible = {
-			always = yes
+			always = no
         }
         available = {
 		

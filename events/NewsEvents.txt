@@ -311,3 +311,54 @@ news_event = {
         }
 	}
 }
+
+# Capture of Donetsk airport
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_news_event_004
+	
+	major = yes
+
+	trigger = {
+		OR = {
+			DPR = {
+				controls_province = 15100
+			}
+			DPR = {
+				any_allied_country = {
+					controls_province = 15100
+				}
+			}
+		}
+		NOT = { has_global_flag = DPR_captured_donetsk_airport } 
+	}
+
+	immediate = {
+		set_global_flag = DPR_captured_donetsk_airport
+	}
+	
+	option = {
+		name = news.10.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.10.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.10.r
+		trigger = { 
+            TAG = RUS
+        }
+	}
+}

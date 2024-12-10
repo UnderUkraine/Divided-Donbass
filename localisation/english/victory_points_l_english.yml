@@ -23,7 +23,7 @@
  VICTORY_POINTS_15094: "Hostomel Airport"
  VICTORY_POINTS_15088: "Vasylkiv"
  VICTORY_POINTS_15076: "Borispil"
- VICTORY_POINTS_15095: "Airport "Boryspil""
+ VICTORY_POINTS_15095: "Airport "Borispil""
  VICTORY_POINTS_1718: "Brovary"
  
 ##Odesa
@@ -46,8 +46,41 @@
  VICTORY_POINTS_8482: "Rivne"
 
 ##Donbass
- VICTORY_POINTS_11805: "Luhansk"
- LPR_VICTORY_POINTS_11805: "Lugansk"
+ VICTORY_POINTS_11697: "Luhansk"
+ LPR_VICTORY_POINTS_11697: "Lugansk"
+
+ VICTORY_POINTS_11576: "Stanytsia Luhanska"
+
+ VICTORY_POINTS_7663: "Donetsk"
+ VICTORY_POINTS_4104: "Kyivskyi raion"
+ VICTORY_POINTS_12872: "Kuibyshivskyi raion"
+ VICTORY_POINTS_7748: "Kirovskyi raion"
+ VICTORY_POINTS_12893: "Leninskyi & Budonivskyi raion"
+ VICTORY_POINTS_12982: "Petrovskyi raion"
+ VICTORY_POINTS_12894: "Proletarskyi raion"
+ VICTORY_POINTS_15100: "Donetsk airport"
+ VICTORY_POINTS_12711: "Vesele"
+ VICTORY_POINTS_12704: "Spartak"
+ VICTORY_POINTS_12674: "Yakovlivka"
+ VICTORY_POINTS_12637: "Mineralne"
+ VICTORY_POINTS_13026: "Kreminets"
+ VICTORY_POINTS_12844: "Krasnohorivka"
+ VICTORY_POINTS_5378: "Opytne"
+ VICTORY_POINTS_12719: "Pisky"
+ VICTORY_POINTS_12546: "Avdiivka"
+ VICTORY_POINTS_12558: "Kashtanove"
+ VICTORY_POINTS_12579: "Yasynuvata"
+ VICTORY_POINTS_12465: "Vasylivka"
+ VICTORY_POINTS_12503: "Betmanove"
+ VICTORY_POINTS_12495: "Panteleimonivka"
+ VICTORY_POINTS_8082: "Mykhailivka"
+ VICTORY_POINTS_7324: "Staromykhailivka"
+ VICTORY_POINTS_12808: "Lozove"
+
+ VICTORY_POINTS_12410: "Bunhe"
+
+ VICTORY_POINTS_12245: "Debaltseve"
+ VICTORY_POINTS_12181: "Novohryhorivka"
 
  VICTORY_POINTS_13909: "Staryi Krym"
  VICTORY_POINTS_13992: "Vynohradne"
@@ -90,7 +123,7 @@
  VICTORY_POINTS_13958: "Pryazovske"
 
  VICTORY_POINTS_12880: "Kurakhove"
- VICTORY_POINTS_12941: "Marinka"
+ VICTORY_POINTS_12941: "Mariinka"
  VICTORY_POINTS_6124: "Oleksandrivka"
 
  VICTORY_POINTS_2231: "Zaporizhzhia"

@@ -1,0 +1,58 @@
+ideas = {
+	nuke_doctrine = {
+		law = yes
+		use_list_view = yes
+
+		use_nukes_first = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		use_in_defense = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+				always = no
+			}
+
+			ai_will_do = {
+   				factor = 1
+			}
+
+			cancel_if_invalid = no
+		}
+
+		no_nuke_state = {
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			available = {
+				always = no
+			}
+
+			ai_will_do = {
+   				factor = 1
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

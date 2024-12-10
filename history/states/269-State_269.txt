@@ -7,11 +7,15 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+		2015.1.1 = {
+			transfer_state_to = LPR
+			add_core_of = LPR
+		}
 		victory_points = {
-			11805 30
+			11697 30
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=424113
         state_category = town
 }

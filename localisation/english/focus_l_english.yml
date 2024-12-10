@@ -12,10 +12,15 @@
  
  #Before war
  UKR_Yanukovich_rule: "Yanukovich rule"
+ UKR_Yanukovich_rule_desc: "Yanukovych's rule has been characterized as a time of hope and hidden threats. Promises of economic growth and modernization go hand in hand with increased control over society. The only question is whether the leader will be able to live up to expectations or whether his course will lead to political collapse."
  UKR_Eurointegration: "Eurointegration?"
+ UKR_Eurointegration_desc: "The pursuit of integration with the European Union opens new horizons of economic development and democratic reforms for the country. An association agreement with the EU promises significant benefits, including access to European markets and technology. However, the pro-European course causes deep divisions in society and strong pressure from Russia, which is not interested in our rapprochement with the West"
  UKR_Decline_to_sign_agreement: "Decline to sign agreement"
+ UKR_Decline_to_sign_agreement_desc: "After long negotiations and public statements about readiness for European integration, the country's leadership suddenly decided to refuse to sign an agreement with the EU. This step caused mixed reactions: some see it as a defense of national interests and sovereignty, while others see it as a betrayal of the dream of a European future. How will this decision turn out for the country?"
  UKR_Protests_on_streets: "Protests on streets"
+ UKR_Protests_on_streets_desc: "The refusal to sign the agreement with the European Union has become the spark that ignites the flames of public discontent. Thousands of people took to the streets, demanding a revision of the decision and the resignation of the leadership. The protests are gaining momentum, leading to destabilization in the country. Will the authorities be able to maintain control, or will this crisis be the beginning of the end of the existing regime?"
  UKR_Stop_protesters: "Stop protesters"
+ UKR_Stop_protesters_desc: "Protests in the streets threaten the stability of the State. The leadership decides on tough measures to restore order. The police and special services are ordered to disperse the demonstrations at any cost. This step can regain control of the situation, but is fraught with internal conflicts and a sharp deterioration in relations with the international community."
  UKR_Victory_over_protesters: "Victory over protesters"
  UKR_Cooperate_with_russia: "Cooperate with Russia"
  UKR_Kharkiv_pact: "Kharkiv pact"

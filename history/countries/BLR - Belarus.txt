@@ -10,6 +10,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	world_recognition
+}
+
 recruit_character = alexander_lykashenko
 
 set_popularities = {

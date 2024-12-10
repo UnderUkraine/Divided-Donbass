@@ -8,6 +8,11 @@ state={
 		owner = UKR
 		add_core_of = UKR
 		add_core_of = CRI
+
+		2015.1.1 = {
+			transfer_state_to = RUS
+			add_core_of = RUS
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=13539

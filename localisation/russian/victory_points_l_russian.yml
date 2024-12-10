@@ -22,14 +22,66 @@
  VICTORY_POINTS_15093: "Буча"
  VICTORY_POINTS_15094: "Гостомельский аеропорт"
  VICTORY_POINTS_15088: "Васильков"
-
-
-#Borispol
  VICTORY_POINTS_15076: "Борисполь"
- VICTORY_POINTS_15095: "Бориспольский аеропорт"
+ VICTORY_POINTS_15095: "Аеропорт "Борисполь""
+ VICTORY_POINTS_1718: "Бровары"
+
+##Odesa
+ VICTORY_POINTS_14299: "Одесса"
+
+##Lviv
+ VICTORY_POINTS_9181: "Львов"
+
+##Ivanofrankivsk
+ VICTORY_POINTS_5307: "Ивано-Франковск"
+
+##Yzhorod
+ VICTORY_POINTS_946: "Ужгород"
+
+##Volyn
+ VICTORY_POINTS_2536: "Лутск"
+ VICTORY_POINTS_5487: "Ковель"
+
+##Rivne
+ VICTORY_POINTS_8482: "Ровно"
 
 ##Donbass
- VICTORY_POINTS_13909: "Старый крым"
+ VICTORY_POINTS_11697: "Луганск"
+ LPR_VICTORY_POINTS_11697: "Луганск"
+
+ VICTORY_POINTS_11576: "Станция Луганская"
+
+ VICTORY_POINTS_7663: "Донецк"
+ VICTORY_POINTS_4104: "Киевский район"
+ VICTORY_POINTS_12872: "Куйбышевский район"
+ VICTORY_POINTS_7748: "Кировский район"
+ VICTORY_POINTS_12893: "Ленинский & Буденновский район"
+ VICTORY_POINTS_12982: "Петровский район"
+ VICTORY_POINTS_12894: "Пролетарский район"
+ VICTORY_POINTS_15100: "Донецкий аеропорт"
+ VICTORY_POINTS_12711: "Веселое"
+ VICTORY_POINTS_12704: "Спартак"
+ VICTORY_POINTS_12674: "Яковлевка"
+ VICTORY_POINTS_12637: "Минеральное"
+ VICTORY_POINTS_13026: "Кременец"
+ VICTORY_POINTS_12844: "Красногоровка"
+ VICTORY_POINTS_5378: "Пески"
+ VICTORY_POINTS_12546: "Авдеёвка"
+ VICTORY_POINTS_12558: "Каштановое"
+ VICTORY_POINTS_12579: "Ясиноватая"
+ VICTORY_POINTS_12465: "Василевка"
+ VICTORY_POINTS_12503: "Бетманово"
+ VICTORY_POINTS_12495: "Пантелеймоновка"
+ VICTORY_POINTS_8082: "Михайловка"
+ VICTORY_POINTS_7324: "Старомихайловка"
+ VICTORY_POINTS_12808: "Лозовое"
+
+ VICTORY_POINTS_12410: "Бу́нге"
+
+ VICTORY_POINTS_12245: "Дебальцево"
+ VICTORY_POINTS_12181: "Новогригоровка"
+
+ VICTORY_POINTS_13909: "Старый Крым"
  VICTORY_POINTS_13992: "Виноградное"
  VICTORY_POINTS_13944: "Калиновка"
  VICTORY_POINTS_13918: "Сартана"
@@ -39,7 +91,56 @@
  VICTORY_POINTS_7527: "Касьяновка"
  VICTORY_POINTS_13991: "«Азовсталь»"
 
+ VICTORY_POINTS_8118: "Мангущ"
+ VICTORY_POINTS_5865: "Суженка"
+ VICTORY_POINTS_14119: "Ялта"
+ VICTORY_POINTS_6808: "Мелекино"
+ VICTORY_POINTS_7627: "Широкино"
+ VICTORY_POINTS_14006: "Бердянское"
+ VICTORY_POINTS_13792: "Павлополь"
+ VICTORY_POINTS_13790: "Шевченко"
  VICTORY_POINTS_13915: "Никольское"
+ VICTORY_POINTS_6963: "Стародубовка"
+ VICTORY_POINTS_13966: "Захаровка"
+ VICTORY_POINTS_12219: "Горловка"
+
+ VICTORY_POINTS_7290: "Енакиево"
+
+ VICTORY_POINTS_13978: "Новоазовк"
+ VICTORY_POINTS_13653: "Новосёловка"
+ VICTORY_POINTS_13746: "Чермалик"
+ VICTORY_POINTS_13721: "Коньково"
+ VICTORY_POINTS_536: "Бойковское"
+ VICTORY_POINTS_13691: "Николаевка"
+ VICTORY_POINTS_13988: "Безыменное"
+ VICTORY_POINTS_13884: "Маркино"
+ VICTORY_POINTS_14008: "Седово"
+
+ VICTORY_POINTS_14135: "Урзуф"
+ VICTORY_POINTS_14139: "Бабах-Тарама"
+ VICTORY_POINTS_13958: "Приазовское"
+
+ VICTORY_POINTS_12880: "Курахово"
+ VICTORY_POINTS_12941: "Марьинка"
+ VICTORY_POINTS_6124: "Александровка"
+
+ VICTORY_POINTS_2231: "Запорожье"
+
+# Zaporizhia
+
+ VICTORY_POINTS_2689: "Бердянск"
+
+##Crimea
+ VICTORY_POINTS_3845: "Евпатория"
+ VICTORY_POINTS_3814: "Бахчисарай"
+ VICTORY_POINTS_14757: "Севастополь"
+ VICTORY_POINTS_1475: "Симферополь"
+ VICTORY_POINTS_14675: "Молодёжное"
+ VICTORY_POINTS_5828: "Чёрноморское"
+ VICTORY_POINTS_3292: "Оленевка"
+ VICTORY_POINTS_14546: "Красносельское"
+ VICTORY_POINTS_14440: "Красноперекопск"
+ VICTORY_POINTS_14424: "Армянск"
 
 ##Moldova
  VICTORY_POINTS_14052: "Кишинёв"
@@ -49,3 +150,5 @@
  VICTORY_POINTS_15081: "Бессарабка"
  VICTORY_POINTS_15082: "Абаклия"
  VICTORY_POINTS_15083: "Sadaclia"
+
+ VICTORY_POINTS_6995: "Тирасполь"

@@ -12,9 +12,18 @@ set_politics = {
 
 add_ideas = {
 	DPR_Peoples_republic
+
+	not_recognized_state
 }
 
-#recruit_character = victor_yanukovich
+recruit_character = DPR_zakharchenko
+
+2015.1.1 = {
+	declare_war_on = {
+		target = UKR
+		type = annex_everything
+	}
+}
 
 set_popularities = {
 	democratic = 0

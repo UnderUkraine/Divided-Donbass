@@ -8,6 +8,11 @@ state={
 		owner = UKR
 		add_core_of = UKR
         add_core_of = CRI
+		2015.1.1 = {
+			transfer_state_to = RUS
+			add_core_of = RUS
+		}
+
 		victory_points = {
 			14757 30
 		}

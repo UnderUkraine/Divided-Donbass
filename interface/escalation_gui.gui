@@ -8,28 +8,39 @@ guiTypes = {
 		origo = center 
 
 		iconType ={
-            name ="pol_view_bg"
-            spriteType = "GFX_DonbassMap"
-            position = { x= -70 y = -170 }
+            name ="escalation1"
+            spriteType = "GFX_escalation1"
+            position = { x= -140 y = -145 }
             Orientation = "CENTER"
+			pdx_tooltip = Escalation_1_tt
         }   
-		instantTextboxType = {
-			name = "escalation_text"
-			position = { x = -100 y = 150 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_escalation_variable]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "weekly_escalation_text"
-			position = { x = -100 y = 170 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_weekly_escalation_variable]"
-			maxWidth = 700
-			maxHeight = 50
-		}
+		iconType ={
+            name ="escalation2"
+            spriteType = "GFX_escalation2"
+            position = { x= -80 y = -145 }
+            Orientation = "CENTER"
+			pdx_tooltip = Escalation_2_tt
+        }   
+		iconType ={
+            name ="escalation3"
+            spriteType = "GFX_escalation3"
+            position = { x= -20 y = -145 }
+            Orientation = "CENTER"
+			pdx_tooltip = Escalation_3_tt
+        }   
+		iconType ={
+            name ="escalation4"
+            spriteType = "GFX_escalation4"
+            position = { x= 40 y = -145 }
+            Orientation = "CENTER"
+			pdx_tooltip = Escalation_4_tt
+        }   
+		iconType ={
+            name ="escalation5"
+            spriteType = "GFX_escalation5"
+            position = { x= 100 y = -145 }
+            Orientation = "CENTER"
+			pdx_tooltip = Escalation_5_tt
+        }   
 	}
 }

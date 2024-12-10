@@ -1,6 +1,59 @@
 ﻿l_english:
+
+ government:1 "Laws & Government"
+ research_production:0 "Research & Production"
+ military_staff:0 "Military Staff"
+ political_advisor:0 "Political Advisor"
+ mobilization_laws:0 "Conscription Law"
+ trade_laws:0 "Trade Law"
+ economy:0 "Economy Law"
+ aircraft_manufacturer:0 "Aircraft Designer"
+ materiel_manufacturer:0 "Materiel Designer"
+ industry_concern:0 "Industry Concern"
+ army_chief:0 "Chief of Army"
+ navy_chief:0 "Chief of Navy"
+ air_chief:0 "Chief of Airforce"
+ high_command:0 "Military High Command"
+ cabinet_of_ministers:0 "Cabinet of ministers"
+ military_laws:0 "Military laws"
+
+ world_recognition:0 "Worldwide recognition"
+ regional_recognition:0 "Regional recognition"
+ partial_recognition:0 "Partial recognition"
+ not_recognized_state:0 "Unrecognized state"
+ military_formation:0 "Military formation"
+
+ total_corruption:0 "Total corruption"
+ strong_corruption:0 "Strong corruption"
+ medium_corruption:0 "Medium corruption"
+ minimal_corruption:0 "Minimal corruption"
+
+ parlament_president_republic:0 "Parlament-President republic"
+ president_parlament_republic:0 "President-Parlament republic"
+ mixed_republic:0 "Mixed republic"
+ one_party_state:0 "One-party state"
+ military_dictatorship_law:0 "Military dictatorship"
+
+ all_to_the_frontline:0 "§RAll to the frontline§!"
+ military_laths:0 "Military laths"
+ standard_financing:0 "Standart financing"
+ minimal_expenses:0 "Minimal expenses"
+ sergeant_schools:0 "Sergeant schools"
+ army_without_funding:0 "Army without funding"
+
+ use_nukes_first:0 "Nuke doctrine"
+ use_in_defense:0 "Use in defense"
+ no_nuke_state:0 "No nuke state"
+
+ nato_standarts:0 "NATO Standarts"
+ russian_army:0 "Russian army"
+ military_academies:0 "Military academies"
+ officers_schools:0 "Officers schools"
+ sergeant_schools:0 "Sergeant schools"
+ straight_to_the_frontline:0 "§RStraight to the frontline§!"
+
  UKR_protests:0 "Protests"
- UKR_protests_desc:0 "Protests"
+ UKR_protests_desc:0 "\n£GFX_ukr_texticon_protests_2014\n\n\n\n\nCitizens take to the streets en masse to protest against the current government. Political instability is sweeping the country, weakening state institutions and threatening the integrity of the nation. Street clashes, radical movements and demands for change create a tense atmosphere that undermines trust in the government."
 
  UKR_cooperation_russia:0 "Cooperation with Russia"
  UKR_cooperation_russia_desc:0 "Cooperation with Russia"
@@ -9,7 +62,7 @@
  UKR_oligarhy_autocraty_desc:0 "Oligarhic autocraty"
 
  UKR_demographic_crisis1:0 "Demographic crisis"
- UKR_demographic_crisis1_desc:0 "Demographic crisis"
+ UKR_demographic_crisis1_desc:0 "\n£GFX_ukr_texticon_demographic_crisis\n\n\n\n\nThe country faces a deep demographic problem. High emigration, low birth rates and an aging population undermine economic potential and weaken the army. Urbanization is devastating rural areas, and labor shortages are slowing industrial and infrastructure development. If left unchecked, the consequences could be irreversible."
 
  UKR_demographic_crisis2:0 "Demographic crisis"
  UKR_demographic_crisis2_desc:0 "Demographic crisis"

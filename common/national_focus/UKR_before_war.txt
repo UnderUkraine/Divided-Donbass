@@ -32,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Eurointegration
 		icon = GFX_focus_UKR_Eurointegration
-		cost = 1
+		cost = 50
 		x = -2
 		y = 1
 
@@ -63,16 +63,12 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = UKR_decline_to_sign_agreement_tt
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.1
-			}
 		}
 	}
 	focus = {
 		id = UKR_Protests_on_streets
 		icon = GFX_focus_UKR_Protests_on_streets
-		cost = 20
+		cost = 120
 		x = 0
 		y = 1
 
@@ -102,7 +98,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -116,7 +111,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Cooperate_with_russia
 		icon = GFX_focus_UKR_Cooperate_with_russia
-		cost = 1
+		cost = 15
 		x = 0
 		y = 1
 
@@ -128,7 +123,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -146,7 +140,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Kharkiv_pact
 		icon = GFX_focus_UKR_Kharkiv_pact
-		cost = 1
+		cost = 5
 		x = 0
 		y = 1
 
@@ -158,7 +152,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -172,7 +165,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Join_Union_State_project
 		icon = GFX_focus_UKR_Join_Union_State_project
-		cost = 1
+		cost = 50
 		x = 0
 		y = 1
 
@@ -184,7 +177,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -196,36 +188,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Two_language_state
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 2
-		y = 1
-
-		prerequisite = {focus = UKR_Kharkiv_pact}
-		relative_position_id = UKR_Kharkiv_pact
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 50
-			custom_effect_tooltip = UKR_two_language_state_tt
-		}
-	}
-	focus = {
 		id = UKR_Sell_heavy_equipment
 		icon = GFX_focus_UKR_Sell_heavy_equipment
-		cost = 1
+		cost = 25
 		x = 2
 		y = 1
 
@@ -237,7 +202,6 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes

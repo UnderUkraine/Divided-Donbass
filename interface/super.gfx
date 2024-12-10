@@ -26,4 +26,8 @@ spriteTypes = {
 		name = "GFX_sp_event_Ukr_Yanukovich_overthrow"
 		textureFile = "/gfx/sp_events/Super_Event_Yanukovich_overthrow.dds"
 	}
+	spriteType = {
+		name = "GFX_sp_event_Ukr_Victory_over_separatists"
+		textureFile = "/gfx/sp_events/Super_Event_Victory_over_separatists.dds"
+	}
 }

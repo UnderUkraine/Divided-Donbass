@@ -12,6 +12,8 @@ set_politics = {
 
 add_ideas = {
 	LPR_Peoples_republic
+
+	not_recognized_state
 }
 
 set_popularities = {

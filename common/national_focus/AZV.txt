@@ -62,6 +62,25 @@ focus_tree = {
 
 		prerequisite = {focus = AZV_black_corps}
 
+		available = {
+			OR = {
+				NOT = {
+					UKR = {
+						controls_state = 439
+					}
+					AZV = {
+						controls_state = 439
+					}
+				}
+			}
+		}
+
+		bypass = {
+			UKR = {
+				controls_state = 439
+			}
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -79,6 +98,17 @@ focus_tree = {
 		relative_position_id = AZV_assault_on_Mariupol
 
 		prerequisite = {focus = AZV_assault_on_Mariupol}
+
+		available = {
+			OR = {
+				UKR = {
+					controls_state = 439
+				}
+				AZV = {
+					controls_state = 439
+				}
+			}
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -508,7 +538,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_financi_na_fortificacii
+		id = AZV_financ_na_fortification
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
@@ -526,14 +556,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_liniya_zov_pvsh
+		id = AZV_pavlopol_vodyanoye_shirokino_line
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_financi_na_fortificacii
+		relative_position_id = AZV_financ_na_fortification
 
-		prerequisite = {focus = AZV_financi_na_fortificacii}
+		prerequisite = {focus = AZV_financ_na_fortification}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -544,7 +574,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_prodolzhit_reorganisation
+		id = AZV_continue_reorganisation
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
@@ -566,14 +596,14 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = AZV_voennya_shkola_konovalca_evgeniya
+		id = AZV_yevgeny_konovalets_military_school
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_prodolzhit_reorganisation
+		relative_position_id = AZV_continue_reorganisation
 
-		prerequisite = {focus = AZV_prodolzhit_reorganisation}
+		prerequisite = {focus = AZV_continue_reorganisation}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -584,14 +614,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_razrabotat_obucheniye
+		id = AZV_develop_training
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+		relative_position_id = AZV_yevgeny_konovalets_military_school
 
-		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+		prerequisite = {focus = AZV_yevgeny_konovalets_military_school}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -602,14 +632,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_god_v_dva_mecachya
+		id = AZV_year_in_two_mounths
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_razrabotat_obucheniye
+		relative_position_id = AZV_develop_training
 
-		prerequisite = {focus = AZV_razrabotat_obucheniye}
+		prerequisite = {focus = AZV_develop_training}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -620,14 +650,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_kvalificied_serzhant_oficer_sklad
+		id = AZV_qualified_non_commissioned_officers
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_god_v_dva_mecachya
+		relative_position_id = AZV_year_in_two_mounths
 
-		prerequisite = {focus = AZV_god_v_dva_mecachya}
+		prerequisite = {focus = AZV_year_in_two_mounths}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -638,14 +668,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_standarti_nato
+		id = AZV_standar_nato
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
-		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+		relative_position_id = AZV_yevgeny_konovalets_military_school
 
-		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+		prerequisite = {focus = AZV_yevgeny_konovalets_military_school}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -656,14 +686,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_instruktori_nato
+		id = AZV_nato_instructors
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_standarti_nato
+		relative_position_id = AZV_standar_nato
 
-		prerequisite = {focus = AZV_standarti_nato}
+		prerequisite = {focus = AZV_standar_nato}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -674,14 +704,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_pizdezh
+		id = AZV_people_above_all
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_instruktori_nato
+		relative_position_id = AZV_nato_instructors
 
-		prerequisite = {focus = AZV_instruktori_nato}
+		prerequisite = {focus = AZV_nato_instructors}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -692,14 +722,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_oper_taktik_podgotovka
+		id = AZV_operational_tactical_training
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_pizdezh
+		relative_position_id = AZV_people_above_all
 
-		prerequisite = {focus = AZV_pizdezh}
+		prerequisite = {focus = AZV_people_above_all}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -710,14 +740,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_kuzhya_serzhantov
+		id = AZV_sergeants_smithy
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 2
 		y = 1
-		relative_position_id = AZV_voennya_shkola_konovalca_evgeniya
+		relative_position_id = AZV_yevgeny_konovalets_military_school
 
-		prerequisite = {focus = AZV_voennya_shkola_konovalca_evgeniya}
+		prerequisite = {focus = AZV_yevgeny_konovalets_military_school}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -728,14 +758,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_poligoni_in_kiev
+		id = AZV_poligon_in_kiev
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_kuzhya_serzhantov
+		relative_position_id = AZV_sergeants_smithy
 
-		prerequisite = {focus = AZV_kuzhya_serzhantov}
+		prerequisite = {focus = AZV_sergeants_smithy}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -746,14 +776,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_povish_fiz_pogdotovka
+		id = AZV_increased_physical_fitness
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_poligoni_in_kiev
+		relative_position_id = AZV_poligon_in_kiev
 
-		prerequisite = {focus = AZV_poligoni_in_kiev}
+		prerequisite = {focus = AZV_poligon_in_kiev}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -764,14 +794,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_intensiv_ognevaya_podgotovka
+		id = AZV_intensive_firearms_training
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_povish_fiz_pogdotovka
+		relative_position_id = AZV_increased_physical_fitness
 
-		prerequisite = {focus = AZV_povish_fiz_pogdotovka}
+		prerequisite = {focus = AZV_increased_physical_fitness}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -782,16 +812,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_polk_azov_professionali
+		id = AZV_polk_azov_professional
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
-		relative_position_id = AZV_intensiv_ognevaya_podgotovka
+		relative_position_id = AZV_intensive_firearms_training
 
-		prerequisite = {focus = AZV_intensiv_ognevaya_podgotovka}
-		prerequisite = {focus = AZV_oper_taktik_podgotovka}
-		prerequisite = {focus = AZV_kvalificied_serzhant_oficer_sklad}
+		prerequisite = {focus = AZV_intensive_firearms_training}
+		prerequisite = {focus = AZV_operational_tactical_training}
+		prerequisite = {focus = AZV_qualified_non_commissioned_officers}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

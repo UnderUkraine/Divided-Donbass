@@ -41,6 +41,20 @@ UKR_Separatists_in_Ukraine = {
 	scripted_gui = separatists_gui
 }
 
+UKR_Verhovna_rada = {
+	icon = GFX_Verhovna_rada_decision
+	#picture = GFX_separatists_background_image
+	priority = 290
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	scripted_gui = verhovna_rada_gui
+}
+
 UKR_buy_equipment = {
 	icon = GFX_icon_of_VSY_decision
 	picture = GFX_buy_equipment_background_image
@@ -70,7 +84,7 @@ UKR_SBU_operations = {
 }
 
 UKR_Escalation = {
-	icon = GFX_gerb_Ukraine_decision
+	icon = GFX_donbass_map_icon_decision
 	#picture = GFX_separatists_background_image
 	priority = 110
 	allowed = {
@@ -82,11 +96,13 @@ UKR_Escalation = {
 			original_tag = KPR
 			original_tag = OPR
 		}
-		has_global_flag = UKR_ATO_Started
+		#has_global_flag = UKR_ATO_Started
+		always = yes
 	}
 	visible_when_empty = yes
 	visible = {
-		has_global_flag = UKR_ATO_Started
+		#has_global_flag = UKR_ATO_Started
+		always = yes
 	}
 	scripted_gui = escalation_gui
 }

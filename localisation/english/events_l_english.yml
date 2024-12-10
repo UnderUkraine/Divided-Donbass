@@ -52,6 +52,12 @@ news.9.a: "We don't recognize it!"
 news.9.u: "It's a failure..."
 news.9.r: "Slava Rosii!"
 
+news.10.t: "Fall of Donetsk Airport"
+news.10.d: "After a dozen days of fierce fighting, Donetsk International Airport, once a symbol of modern Ukraine, fell under the onslaught of armed formations. The heroism of the defenders, nicknamed “cyborgs,” became legendary, but the forces were unequal. Destroyed terminals and ruined runways now symbolize the brutality of war. The impact of these events is felt not only on the battlefield, but also on the morale of the population and the political situation in the region."
+news.10.a: "..."
+news.10.u: "They held up - the concrete did not."
+news.10.r: "Let's keep pushing on!"
+
 #russia
 russia.1.t: "Defense of Crimea"
 russia.1.d: "Desc"
@@ -85,7 +91,7 @@ ukraine.2.d: "Desc"
 ukraine.2.a: "Slava Ukraini!"
 
 ukraine.4.t: "Azov creation"
-ukraine.4.d: "Desc"
+ukraine.4.d: "In response to growing instability and armed conflicts in eastern Ukraine, a volunteer unit, later known as the Azov Battalion, was formed. Composed of volunteers, the battalion quickly became known for its motivation and high combat effectiveness. However, its formation has been controversial both inside and outside the country."
 ukraine.4.a: "Slava bataliony Azov!"
 
 ukraine.5.t: "Russia demands negotations"

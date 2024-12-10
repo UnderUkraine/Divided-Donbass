@@ -20,3 +20,12 @@ Russian_offensive_in_donbass_war = {
 	#hidden = no
 	icon = GFX_idea_City_of_Sevastopol
 }
+
+Minsk_one_in_Donbass = {
+	enable = { always = yes }
+	#hidden = no
+	icon = GFX_idea_City_of_Sevastopol
+
+	army_attack_factor = -0.1
+	army_defence_factor = -0.1
+}
