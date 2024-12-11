@@ -26,6 +26,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_anarchy_in_goverment"
             #Автоскип
 		    add_political_power = -75
 		}
@@ -62,6 +63,7 @@ focus_tree = {
 			set_variable = { UKR.party_six_deputaty = 51 }
 
 			custom_effect_tooltip = UKR_new_rada_temp_government_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_coalition_in_rada"
 		}
 	}
 	focus = {
@@ -96,6 +98,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_kharkiv_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_destability_on_east"
 		}
 	}
 	focus = {
@@ -117,6 +120,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = ukraine.15
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_appel_the_un"
 		}
 	}
 	focus = {
@@ -147,6 +151,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_kharkiv_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_resistance_kharkov"
 		}
 	}
 	focus = {
@@ -173,6 +178,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_odesa_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_clashes_odessa"
 		}
 	}
 	focus = {
@@ -204,6 +210,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_luhansk_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_sbu_on_donbass"
 	    }
     }
 	focus = {
@@ -235,6 +242,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_luhansk_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_defence_donbass"
 		}
 	}
 	focus = {
@@ -261,6 +269,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_kharkiv_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_stabilisation_region"
 		}
 	}
 	focus = {
@@ -288,6 +297,7 @@ focus_tree = {
 				value = 5
 				tooltip = Separatists_support_minus_5_odesa_tt
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_deep_all_militsia_on_odessa"
 		}
 	}
 	focus = {
@@ -315,6 +325,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_manpower = 5000
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_preparing_for_the_inevitable"
 		}
 	}
 	focus = {
@@ -342,6 +353,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
             add_war_support = 0.05
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_convocation_nsds"
 
 			hidden_effect = {
 				add_manpower = 5000
