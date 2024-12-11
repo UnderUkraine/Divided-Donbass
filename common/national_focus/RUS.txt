@@ -522,8 +522,8 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
-		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
+		prerequisite = {focus = RUS_Atrocities_of_the_kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_kiev_regime
 		
 		ai_will_do = {
 			factor = 1
@@ -547,8 +547,8 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		prerequisite = {focus = RUS_Atrocities_of_the_Kiev_regime}
-		relative_position_id = RUS_Atrocities_of_the_Kiev_regime
+		prerequisite = {focus = RUS_Atrocities_of_the_kiev_regime}
+		relative_position_id = RUS_Atrocities_of_the_kiev_regime
 		
 		ai_will_do = {
 			factor = 1
