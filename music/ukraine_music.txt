@@ -53,12 +53,3 @@ music = {
 		}
 	}
 }
-music = {
-	song = "anastimoza_hrizantemi"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 1
-		}
-	}
-}

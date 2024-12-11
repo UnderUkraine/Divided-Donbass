@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 1000 y = 2000 }
+	continuous_focus_position = { x = 2000 y = 2000 }
 	
 	focus = {
 		id = DPR_Donbass_will_be_free
@@ -396,6 +396,836 @@ focus_tree = {
 
 		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
 		relative_position_id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Russia_appeals_for_peace_deals
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Heroes_of_Donbass}
+		relative_position_id = DPR_Heroes_of_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Minsk_protocols
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Russia_appeals_for_peace_deals}
+		relative_position_id = DPR_Russia_appeals_for_peace_deals
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_secondMinsk_treaty
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Minsk_protocols}
+		relative_position_id = DPR_Minsk_protocols
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Peace_for_the_whole_republic
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_secondMinsk_treaty}
+		relative_position_id = DPR_secondMinsk_treaty
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Free_state
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Peace_for_the_whole_republic}
+		relative_position_id = DPR_Peace_for_the_whole_republic
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Friendship_of_people_republics
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 5
+		y = 1
+
+		prerequisite = {focus = DPR_Free_state}
+		relative_position_id = DPR_Free_state
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_AntiKiev_coalition
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Friendship_of_people_republics}
+		relative_position_id = DPR_Friendship_of_people_republics
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Trade_agreements
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_AntiKiev_coalition}
+		relative_position_id = DPR_AntiKiev_coalition
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Training_with_republics
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_AntiKiev_coalition}
+		relative_position_id = DPR_AntiKiev_coalition
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Zaharchenko_is_our_leader
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Free_state}
+		relative_position_id = DPR_Free_state
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Industrial_resonance
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
+		relative_position_id = DPR_Zaharchenko_is_our_leader
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Resolving_the_currency_issue
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Industrial_resonance}
+		relative_position_id = DPR_Industrial_resonance
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Passport_of_citizen_DPR
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Resolving_the_currency_issue}
+		relative_position_id = DPR_Resolving_the_currency_issue
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Credits_from_RF
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Passport_of_citizen_DPR}
+		relative_position_id = DPR_Passport_of_citizen_DPR
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Import_substitution_of_ukrainian_products
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_Credits_from_RF}
+		relative_position_id = DPR_Credits_from_RF
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Hosting_refugees
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = DPR_Import_substitution_of_ukrainian_products}
+		relative_position_id = DPR_Import_substitution_of_ukrainian_products
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Nationalisation_of_businesses
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Import_substitution_of_ukrainian_products}
+		prerequisite = {focus = DPR_DonetskStal_expansion}
+		relative_position_id = DPR_Import_substitution_of_ukrainian_products
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_DonetskStal_expansion
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Credits_from_RF}
+		relative_position_id = DPR_Credits_from_RF
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Sale_of_coal
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_DonetskStal_expansion}
+		relative_position_id = DPR_DonetskStal_expansion
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Donetsk_of_the_future
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Nationalisation_of_businesses}
+		prerequisite = {focus = DPR_Sale_of_coal}
+		prerequisite = {focus = DPR_Hosting_refugees}
+		relative_position_id = DPR_Nationalisation_of_businesses
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Death_of_Zaharchenko
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -7
+		y = 1
+
+		prerequisite = {focus = DPR_Free_state}
+		relative_position_id = DPR_Free_state
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Elections_in_DPR
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = DPR_Death_of_Zaharchenko}
+		relative_position_id = DPR_Death_of_Zaharchenko
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Republic_of_Pushilin
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Elections_in_DPR}
+		relative_position_id = DPR_Elections_in_DPR
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Girkin_military_coup
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = DPR_Death_of_Zaharchenko}
+		relative_position_id = DPR_Death_of_Zaharchenko
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Girkin_dictatorship
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Girkin_military_coup}
+		relative_position_id = DPR_Girkin_military_coup
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Unification_with_LPR
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Girkin_dictatorship}
+		relative_position_id = DPR_Girkin_dictatorship
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_expansion_of_people_police
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = DPR_Girkin_dictatorship}
+		relative_position_id = DPR_Girkin_dictatorship
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Call_to_Putin
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = DPR_Girkin_dictatorship}
+		relative_position_id = DPR_Girkin_dictatorship
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Create_in_Donbass_Novorossiya
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Unification_with_LPR}
+		prerequisite = {focus = DPR_Call_to_Putin}
+		prerequisite = {focus = DPR_expansion_of_people_police}
+		relative_position_id = DPR_Unification_with_LPR
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Fight_with_banderites
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
+		relative_position_id = DPR_Zaharchenko_is_our_leader
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Beginning_russification
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Fight_with_banderites}
+		relative_position_id = DPR_Fight_with_banderites
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Russian_education
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Beginning_russification}
+		relative_position_id = DPR_Beginning_russification
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Banning_everything_Ukrainian
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = DPR_Russian_education}
+		relative_position_id = DPR_Russian_education
 		
 		ai_will_do = {
 			factor = 1
