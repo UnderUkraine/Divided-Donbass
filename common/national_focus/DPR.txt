@@ -33,7 +33,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Heroic_militia
+		id = DPR_heroic_militia
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
@@ -58,14 +58,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Tank_Battalion_Diesel
-		icon = GFX_focus_DPR_Tank_Battalion_Diesel
+		id = DPR_tank_battalion_diesel
+		icon = GFX_focus_DPR_tank_battalion_diesel
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Heroic_militia}
-		relative_position_id = DPR_Heroic_militia
+		prerequisite = {focus = DPR_heroic_militia}
+		relative_position_id = DPR_heroic_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -83,14 +83,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Strela_ten_division
-		icon = GFX_focus_DPR_Strela_ten_division
+		id = DPR_strela_ten_division
+		icon = GFX_focus_DPR_strela_ten_division
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Tank_Battalion_Diesel}
-		relative_position_id = DPR_Tank_Battalion_Diesel
+		prerequisite = {focus = DPR_tank_battalion_diesel}
+		relative_position_id = DPR_tank_battalion_diesel
 		
 		ai_will_do = {
 			factor = 1
@@ -114,8 +114,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Strela_ten_division}
-		relative_position_id = DPR_Strela_ten_division
+		prerequisite = {focus = DPR_strela_ten_division}
+		relative_position_id = DPR_strela_ten_division
 		
 		ai_will_do = {
 			factor = 1
@@ -140,8 +140,8 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Heroic_militia}
-		relative_position_id = DPR_Heroic_militia
+		prerequisite = {focus = DPR_heroic_militia}
+		relative_position_id = DPR_heroic_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -209,7 +209,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Heroes_of_Donbass
+		id = DPR_heroes_of_donbass
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
@@ -236,7 +236,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Cooperation_with_peoples_republics
+		id = DPR_cooperation_with_peoples_republics
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 2
@@ -261,8 +261,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Defense_of_Donetsk_Citadel
-		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
+		id = DPR_defense_of_donetsk_citadel
+		icon = GFX_focus_DPR_defense_of_donetsk_citadel
 		cost = 1
 		x = 4
 		y = 1
@@ -286,14 +286,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Iron_boundaries
+		id = DPR_iron_boundaries
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Defense_of_Donetsk_Citadel}
-		relative_position_id = DPR_Defense_of_Donetsk_Citadel
+		prerequisite = {focus = DPR_defense_of_donetsk_citadel}
+		relative_position_id = DPR_defense_of_donetsk_citadel
 		
 		ai_will_do = {
 			factor = 1
@@ -311,14 +311,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Defense_of_cities
-		icon = GFX_focus_DPR_Defense_of_cities
+		id = DPR_defense_of_cities
+		icon = GFX_focus_DPR_defense_of_cities
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Iron_boundaries}
-		relative_position_id = DPR_Iron_boundaries
+		prerequisite = {focus = DPR_iron_boundaries}
+		relative_position_id = DPR_iron_boundaries
 		
 		ai_will_do = {
 			factor = 1
@@ -336,14 +336,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Trenching_in_Donetsk_neighborhoods
-		icon = GFX_focus_DPR_Trenching_in_Donetsk_neighborhoods
+		id = DPR_trenching_in_donetsk_neighborhoods
+		icon = GFX_focus_DPR_trenching_in_donetsk_neighborhoods
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Iron_boundaries}
-		relative_position_id = DPR_Iron_boundaries
+		prerequisite = {focus = DPR_iron_boundaries}
+		relative_position_id = DPR_iron_boundaries
 		
 		ai_will_do = {
 			factor = 1
@@ -361,16 +361,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
-		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		id = DPR_plan_to_reach_the_borders_of_donetsk_oblast
+		icon = GFX_focus_DPR_plan_to_reach_the_borders_of_donetsk_oblast
 		cost = 1
 		x = -1
 		y = 1
 
-        prerequisite = {focus = DPR_Trenching_in_Donetsk_neighborhoods}
-		prerequisite = {focus = DPR_Defense_of_cities}
+        prerequisite = {focus = DPR_trenching_in_donetsk_neighborhoods}
+		prerequisite = {focus = DPR_defense_of_cities}
 
-		relative_position_id = DPR_Trenching_in_Donetsk_neighborhoods
+		relative_position_id = DPR_trenching_in_donetsk_neighborhoods
 		
 		ai_will_do = {
 			factor = 1
@@ -388,14 +388,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Diversions_on_the_home_front
+		id = DPR_diversions_on_the_home_front
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
-		relative_position_id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		prerequisite = {focus = DPR_plan_to_reach_the_borders_of_donetsk_oblast}
+		relative_position_id = DPR_plan_to_reach_the_borders_of_donetsk_oblast
 		
 		ai_will_do = {
 			factor = 1
@@ -413,14 +413,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Russia_appeals_for_peace_deals
+		id = DPR_russia_appeals_for_peace_deals
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Heroes_of_Donbass}
-		relative_position_id = DPR_Heroes_of_Donbass
+		prerequisite = {focus = DPR_heroes_of_donbass}
+		relative_position_id = DPR_heroes_of_donbass
 		
 		ai_will_do = {
 			factor = 1
@@ -438,14 +438,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Minsk_protocols
+		id = DPR_minsk_protocols
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Russia_appeals_for_peace_deals}
-		relative_position_id = DPR_Russia_appeals_for_peace_deals
+		prerequisite = {focus = DPR_russia_appeals_for_peace_deals}
+		relative_position_id = DPR_russia_appeals_for_peace_deals
 		
 		ai_will_do = {
 			factor = 1
@@ -463,14 +463,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_secondMinsk_treaty
+		id = DPR_second_minsk_treaty
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Minsk_protocols}
-		relative_position_id = DPR_Minsk_protocols
+		prerequisite = {focus = DPR_minsk_protocols}
+		relative_position_id = DPR_minsk_protocols
 		
 		ai_will_do = {
 			factor = 1
@@ -488,14 +488,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Peace_for_the_whole_republic
+		id = DPR_peace_for_the_whole_republic
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_secondMinsk_treaty}
-		relative_position_id = DPR_secondMinsk_treaty
+		prerequisite = {focus = DPR_second_minsk_treaty}
+		relative_position_id = DPR_second_minsk_treaty
 		
 		ai_will_do = {
 			factor = 1
@@ -513,14 +513,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Free_state
+		id = DPR_free_state
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Peace_for_the_whole_republic}
-		relative_position_id = DPR_Peace_for_the_whole_republic
+		prerequisite = {focus = DPR_peace_for_the_whole_republic}
+		relative_position_id = DPR_peace_for_the_whole_republic
 		
 		ai_will_do = {
 			factor = 1
@@ -538,14 +538,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Friendship_of_people_republics
+		id = DPR_friendship_of_people_republics
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 5
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_free_state}
+		relative_position_id = DPR_free_state
 		
 		ai_will_do = {
 			factor = 1
@@ -563,14 +563,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_AntiKiev_coalition
+		id = DPR_antikiev_coalition
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Friendship_of_people_republics}
-		relative_position_id = DPR_Friendship_of_people_republics
+		prerequisite = {focus = DPR_friendship_of_people_republics}
+		relative_position_id = DPR_friendship_of_people_republics
 		
 		ai_will_do = {
 			factor = 1
@@ -588,14 +588,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Trade_agreements
+		id = DPR_trade_agreements
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_AntiKiev_coalition}
-		relative_position_id = DPR_AntiKiev_coalition
+		prerequisite = {focus = DPR_antikiev_coalition}
+		relative_position_id = DPR_antikiev_coalition
 		
 		ai_will_do = {
 			factor = 1
@@ -613,14 +613,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Training_with_republics
+		id = DPR_training_with_republics
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_AntiKiev_coalition}
-		relative_position_id = DPR_AntiKiev_coalition
+		prerequisite = {focus = DPR_antikiev_coalition}
+		relative_position_id = DPR_antikiev_coalition
 		
 		ai_will_do = {
 			factor = 1
@@ -638,14 +638,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Zaharchenko_is_our_leader
+		id = DPR_zaharchenko_is_our_leader
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_free_state}
+		relative_position_id = DPR_free_state
 		
 		ai_will_do = {
 			factor = 1
@@ -663,14 +663,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Industrial_resonance
+		id = DPR_industrial_resonance
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
-		relative_position_id = DPR_Zaharchenko_is_our_leader
+		prerequisite = {focus = DPR_zaharchenko_is_our_leader}
+		relative_position_id = DPR_zaharchenko_is_our_leader
 		
 		ai_will_do = {
 			factor = 1
@@ -688,14 +688,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Resolving_the_currency_issue
+		id = DPR_resolving_the_currency_issue
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Industrial_resonance}
-		relative_position_id = DPR_Industrial_resonance
+		prerequisite = {focus = DPR_industrial_resonance}
+		relative_position_id = DPR_industrial_resonance
 		
 		ai_will_do = {
 			factor = 1
@@ -713,14 +713,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Passport_of_citizen_DPR
+		id = DPR_passport_of_citizen_dpr
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Resolving_the_currency_issue}
-		relative_position_id = DPR_Resolving_the_currency_issue
+		prerequisite = {focus = DPR_resolving_the_currency_issue}
+		relative_position_id = DPR_resolving_the_currency_issue
 		
 		ai_will_do = {
 			factor = 1
@@ -738,14 +738,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Credits_from_RF
+		id = DPR_credits_from_rf
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Passport_of_citizen_DPR}
-		relative_position_id = DPR_Passport_of_citizen_DPR
+		prerequisite = {focus = DPR_passport_of_citizen_dpr}
+		relative_position_id = DPR_passport_of_citizen_dpr
 		
 		ai_will_do = {
 			factor = 1
@@ -763,14 +763,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Import_substitution_of_ukrainian_products
+		id = DPR_import_substitution_of_ukrainian_products
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Credits_from_RF}
-		relative_position_id = DPR_Credits_from_RF
+		prerequisite = {focus = DPR_credits_from_rf}
+		relative_position_id = DPR_credits_from_rf
 		
 		ai_will_do = {
 			factor = 1
@@ -788,14 +788,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Hosting_refugees
+		id = DPR_hosting_refugees
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Import_substitution_of_ukrainian_products}
-		relative_position_id = DPR_Import_substitution_of_ukrainian_products
+		prerequisite = {focus = DPR_import_substitution_of_ukrainian_products}
+		relative_position_id = DPR_import_substitution_of_ukrainian_products
 		
 		ai_will_do = {
 			factor = 1
@@ -813,15 +813,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Nationalisation_of_businesses
+		id = DPR_nationalisation_of_businesses
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Import_substitution_of_ukrainian_products}
-		prerequisite = {focus = DPR_DonetskStal_expansion}
-		relative_position_id = DPR_Import_substitution_of_ukrainian_products
+		prerequisite = {focus = DPR_import_substitution_of_ukrainian_products}
+		prerequisite = {focus = DPR_donetskstal_expansion}
+		relative_position_id = DPR_import_substitution_of_ukrainian_products
 		
 		ai_will_do = {
 			factor = 1
@@ -839,14 +839,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_DonetskStal_expansion
+		id = DPR_donetskstal_expansion
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Credits_from_RF}
-		relative_position_id = DPR_Credits_from_RF
+		prerequisite = {focus = DPR_credits_from_rf}
+		relative_position_id = DPR_credits_from_rf
 		
 		ai_will_do = {
 			factor = 1
@@ -864,14 +864,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Sale_of_coal
+		id = DPR_sale_of_coal
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_DonetskStal_expansion}
-		relative_position_id = DPR_DonetskStal_expansion
+		prerequisite = {focus = DPR_donetskstal_expansion}
+		relative_position_id = DPR_donetskstal_expansion
 		
 		ai_will_do = {
 			factor = 1
@@ -889,16 +889,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Donetsk_of_the_future
+		id = DPR_donetsk_of_the_future
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Nationalisation_of_businesses}
-		prerequisite = {focus = DPR_Sale_of_coal}
-		prerequisite = {focus = DPR_Hosting_refugees}
-		relative_position_id = DPR_Nationalisation_of_businesses
+		prerequisite = {focus = DPR_nationalisation_of_businesses}
+		prerequisite = {focus = DPR_sale_of_coal}
+		prerequisite = {focus = DPR_hosting_refugees}
+		relative_position_id = DPR_nationalisation_of_businesses
 		
 		ai_will_do = {
 			factor = 1
@@ -916,14 +916,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Death_of_Zaharchenko
+		id = DPR_death_of_zaharchenko
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -7
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_free_state}
+		relative_position_id = DPR_free_state
 		
 		ai_will_do = {
 			factor = 1
@@ -941,14 +941,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Elections_in_DPR
+		id = DPR_elections_in_dpr
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
 
-		prerequisite = {focus = DPR_Death_of_Zaharchenko}
-		relative_position_id = DPR_Death_of_Zaharchenko
+		prerequisite = {focus = DPR_death_of_zaharchenko}
+		relative_position_id = DPR_death_of_zaharchenko
 		
 		ai_will_do = {
 			factor = 1
@@ -966,14 +966,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Republic_of_Pushilin
+		id = DPR_republic_of_pushilin
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Elections_in_DPR}
-		relative_position_id = DPR_Elections_in_DPR
+		prerequisite = {focus = DPR_elections_in_dpr}
+		relative_position_id = DPR_elections_in_dpr
 		
 		ai_will_do = {
 			factor = 1
@@ -991,14 +991,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Girkin_military_coup
+		id = DPR_girkin_military_coup
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 2
 		y = 1
 
-		prerequisite = {focus = DPR_Death_of_Zaharchenko}
-		relative_position_id = DPR_Death_of_Zaharchenko
+		prerequisite = {focus = DPR_death_of_zaharchenko}
+		relative_position_id = DPR_death_of_zaharchenko
 		
 		ai_will_do = {
 			factor = 1
@@ -1016,14 +1016,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Girkin_dictatorship
+		id = DPR_girkin_dictatorship
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Girkin_military_coup}
-		relative_position_id = DPR_Girkin_military_coup
+		prerequisite = {focus = DPR_girkin_military_coup}
+		relative_position_id = DPR_girkin_military_coup
 		
 		ai_will_do = {
 			factor = 1
@@ -1041,14 +1041,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Unification_with_LPR
+		id = DPR_unification_with_lpr
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Girkin_dictatorship}
-		relative_position_id = DPR_Girkin_dictatorship
+		prerequisite = {focus = DPR_girkin_dictatorship}
+		relative_position_id = DPR_girkin_dictatorship
 		
 		ai_will_do = {
 			factor = 1
@@ -1072,8 +1072,8 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		prerequisite = {focus = DPR_Girkin_dictatorship}
-		relative_position_id = DPR_Girkin_dictatorship
+		prerequisite = {focus = DPR_girkin_dictatorship}
+		relative_position_id = DPR_girkin_dictatorship
 		
 		ai_will_do = {
 			factor = 1
@@ -1091,14 +1091,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Call_to_Putin
+		id = DPR_call_to_putin
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
 		y = 1
 
-		prerequisite = {focus = DPR_Girkin_dictatorship}
-		relative_position_id = DPR_Girkin_dictatorship
+		prerequisite = {focus = DPR_girkin_dictatorship}
+		relative_position_id = DPR_girkin_dictatorship
 		
 		ai_will_do = {
 			factor = 1
@@ -1116,16 +1116,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Create_in_Donbass_Novorossiya
+		id = DPR_create_in_donbass_novorossiya
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Unification_with_LPR}
-		prerequisite = {focus = DPR_Call_to_Putin}
+		prerequisite = {focus = DPR_unification_with_lpr}
+		prerequisite = {focus = DPR_call_to_putin}
 		prerequisite = {focus = DPR_expansion_of_people_police}
-		relative_position_id = DPR_Unification_with_LPR
+		relative_position_id = DPR_unification_with_lpr
 		
 		ai_will_do = {
 			factor = 1
@@ -1143,14 +1143,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Fight_with_banderites
+		id = DPR_fight_with_banderites
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
-		relative_position_id = DPR_Zaharchenko_is_our_leader
+		prerequisite = {focus = DPR_zaharchenko_is_our_leader}
+		relative_position_id = DPR_zaharchenko_is_our_leader
 		
 		ai_will_do = {
 			factor = 1
@@ -1168,14 +1168,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Beginning_russification
+		id = DPR_beginning_russification
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Fight_with_banderites}
-		relative_position_id = DPR_Fight_with_banderites
+		prerequisite = {focus = DPR_fight_with_banderites}
+		relative_position_id = DPR_fight_with_banderites
 		
 		ai_will_do = {
 			factor = 1
@@ -1193,14 +1193,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Russian_education
+		id = DPR_russian_education
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Beginning_russification}
-		relative_position_id = DPR_Beginning_russification
+		prerequisite = {focus = DPR_beginning_russification}
+		relative_position_id = DPR_beginning_russification
 		
 		ai_will_do = {
 			factor = 1
@@ -1218,14 +1218,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Banning_everything_Ukrainian
+		id = DPR_banning_everything_ukrainian
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Russian_education}
-		relative_position_id = DPR_Russian_education
+		prerequisite = {focus = DPR_russian_education}
+		relative_position_id = DPR_russian_education
 		
 		ai_will_do = {
 			factor = 1
