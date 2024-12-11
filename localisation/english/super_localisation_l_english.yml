@@ -10,3 +10,7 @@ sp_event_Ukr_yanukovich_overthrow_REMARK:0 "Dictatorship has fallen!"
 sp_event_UKR_Victory_over_separatists_event:0 "Ukrainian Victory over separatists"
 sp_event_UKR_Victory_over_separatists_event_QUOTE:0 "“The separatists have no chance. The Ukrainian army will regain control of the entire territory” \n- §YArsen Avakov§!"
 sp_event_UKR_Victory_over_separatists_event_REMARK:0 "Slava Ukraini!"
+
+sp_event_UKR_Victory_of_separatists_event:0 "Separatists victory in Donbass"
+sp_event_UKR_Victory_of_separatists_event_QUOTE:0 "“Russia has an obligation to protect Russian people, otherwise it loses its meaning as a state.” \n- §YIgor Strelkov§!"
+sp_event_UKR_Victory_of_separatists_event_REMARK:0 "Donbass is free now."

@@ -1,0 +1,56 @@
+﻿###########################
+# Donetsk Events
+###########################
+
+add_namespace = donetsk
+
+#Proclaim of Republic
+country_event = {
+	id = donetsk.1
+	title = donetsk.1.t
+	desc = donetsk.1.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = {
+            id = donetsk.2
+			days = 50
+		}
+	}
+	
+	option = {
+		name = donetsk.1.a
+
+		complete_national_focus = DPR_Donbass_will_be_free
+	}
+}
+
+#Zakharchenko is a new leader
+country_event = {
+	id = donetsk.2
+	title = donetsk.2.t
+	desc = donetsk.2.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.2.a
+	}
+}
+
+#Victory in Donbass
+country_event = {
+	id = donetsk.3
+	title = donetsk.3.t
+	desc = donetsk.3.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.3.a
+	}
+}

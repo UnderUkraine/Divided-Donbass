@@ -63,6 +63,11 @@ capital = 93
 	}
 
 	set_country_flag = rada_2012
+
+	recruit_character = oleksandr_sirskiy
+	recruit_character = mykola_azarov
+
+	activate_advisor = UKR_mykola_azarov
 	
 	add_ideas = {
 		UKR_protests
