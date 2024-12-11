@@ -8,6 +8,19 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+
+		2015.1.1 = {
+			transfer_state_to = DPR
+			add_core_of = DPR
+ 
+			UKR = {
+				 set_province_controller = 15100
+				 set_province_controller = 12711
+				 set_province_controller = 14845
+				 set_province_controller = 3184
+			}
+		 }
+
 		victory_points = {
 			15100 5
 		}
