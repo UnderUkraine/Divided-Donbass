@@ -1,0 +1,35 @@
+focus_tree = {
+	id = poland_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 3000 y = 3000 }
+	
+	focus = {
+		id = POL_poland
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 7
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}	

@@ -18,6 +18,28 @@ bookmarks = {
 				UKR_Join_Union_State_project
 			}	
 		}
+		"DPR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"LPR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
 		"RUS"={
 			history = "RUS_EC_DESC"
 			ideology = neutrality
