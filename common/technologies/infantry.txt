@@ -20,6 +20,16 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
+
+			engineer
+			recon
+			mot_recon
+			armored_car_recon
+			light_tank_recon
+			military_police
+			maintenance_company
+			field_hospital
+			logistics_company
 		}
 		
 		path = {

@@ -13,11 +13,12 @@ equipments = {
 		
 		interface_category = interface_category_land
 		
-		maximum_speed = 12
+		defense = 0.5
+		maximum_speed = 80
 		reliability = 0.8
 		hardness = 0.1
 
-		breakthrough = 5
+		manpower = 2
 
 		#Space taken in convoy
 		lend_lease_cost = 5
@@ -37,10 +38,8 @@ equipments = {
 		year = 1936
 
 		archetype = motorized_equipment
-		priority = 30
-		maximum_speed = 10
-		reliability = 0.65
-		breakthrough = 2			
+		priority = 30		
+		maximum_speed = 80
 	}
 
 	motorized_equipment_1 = {
@@ -48,7 +47,14 @@ equipments = {
 
 		archetype = motorized_equipment
 		parent = motorized_equipment_0
-		priority = 30			
+		priority = 30		
+		
+		defense = 0.5
+		maximum_speed = 75
+		reliability = 1
+		hardness = 0.15
+
+		manpower = 2
 	}
 	motorized_equipment_2 = {
 		year = 1936
@@ -56,6 +62,12 @@ equipments = {
 		archetype = motorized_equipment
 		parent = motorized_equipment_1
 		priority = 30			
+		defense = 0.5
+		maximum_speed = 85
+		reliability = 1.5
+		hardness = 0.2
+
+		manpower = 2
 	}
 	motorized_equipment_3 = {
 		year = 1936
@@ -63,5 +75,11 @@ equipments = {
 		archetype = motorized_equipment
 		parent = motorized_equipment_2
 		priority = 30			
+		defense = 1.5
+		maximum_speed = 85
+		reliability = 1.5
+		hardness = 0.2
+
+		manpower = 2
 	}
 }
