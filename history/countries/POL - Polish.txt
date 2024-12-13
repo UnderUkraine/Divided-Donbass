@@ -16,3 +16,11 @@ set_popularities = {
 	communism = 15
 	neutrality = 25
 }
+
+create_country_leader = {
+	name = bronislaw_komorowski
+	#desc = petro_poroshenko_desc
+	ideology = conservatism_bpp
+	picture = gfx/leaders/UKR/poroshenko.dds
+	traits = { }
+}

@@ -7,29 +7,30 @@ bookmarks = {
 		#default_country = "UKR"
 		default = yes
 		
+		"POL"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"MLV"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+
 		"UKR"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
-		"DPR"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
-		"LPR"={
 			history = "UKR_EC_DESC"
 			ideology = neutrality
 			ideas = {
@@ -47,6 +48,28 @@ bookmarks = {
 			}
 			focuses = {
 
+			}	
+		}
+		"BLR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"TMR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
 			}	
 		}
 	}
