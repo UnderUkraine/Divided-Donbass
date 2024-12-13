@@ -2212,4 +2212,207 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = UKR_start_army_reform
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_buy_weapon }
+		relative_position_id = UKR_buy_weapon 
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_start_army_reform"
+		}
+	}
+	focus = {
+		id = UKR_experience_donbass_war
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_start_army_reform }
+		relative_position_id = UKR_start_army_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_experience_donbass_war"
+		}
+	}
+	focus = {
+		id = UKR_put_k_standart_nato
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_experience_donbass_war }
+		relative_position_id = UKR_experience_donbass_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_put_k_standart_nato"
+		}
+	}
+	focus = {
+		id = UKR_otkaz_ot_soveit_doctrine
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_put_k_standart_nato }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_otkaz_ot_soveit_doctrine"
+		}
+	}
+	focus = {
+		id = UKR_uvolit_starih_generalov
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_put_k_standart_nato }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_uvolit_starih_generalov"
+		}
+	}
+	focus = {
+		id = UKR_naznachit_novogo_glavkoma
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 2
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_naznachit_novogo_glavkoma"
+		}
+	}
+	focus = {
+		id = UKR_vozrozhdeniye_ngu
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_vozrozhdeniye_ngu"
+		}
+	}
+	focus = {
+		id = UKR_cooruption_in_army
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = -2
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_cooruption_in_army"
+		}
+	}
+	focus = {
+		id = UKR_new_general_school
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = UKR_naznachit_novogo_glavkoma }
+		prerequisite = {focus = UKR_vozrozhdeniye_ngu }
+		prerequisite = {focus = UKR_cooruption_in_army }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_new_general_school"
+		}
+	}
 }	
