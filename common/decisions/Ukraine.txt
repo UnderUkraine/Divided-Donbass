@@ -32,9 +32,9 @@ UKR_Maidan_Support_category = {
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
-				victor_yanukovich = {
-					retire_country_leader = yes
-				}
+				
+				retire_country_leader = yes
+
 				set_politics = {
 				    ruling_party = democratic
 				    elections_allowed = yes

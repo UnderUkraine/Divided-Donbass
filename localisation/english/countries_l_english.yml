@@ -170,3 +170,7 @@
  EUR:0 "Europe"
  EUR_DEF:0 "Europe"
  EUR_ADJ:0 "European"
+
+ FRU:0 "Russian Federation"
+ FRU_DEF:0 "Russian Federation"
+ FRU_ADJ:0 "Russian"

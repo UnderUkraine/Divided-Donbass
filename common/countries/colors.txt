@@ -82,3 +82,7 @@ EUR = {
 	color = rgb { 10 64 171 }
 	color_ui = rgb { 10 64 171 }
 }
+FRU = {
+	color = rgb { 106 122 161 }
+	color_ui = rgb { 106 122 161 }
+}

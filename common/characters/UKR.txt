@@ -70,4 +70,46 @@ characters = {
 			}
 		}
 	}
+	oleksandr_sirskiy = {
+		name = oleksandr_sirskiy
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+
+	mykola_azarov = {
+		name = mykola_azarov
+		portraits = {
+			civilian = {
+				small = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
+				large = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = UKR_mykola_azarov
+			can_be_fired = no
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+			}
+			traits = {
+				UKR_Prime_Minister_1
+			}
+		}
+	}
 }

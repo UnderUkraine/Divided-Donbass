@@ -7,22 +7,107 @@ bookmarks = {
 		default_country = "UKR"
 		default = yes
 		
+		"POL"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"MLV"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+
 		"UKR"={
-			history = "UKR_DW_DESC"
-			ideology = democratic
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"RUS"={
+			history = "RUS_EC_DESC"
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
 
 			}	
 		}
-		"RUS"={
-			history = "RUS_DW_DESC"
-			ideology = democratic
+		"DPR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"LPR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
 
+		#Minor countries
+		"AZV"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"BLR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
+			}	
+		}
+		"TMR"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+				UKR_Yanukovich_rule
+				UKR_Protests_on_streets
+				UKR_Join_Union_State_project
 			}	
 		}
 	}

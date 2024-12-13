@@ -1,0 +1,89 @@
+﻿###########################
+# Donetsk Events
+###########################
+
+add_namespace = donetsk
+
+#Proclaim of Republic
+country_event = {
+	id = donetsk.1
+	title = donetsk.1.t
+	desc = donetsk.1.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = {
+            id = donetsk.2
+			days = 50
+		}
+	}
+	
+	option = {
+		name = donetsk.1.a
+
+		complete_national_focus = DPR_Donbass_will_be_free
+	}
+}
+
+#Zakharchenko is a new leader
+country_event = {
+	id = donetsk.2
+	title = donetsk.2.t
+	desc = donetsk.2.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.2.a
+	}
+}
+
+#Victory in Donbass
+country_event = {
+	id = donetsk.3
+	title = donetsk.3.t
+	desc = donetsk.3.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.3.a
+	}
+}
+#Death of Zaharchenko
+country_event = {
+	id = donetsk.4
+	title = donetsk.4.t
+	desc = donetsk.4.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	immediate = {
+		complete_national_focus = DPR_Death_of_Zaharchenko
+	}
+	
+	option = {
+		name = donetsk.4.a
+
+		complete_national_focus = DPR_Elections_in_DPR
+	}
+	option = {
+		name = donetsk.4.b
+
+		complete_national_focus = DPR_Girkin_military_coup
+
+		retire_country_leader = yes
+		create_country_leader = {
+			name = igor_strelkov
+			#desc = petro_poroshenko_desc
+			ideology = centrism
+			picture = gfx/leaders/DPR/strelkov.dds
+			traits = { }
+		}
+	}
+}

@@ -25,6 +25,10 @@ recruit_character = DPR_zakharchenko
 	}
 }
 
+set_rule = {
+	can_puppet = no
+}
+
 set_popularities = {
 	democratic = 0
 	fascism = 10

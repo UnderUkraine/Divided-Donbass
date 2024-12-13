@@ -4,7 +4,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2019.05.20"
 	election_frequency = 48
 	elections_allowed = no
@@ -15,6 +15,14 @@ set_popularities = {
 	fascism = 0
 	communism = 35
 	neutrality = 15
+}
+
+create_country_leader = {
+	name = nicolae_timofti
+	#desc = petro_poroshenko_desc
+	ideology = centrism
+	picture = gfx/leaders/UKR/poroshenko.dds
+	traits = { }
 }
 
 add_ideas = {
