@@ -364,7 +364,7 @@
  light_tank_recon_desc:0 "Using light tanks in a recon role, we can conduct reconnaisance by fire and get a better understanding of what we are facing."
  armored_car:0 "Armored Car"
  armored_car_desc:0 ""
- engineer:0 "Engineer Company"
+ engineer:0 "Engineer & Sapper Company"
  engineer_desc:0 "Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed."
  field_hospital:0 "Field Hospital"
  field_hospital_desc:0 "Provides emergency medical attention to wounded soldiers in the field."
@@ -644,4 +644,7 @@
  category_support_artillery: "Support Artillery"
  jungle_pioneers_support: "Jungle Pioneers Company"
  AIR_WING_EXPERIENCE_VALUE_MODIFIER: "\n  - Experience: $VALUE|%-=2$"
+
+ #DIVIDED DONBASS
  btr1_unit: "APC company"
+ bbm_unit: "BBM company"

@@ -30,6 +30,10 @@ technologies = {
 			maintenance_company
 			field_hospital
 			logistics_company
+			mortar
+			anti_tank
+			tank_company
+			sniper_company
 		}
 		
 		path = {

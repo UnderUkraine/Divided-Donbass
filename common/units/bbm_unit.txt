@@ -28,14 +28,14 @@ sub_units = {
 			bbm_chassis = 25
 		}
 		manpower = 50
-		max_organisation = 10
+		max_organisation = 15
 		default_morale = 0.3
 		training_time = 180
 		max_strength = 2
 		weight = 1
 		supply_consumption = 0.22
 
-		breakthrough = 0.15
+		breakthrough = 0.25
 
 		suppression = 2.5
 

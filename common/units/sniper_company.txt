@@ -1,8 +1,8 @@
 sub_units = {
 
-	anti_tank = {
-		abbreviation = "AT"
-		sprite = anti_tank
+	sniper_company = {
+		abbreviation = "SC"
+		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0

@@ -4102,6 +4102,8 @@
  UKR_infantry_equipment_7_short:0 "UAR-15"
  UKR_infantry_equipment_7_desc:0 "The UAR-15 is a modern Ukrainian assault rifle, designed as a versatile, lightweight weapon for military and law enforcement use. the UAR-15 incorporates features that make it suitable for modern combat scenarios, including both urban environments and open battlefields. Chambered in 5.56×45mm NATO, it provides excellent accuracy, range, and reliability."
 
+ rpg_equipment:0 "RPG Equipment"
+ rpg_equipment_short:0 "RPG Eq."
  UKR_rpg_equipment_0:0 "RPG-7"
  UKR_rpg_equipment_0_short:0 "RPG-7"
  UKR_rpg_equipment_0_desc:0 "The RPG-7 is a portable, reusable anti-tank rocket launcher that has become one of the most iconic and widely used weapons in the world since its development in the Soviet Union in 1961. Known for its simplicity, reliability, and effectiveness against a wide range of targets, the RPG-7 has been used in conflicts globally by both regular military forces and insurgent groups."
@@ -4127,6 +4129,8 @@
  UKR_rpg_equipment_7_short:0 "NLAW"
  UKR_rpg_equipment_7_desc:0 "The NLAW is an advanced, lightweight anti-tank weapon system designed to provide infantry units with an effective tool for defeating modern armored vehicles at short to medium ranges. Its Overfly Top Attack mode allows it to strike vulnerable areas on heavily armored tanks, while its Direct Attack mode adds versatility against soft targets. With its fire-and-forget guidance, portability, and ease of use, the NLAW is a critical asset in both urban and conventional warfare, giving soldiers the ability to neutralize high-value armored targets with a single, well-placed shot."
 
+ atgm_equipment:0 "ATGM Equipment"
+ atgm_equipment_short:0 "ATGM Eq."
  UKR_atgm_equipment_0:0 "SPG-9M"
  UKR_atgm_equipment_0_short:0 "SPG-9M “Spear”"
  UKR_atgm_equipment_0_desc:0 "The SPG-9 “Spear” is a recoilless gun developed by the Soviet Union in the early 1960s, designed primarily as an anti-tank and anti-armor weapon. It is a lightweight, crew-operated, smoothbore, recoilless gun capable of firing fin-stabilized rockets. The SPG-9 is highly valued for its portability, simplicity, and effectiveness against a variety of targets, including armored vehicles, fortifications, and infantry in cover."

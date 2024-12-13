@@ -150,7 +150,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "БМД ТЕСТ"
-	type = bmd_chassis_0
+	type = bbm_chassis_3
 	parent_version = 0
 	modules = {
 		main_armament_slot = tank_73mm_weapon_2a28
@@ -165,6 +165,42 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_bbm_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БТР-60"
+	type = btr1_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_536_engine
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БТР-70"
+	type = btr1_chassis_1_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_5347_engine
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
 }
 
 2014.1.1 = {

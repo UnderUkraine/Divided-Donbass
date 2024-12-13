@@ -136,10 +136,10 @@ technologies = {
 			tank_additional_manpads_on_chassis
 		}
 		enable_subunits = {
-			tank_unit
+			#tank_unit
 		}
 		on_research_complete_limit = {
-			NOT = {	has_template_containing_unit = tank_unit }
+			#NOT = {	has_template_containing_unit = tank_unit }
 		}
 		on_research_complete = {
 			hidden_effect = {
