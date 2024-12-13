@@ -8,13 +8,13 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 100 y = 4000 }
+	continuous_focus_position = { x = 2000 y = 1000 }
 	
 	focus = {
 		id = UKR_Yanukovich_rule
 		icon = GFX_focus_UKR_Yanukovich_rule
 		cost = 1
-		x = 5
+		x = 10
 		y = 0
 
 		cancel_if_invalid = yes

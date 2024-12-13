@@ -316,4 +316,32 @@ spriteTypes = {
 	    name = "GFX_focus_DPR_Strela_ten_division"
 		texturefile = "gfx/interface/goals/DPR/strela.dds"		
 	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_artillery_shelling"
+		texturefile = "gfx/interface/goals/DPR/42e1cc3f71722658.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_Heroes_of_Donbass"
+		texturefile = "gfx/interface/goals/DPR/d4ba3ef11b148f64.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_batalion_somali"
+		texturefile = "gfx/interface/goals/DPR/4841880d9366bbdb.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_brigada_oplot"
+		texturefile = "gfx/interface/goals/DPR/927f9bd4e1450f60.dds"		
+	}
+	SpriteType = {
+	    name = "DPR_Diversions_on_the_home_front"
+		texturefile = "gfx/interface/goals/DPR/255154d21e63cba0.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_National_militia"
+		texturefile = "gfx/interface/goals/DPR/natinalmitia.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_DPR_battalion_sparta"
+		texturefile = "gfx/interface/goals/DPR/ff4529592f249832.dds"		
+	}
 }
