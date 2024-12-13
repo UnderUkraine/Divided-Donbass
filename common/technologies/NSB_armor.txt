@@ -1318,13 +1318,10 @@ technologies = {
 			bbm_chassis_0
 		}
 		enable_subunits = {
-			#btr1_unit
+			bbm_unit
 		}
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
-		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		research_cost = 2
