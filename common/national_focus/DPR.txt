@@ -33,10 +33,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Heroic_militia
-		icon = GFX_goal_unknown
+		id = DPR_National_militia
+		icon = GFX_focus_DPR_National_militia
 		cost = 1
-		x = 0
+		x = -2
 		y = 1
 
 		prerequisite = {focus = DPR_Donbass_will_be_free}
@@ -64,58 +64,8 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Heroic_militia}
-		relative_position_id = DPR_Heroic_militia
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = DPR_Strela_ten_division
-		icon = GFX_focus_DPR_Strela_ten_division
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = DPR_Tank_Battalion_Diesel}
-		relative_position_id = DPR_Tank_Battalion_Diesel
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = DPR_battalion_khan
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = DPR_Strela_ten_division}
-		relative_position_id = DPR_Strela_ten_division
+		prerequisite = {focus = DPR_National_militia}
+		relative_position_id = DPR_National_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -135,13 +85,13 @@ focus_tree = {
 
 	focus = {
 		id = DPR_brigada_oplot
-		icon = GFX_goal_unknown
+		icon = GFX_focus_DPR_brigada_oplot
 		cost = 1
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Heroic_militia}
-		relative_position_id = DPR_Heroic_militia
+		prerequisite = {focus = DPR_National_militia}
+		relative_position_id = DPR_National_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -160,13 +110,13 @@ focus_tree = {
 	}
 	focus = {
 		id = DPR_batalion_somali
-		icon = GFX_goal_unknown
+		icon = GFX_focus_DPR_batalion_somali
 		cost = 1
-		x = 0
+		x = 3
 		y = 1
 
-		prerequisite = {focus = DPR_brigada_oplot}
-		relative_position_id = DPR_brigada_oplot
+		prerequisite = {focus = DPR_National_militia}
+		relative_position_id = DPR_National_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -185,12 +135,12 @@ focus_tree = {
 	}
 	focus = {
 		id = DPR_battalion_sparta
-		icon = GFX_goal_unknown
+		icon = GFX_focus_DPR_battalion_sparta
 		cost = 1
-		x = 0
+		x = -3
 		y = 1
 
-		prerequisite = {focus = DPR_batalion_somali}
+		prerequisite = {focus = DPR_batalion_somali focus = DPR_brigada_oplot focus = DPR_brigada_oplot focus = DPR_Tank_Battalion_Diesel}
 		relative_position_id = DPR_batalion_somali
 		
 		ai_will_do = {
@@ -210,40 +160,14 @@ focus_tree = {
 	}
 	focus = {
 		id = DPR_Heroes_of_Donbass
-		icon = GFX_goal_unknown
+		icon = GFX_focus_DPR_Heroes_of_Donbass
 		cost = 1
-		x = -1
+		x = 0
 		y = 1
 
 		prerequisite = {focus = DPR_battalion_sparta}
-		prerequisite = {focus = DPR_battalion_khan}
 
 		relative_position_id = DPR_battalion_sparta
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = DPR_Cooperation_with_peoples_republics
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 2
-		y = 1
-
-		prerequisite = {focus = DPR_Donbass_will_be_free}
-		relative_position_id = DPR_Donbass_will_be_free
 		
 		ai_will_do = {
 			factor = 1
@@ -264,7 +188,7 @@ focus_tree = {
 		id = DPR_Defense_of_Donetsk_Citadel
 		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
 		cost = 1
-		x = 4
+		x = 3
 		y = 1
 
 		prerequisite = {focus = DPR_Donbass_will_be_free}
@@ -286,8 +210,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Iron_boundaries
-		icon = GFX_goal_unknown
+		id = DPR_artillery_shelling
+		icon = GFX_focus_DPR_artillery_shelling
 		cost = 1
 		x = 0
 		y = 1
@@ -317,8 +241,8 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Iron_boundaries}
-		relative_position_id = DPR_Iron_boundaries
+		prerequisite = {focus = DPR_artillery_shelling}
+		relative_position_id = DPR_artillery_shelling
 		
 		ai_will_do = {
 			factor = 1
@@ -342,8 +266,8 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		prerequisite = {focus = DPR_Iron_boundaries}
-		relative_position_id = DPR_Iron_boundaries
+		prerequisite = {focus = DPR_artillery_shelling}
+		relative_position_id = DPR_artillery_shelling
 		
 		ai_will_do = {
 			factor = 1
@@ -389,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DPR_Diversions_on_the_home_front
-		icon = GFX_goal_unknown
+		icon = DPR_Diversions_on_the_home_front
 		cost = 1
 		x = 0
 		y = 1
@@ -413,39 +337,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Russia_appeals_for_peace_deals
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 1
-		y = 1
-
-		prerequisite = {focus = DPR_Heroes_of_Donbass}
-		relative_position_id = DPR_Heroes_of_Donbass
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = DPR_Minsk_protocols
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = DPR_Russia_appeals_for_peace_deals}
-		relative_position_id = DPR_Russia_appeals_for_peace_deals
+		x = 22
+		y = 0
 		
 		ai_will_do = {
 			factor = 1
