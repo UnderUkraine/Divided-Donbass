@@ -76,8 +76,9 @@
  VICTORY_POINTS_8082: "Mykhailivka"
  VICTORY_POINTS_7324: "Staromykhailivka"
  VICTORY_POINTS_12808: "Lozove"
-
+ VICTORY_POINTS_12788: "Makiivka"
  VICTORY_POINTS_12410: "Bunhe"
+ VICTORY_POINTS_12719: "Nevelske"
 
  VICTORY_POINTS_12245: "Debaltseve"
  VICTORY_POINTS_12181: "Novohryhorivka"
@@ -91,6 +92,7 @@
  VICTORY_POINTS_13801: "Makedonivka"
  VICTORY_POINTS_7527: "Kasianivka"
  VICTORY_POINTS_13991: "«Azovstal»"
+ VICTORY_POINTS_7445: "Mariupol"
 
 
  VICTORY_POINTS_8118: "Manhush"
@@ -154,3 +156,6 @@
  VICTORY_POINTS_15083: "Sadaclia"
 
  VICTORY_POINTS_6995: "Tiraspol"
+
+##Kherson
+ VICTORY_POINTS_3886: "Kherson"

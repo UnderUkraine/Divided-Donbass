@@ -49,7 +49,7 @@
  VICTORY_POINTS_11697: "Луганск"
  LPR_VICTORY_POINTS_11697: "Луганск"
 
- VICTORY_POINTS_11576: "Станция Луганская"
+ VICTORY_POINTS_11576: "Станица Луганская"
 
  VICTORY_POINTS_7663: "Донецк"
  VICTORY_POINTS_4104: "Киевский район"
@@ -76,7 +76,7 @@
  VICTORY_POINTS_7324: "Старомихайловка"
  VICTORY_POINTS_12808: "Лозовое"
 
- VICTORY_POINTS_12410: "Бу́нге"
+ VICTORY_POINTS_12410: "Бунге"
 
  VICTORY_POINTS_12245: "Дебальцево"
  VICTORY_POINTS_12181: "Новогригоровка"
@@ -90,8 +90,10 @@
  VICTORY_POINTS_13801: "Македоновка"
  VICTORY_POINTS_7527: "Касьяновка"
  VICTORY_POINTS_13991: "«Азовсталь»"
+ VICTORY_POINTS_7445: "Мариуполь"
+ VICTORY_POINTS_13738: "Набережное"
 
- VICTORY_POINTS_8118: "Мангущ"
+ VICTORY_POINTS_8118: "Мангуш"
  VICTORY_POINTS_5865: "Суженка"
  VICTORY_POINTS_14119: "Ялта"
  VICTORY_POINTS_6808: "Мелекино"
@@ -103,10 +105,12 @@
  VICTORY_POINTS_6963: "Стародубовка"
  VICTORY_POINTS_13966: "Захаровка"
  VICTORY_POINTS_12219: "Горловка"
+ VICTORY_POINTS_12788: "Макеевка"
+ VICTORY_POINTS_12719: "Невельское"
 
  VICTORY_POINTS_7290: "Енакиево"
 
- VICTORY_POINTS_13978: "Новоазовк"
+ VICTORY_POINTS_13978: "Новоазовск"
  VICTORY_POINTS_13653: "Новосёловка"
  VICTORY_POINTS_13746: "Чермалик"
  VICTORY_POINTS_13721: "Коньково"
@@ -152,3 +156,6 @@
  VICTORY_POINTS_15083: "Sadaclia"
 
  VICTORY_POINTS_6995: "Тирасполь"
+
+##Kherson
+ VICTORY_POINTS_3886: "Херсон"
