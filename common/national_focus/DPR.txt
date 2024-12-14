@@ -185,31 +185,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Cooperation_with_peoples_republics
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 1
-		y = 1
-
-		prerequisite = {focus = DPR_Donbass_will_be_free}
-		relative_position_id = DPR_Donbass_will_be_free
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = DPR_Defense_of_Donetsk_Citadel
 		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
 		cost = 1
