@@ -33,7 +33,99 @@ recruit_character = aleksei_navalniy
 
 capital = 558
 set_technology = {
-    infantry_weapons = 1
+	infantry_weapons = 1
+	infantry_weapons_2 = 1
+	infantry_weapons1 = 1
+	infantry_weapons1_2 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_weapons5 = 1
+
+	rpg_weapons = 1
+	rpg_weapons1 = 1
+	rpg_weapons2 = 1
+	rpg_weapons3 = 1
+	rpg_weapons4 = 1
+    rpg_weapons5 = 1
+    rpg_weapons6 = 1
+    rpg_weapons7 = 1
+
+	atgm_weapons = 1
+	atgm_weapons1 = 1
+	atgm_weapons2 = 1
+	atgm_weapons3 = 1
+
+	manpads_weapons = 1
+	manpads_weapons1 = 1
+	manpads_weapons2 = 1
+	manpads_weapons3 = 1
+    manpads_weapons4 = 1
+
+	mortar_weapons = 1
+	mortar_weapons1 = 1
+	mortar_weapons2 = 1
+	mortar_weapons3 = 1
+	mortar_weapons4 = 1
+
+	tech_trucks = 1
+	tech_trucks_1 = 1
+	tech_trucks_2 = 1
+	tech_trucks_3 = 1
+
+	#ARMOR
+	tank_chassis = 1
+	tank1_chassis = 1
+	tank2_chassis = 1
+	tank3_chassis = 1
+	tank4_chassis = 1
+	tank5_chassis = 1
+
+	btr1_chassis = 1
+	btr1_1_chassis = 1
+	btr1_2_chassis = 1
+	btr2_chassis = 1
+	btr3_chassis = 1
+
+	armored_vehicle_chassis = 1
+	armored_vehicle_1_chassis = 1
+	armored_vehicle_2_chassis = 1
+
+	bbm_chassis = 1
+	bbm_1_chassis = 1
+	bbm_2_chassis = 1
+	bbm_3_chassis = 1
+}
+
+create_equipment_variant = {
+	name = "БМД 4"
+	type = bbm_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_auto_cannon
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_anti_armor_atgm_3
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_3_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "T-14 «Армата»"
+	type = tank_chassis_5
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_152mm_2a83_ARMATA
+		suspension_type_slot = tank_track_base_suspension
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_RUS_tank_chassis_5_medium"
 }
 
 set_politics = {

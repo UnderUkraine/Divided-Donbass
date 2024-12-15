@@ -31,9 +31,242 @@
 
 capital = 93
 
+create_equipment_variant = {
+	name = "БМ «Оплот»"
+	type = tank_chassis_5
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46
+		turret_type_slot = tank_сasting_tower
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_6td2_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = tank_active_defense_5
+		special_type_slot_3 = tank_dynamic_armor_3
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_UKR_tank5_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "Т-72"
+	type = tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+		turret_type_slot = tank_light_tower_3
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_v_46_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank2_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "Т-72А"
+	type = tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+		turret_type_slot = tank_light_tower_3
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_v_46_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = anticumulative_grids
+		special_type_slot_3 = tank_passive_protection_complex_2
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank2_chassis_medium"
+}
+
+
+create_equipment_variant = {
+	name = "Т-72Б"
+	type = tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+		turret_type_slot = tank_light_tower_3
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_v_46_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = tank_kontact_5
+		special_type_slot_3 = tank_passive_protection_complex_2
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank2_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БМП-1"
+	type = bbm_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_73mm_weapon_2a28
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_rolled_homogeneous_armor
+		engine_type_slot = tank_utd_20_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+		special_type_slot_2 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БМП-1У «Шквал»"
+	type = bbm_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_30_mm_autocannon_2a72
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_rolled_homogeneous_armor
+		engine_type_slot = tank_utd_20_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_automatic_grenade_launcher
+		special_type_slot_2 = tank_anti_armor_atgm_3
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БМД ТЕСТ"
+	type = bbm_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_73mm_weapon_2a28
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_rolled_homogeneous_armor
+		engine_type_slot = tank_utd_20_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+		special_type_slot_2 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БТР-60"
+	type = btr1_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_536_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "БТР-70"
+	type = btr1_chassis_1_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_5347_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
+}
+
 2014.1.1 = {
 	set_technology = {
 		infantry_weapons = 1
+		infantry_weapons_2 = 1
+		infantry_weapons1 = 1
+		infantry_weapons1_2 = 1
+		infantry_weapons2 = 1
+		infantry_weapons3 = 1
+		infantry_weapons4 = 1
+		infantry_weapons5 = 1
+		infantry_weapons6 = 1
+		infantry_weapons7 = 1
+	
+		rpg_weapons = 1
+		rpg_weapons1 = 1
+		rpg_weapons2 = 1
+		rpg_weapons3 = 1
+		rpg_weapons4 = 1
+	
+		atgm_weapons = 1
+		atgm_weapons1 = 1
+		atgm_weapons2 = 1
+		atgm_weapons3 = 1
+	
+		manpads_weapons = 1
+		manpads_weapons1 = 1
+		manpads_weapons2 = 1
+		manpads_weapons3 = 1
+	
+		mortar_weapons = 1
+		mortar_weapons1 = 1
+		mortar_weapons2 = 1
+		mortar_weapons3 = 1
+		mortar_weapons4 = 1
+	
+		tech_trucks = 1
+		tech_trucks_1 = 1
+		tech_trucks_2 = 1
+		tech_trucks_3 = 1
+	
+		#ARMOR
+		tank_chassis = 1
+		tank1_chassis = 1
+		tank2_chassis = 1
+		tank3_chassis = 1
+		tank4_chassis = 1
+		tank5_chassis = 1
+	
+		btr1_chassis = 1
+		btr1_1_chassis = 1
+		btr1_2_chassis = 1
+		btr2_chassis = 1
+	
+		bbm_chassis = 1
+		bbm_1_chassis = 1
 	}
 	
 	recruit_character = victor_yanukovich

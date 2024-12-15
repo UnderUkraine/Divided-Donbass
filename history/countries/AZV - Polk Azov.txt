@@ -1,6 +1,11 @@
 ﻿capital = 4308
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	rpg_weapons = 1
+	rpg_weapons1 = 1
+	mortar_weapons = 1
+	mortar_weapons1 = 1
 }
 
 set_politics = {
@@ -9,6 +14,33 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 500
+}
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 300
+}
+
+add_equipment_to_stockpile = {
+	type = rpg_equipment_1
+	amount = 100
+}
+
+add_equipment_to_stockpile = {
+	type = mortar_equipment_0
+	amount = 40
+}
+
+add_equipment_to_stockpile = {
+	type = mortar_equipment_1
+	amount = 30
+}
+
+add_manpower = 500
 
 recruit_character = andrii_biletsky
 
