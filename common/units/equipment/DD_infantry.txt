@@ -58,7 +58,7 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
+		defense = 15
 		breakthrough = 3
 
 		#Offensive Abilities
@@ -78,7 +78,7 @@ equipments = {
 		visual_level = 0
 
 		#Defensive Abilities
-		defense = 22
+		defense = 18
 		breakthrough = 3
 
 		#Offensive Abilities
@@ -98,8 +98,8 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 28
-		breakthrough = 4
+		defense = 16
+		breakthrough = 3
 
 		#Offensive Abilities
 		soft_attack = 9
@@ -122,7 +122,7 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 28
+		defense = 20
 		breakthrough = 4
 
 		#Offensive Abilities
@@ -146,7 +146,7 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 30
+		defense = 23
 		breakthrough = 5
 
 		#Offensive Abilities
@@ -170,7 +170,7 @@ equipments = {
 		visual_level = 4
 		
 		#Defensive Abilities
-		defense = 32
+		defense = 25
 		breakthrough = 5
 
 		#Offensive Abilities
@@ -194,7 +194,7 @@ equipments = {
 		visual_level = 5
 		
 		#Defensive Abilities
-		defense = 32
+		defense = 27
 		breakthrough = 5
 
 		#Offensive Abilities
@@ -218,7 +218,7 @@ equipments = {
 		visual_level = 6
 		
 		#Defensive Abilities
-		defense = 34
+		defense = 30
 		breakthrough = 6
 
 		#Offensive Abilities
@@ -242,7 +242,7 @@ equipments = {
 		visual_level = 7
 		
 		#Defensive Abilities
-		defense = 35
+		defense = 32
 		breakthrough = 6
 
 		#Offensive Abilities

@@ -7670,6 +7670,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BTR_82.dds"
 	}	
 	SpriteType = {
+		name = "GFX_RUS_btr2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
 		name = "GFX_UKR_btr3_chassis_medium"
 		texturefile = "gfx/interface/technologies/BTR_4.dds"
 	}	

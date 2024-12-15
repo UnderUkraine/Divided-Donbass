@@ -28,7 +28,6 @@ technologies = {
 			tank_combination_armor_two
 			tank_rolled_homogeneous_armor_three
 			
-			tank_torsion_bar_suspension
 			tank_gtd_1000_engine
 			tank_gtd_1000TF_engine
 			tank_gtd_1250_engine
@@ -43,12 +42,6 @@ technologies = {
 			tank_3_td_engine
 			tank_ymz_5347_engine
 			tank_ymz_536_engine
-
-
-
-			tank_christie_suspension
-			tank_bogie_suspension
-			tank_interleaved_suspension
 
             tank_open_armored_box
 			tank_remote_controlled_module
@@ -134,6 +127,9 @@ technologies = {
 			tank_additional_medium_anti_aircraft_missle_1
 			tank_additional_medium_anti_aircraft_missle_2
 			tank_additional_manpads_on_chassis
+
+			tank_wheelbase_suspension
+			tank_track_base_suspension
 		}
 		enable_subunits = {
 			#tank_unit

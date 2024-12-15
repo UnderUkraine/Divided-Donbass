@@ -103,6 +103,7 @@ create_equipment_variant = {
 	parent_version = 0
 	modules = {
 		main_armament_slot = tank_auto_cannon
+		suspension_type_slot = tank_track_base_suspension
 		special_type_slot_1 = tank_anti_armor_atgm_3
 	}
 	upgrades = {
@@ -118,6 +119,7 @@ create_equipment_variant = {
 	parent_version = 0
 	modules = {
 		main_armament_slot = tank_152mm_2a83_ARMATA
+		suspension_type_slot = tank_track_base_suspension
 	}
 	upgrades = {
 		tank_nsb_engine_upgrade = 0
