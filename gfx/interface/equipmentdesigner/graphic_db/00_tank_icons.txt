@@ -1021,6 +1021,19 @@ GER = {
 	}
 }
 
+UKR = {
+	tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_tank_chassis_medium
+			}
+			models = {
+				UKR_MD4_medium_armor_entity #BT-7 (Improved Light Tank)
+			}
+		}
+	}
+}
+
 SOV = {
 	light_tank_chassis = {
 		pool = {

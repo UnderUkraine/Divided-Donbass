@@ -323,6 +323,42 @@ create_equipment_variant = {
 	recruit_character = mykola_azarov
 
 	activate_advisor = UKR_mykola_azarov
+
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_0
+		amount = 94530
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 514000
+	}
+
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_0
+		amount = 9450
+	}
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 960
+	}
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_2
+		amount = 1945
+	}
+
+	add_equipment_to_stockpile = {
+		type = btr1_chassis_0
+		variant_name = "БТР-60"
+		amount = 105
+		producer = UKR
+	}
+
+	add_equipment_to_stockpile = {
+		type = btr1_chassis_1_1
+		variant_name = "БТР-70"
+		amount = 210
+		producer = UKR
+	}
 	
 	add_ideas = {
 		UKR_protests

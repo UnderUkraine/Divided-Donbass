@@ -575,4 +575,12 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_aa_equipment_1
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
+
+	tank_chassis
+	tank_chassis_0
+	tank_chassis_1
+	tank_chassis_2
+	tank_chassis_3
+	tank_chassis_4
+	tank_chassis_5
 }
