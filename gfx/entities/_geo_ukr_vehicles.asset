@@ -392,7 +392,6 @@ entity = {
 	clone = "geo_btr70_UKR_entity"
 	name = "UKR_light_armor_entity"
 
-	attach = { 	name = "infantry"			infantry = "UKR_infantry_2_0_entity" }
 	attach = { 	name = "vehicle"			vehicle = "geo_btr70_UKR_entity" }
 }
 
@@ -400,15 +399,20 @@ entity = {
 	clone = "geo_btr80_UKR_entity"
 	name = "UKR_light_armor_1_entity"
 
-	attach = { 	name = "infantry"			infantry = "UKR_infantry_2_0_entity" }
+	attach = { 	name = "vehicle"			vehicle = "geo_btr80_UKR_entity" }
+}
+
+entity = {
+	clone = "geo_btr80_UKR_entity"
+	name = "UKR_light_armor_2_entity"
+
 	attach = { 	name = "vehicle"			vehicle = "geo_btr80_UKR_entity" }
 }
 
 entity = {
 	clone = "geo_btr3_UKR_entity"
-	name = "UKR_light_armor_3_entity"
+	name = "UKR_light_armor_4_entity"
 
-	attach = { 	name = "infantry"			infantry = "UKR_infantry_2_0_entity" }
 	attach = { 	name = "vehicle"			vehicle = "geo_btr3_UKR_entity" }
 }
 
