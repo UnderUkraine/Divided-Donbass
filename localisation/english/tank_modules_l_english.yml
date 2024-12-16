@@ -441,19 +441,19 @@
 
  UKR_btr1_chassis_1_1:0 "BTR-70"
  RUS_btr1_chassis_1_1:0 "BTR-70"
- btr1_chassis_0:0 "APC Chassis"
+ btr1_chassis_1_1:0 "APC Chassis"
 
  UKR_btr1_chassis_1_2:0 "BTR-80"
  RUS_btr1_chassis_1_2:0 "BTR-80"
- btr1_chassis_0:0 "APC Chassis"
+ btr1_chassis_1_2:0 "APC Chassis"
 
  UKR_btr2_chassis_0:0 "BTR-3"
  RUS_btr2_chassis_0:0 "BTR-82"
- btr1_chassis_0:0 "APC Chassis"
+ btr2_chassis_0:0 "APC Chassis"
 
  UKR_btr2_chassis_1:0 "BTR-4 «Bucefal»"
  RUS_btr2_chassis_1:0 "BTR-K16"
- btr1_chassis_0:0 "APC Chassis"
+ btr2_chassis_1:0 "APC Chassis"
 
  UKR_tank_chassis_0:0 "T-55 chassis"
  RUS_tank_chassis_0:0 "T-55 chassis"

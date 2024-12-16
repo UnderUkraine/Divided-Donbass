@@ -1309,13 +1309,8 @@ equipments = {
 					tank_super_light_armament
 					tank_light_armament
 					tank_light_anti_aircraft_armament
-					tank_medium_weapon_armament
-					tank_tank_weapon_armament
-					tank_heavy_tank_weapon_armament
 					tank_light_rzso_weapon_armament
 					tank_light_zrk_armament
-					tank_medium_zrk_armament
-					tank_medium_artillery_armament
 				}
 			}
 			
@@ -1338,6 +1333,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_medium_engine_type
+					tank_light_engine_type
 				}
 			}
 
@@ -1352,9 +1348,6 @@ equipments = {
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1370,9 +1363,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1388,9 +1378,6 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1442,13 +1429,13 @@ equipments = {
 		}	
 
 		fuel_consumption = 0
-		maximum_speed = 4
-		build_cost_ic = 1
+		maximum_speed = 50
+		build_cost_ic = 15
 		reliability = 0.8
 		hardness = 0.8
 		armor_value = 10
 		resources = {
-			steel = 1
+			steel = 2
 		}
 
 		lend_lease_cost = 10
@@ -1481,13 +1468,12 @@ equipments = {
 		parent = btr1_chassis_0
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 20
+		maximum_speed = 50
 		reliability = 1.2
-		armor_value = 75
+		armor_value = 10
 		resources = {
-			steel = 2
-			chromium = 1
+			steel = 3
 		}
 	}
 	btr1_chassis_1_2 = {
@@ -1499,12 +1485,12 @@ equipments = {
 		parent = btr1_chassis_0
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 20
+		maximum_speed = 50
 		reliability = 1.2
-		armor_value = 75
+		armor_value = 15
 		resources = {
-			steel = 2
+			steel = 3
 			chromium = 1
 		}
 	}
@@ -1620,9 +1606,6 @@ equipments = {
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1638,9 +1621,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1656,9 +1636,6 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -1722,7 +1699,7 @@ equipments = {
 		build_cost_ic = 25
 		reliability = 0.8
 		hardness = 0.8
-		armor_value = 10
+		armor_value = 20
 		resources = {
 			steel = 3
 		}
@@ -1760,7 +1737,7 @@ equipments = {
 		build_cost_ic = 30
 		maximum_speed = 20
 		reliability = 1.2
-		armor_value = 60
+		armor_value = 25
 		resources = {
 			steel = 4
 		}
@@ -1778,7 +1755,7 @@ equipments = {
 		build_cost_ic = 35
 		maximum_speed = 20
 		reliability = 1.2
-		armor_value = 70
+		armor_value = 30
 		resources = {
 			steel = 4
 			chromium = 1
@@ -1797,7 +1774,7 @@ equipments = {
 		build_cost_ic = 40
 		maximum_speed = 40
 		reliability = 1.2
-		armor_value = 75
+		armor_value = 35
 		resources = {
 			steel = 5
 			chromium = 2
@@ -1815,7 +1792,7 @@ equipments = {
 		build_cost_ic = 50
 		maximum_speed = 40
 		reliability = 1.2
-		armor_value = 85
+		armor_value = 45
 		resources = {
 			steel = 5
 			chromium = 3
@@ -1833,7 +1810,7 @@ equipments = {
 		build_cost_ic = 100
 		maximum_speed = 40
 		reliability = 1.5
-		armor_value = 95
+		armor_value = 55
 		manpower = 3
 		resources = {
 			steel = 7
@@ -2179,9 +2156,6 @@ equipments = {
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -2197,9 +2171,6 @@ equipments = {
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -2215,9 +2186,6 @@ equipments = {
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
 					tank_atgms_category
 					tank_mgg_atgms_category
 					tank_dynamic_armor_category
@@ -2266,7 +2234,7 @@ equipments = {
 		module_count_limit = {
 			category = tank_gga_category
 			count < 2
-		}		
+		}			
 
 		#default_modules = {
 		#	main_armament_slot = empty
@@ -2277,13 +2245,13 @@ equipments = {
 		#}
 
 		fuel_consumption = 0
-		maximum_speed = 4
-		build_cost_ic = 1
+		maximum_speed = 45
+		build_cost_ic = 25
 		reliability = 0.8
 		hardness = 0.8
 		armor_value = 10
 		resources = {
-			steel = 1
+			steel = 2
 		}
 
 		lend_lease_cost = 10
@@ -2303,8 +2271,8 @@ equipments = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		maximum_speed = 3
-		build_cost_ic = 10
+		maximum_speed = 45
+		build_cost_ic = 25
 		reliability = 0.75
 		armor_value = 35
 	}
@@ -2318,8 +2286,8 @@ equipments = {
 		parent = bbm_chassis_0
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 30
+		maximum_speed = 45
 		reliability = 1.2
 		armor_value = 75
 		resources = {
