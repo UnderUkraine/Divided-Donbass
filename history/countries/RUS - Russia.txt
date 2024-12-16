@@ -141,6 +141,9 @@ add_ideas = {
     world_recognition
 }
 
+create_faction = "ОДКБ"
+add_to_faction = BLR
+
 set_oob = "RUS_2014"
 
 set_popularities = {

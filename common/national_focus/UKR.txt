@@ -323,6 +323,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
 			add_war_support = 0.05
 			add_manpower = 5000
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_preparing_for_the_inevitable"
@@ -351,7 +352,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
             add_war_support = 0.05
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_convocation_nsds"
 
