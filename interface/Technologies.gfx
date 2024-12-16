@@ -7674,6 +7674,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BTR_82.dds"
 	}	
 	SpriteType = {
+		name = "GFX_DPR_btr2_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_btr2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_btr2_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_btr2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_82.dds"
+	}	
+	SpriteType = {
 		name = "GFX_UKR_btr3_chassis_medium"
 		texturefile = "gfx/interface/technologies/BTR_4.dds"
 	}	
@@ -7687,6 +7703,22 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_RUS_btr2_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/BTR_k16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_btr3_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_k16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_btr2_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/BTR_k16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_btr3_chassis_medium"
+		texturefile = "gfx/interface/technologies/BTR_k16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_btr2_chassis_1_medium"
 		texturefile = "gfx/interface/technologies/BTR_k16.dds"
 	}	
 	SpriteType = {
@@ -7739,6 +7771,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/T_90.dds"
 	}	
 	SpriteType = {
+		name = "GFX_DPR_tank_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tank4_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_tank_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_tank4_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_90.dds"
+	}	
+	SpriteType = {
 		name = "GFX_UKR_tank_chassis_5_medium"
 		texturefile = "gfx/interface/technologies/BM_OPLOT.dds"
 	}	
@@ -7752,6 +7800,22 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_RUS_tank5_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tank_chassis_5_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tank5_chassis_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_tank_chassis_5_medium"
+		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
+	}	
+	SpriteType = {
+		name = "GFX_LPR_tank5_chassis_medium"
 		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
 	}	
 
@@ -7835,6 +7899,48 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/taifun.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_medium"
+		texturefile = "gfx/interface/technologies/vodnik.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/vodnik.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_1_chassis_medium"
+		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_2_chassis_medium"
+		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_3_chassis_medium"
+		texturefile = "gfx/interface/technologies/buran.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/buran.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_4_chassis_medium"
+		texturefile = "gfx/interface/technologies/taifun.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_armored_vehicle_chassis_4_medium"
 		texturefile = "gfx/interface/technologies/taifun.dds"
 	}	
 
@@ -8023,12 +8129,154 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/kamaz6550.dds"
 	}	
 
-	SpriteType = {
-		name = "GFX_RUS_camo_weapons_medium"
-		texturefile = "gfx/interface/technologies/dubok.dds"
+	#DPR
+    SpriteType = {
+		name = "GFX_DPR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/AKM.dds"
 	}	
 	SpriteType = {
-		name = "GFX_RUS_camo_weapons1_medium"
-		texturefile = "gfx/interface/technologies/flora.dds"
+		name = "GFX_DPR_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/AKMS.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/AK74.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons1_2_medium"
+		texturefile = "gfx/interface/technologies/AKS74.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/aks74u.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/AK74m.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ak105.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ak12.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/ak203.dds"
+	}
+	SpriteType = {
+		name = "GFX_DPR_infantry_weapons7_medium"
+		texturefile = "gfx/interface/technologies/ak12m1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons_medium"
+		texturefile = "gfx/interface/technologies/RPG7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons1_medium"
+		texturefile = "gfx/interface/technologies/RPG22.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons2_medium"
+		texturefile = "gfx/interface/technologies/RPG26.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons3_medium"
+		texturefile = "gfx/interface/technologies/RPG27.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons4_medium"
+		texturefile = "gfx/interface/technologies/RPG29.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons5_medium"
+		texturefile = "gfx/interface/technologies/RPG28.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons6_medium"
+		texturefile = "gfx/interface/technologies/RPG30.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_rpg_weapons7_medium"
+		texturefile = "gfx/interface/technologies/RPG32.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_atgm_weapons_medium"
+		texturefile = "gfx/interface/technologies/spg9.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_atgm_weapons1_medium"
+		texturefile = "gfx/interface/technologies/fagot.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_atgm_weapons2_medium"
+		texturefile = "gfx/interface/technologies/metis.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_atgm_weapons3_medium"
+		texturefile = "gfx/interface/technologies/kornet.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_manpads_weapons_medium"
+		texturefile = "gfx/interface/technologies/strila2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_manpads_weapons1_medium"
+		texturefile = "gfx/interface/technologies/strila3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_manpads_weapons2_medium"
+		texturefile = "gfx/interface/technologies/igla1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_manpads_weapons3_medium"
+		texturefile = "gfx/interface/technologies/igla.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_manpads_weapons4_medium"
+		texturefile = "gfx/interface/technologies/iglas.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_mortar_weapons_medium"
+		texturefile = "gfx/interface/technologies/2b9.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_mortar_weapons1_medium"
+		texturefile = "gfx/interface/technologies/2b11.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_mortar_weapons2_medium"
+		texturefile = "gfx/interface/technologies/2b14.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_mortar_weapons3_medium"
+		texturefile = "gfx/interface/technologies/2b24.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_mortar_weapons4_medium"
+		texturefile = "gfx/interface/technologies/2b25.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_DPR_tech_trucks_medium"
+		texturefile = "gfx/interface/technologies/gaz66.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tech_trucks_1_medium"
+		texturefile = "gfx/interface/technologies/ural.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tech_trucks_2_medium"
+		texturefile = "gfx/interface/technologies/kamaz4310.dds"
+	}	
+	SpriteType = {
+		name = "GFX_DPR_tech_trucks_3_medium"
+		texturefile = "gfx/interface/technologies/kamaz6550.dds"
 	}	
 }

@@ -87,3 +87,74 @@ country_event = {
 		}
 	}
 }
+
+#Capture of equipment in Ukraine
+country_event = {
+	id = donetsk.5
+	title = donetsk.5.t
+	desc = donetsk.5.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.5.a
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 250
+		}
+		#Support equipment
+		add_equipment_to_stockpile = {
+			type = rpg_equipment_0
+			amount = 50
+		}
+		add_equipment_to_stockpile = {
+			type = mortar_equipment_0
+			amount = 20
+		}
+
+		UKR = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = -250
+			}
+			add_equipment_to_stockpile = {
+				type = rpg_equipment_0
+				amount = -50
+			}
+			add_equipment_to_stockpile = {
+				type = mortar_equipment_0
+				amount = -20
+			}
+		}
+	}
+}
+
+#Capture of Avdiivka
+country_event = {
+	id = donetsk.6
+	title = donetsk.6.t
+	desc = donetsk.6.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.6.a
+	}
+}
+
+#Capture of Mariupol
+country_event = {
+	id = donetsk.6
+	title = donetsk.6.t
+	desc = donetsk.6.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.6.a
+	}
+}

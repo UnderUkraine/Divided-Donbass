@@ -1123,3 +1123,38 @@ country_event = {
 		add_political_power = 25
 	}
 }
+
+#Uprising in Donetsk
+country_event = {
+	id = ukraine.16
+	title = ukraine.16.t
+	desc = ukraine.16.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.16.a
+
+		hidden_effect = {
+			DPR = {
+				country_event = {
+					id = donetsk.1
+					days = 1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.16.b
+		DPR = {
+			change_tag_from = UKR
+
+			country_event = {
+				id = donetsk.1
+				days = 1
+			}
+		}
+	}
+}

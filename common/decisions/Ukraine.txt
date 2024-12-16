@@ -250,15 +250,24 @@ UKR_Separatists_in_Ukraine = {
 								add_dynamic_modifier = {
 									modifier = Escalation_modifier
 								}
+
+								add_to_variable = { global.escalation_on_donbass_variable = 1 }
+
+								set_variable = {global.Escalation_stability_factor = -0.07}
+								set_variable = {global.Escalation_war_support_factor = 0.07}
+								set_variable = {global.Escalation_resistance_growth = 0.07}
+								set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+								set_variable = {global.Escalation_fascism_drift = 0.1}
+
 								declare_war_on = {
 									target = UKR
 									type = annex_everything
 								}
 								load_oob = "DPR_2014"
 							}
+
+							country_event = ukraine.16
 						}
-	
-						#TODO Separatists units
 				}
 			}
 		}
@@ -416,6 +425,8 @@ UKR_Separatists_in_Ukraine = {
 						}
 
 						LPR = {
+							add_to_variable = { global.escalation_on_donbass_variable = 1 }
+
 							set_capital = {
 								state = 269
 							}
@@ -620,6 +631,7 @@ UKR_Separatists_in_Ukraine = {
 			tag = RUS
 		}
 		activation = {
+			always = no
 		}
 		timeout_effect = {
 			RUS = {

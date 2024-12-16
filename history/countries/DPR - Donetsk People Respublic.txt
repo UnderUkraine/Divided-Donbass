@@ -12,8 +12,15 @@ set_politics = {
 
 add_ideas = {
 	DPR_Peoples_republic
+	DPR_offensive_on_south
 
 	not_recognized_state
+	military_dictatorship_law
+	medium_corruption
+
+	no_nuke_state
+	straight_to_the_frontline
+	military_laths
 }
 
 recruit_character = DPR_zakharchenko

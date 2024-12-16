@@ -27,10 +27,61 @@ DPR_war_with_ukraine = {
 		tag = LPR
 		value = -200
 	}
+}
+
+DPR_attack_north_to_mariupol = {
+	allowed = {
+		original_tag = DPR
+	}
+
+	enable = {
+		#has_war_with = UKR
+		always = yes
+	}
+
+	abort = {
+		#NOT = {
+		#	has_war_with = UKR
+		#}
+		always = no
+	}
+
 	ai_strategy = {
-		type = front_unit_request
-		tag = UKR
-		value = 25
+		type = front_control
+        priority = 100
+		strategic_region = 6
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
+	}
+}
+
+DPR_attack_south_to_mariupol = {
+	allowed = {
+		original_tag = DPR
+	}
+
+	enable = {
+		#has_war_with = UKR
+		always = yes
+	}
+
+	abort = {
+		#NOT = {
+		#	has_war_with = UKR
+		#}
+		always = no
+	}
+
+	ai_strategy = {
+		type = front_control
+		priority = 100
+		strategic_region = 4
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
 	}
 }
 

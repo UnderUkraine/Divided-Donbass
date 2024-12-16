@@ -121,4 +121,20 @@ units = {
         start_equipment_factor = 1
 		start_manpower_factor = 1
     }
+    division= {
+        name = "TEST DIVKA"
+        location = 14011
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "TEST DIVKA"
+        location = 14011
+        division_template = "TEST TEMPLATE"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
 }
