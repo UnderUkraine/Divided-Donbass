@@ -66,6 +66,24 @@ state={
 		victory_points = {
 			12808 3
 		}
+		victory_points = {
+			3495 5
+		}
+		victory_points = {
+			12992 3
+		}
+		victory_points = {
+			13042 5
+		}
+		victory_points = {
+			6909 3
+		}
+		victory_points = {
+			13056 3
+		}
+		victory_points = {
+			13046 3
+		}
 	}
 	manpower=949825
 	buildings_max_level_factor=1.000
