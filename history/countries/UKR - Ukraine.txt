@@ -332,6 +332,58 @@ create_equipment_variant = {
 		type = infantry_equipment_1
 		amount = 514000
 	}
+	
+	add_equipment_to_stockpile = {
+		type = rpg_equipment_0
+		amount = 19400
+	}
+	add_equipment_to_stockpile = {
+		type = rpg_equipment_1
+		amount = 6300
+	}
+	add_equipment_to_stockpile = {
+		type = rpg_equipment_2
+		amount = 3700
+	}
+
+	add_equipment_to_stockpile = {
+		type = atgm_equipment_0
+		amount = 1000
+	}
+	add_equipment_to_stockpile = {
+		type = atgm_equipment_1
+		amount = 450
+	}
+	add_equipment_to_stockpile = {
+		type = atgm_equipment_2
+		amount = 250
+	}
+
+	add_equipment_to_stockpile = {
+		type = manpads_equipment_0
+		amount = 700
+	}
+	add_equipment_to_stockpile = {
+		type = manpads_equipment_1
+		amount = 500
+	}
+	add_equipment_to_stockpile = {
+		type = manpads_equipment_2
+		amount = 630
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_0
+		amount = 500
+	}
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_1
+		amount = 1445
+	}
+	add_equipment_to_stockpile = {
+		type = mortar_equipment_2
+		amount = 860
+	}
 
 	add_equipment_to_stockpile = {
 		type = motorized_equipment_0
@@ -357,6 +409,19 @@ create_equipment_variant = {
 		type = btr1_chassis_1_1
 		variant_name = "БТР-70"
 		amount = 210
+		producer = UKR
+	}
+
+	add_equipment_to_stockpile = {
+		type = bbm_chassis_0
+		variant_name = "БМП-1"
+		amount = 650
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = bbm_chassis_0
+		variant_name = "БМП-1У «Шквал»"
+		amount = 50
 		producer = UKR
 	}
 	

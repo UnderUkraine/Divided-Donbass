@@ -435,6 +435,8 @@
  expanded_fuel_tank_desc:0 "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."
 
  #DIVIDED DONBASS
+ btr1_chassis_0:0 "APC"
+
  UKR_btr1_chassis_0:0 "BTR-60"
  RUS_btr1_chassis_0:0 "BTR-60"
  btr1_chassis_0:0 "APC Chassis"

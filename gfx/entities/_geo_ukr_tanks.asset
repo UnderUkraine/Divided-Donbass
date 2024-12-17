@@ -46,6 +46,30 @@ entity = {
 
 entity = {
 	clone = "UKR_MD4_medium_armor_entity"
+	name = "UKR_tank_unit_sprite_entity"
+	pdxmesh = "geo_t64bv_UKR_old_mesh"
+}
+
+entity = {
+	clone = "UKR_MD4_medium_armor_entity"
+	name = "UKR_tank_unit_sprite_1_entity"
+	pdxmesh = "geo_t72amt_UKR_mesh"
+}
+
+entity = {
+	clone = "UKR_MD4_medium_armor_entity"
+	name = "UKR_tank_unit_sprite_2_entity"
+	pdxmesh = "geo_t72av_UKR_mesh"
+}
+
+entity = {
+	clone = "UKR_MD4_medium_armor_entity"
+	name = "UKR_tank_unit_sprite_3_entity"
+	pdxmesh = "geo_t72bv_UKR_mesh"
+}
+
+entity = {
+	clone = "UKR_MD4_medium_armor_entity"
 	name = "UKR_MD4_medium_armor_2_entity"
 	pdxmesh = "geo_t64bm_UKR_mesh"
 }
