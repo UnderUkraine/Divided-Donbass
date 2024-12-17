@@ -100,7 +100,9 @@ on_actions = {
                     UKR = {
 						has_war_with = DPR
 					}
-					FROM.tag = DPR
+					FROM = {
+						tag = DPR
+					}
 				}
 				UKR = {
 					annex_country = {
@@ -108,13 +110,28 @@ on_actions = {
 					}
 					country_event = ukraine.9
 				}
+				IF = {
+					limit = {
+						NOT = {
+							country_exists = DPR
+							country_exists = LPR
+							country_exists = KPR
+							country_exists = OPR
+						}
+					}
+					UKR = {
+						country_event = ukraine.13
+					}
+				}
 			}
 			else_if = {
 				limit = {
 					UKR = {
 						has_war_with = LPR
 					}
-					FROM.tag = LPR
+					FROM = {
+						tag = LPR
+					}
 				}
 				UKR = {
 					annex_country = {

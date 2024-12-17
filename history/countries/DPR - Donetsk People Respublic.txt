@@ -42,3 +42,44 @@ set_popularities = {
 	communism = 15
 	neutrality = 75
 }
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 1550
+	producer = UKR
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 500
+	producer = UKR
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment_0
+	amount = 20
+	producer = UKR
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 30
+	producer = UKR
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_2
+	amount = 1945
+	producer = UKR
+}
+
+add_equipment_to_stockpile = {
+	type = btr1_chassis_0
+	variant_name = "БТР-60"
+	amount = 20
+	producer = UKR
+}
+
+add_equipment_to_stockpile = {
+	type = btr1_chassis_1_1
+	variant_name = "БТР-70"
+	amount = 25
+	producer = UKR
+}

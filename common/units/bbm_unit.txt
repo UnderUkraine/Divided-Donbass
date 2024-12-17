@@ -2,7 +2,7 @@ sub_units = {
 
 	bbm_unit = {
 		abbreviation = "BBM"
-		sprite = light_armor
+		sprite = bbm_unit_sprite
 		map_icon_category = armored
 		priority = 2501
 		ai_priority = 2000

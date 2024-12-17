@@ -369,6 +369,20 @@ entity = {
 	scale = 0.7
 }
 
+entity = {
+	clone = "UKR_bmp1_entity"
+	name = "UKR_bbm_unit_sprite_entity"
+
+	attach = { 	name = "vehicle"			vehicle = "UKR_bmp1_entity" }
+}
+
+entity = {
+	clone = "UKR_bmp2_entity"
+	name = "UKR_bbm_unit_sprite_1_entity"
+
+	attach = { 	name = "vehicle"			vehicle = "UKR_bmp1_entity" }
+}
+
 ##機械化歩兵（IFV）
 entity = {
 	name = "UKR_light_armor_entity"
@@ -384,14 +398,6 @@ entity = {
 	state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 	scale = 1.0
 
-	attach = { 	name = "vehicle"			vehicle = "UKR_bmp2_entity" }
-	attach = { 	name = "infantry"			infantry = "UKR_infantry_2_entity" }
-}
-
-entity = {
-	clone = "geo_btr70_UKR_entity"
-	name = "UKR_light_armor_entity"
-
 	attach = { 	name = "vehicle"			vehicle = "geo_btr70_UKR_entity" }
 }
 
@@ -399,19 +405,19 @@ entity = {
 	clone = "geo_btr80_UKR_entity"
 	name = "UKR_light_armor_1_entity"
 
-	attach = { 	name = "vehicle"			vehicle = "geo_btr80_UKR_entity" }
+	attach = { 	name = "vehicle"			vehicle = "geo_btr70_UKR_entity" }
 }
 
 entity = {
 	clone = "geo_btr80_UKR_entity"
 	name = "UKR_light_armor_2_entity"
 
-	attach = { 	name = "vehicle"			vehicle = "geo_btr80_UKR_entity" }
+	attach = { 	name = "vehicle"			vehicle = "geo_btr3_UKR_entity" }
 }
 
 entity = {
 	clone = "geo_btr3_UKR_entity"
-	name = "UKR_light_armor_4_entity"
+	name = "UKR_light_armor_3_entity"
 
 	attach = { 	name = "vehicle"			vehicle = "geo_btr3_UKR_entity" }
 }
