@@ -8,7 +8,7 @@ state={
 		owner = UKR
 		add_core_of = UKR
 	}
-	manpower=1
+	manpower=70649
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

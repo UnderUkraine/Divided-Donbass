@@ -16,6 +16,6 @@ state={
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
+        manpower=85352
         state_category = town
 }
