@@ -147,14 +147,14 @@ country_event = {
 
 #Capture of Mariupol
 country_event = {
-	id = donetsk.6
-	title = donetsk.6.t
-	desc = donetsk.6.d
+	id = donetsk.7
+	title = donetsk.7.t
+	desc = donetsk.7.d
 	#picture = GFX_report_event_royal_parade
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = donetsk.6.a
+		name = donetsk.7.a
 	}
 }
