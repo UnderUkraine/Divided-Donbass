@@ -864,7 +864,7 @@ technologies = {
 
 	tech_trucks = {
 		enable_equipments = {
-			motorized_equipment_0
+			truck_chassis_0
 		}
 		
 		path = {
@@ -885,7 +885,7 @@ technologies = {
 	}
 	tech_trucks_1 = {
 		enable_equipments = {
-			motorized_equipment_1
+			truck_chassis_1
 		}
 		
 		path = {
@@ -906,7 +906,7 @@ technologies = {
 	}
 	tech_trucks_2 = {
 		enable_equipments = {
-			motorized_equipment_2
+			truck_chassis_2
 		}
 		
 		path = {
@@ -927,7 +927,7 @@ technologies = {
 	}
 	tech_trucks_3 = {
 		enable_equipments = {
-			motorized_equipment_3
+			truck_chassis_3
 		}
 
 		research_cost = 1.5

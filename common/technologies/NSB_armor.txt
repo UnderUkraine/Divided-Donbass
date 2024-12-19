@@ -21,6 +21,7 @@ technologies = {
 
 		enable_equipments = {
 			tank_chassis_0
+			bmd_chassis_0
 		}
 		enable_equipment_modules = {
 			tank_rolled_homogeneous_armor
@@ -131,6 +132,7 @@ technologies = {
 			tank_wheelbase_suspension
 			tank_track_base_suspension
 		}
+		allow_equipment_type = bmd_type
 		enable_subunits = {
 			#tank_unit
 		}

@@ -7615,7 +7615,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/gaz66.dds"
 	}	
 	SpriteType = {
+		name = "GFX_UKR_truck_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/gaz66.dds"
+	}	
+	SpriteType = {
 		name = "GFX_UKR_tech_trucks_1_medium"
+		texturefile = "gfx/interface/technologies/ural.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_truck_chassis_1_medium"
 		texturefile = "gfx/interface/technologies/ural.dds"
 	}	
 	SpriteType = {
@@ -7623,7 +7631,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/kamaz4310.dds"
 	}	
 	SpriteType = {
+		name = "GFX_UKR_truck_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/kamaz4310.dds"
+	}	
+	SpriteType = {
 		name = "GFX_UKR_tech_trucks_3_medium"
+		texturefile = "gfx/interface/technologies/krazz.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_truck_chassis_3_medium"
 		texturefile = "gfx/interface/technologies/krazz.dds"
 	}	
 
@@ -8117,7 +8133,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/gaz66.dds"
 	}	
 	SpriteType = {
+		name = "GFX_RUS_truck_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/gaz66.dds"
+	}	
+	SpriteType = {
 		name = "GFX_RUS_tech_trucks_1_medium"
+		texturefile = "gfx/interface/technologies/ural.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_truck_chassis_1_medium"
 		texturefile = "gfx/interface/technologies/ural.dds"
 	}	
 	SpriteType = {
@@ -8125,7 +8149,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/kamaz4310.dds"
 	}	
 	SpriteType = {
+		name = "GFX_RUS_truck_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/kamaz4310.dds"
+	}	
+	SpriteType = {
 		name = "GFX_RUS_tech_trucks_3_medium"
+		texturefile = "gfx/interface/technologies/kamaz6550.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_truck_chassis_3_medium"
 		texturefile = "gfx/interface/technologies/kamaz6550.dds"
 	}	
 
