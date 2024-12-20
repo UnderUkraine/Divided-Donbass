@@ -24,6 +24,33 @@ state={
 				 set_province_controller = 13440
 			}
 		 }
+		 victory_points = {
+            13347 3
+         }
+		 victory_points = {
+            6855 3
+         }
+		 victory_points = {
+            13434 3
+         }
+		 victory_points = {
+            2418 5
+         }
+		 victory_points = {
+            2418 5
+         }
+		 victory_points = {
+            13554 3
+         }
+		 victory_points = {
+            4720 3
+         }
+		 victory_points = {
+            13429 3
+         }
+		 victory_points = {
+            13393 3
+         }
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
