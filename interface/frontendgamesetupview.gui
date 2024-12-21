@@ -113,7 +113,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "focus_entry"
-		size = { width=60 height=80}
+		size = { width=100 height=80}
 		clipping = no
 
 		iconType = {
@@ -650,7 +650,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 35 y = 45 }
+			position = { x = 440 y = 45 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
@@ -667,7 +667,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries_medium"
-			position = { x = 440 y = 320 }
+			position = { x = 20 y = 330 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
@@ -710,6 +710,7 @@ guiTypes = {
 				name ="minor_portrait_overlay"
 				spriteType = "GFX_minor_portrait_overlay"
 				position = { x= 280 y = 430 }
+				rotation = 0.05
 		}
 
 

@@ -387,7 +387,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Volunteer_formations
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_Volunteer_formations
 		cost = 20
 		x = -2
 		y = 1
@@ -412,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Volunteer_formations_spesial_forces_mvs
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_Volunteer_formations_spesial_forces_mvs
 		cost = 25
 		x = -2
 		y = 2
@@ -608,10 +608,10 @@ focus_tree = {
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
-		y = 2
+		y = 1
 
-		prerequisite = {focus = UKR_informations_front}
-		relative_position_id = UKR_informations_front
+		prerequisite = {focus = UKR_razoblacheniye_feikov}
+		relative_position_id = UKR_razoblacheniye_feikov
 		
 		ai_will_do = {
 			factor = 1
@@ -629,10 +629,10 @@ focus_tree = {
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
-		y = 3
+		y = 1
 
-		prerequisite = {focus = UKR_informations_front}
-		relative_position_id = UKR_informations_front
+		prerequisite = {focus = UKR_operation_contr_razvedki_sbu}
+		relative_position_id = UKR_operation_contr_razvedki_sbu
 		
 		ai_will_do = {
 			factor = 1

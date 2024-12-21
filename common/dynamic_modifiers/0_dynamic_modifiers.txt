@@ -18,14 +18,24 @@ City_of_Sevastopol = {
 Russian_offensive_in_donbass_war = {
 	enable = { always = yes }
 	#hidden = no
-	icon = GFX_idea_City_of_Sevastopol
+	icon = GFX_idea_Escalation_modifier
 }
 
 Minsk_one_in_Donbass = {
 	enable = { always = yes }
 	#hidden = no
-	icon = GFX_idea_City_of_Sevastopol
+	icon = GFX_idea_Escalation_modifier
 
 	army_attack_factor = -0.1
 	army_defence_factor = -0.1
+}
+
+AZV_Operation_in_Mariupol = {
+	enable = { always = yes }
+	#hidden = no
+	icon = GFX_idea_Escalation_modifier
+
+	army_attack_factor = 0.1
+	army_defence_factor = 0.1
+	army_speed_factor = 0.1
 }

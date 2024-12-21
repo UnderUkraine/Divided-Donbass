@@ -21,7 +21,7 @@ create_country_leader = {
 	name = nicolae_timofti
 	#desc = petro_poroshenko_desc
 	ideology = centrism
-	picture = gfx/leaders/UKR/poroshenko.dds
+	picture = gfx/leaders/MLV/7e5a26fc1d03b347.dds
 	traits = { }
 }
 

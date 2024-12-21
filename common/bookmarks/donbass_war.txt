@@ -7,29 +7,6 @@ bookmarks = {
 		default_country = "UKR"
 		default = yes
 		
-		"POL"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
-		"MLV"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
-
 		"UKR"={
 			history = "UKR_EC_DESC"
 			ideology = neutrality
@@ -79,11 +56,38 @@ bookmarks = {
 			ideology = neutrality
 			minor = yes
 			ideas = {
+				AZV_fight_for_ukraine
 			}
 			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
+				AZV_batalion_of_azov
+				AZV_assault_on_Mariupol
+			}	
+		}
+		"POL"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"MLV"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"ROM"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
 			}	
 		}
 		"BLR"={
@@ -93,9 +97,6 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
 			}	
 		}
 		"TMR"={
@@ -105,9 +106,6 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
 			}	
 		}
 	}

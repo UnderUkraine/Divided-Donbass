@@ -6,70 +6,77 @@ bookmarks = {
 		picture = "GFX_select_date_2014"
 		#default_country = "UKR"
 		default = yes
-		
-		"POL"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
-		"MLV"={
-			history = "UKR_EC_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
-			}	
-		}
 
 		"UKR"={
 			history = "UKR_EC_DESC"
 			ideology = neutrality
 			ideas = {
+				UKR_protests
+				UKR_confused_army
+				UKR_cooperation_russia
 			}
 			focuses = {
 				UKR_Yanukovich_rule
 				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
 			}	
 		}
+
 		"RUS"={
 			history = "RUS_EC_DESC"
 			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
+				RUS_putins_russia
+				RUS_troops_in_sevastopol_port
+			}	
+		}
 
+		#Minor countries
+		"POL"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"MLV"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				MLV_Transnistria_problem
+			}
+			focuses = {
+			}	
+		}
+		"ROM"={
+			history = "UKR_EC_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+			}
+			focuses = {
 			}	
 		}
 		"BLR"={
 			history = "UKR_EC_DESC"
 			ideology = neutrality
+			minor = yes
 			ideas = {
 			}
 			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
 			}	
 		}
 		"TMR"={
 			history = "UKR_EC_DESC"
 			ideology = neutrality
+			minor = yes
 			ideas = {
 			}
 			focuses = {
-				UKR_Yanukovich_rule
-				UKR_Protests_on_streets
-				UKR_Join_Union_State_project
 			}	
 		}
 	}

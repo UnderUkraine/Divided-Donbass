@@ -1,0 +1,37 @@
+AZV_Recruiting_of_people = {
+	recruit_test = {
+        allowed = {
+            tag = AZV
+        }
+        icon = mission_icon
+        fire_only_once = yes
+        days_remove = 15
+        days_re_enable = 30
+        modifier = {
+
+        }
+        remove_effect = {
+            add_manpower = 50
+        }
+    }
+    monthly_recruits = {
+        icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 52 #52 to February 22
+		selectable_mission = no
+		available = {
+            always = no
+		}
+		activation = {
+            always = yes
+		}
+		visible = {
+            tag = AZV
+            always = yes
+		}
+		timeout_effect = {
+            add_manpower = 50
+            activate_mission = monthly_recruits
+		}
+    }
+}

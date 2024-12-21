@@ -209,6 +209,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/UKR/UKR_ato.dds"		
 	}
 	SpriteType = {
+	    name = "GFX_focus_UKR_Volunteer_formations"
+		texturefile = "gfx/interface/goals/UKR/af03c8c21a9fab69.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_UKR_Volunteer_formations_spesial_forces_mvs"
+		texturefile = "gfx/interface/goals/UKR/4769b6494050a3ed.dds"		
+	}
+	SpriteType = {
 	    name = "GFX_focus_UKR_Sell_heavy_equipment"
 		texturefile = "gfx/interface/goals/UKR/UKR_Sell_heavy_equipment.dds"		
 	}

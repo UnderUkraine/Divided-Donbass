@@ -8,13 +8,13 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 100 y = 4000 }
+	continuous_focus_position = { x = 3000 y = 2000 }
 	
 	focus = {
 		id = AZV_batalion_of_azov
 		icon = GFX_focus_AZV_battalion_of_azov
 		cost = 1
-		x = 16
+		x = 10
 		y = 1
 
 		cancel_if_invalid = yes
@@ -47,9 +47,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			AZV = {
-				add_manpower = 100
-			}
+
 		}
 	}
 	focus = {
@@ -87,6 +85,13 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Dynamic modifier on Mariupol state
+			439 = {
+				add_dynamic_modifier = {
+					modifier = AZV_Operation_in_Mariupol
+					scope = AZV
+					days = 30
+				}
+			}
 		}
 	}
 	focus = {
@@ -133,14 +138,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			AZV = {
-				add_manpower = 400
-			}
+			set_country_flag = AZV_recruiting_of_people_flag
 		}
 	}
 	focus = {
-		id = AZV_liberate_the_south
-		icon = GFX_focus_AZV_liberate_the_south
+		id = AZV_propoganda_of_nationalism
+		#icon = GFX_focus_AZV_liberate_the_south
 		cost = 1
 		x = -1
 		y = 1
@@ -154,7 +157,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#TODO Timed mission
+			
 		}
 	}
 	focus = {
@@ -199,9 +202,9 @@ focus_tree = {
 		cost = 1
 		x = -1
 		y = 1
-		relative_position_id = AZV_liberate_the_south
+		relative_position_id = AZV_propoganda_of_nationalism
 
-		prerequisite = {focus = AZV_liberate_the_south}
+		prerequisite = {focus = AZV_propoganda_of_nationalism}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -218,7 +221,7 @@ focus_tree = {
 			cost = 1
 			x = 2
 			y = 2
-			relative_position_id = AZV_liberate_the_south
+			relative_position_id = AZV_propoganda_of_nationalism
 	
 			prerequisite = {focus = AZV_cooperation_afu}
 			prerequisite = {focus = AZV_ukr_finance}
@@ -237,9 +240,9 @@ focus_tree = {
 		cost = 1
 		x = 1
 		y = 1
-		relative_position_id = AZV_liberate_the_south
+		relative_position_id = AZV_propoganda_of_nationalism
 
-		prerequisite = {focus = AZV_liberate_the_south}
+		prerequisite = {focus = AZV_propoganda_of_nationalism}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

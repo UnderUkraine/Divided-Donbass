@@ -320,9 +320,22 @@ create_equipment_variant = {
 	set_country_flag = rada_2012
 
 	recruit_character = oleksandr_sirskiy
+
 	recruit_character = mykola_azarov
+	recruit_character = vitaly_zakharchenko
+	recruit_character = leonid_kozhara
+	recruit_character = vladimir_kozak
+	recruit_character = pavel_lebedev
+	recruit_character = dmytro_tabachnyk
+	recruit_character = raisa_bogatyryova
 
 	activate_advisor = UKR_mykola_azarov
+	activate_advisor = UKR_vitaly_zakharchenko
+	activate_advisor = UKR_leonid_kozhara
+	activate_advisor = UKR_vladimir_kozak
+	activate_advisor = UKR_pavel_lebedev
+	activate_advisor = UKR_dmytro_tabachnyk
+	activate_advisor = UKR_raisa_bogatyryova
 
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
