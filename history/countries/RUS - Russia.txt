@@ -114,18 +114,304 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "T-14 «Армата»"
-	type = tank_chassis_5
+    name = "Т-55"
+    type = tank_chassis_1
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_100mm_weapon_2a29
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_cast_armor
+        engine_type_slot = tank_v_46_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_nsvt_12_7mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_tank1_chassis_medium"
+}
+
+create_equipment_variant = {
+    name = "Т-64"
+    type = tank_chassis_2
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_100mm_weapon_2a29
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_one
+        engine_type_slot = tank_5tdf_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_nsvt_12_7mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_tank2_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "Т-72"
+	type = tank_chassis_1
 	parent_version = 0
 	modules = {
-		main_armament_slot = tank_152mm_2a83_ARMATA
+		main_armament_slot = tank_125mm_2a46
+		turret_type_slot = tank_welded_tower
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_5tdf_engine
 		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
 	}
 	upgrades = {
 		tank_nsb_engine_upgrade = 0
 		tank_nsb_armor_upgrade = 0
 	}
-	icon = "GFX_RUS_tank_chassis_5_medium"
+	icon = "GFX_tank2_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "Т-72А"
+	type = tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_v_46_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = anticumulative_grids
+		special_type_slot_3 = tank_passive_protection_complex_2
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank2_chassis_medium"
+}
+
+
+create_equipment_variant = {
+	name = "Т-72Б"
+	type = tank_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+		turret_type_slot = tank_enlarged_tower
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_v_46_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = tank_kontact_5
+		special_type_slot_3 = tank_passive_protection_complex_2
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank2_chassis_medium"
+}
+
+create_equipment_variant = {
+	name = "Т-80"
+	type = tank_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46
+		turret_type_slot = tank_enlarged_tower
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_gtd_1000_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank3_chassis_medium"
+}
+create_equipment_variant = {
+	name = "Т-80Б"
+	type = tank_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46
+		turret_type_slot = tank_сasting_tower
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_gtd_1000TF_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = tank_gun_guided_armament_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank3_chassis_medium"
+}
+create_equipment_variant = {
+	name = "Т-80БВ"
+	type = tank_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46
+		turret_type_slot = tank_сasting_tower
+		armor_type_slot = tank_combination_armor_two
+		engine_type_slot = tank_gtd_1000TF_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_nsvt_12_7mm
+		special_type_slot_2 = tank_gun_guided_armament_1
+		special_type_slot_3 = tank_kontact_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank3_chassis_medium"
+}
+create_equipment_variant = {
+	name = "Т-80У"
+	type = tank_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_gtd_1250_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_nsvt_12_7mm
+        special_type_slot_2 = tank_gun_guided_armament_1
+        special_type_slot_3 = tank_kontact_5
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank3_chassis_medium"
+}
+create_equipment_variant = {
+	name = "Т-80УД"
+	type = tank_chassis_3
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_6td2_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_nsvt_12_7mm
+        special_type_slot_2 = tank_gun_guided_armament_1
+        special_type_slot_3 = tank_kontact_5
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_tank3_chassis_medium"
+}
+create_equipment_variant = {
+    name = "Т-80БВМ"
+    type = tank_chassis_3
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_gtd_1250_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_nsvt_12_7mm
+        special_type_slot_2 = tank_gun_guided_armament_1
+        special_type_slot_3 = tank_kontact_5
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_tank3_chassis_medium"
+}
+
+create_equipment_variant = {
+    name = "Т-90"
+    type = tank_chassis_4
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_v_92С2_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
+		special_type_slot_2 = tank_active_defense_arena
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_RUS_tank4_chassis_medium"
+}
+
+create_equipment_variant = {
+    name = "Т-90А"
+    type = tank_chassis_4
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_сasting_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_v_92С2_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
+		special_type_slot_2 = tank_active_defense_arena
+        #special_type_slot_3 = tank_dynamic_armor_3
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_RUS_tank4_chassis_medium"
+}
+
+create_equipment_variant = {
+    name = "Т-90М"
+    type = tank_chassis_4
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_125mm_2a46m_5
+        turret_type_slot = tank_welded_tower
+        armor_type_slot = tank_combination_armor_two
+        engine_type_slot = tank_v_92С2_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
+		special_type_slot_2 = tank_active_defense_arena
+        special_type_slot_3 = tank_dynamic_armor_3
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_RUS_tank4_chassis_medium"
+}
+
+create_equipment_variant = {
+    name = "T-14 «Армата»"
+    type = tank_chassis_5
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_152mm_2a83_ARMATA
+        turret_type_slot = tank_welded_tower
+        armor_type_slot = tank_rolled_homogeneous_armor_three
+        engine_type_slot = tank_a_85_3a_armata_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
+        special_type_slot_2 = tank_active_defense_5
+        special_type_slot_3 = tank_dynamic_armor_3
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_RUS_tank_chassis_5_medium"
 }
 
 set_politics = {
@@ -145,6 +431,97 @@ create_faction = "ОДКБ"
 add_to_faction = BLR
 
 set_oob = "RUS_2014"
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_5
+    variant_name = "T-14 «Армата»"
+    amount = 20
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_4
+    variant_name = "Т-90"
+    amount = 400
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_4
+    variant_name = "Т-90А"
+    amount = 200
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_4
+    variant_name = "Т-90М"
+    amount = 100
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80БВ"
+    amount = 300
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80У"
+    amount = 200
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80УД"
+    amount = 100
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80БВМ"
+    amount = 50
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б"
+    amount = 500
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б3"
+    amount = 300
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б3М"
+    amount = 200
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-64"
+    amount = 500
+    producer = RUS
+}
+
+add_equipment_to_stockpile = {
+    type = tank_chassis_1
+    variant_name = "Т-55"
+    amount = 300
+    producer = RUS
+}
 
 set_popularities = {
 	democratic = 3

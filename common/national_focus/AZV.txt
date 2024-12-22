@@ -22,12 +22,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			AZV = {
-				add_manpower = 400
-			#и спавн дивизий
-			    add_political_power = 50
-			    add_manpower = 150
-			}
+			add_political_power = 50
+			add_manpower = 150
 		}
 	}
 	focus = {

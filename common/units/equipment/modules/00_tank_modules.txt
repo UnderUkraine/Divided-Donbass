@@ -1798,7 +1798,7 @@ equipment_modules = {
 	}
 
 	tank_100mm_weapon_2a29 = {
-		abbreviation = "57mm_autocannon_2a91"
+		abbreviation = "100mm_weapon_2a29"
 		category = tank_medium_weapon_armament
 		sfx = sfx_ui_sd_module_turret
 
