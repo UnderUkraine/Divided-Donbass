@@ -145,6 +145,14 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/AZV/AZV_battalion_of_azov.dds"		
 	}
 	SpriteType = {
+	    name = "GFX_focus_AZV_battalion_of_azov_alt"
+	    texturefile = "gfx/interface/goals/AZV/AZV_battalion_of_azov_alt.dds"		
+	}
+	SpriteType = {
+	    name = "GFX_focus_AZV_reform_in_the_regiment"
+	    texturefile = "gfx/interface/goals/AZV/9827ce486f7dd4ae.dds"		
+	}	
+	SpriteType = {
 	    name = "GFX_focus_AZV_black_corps"
 	    texturefile = "gfx/interface/goals/AZV/AZV_black_corps.dds"		
 	}	
