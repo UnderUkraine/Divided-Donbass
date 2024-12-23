@@ -14,6 +14,66 @@ state={
 		victory_points = {
 			11697 30
 		}
+		victory_points = {
+			4018 5
+		}
+		victory_points = {
+			11800 5
+		}
+		victory_points = {
+			4638 5
+		}
+		victory_points = {
+			11890 3
+		}
+		victory_points = {
+			11677 3
+		}
+		victory_points = {
+			11730 3
+		}
+		victory_points = {
+			11772 3
+		}
+		victory_points = {
+			11805 3
+		}
+		victory_points = {
+			11777 3
+		}
+		victory_points = {
+			11768 3
+		}
+		victory_points = {
+			11657 3
+		}
+		victory_points = {
+			11720 3
+		}
+		victory_points = {
+			11642 3
+		}
+		victory_points = {
+			11617 3
+		}
+		victory_points = {
+			11711 3
+		}
+		victory_points = {
+			11661 3
+		}
+		victory_points = {
+			11629 3
+		}
+		victory_points = {
+			7961 5
+		}
+		victory_points = {
+			5856 3
+		}
+		victory_points = {
+			2335 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=424113
