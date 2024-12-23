@@ -53,10 +53,28 @@ news.9.u: "It's a failure..."
 news.9.r: "Slava Rosii!"
 
 news.10.t: "Fall of Donetsk Airport"
-news.10.d: "After a dozen days of fierce fighting, Donetsk International Airport, once a symbol of modern Ukraine, fell under the onslaught of armed formations. The heroism of the defenders, nicknamed “cyborgs,” became legendary, but the forces were unequal. Destroyed terminals and ruined runways now symbolize the brutality of war. The impact of these events is felt not only on the battlefield, but also on the morale of the population and the political situation in the region."
+news.10.d: "After hundreds days of fierce fighting, Donetsk International Airport, once a symbol of modern Ukraine, fell under the onslaught of armed formations. The heroism of the defenders, nicknamed “cyborgs,” became legendary, but the forces were unequal. Destroyed terminals and ruined runways now symbolize the brutality of war. The impact of these events is felt not only on the battlefield, but also on the morale of the population and the political situation in the region."
 news.10.a: "..."
-news.10.u: "They held up - the concrete did not."
+news.10.u: "They held up - the concrete did not..."
 news.10.r: "Let's keep pushing on!"
+
+news.11.t: "Fall of Avdiivka"
+news.11.d: "After intense and prolonged fighting, the city of Avdiivka has fallen to the forces of the Donetsk People's Republic. The strategic location of Avdiivka made it a key target, and its capture marks a significant shift in the conflict. The defenders fought valiantly, but were ultimately overwhelmed by the relentless assault. The fall of Avdiivka is a major blow to Ukrainian forces and has significant implications for the ongoing conflict in the region."
+news.11.a: "..."
+news.11.u: "The city has fallen..."
+news.11.r: "We must regroup and plan our next move!"
+
+news.12.t: "Capture of Mariupol"
+news.12.d: "Mariupol, an important industrial and strategic center, became the scene of fierce fighting. Militant groups launched a surprise attack on the city, taking advantage of weak defenses and internal unrest. The seizure of key infrastructure has threatened neighboring regions and greatly complicated the central government's position. The city's population is in panic and military forces are urgently moving reinforcements to regain control."
+news.12.a: "..."
+news.12.u: "We need to do something!"
+news.12.r: "Victory is ours!"
+
+news.13.t: "Mariupol is liberated"
+news.13.d: "Mariupol was liberated by the Azov battalion. The operation lasted only a couple of days and succeeded in forcing the militants out of the city and its suburbs. The liberation was an important step in regaining control over the region. The heroism of the fighters has inspired the nation, but there is still a lot of work ahead to stabilize the situation."
+news.13.a: "At least there's some good news."
+news.13.u: "Let's keep moving!"
+news.13.r: "That's for now..."
 
 #russia
 russia.1.t: "Defense of Crimea"
