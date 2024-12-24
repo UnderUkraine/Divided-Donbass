@@ -21,10 +21,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -46,10 +42,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -69,10 +61,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -199,6 +187,62 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+             IF = {
+				limit = {
+					DPR = {
+						controls_province = 12753
+					}
+				}
+				355 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 12743
+					}
+				}
+			 }
+			 IF = {
+				limit = {
+					DPR = {
+						controls_province = 4104
+					}
+				}
+				355 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 4104
+					}
+				}
+			 }
+			 IF = {
+				limit = {
+					DPR = {
+						controls_province = 3739
+					}
+				}
+				355 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 3739
+					}
+				}
+			 }
+			 IF = {
+				limit = {
+					DPR = {
+						controls_province = 7663
+					}
+				}
+				355 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 7663
+					}
+				}
+			 }
 		}
 	}
 	focus = {

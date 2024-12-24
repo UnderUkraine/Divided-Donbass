@@ -538,10 +538,10 @@ news_event = {
 
 	trigger = {
 		OR = {
-			DPR = {
+			AZV = {
 				controls_province = 7445
 			}
-			DPR = {
+			AZV = {
 				any_allied_country = {
 					controls_province = 7445
 				}

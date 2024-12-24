@@ -12,6 +12,13 @@ country_event = {
 	#picture = GFX_report_event_royal_parade
 	
 	is_triggered_only = yes
+
+	immediate = {
+		add_to_variable = {
+			variable = UKR_maidan_support
+			value = 15
+		}
+	}
 	
 	option = {
 		name = ukraine.1.a

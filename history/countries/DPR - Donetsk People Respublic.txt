@@ -23,7 +23,15 @@ add_ideas = {
 	military_laths
 }
 
-recruit_character = DPR_zakharchenko
+#recruit_character = DPR_zakharchenko
+
+create_country_leader = {
+	name = dpr_pro_russian_separatists
+	#desc = dpr_pro_russian_separatists_desc
+	ideology = oligarchism
+	picture = gfx/leaders/DPR/dpr_leader_none.dds
+	traits = {dpr_anarchy}
+}
 
 2015.1.1 = {
 	declare_war_on = {
