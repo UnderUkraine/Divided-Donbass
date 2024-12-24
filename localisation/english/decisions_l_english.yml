@@ -41,3 +41,7 @@
 
  AZV_Recruiting_of_people:0 "Recruiting of people"
  AZV_Recruiting_of_people_desc:0 " "
+
+ DPR_artillery_shelling:0 "Artillery shelling"
+ DPR_artillery_shelling_desc:0 " "
+ select_shelling_region_avdiivka: "Select region: §YAvdiivka§!"

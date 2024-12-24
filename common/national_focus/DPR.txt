@@ -173,10 +173,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -196,10 +192,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -223,15 +215,13 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+            custom_effect_tooltip = DPR_artillery_shelling_tt
+			set_country_flag = DPR_artillery_shelling
 		}
 	}
 	focus = {

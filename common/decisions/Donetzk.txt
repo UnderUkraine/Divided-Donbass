@@ -1,0 +1,17 @@
+DPR_artillery_shelling = {
+	select_shelling_region_avdiivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+}
