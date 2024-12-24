@@ -1,0 +1,14 @@
+DPR_artillery_shelling = {
+	icon = GFX_Ukraine_and_russia_gerbs_decision
+	picture = GFX_buy_equipment_background_image
+	priority = 100
+	allowed = {
+		original_tag = DPR
+		has_country_flag = DPR_artillery_shelling
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}

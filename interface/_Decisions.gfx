@@ -40,6 +40,10 @@ spriteTypes = {
 		name = "GFX_flag_of_opr"
 		textureFile = "gfx/interface/decisions/flag_of_opr.dds"
 	}
+	spriteType = {
+		name = "GFX_grad_icon"
+		textureFile = "gfx/interface/decisions/grad_icon.dds"
+	}
 
 	spriteType = {
 		name = "GFX_Ukraine_and_russia_gerbs_decision"
