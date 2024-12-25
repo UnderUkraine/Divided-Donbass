@@ -183,7 +183,7 @@ equipments = {
 		supply_truck = yes
 		lend_lease_cost = 10
 
-		manpower = 3
+		manpower = 2
 	}
 
 	truck_chassis_0 = {
