@@ -27,6 +27,30 @@ spriteTypes = {
 		name = "GFX_idea_UKR_cooperation_russia"
 		texturefile = "gfx/interface/ideas/4149c45d450581c0.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_UKR_dead_VPK"
+		texturefile = "gfx/interface/ideas/a9ffe8b5442d1566.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_demographic_crisis1"
+		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_demographic_crisis2"
+		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_protests"
+		texturefile = "gfx/interface/ideas/54b54c11682511ec.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_oligarhy_autocraty"
+		texturefile = "gfx/interface/ideas/5824646c41b3e6e2.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_confused_army"
+		texturefile = "gfx/interface/ideas/1320e5800033d2c9.dds"
+	}
 
     #LAWS
 	SpriteType = {

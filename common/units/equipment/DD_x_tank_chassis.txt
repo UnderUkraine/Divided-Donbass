@@ -2258,4 +2258,29 @@ equipments = {
 		}
 		fuel_consumption = 0.6
 	}
+
+	truck_equipment_0 = {
+		year = 1959
+	
+		archetype = truck_chassis
+		priority = 10
+		visual_level = 0
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+
+		fuel_consumption = 0
+		maximum_speed = 4
+		build_cost_ic = 1
+		reliability = 0.8
+		hardness = 0.8
+		armor_value = 2
+
+		build_cost_ic = 10 #gw tanks are clunky
+		fuel_consumption = 1.0
+	}
 }

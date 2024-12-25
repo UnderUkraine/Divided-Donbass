@@ -33,7 +33,7 @@
  VICTORY_POINTS_9181: "Lviv"
 
 ##Ivanofrankivsk
- VICTORY_POINTS_5307: "Ivanofrankivsk"
+ VICTORY_POINTS_5307: "Ivano-frankivsk"
 
 ##Yzhorod
  VICTORY_POINTS_946: "Yzhorod"
@@ -263,3 +263,6 @@
  VICTORY_POINTS_14201: "Krynky"
  VICTORY_POINTS_6648: "Kozachi Laheri"
  VICTORY_POINTS_3540: "Nova Kakhovka"
+
+##Dnepro
+ VICTORY_POINTS_5424: "Dnepropetrovsk"
