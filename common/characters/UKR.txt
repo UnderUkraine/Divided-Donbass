@@ -117,8 +117,8 @@ characters = {
 		name = vitaly_zakharchenko
 		portraits = {
 			civilian = {
-				small = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
-				large = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
+				small = "/gfx/interface/ideas/UKR/advisors/vitaliy_zakharchenko.dds"
+				large = "/gfx/interface/ideas/UKR/advisors/vitaliy_zakharchenko.dds"
 			}
 		}
 		advisor = {
@@ -229,30 +229,6 @@ characters = {
 			}
 			traits = {
 				UKR_Education_Minister_1
-			}
-		}
-	}
-
-	raisa_bogatyryova = {
-		name = raisa_bogatyryova
-		portraits = {
-			civilian = {
-				small = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
-				large = "/gfx/interface/ideas/UKR/advisors/mykola_azarov.dds"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = political_advisor
-			idea_token = UKR_raisa_bogatyryova
-			can_be_fired = no
-			allowed = {
-				original_tag = UKR
-			}
-			available = {
-			}
-			traits = {
-				UKR_Healter_Minister_1
 			}
 		}
 	}

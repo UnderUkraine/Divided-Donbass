@@ -549,6 +549,9 @@ create_equipment_variant = {
 		tech_trucks_1 = 1
 		tech_trucks_2 = 1
 		tech_trucks_3 = 1
+
+		#SUPPORT
+		tech_support = 1
 	
 		#ARMOR
 		tank_chassis = 1
@@ -603,7 +606,6 @@ create_equipment_variant = {
 	recruit_character = vladimir_kozak
 	recruit_character = pavel_lebedev
 	recruit_character = dmytro_tabachnyk
-	recruit_character = raisa_bogatyryova
 
 	activate_advisor = UKR_mykola_azarov
 	activate_advisor = UKR_vitaly_zakharchenko
@@ -611,7 +613,6 @@ create_equipment_variant = {
 	activate_advisor = UKR_vladimir_kozak
 	activate_advisor = UKR_pavel_lebedev
 	activate_advisor = UKR_dmytro_tabachnyk
-	activate_advisor = UKR_raisa_bogatyryova
 
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
@@ -812,6 +813,8 @@ create_equipment_variant = {
 		UKR_dead_VPK
 
 		world_recognition
+		president_parlament_republic
+		contract_conscript_army
 	}
 
 	set_variable = { UKR.party_one_deputaty = 187 }

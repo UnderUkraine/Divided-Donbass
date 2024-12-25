@@ -52,43 +52,43 @@ leader_traits = {
 
 	UKR_Prime_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Mvd_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Foreign_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Infactructure_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Military_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Education_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 
 	UKR_Healter_Minister_1 = {
 		random = no
-		sprite = 10
+		sprite = 0
 		political_power_factor = 0.15
 	}
 

@@ -1142,26 +1142,89 @@ country_event = {
 	
 	option = {
 		name = ukraine.16.a
-
-		hidden_effect = {
-			DPR = {
-				country_event = {
-					id = donetsk.1
-					days = 1
-				}
-			}
-		}
 	}
 
 	option = {
 		name = ukraine.16.b
 		DPR = {
 			change_tag_from = UKR
-
-			country_event = {
-				id = donetsk.1
-				days = 1
-			}
 		}
+	}
+}
+
+#Uprising in Lugansk
+country_event = {
+	id = ukraine.17
+	title = ukraine.17.t
+	desc = ukraine.17.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.17.a
+	}
+
+	option = {
+		name = ukraine.17.b
+		LPR = {
+			change_tag_from = UKR
+		}
+	}
+}
+
+#Uprising in Kharkiv
+country_event = {
+	id = ukraine.18
+	title = ukraine.18.t
+	desc = ukraine.18.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.18.a
+	}
+
+	option = {
+		name = ukraine.18.b
+		KPR = {
+			change_tag_from = UKR
+		}
+	}
+}
+
+#Uprising in Odesa
+country_event = {
+	id = ukraine.19
+	title = ukraine.19.t
+	desc = ukraine.19.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.19.a
+	}
+
+	option = {
+		name = ukraine.19.b
+		OPR = {
+			change_tag_from = UKR
+		}
+	}
+}
+
+#Crushed rebeltion
+country_event = {
+	id = ukraine.20
+	title = ukraine.20.t
+	desc = ukraine.20.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.20.a
 	}
 }

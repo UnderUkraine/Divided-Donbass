@@ -435,6 +435,8 @@ UKR_Separatists_in_Ukraine = {
 								type = annex_everything
 							}
 						}
+
+						country_event = ukraine.17
 					}
 
 					#TODO Separatists units
@@ -520,6 +522,8 @@ UKR_Separatists_in_Ukraine = {
 							}
 							add_to_faction = OPR
 						}
+
+						country_event = ukraine.18
 					}
 
 					#TODO Separatists units
@@ -606,6 +610,14 @@ UKR_Separatists_in_Ukraine = {
 								target = UKR
 								type = annex_everything
 							}
+						}
+
+						country_event = ukraine.19
+
+						else_if = {
+							limit = { check_variable = { var = UKR.opr_support value = 19 compare = less_than } }
+
+							country_event = ukraine.20
 						}
 					}
 

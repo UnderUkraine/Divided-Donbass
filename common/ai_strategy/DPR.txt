@@ -29,7 +29,7 @@ DPR_war_with_ukraine = {
 	}
 }
 
-DPR_attack_north_to_mariupol = {
+DPR_attack_north = {
 	allowed = {
 		original_tag = DPR
 	}
@@ -48,8 +48,18 @@ DPR_attack_north_to_mariupol = {
 
 	ai_strategy = {
 		type = front_control
-        priority = 100
+        priority = 110
 		strategic_region = 6
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+        priority = 100
+		strategic_region = 5
 		ordertype = front
 		execution_type = rush
 		execute_order = yes
@@ -64,7 +74,7 @@ DPR_attack_south_to_mariupol = {
 
 	enable = {
 		#has_war_with = UKR
-		always = yes
+		always = no
 	}
 
 	abort = {

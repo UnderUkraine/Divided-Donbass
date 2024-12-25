@@ -4,7 +4,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "2019.05.20"
 	election_frequency = 48
 	elections_allowed = no
@@ -13,11 +13,24 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 85
-	neutrality = 15
+	communism = 35
+	neutrality = 65
+}
+
+create_country_leader = {
+	name = TMR_shevchyk
+	#desc = TMR_shevchyk_desc
+	ideology = oligarchism
+	picture = gfx/leaders/TMR/shevchyk.dds
+	traits = {}
 }
 
 add_ideas = {
-	TMR_bad_army
-	TMR_pobeda
+	not_recognized_state
+	mixed_republic
+	medium_corruption
+
+	no_nuke_state
+	straight_to_the_frontline
+	military_laths
 }

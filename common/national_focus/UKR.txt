@@ -138,7 +138,9 @@ focus_tree = {
 		}
 
 		bypass = {
-			has_global_flag = UKR_ATO_Started
+			KPR = {
+				exists = yes
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -172,6 +174,12 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		bypass = {
+			OPR = {
+				exists = yes
+			}
+		}
+
 		completion_reward = {
 			subtract_from_variable = {
 				var = UKR.opr_support
@@ -198,6 +206,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+
+		bypass = {
+			OR = {
+				DPR = {
+					exists = yes
+				}
+				LPR = {
+					exists = yes
+				}
+			}
+		}
 
 		completion_reward = {
 			subtract_from_variable = {
@@ -231,6 +250,17 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		bypass = {
+			OR = {
+				DPR = {
+					exists = yes
+				}
+				LPR = {
+					exists = yes
+				}
+			}
+		}
+
 		completion_reward = {
 			subtract_from_variable = {
 				var = UKR.dpr_support
@@ -257,6 +287,12 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+
+		bypass = {
+			KPR = {
+				exists = yes
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -286,6 +322,11 @@ focus_tree = {
 			factor = 1
 		}
 
+		bypass = {
+			OPR = {
+				exists = yes
+			}
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -316,6 +357,10 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
 		}
 
 		cancel_if_invalid = yes

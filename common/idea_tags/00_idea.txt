@@ -54,6 +54,7 @@ idea_categories = {
 		slot = nuke_doctrine
 		slot = soldier_traning
 		slot = army_finance
+		slot = appeal_laws
 		
 		ledger = civilian
 		
