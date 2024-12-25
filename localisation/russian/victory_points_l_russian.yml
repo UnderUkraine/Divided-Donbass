@@ -39,7 +39,7 @@
  VICTORY_POINTS_946: "Ужгород"
 
 ##Volyn
- VICTORY_POINTS_2536: "Лутск"
+ VICTORY_POINTS_2536: "Лутцк"
  VICTORY_POINTS_5487: "Ковель"
 
 ##Rivne
@@ -265,3 +265,6 @@
  VICTORY_POINTS_14201: "Крынки"
  VICTORY_POINTS_6648: "Козацкие лагеря"
  VICTORY_POINTS_3540: "Новая Каховка"
+
+##Dnepro
+ VICTORY_POINTS_5424: "Днепропетровск"
