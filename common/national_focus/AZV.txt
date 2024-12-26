@@ -27,6 +27,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_manpower = 150
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_batalion_of_azov"
 		}
 	}
 	focus = {
@@ -46,7 +47,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
+            log = "[GetDateText]: [Root.GetName]: Focus AZV_black_corps"
 		}
 	}
 	focus = {
@@ -91,6 +92,7 @@ focus_tree = {
 					days = 30
 				}
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_assault_on_Mariupol"
 		}
 	}
 	focus = {
@@ -120,6 +122,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Dynamic modifier on Mariupol state
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_form_base_in_Mariupol"
 		}
 	}
 	focus = {
@@ -138,6 +141,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_country_flag = AZV_recruiting_of_people_flag
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_search_for_recruits"
 		}
 	}
 	focus = {
@@ -156,7 +160,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_propoganda_of_nationalism"
 		}
 	}
 	focus = {
@@ -175,6 +179,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Decisions to buy weapons for money
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_get_additional_weapons"
 		}
 	}
 	focus = {
@@ -193,6 +198,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Potom pridymaem
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_population_support"
 		}
 	}
 	focus = {
@@ -212,6 +218,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			#TODO Shoto eshe
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_ukr_finance"
 		}
 	}	
 	focus = {
@@ -231,6 +238,7 @@ focus_tree = {
 	
 			completion_reward = {
 				#TODO Timed mission
+				log = "[GetDateText]: [Root.GetName]: Focus AZV_border_post_raids"
 			}
 	}	
 	focus = {
@@ -249,6 +257,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_cooperation_afu"
 		}
 	}
 	focus = {
@@ -267,6 +276,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_command_rate"
 		}
 	}
 	focus = {
@@ -286,6 +296,7 @@ focus_tree = {
 		completion_reward = {
 			#TODO Timed mission
 			set_cosmetic_tag = AZV_Reform
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_reform_in_the_regiment"
 		}
 	}
 	focus = {
@@ -304,6 +315,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_transfer_to_NGU"
 		}
 	}
 	focus = {
@@ -322,6 +334,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_weapon_azov"
 		}
 	}
 	focus = {
@@ -340,6 +353,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_medical_service"
 		}
 	}
 	focus = {
@@ -358,6 +372,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_sniper_squad"
 		}
 	}
 	focus = {
@@ -376,6 +391,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_reconnaissance_squad"
 		}
 	}
 	focus = {
@@ -394,6 +410,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_mortar_battery"
 		}
 	}
 	focus = {
@@ -412,6 +429,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_artillery_division"
 		}
 	}
 	focus = {
@@ -430,6 +448,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_anti_aircraft_missile_artillery_division"
 		}
 	}
 	focus = {
@@ -448,6 +467,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_engineer_sapper_division"
 		}
 	}
 	focus = {
@@ -466,6 +486,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_anti_tank_company"
 		}
 	}
 	focus = {
@@ -484,6 +505,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_tanks_company"
 		}
 	}
 	focus = {
@@ -502,6 +524,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_change_commander"
 		}
 	}
 	focus = {
@@ -520,6 +543,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_continue_the_course_Biletsky"
 		}
 	}	
 	focus = {
@@ -538,6 +562,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_fortification_mariupol"
 		}
 	}
 	focus = {
@@ -556,6 +581,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_financ_na_fortification"
 		}
 	}
 	focus = {
@@ -574,6 +600,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_pavlopol_vodyanoye_shirokino_line"
 		}
 	}
 	focus = {
@@ -596,6 +623,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_continue_reorganisation"
 		}
 	}	
 	focus = {
@@ -614,6 +642,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_yevgeny_konovalets_military_school"
 		}
 	}
 	focus = {
@@ -832,6 +861,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_polk_azov_professional"
 		}
 	}
 }
