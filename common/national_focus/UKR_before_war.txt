@@ -27,6 +27,7 @@ focus_tree = {
 				ideology = neutrality
 				popularity = 0.1
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Yanukovich_rule"
 		}
 	}
 	focus = {
@@ -45,6 +46,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = UKR_start_fake_eurointegration_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Eurointegration"
 		}
 	}
 	focus = {
@@ -63,6 +65,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = UKR_decline_to_sign_agreement_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Decline_to_sign_agreement"
 		}
 	}
 	focus = {
@@ -81,6 +84,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = -150
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Protests_on_streets"
 		}
 	}
 	focus = {
@@ -106,6 +110,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Victory_over_protesters"
 		}
 	}
 	focus = {
@@ -135,6 +140,7 @@ focus_tree = {
 				target = RUS
 				modifier = x
 			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Cooperate_with_russia"
 		}
 	}
 	focus = {
@@ -160,6 +166,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = UKR_kharkiv_pact_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Kharkiv_pact"
 		}
 	}
 	focus = {
@@ -185,6 +192,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = UKR_join_union_state_project_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Join_Union_State_project"
 		}
 	}
 	focus = {
@@ -210,6 +218,7 @@ focus_tree = {
 
 		completion_reward = {
 			#TODO Add money effect
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Sell_heavy_equipment"
 		}
 	}
 }
