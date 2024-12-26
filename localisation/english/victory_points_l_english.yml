@@ -265,4 +265,8 @@
  VICTORY_POINTS_3540: "Nova Kakhovka"
 
 ##Dnepro
- VICTORY_POINTS_5424: "Dnepropetrovsk"
+ VICTORY_POINTS_5424: "Dnepropetrovsk" 
+
+ VICTORY_POINTS_1837:"Alchevsk"
+ VICTORY_POINTS_11725:"Luhansk"
+ LPR_VICTORY_POINTS_11725:"Luhansk"
