@@ -634,6 +634,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_informations_front"
 		}
 	}
 	focus = {
@@ -655,6 +656,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_razoblacheniye_feikov"
 		}
 	}
 	focus = {
@@ -676,6 +678,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_operation_contr_razvedki_sbu"
 		}
 	}
 	focus = {
@@ -697,6 +700,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_united_ukraine"
 		}
 	}
 	focus = {
