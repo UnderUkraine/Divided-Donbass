@@ -91,6 +91,7 @@ sub_units = {
 		supply_consumption = 0.05
 		breakthrough = -0.3
 		attack = -0.1
+		defence = -0.1
 		
 		supply_consumption = 0.06
 	
