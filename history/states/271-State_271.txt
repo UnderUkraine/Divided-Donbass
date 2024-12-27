@@ -7,66 +7,6 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
-		victory_points = {
-			5967 20
-		}
-		victory_points = {
-			11747 3
-		}
-		victory_points = {
-			3439 5
-		}
-		victory_points = {
-			11715 10
-		}
-		victory_points = {
-			11746 5
-		}
-		victory_points = {
-			11746 5
-		}
-		victory_points = {
-			7060 5
-		}
-		victory_points = {
-			7656 3
-		}
-		victory_points = {
-			7656 3
-		}
-		victory_points = {
-			4409 3
-		}
-		victory_points = {
-			11673 5
-		}
-		victory_points = {
-			11471 3
-		}
-		victory_points = {
-			11856 3
-		}
-		victory_points = {
-			11695 3
-		}
-		victory_points = {
-			5216 3
-		}
-		victory_points = {
-			11655 3
-		}
-		victory_points = {
-			11594 3
-		}
-		victory_points = {
-			11537 3
-		}
-		victory_points = {
-			11812 3
-		}
-		victory_points = {
-			11818 3
-		}
 
 		2015.1.1 = {
 			transfer_state_to = LPR
