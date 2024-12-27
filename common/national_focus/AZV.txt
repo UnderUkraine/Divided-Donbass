@@ -17,7 +17,7 @@ focus_tree = {
 		icon = GFX_focus_AZV_battalion_of_azov_alt
 		alternate_icon = GFX_focus_AZV_battalion_of_azov
 		cost = 1
-		x = 10
+		x = 20
 		y = 1
 
 		cancel_if_invalid = yes
@@ -322,7 +322,7 @@ focus_tree = {
 		id = AZV_weapon_azov
 		icon = GFX_focus_AZV_weapon_azov
 		cost = 1
-		x = 5
+		x = 6
 		y = 1
 		relative_position_id = AZV_reform_in_the_regiment
 
@@ -513,7 +513,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = AZV_transfer_to_NGU
 
 		prerequisite = {focus = AZV_transfer_to_NGU}
@@ -550,7 +550,7 @@ focus_tree = {
 		id = AZV_fortification_mariupol
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
+		x = -3
 		y = 1
 		relative_position_id = AZV_continue_the_course_Biletsky
 
@@ -604,11 +604,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_continue_reorganisation
+		id = AZV_modern_ukraine_army
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
-		y = 1
+		y = 2
 		relative_position_id = AZV_tanks_company
 
 		prerequisite = {focus = AZV_tanks_company}
@@ -627,14 +627,33 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = AZV_yevgeny_konovalets_military_school
+		id = AZV_weapon_with_recruits
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_continue_reorganisation
+		relative_position_id = AZV_modern_ukraine_army
 
-		prerequisite = {focus = AZV_continue_reorganisation}
+		prerequisite = {focus = AZV_modern_ukraine_army}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#TODO Timed mission
+			log = "[GetDateText]: [Root.GetName]: Focus AZV_weapon_with_recruits"
+		}
+	}	
+	focus = {
+		id = AZV_yevgeny_konovalets_military_school
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 9
+		relative_position_id = AZV_weapon_azov
+
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -703,7 +722,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AZV_standar_nato
+		id = AZV_standart_nato
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -2
@@ -727,9 +746,9 @@ focus_tree = {
 		cost = 1
 		x = 0
 		y = 1
-		relative_position_id = AZV_standar_nato
+		relative_position_id = AZV_standart_nato
 
-		prerequisite = {focus = AZV_standar_nato}
+		prerequisite = {focus = AZV_standart_nato}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

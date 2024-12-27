@@ -1120,6 +1120,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_yulia_timoshenko"
 		}
 	}
 	focus = {
@@ -1213,6 +1214,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_poroshenko_corruption"
 		}
 	}
 	focus = {
@@ -1234,6 +1236,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Fight_against_corruption"
 		}
 	}
 	focus = {
@@ -1255,6 +1258,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_NABU"
 		}
 	}
 	focus = {
@@ -1276,6 +1280,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_NAPK"
 		}
 	}
 	focus = {
@@ -1297,6 +1302,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Privatization_of_private_property"
 		}
 	}
 	focus = {
@@ -1318,6 +1324,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_SAP"
 		}
 	}
 	focus = {
@@ -1339,6 +1346,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Electronic_declaration_of_officials"
 		}
 	}
 	focus = {
