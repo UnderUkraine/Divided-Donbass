@@ -9,9 +9,6 @@ state={
 		add_core_of = UKR
 		victory_points = {
 			6124 5
-		}
-		victory_points = {
-            13215 10
          }
 		 victory_points = {
             4303 5
