@@ -7,7 +7,7 @@
  NATIONAL_FOCUS_NO_CURRENT_EFFECT: "В настоящее время фокус не даёт каких-либо эффектов. Изменения политической ситуации в мире могут повлиять на это."
 
  ############
- #    RUS   #
+ #    РУС   #
  ############
 
  RUS_putins_russia: "Россия Путина"
@@ -36,7 +36,7 @@
  NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "У этого фокуса сейчас нету эффектов. Изменения в мире могут влиять на это."
 
  ############
- #    UKR   #
+ #    УКР   #
  ############
  
  #Перед войной
@@ -109,9 +109,28 @@
  UKR_experience_donbass_war: "Опыт войны на донбассе"
  UKR_start_army_reform: "Старт военной реформы"
  UKR_new_general_school: "Новая школа генералов"
+ UKR_poroshenko_corruption: "Коррупция Порошенко"
+ UKR_Smuggling_of_Russian_weapons: "Контрабанда российского оружия"
+ UKR_Ukroboronprom: "УкрОборонПром"
+ UKR_Roshen_factory: "Фабрика «Рошен»"
+ UKR_Offshoring: "Открытие офшоров"
+ UKR_Economic_machinations: "Экономические махинации"
+ UKR_yulia_timoshenko: "Юлия Тимошенко"
+ UKR_Fight_against_corruption: "Борьба с коррупцией"
+ UKR_NABU: "НАБУ"
+ UKR_SAP: "САП"
+ UKR_NAPK: "НАПК"
+ UKR_Electronic_declaration_of_officials: "Электронные декларации чиновников"
+ UKR_Privatization_of_private_property: "Приватность частной собственности"
+ UKR_Strengthening_banking_system: "Укрепление банковской системы"
+ UKR_Cleaning_up_banking_system: "Очистка банковской системы"
+ UKR_Nationalize_Privatbank: "Национализировать «Приватбанк»"
+ UKR_Closing_insolvent_banks: "Закрытие неплатеспособных банков"
+ UKR_Tightening_control: "Ужесточение контроля"
+ UKR_International_control: "Международный контроль"
 
  ############
- #    AZV   #
+ #    АЗОВ   #
  ############
 
  AZV_change_commander: "Смена командира"
@@ -166,7 +185,7 @@
  AZV_polk_azov_professional: "Полк Азов - Профессионалы!"
 
 ###########
-####TMR####
+####ПМР####
 ###########
 
  TMR_pridnestovie_dwa_nol_chitirnadtsat: "Приднестровье в 2014"
