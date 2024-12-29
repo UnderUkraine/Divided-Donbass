@@ -5,6 +5,7 @@ state={
 		660 1144 1343 2224 2570 3003 3751 4818 4979 5060 7762 11137 11712 
 	}
 	history={
+		victory_points = { 2570 30 }
 		owner = UKR
 		add_core_of = UKR
 	}
