@@ -43,3 +43,6 @@
  verhovna_rada_holova_effects_tt:0 "Effects we get from current Head of Verhovna Rada:\n§gNone!§!"
 
  DPR_artillery_shelling_tt:0 "§RArtillery§! §gshelling £decision_icon_small §!§Ydecisions§!§g will be unlocked§!"
+
+ Peace_progress_plus_five_tt:0 "§gNegotiations progress will be increased by §!§G5§!"
+ Peace_progress_invite_international_tt:0 "§gWe will be able to invite the§! §Yinternational§!§g community to ensure peace§!"

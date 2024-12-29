@@ -123,7 +123,8 @@ UKR_Negotations = {
 	}
 	visible_when_empty = yes
 	visible = {
-		has_global_flag = UKR_Negotations_started
+		#has_global_flag = UKR_Negotations_started
+		always = yes
 	}
 	scripted_gui = negotations_gui
 }

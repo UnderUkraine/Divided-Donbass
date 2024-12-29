@@ -646,10 +646,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_informations_front}
 		relative_position_id = UKR_informations_front
-		
-		ai_will_do = {
-			factor = 1
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -668,10 +664,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_razoblacheniye_feikov}
 		relative_position_id = UKR_razoblacheniye_feikov
-		
-		ai_will_do = {
-			factor = 1
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -690,10 +682,6 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_operation_contr_razvedki_sbu}
 		relative_position_id = UKR_operation_contr_razvedki_sbu
-		
-		ai_will_do = {
-			factor = 1
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -704,7 +692,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_russia_trebuet_perigovori
+		id = UKR_Need_for_negotiations
 		icon = GFX_goal_unknown
 		cost = 1
 		x = -4
@@ -712,12 +700,8 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_ato}
 		relative_position_id = UKR_ato
-		
-		ai_will_do = {
-			factor = 1
-		}
 
-		available = {
+		allowed = {
 			always = no
 		}
 
@@ -726,50 +710,42 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_to_variable = {
+				var = global.peace_progress_minsk
+				value = 5
+				tooltip = Peace_progress_plus_five_tt
+			}
 		}
 	}
 	focus = {
-		id = UKR_minsk_odin
+		id = UKR_Convene_the_international_community
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_russia_trebuet_perigovori}
-		relative_position_id = UKR_russia_trebuet_perigovori
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Need_for_negotiations}
+		relative_position_id = UKR_Need_for_negotiations
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = Peace_progress_invite_international_tt
+
+			set_country_flag = UKR_Convene_the_international_community_flag
 		}
 	}
 	focus = {
-		id = UKR_proval_minsk_odin
+		id = UKR_Initiate_discussions_on_a_peaceful_settlement
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_minsk_odin}
-		relative_position_id = UKR_minsk_odin
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Convene_the_international_community}
+		relative_position_id = UKR_Convene_the_international_community
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -779,22 +755,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_minsk_dva
+		id = UKR_Minsk_one
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_proval_minsk_odin}
-		relative_position_id = UKR_proval_minsk_odin
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Initiate_discussions_on_a_peaceful_settlement}
+		relative_position_id = UKR_Initiate_discussions_on_a_peaceful_settlement
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -804,47 +772,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_nashi_utrashennie_zemli
-		icon = GFX_focus_UKR_nashi_utrashennie_zemli
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_minsk_dva}
-		relative_position_id = UKR_minsk_dva
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_narusheniya_minsk_dva
+		id = UKR_Negotiations_continue
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
-		relative_position_id = UKR_nashi_utrashennie_zemli
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Minsk_one}
+		relative_position_id = UKR_Minsk_one
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -854,22 +789,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_cold_war
+		id = UKR_Attempting_a_new_meeting
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_narusheniya_minsk_dva}
-		relative_position_id = UKR_narusheniya_minsk_dva
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Negotiations_continue}
+		relative_position_id = UKR_Negotiations_continue
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -879,47 +806,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_bezenchi_s_donbassa
-		icon = GFX_focus_UKR_bezenchi_s_donbassa
-		cost = 1
-		x = -2
-		y = 1
-
-		prerequisite = {focus = UKR_nashi_utrashennie_zemli}
-		relative_position_id = UKR_nashi_utrashennie_zemli
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_podgotovka_k_activnoy_faze
+		id = UKR_Minsk_two
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_cold_war}
-		relative_position_id = UKR_cold_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Attempting_a_new_meeting}
+		relative_position_id = UKR_Attempting_a_new_meeting
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -929,22 +823,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_defence_big_city
+		id = UKR_The_beginning_of_hybrid_warfare
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
+		x = -1
 		y = 1
 
-		prerequisite = {focus = UKR_podgotovka_k_activnoy_faze}
-		relative_position_id = UKR_podgotovka_k_activnoy_faze
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Minsk_two}
+		relative_position_id = UKR_Minsk_two
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -953,74 +839,16 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
 	focus = {
-		id = UKR_snizeniye_eskalacii
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 2
-
-		prerequisite = {focus = UKR_mission_obse_in_donbass}
-		prerequisite = {focus = UKR_stoitelstvo_ukrep_rayonov}
-		relative_position_id = UKR_podgotovka_k_activnoy_faze
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_dialog_s_rf
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_snizeniye_eskalacii}
-		relative_position_id = UKR_snizeniye_eskalacii
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = UKR_zakupka_tehniki_u_stran_nato
+		id = UKR_Net_compliance_with_the_Minsk_protocols
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -2
+		x = 1
 		y = 1
 
-		prerequisite = {focus = UKR_cold_war}
-		relative_position_id = UKR_cold_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
+		prerequisite = {focus = UKR_Minsk_two}
+		relative_position_id = UKR_Minsk_two
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1029,31 +857,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	focus = {
-		id = UKR_uvelichit_kontingent_voisk_na_donbasse
-		icon = GFX_goal_unknown
-		cost = 1
-		x = -4
-		y = 1
-
-		prerequisite = {focus = UKR_cold_war}
-		relative_position_id = UKR_cold_war
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
+	
 	focus = {
 		id = UKR_vneocheridnie_prezidenstkie_vibori
 		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
