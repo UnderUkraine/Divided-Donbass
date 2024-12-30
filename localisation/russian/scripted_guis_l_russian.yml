@@ -1,3 +1,25 @@
 ﻿l_russian:
  maidan_support_variable:0 "Текущая поддержка протестующих : §O[?UKR_maidan_support]§!"
  maidan_description:0 "Тысячи украинцев собрались на главной площади столицы, чтобы выразить протест против решения правительства приостановить интеграцию Украины в Европейский союз. Протесты начались как мирный митинг за европейский выбор, но быстро переросли в общенациональное движение, которое стремилось положить конец коррумпированному режиму, ставившему собственные интересы выше интересов народа."
+
+ dpr_support_variable:0 "[DPR.GetFlag]Донецк : §O[?UKR.dpr_support]§!"
+ lpr_support_variable:0 "[LPR.GetFlag]Луганск : §O[?UKR.lpr_support]§!"
+ kpr_support_variable:0 "[KPR.GetFlag]Харьков : §O[?UKR.kpr_support]§!"
+ opr_support_variable:0 "[OPR.GetFlag]Одесса : §O[?UKR.opr_support]§!"
+
+#Verhovna Rada
+ party_one_yanukovich_rule:0 "Партия Регионов: §B[?UKR.party_one_deputaty]§!"
+ party_two_yanukovich_rule:0 "ВО «Батькивщина»: §R[?UKR.party_two_deputaty]§!"
+ party_three_yanukovich_rule:0 "УДАР: §Y[?UKR.party_three_deputaty]§!"
+ party_four_yanukovich_rule:0 "Коммунистическая Партия Украины: §R[?UKR.party_four_deputaty]§!"
+ party_five_yanukovich_rule:0 "ВО «Свобода»: §b[?UKR.party_five_deputaty]§!"
+ party_six_yanukovich_rule:0 "Другие: §g[?UKR.party_six_deputaty]§!"
+
+ party_one_temp_government_1:0 "ВО «Батькивщина»: §R[?UKR.party_one_deputaty]§!"
+ party_two_temp_government_1:0 "Партия Регионов: §B[?UKR.party_two_deputaty]§!"
+ party_three_temp_government_1:0 "УДАР: §Y[?UKR.party_three_deputaty]§!"
+ party_four_temp_government_1:0 "“Экономическое Развитие”: §C[?UKR.party_four_deputaty]§!"
+ party_five_temp_government_1:0 "ВО «Свобода»: §b[?UKR.party_five_deputaty]§!"
+ party_six_temp_government_1:0 "Другие: §g[?UKR.party_six_deputaty]§!"
+
+ negotations_text:0 "Процес переговоров"

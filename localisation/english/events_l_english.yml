@@ -89,15 +89,19 @@ russia.3.t: "War is getting gragged on"
 russia.3.d: "Desc"
 russia.3.a: "We should start negotations..."
 
-russia.4.t: "Ukraine accepts negotations"
+russia.4.t: "Ukraine agrees to start negotiations"
 russia.4.d: "Desc"
-russia.4.a: "This should stop the war."
+russia.4.a: ""
 
 russia.5.t: "Ukraine refuses negotations!"
 russia.5.d: "Desc"
 russia.5.a: "Send more troops to Donbass!"
 russia.5.b: "Start the invasion!"
 russia.5.c: "Now we wait..."
+
+russia.6.t: "Minsk 1"
+russia.6.d: "Desc"
+russia.6.a: ""
 
 #Ukraine
 ukraine.1.t: "Maidan protests have reached a peak"

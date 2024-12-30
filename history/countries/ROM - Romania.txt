@@ -16,3 +16,11 @@ set_popularities = {
 	communism = 3
 	neutrality = 12
 }
+
+create_country_leader = {
+	name = ROM_traian_basescu
+	#desc = petro_poroshenko_desc
+	ideology = conservatism
+	picture = gfx/leaders/ROM/ROM_traian_basescu.dds
+	traits = { }
+}

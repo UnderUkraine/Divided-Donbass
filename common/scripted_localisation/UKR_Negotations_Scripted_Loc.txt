@@ -12,3 +12,10 @@ defined_text = {
         localization_key = "maidan_description"
     }
 }
+defined_text = {
+    name = get_negotations_text
+	
+    text = {
+        localization_key = "negotations_text"
+    }
+}

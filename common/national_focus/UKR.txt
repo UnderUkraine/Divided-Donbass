@@ -5,6 +5,10 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = { x = 4000 y = 3000 }
+
+	initial_show_position = {
+		focus = UKR_anarchy_in_goverment
+	}
 	
 	focus = {
 		id = UKR_anarchy_in_goverment
@@ -12,14 +16,6 @@ focus_tree = {
 		cost = 1
 		x = 7
 		y = 0
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -752,6 +748,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = Initiate_discussions_on_a_peaceful_settlement_tt
+			hidden_effect = {
+				country_event = {
+					id = ukraine.22
+					days = 5
+				}
+			}
 		}
 	}
 	focus = {
@@ -802,7 +805,12 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		available = {
+			has_global_flag = global_minsk_one_failed
+		}
+
 		completion_reward = {
+			#Unlock decisions
 		}
 	}
 	focus = {

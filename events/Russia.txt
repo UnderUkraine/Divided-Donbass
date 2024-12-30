@@ -200,7 +200,7 @@ country_event = {
 	}
 }
 
-#Ukraine accepts minsk 2
+#Minsk 1
 country_event = {
 	id = russia.6
 	title = russia.6.t
@@ -211,5 +211,19 @@ country_event = {
 	
 	option = {
 		name = russia.6.a
+	}
+}
+
+#Minsk 1
+country_event = {
+	id = russia.7
+	title = russia.7.t
+	desc = russia.7.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.7.a
 	}
 }

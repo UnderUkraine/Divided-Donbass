@@ -141,341 +141,16 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			complete_national_focus = UKR_russia_trebuet_perigovori
 			RUS = {
-				country_event = russia.4
+				country_event = {
+					id = russia.4
+					hours = 1
+				}
 			}
-			country_event = ukraine.6
-			country_event = {
-				id = ukraine.7
-				days = 14
-			}
+
+			complete_national_focus = UKR_Need_for_negotiations
 
 			set_global_flag = UKR_Negotations_started
-			set_global_flag = global_minsk_one
-
-			news_event = news.4
-
-			#DONETSK OBLAST
-			355 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			422 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			387 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			301 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			364 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			347 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			315 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			340 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			356 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			396 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			390 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			405 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			420 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			443 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			359 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			330 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			322 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			289 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			237 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			317 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			310 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			285 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			253 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			272 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			284 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			264 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			259 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			283 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			219 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			439 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			259 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			377 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			363 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			332 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			375 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			#LUHANSK OBLAST
-			269 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			304 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			305 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			295 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			331 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			342 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			292 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			271 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			280 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			278 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			263 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			238 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			210 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			171 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			136 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			156 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			161 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			170 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			180 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			248 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			228 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			200 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			203 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			242 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			265 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			245 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			267 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			229 = {
-				add_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
 		}
 	}
 	option = {
@@ -500,7 +175,7 @@ country_event = {
 
 	option = {
 		name = ukraine.6.a
-		complete_national_focus = UKR_minsk_odin
+		complete_national_focus = UKR_Minsk_one
 	}
 }
 
@@ -514,331 +189,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		clr_global_flag = global_minsk_one
 		set_global_flag = global_minsk_one_failed
-		
-		complete_national_focus = UKR_proval_minsk_odin
-
-			#DONETSK OBLAST
-			355 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			422 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			387 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			301 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			364 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			347 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			315 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			340 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			356 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			396 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			390 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			405 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			420 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			443 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			359 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			330 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			322 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			289 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			237 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			317 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			310 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			285 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			253 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			272 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			284 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			264 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			259 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			283 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			219 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			439 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			259 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			377 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			363 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			332 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			375 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-
-			#LUHANSK OBLAST
-			269 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			304 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			305 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			295 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			331 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			342 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			292 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			271 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			280 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			278 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			263 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			238 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			210 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			171 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			136 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			156 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			161 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			170 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			180 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			248 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			228 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			200 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			203 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			242 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			265 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			245 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			267 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
-			229 = {
-				remove_dynamic_modifier = {
-					modifier = Minsk_one_in_Donbass
-				}
-			}
 	}
 
 	option = {
@@ -858,7 +209,7 @@ country_event = {
 	option = {
 		name = ukraine.8.a
 
-		complete_national_focus = UKR_minsk_dva
+		complete_national_focus = UKR_Minsk_two
 	}
 }
 
@@ -1215,7 +566,7 @@ country_event = {
 	}
 }
 
-#Crushed rebeltion
+#Crushed rebeltion odessa
 country_event = {
 	id = ukraine.20
 	title = ukraine.20.t
@@ -1226,5 +577,101 @@ country_event = {
 	
 	option = {
 		name = ukraine.20.a
+	}
+}
+
+#Crushed rebeltion kharkiv
+country_event = {
+	id = ukraine.21
+	title = ukraine.21.t
+	desc = ukraine.21.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.21.a
+		log = "[GetDateText]: [This.GetName]: ukraine.21.a executed"
+	}
+}
+
+#Donbass status minsk
+country_event = {
+	id = ukraine.22
+	title = ukraine.22.t
+	desc = ukraine.22.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	#Keep the people's republics
+	option = {
+		name = ukraine.22.a
+		log = "[GetDateText]: [This.GetName]: ukraine.22.a executed"
+	}
+	#Keep the people's republics
+	option = {
+		name = ukraine.22.b
+		log = "[GetDateText]: [This.GetName]: ukraine.22.b executed"
+		trigger = {
+			#control over almost all of the territory of the dpr
+		}
+	}
+}
+
+#invite UN representatives
+country_event = {
+	id = ukraine.23
+	title = ukraine.23.t
+	desc = ukraine.23.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.23.a
+		log = "[GetDateText]: [This.GetName]: ukraine.23.a executed"
+	}
+}
+#invite OSCE representatives
+country_event = {
+	id = ukraine.24
+	title = ukraine.24.t
+	desc = ukraine.24.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.24.a
+		log = "[GetDateText]: [This.GetName]: ukraine.24.a executed"
+	}
+}
+#invite NATO representatives
+country_event = {
+	id = ukraine.25
+	title = ukraine.25.t
+	desc = ukraine.25.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.25.a
+		log = "[GetDateText]: [This.GetName]: ukraine.25.a executed"
+	}
+}
+#invite EU representatives
+country_event = {
+	id = ukraine.26
+	title = ukraine.26.t
+	desc = ukraine.26.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ukraine.26.a
+		log = "[GetDateText]: [This.GetName]: ukraine.26.a executed"
 	}
 }

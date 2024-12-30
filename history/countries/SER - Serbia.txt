@@ -16,3 +16,11 @@ set_popularities = {
 	communism = 15
 	neutrality = 45
 }
+
+create_country_leader = {
+	name = SER_Tomislav_Nikolic
+	#desc = petro_poroshenko_desc
+	ideology = conservatism
+	picture = gfx/leaders/SER/SER_Tomislav_Nikolic.dds
+	traits = { }
+}

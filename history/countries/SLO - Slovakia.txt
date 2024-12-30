@@ -16,3 +16,11 @@ set_popularities = {
 	communism = 15
 	neutrality = 45
 }
+
+create_country_leader = {
+	name = SLO_Ivan_Gasparovic
+	#desc = petro_poroshenko_desc
+	ideology = conservatism
+	picture = gfx/leaders/SLO/SLO_Ivan_Gasparovic.dds
+	traits = { }
+}

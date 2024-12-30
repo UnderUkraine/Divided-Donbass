@@ -7,6 +7,9 @@ focus_tree = {
 			tag = UKR
 		}
 	}
+	initial_show_position = {
+		focus = UKR_Yanukovich_rule
+	}
 	default = no
 	continuous_focus_position = { x = 2000 y = 1000 }
 	

@@ -8,10 +8,6 @@
  kpr_support_variable:0 "[KPR.GetFlag]Kharkiv : §O[?UKR.kpr_support]§!"
  opr_support_variable:0 "[OPR.GetFlag]Odesa : §O[?UKR.opr_support]§!"
 
-#Escalation
- escalation_variable:0 "Escalation on Donbass : §O[?global.escalation_on_donbass_variable]§!"
- weekly_escalation_variable:0 "Weekly growth : §O[?global.escalation_on_donbass_every_week_variable]§!"
-
 #Verhovna Rada
  party_one_yanukovich_rule:0 "Partia Regioniv: §B[?UKR.party_one_deputaty]§!"
  party_two_yanukovich_rule:0 "AUA «Batkivshchyna»: §R[?UKR.party_two_deputaty]§!"
@@ -26,3 +22,5 @@
  party_four_temp_government_1:0 "“Economic Development”: §C[?UKR.party_four_deputaty]§!"
  party_five_temp_government_1:0 "AUA «Svoboda»: §b[?UKR.party_five_deputaty]§!"
  party_six_temp_government_1:0 "Other: §g[?UKR.party_six_deputaty]§!"
+
+ negotations_text:0 "Negotations progress"

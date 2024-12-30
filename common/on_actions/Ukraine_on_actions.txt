@@ -35,6 +35,64 @@ on_actions = {
 		}
 	}
 
+	on_daily = {
+		effect = {
+			#Minsk 1
+			IF = {
+				limit = {
+					check_variable = { global.peace_progress_minsk > 70 }
+
+					NOT = {
+						has_global_flag = global_minsk_one
+					}
+				}
+
+				set_global_flag = global_minsk_one
+
+                UKR = {
+					country_event = ukraine.6
+				}
+
+				RUS = {
+					country_event = russia.6
+				}
+
+				#Fail
+				UKR = {
+					country_event = ukraine.7
+				}
+
+				news_event = { 
+					id = news.4
+				}
+			}
+			#Minsk 2
+			else_if = {
+				limit = {
+					check_variable = { global.peace_progress_minsk > 99 }
+
+					NOT = {
+						has_global_flag = global_minsk_two
+					}
+				}
+
+                set_global_flag = global_minsk_two
+
+				UKR = {
+					country_event = ukraine.8
+				}
+
+				RUS = {
+					country_event = russia.7
+				}
+
+				news_event = { 
+					id = news.6
+				}
+			}
+		}
+	}
+
 	on_weekly = {
 		effect = {
 			IF = {
@@ -47,52 +105,35 @@ on_actions = {
 						check_variable = { global.escalation_on_donbass_variable = 1 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.02}
-					set_variable = {global.Escalation_war_support_factor = 0.02}
-					set_variable = {global.Escalation_resistance_growth = 0.02}
+					escalation_level_one = yes
 				}
 				IF = {
 					LIMIT = {
 						check_variable = { global.escalation_on_donbass_variable = 2 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.05}
-					set_variable = {global.Escalation_war_support_factor = 0.05}
-					set_variable = {global.Escalation_resistance_growth = 0.05}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.07} #Не могу найти стоимость
+					escalation_level_two = yes
 				}
 				IF = {
 					LIMIT = {
 						check_variable = { global.escalation_on_donbass_variable = 3 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.07}
-					set_variable = {global.Escalation_war_support_factor = 0.07}
-					set_variable = {global.Escalation_resistance_growth = 0.07}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.1}
+					escalation_level_three = yes
 				}
 				IF = {
 					LIMIT = {
 						check_variable = { global.escalation_on_donbass_variable = 4 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.15}
-					set_variable = {global.Escalation_war_support_factor = 0.15}
-					set_variable = {global.Escalation_resistance_growth = 0.10}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.17} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.25}
+					escalation_level_four = yes
 				}
 				IF = {
 					LIMIT = {
-						check_variable = { global.escalation_on_donbass_variable > 5 }
+						check_variable = { global.escalation_on_donbass_variable = 5 }
 					}
 
-					set_variable = {global.Escalation_stability_factor = -0.20}
-					set_variable = {global.Escalation_war_support_factor = 0.20}
-					set_variable = {global.Escalation_resistance_growth = 0.17}
-					set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.25} #Не могу найти стоимость
-					set_variable = {global.Escalation_fascism_drift = 0.35}
+					escalation_level_five = yes
 				}
 			}
 		}

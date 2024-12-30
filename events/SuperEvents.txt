@@ -58,6 +58,9 @@ country_event = {
 			RUS = {
 				activate_mission = RUS_end_the_war
 			}
+			UKR = {
+				complete_national_focus = UKR_convocation_nsds
+			}
 		}
 	}
 

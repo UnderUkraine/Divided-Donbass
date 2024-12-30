@@ -20,7 +20,7 @@ set_popularities = {
 create_country_leader = {
 	name = bronislaw_komorowski
 	#desc = petro_poroshenko_desc
-	ideology = conservatism_bpp
+	ideology = conservatism
 	picture = gfx/leaders/UKR/poroshenko.dds
 	traits = { }
 }
