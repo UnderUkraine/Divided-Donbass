@@ -33,4 +33,8 @@ add_ideas = {
 	no_nuke_state
 	straight_to_the_frontline
 	military_laths
+
+	TMR_pobeda
+	TMR_bad_army
+	
 }
