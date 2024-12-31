@@ -13,6 +13,30 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/gtd_1250.dds"
 	}
 	spriteType = {
+		name = "GFX_EMI_tank_v_46_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/v_46.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_v_84_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/v_84.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_5tdf_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/5tdf.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_6td2_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/6td2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_a_85_3a_armata_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/a_85_3a_armata.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_v_92С2_engine"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/v_92С2.dds"
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_anti_armor_atgm_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9K11_MALIUTKA.dds"
 	}

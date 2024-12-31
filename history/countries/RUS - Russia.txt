@@ -430,8 +430,6 @@ add_ideas = {
 create_faction = "ОДКБ"
 add_to_faction = BLR
 
-set_oob = "RUS_2014"
-
 add_equipment_to_stockpile = {
     type = tank_chassis_5
     variant_name = "T-14 «Армата»"

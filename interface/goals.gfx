@@ -129,8 +129,16 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/petr_poroshenko.dds"			
 	}	
 	SpriteType = {
-	    name = "GFX_focus_UKR_yulia_timoshenko"
-	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
+	    name = "GFX_focus_UKR_Post_Maidan_Stabilisierung"
+	    texturefile = "gfx/interface/goals/UKR/UKR_Post_Maidan_Stabilisierung.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_American_cooperation"
+	    texturefile = "gfx/interface/goals/UKR/UKR_American_cooperation.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_American_credits"
+	    texturefile = "gfx/interface/goals/UKR/UKR_American_credits.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_UKR_Fight_against_corruption"
@@ -139,6 +147,10 @@ spriteTypes = {
 	SpriteType = {
 	    name = "GFX_focus_UKR_NABU"
 	    texturefile = "gfx/interface/goals/UKR/nabu.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_yulia_timoshenko"
+	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
 	}	
 	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"

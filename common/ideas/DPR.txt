@@ -39,4 +39,24 @@ ideas = {
             }
         }  
     }
+    country = {
+        DPR_independence_war = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_attack_factor = 0.3
+                army_defence_factor = 0.35
+                army_speed_factor = 0.1
+            }
+        }  
+    }
 }

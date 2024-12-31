@@ -12,7 +12,7 @@ set_politics = {
 
 add_ideas = {
 	DPR_Peoples_republic
-	DPR_offensive_on_south
+	DPR_independence_war
 
 	not_recognized_state
 	military_dictatorship_law
@@ -54,12 +54,10 @@ set_popularities = {
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 1550
-	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = infantry_equipment_1
 	amount = 500
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
