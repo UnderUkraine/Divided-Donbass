@@ -59,7 +59,10 @@ on_actions = {
 
 				#Fail
 				UKR = {
-					country_event = ukraine.7
+					country_event = {
+						id = ukraine.7
+						days = 31
+					}
 				}
 
 				news_event = { 
@@ -89,6 +92,8 @@ on_actions = {
 				news_event = { 
 					id = news.6
 				}
+
+				minsk_two_effects = yes
 			}
 		}
 	}

@@ -21,6 +21,7 @@ technologies = {
 		enable_subunits = {
 			infantry
 			militia
+			mechanized_infantry
 
 			engineer
 			recon

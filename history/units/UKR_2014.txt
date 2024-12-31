@@ -4,10 +4,13 @@ focus = {
 }
 
 division_template = {
-	name = "TEST TEMPLATE"
+	name = "Mechanized Infantry"
 	regiments = {
-        infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+        mechanized_infantry = { x = 0 y = 0 }
+		mechanized_infantry = { x = 0 y = 1 }
+		mechanized_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery_brigade = { x = 0 y = 0 }
 	}
 }

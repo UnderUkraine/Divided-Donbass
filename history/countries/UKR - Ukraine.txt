@@ -519,9 +519,6 @@ create_equipment_variant = {
 		infantry_weapons2 = 1
 		infantry_weapons3 = 1
 		infantry_weapons4 = 1
-		infantry_weapons5 = 1
-		infantry_weapons6 = 1
-		infantry_weapons7 = 1
 	
 		rpg_weapons = 1
 		rpg_weapons1 = 1
@@ -542,8 +539,6 @@ create_equipment_variant = {
 		mortar_weapons = 1
 		mortar_weapons1 = 1
 		mortar_weapons2 = 1
-		mortar_weapons3 = 1
-		mortar_weapons4 = 1
 	
 		tech_trucks = 1
 		tech_trucks_1 = 1
