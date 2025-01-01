@@ -14,7 +14,7 @@ focus_tree = {
 		id = UKR_anarchy_in_goverment
 		icon = GFX_focus_UKR_anarchy_in_goverment
 		cost = 1
-		x = 7
+		x = 10
 		y = 0
 
 		cancel_if_invalid = yes
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_coalition_in_rada
-		icon = GFX_goal_unknown
+		icon = GFX_focus_UKR_coalition_in_rada
 		cost = 5
 		x = 0
 		y = 1
@@ -410,6 +410,10 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_convocation_nsds}
 		relative_position_id = UKR_convocation_nsds
+
+		allow_branch = {
+			has_global_flag = UKR_ATO_Started
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -716,7 +720,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Convene_the_international_community
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 25
 		x = 0
 		y = 1
 
@@ -736,7 +740,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Initiate_discussions_on_a_peaceful_settlement
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 20
 		x = 0
 		y = 1
 
@@ -777,7 +781,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Negotiations_continue
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 25
 		x = 0
 		y = 1
 
@@ -794,7 +798,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Attempting_a_new_meeting
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 20
 		x = 0
 		y = 1
 
@@ -833,7 +837,7 @@ focus_tree = {
 	focus = {
 		id = UKR_The_beginning_of_hybrid_warfare
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 15
 		x = -1
 		y = 1
 
@@ -851,7 +855,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Net_compliance_with_the_Minsk_protocols
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 15
 		x = 1
 		y = 1
 
@@ -875,6 +879,10 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_convocation_nsds}
 		relative_position_id = UKR_convocation_nsds
+
+		allow_branch = {
+			has_country_flag = UKR_presidential_elections
+		}
 		
 		ai_will_do = {
 			factor = 1

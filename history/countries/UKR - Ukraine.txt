@@ -612,6 +612,11 @@ create_equipment_variant = {
 		type = infantry_equipment_1
 		amount = 514000
 	}
+
+	add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 90000
+	}
 	
 	add_equipment_to_stockpile = {
 		type = rpg_equipment_0

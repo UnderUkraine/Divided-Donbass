@@ -1,5 +1,5 @@
 ﻿l_english:
-
+ #LAWS
  government:1 "Laws & Government"
  research_production:0 "Research & Production"
  military_staff:0 "Military Staff"
@@ -18,7 +18,6 @@
  military_laws:0 "Military laws"
 
  world_recognition:0 "Worldwide recognition"
- regional_recognition:0 "Regional recognition"
  partial_recognition:0 "Partial recognition"
  not_recognized_state:0 "Unrecognized state"
  military_formation:0 "Military formation"
@@ -38,10 +37,9 @@
  military_laths:0 "Military laths"
  standard_financing:0 "Standart financing"
  minimal_expenses:0 "Minimal expenses"
- sergeant_schools:0 "Sergeant schools"
  army_without_funding:0 "Army without funding"
 
- use_nukes_first:0 "Nuke doctrine"
+ use_nukes_first:0 "Use first"
  use_in_defense:0 "Use in defense"
  no_nuke_state:0 "No nuke state"
 
@@ -52,6 +50,7 @@
  sergeant_schools:0 "Sergeant schools"
  straight_to_the_frontline:0 "§RStraight to the frontline§!"
 
+ #UKRAINE
  UKR_protests:0 "Protests"
  UKR_protests_desc:0 "\n£GFX_ukr_texticon_protests_2014\n\n\n\n\nCitizens take to the streets en masse to protest against the current government. Political instability is sweeping the country, weakening state institutions and threatening the integrity of the nation. Street clashes, radical movements and demands for change create a tense atmosphere that undermines trust in the government."
 
@@ -69,3 +68,22 @@
 
  UKR_dead_VPK:0 "Dead MIC"
  UKR_dead_VPK_desc:0 "Dead MIC"
+
+ #RUSSIA
+ RUS_demographic_crisis:0 "Demographic crisis"
+ RUS_demographic_crisis_desc:0 "Demographic crisis"
+
+ RUS_defense_of_crimea_2014:0 "Operation in Crimea"
+ RUS_defense_of_crimea_2014_desc:0 "Operation in Crimea"
+
+ RUS_Autocracy:0 "Autocracy"
+ RUS_Autocracy_desc:0 "Autocracy"
+
+ RUS_Only_in_parades:0 "Only in parades..."
+ RUS_Only_in_parades_desc:0 "Only in parades..."
+
+ RUS_Poor_regions:0 "Poor regions"
+ RUS_Poor_regions_desc:0 "Poor regions"
+
+ RUS_Gazprom:0 "Gazprom"
+ RUS_Gazprom_desc:0 "Gazprom"

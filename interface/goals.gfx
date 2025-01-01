@@ -41,6 +41,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_sbu_on_donbass.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_coalition_in_rada"
+	    texturefile = "gfx/interface/goals/UKR/UKR_coalition_in_rada.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_stabilisation_region"
 	    texturefile = "gfx/interface/goals/UKR/stabilization_of_region.dds"			
 	}	

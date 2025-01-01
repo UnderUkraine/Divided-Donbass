@@ -12,96 +12,96 @@ units = {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 	division= {
         name = "Opolchenie"
         location = 7663
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 12219
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 12219
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 12200
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 12168
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 
@@ -109,32 +109,32 @@ units = {
         name = "Opolchenie"
         location = 12941
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 6124
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 14011
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
     division= {
         name = "Opolchenie"
         location = 14011
         division_template = "People's Militia"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.2
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
 		start_manpower_factor = 1
     }
 }

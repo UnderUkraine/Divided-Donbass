@@ -16,6 +16,9 @@ add_ideas = {
 	not_recognized_state
 }
 
+set_major = yes
+set_war_support = 90
+
 recruit_character = LPR_bolotov
 
 2015.1.1 = {

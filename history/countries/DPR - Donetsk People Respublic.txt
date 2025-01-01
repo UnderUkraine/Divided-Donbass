@@ -23,6 +23,49 @@ add_ideas = {
 	military_laths
 }
 
+create_equipment_variant = {
+	name = "БТР-60"
+	type = btr1_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_536_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
+	obsolete = yes
+
+}
+
+create_equipment_variant = {
+	name = "БТР-70"
+	type = btr1_chassis_1_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_kpvt_14_5mm
+		turret_type_slot = tank_light_tower_1
+		armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_5347_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_btr1_1_chassis_medium"
+}
+
+set_major = yes
+set_war_support = 90
+
 #recruit_character = DPR_zakharchenko
 
 create_country_leader = {
@@ -63,29 +106,24 @@ add_equipment_to_stockpile = {
 add_equipment_to_stockpile = {
 	type = motorized_equipment_0
 	amount = 20
-	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = motorized_equipment_1
 	amount = 30
-	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = motorized_equipment_2
 	amount = 1945
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
 	type = btr1_chassis_0
 	variant_name = "БТР-60"
 	amount = 20
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
 	type = btr1_chassis_1_1
 	variant_name = "БТР-70"
 	amount = 25
-	producer = UKR
 }

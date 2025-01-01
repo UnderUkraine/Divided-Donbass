@@ -17,4 +17,94 @@ ideas = {
             }
         }  
     }    
+    country = {
+        RUS_Autocracy = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                
+            }
+        }  
+    }    
+    country = {
+        RUS_Demographic_crisis = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                
+            }
+        }  
+    }    
+    country = {
+        RUS_Only_in_parades = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                
+            }
+        }  
+    }   
+    country = {
+        RUS_Poor_regions = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                
+            }
+        }  
+    }   
+    country = {
+        RUS_Gazprom = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                
+            }
+        }  
+    }   
 }

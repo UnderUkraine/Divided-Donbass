@@ -52,6 +52,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/1320e5800033d2c9.dds"
 	}
 
+	#RUS
+	SpriteType = {
+		name = "GFX_idea_RUS_Autocracy"
+		texturefile = "gfx/interface/ideas/RUS/80746053f5070dfd.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Demographic_crisis"
+		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Only_in_parades"
+		texturefile = "gfx/interface/ideas/RUS/c9c3e0432f2c9a02.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Poor_regions"
+		texturefile = "gfx/interface/ideas/RUS/76f22e9d38d64a56.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Gazprom"
+		texturefile = "gfx/interface/ideas/RUS/5b32d5c955a18c6b.dds"
+	}
+
     #LAWS
 	SpriteType = {
 		name = "GFX_idea_world_recognition"

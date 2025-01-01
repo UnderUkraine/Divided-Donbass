@@ -356,6 +356,12 @@ set_politics = {
 add_ideas = {
     #RUS_defense_of_crimea_2014
 
+    RUS_Autocracy
+    RUS_Demographic_crisis
+    RUS_Only_in_parades
+    RUS_Poor_regions
+    RUS_Gazprom
+
     world_recognition
 }
 

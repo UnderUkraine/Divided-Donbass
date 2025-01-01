@@ -1,4 +1,39 @@
 ﻿l_russian:
+
+ world_recognition:0 "Мировое признание"
+ partial_recognition:0 "Частичное признание"
+ not_recognized_state:0 "Непризнаное государство"
+ military_formation:0 "Военное формирование"
+
+ total_corruption:0 "Тотальная коррупция"
+ strong_corruption:0 "Сильная коррупция"
+ medium_corruption:0 "Средняя коррупция"
+ minimal_corruption:0 "Минимальная коррупция"
+
+ parlament_president_republic:0 "Парламент-Президентская республика"
+ president_parlament_republic:0 "Президент-Парламентская республика"
+ mixed_republic:0 "Смешанная республика"
+ one_party_state:0 "Однопартийное государство"
+ military_dictatorship_law:0 "Военная диктатура"
+
+ all_to_the_frontline:0 "§RВсе на фронт§!"
+ military_laths:0 "Военные рейки"
+ standard_financing:0 "Стандартное финансирование"
+ minimal_expenses:0 "Минимальные расходы"
+ army_without_funding:0 "Army without funding"
+
+ use_nukes_first:0 "Использовать первыми"
+ use_in_defense:0 "Использовать в защите"
+ no_nuke_state:0 "Неядерное государство"
+
+ nato_standarts:0 "Стандарты НАТО"
+ russian_army:0 "Российская армия"
+ military_academies:0 "Военные академии"
+ officers_schools:0 "Офицерские школы"
+ sergeant_schools:0 "Сержантские школы"
+ straight_to_the_frontline:0 "§RСразу на фронт§!"
+
+ #UKRAINE
  UKR_protests:0 "Протесты"
  UKR_protests_desc:0 "Протесты"
 
@@ -16,3 +51,22 @@
 
  UKR_dead_VPK:0 "Мёртвый ВПК"
  UKR_dead_VPK_desc:0 "Мёртвый ВПК"
+
+ #RUSSIA
+ RUS_demographic_crisis:0 "Демографический кризис"
+ RUS_demographic_crisis_desc:0 "Демографический кризис"
+
+ RUS_defense_of_crimea_2014:0 "Операция в Крыму"
+ RUS_defense_of_crimea_2014_desc:0 "Операция в Крыму"
+
+ RUS_Autocracy:0 "Автократия"
+ RUS_Autocracy_desc:0 "Автократия"
+
+ RUS_Only_in_parades:0 "Только на парадах..."
+ RUS_Only_in_parades_desc:0 "Только на парадах..."
+
+ RUS_Poor_regions:0 "Бедные регионы"
+ RUS_Poor_regions_desc:0 "Бедные регионы"
+
+ RUS_Gazprom:0 "Газпром"
+ RUS_Gazprom_desc:0 "Газпром"

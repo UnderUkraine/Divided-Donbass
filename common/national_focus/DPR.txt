@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Donbass_will_be_free
 		icon = GFX_focus_DPR_Donbass_will_be_free
-		cost = 1
+		cost = 15
 		x = 7
 		y = 0
 		
@@ -31,7 +31,7 @@ focus_tree = {
 	focus = {
 		id = DPR_National_militia
 		icon = GFX_focus_DPR_National_militia
-		cost = 1
+		cost = 15
 		x = -2
 		y = 1
 
@@ -52,7 +52,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Tank_Battalion_Diesel
 		icon = GFX_focus_DPR_Tank_Battalion_Diesel
-		cost = 1
+		cost = 10
 		x = -1
 		y = 1
 
@@ -74,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = DPR_brigada_oplot
 		icon = GFX_focus_DPR_brigada_oplot
-		cost = 1
+		cost = 10
 		x = 1
 		y = 1
 
@@ -99,7 +99,7 @@ focus_tree = {
 	focus = {
 		id = DPR_batalion_somali
 		icon = GFX_focus_DPR_batalion_somali
-		cost = 1
+		cost = 10
 		x = 3
 		y = 1
 
@@ -124,7 +124,7 @@ focus_tree = {
 	focus = {
 		id = DPR_battalion_sparta
 		icon = GFX_focus_DPR_battalion_sparta
-		cost = 1
+		cost = 10
 		x = -3
 		y = 1
 
@@ -149,7 +149,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Heroes_of_Donbass
 		icon = GFX_focus_DPR_Heroes_of_Donbass
-		cost = 1
+		cost = 20
 		x = 0
 		y = 1
 
@@ -171,7 +171,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Defense_of_Donetsk_Citadel
 		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
-		cost = 1
+		cost = 25
 		x = 3
 		y = 1
 
@@ -248,7 +248,7 @@ focus_tree = {
 	focus = {
 		id = DPR_artillery_shelling
 		icon = GFX_focus_DPR_artillery_shelling
-		cost = 1
+		cost = 25
 		x = 0
 		y = 1
 
@@ -271,7 +271,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Defense_of_cities
 		icon = GFX_focus_DPR_Defense_of_cities
-		cost = 1
+		cost = 15
 		x = -1
 		y = 1
 
@@ -296,7 +296,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Trenching_in_Donetsk_neighborhoods
 		icon = GFX_focus_DPR_Trenching_in_Donetsk_neighborhoods
-		cost = 1
+		cost = 10
 		x = 1
 		y = 1
 
@@ -321,7 +321,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
 		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
-		cost = 1
+		cost = 25
 		x = -1
 		y = 1
 
@@ -348,7 +348,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Diversions_on_the_home_front
 		icon = DPR_Diversions_on_the_home_front
-		cost = 1
+		cost = 15
 		x = 0
 		y = 1
 

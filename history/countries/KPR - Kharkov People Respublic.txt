@@ -16,6 +16,8 @@ add_ideas = {
 	not_recognized_state
 }
 
+set_major = yes
+
 set_popularities = {
 	democratic = 0
 	fascism = 5
