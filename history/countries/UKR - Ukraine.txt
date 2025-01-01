@@ -700,62 +700,55 @@ create_equipment_variant = {
 	add_equipment_to_stockpile = {
 		type = btr1_chassis_0
 		variant_name = "БТР-60"
-		amount = 105
+		amount = 400
 		producer = UKR
 	}
 
 	add_equipment_to_stockpile = {
 		type = btr1_chassis_1_1
 		variant_name = "БТР-70"
-		amount = 210
+		amount = 300
 		producer = UKR
 	}
 
 	add_equipment_to_stockpile = {
 		type = bbm_chassis_0
 		variant_name = "БМП-1"
-		amount = 650
+		amount = 700
 		producer = UKR
 	}
 	add_equipment_to_stockpile = {
 		type = bbm_chassis_0
 		variant_name = "БМП-1У «Шквал»"
-		amount = 50
+		amount = 120
 		producer = UKR
 	}
 
 	add_equipment_to_stockpile = {
 		type = tank_chassis_3
 		variant_name = "Т-80БВ"
-		amount = 300
+		amount = 350
 		producer = UKR
 	}
 	
 	add_equipment_to_stockpile = {
 		type = tank_chassis_3
 		variant_name = "Т-80У"
-		amount = 10
+		amount = 15
 		producer = UKR
 	}
 	
 	add_equipment_to_stockpile = {
 		type = tank_chassis_3
 		variant_name = "Т-80УД"
-		amount = 200
-		producer = UKR
-	}
-	
-	add_equipment_to_stockpile = {
-		type = tank_chassis_3
-		variant_name = "Т-80БВМ"
-		amount = 50
+		amount = 180
 		producer = UKR
 	}
 	
 	add_equipment_to_stockpile = {
 		type = tank_chassis_4
 		variant_name = "Т-84"
-		amount = 10
+		amount = 5
 		producer = UKR
 	}
 	
@@ -783,14 +776,14 @@ create_equipment_variant = {
 	add_equipment_to_stockpile = {
 		type = tank_chassis_2
 		variant_name = "Т-64"
-		amount = 500
+		amount = 380
 		producer = UKR
 	}
 	
 	add_equipment_to_stockpile = {
 		type = tank_chassis_1
 		variant_name = "Т-55"
-		amount = 300
+		amount = 500
 		producer = UKR
 	}
 	

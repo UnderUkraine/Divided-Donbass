@@ -98,22 +98,6 @@ set_technology = {
 }
 
 create_equipment_variant = {
-	name = "БМД 4"
-	type = bbm_chassis_3
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_auto_cannon
-		suspension_type_slot = tank_track_base_suspension
-		special_type_slot_1 = tank_anti_armor_atgm_3
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bbm_3_chassis_medium"
-}
-
-create_equipment_variant = {
     name = "Т-55"
     type = tank_chassis_1
     parent_version = 0
@@ -130,6 +114,7 @@ create_equipment_variant = {
         tank_nsb_armor_upgrade = 0
     }
     icon = "GFX_tank1_chassis_medium"
+    obsolete = yes
 }
 
 create_equipment_variant = {
@@ -149,6 +134,7 @@ create_equipment_variant = {
         tank_nsb_armor_upgrade = 0
     }
     icon = "GFX_tank2_chassis_medium"
+    obsolete = yes
 }
 
 create_equipment_variant = {
@@ -168,6 +154,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank2_chassis_medium"
+    obsolete = yes
 }
 
 create_equipment_variant = {
@@ -189,6 +176,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank2_chassis_medium"
+    obsolete = yes
 }
 
 
@@ -211,6 +199,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank2_chassis_medium"
+    obsolete = yes
 }
 
 create_equipment_variant = {
@@ -230,6 +219,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank3_chassis_medium"
+    obsolete = yes
 }
 create_equipment_variant = {
 	name = "Т-80Б"
@@ -249,6 +239,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank3_chassis_medium"
+    obsolete = yes
 }
 create_equipment_variant = {
 	name = "Т-80БВ"
@@ -269,6 +260,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank3_chassis_medium"
+    obsolete = yes
 }
 create_equipment_variant = {
 	name = "Т-80У"
@@ -289,6 +281,7 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_tank3_chassis_medium"
+    obsolete = yes
 }
 create_equipment_variant = {
 	name = "Т-80УД"
@@ -310,26 +303,6 @@ create_equipment_variant = {
 	}
 	icon = "GFX_tank3_chassis_medium"
 }
-create_equipment_variant = {
-    name = "Т-80БВМ"
-    type = tank_chassis_3
-    parent_version = 0
-    modules = {
-        main_armament_slot = tank_125mm_2a46m_5
-        turret_type_slot = tank_сasting_tower
-        armor_type_slot = tank_combination_armor_two
-        engine_type_slot = tank_gtd_1250_engine
-        suspension_type_slot = tank_track_base_suspension
-        special_type_slot_1 = tank_additional_nsvt_12_7mm
-        special_type_slot_2 = tank_gun_guided_armament_1
-        special_type_slot_3 = tank_kontact_5
-    }
-    upgrades = {
-        tank_nsb_engine_upgrade = 0
-        tank_nsb_armor_upgrade = 0
-    }
-    icon = "GFX_tank3_chassis_medium"
-}
 
 create_equipment_variant = {
     name = "Т-90"
@@ -349,6 +322,7 @@ create_equipment_variant = {
         tank_nsb_armor_upgrade = 0
     }
     icon = "GFX_RUS_tank4_chassis_medium"
+    obsolete = yes
 }
 
 create_equipment_variant = {
@@ -372,48 +346,6 @@ create_equipment_variant = {
     icon = "GFX_RUS_tank4_chassis_medium"
 }
 
-create_equipment_variant = {
-    name = "Т-90М"
-    type = tank_chassis_4
-    parent_version = 0
-    modules = {
-        main_armament_slot = tank_125mm_2a46m_5
-        turret_type_slot = tank_welded_tower
-        armor_type_slot = tank_combination_armor_two
-        engine_type_slot = tank_v_92С2_engine
-        suspension_type_slot = tank_track_base_suspension
-        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
-		special_type_slot_2 = tank_active_defense_arena
-        special_type_slot_3 = tank_dynamic_armor_3
-    }
-    upgrades = {
-        tank_nsb_engine_upgrade = 0
-        tank_nsb_armor_upgrade = 0
-    }
-    icon = "GFX_RUS_tank4_chassis_medium"
-}
-
-create_equipment_variant = {
-    name = "T-14 «Армата»"
-    type = tank_chassis_5
-    parent_version = 0
-    modules = {
-        main_armament_slot = tank_152mm_2a83_ARMATA
-        turret_type_slot = tank_welded_tower
-        armor_type_slot = tank_rolled_homogeneous_armor_three
-        engine_type_slot = tank_a_85_3a_armata_engine
-        suspension_type_slot = tank_track_base_suspension
-        special_type_slot_1 = tank_cord_12_7mm_RUSSIA
-        special_type_slot_2 = tank_active_defense_5
-        special_type_slot_3 = tank_dynamic_armor_3
-    }
-    upgrades = {
-        tank_nsb_engine_upgrade = 0
-        tank_nsb_armor_upgrade = 0
-    }
-    icon = "GFX_RUS_tank_chassis_5_medium"
-}
-
 set_politics = {
     ruling_party = neutrality
     last_election = "2019.05.20"
@@ -431,16 +363,9 @@ create_faction = "ОДКБ"
 add_to_faction = BLR
 
 add_equipment_to_stockpile = {
-    type = tank_chassis_5
-    variant_name = "T-14 «Армата»"
-    amount = 20
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
     type = tank_chassis_4
     variant_name = "Т-90"
-    amount = 400
+    amount = 465
     producer = RUS
 }
 
@@ -452,37 +377,30 @@ add_equipment_to_stockpile = {
 }
 
 add_equipment_to_stockpile = {
-    type = tank_chassis_4
-    variant_name = "Т-90М"
-    amount = 100
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
     type = tank_chassis_3
     variant_name = "Т-80БВ"
-    amount = 300
+    amount = 500
     producer = RUS
 }
 
 add_equipment_to_stockpile = {
     type = tank_chassis_3
     variant_name = "Т-80У"
-    amount = 200
+    amount = 220
     producer = RUS
 }
 
 add_equipment_to_stockpile = {
     type = tank_chassis_3
     variant_name = "Т-80УД"
-    amount = 100
+    amount = 125
     producer = RUS
 }
 
 add_equipment_to_stockpile = {
     type = tank_chassis_3
     variant_name = "Т-80БВМ"
-    amount = 50
+    amount = 100
     producer = RUS
 }
 
@@ -511,13 +429,13 @@ add_equipment_to_stockpile = {
     type = tank_chassis_2
     variant_name = "Т-64"
     amount = 500
-    producer = RUS
+    producer = UKR
 }
 
 add_equipment_to_stockpile = {
     type = tank_chassis_1
     variant_name = "Т-55"
-    amount = 300
+    amount = 650
     producer = RUS
 }
 
