@@ -659,7 +659,7 @@ UKR_Separatists_in_Ukraine = {
 	}
 }
 
-UKR_buy_equipment = {
+UKR_arms_deconservation = {
 	UKR_test_1 = {
 		allowed = {
             tag = UKR

@@ -55,7 +55,7 @@ UKR_Verhovna_rada = {
 	scripted_gui = verhovna_rada_gui
 }
 
-UKR_buy_equipment = {
+UKR_arms_deconservation = {
 	icon = GFX_icon_of_VSY_decision
 	picture = GFX_buy_equipment_background_image
 	priority = 100

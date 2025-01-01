@@ -26,8 +26,8 @@
  UKR_Separatists_in_Ukraine:0 "Separatism in Ukraine"
  UKR_SBU_operations:0 "SBU operations"
  UKR_Escalation:0 "Escalation"
- UKR_buy_equipment:0 "Arms Procurement"
- UKR_buy_equipment_desc:0 " "
+ UKR_arms_deconservation:0 "Arms Deconservation"
+ UKR_arms_deconservation_desc:0 " "
 
  donetsk_uprising:0 "Donetsk uprising"
  luhansk_uprising:0 "Luhansk uprising"
