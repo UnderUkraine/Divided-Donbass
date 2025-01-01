@@ -648,3 +648,7 @@
  #DIVIDED DONBASS
  btr1_unit: "APC company"
  bbm_unit: "BBM company"
+ marine_infantry: "Marine infantry"
+ marine_infantry_desc: ""
+ mechanized_infantry: "Mechanized infantry"
+ mechanized_infantry_desc: ""

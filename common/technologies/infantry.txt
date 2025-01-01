@@ -22,6 +22,7 @@ technologies = {
 			infantry
 			militia
 			mechanized_infantry
+			marine_infantry
 
 			engineer
 			recon
