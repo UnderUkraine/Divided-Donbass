@@ -56,7 +56,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mot_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_mot_art_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_rocket_art_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mot_rocket_artillery_brigade_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_mot_rocket_art_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_rocket_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/rocket_artillery_brigade.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_tank_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/support_unit_at_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_anti_tank_brigade_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_at_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mot_anti_tank_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_mot_at_icon.dds" noOfFrames = 2 }
@@ -97,6 +97,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_bbm_unit_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_integralist_militia_icon.dds" noOfFrames = 2 } #TODO Insert icon
 	spriteType = { name = "GFX_unit_tank_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_sniper_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_sniper_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medical_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/medical_company.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_medical_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/medical_company.dds" noOfFrames = 2 }
 	
 

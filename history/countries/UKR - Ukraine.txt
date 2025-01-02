@@ -465,7 +465,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "ТЕСТ РЕАКТИВ. АРТА"
+	name = "ТЕСТ РЕАКТИВ АРТА"
 	type = rocket_artillery_chassis_0
 	parent_version = 0
 	modules = {
