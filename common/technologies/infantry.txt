@@ -26,17 +26,16 @@ technologies = {
 
 			engineer
 			recon
-			mot_recon
-			armored_car_recon
-			light_tank_recon
-			military_police
 			maintenance_company
-			field_hospital
+			medical_company
 			logistics_company
 			mortar
 			anti_tank
+			anti_air
 			tank_company
+			rocket_artillery
 			sniper_company
+			signal_company
 		}
 		
 		path = {

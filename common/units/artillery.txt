@@ -74,10 +74,11 @@ sub_units = {
 		combat_width = 0
 
 		need = {
-			rocket_artillery_equipment = 12
+			truck_chassis = 10
+			#Временно грузовики тут
 		}
 
-		manpower = 300
+		manpower = 15
 		training_time = 120
 		max_organisation = 0
 		default_morale = 0.1
