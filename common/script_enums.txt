@@ -102,6 +102,7 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
+	rocket_artillery
 	bmd_type
 	convoy
 	train
@@ -148,6 +149,7 @@ script_enum_equipment_bonus_type = {
 
 	# Equipment categories
     bmd_type
+	rocket_artillery
 
 	convoy
 	train

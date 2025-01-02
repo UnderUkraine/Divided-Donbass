@@ -261,7 +261,7 @@ technologies = {
 	DD_rocket_artillery = {
 
 		enable_equipments = {
-			rocket_artillery_chassis_0
+			rocket_artillery_equipment_0
 		}
 
 		path = {

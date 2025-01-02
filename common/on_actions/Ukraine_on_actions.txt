@@ -6,10 +6,14 @@ on_actions = {
 					NOT = { is_ai = yes }
 					date = 2014.1.1
 				}
+
 				news_event = { 
 					id = news.1 
 					days = 6
 				}
+			}
+
+			UKR = {
 				country_event = { 
 					id = ukraine.1 
 					days = 15

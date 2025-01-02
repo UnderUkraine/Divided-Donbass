@@ -205,6 +205,14 @@ duplicate_archetypes = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
 	}	
+
+	rocket_artillery_chassis = {
+		archetype = truck_chassis
+		type = { armor }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}	
 }
 
 equipments = {
@@ -2273,6 +2281,33 @@ equipments = {
 			tank_gun_upgrade
 		}
 
+		fuel_consumption = 0
+		maximum_speed = 4
+		build_cost_ic = 1
+		reliability = 0.8
+		hardness = 0.8
+		armor_value = 2
+
+		build_cost_ic = 10 #gw tanks are clunky
+		fuel_consumption = 1.0
+	}
+
+	rocket_artillery_equipment_0 = {
+		year = 1934
+
+		archetype = bmd_chassis
+		family = bbm_equipment_0
+		priority = 30
+		visual_level = 0
+		can_convert_from = { 
+			bbm_equipment_0 
+		}
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_aa_upgrade
+		}
 		fuel_consumption = 0
 		maximum_speed = 4
 		build_cost_ic = 1

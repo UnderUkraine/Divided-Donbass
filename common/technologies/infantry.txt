@@ -867,6 +867,7 @@ technologies = {
 	tech_trucks = {
 		enable_equipments = {
 			truck_chassis_0
+			rocket_artillery_equipment_0
 		}
 		
 		path = {

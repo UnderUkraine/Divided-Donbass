@@ -460,7 +460,27 @@ create_equipment_variant = {
 		tank_nsb_engine_upgrade = 0
 		tank_nsb_armor_upgrade = 0
 	}
-	icon = "GFX_btr1_1_chassis_medium"
+	icon = "GFX_UKR_truck_chassis_0_medium"
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "ТЕСТ РЕАКТИВ. АРТА"
+	type = rocket_artillery_chassis_0
+	parent_version = 0
+	modules = {
+		#main_armament_slot = tank_kpvt_14_5mm
+		#turret_type_slot = tank_open_armored_box
+		#armor_type_slot = tank_combination_armor_one
+		engine_type_slot = tank_ymz_536_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		#special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_UKR_truck_chassis_0_medium"
 	obsolete = yes
 }
 
@@ -480,7 +500,7 @@ create_equipment_variant = {
 		tank_nsb_engine_upgrade = 0
 		tank_nsb_armor_upgrade = 0
 	}
-	icon = "GFX_btr1_1_chassis_medium"
+	icon = "GFX_UKR_truck_chassis_1_medium"
 }
 
 create_equipment_variant = {
@@ -499,7 +519,7 @@ create_equipment_variant = {
 		tank_nsb_engine_upgrade = 0
 		tank_nsb_armor_upgrade = 0
 	}
-	icon = "GFX_btr1_1_chassis_medium"
+	icon = "GFX_UKR_truck_chassis_2_medium"
 	obsolete = yes
 }
 
