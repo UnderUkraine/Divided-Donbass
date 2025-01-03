@@ -921,7 +921,7 @@ focus_tree = {
 		id = UKR_yulia_timoshenko
 		icon = GFX_focus_UKR_yulia_timoshenko
 		cost = 1
-		x = -12
+		x = -30
 		y = 1
 
 		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
@@ -966,6 +966,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_petr_poroshenko"
 		}
 	}
 	focus = {
@@ -991,6 +992,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Post_Maidan_Stabilisierung"
 		}
 	}
 	focus = {
