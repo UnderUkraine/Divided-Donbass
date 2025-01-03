@@ -11,3 +11,14 @@
  Prepare_for_invinteble_mobilize_tt:0 "Мы §Rмобилизируем§! небольшую часть милиции в военный резерв"
 
  Escalation_Donbass_map_tt:0 "§Yworkz!!1§!"
+
+ DPR_artillery_shelling_tt:0 "£decision_icon_small !§YРешения§!§g на !§!§RАртиллерийские§!§g обстрелы будут !§gоткрыты§!"
+
+ Peace_progress_plus_five_tt:0 "§gПроцесс переговоров будет увеличен на §!§G5§!"
+ Peace_progress_invite_international_tt:0 "§gМы сможем пригласить§! §Yмеждународное§!§g сообщество для обеспечения мира§!"
+ Initiate_discussions_on_a_peaceful_settlement_tt:0 "§gВремя от времени будут появлятся §!§Yсобытия§! с §!§Yрешениями§!§g о статусе §!§GДонбасса§!"
+
+ corruption_law_total_tt:0 "£mil_factory §Y40%§! §Yзакупленного вооружения§! и §Yбоеприпасов§! §Rне будут поставлятся§! на §Yфронт§!"
+ corruption_law_strong_tt:0 "£mil_factory §Y30%§! §Yзакупленного вооружения§! и §Yбоеприпасов§! §Rне будут поставлятся§! на §Yфронт§!"
+ corruption_law_medium_tt:0 "£mil_factory §Y15%§! §Yзакупленного вооружения§! и §Yбоеприпасов§! §Rне будут поставлятся§! на §Yфронт§!"
+ corruption_law_minimal_tt:0 "£mil_factory §Y5%§! §Yзакупленного вооружения§! и §Yбоеприпасов§! §Rне будут поставлятся§! на §Yфронт§!"

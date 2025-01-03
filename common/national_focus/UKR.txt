@@ -1198,7 +1198,7 @@ focus_tree = {
 		id = UKR_poroshenko_corruption
 		icon = GFX_focus_UKR_petr_poroshenko
 		cost = 1
-		x = -20
+		x = -17
 		y = 1
 
 		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}

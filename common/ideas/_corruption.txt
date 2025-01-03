@@ -16,6 +16,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.15
 				stability_factor = -0.2
+				custom_modifier_tooltip = corruption_law_total_tt
 				#TODO Less ammo and equipment
 			}
 
@@ -41,6 +42,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.10
 				stability_factor = -0.15
+				custom_modifier_tooltip = corruption_law_strong_tt
 				#TODO Less ammo and equipment
 			}
 
@@ -64,6 +66,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.05
 				stability_factor = -0.1
+				custom_modifier_tooltip = corruption_law_medium_tt
 				#TODO Less ammo and equipment
 			}
 
@@ -82,6 +85,7 @@ ideas = {
 			modifier = {
 				political_power_factor = -0.05
 				stability_factor = 0.1
+				custom_modifier_tooltip = corruption_law_minimal_tt
 				#TODO Less ammo and equipment
 			}
 

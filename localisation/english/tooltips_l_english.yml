@@ -47,3 +47,8 @@
  Peace_progress_plus_five_tt:0 "§gNegotiations progress will be increased by §!§G5§!"
  Peace_progress_invite_international_tt:0 "§gWe will be able to invite the§! §Yinternational§!§g community to ensure peace§!"
  Initiate_discussions_on_a_peaceful_settlement_tt:0 "§gFrom time to time there will appear §!§Yevents§! with §!§Ydecisions§!§g on the status of §!§GDonbass§!"
+
+ corruption_law_total_tt:0 "£mil_factory §Y40%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_strong_tt:0 "£mil_factory §Y30%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_medium_tt:0 "£mil_factory §Y15%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_minimal_tt:0 "£mil_factory §Y5%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"

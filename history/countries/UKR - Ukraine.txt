@@ -481,7 +481,6 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_UKR_truck_chassis_0_medium"
-	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -823,6 +822,10 @@ create_equipment_variant = {
 		world_recognition
 		president_parlament_republic
 		contract_conscript_army
+        no_nuke_state
+		military_academies
+		minimal_expenses
+		strong_corruption
 	}
 
 	set_variable = { UKR.party_one_deputaty = 187 }
