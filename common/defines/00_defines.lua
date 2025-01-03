@@ -874,7 +874,7 @@ NMilitary = {
 	RIVER_SMALL_START_INDEX = 0,                   -- color indices for rivers
 	RIVER_SMALL_STOP_INDEX = 6,
 	RIVER_LARGE_STOP_INDEX = 11,
-	BASE_FORT_PENALTY = -0.15, 					   -- fort penalty
+	BASE_FORT_PENALTY = -0.1, 					   -- fort penalty
 	MULTIPLE_COMBATS_PENALTY = -0.5,               -- defender penalty if attacked from multiple directions
 	DIG_IN_FACTOR = 0.02,						   -- bonus factor for each dug-in level
 	ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.1, -- XP gain per unit in combat
@@ -3157,7 +3157,7 @@ NAI = {
 	AREA_DEFENSE_SETTING_AIRBASES = false,
 	AREA_DEFENSE_SETTING_BORDERS = false,
 	AREA_DEFENSE_SETTING_FORTS = false,
-	AREA_DEFENSE_SETTING_COASTLINES = true,
+	AREA_DEFENSE_SETTING_COASTLINES = false,
 	AREA_DEFENSE_SETTING_RAILWAYS = false,
 	AREA_DEFENSE_SETTING_FACILITY = false,
 
