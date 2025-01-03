@@ -1018,10 +1018,187 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = UKR_land_reform
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -10
+		y = 1
+
+		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
+		relative_position_id = UKR_Post_Maidan_Stabilisierung
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_land_reform"
+		}
+	}
+	focus = {
+		id = UKR_Liberalization_of_land_market
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_land_reform}
+		relative_position_id = UKR_land_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Liberalization_of_land_market"
+		}
+	}
+	focus = {
+		id = UKR_Decentralization
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_land_reform}
+		relative_position_id = UKR_land_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Decentralization"
+		}
+	}
+	focus = {
+		id = UKR_Establishment_of_OTGs
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Decentralization}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Establishment_of_OTGs"
+		}
+	}
+	focus = {
+		id = UKR_Law_On_voluntary_association_of_ter_communities
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Decentralization}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Law_On_voluntary_association_of_ter_communities"
+		}
+	}
+	focus = {
+		id = UKR_Tax_sphere
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_Law_On_voluntary_association_of_ter_communities}
+		prerequisite = {focus = UKR_Establishment_of_OTGs}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Tax_sphere"
+		}
+	}
+	focus = {
+		id = UKR_The_capital_is_more_important
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Tax_sphere}
+		relative_position_id = UKR_Tax_sphere
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_The_capital_is_more_important"
+		}
+	}
+	focus = {
+		id = UKR_More_to_the_regions
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Tax_sphere}
+		relative_position_id = UKR_Tax_sphere
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_More_to_the_regions"
+		}
+	}
+	focus = {
 		id = UKR_poroshenko_corruption
 		icon = GFX_focus_UKR_petr_poroshenko
 		cost = 1
-		x = -12
+		x = -20
 		y = 1
 
 		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
@@ -1450,7 +1627,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_cooperation_with_EU
-		icon = GFX_focus_UKR_petr_poroshenko
+		icon = GFX_focus_UKR_cooperation_with_EU
 		cost = 1
 		x = -1
 		y = 1

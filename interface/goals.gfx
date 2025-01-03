@@ -157,6 +157,18 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_yulia_timoshenko"
+	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_yulia_timoshenko"
+	    texturefile = "gfx/interface/goals/UKR/yulia_timoshenko.dds"			
+	}	
+	SpriteType = {
+	    name = "GFX_focus_UKR_cooperation_with_EU"
+	    texturefile = "gfx/interface/goals/UKR/1bd56885511f7346.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_AZV_battalion_of_azov"
 	    texturefile = "gfx/interface/goals/AZV/AZV_battalion_of_azov.dds"		
 	}
