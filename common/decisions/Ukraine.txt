@@ -660,7 +660,275 @@ UKR_Separatists_in_Ukraine = {
 }
 
 UKR_arms_deconservation = {
-	UKR_test_1 = {
+	UKR_deconservation_bmp_1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = bbm_chassis_0
+				variant_name = "БМП-1"
+				amount = 150
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_bmp_2 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+	UKR_deconservation_btr_60 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = btr1_chassis_0
+				variant_name = "БТР-60"
+				amount = 100
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_btr_70 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = btr1_chassis_1_1
+				variant_name = "БТР-70"
+				amount = 200
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_btr_80 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = btr1_chassis_1_2
+				variant_name = "БТР-80"
+				amount = 150
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_t64 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = tank_chassis_2
+				variant_name = "Т-64Б"
+				amount = 80
+				producer = UKR
+			}
+			add_equipment_to_stockpile = {
+				type = tank_chassis_2_1
+				variant_name = "Т-64БВ"
+				amount = 170
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_t72 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = tank_chassis_2_1
+				variant_name = "Т-72Б"
+				amount = 100
+				producer = RUS
+			}
+			add_equipment_to_stockpile = {
+				type = tank_chassis_2
+				variant_name = "Т-72А"
+				amount = 25
+				producer = RUS
+			}
+		}
+	}
+	UKR_deconservation_t80 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = tank_chassis_3
+				variant_name = "Т-80БВ"
+				amount = 50
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_d30 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+		available = {
+			always = no
+	    }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+	UKR_deconservation_2s1 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+		available = {
+			always = no
+	    }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+	UKR_deconservation_2s3 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+		available = {
+			always = no
+	    }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+	UKR_deconservation_bm21 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+		available = {
+			always = no
+	    }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+	}
+	UKR_deconservation_gas66 = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = truck_chassis_0
+				variant_name = "ГАЗ-66"
+				amount = 450
+				producer = UKR
+			}
+		}
+	}
+	UKR_deconservation_kraz = {
 		allowed = {
             tag = UKR
         }

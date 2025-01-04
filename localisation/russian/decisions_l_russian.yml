@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_russian:
  DECISIONVIEW_TITLE:0 "Ивенты и Решения"
  DECISIONSVIEW_EVENT_HEADER:0 "Ивенты"
  POPUP_NEWS:0 "News Popup"
@@ -45,3 +45,19 @@
  DPR_artillery_shelling:0 "Artillery shelling"
  DPR_artillery_shelling_desc:0 " "
  select_shelling_region_avdiivka: "Выбрать регион: §YАвдеевка§!"
+
+ UKR_arms_deconservation: "Расконсервация"
+ UKR_deconservation_bmp_1: "Расконсервация БМП-1"
+ UKR_deconservation_bmp_2: "Расконсервация БМП-2"
+ UKR_deconservation_btr_60: "Расконсервация БТР-60"
+ UKR_deconservation_btr_70: "Расконсервация БТР-70"
+ UKR_deconservation_btr_80: "Расконсервация БТР-80"
+ UKR_deconservation_t64: "Расконсервация Т-64"
+ UKR_deconservation_t72: "Расконсервация Т-72"
+ UKR_deconservation_t80: "Расконсервация Т-80"
+ UKR_deconservation_d30: "Расконсервация Д-30"
+ UKR_deconservation_2s1: "Расконсервация 2С1"
+ UKR_deconservation_2s3: "Расконсервация 2С3"
+ UKR_deconservation_bm21: "Расконсервация БМ-21"
+ UKR_deconservation_gas66: "Расконсервация Газ-66"
+ UKR_deconservation_kraz: "Расконсервация Краз-255"
