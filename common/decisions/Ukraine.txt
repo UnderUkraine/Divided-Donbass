@@ -89,6 +89,7 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
                         set_global_flag = UKR_ATO_Started
+						mark_focus_tree_layout_dirty = yes
 
 						RUS = {
 							activate_decision = RUS_end_the_war
@@ -302,6 +303,7 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 						set_global_flag = UKR_ATO_Started
+						mark_focus_tree_layout_dirty = yes
 
 						RUS = {
 							activate_decision = RUS_end_the_war
@@ -474,6 +476,7 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
                         set_global_flag = UKR_ATO_Started
+						mark_focus_tree_layout_dirty = yes
 
 						RUS = {
 							activate_decision = RUS_end_the_war
@@ -566,6 +569,7 @@ UKR_Separatists_in_Ukraine = {
 						}
 					}
                     set_global_flag = UKR_ATO_Started
+					mark_focus_tree_layout_dirty = yes
 
 					RUS = {
 						activate_decision = RUS_end_the_war

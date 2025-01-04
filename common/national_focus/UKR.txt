@@ -881,7 +881,8 @@ focus_tree = {
 		relative_position_id = UKR_convocation_nsds
 
 		allow_branch = {
-			has_country_flag = UKR_presidential_elections
+			#has_country_flag = UKR_presidential_elections
+			always = yes
 		}
 		
 		ai_will_do = {
@@ -1152,7 +1153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_The_capital_is_more_important
-		icon = GFX_focus_UKR_petr_poroshenko
+		icon = GFX_focus_UKR_The_capital_is_more_important
 		cost = 1
 		x = -1
 		y = 1
