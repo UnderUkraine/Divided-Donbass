@@ -59,7 +59,7 @@ UKR_Separatists_in_Ukraine = {
 	donetsk_uprising = {
 		icon = GFX_flag_of_dpr
 		is_good = yes
-		days_mission_timeout = 47 #47 days from Maidan to start of ATO
+		days_mission_timeout = 1 #47 days from Maidan to start of ATO
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
@@ -100,176 +100,17 @@ UKR_Separatists_in_Ukraine = {
 							modifier = Escalation_modifier
 						}
 					}
-						IF = {
-							limit = {
-								check_variable = {
-									var = UKR.dpr_support
-									value = 20
-									compare = greater_than
-								}
+					IF = {
+						limit = {
+							check_variable = {
+								var = UKR.dpr_support
+								value = 20
+								compare = greater_than
 							}
-	
-							355 = {
-								add_core_of = DPR
-								transfer_state_to = DPR
-								set_state_controller_to = UKR
-							}
-	
-							#Cores
-							422 = {
-								add_core_of = DPR
-							}
-							387 = {
-								add_core_of = DPR
-							}
-							301 = {
-								add_core_of = DPR
-							}
-							364 = {
-								add_core_of = DPR
-							}
-							340 = {
-								add_core_of = DPR
-							}
-							356 = {
-								add_core_of = DPR
-							}
-							396 = {
-								add_core_of = DPR
-							}
-							390 = {
-								add_core_of = DPR
-							}
-							405 = {
-								add_core_of = DPR
-							}
-							420 = {
-								add_core_of = DPR
-							}
-							443 = {
-								add_core_of = DPR
-							}
-							359 = {
-								add_core_of = DPR
-							}
-							330 = {
-								add_core_of = DPR
-							}
-							322 = {
-								add_core_of = DPR
-							}
-							289 = {
-								add_core_of = DPR
-							}
-							237 = {
-								add_core_of = DPR
-							}
-							317 = {
-								add_core_of = DPR
-							}
-							310 = {
-								add_core_of = DPR
-							}
-							285 = {
-								add_core_of = DPR
-							}
-							253 = {
-								add_core_of = DPR
-							}
-							272 = {
-								add_core_of = DPR
-							}
-							284 = {
-								add_core_of = DPR
-							}
-							264 = {
-								add_core_of = DPR
-							}
-							259 = {
-								add_core_of = DPR
-							}
-							283 = {
-								add_core_of = DPR
-							}
-							219 = {
-								add_core_of = DPR
-							}
-							439 = {
-								add_core_of = DPR
-							}
-							259 = {
-								add_core_of = DPR
-							}
-							377 = {
-								add_core_of = DPR
-							}
-							363 = {
-								add_core_of = DPR
-							}
-							332 = {
-								add_core_of = DPR
-							}
-							375 = {
-								add_core_of = DPR
-							}
-							347 = {
-                                add_core_of = DPR
-							}
-							315 = {
-								add_core_of = DPR
-							}
-	
-							DPR = {
-								set_province_controller = 7663
-								set_province_controller = 4104
-								set_province_controller = 12834
-								set_province_controller = 4237
-								set_province_controller = 12873
-								set_province_controller = 12893
-	
-								set_province_controller = 12788
-								set_province_controller = 3287
-								set_province_controller = 12764
-	
-								set_province_controller = 12219
-								set_province_controller = 12168
-								set_province_controller = 12200
-								set_province_controller = 12153
-	
-								set_province_controller = 6124
-								set_province_controller = 12988
-								set_province_controller = 13022
-	
-								set_province_controller = 12941
-	
-								set_province_controller = 12502
-	
-								set_province_controller = 7290
-							}
-	
-							DPR = {
-								create_faction = "Новороссия"
-								add_dynamic_modifier = {
-									modifier = Escalation_modifier
-								}
-
-								add_to_variable = { global.escalation_on_donbass_variable = 1 }
-
-								set_variable = {global.Escalation_stability_factor = -0.07}
-								set_variable = {global.Escalation_war_support_factor = 0.07}
-								set_variable = {global.Escalation_resistance_growth = 0.07}
-								set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
-								set_variable = {global.Escalation_fascism_drift = 0.1}
-
-								declare_war_on = {
-									target = UKR
-									type = annex_everything
-								}
-								load_oob = "DPR_2014"
-							}
-
-							country_event = ukraine.16
 						}
+
+						ukraine_rebel_dpr_1 = yes
+					}
 				}
 			}
 		}
@@ -323,126 +164,8 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 
-						269 = {
-							add_core_of = LPR
-							transfer_state_to = LPR
-							set_state_controller_to = UKR
-						}
-						304 = {
-							add_core_of = LPR
-						}
-						305 = {
-							add_core_of = LPR
-						}
-						295 = {
-							add_core_of = LPR
-						}
-						331 = {
-							add_core_of = LPR
-						}
-						342 = {
-							add_core_of = LPR
-						}
-						292 = {
-							add_core_of = LPR
-						}
-						271 = {
-							add_core_of = LPR
-						}
-						280 = {
-							add_core_of = LPR
-						}
-						278 = {
-							add_core_of = LPR
-						}
-						263 = {
-							add_core_of = LPR
-						}
-						238 = {
-							add_core_of = LPR
-						}
-						210 = {
-							add_core_of = LPR
-						}
-						171 = {
-							add_core_of = LPR
-						}
-						136 = {
-							add_core_of = LPR
-						}
-						156 = {
-							add_core_of = LPR
-						}
-						161 = {
-							add_core_of = LPR
-						}
-						170 = {
-							add_core_of = LPR
-						}
-						180 = {
-							add_core_of = LPR
-						}
-						248 = {
-							add_core_of = LPR
-						}
-						228 = {
-							add_core_of = LPR
-						}
-						200 = {
-							add_core_of = LPR
-						}
-						203 = {
-							add_core_of = LPR
-						}
-						242 = {
-							add_core_of = LPR
-						}
-						265 = {
-							add_core_of = LPR
-						}
-						245 = {
-							add_core_of = LPR
-						}
-						267 = {
-							add_core_of = LPR
-						}
-						229 = {
-							add_core_of = LPR
-						}
-
-						LPR = {
-							set_province_controller = 11805
-							set_province_controller = 11847
-							set_province_controller = 5683
-							set_province_controller = 11848
-							set_province_controller = 11813
-
-							set_province_controller = 10613
-							set_province_controller = 8086
-							set_province_controller = 10695
-							set_province_controller = 10673
-						}
-
-						DPR = {
-							add_to_faction = LPR
-						}
-
-						LPR = {
-							add_to_variable = { global.escalation_on_donbass_variable = 1 }
-
-							set_capital = {
-								state = 269
-							}
-							declare_war_on = {
-								target = UKR
-								type = annex_everything
-							}
-						}
-
-						country_event = ukraine.17
+						ukraine_rebel_lpr_1 = yes
 					}
-
-					#TODO Separatists units
 				}
 			}
 		}
@@ -497,36 +220,7 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 
-						137 = {
-							add_core_of = KPR
-							transfer_state_to = KPR
-							set_state_controller_to = UKR
-						}
-						117 = {
-							add_core_of = KPR
-							transfer_state_to = UKR
-							set_state_controller_to = UKR
-						}
-
-						KPR = {
-							set_province_controller = 8936
-							set_province_controller = 8996
-							set_province_controller = 8966
-							set_province_controller = 9015
-							set_province_controller = 8997
-						}
-
-						KPR = {
-							set_capital = {
-								state = 137
-							}
-							declare_war_on = {
-								target = UKR
-								type = annex_everything
-							}
-						}
-
-						country_event = ukraine.18
+						ukraine_rebel_kpr_1 = yes
 
 						else_if = {
 							limit = { check_variable = { var = UKR.kpr_support value = 19 compare = less_than } }
@@ -534,8 +228,6 @@ UKR_Separatists_in_Ukraine = {
 							country_event = ukraine.21
 						}
 					}
-
-					#TODO Separatists units
 				}
 			}
 		}
@@ -575,11 +267,6 @@ UKR_Separatists_in_Ukraine = {
 						activate_decision = RUS_end_the_war
 					}
 				}
-				OPR = {
-					add_dynamic_modifier = {
-						modifier = Escalation_modifier
-					}
-				}
 					IF = {
 						limit = {
 							check_variable = {
@@ -589,40 +276,7 @@ UKR_Separatists_in_Ukraine = {
 							}
 						}
 
-						467 = {
-							add_core_of = OPR
-							transfer_state_to = OPR
-							set_state_controller_to = UKR
-						}
-
-						OPR = {
-							set_province_controller = 14299
-							set_province_controller = 4498
-							set_province_controller = 14320
-							set_province_controller = 14282
-							set_province_controller = 14270
-
-							set_province_controller = 5346
-							set_province_controller = 14343
-							set_province_controller = 6823
-							set_province_controller = 3143
-						}
-
-						DPR = {
-							add_to_faction = OPR
-						}
-
-						OPR = {
-							set_capital = {
-								state = 467
-							}
-							declare_war_on = {
-								target = UKR
-								type = annex_everything
-							}
-						}
-
-						country_event = ukraine.19
+						ukraine_rebel_opr_1 = yes
 
 						else_if = {
 							limit = { check_variable = { var = UKR.opr_support value = 19 compare = less_than } }
@@ -630,8 +284,6 @@ UKR_Separatists_in_Ukraine = {
 							country_event = ukraine.20
 						}
 					}
-
-					#TODO Separatists units
 				}
 			}
 		}

@@ -29,172 +29,70 @@ debug_category = {
         icon = generic_formable_nations
         priority = 1000
         days_re_enable = 1
-		fire_only_once = yes
+		fire_only_once = no
         complete_effect = {
-            355 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
+            hidden_effect = {
+                ukraine_rebel_dpr_1 = yes
             }
-            347 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
-            }
-            336 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
-            }
-            353 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
-            }
-            369 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
-            }
-            315 = {
-                add_core_of = DPR
-                transfer_state_to = DPR
-                set_state_controller_to = UKR
-            }
+        }
+    }
 
-            #Cores
-            422 = {
-                add_core_of = DPR
+    rebel_lpr_debug = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = generic_formable_nations
+        priority = 1000
+        days_re_enable = 1
+		fire_only_once = no
+        complete_effect = {
+            hidden_effect = {
+                ukraine_rebel_lpr_1 = yes
             }
-            387 = {
-                add_core_of = DPR
-            }
-            301 = {
-                add_core_of = DPR
-            }
-            364 = {
-                add_core_of = DPR
-            }
-            340 = {
-                add_core_of = DPR
-            }
-            356 = {
-                add_core_of = DPR
-            }
-            396 = {
-                add_core_of = DPR
-            }
-            390 = {
-                add_core_of = DPR
-            }
-            405 = {
-                add_core_of = DPR
-            }
-            420 = {
-                add_core_of = DPR
-            }
-            443 = {
-                add_core_of = DPR
-            }
-            359 = {
-                add_core_of = DPR
-            }
-            330 = {
-                add_core_of = DPR
-            }
-            322 = {
-                add_core_of = DPR
-            }
-            289 = {
-                add_core_of = DPR
-            }
-            237 = {
-                add_core_of = DPR
-            }
-            317 = {
-                add_core_of = DPR
-            }
-            310 = {
-                add_core_of = DPR
-            }
-            285 = {
-                add_core_of = DPR
-            }
-            253 = {
-                add_core_of = DPR
-            }
-            272 = {
-                add_core_of = DPR
-            }
-            284 = {
-                add_core_of = DPR
-            }
-            264 = {
-                add_core_of = DPR
-            }
-            259 = {
-                add_core_of = DPR
-            }
-            283 = {
-                add_core_of = DPR
-            }
-            219 = {
-                add_core_of = DPR
-            }
-            439 = {
-                add_core_of = DPR
-            }
-            259 = {
-                add_core_of = DPR
-            }
-            377 = {
-                add_core_of = DPR
-            }
-            363 = {
-                add_core_of = DPR
-            }
-            332 = {
-                add_core_of = DPR
-            }
+        }
+    }
 
-            DPR = {
-                set_province_controller = 7663
-                set_province_controller = 4104
-                set_province_controller = 12834
-                set_province_controller = 4237
-                set_province_controller = 12873
-                set_province_controller = 12893
-
-                set_province_controller = 12788
-                set_province_controller = 3287
-                set_province_controller = 12764
-
-                set_province_controller = 12219
-                set_province_controller = 12168
-                set_province_controller = 12200
-                set_province_controller = 12153
-
-                set_province_controller = 6124
-                set_province_controller = 12988
-                set_province_controller = 13022
-
-                set_province_controller = 12941
-
-                set_province_controller = 12502
-
-                set_province_controller = 7290
+    rebel_kpr_debug = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = generic_formable_nations
+        priority = 1000
+        days_re_enable = 1
+		fire_only_once = no
+        complete_effect = {
+            hidden_effect = {
+                ukraine_rebel_kpr_1 = yes
             }
+        }
+    }
 
-            DPR = {
-                create_faction = "Новороссия"
-                add_dynamic_modifier = {
-                    modifier = Escalation_modifier
-                }
-                declare_war_on = {
-                    target = UKR
-                    type = annex_everything
-                }
-                load_oob = "DPR_2014"
+    rebel_opr_debug = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = generic_formable_nations
+        priority = 1000
+        days_re_enable = 1
+		fire_only_once = no
+        complete_effect = {
+            hidden_effect = {
+                ukraine_rebel_opr_1 = yes
             }
         }
     }
