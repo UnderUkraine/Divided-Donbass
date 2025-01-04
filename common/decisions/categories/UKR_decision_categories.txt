@@ -43,7 +43,7 @@ UKR_Separatists_in_Ukraine = {
 
 UKR_Verhovna_rada = {
 	icon = GFX_Verhovna_rada_decision
-	#picture = GFX_separatists_background_image
+    picture = GFX_Rada_image
 	priority = 290
 	allowed = {
 		original_tag = UKR
