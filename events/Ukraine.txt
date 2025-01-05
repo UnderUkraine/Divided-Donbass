@@ -477,8 +477,6 @@ country_event = {
 	
 	option = {
 		name = ukraine.15.a
-
-		add_political_power = 25
 	}
 }
 

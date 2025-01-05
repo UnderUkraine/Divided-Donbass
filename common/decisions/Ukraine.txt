@@ -37,7 +37,7 @@ UKR_Maidan_Support_category = {
 				retire_country_leader = yes
 
 				set_politics = {
-				    ruling_party = democratic
+				    ruling_party = conservatism_democratic
 				    elections_allowed = yes
 			    }
 				remove_ideas = {

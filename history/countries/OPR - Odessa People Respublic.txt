@@ -19,8 +19,9 @@ add_ideas = {
 set_major = yes
 
 set_popularities = {
-	democratic = 0
-	fascism = 5
-	communism = 25
-	neutrality = 70
+	liberal_democratic = 0
+	conservatism_democratic = 0
+	fascism = 10
+	communism = 15
+	autoritarian_democracy = 75
 }
