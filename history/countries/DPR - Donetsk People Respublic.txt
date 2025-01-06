@@ -131,7 +131,7 @@ set_war_support = 90
 create_country_leader = {
 	name = dpr_pro_russian_separatists
 	#desc = dpr_pro_russian_separatists_desc
-	ideology = oligarchism
+	ideology = autoritarian_democracy
 	picture = gfx/leaders/DPR/dpr_leader_none.dds
 	traits = {dpr_anarchy}
 }
@@ -148,13 +148,14 @@ set_rule = {
 }
 
 set_popularities = {
-	democratic = 0
+	liberal_democratic = 0
+	conservatism_democratic = 0
 	fascism = 10
 	communism = 15
-	neutrality = 75
+	autoritarian_democracy = 75
 }
 
-add_manpower = 5000
+add_manpower = 5500
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0

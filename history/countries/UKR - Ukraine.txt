@@ -579,11 +579,8 @@ create_equipment_variant = {
 		bbm_1_chassis = 1
 	}
 	
-	recruit_character = victor_yanukovich
-	recruit_character = alexander_tyrchinov
-	
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = autoritarian_democracy
 		last_election = "2010.02.07"
 		election_frequency = 48
 		elections_allowed = no
@@ -599,10 +596,11 @@ create_equipment_variant = {
 	set_variable = { UKR_maidan_support = 65 }
 	
 	set_popularities = {
-		democratic = 35
-		fascism = 5
-		communism = 15
-		neutrality = 45
+		liberal_democratic = 15
+		conservatism_democratic = 35
+		nationalism_group = 15
+		communism = 10
+		autoritarian_democracy = 25
 	}
 
 	set_country_flag = rada_2012
@@ -810,6 +808,22 @@ create_equipment_variant = {
 		amount = 500
 		producer = UKR
 	}
+
+	create_country_leader = {
+		name = alexander_tyrchinov
+		#desc = victor_yanukovich_desc
+		ideology = conservatism
+		picture = gfx/leaders/UKR/turchinov.dds
+		traits = {}
+	}
+
+	create_country_leader = {
+		name = victor_yanukovich
+		#desc = victor_yanukovich_desc
+		ideology = autoritarian_democractic
+		picture = gfx/leaders/UKR/Yanukovich.dds
+		traits = {oligarch_avtokrat}
+	}
 	
 	add_ideas = {
 		UKR_protests
@@ -857,7 +871,7 @@ create_equipment_variant = {
 	create_country_leader = {
 		name = petro_poroshenko
 		#desc = petro_poroshenko_desc
-		ideology = conservatism_bpp
+		ideology = autoritarian_democractic
 		picture = gfx/leaders/UKR/poroshenko.dds
 		traits = { }
 	}

@@ -31,6 +31,37 @@
 recruit_character = vladimir_putin
 recruit_character = aleksei_navalniy
 
+create_country_leader = {
+	name = vladimir_putin
+	#desc = petro_poroshenko_desc
+	ideology = autoritarian_democractic
+	picture = gfx/leaders/RUS/vladimir_putin.dds
+	traits = { president_of_russian_federation }
+}
+
+create_country_leader = {
+	name = aleksei_navalniy
+	#desc = petro_poroshenko_desc
+	ideology = liberalism
+	picture = gfx/leaders/RUS/aleksei_navalniy.dds
+	traits = { president_of_russian_federation }
+}
+
+aleksei_navalniy = {
+	name = aleksei_navalniy
+	portraits = {
+		civilian = {
+			large = "/gfx/leaders/RUS/aleksei_navalniy.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = {  
+		}
+	}
+}
+
 capital = 558
 set_technology = {
 	infantry_weapons = 1
@@ -347,7 +378,7 @@ create_equipment_variant = {
 }
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = autoritarian_democracy
     last_election = "2019.05.20"
     election_frequency = 48
     elections_allowed = no
@@ -446,8 +477,9 @@ add_equipment_to_stockpile = {
 }
 
 set_popularities = {
-	democratic = 3
-	fascism = 7
-	communism = 10
-	neutrality = 80
+	liberal_democratic = 5
+	conservatism_democratic = 10
+	fascism = 5
+	communism = 5
+	autoritarian_democracy = 75
 }
