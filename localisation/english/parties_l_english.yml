@@ -42,7 +42,6 @@
  autoritarian_democractic:0 "Authoritarian Democracy"
  autoritarian_democractic_desc:0 ""
 
-
  #fascism_desc:0 "Totalitarian Regime"
  #communism_desc:0 "Totalitarian Regime"
  #democratic_desc:0 "Democratic Regime"
@@ -51,6 +50,3 @@
  UKR_conservatism_democratic_party:0 "Batkivshina"
  UKR_communism_party:0 "CPU"
  UKR_autoritarian_democracy_party:0 "Partia Regioniv"
-
- UKR_democratic_party_BPP:0 "BPP"
- UKR_democratic_party_BPP_long:0 "Blok Petra Poroshenko"

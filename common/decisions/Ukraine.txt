@@ -4,20 +4,15 @@ UKR_Maidan_Support_category = {
 		is_good = yes
 		days_mission_timeout = 52 #52 to February 22
 		selectable_mission = no
+		fire_only_once = yes
 		available = {
-			victor_yanukovich = {
-				is_country_leader = no
-			}
+			always = no
 		}
 		activation = {
-			has_country_leader = {
-                character = victor_yanukovich
-			}
-		}
-		visible = {
-			has_country_leader = {
-                character = victor_yanukovich
-			}
+			#has_country_leader = {
+            #    character = victor_yanukovich
+			#}
+			always = yes
 		}
 		timeout_effect = {
 			country_event = ukraine.2
@@ -38,7 +33,7 @@ UKR_Maidan_Support_category = {
 
 				set_politics = {
 				    ruling_party = conservatism_democratic
-				    elections_allowed = yes
+				    elections_allowed = no
 			    }
 				remove_ideas = {
 					UKR_protests
@@ -59,7 +54,7 @@ UKR_Separatists_in_Ukraine = {
 	donetsk_uprising = {
 		icon = GFX_flag_of_dpr
 		is_good = yes
-		days_mission_timeout = 1 #47 days from Maidan to start of ATO
+		days_mission_timeout = 47 #47 days from Maidan to start of ATO
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
