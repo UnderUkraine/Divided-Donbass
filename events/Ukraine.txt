@@ -673,3 +673,26 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.26.a executed"
 	}
 }
+#Upcoming snap elections
+country_event = {
+	id = ukraine.27
+	title = ukraine.27.t
+	desc = ukraine.27.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+    immediate = {
+		set_country_flag = UKR_Elections_started
+
+
+        
+
+		activate_decision = UKR_incoming_elections
+	}
+
+	option = {
+		name = ukraine.26.a
+		log = "[GetDateText]: [This.GetName]: ukraine.27.a executed"
+	}
+}

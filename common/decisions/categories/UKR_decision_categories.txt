@@ -128,3 +128,18 @@ UKR_Negotations = {
 	}
 	scripted_gui = negotations_gui
 }
+
+UKR_President_elections = {
+	icon = GFX_Verhovna_rada_decision
+	picture = GFX_Minsk_image
+	priority = 300
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		#has_global_flag = UKR_Negotations_started
+		has_country_flag = UKR_Elections_started
+	}
+	#scripted_gui = negotations_gui
+}
