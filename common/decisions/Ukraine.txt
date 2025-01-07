@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 52 #52 to February 22
+		days_mission_timeout = 37 #37 to February 22
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
@@ -12,7 +12,7 @@ UKR_Maidan_Support_category = {
 			#has_country_leader = {
             #    character = victor_yanukovich
 			#}
-			always = yes
+			always = no
 		}
 		timeout_effect = {
 			country_event = ukraine.2
@@ -24,6 +24,10 @@ UKR_Maidan_Support_category = {
 			hidden_effect = {
 			news_event = news.7
 			UKR = {
+
+
+                set_country_flag = UKR_Yanukovich_overthrown
+
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
@@ -621,6 +625,26 @@ UKR_SBU_operations = {
 	}
 }
 
+UKR_anti_terroristic_operation = {
+	UKR_Launch_an_operation_to_de_occupy_the_north_of_Donetsk_region = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			has_country_flag = UKR_ATO_Operations
+        }
+        available = {
+        }
+        icon = GFX_sbu_icon_decision
+        priority = 10
+        days_re_enable = 1
+		days_remove = 10
+        remove_effect = {
+			#TODO COUNTERATTACK
+		}
+	}
+}
+
 UKR_President_elections = {
 	UKR_incoming_elections = {
 		icon = GFX_Verhovna_rada_decision
@@ -632,10 +656,10 @@ UKR_President_elections = {
 			always = no
 		}
 		activation = {
-			has_global_flag = UKR_Elections_started
+			has_country_flag = UKR_Elections_started
 		}
 		visible = {
-			has_global_flag = UKR_Elections_started
+			has_country_flag = UKR_Elections_started
 		}
 		timeout_effect = {
             #TODO ELECTIONS

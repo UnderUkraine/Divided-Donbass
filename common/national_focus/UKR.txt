@@ -592,7 +592,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_massive_rivok
+		id = UKR_Start_of_operations_in_the_ATO_zone
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
@@ -610,7 +610,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_massive_rivok"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Start_of_operations_in_the_ATO_zone"
+
+			set_country_flag = UKR_ATO_Operations
 		}
 	}
 	focus = {
@@ -622,7 +624,7 @@ focus_tree = {
 
 		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
 		prerequisite = {focus = UKR_buy_weapon}
-		prerequisite = {focus = UKR_massive_rivok}
+		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
 		relative_position_id = UKR_general_staff
 		
 		ai_will_do = {

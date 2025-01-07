@@ -14,9 +14,12 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_to_variable = {
-			variable = UKR_maidan_support
-			value = 15
+		hidden_effect = {
+			activate_mission = yanukovich_overthrow
+			add_to_variable = {
+				variable = UKR_maidan_support
+				value = 15
+			}
 		}
 	}
 	
@@ -488,9 +491,14 @@ country_event = {
 	#picture = GFX_report_event_royal_parade
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = ukraine.16.a
+
+		ai_chance = {
+			modifier = 100
+		}
 	}
 
 	option = {
