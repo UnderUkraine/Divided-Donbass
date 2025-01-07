@@ -685,8 +685,7 @@ country_event = {
     immediate = {
 		set_country_flag = UKR_Elections_started
 
-
-        
+        ukraine_elections_set_support = yes
 
 		activate_decision = UKR_incoming_elections
 	}
