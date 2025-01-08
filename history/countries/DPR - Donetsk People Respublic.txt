@@ -177,7 +177,7 @@ set_war_support = 90
 create_country_leader = {
 	name = dpr_pro_russian_separatists
 	#desc = dpr_pro_russian_separatists_desc
-	ideology = autoritarian_democracy
+	ideology = autoritarian_democratic
 	picture = gfx/leaders/DPR/dpr_leader_none.dds
 	traits = {dpr_anarchy}
 }
