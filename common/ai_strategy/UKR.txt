@@ -5,12 +5,14 @@ UKR_counteroffensive_in_donetsk = {
 
 	enable = {
 		#has_global_flag = 
+		always = no
 	}
 
 	abort = {
 		NOT = {
 			#has_global_flag = 
 		}
+		always = no
 	}
 	
 	ai_strategy = {

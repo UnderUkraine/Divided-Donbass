@@ -48,46 +48,8 @@ DPR_attack_north = {
 
 	ai_strategy = {
 		type = front_control
-        priority = 110
+        priority = 500
 		strategic_region = 6
-		ordertype = front
-		execution_type = rush
-		execute_order = yes
-		manual_attack = yes
-	}
-
-	ai_strategy = {
-		type = front_control
-        priority = 100
-		strategic_region = 5
-		ordertype = front
-		execution_type = rush
-		execute_order = yes
-		manual_attack = yes
-	}
-}
-
-DPR_attack_south_to_mariupol = {
-	allowed = {
-		original_tag = DPR
-	}
-
-	enable = {
-		#has_war_with = UKR
-		always = no
-	}
-
-	abort = {
-		#NOT = {
-		#	has_war_with = UKR
-		#}
-		always = no
-	}
-
-	ai_strategy = {
-		type = front_control
-		priority = 100
-		strategic_region = 4
 		ordertype = front
 		execution_type = rush
 		execute_order = yes

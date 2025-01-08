@@ -108,6 +108,18 @@ ukraine_rebel_dpr_1 = {
     315 = {
         add_core_of = DPR
     }
+    529 = {
+        add_core_of = DPR
+    }
+    336 = {
+        add_core_of = DPR
+    }
+    353 = {
+        add_core_of = DPR
+    }
+    532 = {
+        add_core_of = DPR
+    }
 
     DPR = {
         set_province_controller = 7663
@@ -301,6 +313,7 @@ ukraine_rebel_lpr_1 = {
             target = UKR
             type = annex_everything
         }
+        load_oob = "LPR_2014"
     }
 
     country_event = ukraine.17

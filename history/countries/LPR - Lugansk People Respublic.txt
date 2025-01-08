@@ -12,6 +12,7 @@ set_politics = {
 
 add_ideas = {
 	LPR_Peoples_republic
+	LPR_independence_war
 
 	not_recognized_state
 }
@@ -34,4 +35,49 @@ set_popularities = {
 	fascism = 10
 	communism = 15
 	autoritarian_democracy = 75
+}
+
+add_manpower = 5500
+
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 3000
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 500
+}
+
+add_equipment_to_stockpile = {
+	type = truck_chassis_0
+	variant_name = "ГАЗ-66"
+	amount = 50
+}
+
+add_equipment_to_stockpile = {
+	type = truck_chassis_1
+	variant_name = "Урал-375"
+	amount = 60
+}
+
+add_equipment_to_stockpile = {
+	type = truck_chassis_2
+	variant_name = "КамАЗ-4310"
+	amount = 1000
+}
+
+add_equipment_to_stockpile = {
+	type = btr1_chassis_0
+	variant_name = "БТР-60"
+	amount = 20
+}
+
+add_equipment_to_stockpile = {
+	type = btr1_chassis_1_1
+	variant_name = "БТР-70"
+	amount = 25
 }

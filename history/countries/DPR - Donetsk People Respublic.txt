@@ -1,6 +1,52 @@
 ﻿capital = 355
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons_2 = 1
+	infantry_weapons1 = 1
+	infantry_weapons1_2 = 1
+	infantry_weapons2 = 1
+
+	rpg_weapons = 1
+	rpg_weapons1 = 1
+
+	atgm_weapons = 1
+	atgm_weapons1 = 1
+	atgm_weapons2 = 1
+	atgm_weapons3 = 1
+
+	manpads_weapons = 1
+	manpads_weapons1 = 1
+	manpads_weapons2 = 1
+
+	mortar_weapons = 1
+	mortar_weapons1 = 1
+	mortar_weapons2 = 1
+
+	tech_trucks = 1
+	tech_trucks_1 = 1
+	tech_trucks_2 = 1
+	tech_trucks_3 = 1
+
+	gw_artillery = 1
+
+	#SUPPORT
+	tech_support = 1
+
+	#ARMOR
+	tank_chassis = 1
+	tank1_chassis = 1
+	tank2_chassis = 1
+	tank3_chassis = 1
+	tank4_chassis = 1
+	tank5_chassis = 1
+
+	btr1_chassis = 1
+	btr1_1_chassis = 1
+	btr1_2_chassis = 1
+	btr2_chassis = 1
+
+	bbm_chassis = 1
+	bbm_1_chassis = 1
 }
 
 set_politics = {
@@ -174,21 +220,18 @@ add_equipment_to_stockpile = {
 	type = truck_chassis_0
 	variant_name = "ГАЗ-66"
 	amount = 50
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
-	type = truck_chassis_0
-	variant_name = "ГАЗ-66"
+	type = truck_chassis_1
+	variant_name = "Урал-375"
 	amount = 60
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
-	type = truck_chassis_0
-	variant_name = "ГАЗ-66"
+	type = truck_chassis_2
+	variant_name = "КамАЗ-4310"
 	amount = 1000
-	producer = UKR
 }
 
 add_equipment_to_stockpile = {
