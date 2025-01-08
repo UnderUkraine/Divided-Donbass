@@ -24,63 +24,46 @@ sub_units = {
 	
 		combat_width = 0
 	
-		#Size Definitions
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 10
-		training_time = 120
-
-		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.02
-				
-		defense = 0.1
-		breakthrough = 0.5
-
-		# Support nerfs to combat abilities
-		soft_attack = 0.5
-
-		essential = {
-			support_equipment
-		}
-
 		need = {
-			tank_chassis = 10
+			tank_chassis = 5
 		}
+		manpower = 15
+		max_organisation = 15
+		default_morale = 0.3
+		training_time = 150
+		max_strength = 2
+		weight = 3
+		supply_consumption = 0.15
 
-		can_be_parachuted = yes
+		breakthrough = 0.25
+		suppression = 2.5
+
 		forest = {
-			defence = 0.25
-			movement = 0.05
+		    attack = -0.4
+			movement = -0.4
 		}
-
-		hills = {
-			defence = 0.1
+		mountain = 	{
+		    attack = -0.5
 		}
-
 		jungle = {
-			defence = 0.25
+		    attack = -0.3
+			movement = -0.4
 		}
-
 		marsh = {
-			defence = 0.25
-			movement = 0.2
+		    attack = -0.2 
+			movement = -0.2
 		}
-
-		fort = {
-			attack = 0.1
-			defence = 0.25
+		urban = {
+			attack = -0.4
+			defence = -0.1
 		}
-
-		river = {
-			defence = 0.25
-			movement = 0.25
+		river = { 
+			attack = -0.2 
+			movement = -0.2
 		}
-
-		amphibious = {
-			attack = 0.15
-		}
+		amphibious = { 
+			attack = -0.4
+		}	
 
 		same_support_type = tank_company
 	}
