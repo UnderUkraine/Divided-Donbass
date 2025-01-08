@@ -289,9 +289,9 @@ guiTypes = {
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
 		position = { x=0 y =110}
-		size = { width = 500 height = 1100 }
-		Orientation = center_right
-		Origo = center_right		
+		size = { width = 300 height = 1000 }
+		Orientation = center
+		Origo = center		
 
 		positionType = {
 			name = "subscription_size"
@@ -305,7 +305,7 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 210 y = 0 }
+			position = { x = 0 y = 0 }
 			quadTextureSprite ="GFX_main_lobby_button_singleplayer"
 			font = "hoi_24header"			
 			#text = "FE_SINGLE_PLAYER"				
@@ -315,7 +315,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 210 y = 200}
+			position = { x = 0 y = 200}
 			quadTextureSprite ="GFX_main_lobby_button_multiplayer"
 			font = "hoi_24header"			
 			#text = "FE_MULTI_PLAYER"			
@@ -351,7 +351,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 210 y = 400 }
+			position = { x = 0 y = 400 }
 			quadTextureSprite ="GFX_main_lobby_button_options"	
 			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -361,7 +361,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 320 y = 800 }
+			position = { x = 110 y = 800 }
 			quadTextureSprite ="GFX_main_lobby_button_profile"
 			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -380,7 +380,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "friends_button"
-			position = { x = 210 y = 800 }
+			position = { x = 0 y = 800 }
 			quadTextureSprite ="GFX_main_lobby_button_friends"
 			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -390,7 +390,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 420 y = 800 }
+			position = {  x = 210 y = 800 }
 			quadTextureSprite ="GFX_main_lobby_button_credits"	
 			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -400,7 +400,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 210 y = 880 }
+			position = { x = 0 y = 880 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -408,7 +408,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 210 y = 600 }
+			position = { x = 0 y = 600 }
 			quadTextureSprite ="GFX_main_lobby_button_exit"
 			#buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
