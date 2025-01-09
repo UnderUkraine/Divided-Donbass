@@ -120,6 +120,9 @@ ukraine_rebel_dpr_1 = {
     532 = {
         add_core_of = DPR
     }
+    563 = {
+        add_core_of = DPR
+    }
 
     DPR = {
         set_province_controller = 7663
