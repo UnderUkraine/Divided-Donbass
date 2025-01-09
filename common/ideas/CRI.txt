@@ -65,7 +65,7 @@ ideas = {
             
             modifier = {
                 army_attack_factor = -0.02
-                surrender_limit = -0.45
+                surrender_limit = -0.5
             }
         }  
         CRI_subject_russia = {

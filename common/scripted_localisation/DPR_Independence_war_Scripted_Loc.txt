@@ -1,0 +1,168 @@
+defined_text = {
+    name = get_dpr_independence_war_description
+	
+    text = {
+        localization_key = "get_dpr_independence_war_description"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_donetsk
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_state = 355
+            }
+        }
+        localization_key = "get_dpr_control_yes_donetsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_state = 355
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_donetsk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_kramatorsk
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 11420
+            }
+        }
+        localization_key = "get_dpr_control_yes_kramatorsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 11420
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_kramatorsk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_slavyansk
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 11420
+            }
+        }
+        localization_key = "get_dpr_control_yes_slavyansk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 11420
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_slavyansk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_volnovaha
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 13452
+            }
+        }
+        localization_key = "get_dpr_control_yes_volnovaha"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 13452
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_volnovaha"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_mariupol
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_state = 439
+            }
+        }
+        localization_key = "get_dpr_control_yes_mariupol"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_state = 439
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_mariupol"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_krasnoarmeisk
+    
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 12304
+            }
+        }
+        localization_key = "get_dpr_control_yes_krasnoarmeisk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 12304
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_krasnoarmeisk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_artemovsk
+    
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 11704
+            }
+        }
+        localization_key = "get_dpr_control_yes_artemovsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 11704
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_artemovsk"
+    }
+}

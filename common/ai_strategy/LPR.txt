@@ -1,6 +1,6 @@
-DPR_war_with_ukraine = {
+LPR_war_with_ukraine = {
 	allowed = {
-		original_tag = DPR
+		original_tag = LPR
 	}
 
 	enable = {
@@ -24,14 +24,14 @@ DPR_war_with_ukraine = {
 	}
 	ai_strategy = {
 		type = front_unit_request
-		tag = LPR
+		tag = DPR
 		value = -200
 	}
 }
 
-DPR_attack_north = {
+LPR_attack_north_oblast = {
 	allowed = {
-		original_tag = DPR
+		original_tag = LPR
 	}
 
 	enable = {
@@ -49,15 +49,15 @@ DPR_attack_north = {
 	ai_strategy = {
 		type = front_control
         priority = 1000
-		strategic_region = 6
+		strategic_region = 7
 		ordertype = front
 		execution_type = rush
 		manual_attack = yes
 	}
 	ai_strategy = {
 		type = front_control
-        priority = 100
-		strategic_region = 5
+        priority = 500
+		strategic_region = 8
 		ordertype = front
 		execution_type = rush
 		manual_attack = yes
@@ -90,7 +90,7 @@ DPR_no_war_with_ukraine = {
 	}
 	ai_strategy = {
 		type = front_unit_request
-		tag = LPR
+		tag = DPR
 		value = -200
 	}
 	ai_strategy = {

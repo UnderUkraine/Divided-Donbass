@@ -23,4 +23,29 @@
  party_five_temp_government_1:0 "ВО «Свобода»: §b[?UKR.party_five_deputaty]§!"
  party_six_temp_government_1:0 "Другие: §g[?UKR.party_six_deputaty]§!"
 
+#DPR Independence war
+
+ get_dpr_independence_war_description:0 "Война за независимость Донецкой Народной Республики началась для нас как борьба за право жить в мире, где уважаются наши язык, культура и история. После событий евромайдана мы осознали, что центральные власти Украины перестали слышать свой народ. Пренебрежение нашими интересами, запреты на использование русского языка и попытки навязать чуждые нам ценности стали последней каплей."
+
+ get_dpr_control_yes_donetsk:0 "Донецк: §GПод нашим контролем§!"
+ get_dpr_control_no_donetsk:0 "Донецк: §RПод контролем противника§!"
+
+ get_dpr_control_yes_kramatorsk:0 "Краматорск: §GПод нашим контролем§!"
+ get_dpr_control_no_kramatorsk:0 "Краматорск: §RПод контролем противника§!"
+
+ get_dpr_control_yes_slavyansk:0 "Славянск: §GПод нашим контролем§!"
+ get_dpr_control_no_slavyansk:0 "Славянск: §RПод контролем противника§!"
+
+ get_dpr_control_yes_volnovaha:0 "Волноваха: §GПод нашим контролем§!"
+ get_dpr_control_no_volnovaha:0 "Волноваха: §RПод контролем противника§!"
+
+ get_dpr_control_yes_mariupol:0 "Мариуполь: §GПод нашим контролем§!"
+ get_dpr_control_no_mariupol:0 "Мариуполь: §RПод контролем противника§!"
+
+ get_dpr_control_yes_krasnoarmeisk:0 "Красноармейск: §GПод нашим контролем§!"
+ get_dpr_control_no_krasnoarmeisk:0 "Красноармейск: §RПод контролем противника§!"
+
+ get_dpr_control_yes_artemovsk:0 "Артёмовск: §GПод нашим контролем§!"
+ get_dpr_control_no_artemovsk:0 "Артёмовск: §RПод контролем противника§!"
+
  negotations_text:0 "Процес переговоров"
