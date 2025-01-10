@@ -4,13 +4,12 @@ state={
 	provinces={
 		1644 1845 1961 2349 3550 3622 4762 5777 8537 8556 
 	}
+	resources = {
+		oil = 2
+	}
 	history={
 		owner = UKR
 		add_core_of = UKR
-
-		resources = {
-			oil = 2
-		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1
