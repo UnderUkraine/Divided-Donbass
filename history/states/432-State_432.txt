@@ -7,6 +7,14 @@ state={
 	history={
 		owner = UKR
 		add_core_of = UKR
+
+		victory_points = {
+			2689 10
+		}
+
+		resources = {
+			iron = 4
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

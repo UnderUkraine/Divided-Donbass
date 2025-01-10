@@ -731,5 +731,52 @@ country_event = {
 	option = {
 		name = ukraine.29.a
 		log = "[GetDateText]: [This.GetName]: ukraine.29.a executed"
+		
+        add_war_support = -0.05
+	}
+}
+
+#Offensive in Kramatorsk operation detail
+country_event = {
+	id = ukraine.30
+	title = ukraine.30.t
+	desc = ukraine.30.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.30.a
+		log = "[GetDateText]: [This.GetName]: ukraine.30.a executed"
+	}
+}
+
+#Offensive in Severodonetsk operation detail
+country_event = {
+	id = ukraine.31
+	title = ukraine.31.t
+	desc = ukraine.31.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.31.a
+		log = "[GetDateText]: [This.GetName]: ukraine.31.a executed"
+	}
+}
+
+#Offensive in Luhansk operation detail
+country_event = {
+	id = ukraine.32
+	title = ukraine.32.t
+	desc = ukraine.32.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.31.a
+		log = "[GetDateText]: [This.GetName]: ukraine.32.a executed"
 	}
 }

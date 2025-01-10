@@ -17,6 +17,10 @@ state={
 			synthetic_refinery = 2
 			fuel_silo = 3
 		}
+
+		resources = {
+			oil = 4
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=2500000
