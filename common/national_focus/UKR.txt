@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
-	continuous_focus_position = { x = 4000 y = 3000 }
+	continuous_focus_position = { x = 5500 y = 4000 }
 
 	initial_show_position = {
 		focus = UKR_anarchy_in_goverment
@@ -405,7 +405,7 @@ focus_tree = {
 		id = UKR_ato
 		icon = GFX_focus_UKR_ato
 		cost = 15
-		x = 0
+		x = 4
 		y = 1
 
 		prerequisite = {focus = UKR_convocation_nsds}
@@ -876,7 +876,7 @@ focus_tree = {
 		id = UKR_vneocheridnie_prezidenstkie_vibori
 		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
 		cost = 1
-		x = -10
+		x = -4
 		y = 1
 
 		prerequisite = {focus = UKR_convocation_nsds}

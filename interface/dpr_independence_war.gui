@@ -10,7 +10,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_donetsk"
 			position = { x = -110 y = 210 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_donetsk]"
 			maxWidth = 700
@@ -19,7 +19,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_kramatorsk"
 			position = { x = -110 y = 240 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_kramatorsk]"
 			maxWidth = 700
@@ -28,7 +28,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_slavyansk"
 			position = { x = -110 y = 270 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_slavyansk]"
 			maxWidth = 700
@@ -37,7 +37,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_volnovaha"
 			position = { x = -110 y = 300 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_volnovaha]"
 			maxWidth = 700
@@ -46,7 +46,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_mariupol"
 			position = { x = -110 y = 330 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_mariupol]"
 			maxWidth = 700
@@ -55,7 +55,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_krasnoarmeisk"
 			position = { x = -110 y = 360 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_krasnoarmeisk]"
 			maxWidth = 700
@@ -64,7 +64,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_control_artemovsk"
 			position = { x = -110 y = 390 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_control_artemovsk]"
 			maxWidth = 700
@@ -74,7 +74,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "dpr_independence_war_description"
 			position = { x = 30 y = 10 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_dpr_independence_war_description]"
 			maxWidth = 450

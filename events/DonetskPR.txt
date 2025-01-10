@@ -47,8 +47,27 @@ country_event = {
 	title = donetsk.3.t
 	desc = donetsk.3.d
 	#picture = GFX_report_event_royal_parade
-	
-	is_triggered_only = yes
+
+	trigger = {
+		DPR = {
+			controls_state = 355
+		}
+		DPR = {
+			controls_province = 11420
+		}
+		DPR = {
+			controls_province = 4941
+		}
+		DPR = {
+			controls_state = 439
+		}
+		DPR = {
+			controls_province = 12304
+		}
+		DPR = {
+			controls_province = 11704
+		}
+	}
 	
 	option = {
 		name = donetsk.3.a
@@ -81,7 +100,7 @@ country_event = {
 		create_country_leader = {
 			name = igor_strelkov
 			#desc = petro_poroshenko_desc
-			ideology = centrism
+			ideology = authoritarian_democratic
 			picture = gfx/leaders/DPR/strelkov.dds
 			traits = { }
 		}

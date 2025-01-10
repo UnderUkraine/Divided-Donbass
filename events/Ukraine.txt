@@ -699,7 +699,37 @@ country_event = {
 	}
 
 	option = {
-		name = ukraine.26.a
+		name = ukraine.27.a
 		log = "[GetDateText]: [This.GetName]: ukraine.27.a executed"
+	}
+}
+
+#Success of offensive
+country_event = {
+	id = ukraine.28
+	title = ukraine.28.t
+	desc = ukraine.28.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.28.a
+		log = "[GetDateText]: [This.GetName]: ukraine.28.a executed"
+	}
+}
+
+#Failure of offensive
+country_event = {
+	id = ukraine.29
+	title = ukraine.29.t
+	desc = ukraine.29.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.29.a
+		log = "[GetDateText]: [This.GetName]: ukraine.29.a executed"
 	}
 }

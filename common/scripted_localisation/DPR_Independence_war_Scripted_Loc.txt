@@ -55,10 +55,11 @@ defined_text = {
 defined_text = {
     name = get_dpr_control_slavyansk
 	
+    #nado pofiksit
     text = {
         trigger = {
             DPR = {
-                controls_province = 11420
+                controls_province = 4941
             }
         }
         localization_key = "get_dpr_control_yes_slavyansk"
@@ -67,7 +68,7 @@ defined_text = {
         trigger = {
             NOT = {
                 DPR = {
-                    controls_province = 11420
+                    controls_province = 4941
                 }
             }
         }
