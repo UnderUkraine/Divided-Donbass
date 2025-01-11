@@ -1,23 +1,4 @@
 characters = {
-	oleksandr_sirskiy = {
-		name = oleksandr_sirskiy
-		portraits = {
-			army = {
-				#small = GFX_Portrait_SLV_Leon_Rupnik_small
-				large = "/gfx/leaders/UKR/sirskiy.dds"
-			}
-		}
-		corps_commander = {
-			traits = { }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 3
-			legacy_id = 0
-		}
-	}
-
 	mykola_azarov = {
 		name = mykola_azarov
 		portraits = {
@@ -159,6 +140,242 @@ characters = {
 			traits = {
 				UKR_Education_Minister_1
 			}
+		}
+	}
+
+	#Generals
+	oleksandr_sirskiy = {
+		name = oleksandr_sirskiy
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	anatoliy_pyshniakov = {
+		name = anatoliy_pyshniakov
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	genadiy_vorobiev = {
+		name = genadiy_vorobiev
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	ivan_svida = {
+		name = ivan_svida
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	sergey_kylchickiy = {
+		name = sergey_kylchickiy
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	volodymir_homenko = {
+		name = volodymir_homenko
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	vasiliy_krytov = {
+		name = vasiliy_krytov
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	oleksandr_kyzmyk = {
+		name = oleksandr_kyzmyk
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	yuriy_dymanskiy = {
+		name = yuriy_dymanskiy
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	oleksandr_romanenko = {
+		name = oleksandr_romanenko
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	mihail_kychin = {
+		name = mihail_kychin
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	hryhoriy_pedchenko = {
+		name = hryhoriy_pedchenko
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
+		}
+	}
+	oleksandr_polakov = {
+		name = oleksandr_polakov
+		portraits = {
+			army = {
+				#small = GFX_Portrait_SLV_Leon_Rupnik_small
+				large = "/gfx/leaders/UKR/sirskiy.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 0
 		}
 	}
 }

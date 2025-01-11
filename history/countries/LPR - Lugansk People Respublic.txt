@@ -58,9 +58,13 @@ set_politics = {
 
 add_ideas = {
 	LPR_Peoples_republic
-	LPR_independence_war
 
 	not_recognized_state
+}
+
+add_timed_idea = {
+	idea = LPR_independence_war
+    days = 120
 }
 
 set_major = yes

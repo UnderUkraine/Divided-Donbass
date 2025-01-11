@@ -58,7 +58,6 @@ set_politics = {
 
 add_ideas = {
 	DPR_Peoples_republic
-	DPR_independence_war
 
 	not_recognized_state
 	military_dictatorship_law
@@ -68,6 +67,11 @@ add_ideas = {
 	straight_to_the_frontline
 	military_laths
 	militia
+}
+
+add_timed_idea = {
+	idea = DPR_independence_war
+    days = 120
 }
 
 create_equipment_variant = {
@@ -177,7 +181,7 @@ set_war_support = 90
 create_country_leader = {
 	name = dpr_pro_russian_separatists
 	#desc = dpr_pro_russian_separatists_desc
-	ideology = autoritarian_democratic
+	ideology = autoritarian_democracy
 	picture = gfx/leaders/DPR/dpr_leader_none.dds
 	traits = {dpr_anarchy}
 }

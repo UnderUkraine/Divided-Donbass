@@ -604,6 +604,18 @@ create_equipment_variant = {
 	set_country_flag = rada_2012
 
 	recruit_character = oleksandr_sirskiy
+	recruit_character = anatoliy_pyshniakov
+	recruit_character = genadiy_vorobiev
+	recruit_character = ivan_svida
+	recruit_character = sergey_kylchickiy
+	recruit_character = volodymir_homenko
+	recruit_character = vasiliy_krytov
+	recruit_character = oleksandr_kyzmyk
+	recruit_character = yuriy_dymanskiy
+	recruit_character = oleksandr_romanenko
+	recruit_character = mihail_kychin
+	recruit_character = hryhoriy_pedchenko
+	recruit_character = oleksandr_polakov
 
 	recruit_character = mykola_azarov
 	recruit_character = vitaly_zakharchenko
