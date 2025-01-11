@@ -95,6 +95,8 @@ country_event = {
 					election_frequency = 48
 					elections_allowed = no
 				}
+
+				load_oob = "AZV_2014"
 			}
 		}
 	}
@@ -119,6 +121,8 @@ country_event = {
 					election_frequency = 48
 					elections_allowed = no
 				}
+
+				load_oob = "AZV_2014"
 			}
 		}
 		AZV = { change_tag_from = UKR }
@@ -776,7 +780,58 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = ukraine.31.a
+		name = ukraine.32.a
 		log = "[GetDateText]: [This.GetName]: ukraine.32.a executed"
+	}
+}
+
+#Formation of battalion "Donbass"
+country_event = {
+	id = ukraine.33
+	title = ukraine.33.t
+	desc = ukraine.33.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.33.a
+		log = "[GetDateText]: [This.GetName]: ukraine.33.a executed"
+
+		load_oob = "UKR_Battalion_Donbass"
+	}
+}
+
+#Formation of Volunteer Ukraine Corps (ДУК)
+country_event = {
+	id = ukraine.34
+	title = ukraine.34.t
+	desc = ukraine.34.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.34.a
+		log = "[GetDateText]: [This.GetName]: ukraine.34.a executed"
+
+		load_oob = "UKR_Dobrovolcheskiy_Ukrainiskiy_Korpus"
+	}
+}
+
+#Formation of Aydar
+country_event = {
+	id = ukraine.35
+	title = ukraine.35.t
+	desc = ukraine.35.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.35.a
+		log = "[GetDateText]: [This.GetName]: ukraine.35.a executed"
+
+		load_oob = "UKR_Aydar"
 	}
 }

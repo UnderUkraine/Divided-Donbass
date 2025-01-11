@@ -23,9 +23,11 @@ UKR_Maidan_Support_category = {
 
 			hidden_effect = {
 			news_event = news.7
+
+			#Завтра будет допил
+            ukraine_set_dem_zone = yes
+
 			UKR = {
-
-
                 set_country_flag = UKR_Yanukovich_overthrown
 
 				set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
@@ -821,6 +823,11 @@ UKR_anti_terroristic_operation = {
         custom_cost_trigger = {
             command_power > 14
         }
+		available = {
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
+		}
 		custom_cost_text = decision_cost_CP_15
 		complete_effect = {
 			hidden_effect = {
@@ -828,6 +835,7 @@ UKR_anti_terroristic_operation = {
 			}
 
 			set_country_flag = UKR_counteroffensive_in_kramatorsk
+			set_country_flag = UKR_Outgoing_offensive_ATO
 
 			country_event = ukraine.30
 
@@ -843,6 +851,7 @@ UKR_anti_terroristic_operation = {
 			hidden_effect = {
 
                 clr_country_flag = UKR_counteroffensive_in_kramatorsk
+				clr_country_flag = UKR_Outgoing_offensive_ATO
 
 				IF = {
 					limit = {
@@ -893,6 +902,7 @@ UKR_anti_terroristic_operation = {
 			}
 
 			set_country_flag = UKR_counteroffensive_in_severodonetsk
+			set_country_flag = UKR_Outgoing_offensive_ATO
 
 			country_event = ukraine.31
 
@@ -908,6 +918,7 @@ UKR_anti_terroristic_operation = {
 			hidden_effect = {
 
                 clr_country_flag = UKR_counteroffensive_in_severodonetsk
+				clr_country_flag = UKR_Outgoing_offensive_ATO
 
 				IF = {
 					limit = {
@@ -958,6 +969,7 @@ UKR_anti_terroristic_operation = {
 			}
 
 			set_country_flag = UKR_counteroffensive_in_luhansk
+			set_country_flag = UKR_Outgoing_offensive_ATO
 
 			country_event = ukraine.32
 
@@ -987,6 +999,7 @@ UKR_anti_terroristic_operation = {
 			hidden_effect = {
 
                 clr_country_flag = UKR_counteroffensive_in_luhansk
+				clr_country_flag = UKR_Outgoing_offensive_ATO
 
 				IF = {
 					limit = {
@@ -1004,6 +1017,32 @@ UKR_anti_terroristic_operation = {
 					}
 				}
 			}
+		}
+	}
+
+
+	UKR_formation_of_Battalion_Donbass = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			country_event = ukraine.33
 		}
 	}
 }

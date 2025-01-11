@@ -402,3 +402,33 @@ ukraine_rebel_opr_1 = {
 
     country_event = ukraine.19
 }
+
+ukraine_set_dem_zone = {
+    422 = {
+        set_demilitarized_zone = yes
+    }
+    405 = {
+        set_demilitarized_zone = yes
+    }
+    439 = {
+        set_demilitarized_zone = yes
+    }
+    443 = {
+        set_demilitarized_zone = yes
+    }
+    420 = {
+        set_demilitarized_zone = yes
+    }
+    390 = {
+        set_demilitarized_zone = yes
+    }
+    369 = {
+        set_demilitarized_zone = yes
+    }
+    364 = {
+        set_demilitarized_zone = yes
+    }
+    353 = {
+        set_demilitarized_zone = yes
+    }
+}

@@ -14,7 +14,7 @@ focus_tree = {
 		id = UKR_anarchy_in_goverment
 		icon = GFX_focus_UKR_anarchy_in_goverment
 		cost = 1
-		x = 10
+		x = 25
 		y = 0
 
 		cancel_if_invalid = yes
@@ -454,6 +454,7 @@ focus_tree = {
 				remove_idea = UKR_confused_army
 				add_idea = UKR_volunteer_army
 			}
+			set_country_flag = UKR_ATO_Dobrobati
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations"
 		}
 	}
@@ -580,7 +581,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		cancel_if_invalid = yes
@@ -602,7 +603,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		cancel_if_invalid = yes
@@ -883,8 +884,7 @@ focus_tree = {
 		relative_position_id = UKR_convocation_nsds
 
 		allow_branch = {
-			#has_country_flag = UKR_presidential_elections
-			always = yes
+			has_country_flag = UKR_presidential_elections
 		}
 		
 		ai_will_do = {
