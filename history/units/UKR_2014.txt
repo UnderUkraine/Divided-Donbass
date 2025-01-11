@@ -135,7 +135,7 @@ units = {
 
 units = {
 	division= {
-		name = "3-st Airborne Battalion of the 25-th Airborne Brigade"
+		name = "2-nd Airborne Battalion of the 25-th Airborne Brigade"
 		location = 4631
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -146,7 +146,7 @@ units = {
 
 units = {
 	division= {
-		name = "3-st Airborne Battalion of the 25-th Airborne Brigade"
+		name = "3-rd Airborne Battalion of the 25-th Airborne Brigade"
 		location = 4631
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -157,7 +157,7 @@ units = {
 
 units = {
 	division= {
-		name = "1-st Airborne Battalion of the 79-th Airborne Brigade"
+		name = "1-st Airborne Battalion of the 79-th Air Assault Brigade"
 		location = 14123
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -168,7 +168,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st Airborne Battalion of the 79-th Airborne Brigade"
+		name = "2-nd Airborne Battalion of the 79-th Air Assault Brigade"
 		location = 14123
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -179,7 +179,7 @@ units = {
 
 units = {
 	division= {
-		name = "3-st Airborne Battalion of the 79-th Airborne Brigade"
+		name = "3-rd Airborne Battalion of the 79-th Air Assault Brigade"
 		location = 14123
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -190,7 +190,18 @@ units = {
 
 units = {
 	division= {
-		name = "87-st Airborne Battalion of the 80-th Airborne Brigade"
+		name = "4-th Airborne Battalion of the 79-th Air Assault Brigade"
+		location = 14123
+		division_template = "Airborne Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st Airborne Battalion of the 80-th Air Assault Brigade"
 		location = 1583
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -201,7 +212,7 @@ units = {
 
 units = {
 	division= {
-		name = "1-st Airborne Battalion of the 80-th Airborne Brigade"
+		name = "2-nd Airborne Battalion of the 80-th Air Assault Brigade"
 		location = 9181
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -212,7 +223,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st Airborne Battalion of the 80-th Airborne Brigade"
+		name = "3-rd Airborne Battalion of the 80-th Air Assault Brigade"
 		location = 9181
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -223,7 +234,18 @@ units = {
 
 units = {
 	division= {
-		name = "1-st Airborne Battalion of the 95-th Airborne Brigade"
+		name = "4-th Airmobile Battalion of the 80-th Air Assault Brigade"
+		location = 9181
+		division_template = "Airborne Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st Airborne Battalion of the 95-th Air Assault Brigade"
 		location = 1172
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -234,7 +256,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st Airborne Battalion of the 95-th Airborne Brigade"
+		name = "2-nd Airborne Battalion of the 95-th Air Assault Brigade"
 		location = 1172
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -245,7 +267,18 @@ units = {
 
 units = {
 	division= {
-		name = "13-st Airborne Battalion of the 95-th Airborne Brigade"
+		name = "4-th Airborne Battalion of the 95-th Air Assault Brigade"
+		location = 1172
+		division_template = "Airborne Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "13-rd Airborne Battalion of the 95-th Air Assault Brigade"
 		location = 1172
 		division_template = "Airborne Battalion"
 		start_experience_factor = 0.07
@@ -333,6 +366,50 @@ units = {
 
 units = {
 	division= {
+		name = "46-th Rifle Battalion of the 24-th mechanized brigade"
+		location = 948
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st Rifle Battalion of the 24-th mechanized brigade"
+		location = 948
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "2-th Rifle Battalion of the 24-th mechanized brigade"
+		location = 948
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "67-th Rifle Battalion of the 28-th mechanized brigade"
+		location = 5251
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
 		name = "Tank Battalion of the 28-th mechanized brigade"
 		location = 5251
 		division_template = "Tank Battalion"
@@ -367,9 +444,20 @@ units = {
 
 units = {
 	division= {
-		name = "3-th mechanized battalion of the 28-th mechanized brigade"
+		name = "3-rd mechanized battalion of the 28-th mechanized brigade"
 		location = 5251
 		division_template = "Mechanized Infantry"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st Rifle Battalion of the 30-th mechanized brigade"
+		location = 1344
+		division_template = "Infantry Battalion"
 		start_experience_factor = 0.07
 		start_equipment_factor = 0.65
 		start_manpower_factor = 0.7
@@ -389,7 +477,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st mechanized battalion of the 30-th mechanized brigade"
+		name = "2-nd mechanized battalion of the 30-th mechanized brigade"
 		location = 1344
 		division_template = "Mechanized Infantry"
 		start_experience_factor = 0.07
@@ -455,7 +543,7 @@ units = {
 
 units = {
 	division= {
-		name = "3-th mechanized battalion of the 72-th mechanized brigade"
+		name = "3-rd mechanized battalion of the 72-th mechanized brigade"
 		location = 3562
 		division_template = "Mechanized Infantry"
 		start_experience_factor = 0.07
@@ -488,6 +576,28 @@ units = {
 
 units = {
 	division= {
+		name = "48-th rifle battalion of the 72-th mechanized brigade"
+		location = 3562
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "69-th rifle battalion of the 93-th mechanized brigade"
+		location = 1037
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
 		name = "1-st mechanized battalion of the 93-th mechanized brigade"
 		location = 1037
 		division_template = "Mechanized Infantry"
@@ -499,7 +609,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st mechanized battalion of the 93-th mechanized brigade"
+		name = "2-nd mechanized battalion of the 93-th mechanized brigade"
 		location = 1037
 		division_template = "Mechanized Infantry"
 		start_experience_factor = 0.07
@@ -510,7 +620,7 @@ units = {
 
 units = {
 	division= {
-		name = "3-st mechanized battalion of the 93-th mechanized brigade"
+		name = "3-rd mechanized battalion of the 93-th mechanized brigade"
 		location = 1037
 		division_template = "Mechanized Infantry"
 		start_experience_factor = 0.07
@@ -554,7 +664,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st tank battalion of the 1-st tank brigade"
+		name = "2-nd tank battalion of the 1-st tank brigade"
 		location = 6137
 		division_template = "Tank Battalion"
 		start_experience_factor = 0.07
@@ -565,9 +675,63 @@ units = {
 
 units = {
 	division= {
-		name = "3-st tank battalion of the 1-st tank brigade"
+		name = "3-rd tank battalion of the 1-st tank brigade"
 		location = 6137
 		division_template = "Tank Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "4-th tank battalion of the 1-st tank brigade"
+		location = 6137
+		division_template = "Tank Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st tank battalion of the 1-st tank brigade"
+		location = 6137
+		division_template = "Mechanized Infantry"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st rifle battalion of the 1-st tank brigade"
+		location = 6137
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+units = {
+	division= {
+		name = "1-st rifle battalion of the 1-st tank brigade"
+		location = 6137
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "2-nd rifle battalion of the 1-st tank brigade"
+		location = 6137
+		division_template = "Infantry Battalion"
 		start_experience_factor = 0.07
 		start_equipment_factor = 0.65
 		start_manpower_factor = 0.7
@@ -587,7 +751,7 @@ units = {
 
 units = {
 	division= {
-		name = "2-st tank battalion of the 17-th tank brigade"
+		name = "2-nd tank battalion of the 17-th tank brigade"
 		location = 4619
 		division_template = "Tank Battalion"
 		start_experience_factor = 0.07
@@ -596,17 +760,6 @@ units = {
 	}
 }
 
-
-units = {
-	division= {
-		name = "3-st tank battalion of the 17-th tank brigade"
-		location = 4619
-		division_template = "Tank Battalion"
-		start_experience_factor = 0.07
-		start_equipment_factor = 0.65
-		start_manpower_factor = 0.7
-	}
-}
 
 units = {
 	division= {
@@ -618,5 +771,40 @@ units = {
 		start_manpower_factor = 0.7
 	}
 }
+
+units = {
+	division= {
+		name = "2-nd mechanized battalion of the 17-th tank brigade"
+		location = 4619
+		division_template = "Mechanized Infantry"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "1-st rifle battalion of the 17-th tank brigade"
+		location = 4619
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+units = {
+	division= {
+		name = "2-nd rifle battalion of the 17-th tank brigade"
+		location = 4619
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.65
+		start_manpower_factor = 0.7
+	}
+}
+
+
 
 
