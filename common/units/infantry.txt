@@ -54,7 +54,7 @@ sub_units = {
 
 	mechanized_infantry = {
 		abbreviation = "MIN"
-		sprite = light_armor
+		sprite = bbm_unit_sprite
 		map_icon_category = infantry
 		
 		priority = 600
@@ -149,6 +149,57 @@ sub_units = {
 		}
 	}
 
+	desant_infantry = {
+		abbreviation = "DEI"
+		sprite = infantry
+		map_icon_category = infantry
+
+		can_be_parachuted = yes
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		#can_exfiltrate_from_coast = yes #Can this subunit board convoys from a non-port location. 
+		#Intended for use with special forces marine templates; all non-support subunits in the division must have this flag set to yes
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 100
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 1.5
+		weight = 0.5
+		
+		supply_consumption = 0.06
+	
+		need = {
+			infantry_equipment = 100
+			rpg_equipment = 20
+			#camo_equipment
+			armored_vehicle_chassis = 15
+			bmd_chassis = 10
+		}
+	}
+
 	militia = {
 		abbreviation = "MLT"
 		sprite = infantry
@@ -177,24 +228,24 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 15
-		max_organisation = 40
+		max_strength = 10
+		max_organisation = 35
 		default_morale = 0.3
-		manpower = 50
+		manpower = 75
 
 		#Misc Abilities
 		training_time = 50
 		weight = 0.5
 		supply_consumption = 0.05
-		breakthrough = -0.3
-		attack = -0.1
-		defence = -0.1
+		breakthrough = -0.35
+		attack = -0.25
+		defence = -0.2
 		
 		supply_consumption = 0.06
 	
 		need = {
-			infantry_equipment = 40
-			rpg_equipment = 5
+			infantry_equipment = 50
+			rpg_equipment = 10
 			#camo_equipment
 			truck_chassis = 5
 		}

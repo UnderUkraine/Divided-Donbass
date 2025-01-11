@@ -29,7 +29,7 @@ DPR_war_with_ukraine = {
 	}
 }
 
-DPR_attack_north = {
+DPR_start_of_rebeltion = {
 	allowed = {
 		original_tag = DPR
 	}
@@ -48,11 +48,76 @@ DPR_attack_north = {
 
 	ai_strategy = {
 		type = front_control
-        priority = 500
-		strategic_region = 6
+        priority = 1000
+		state = 301
 		ordertype = front
 		execution_type = rush
-		execute_order = yes
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 1000
+		state = 283
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 1000
+		state = 272
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 2000
+		state = 237
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 1000
+		state = 264
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+        priority = -5000
+		state = 529
+		ordertype = front
+		execution_type = careful
+		manual_attack = no
+	}
+	ai_strategy = {
+		type = front_control
+        priority = -5000
+		state = 336
+		ordertype = front
+		execution_type = careful
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_control
+        priority = 1000
+		state = 439
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 1000
+		state = 363
+		ordertype = front
+		execution_type = rush
 		manual_attack = yes
 	}
 }

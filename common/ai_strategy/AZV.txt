@@ -1,0 +1,25 @@
+AZV_Counteroffensive_in_Mariupol = {
+	allowed = {
+		original_tag = AZV
+	}
+
+	enable = {
+		#Temp
+		always = yes
+	}
+
+	abort = {
+		#Temp
+		always = no
+	}
+
+	ai_strategy = {
+		type = front_control
+		state = 439
+		ratio = 0.1
+		priority = 500
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+}

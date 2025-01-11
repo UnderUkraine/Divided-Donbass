@@ -120,6 +120,12 @@ ukraine_rebel_dpr_1 = {
     532 = {
         add_core_of = DPR
     }
+    563 = {
+        add_core_of = DPR
+    }
+    369 = {
+        add_core_of = DPR
+    }
 
     DPR = {
         set_province_controller = 7663
@@ -152,6 +158,8 @@ ukraine_rebel_dpr_1 = {
         set_province_controller = 11387
         set_province_controller = 11412
         set_province_controller = 11459
+
+        set_province_controller = 13978
     }
 
     DPR = {
@@ -393,4 +401,34 @@ ukraine_rebel_opr_1 = {
     }
 
     country_event = ukraine.19
+}
+
+ukraine_set_dem_zone = {
+    422 = {
+        set_demilitarized_zone = yes
+    }
+    405 = {
+        set_demilitarized_zone = yes
+    }
+    439 = {
+        set_demilitarized_zone = yes
+    }
+    443 = {
+        set_demilitarized_zone = yes
+    }
+    420 = {
+        set_demilitarized_zone = yes
+    }
+    390 = {
+        set_demilitarized_zone = yes
+    }
+    369 = {
+        set_demilitarized_zone = yes
+    }
+    364 = {
+        set_demilitarized_zone = yes
+    }
+    353 = {
+        set_demilitarized_zone = yes
+    }
 }

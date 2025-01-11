@@ -375,12 +375,12 @@ news_event = {
 	trigger = {
 		OR = {
 			DPR = {
-				#controls_province = 15100
+				controls_province = 12546
 			}
 			DPR = {
-				#any_allied_country = {
-				#	controls_province = 15100
-				#}
+				any_allied_country = {
+					controls_province = 12546
+				}
 			}
 		}
 		NOT = { has_global_flag = DPR_captured_avdiivka_event } 

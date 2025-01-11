@@ -147,13 +147,13 @@ UKR_President_elections = {
 UKR_anti_terroristic_operation = {
 	icon = GFX_donbass_map_icon_decision
 	#picture = GFX_Minsk_image
-	priority = 300
+	priority = 1000
 	allowed = {
 		original_tag = UKR
 	}
 	visible_when_empty = yes
 	visible = {
-		has_country_flag = UKR_ATO_Started
+		has_global_flag = UKR_ATO_Started
 	}
 	#scripted_gui = negotations_gui
 }

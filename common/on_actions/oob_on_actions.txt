@@ -4,6 +4,9 @@ on_actions = {
 			IF = {
 				limit = { has_start_date < 2015.01.01 }
 
+				UKR = {
+					load_oob = "UKR_2014"
+				}
 				RUS = {
 					load_oob = "RUS_2014"
 				}

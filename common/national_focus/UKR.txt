@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
-	continuous_focus_position = { x = 4000 y = 3000 }
+	continuous_focus_position = { x = 5500 y = 4000 }
 
 	initial_show_position = {
 		focus = UKR_anarchy_in_goverment
@@ -14,7 +14,7 @@ focus_tree = {
 		id = UKR_anarchy_in_goverment
 		icon = GFX_focus_UKR_anarchy_in_goverment
 		cost = 1
-		x = 10
+		x = 25
 		y = 0
 
 		cancel_if_invalid = yes
@@ -404,8 +404,8 @@ focus_tree = {
 	focus = {
 		id = UKR_ato
 		icon = GFX_focus_UKR_ato
-		cost = 3
-		x = 0
+		cost = 15
+		x = 4
 		y = 1
 
 		prerequisite = {focus = UKR_convocation_nsds}
@@ -434,7 +434,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations
 		icon = GFX_focus_UKR_Volunteer_formations
-		cost = 20
+		cost = 25
 		x = -2
 		y = 1
 
@@ -454,6 +454,7 @@ focus_tree = {
 				remove_idea = UKR_confused_army
 				add_idea = UKR_volunteer_army
 			}
+			set_country_flag = UKR_ATO_Dobrobati
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations"
 		}
 	}
@@ -505,7 +506,7 @@ focus_tree = {
 	focus = {
 		id = UKR_partial_mobilization
 		icon = GFX_focus_UKR_ato
-		cost = 10
+		cost = 20
 		x = -2
 		y = 4
 
@@ -527,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = UKR_army_question
 		icon = GFX_focus_UKR_army_question
-		cost = 20
+		cost = 15
 		x = 2
 		y = 1
 
@@ -550,7 +551,7 @@ focus_tree = {
 		###Changed to deconservation
 		id = UKR_buy_weapon 
 		icon = GFX_focus_UKR_buy_weapon
-		cost = 1
+		cost = 15
 		x = 2
 		y = 2
 
@@ -572,7 +573,7 @@ focus_tree = {
 	focus = {
 		id = UKR_general_staff
 		icon = GFX_focus_UKR_general_staff
-		cost = 1
+		cost = 20
 		x = 0
 		y = 1
 
@@ -580,7 +581,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		cancel_if_invalid = yes
@@ -594,7 +595,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Start_of_operations_in_the_ATO_zone
 		icon = GFX_focus_UKR_ato
-		cost = 1
+		cost = 25
 		x = 0
 		y = 2
 
@@ -602,7 +603,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		cancel_if_invalid = yes
@@ -618,7 +619,7 @@ focus_tree = {
 	focus = {
 		id = UKR_informations_front
 		icon = GFX_focus_UKR_informations_front
-		cost = 1
+		cost = 10
 		x = 0
 		y = 2
 
@@ -876,15 +877,14 @@ focus_tree = {
 		id = UKR_vneocheridnie_prezidenstkie_vibori
 		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
 		cost = 1
-		x = -10
+		x = -4
 		y = 1
 
 		prerequisite = {focus = UKR_convocation_nsds}
 		relative_position_id = UKR_convocation_nsds
 
 		allow_branch = {
-			#has_country_flag = UKR_presidential_elections
-			always = yes
+			has_country_flag = UKR_presidential_elections
 		}
 		
 		ai_will_do = {

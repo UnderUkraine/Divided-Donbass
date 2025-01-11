@@ -10,4 +10,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1007;3921;sea;14864;-1;-1;-1;-1;;KyivBridge2
 5288;8538;sea;14864;-1;-1;-1;-1;;KyivBridge3
 331;11588;sea;14870;-1;-1;-1;-1;;VolgaBridge1
+5424;6644;sea;14864;-1;-1;-1;-1;;DniproBridge1
 -1;-1;;-1;-1;-1;-1;-1;-1

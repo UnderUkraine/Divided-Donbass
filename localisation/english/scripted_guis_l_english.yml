@@ -23,4 +23,29 @@
  party_five_temp_government_1:0 "AUA «Svoboda»: §b[?UKR.party_five_deputaty]§!"
  party_six_temp_government_1:0 "Other: §g[?UKR.party_six_deputaty]§!"
 
+#DPR Independence war
+
+ get_dpr_independence_war_description:0 "The war for the independence of the Donetsk People's Republic began for us as a struggle for the right to live in a world where our language, culture and history are respected. After the events of Euromaidan, we realized that the central authorities of Ukraine have stopped hearing their people. Neglect of our interests, bans on the use of the Russian language and attempts to impose values alien to us have become the last straw."
+
+ get_dpr_control_yes_donetsk:0 "Donetsk: §GUnder our control§!"
+ get_dpr_control_no_donetsk:0 "Donetsk: §RUnder enemy control§!"
+
+ get_dpr_control_yes_kramatorsk:0 "Kramatorsk: §GUnder our control§!"
+ get_dpr_control_no_kramatorsk:0 "Kramatorsk: §RUnder enemy control§!"
+
+ get_dpr_control_yes_slavyansk:0 "Slavyansk: §GUnder our control§!"
+ get_dpr_control_no_slavyansk:0 "Slavyansk: §RUnder enemy control§!"
+
+ get_dpr_control_yes_volnovaha:0 "Volnovaha: §GUnder our control§!"
+ get_dpr_control_no_volnovaha:0 "Volnovakha: §RUnder enemy control§!"
+
+ get_dpr_control_yes_mariupol:0 "Mariupol: §GUnder our control§!"
+ get_dpr_control_no_mariupol:0 "Mariupol: §RUnder enemy control§!"
+
+ get_dpr_control_yes_krasnoarmeisk:0 "Krasnoarmeisk: §GUnder our control§!"
+ get_dpr_control_no_krasnoarmeisk:0 "Krasnoarmeisk: §RUnder enemy control§!"
+
+ get_dpr_control_yes_artemovsk:0 "Artemovsk: §GUnder our control§!"
+ get_dpr_control_no_artemovsk:0 "Artyomovsk: §RUnder enemy control§!"
+
  negotations_text:0 "Negotations progress"
