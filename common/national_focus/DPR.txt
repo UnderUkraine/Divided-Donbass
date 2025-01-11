@@ -32,8 +32,8 @@ focus_tree = {
 		id = DPR_National_militia
 		icon = GFX_focus_DPR_National_militia
 		cost = 15
-		x = -2
-		y = 1
+		x = -3
+		y = 2
 
 		prerequisite = {focus = DPR_Donbass_will_be_free}
 		relative_position_id = DPR_Donbass_will_be_free
@@ -128,8 +128,8 @@ focus_tree = {
 		x = -3
 		y = 1
 
-		prerequisite = {focus = DPR_batalion_somali focus = DPR_brigada_oplot focus = DPR_brigada_oplot focus = DPR_Tank_Battalion_Diesel}
-		relative_position_id = DPR_batalion_somali
+		prerequisite = {focus = DPR_National_militia}
+		relative_position_id = DPR_National_militia
 		
 		ai_will_do = {
 			factor = 1
@@ -147,11 +147,33 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Heroes_of_Donbass
+		id = DPR_Razshireniye_opolcheniya
 		icon = GFX_focus_DPR_Heroes_of_Donbass
 		cost = 20
-		x = 0
+		x = 7
 		y = 1
+
+		prerequisite = {focus = DPR_battalion_sparta, focus = DPR_batalion_somali, focus = DPR_brigada_oplot, focus = DPR_Tank_Battalion_Diesel, focus = DPR_Defense_of_cities, focus = DPR_Trenching_in_Donetsk_neighborhoods}
+
+		relative_position_id = DPR_battalion_sparta
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_heroi_donbasa
+		icon = GFX_focus_DPR_Heroes_of_Donbass
+		cost = 20
+		x = 7
+		y = 2
 
 		prerequisite = {focus = DPR_battalion_sparta}
 
@@ -322,13 +344,12 @@ focus_tree = {
 		id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
 		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
 		cost = 25
-		x = -1
+		x = 0
 		y = 1
 
-        prerequisite = {focus = DPR_Trenching_in_Donetsk_neighborhoods}
-		prerequisite = {focus = DPR_Defense_of_cities}
+		prerequisite = {focus = DPR_heroi_donbasa}
 
-		relative_position_id = DPR_Trenching_in_Donetsk_neighborhoods
+		relative_position_id = DPR_heroi_donbasa
 		
 		ai_will_do = {
 			factor = 1
@@ -350,10 +371,11 @@ focus_tree = {
 		icon = DPR_Diversions_on_the_home_front
 		cost = 15
 		x = 0
-		y = 1
+		y = 2
 
-		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
-		relative_position_id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		prerequisite = {focus = DPR_Defense_of_cities}
+		prerequisite = {focus = DPR_Trenching_in_Donetsk_neighborhoods}
+		relative_position_id = DPR_artillery_shelling
 		
 		ai_will_do = {
 			factor = 1
@@ -376,10 +398,6 @@ focus_tree = {
 		cost = 1
 		x = 22
 		y = 0
-
-		allow_branch = {
-			always = no
-		}
 		
 		ai_will_do = {
 			factor = 1
