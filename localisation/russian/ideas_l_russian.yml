@@ -53,8 +53,8 @@
  UKR_dead_VPK_desc:0 "Мёртвый ВПК"
 
  #RUSSIA
- RUS_demographic_crisis:0 "Демографический кризис"
- RUS_demographic_crisis_desc:0 "Демографический кризис"
+ RUS_Demographic_crisis:0 "Демографический кризис"
+ RUS_Demographic_crisis_desc:0 "Демографический кризис"
 
  RUS_defense_of_crimea_2014:0 "Операция в Крыму"
  RUS_defense_of_crimea_2014_desc:0 "Операция в Крыму"

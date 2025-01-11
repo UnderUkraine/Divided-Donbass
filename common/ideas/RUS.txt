@@ -31,7 +31,8 @@ ideas = {
         
             
             modifier = {
-                
+                stability_factor = -0.05
+                political_power_factor = 0.1
             }
         }  
     }    
@@ -49,7 +50,10 @@ ideas = {
         
             
             modifier = {
-                
+                monthly_population = -0.1
+                stability_factor = -0.05
+                political_power_factor = -0.05
+                production_speed_buildings_factor = -0.1
             }
         }  
     }    
@@ -69,6 +73,13 @@ ideas = {
             modifier = {
                 
             }
+
+            equipment_bonus = {
+				RUS_tank_chassis_5 = {
+					build_cost_ic = 2.5
+					instant = yes
+				}
+			}
         }  
     }   
     country = {
@@ -85,7 +96,10 @@ ideas = {
         
             
             modifier = {
-                
+                monthly_population = -0.1
+                political_power_factor = -0.07
+                mobilization_speed = -0.1
+                consumer_goods_factor = 0.1
             }
         }  
     }   

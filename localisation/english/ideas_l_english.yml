@@ -70,8 +70,8 @@
  UKR_dead_VPK_desc:0 "Dead MIC"
 
  #RUSSIA
- RUS_demographic_crisis:0 "Demographic crisis"
- RUS_demographic_crisis_desc:0 "Demographic crisis"
+ RUS_Demographic_crisis:0 "Demographic crisis"
+ RUS_Demographic_crisis_desc:0 "Demographic crisis"
 
  RUS_defense_of_crimea_2014:0 "Operation in Crimea"
  RUS_defense_of_crimea_2014_desc:0 "Operation in Crimea"
