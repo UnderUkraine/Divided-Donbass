@@ -330,8 +330,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/RUS/827605c589a92ff4.dds"		
 	}
 	SpriteType = {
-	    name = "GFX_focus_RUS_Victory_of_separatists"
-		texturefile = "gfx/interface/goals/RUS/RUS_Victory_of_separatists.dds"		
+	    name = "GFX_focus_RUS_Victory_of_republic"
+		texturefile = "gfx/interface/goals/RUS/RUS_Victory_of_republic.dds"		
 	}
 
 	SpriteType = {

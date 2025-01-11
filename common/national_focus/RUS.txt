@@ -576,7 +576,7 @@ focus_tree = {
 		prerequisite = {focus = RUS_volunteers_in_Donbass}
 		prerequisite = {focus = RUS_Russian_instructors}
 		relative_position_id = RUS_volunteers_in_Donbass
-		mutually_exclusive = { focus = RUS_Victory_of_separatists }
+		mutually_exclusive = { focus = RUS_Victory_of_republic }
 		
 		ai_will_do = {
 			factor = 1
@@ -600,8 +600,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RUS_Victory_of_separatists
-		icon = GFX_focus_RUS_Victory_of_separatists
+		id = RUS_Victory_of_republic
+		icon = GFX_focus_RUS_Victory_of_republic
 		cost = 1
 		x = 1
 		y = 1
@@ -1060,7 +1060,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_fondi_novososii
+		id = RUS_fondi_novorossii
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0

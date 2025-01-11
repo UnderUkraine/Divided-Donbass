@@ -31,7 +31,7 @@ spriteTypes = {
 		textureFile = "/gfx/sp_events/Super_Event_Victory_over_separatists.dds"
 	}
 	spriteType = {
-		name = "GFX_sp_event_Ukr_Victory_of_separatists"
+		name = "GFX_sp_event_Ukr_Victory_of_republic"
 		textureFile = "/gfx/sp_events/Super_Event_Victory_of_Separatists.dds"
 	}
 }
