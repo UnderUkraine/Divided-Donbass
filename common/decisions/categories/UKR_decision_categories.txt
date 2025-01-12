@@ -146,7 +146,7 @@ UKR_President_elections = {
 
 UKR_anti_terroristic_operation = {
 	icon = GFX_donbass_map_icon_decision
-	#picture = GFX_Minsk_image
+	picture = GFX_Minsk_image
 	priority = 1000
 	allowed = {
 		original_tag = UKR

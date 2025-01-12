@@ -537,3 +537,189 @@ news_event = {
         }
 	}
 }
+
+# DPR captures Debaltseve
+news_event = {
+	id = news.14
+	title = news.14.t
+	desc = news.14.d
+	picture = GFX_news_event_005
+	
+	major = yes
+
+	trigger = {
+		OR = {
+			DPR = {
+				controls_province = 12245
+			}
+			DPR = {
+				any_allied_country = {
+					controls_province = 12245
+				}
+			}
+		}
+		NOT = { has_global_flag = DPR_capture_debaltseve_event } 
+	}
+
+	immediate = {
+		set_global_flag = DPR_capture_debaltseve_event
+		set_global_flag = DPR_capture_debaltseve
+	}
+	
+	option = {
+		name = news.14.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+		}
+	}
+	option = {
+		name = news.14.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.14.r
+		trigger = { 
+			OR = {
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+        }
+	}
+}
+
+# DPR captures Volnovaha
+news_event = {
+	id = news.15
+	title = news.15.t
+	desc = news.15.d
+	picture = GFX_news_event_005
+	
+	major = yes
+
+	trigger = {
+		OR = {
+			DPR = {
+				controls_province = 13452
+			}
+			DPR = {
+				any_allied_country = {
+					controls_province = 13452
+				}
+			}
+		}
+		NOT = { has_global_flag = DPR_capture_volnovaha_event } 
+	}
+
+	immediate = {
+		set_global_flag = DPR_capture_volnovaha_event
+		set_global_flag = DPR_capture_volnovaha
+	}
+	
+	option = {
+		name = news.15.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+		}
+	}
+	option = {
+		name = news.15.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.15.r
+		trigger = { 
+			OR = {
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+        }
+	}
+}
+
+# DPR captures Slavyansk
+news_event = {
+	id = news.16
+	title = news.16.t
+	desc = news.16.d
+	picture = GFX_news_event_005
+	
+	major = yes
+
+	trigger = {
+		OR = {
+			DPR = {
+				controls_province = 4941
+			}
+			DPR = {
+				any_allied_country = {
+					controls_province = 4941
+				}
+			}
+		}
+		NOT = { has_global_flag = DPR_capture_volnovaha_event } 
+	}
+
+	immediate = {
+		set_global_flag = DPR_capture_volnovaha_event
+		set_global_flag = DPR_capture_volnovaha
+	}
+	
+	option = {
+		name = news.16.a
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+		}
+	}
+	option = {
+		name = news.16.u
+		trigger = { 
+           TAG = UKR
+        }
+	}
+
+	option = {
+		name = news.16.r
+		trigger = { 
+			OR = {
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+        }
+	}
+}
