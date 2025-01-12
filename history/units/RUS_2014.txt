@@ -118,10 +118,778 @@ division_template = {
 }
 
 units = {
-    division= {
-        name = "TEST DIVKA"
+    division = {
+        name = "138-th motorized rifle brigade of the 6-st guards motorized rifle army"
         location = 4444
-        division_template = "TEST TEMPLATE"
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "25-th motorized rifle brigade of the 6-st guards motorized rifle army"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "9-st artillery brigade of the 6-st guards motorized rifle army"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "26-th rocket brigade of the 6-st guards motorized rifle army"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "26-th anti-aircraft brigade of the 6-st guards motorized rifle army"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "448-th rocket brigade of the 20-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "53-th anti-aircraft brigade of the 20-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "205-th motorized rifle brigade of the 49-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "34-th motorized rifle brigade of the 49-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st guards rocket brigade of the 49-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "136-th guards motorized rifle brigade of the 58-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "49-th air assault brigade of the 58-th combined arms"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "291-th guards artillery brigade of the 58-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "67-th anti-aircraft brigade of the 58-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "100-th guards razvdeka brigade of the 58-th combined arms"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "15-th guards motorized rifle brigade of the 2-st guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "385-th guards artillery brigade of the 2-st guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "92-th rocket brigade of the 2-st guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "297-th guards anti-aircraft brigade of the 2-st guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "35-th guards motorized rifle brigade of the 41-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "74-th guards motorized rifle brigade of the 41-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "120-th guards artillery brigade of the 41-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "119-th guards rocket brigade of the 41-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "61-th guards anti-aircraft brigade of the 41-th guards combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "60-th motorized rifle brigade of the 5-st combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "57-th guards motorized rifle brigade of the 5-st combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "305-th artillery brigade of the 5-st combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "20-th guards rocket brigade of the 5-st combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "8-st guards anti-aircraft brigade of the 5-st combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "36-th guards motorized rifle brigade of the 29-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "200-th artillery brigade of the 29-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "3-st rocket brigade of the 29-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "140-th anti-aircraft brigade of the 29-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "38-th guards motorized rifle brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "64-th guards motorized rifle brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "69-th infantry brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Infantry Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "107-th rocket brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "165-th artillery brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "71-th anti-aircraft brigade of the 35-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "63-th special forces company of the 35-th combined arms"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "5-st guards tank brigade of the 36-th combined arms"
+        location = 4444
+        division_template = "Tank Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "37-th guards motorized rifle brigade of the 36-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "30-th artillery brigade of the 36-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "103-th rocket brigade of the 36-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "35-th anti-aircraft brigade of the 36-th combined arms"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "30-th special forces company of the 36-th combined arms"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "11-th guards paratroops brigade"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "83-th guards paratroops brigade"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "56-th guards paratroops regiment of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "108-th guards paratroops regiment of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "247-th guards paratroops regiment of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1141-th guards artillery regiment of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "104-th tank battalion of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Tank Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "171-th paratroops battalion of the 7-st guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "104-th guards paratroops regiment of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "234-th guards paratroops regiment of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "237-th guards paratroops regiment of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "124-th tank battalion of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Tank Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1140-th guards artillery regiment of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "4-st anti-aircraft regiment of the 76-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "217-th guards paratroops regiment of the 98-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "331-th guards paratroops regiment of the 98-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1065-th guards artillery regiment of the 98-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "5-st guards anti-aircraft regiment of the 98-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "51-th guards paratroops regiment of the 106-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "119-th guards paratroops regiment of the 106-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "137-th guards paratroops regiment of the 106-th guards paratroops division"
+        location = 4444
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1182-th guards artillery regiment of the 106-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st guards anti-aircraft regiment of the 106-th guards paratroops division"
+        location = 4444
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "45-th guards special forces regiment"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 0.8
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "336-th guards marines brigade of the Baltic fleet"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "382-th marines battalion of the 810-th guards marines brigade"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "61-th guards marines brigade of the North fleet"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "155-th guards marines brigade of the TOF"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "40-th guards marines brigade of the TOF"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "177-th guards marines regiment of the Caspian fleet"
+        location = 4444
+        division_template = "Marine Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "143-th special forces regiment"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "7-st special forces regiment Rosich"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "23-th special forces regiment Obereg"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "28-th special forces regiment Ratnik"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "33-th special forces regiment Peresvet"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "special forces regiment Avangard"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "special forces regiment Grom"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "special forces regiment SOBR"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "604-th special forces regiment "Vityaz" of the separate special forces division"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "2-st special forces regiment of the separate special forces division"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "4-st special forces regiment of the separate special forces division"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "5-st special forces regiment of the separate special forces division"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "2-st special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "3-st special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "10-th special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "14-th special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "16-th special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "22-th special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "24-th special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "25-th separate special forces regiment of the General Staff"
+        location = 4444
+        division_template = "SSO"
+        start_experience_factor = 1
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "346-th separate special forces brigade of the General Staff"
+        location = 4444
+        division_template = "SSO"
         start_experience_factor = 1
         start_equipment_factor = 1
 		start_manpower_factor = 1
