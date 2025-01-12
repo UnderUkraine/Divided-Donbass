@@ -1,9 +1,119 @@
 division_template = {
-	name = "TEST TEMPLATE"
+	name = "Infantry Battalion"
 	regiments = {
         infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1}
+		signal_company = { x = 0 y = 2}
+		medical_company = { x = 0 y = 3}
+		anti_tank = { x = 1 y = 0}
+		artillery = { x = 1 y = 1 }
+		recon = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Infantry"
+	regiments = {
+        mechanized_infantry = { x = 0 y = 0 }
+		mechanized_infantry = { x = 0 y = 1 }
+		mechanized_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1}
+		signal_company = { x = 0 y = 2}
+		medical_company = { x = 0 y = 3}
+		anti_tank = { x = 1 y = 0}
+		artillery = { x = 1 y = 1 }
+		recon = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Marine Infantry"
+	regiments = {
+        marine_infantry = { x = 0 y = 0 }
+		marine_infantry = { x = 0 y = 1 }
+		marine_infantry = { x = 0 y = 2 }
+		marine_infantry = { x = 1 y = 0 }
+		marine_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1}
+		signal_company = { x = 0 y = 2}
+		anti_tank = { x = 0 y = 3}
+		medical_company = { x = 1 y = 0}
+		mortar = { x = 1 y = 1 }
+		recon = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tank Battalion"
+	regiments = {
+		tank_unit = { x = 0 y = 0 }
+		tank_unit = { x = 0 y = 1 }
+		tank_unit = { x = 0 y = 2 }
+		mechanized_infantry = { x = 1 y = 0 }
+		mechanized_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		medical_company = { x = 0 y = 3 }
+		anti_tank = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+		recon = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "SSO"
+	regiments = {
+		special_forces_infantry = { x = 0 y = 0 }
+		special_forces_infantry = { x = 0 y = 1 }
+		special_forces_infantry = { x = 0 y = 2 }
+		special_forces_infantry = { x = 0 y = 3 }
+		special_forces_infantry = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		medical_company = { x = 0 y = 3 }
+		mortar = { x = 0 y = 4 }
+		anti_tank = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+		recon = { x = 1 y = 2 }
+		maintenance_company = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Airborne Battalion"
+	regiments = {
+		desant_infantry = { x = 0 y = 0 }
+		desant_infantry = { x = 0 y = 1 }
+		desant_infantry = { x = 0 y = 2 }
+		desant_infantry = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		medical_company = { x = 0 y = 3 }
+		mortar = { x = 0 y = 4 }
+		artillery = { x = 1 y = 0 }
+		maintenance_company = { x = 1 y = 1 }
+		anti_air = { x = 1 y = 2 }
 	}
 }
 
