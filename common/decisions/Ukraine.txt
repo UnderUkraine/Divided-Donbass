@@ -1045,4 +1045,52 @@ UKR_anti_terroristic_operation = {
 			country_event = ukraine.33
 		}
 	}
+	UKR_formation_of_DUK = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			country_event = ukraine.34
+		}
+	}
+	UKR_formation_of_Aydar = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			country_event = ukraine.35
+		}
+	}
 }

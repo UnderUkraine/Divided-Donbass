@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_lvivska_oblast"
+		textureFile = "/gfx/interface/ukraine_oblasts/lvivska.png"
+	}
+}

@@ -14,6 +14,16 @@ guiTypes = {
            # Orientation = "center"
         }    
 
+		buttonType = {
+			name ="Button_1"
+			quadTextureSprite ="GFX_button_261x34"
+			position = { x=50 y=15 }
+			#This will write onto the button the value and index of the array
+			buttonText = "Add 1 to array"
+			buttonFont = "hoi_16mbs"
+			Orientation = centre
+		}
+
 		instantTextboxType = {
 			name = "party_one"
 			position = { x = -110 y = 200 }
@@ -73,70 +83,19 @@ guiTypes = {
 	containerWindowType = {
 		name = "elections_gui_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 400 }
+		size = { width = 500 height = 500 }
 		orientation = center
 		origo = center 
 
-        iconType ={
-            name ="rada_deputaty"
-            spriteType = "[get_rada_pic]"
-            position = { x= 0 y = 0 }
-           # Orientation = "center"
-        }    
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
 
-		instantTextboxType = {
-			name = "party_one"
-			position = { x = -110 y = 200 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_one]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "party_two"
-			position = { x = -110 y = 230 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_two]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "party_three"
-			position = { x = -110 y = 260 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_three]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "party_four"
-			position = { x = -110 y = 290 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_four]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "party_five"
-			position = { x = -110 y = 320 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_five]"
-			maxWidth = 700
-			maxHeight = 50
-		}
-		instantTextboxType = {
-			name = "party_six"
-			position = { x = -110 y = 350 }
-			font = "hoi_24header"
-			format = center
-			text = "[get_party_six]"
-			maxWidth = 700
-			maxHeight = 50
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_background_gui_elections"
 		}
 	}
 }

@@ -38,7 +38,7 @@ UKR_Separatists_in_Ukraine = {
 	visible = {
 		has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
 	}
-	scripted_gui = separatists_gui
+	scripted_gui = open_separatists_button
 }
 
 UKR_Verhovna_rada = {
@@ -138,10 +138,10 @@ UKR_President_elections = {
 	}
 	visible_when_empty = yes
 	visible = {
-		#has_global_flag = UKR_Negotations_started
-		has_country_flag = UKR_Elections_started
+		#has_country_flag = UKR_Elections_started
+		always = yes
 	}
-	#scripted_gui = negotations_gui
+	scripted_gui = open_elections_button
 }
 
 UKR_anti_terroristic_operation = {

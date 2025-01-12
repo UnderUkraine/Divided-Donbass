@@ -1,6 +1,6 @@
 scripted_gui = {
-	separatists_gui = {
-		window_name = "separatists_window"
+	separatists_window_gui = {
+		window_name = "separatists_gui_window"
 		context_type = decision_category
 
 		visible = {
@@ -8,6 +8,60 @@ scripted_gui = {
 		}
 		
 		triggers = {
+		}
+
+		effects = {
+			Button_1_click = {
+				IF = {
+					limit = {
+						NOT = {
+							has_country_flag = ukr_separatists_ui_open
+						}
+					}
+					set_country_flag = ukr_separatists_ui_open
+					else = {
+						clr_country_flag = ukr_separatists_ui_open
+					}
+				}
+			}
+		}
+	}
+
+	separatists_gui = {
+		window_name = "separatists_gui_window1"
+		context_type = player_context
+	
+		visible = {
+			#has_country_flag = ukr_separatists_ui_open
+			always = yes
+		}
+	
+		effects = {
+		}
+	  }
+
+	open_separatists_button = {
+		window_name = "open_separatists_button_gui"
+		context_type = decision_category
+	
+		visible = {
+			  always = yes
+		}
+	
+		effects = {
+			Button_1_click = {
+				IF = {
+					limit = {
+						NOT = {
+							has_country_flag = ukr_separatists_ui_open
+						}
+					}
+					set_country_flag = ukr_separatists_ui_open
+					else = {
+						clr_country_flag = ukr_separatists_ui_open
+					}
+				}
+			}
 		}
 	}
 }
