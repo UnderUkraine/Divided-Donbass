@@ -20,6 +20,8 @@ country_event = {
 				variable = UKR_maidan_support
 				value = 15
 			}
+
+			complete_national_focus = UKR_The_regime_is_under_threat
 		}
 	}
 	
@@ -833,5 +835,69 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.35.a executed"
 
 		load_oob = "UKR_Aydar"
+	}
+}
+
+#Yanukovych start event protest select path
+country_event = {
+	id = ukraine.36
+	title = ukraine.36.t
+	desc = ukraine.36.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	#Bend the center line
+	option = {
+		name = ukraine.36.a
+		log = "[GetDateText]: [This.GetName]: ukraine.36.a executed"
+
+		complete_national_focus = UKR_Bend_the_center_line
+	}
+
+	#Power scenario
+	option = {
+		name = ukraine.36.b
+		log = "[GetDateText]: [This.GetName]: ukraine.36.b executed"
+
+		complete_national_focus = UKR_Power_scenario
+	}
+
+	#Make a compromise
+	option = {
+		name = ukraine.36.c
+		log = "[GetDateText]: [This.GetName]: ukraine.36.c executed"
+	
+		complete_national_focus = UKR_Make_a_compromise
+	}
+}
+
+#Legitimization zahodi bezpeki
+country_event = {
+	id = ukraine.37
+	title = ukraine.37.t
+	desc = ukraine.37.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.37.a
+		log = "[GetDateText]: [This.GetName]: ukraine.37.a executed"
+	}
+}
+
+#Russian support yanukovich
+country_event = {
+	id = ukraine.38
+	title = ukraine.38.t
+	desc = ukraine.38.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.38.a
+		log = "[GetDateText]: [This.GetName]: ukraine.38.a executed"
 	}
 }

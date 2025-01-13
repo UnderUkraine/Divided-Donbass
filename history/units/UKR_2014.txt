@@ -1,7 +1,7 @@
-focus = {
-	current = "UKR_Protests_on_streets"
-	progress = 13
-}
+#focus = {
+#	current = "UKR_Protests_on_streets"
+#	progress = 13
+#}
 
 division_template = {
 	name = "Infantry Battalion"
