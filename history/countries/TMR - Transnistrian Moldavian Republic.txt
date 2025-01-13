@@ -2,29 +2,26 @@ capital = 49955
 set_technology = {
 	infantry_weapons = 1
 }
-
-set_politics = {
-	ruling_party = neutrality
-	last_election = "2019.05.20"
-	election_frequency = 48
-	elections_allowed = no
+2014.1.1 = {
+    set_politics = {
+	    ruling_party = autoritarian_democracy
+	    last_election = "2011.12.30"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+		communism = 14
+		autoritarian_democracy = 77
+		liberal_democratic = 9
+    }
+	create_country_leader = {
+		name = TMR_shevchyk
+		#desc = TMR_shevchyk_desc
+		ideology = autoritarian_democractic
+		picture = gfx/leaders/TMR/shevchyk.dds
+		traits = {}
+	}
 }
-
-set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 35
-	neutrality = 65
-}
-
-create_country_leader = {
-	name = TMR_shevchyk
-	#desc = TMR_shevchyk_desc
-	ideology = oligarchism
-	picture = gfx/leaders/TMR/shevchyk.dds
-	traits = {}
-}
-
 add_ideas = {
 	not_recognized_state
 	mixed_republic
@@ -36,5 +33,4 @@ add_ideas = {
 
 	TMR_pobeda
 	TMR_bad_army
-	
 }

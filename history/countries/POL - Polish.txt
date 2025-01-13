@@ -20,7 +20,7 @@ set_technology = {
 	    name = POL_bronislaw_komorowski
 	    #desc = petro_poroshenko_desc
 	    ideology = liberalism
-	    picture = gfx/leaders/POL/#.dds
+	    picture = gfx/leaders/POL/POL_bronislaw_komorowski.dds
 	    traits = { }
     }
 }

@@ -36,7 +36,7 @@ create_country_leader = {
 		name = ROM_klaus_iohannis
 		#desc = petro_poroshenko_desc
 		ideology = liberalism
-		picture = gfx/leaders/ROM/ROM_traian_basescu.dds
+		picture = gfx/leaders/ROM/ROM_klaus_iohannis.dds
 		traits = { }
 	}
     set_politics = {

@@ -61,7 +61,7 @@ create_country_leader = {
 		name = SLO_Andrej_Kiska
 		#desc = petro_poroshenko_desc
 		ideology = conservatism
-		picture = gfx/leaders/SLO/SLO_Ivan_Gasparovic.dds
+		picture = gfx/leaders/SLO/SLO_Andrej_Kiska.dds
 		traits = { }
 	}
 }
