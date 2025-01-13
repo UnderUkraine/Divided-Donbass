@@ -1075,20 +1075,6 @@ leader_traits = {
 		army_core_attack_factor = 0.1
 		army_core_defence_factor = 0.1
 	}
-
-	red_army_organizer = { # Trotsky's trait if invited to join the Mexican government. Combines effects of Genius Army Organizer and Communist Revolutionary
-		sprite = 12
-		army_org_factor = 0.12
-		experience_gain_army = @chief_experience_gain_high
-		communism_drift = 0.1
-
-		command_cap = @tier3
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
 	champion_of_peace_1 = {
 		random = no
 		war_support_factor = -0.3
@@ -8210,18 +8196,6 @@ leader_traits = {
 		production_speed_buildings_factor = 0.10
 		fascism_drift = 0.03
 	}
-
-	NOR_germanophile_officer = { # For Jonas Lie 
-		random = no
-		sprite = 13  
-
-		fascism_drift = 0.03
-		war_support_factor = 0.2
-		experience_gain_army = 0.09
-		resistance_decay = -0.25
-		stability_factor = -0.25
-	}
-
 	NOR_ruthless_police_captain = { # Prince of Terror equivalent, also for Jonas Lie
 		sprite = 13
 		resistance_damage_to_garrison = -0.3
@@ -8235,122 +8209,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
-	NOR_clueless_defense_minister = { # For Ljundberg  
-		random = no 
-		sprite = 14
-
-		land_doctrine_cost_factor = -0.1
-		mobilization_laws_cost_factor = 0.75
-	}
-
-	NOR_minister_of_agriculture = {
-		random = no 
-		sprite = 14
-
-		weekly_manpower = 300 
-		war_support_factor = -0.05
-	}
-
 	###### OFFICER CORPS TRAITS ######
-
-	NOR_defeatist_commander_in_chief = {
-		sprite = 5
-		
-		experience_gain_army = @chief_experience_gain_low
-		
-		command_cap = @tier1
-		
-		max_dig_in_factor = 0.1
-		dig_in_speed_factor = 0.25
-		surrender_limit = -0.2
-				ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				command_power < @tier1
-			}
-		}
-	}
-	
-	NOR_hydroelectric_company_trait = {
-
-		country_resource_aluminium = 10 
-		production_speed_industrial_complex_factor = 0.15
-
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	NOR_nationalized_hydroelectric_company_trait = {
-
-		country_resource_aluminium = 20 
-		production_speed_industrial_complex_factor = 0.2
-		production_speed_infrastructure_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	NOR_oppportunistic_officer = { # For Sundlo
-		sprite = 14
-		land_doctrine_cost_factor = -0.1
-		experience_gain_army_factor = 0.07
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	NOR_pragmatic_defense_minister = { # For Torp
-		sprite = 14
-		land_doctrine_cost_factor = -0.1
-		production_speed_industrial_complex_factor = 0.1
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	NOR_vigilant_fort_commander = { # For Birger Eriksen (Military High Command)
-		random = no
-		sprite = 5
-
-		coastal_bunker_effectiveness_factor = 0.05
-		land_bunker_effectiveness_factor = 0.1 
-		initiative_factor = 0.02
-
-		#experience_gain_army = @experience_gain_low
-
-		command_cap = @tier1
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 0
-				command_power < @tier1
-			}
-		}
-	}
-
-	JAN_polarizing_leader = {
-		random = no 
-
-		naval_invasion_prep_speed = 0.3
-		naval_critical_score_chance_factor = 0.3
-		weekly_manpower = 500
-		justify_war_goal_time = -0.5
-		base_fuel_gain_factor = 1
-		production_speed_buildings_factor = 0.25 
-		research_speed_factor = 0.15
-		production_factory_max_efficiency_factor = 0.14
-		production_factory_efficiency_gain_factor = 0.5
-		production_lack_of_resource_penalty_factor = -0.5
-	}
-
 	JUNO_emergency_powers = {
 		random = no
 		consumer_goods_factor = -0.1
