@@ -32,8 +32,8 @@ scripted_gui = {
 		context_type = player_context
 	
 		visible = {
-			#has_country_flag = ukr_separatists_ui_open
-			always = yes
+			has_country_flag = ukr_separatists_ui_open
+			#always = yes
 		}
 	
 		effects = {
