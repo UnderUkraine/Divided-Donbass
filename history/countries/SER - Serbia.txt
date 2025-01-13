@@ -24,3 +24,24 @@ create_country_leader = {
 	picture = gfx/leaders/SER/SER_Tomislav_Nikolic.dds
 	traits = { }
 }
+2014.1.1 = {
+    set_politics = {
+	    ruling_party = conservatism_democratic
+	    last_election = "2012.05.31"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    conservatism_democratic = 37
+	    social_democratic = 30
+	    liberal_democratic = 13
+		socialism = 20
+    }
+	create_country_leader = {
+		name = SER_Tomislav_Nikolic
+		#desc = petro_poroshenko_desc
+		ideology = conservatism
+		picture = gfx/leaders/SER/SER_Tomislav_Nikolic.dds
+		traits = { }
+	}
+}

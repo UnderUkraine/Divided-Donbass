@@ -1,26 +1,26 @@
-﻿capital = 146
+﻿capital = 18 #province 3970
 set_technology = {
 	infantry_weapons = 1
 }
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "2010.02.07"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 65
-	fascism = 5
-	communism = 15
-	neutrality = 25
-}
-
-create_country_leader = {
-	name = bronislaw_komorowski
-	#desc = petro_poroshenko_desc
-	ideology = conservatism
-	picture = gfx/leaders/UKR/poroshenko.dds
-	traits = { }
+2014.1.1 = {
+    set_politics = {
+	    ruling_party = liberal_democratic
+	    last_election = "2010.03.27"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    conservatism_democratic = 30
+	    nationalism_group = 5
+	    social_democratic = 15
+	    liberal_democratic = 39
+	    socialism = 11
+    }
+    create_country_leader = {
+	    name = POL_bronislaw_komorowski
+	    #desc = petro_poroshenko_desc
+	    ideology = liberalism
+	    picture = gfx/leaders/POL/#.dds
+	    traits = { }
+    }
 }

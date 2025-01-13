@@ -2,25 +2,54 @@
 set_technology = {
 	infantry_weapons = 1
 }
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "2019.05.20"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 85
-	fascism = 0
-	communism = 3
-	neutrality = 12
-}
-
 create_country_leader = {
 	name = ROM_traian_basescu
 	#desc = petro_poroshenko_desc
-	ideology = conservatism
+	ideology = social_democracy
 	picture = gfx/leaders/ROM/ROM_traian_basescu.dds
 	traits = { }
+}
+2014.1.1 = {
+    set_politics = {
+	    ruling_party = social_democratic
+	    last_election = "2009.12.20"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+		conservatism_democratic = 16
+	    nationalism_group = 5
+	    social_democratic = 63
+	    socialism = 14
+		autoritarian_democracy = 2
+    }
+	create_country_leader = {
+		name = ROM_traian_basescu
+		#desc = petro_poroshenko_desc
+		ideology = social_democracy
+		picture = gfx/leaders/ROM/ROM_traian_basescu.dds
+		traits = { }
+	}
+}
+2015.1.1 = {
+	create_country_leader = {
+		name = ROM_klaus_iohannis
+		#desc = petro_poroshenko_desc
+		ideology = liberalism
+		picture = gfx/leaders/ROM/ROM_traian_basescu.dds
+		traits = { }
+	}
+    set_politics = {
+	    ruling_party = liberal_democratic
+	    last_election = "2014.12.21"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+		liberal_democratic = 34
+	    nationalism_group = 9
+	    social_democratic = 45
+		conservatism_democratic = 11
+		autoritarian_democracy = 1
+    }
 }
