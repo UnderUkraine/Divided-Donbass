@@ -119,7 +119,7 @@ leader_traits = {
 		sprite = 0
 		political_power_factor = 0.15
 	}
-
+    ###Vanila
 	dictator = {
 		random = no
 		political_power_factor = 0.25
