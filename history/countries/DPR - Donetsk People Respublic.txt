@@ -206,9 +206,10 @@ set_war_support = 90
 	    elections_allowed = no
     }
     set_popularities = {
-		liberal_democratic = 40
-		nationalism_group = 10
+		liberal_democratic = 28
+		nationalism_group = 12
 		autoritarian_democracy = 50
+		communism = 10
 	}
 	create_country_leader = {
 		name = DPR_Anarchy
@@ -234,9 +235,10 @@ set_war_support = 90
 		type = annex_everything
 	}
 	set_popularities = {
-		liberal_democratic = 32
-		nationalism_group = 10
+		liberal_democratic = 20
+		nationalism_group = 12
 		autoritarian_democracy = 58
+		communism = 10
 	}
 	create_country_leader = {
 		name = DPR_Zaharchenko

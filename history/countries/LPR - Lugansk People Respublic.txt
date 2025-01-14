@@ -104,7 +104,8 @@ recruit_character = LPR_bolotov
 	    elections_allowed = no
     }
     set_popularities = {
-		liberal_democratic = 40
+		liberal_democratic = 20
+		conservatism_democratic = 20
 		autoritarian_democracy = 60
 	}
 	create_country_leader = {
@@ -131,8 +132,9 @@ recruit_character = LPR_bolotov
 		type = annex_everything
 	}
 	set_popularities = {
-		liberal_democratic = 33
+		liberal_democratic = 23
 		autoritarian_democracy = 67
+		conservatism_democratic = 10
 	}
 	create_country_leader = {
 		name = LPR_Igor_Plotnitsky
