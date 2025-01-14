@@ -20,8 +20,6 @@ country_event = {
 				variable = UKR_maidan_support
 				value = 15
 			}
-
-			complete_national_focus = UKR_The_regime_is_under_threat
 		}
 	}
 	

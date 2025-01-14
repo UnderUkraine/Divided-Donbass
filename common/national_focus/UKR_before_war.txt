@@ -16,13 +16,9 @@ focus_tree = {
 	focus = {
 		id = UKR_The_regime_is_under_threat
 		icon = GFX_focus_UKR_Protests_on_streets
-		cost = 1
+		cost = 25
 		x = 13
 		y = 0
-
-		available = {
-			always = no
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -90,6 +86,10 @@ focus_tree = {
 			focus = UKR_Bend_the_center_line
 		}
 		relative_position_id = UKR_Bend_the_center_line
+
+		mutually_exclusive = {
+			focus = UKR_Negotiations_with_the_Maidan
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -234,6 +234,10 @@ focus_tree = {
 			focus = UKR_Bend_the_center_line
 		}
 		relative_position_id = UKR_Bend_the_center_line
+
+		mutually_exclusive = {
+			focus = UKR_Violent_suppression_of_protests
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
