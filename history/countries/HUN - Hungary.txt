@@ -2,6 +2,17 @@
 set_technology = {
 	infantry_weapons = 1
 }
+add_ideas = {
+	world_recognition
+	medium_corruption
+	parlament_president_republic
+
+
+	no_nuke_state
+	nato_standarts
+	minimal_expenses
+	contract_army
+}
 2014.1.1 = {
 	set_politics = {
 		ruling_party = conservatism_democratic

@@ -2,12 +2,8 @@
 set_technology = {
 	infantry_weapons = 1
 }
-create_country_leader = {
-	name = ROM_traian_basescu
-	#desc = petro_poroshenko_desc
-	ideology = social_democracy
-	picture = gfx/leaders/ROM/ROM_traian_basescu.dds
-	traits = { }
+add_ideas = {
+	world_recognition
 }
 2014.1.1 = {
     set_politics = {
