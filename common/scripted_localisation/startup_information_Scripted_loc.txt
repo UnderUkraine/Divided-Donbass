@@ -1,0 +1,65 @@
+defined_text = {
+    name = country_name_startup_info
+
+    text = {
+        localization_key = "[ROOT.GetName]"
+    }
+}
+
+defined_text = {
+    name = country_desc_startup_info
+
+    text = {
+        trigger = {
+            tag = UKR
+        }
+        localization_key = "startup_info_ukraine_desc"
+    }
+
+    text = {
+        trigger = {
+            tag = RUS
+        }
+        localization_key = "startup_info_russia_desc"
+    }
+}
+
+defined_text = {
+    name = country_startup_information
+
+    text = {
+        localization_key = "country_startup_information_loc"
+    }
+}
+
+defined_text = {
+    name = mod_startup_information
+
+    text = {
+        localization_key = "mod_startup_information_loc"
+    }
+}
+
+defined_text = {
+    name = mod_name_startup_info
+
+    text = {
+        localization_key = "mod_name_startup_info_loc"
+    }
+}
+
+defined_text = {
+    name = mod_desc_startup_info
+
+    text = {
+        localization_key = "mod_desc_startup_info_loc"
+    }
+}
+
+defined_text = {
+    name = mod_credits_text_startup_info
+
+    text = {
+        localization_key = "mod_credits_text_startup_info_loc"
+    }
+}

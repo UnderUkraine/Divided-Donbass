@@ -49,3 +49,15 @@
  get_dpr_control_no_artemovsk:0 "Artyomovsk: §RUnder enemy control§!"
 
  negotations_text:0 "Negotations progress"
+
+ startup_info_ukraine_desc: "At the beginning of the year, Ukraine was in a state of deep political crisis, caused by accumulated contradictions between different parts of society and approaches to the country's future. President Viktor Yanukovych, elected in 2010, was trying to maneuver between seeking closer ties with the European Union and maintaining close ties with Russia, which had considerable influence over him. \nA key trigger of the crisis was Yanukovych's refusal in November 2013 to sign an association agreement with the European Union, which sparked a wave of protests across the country. The protest movement, known as Euromaidan, began as peaceful demonstrations in support of European integration, but soon escalated into a large-scale confrontation. The center point of the conflict was Maidan Nezalezhnosti in Kyiv, which became a symbol of resistance to the government."
+
+ startup_info_russia_desc: "At the beginning of 2014, the Russian Federation was a powerful state with an ambitious foreign policy aimed at strengthening its influence in the post-Soviet space. Ukraine, due to its strategic geographical location, historical ties and close economic relations with Russia, occupied a key place in the Kremlin's political and geopolitical plans. \nUkraine was of particular importance for Russia as its closest neighbor and one of its largest trading partners. Close cooperation in industry, energy, and the military-industrial complex was an important factor in bilateral relations. Ukraine's gas transportation system was vital for Russian gas exports to Europe, providing a significant portion of Russia's revenues. Should we intervene in the Euromaidan events to maintain our influence in eastern Europe?"
+
+ country_startup_information_loc: "Country information"
+ mod_startup_information_loc: "Mod information"
+
+ mod_name_startup_info_loc: "Divided Donbass" #Потужно
+ mod_desc_startup_info_loc: "Mod about war in Donbass"
+
+ mod_credits_text_startup_info_loc: "Credits\n§YTeam leader§!: underukraine\n§0Deputy team leader§!: ._senator_.\n§5Head Scripter§!: celodojmolvek\n§GHead Artist§!: av1ks\nAnd many more!"
