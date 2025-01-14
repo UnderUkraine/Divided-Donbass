@@ -838,8 +838,21 @@ UKR_anti_terroristic_operation = {
 			set_country_flag = UKR_Outgoing_offensive_ATO
 
 			country_event = ukraine.30
-
+			219 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
 			237 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			259 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
@@ -858,6 +871,132 @@ UKR_anti_terroristic_operation = {
 						UKR = {
 							controls_province = 11420
 							controls_province = 4941
+						}
+					}
+	
+					#Успех
+	                country_event = ukraine.28
+				    
+					else = {
+						#Провал
+						country_event = ukraine.29
+					}
+				}
+			}
+		}
+	}
+	UKR_counteroffensive_in_North_Luhansk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Operations
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+        custom_cost_trigger = {
+            command_power > 14
+        }
+		custom_cost_text = decision_cost_CP_15
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+
+			set_country_flag = UKR_counteroffensive_in_North_Luhansk
+			set_country_flag = UKR_Outgoing_offensive_ATO
+
+			# country_event = ukraine.32
+			171 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			210 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			200 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			203 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			108 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			170 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			161 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			156 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			136 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+
+                clr_country_flag = UKR_counteroffensive_in_North_luhansk
+				clr_country_flag = UKR_Outgoing_offensive_ATO
+
+				IF = {
+					limit = {
+						UKR = {
+							controls_province = 10847
+						}
+						UKR = {
+							controls_province = 10351
+						}
+						UKR = {
+							controls_province = 7255
 						}
 					}
 	
@@ -907,6 +1046,27 @@ UKR_anti_terroristic_operation = {
 			country_event = ukraine.31
 
 			238 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			228 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			229 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			248 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
@@ -980,6 +1140,20 @@ UKR_anti_terroristic_operation = {
 					days = 25
 				}
 			}
+			263 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			267 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
 			245 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
@@ -987,7 +1161,49 @@ UKR_anti_terroristic_operation = {
 					days = 25
 				}
 			}
+			242 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
 			265 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			271 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			292 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			280 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			278 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			304 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
@@ -1005,6 +1221,476 @@ UKR_anti_terroristic_operation = {
 					limit = {
 						UKR = {
 							controls_province = 11576
+						}
+						UKR = {
+							controls_province = 11725
+						}
+						UKR = {
+							controls_province = 1837
+						}
+					}
+	
+					#Успех
+	                country_event = ukraine.28
+				    
+					else = {
+						#Провал
+						country_event = ukraine.29
+					}
+				}
+			}
+		}
+	}
+	UKR_counteroffensive_in_Avdiivka = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Operations
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+        custom_cost_trigger = {
+            command_power > 14
+        }
+		custom_cost_text = decision_cost_CP_15
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+
+			set_country_flag = UKR_counteroffensive_in_Avdiivka
+			set_country_flag = UKR_Outgoing_offensive_ATO
+
+			# country_event = ukraine.32
+			289 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			322 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			330 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			336 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			315 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			317 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			310 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			301 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			285 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			283 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			253 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			264 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			272 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			284 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+
+                clr_country_flag = UKR_counteroffensive_in_Avdiivka
+				clr_country_flag = UKR_Outgoing_offensive_ATO
+
+				IF = {
+					limit = {
+						UKR = {
+							controls_province = 12219
+						}
+						UKR = {
+							controls_province = 12304
+						}
+						UKR = {
+							controls_province = 12546
+						}
+					}
+	
+					#Успех
+	                country_event = ukraine.28
+				    
+					else = {
+						#Провал
+						country_event = ukraine.29
+					}
+				}
+			}
+		}
+	}
+	UKR_counteroffensive_in_Kurahovo = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Operations
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+        custom_cost_trigger = {
+            command_power > 14
+        }
+		custom_cost_text = decision_cost_CP_15
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+
+			set_country_flag = UKR_counteroffensive_in_Kurahovo
+			set_country_flag = UKR_Outgoing_offensive_ATO
+
+			# country_event = ukraine.32
+			356 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			340 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			359 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			353 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			364 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			369 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			390 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+
+                clr_country_flag = UKR_counteroffensive_in_Kurahovo
+				clr_country_flag = UKR_Outgoing_offensive_ATO
+
+				IF = {
+					limit = {
+						UKR = {
+							controls_province = 13452
+						}
+						UKR = {
+							controls_province = 12880
+						}
+					}
+	
+					#Успех
+	                country_event = ukraine.28
+				    
+					else = {
+						#Провал
+						country_event = ukraine.29
+					}
+				}
+			}
+		}
+	}
+	UKR_counteroffensive_in_Mariupol = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Operations
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+        custom_cost_trigger = {
+            command_power > 14
+        }
+		custom_cost_text = decision_cost_CP_15
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+
+			set_country_flag = UKR_counteroffensive_in_Mariupol
+			set_country_flag = UKR_Outgoing_offensive_ATO
+
+			# country_event = ukraine.32
+			405 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			420 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			443 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			439 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+
+                clr_country_flag = UKR_counteroffensive_in_Mariupol
+				clr_country_flag = UKR_Outgoing_offensive_ATO
+
+				IF = {
+					limit = {
+						UKR = {
+							controls_province = 7445
+						}
+					}
+	
+					#Успех
+	                country_event = ukraine.28
+				    
+					else = {
+						#Провал
+						country_event = ukraine.29
+					}
+				}
+			}
+		}
+	}
+	UKR_counteroffensive_in_Donetsk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Operations
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+        custom_cost_trigger = {
+            command_power > 14
+        }
+		custom_cost_text = decision_cost_CP_15
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+
+			set_country_flag = UKR_counteroffensive_in_Donetsk
+			set_country_flag = UKR_Outgoing_offensive_ATO
+
+			# country_event = ukraine.32
+			532 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			347 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			529 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			563 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			355 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			396 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			375 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+
+                clr_country_flag = UKR_counteroffensive_in_Donetsk
+				clr_country_flag = UKR_Outgoing_offensive_ATO
+
+				IF = {
+					limit = {
+						UKR = {
+							controls_province = 7663
+						}
+						UKR = {
+							controls_province = 12788
 						}
 					}
 	
