@@ -48,32 +48,6 @@ set_technology = {
 	bbm_chassis = 1
 	bbm_1_chassis = 1
 }
-
-set_politics = {
-	ruling_party = autoritarian_democracy
-	last_election = "2018.08.31" #Дата смерти захарченка, в будущем переделать нада
-	election_frequency = 48
-	elections_allowed = no
-}
-
-add_ideas = {
-	DPR_Peoples_republic
-
-	not_recognized_state
-	military_dictatorship_law
-	strong_corruption
-
-	no_nuke_state
-	straight_to_the_frontline
-	military_laths
-	militia
-}
-
-add_timed_idea = {
-	idea = DPR_independence_war
-    days = 120
-}
-
 create_equipment_variant = {
 	name = "БТР-60"
 	type = btr1_chassis_0
@@ -94,7 +68,6 @@ create_equipment_variant = {
 	obsolete = yes
 
 }
-
 create_equipment_variant = {
 	name = "БТР-70"
 	type = btr1_chassis_1_1
@@ -113,7 +86,6 @@ create_equipment_variant = {
 	}
 	icon = "GFX_btr1_1_chassis_medium"
 }
-
 create_equipment_variant = {
 	name = "ГАЗ-66"
 	type = truck_chassis_0
@@ -133,7 +105,6 @@ create_equipment_variant = {
 	icon = "GFX_UKR_truck_chassis_0_medium"
 	obsolete = yes
 }
-
 create_equipment_variant = {
 	name = "Урал-375"
 	type = truck_chassis_1
@@ -152,7 +123,6 @@ create_equipment_variant = {
 	}
 	icon = "GFX_UKR_truck_chassis_1_medium"
 }
-
 create_equipment_variant = {
 	name = "КамАЗ-4310"
 	type = truck_chassis_2
@@ -172,41 +142,6 @@ create_equipment_variant = {
 	icon = "GFX_UKR_truck_chassis_2_medium"
 	obsolete = yes
 }
-
-set_major = yes
-set_war_support = 90
-
-#recruit_character = DPR_zakharchenko
-
-create_country_leader = {
-	name = dpr_pro_russian_separatists
-	#desc = dpr_pro_russian_separatists_desc
-	ideology = autoritarian_democracy
-	picture = gfx/leaders/DPR/dpr_leader_none.dds
-	traits = {dpr_anarchy}
-}
-
-2015.1.1 = {
-	declare_war_on = {
-		target = UKR
-		type = annex_everything
-	}
-}
-
-set_rule = {
-	can_puppet = no
-}
-
-set_popularities = {
-	liberal_democratic = 0
-	conservatism_democratic = 0
-	fascism = 10
-	communism = 15
-	autoritarian_democracy = 75
-}
-
-add_manpower = 5500
-
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
 	amount = 3000
@@ -219,33 +154,95 @@ add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 500
 }
-
 add_equipment_to_stockpile = {
 	type = truck_chassis_0
 	variant_name = "ГАЗ-66"
 	amount = 50
 }
-
 add_equipment_to_stockpile = {
 	type = truck_chassis_1
 	variant_name = "Урал-375"
 	amount = 60
 }
-
 add_equipment_to_stockpile = {
 	type = truck_chassis_2
 	variant_name = "КамАЗ-4310"
 	amount = 1000
 }
-
 add_equipment_to_stockpile = {
 	type = btr1_chassis_0
 	variant_name = "БТР-60"
 	amount = 20
 }
-
 add_equipment_to_stockpile = {
 	type = btr1_chassis_1_1
 	variant_name = "БТР-70"
 	amount = 25
+}
+add_manpower = 5500
+add_ideas = {
+	DPR_Peoples_republic
+
+	not_recognized_state
+	military_dictatorship_law
+	strong_corruption
+
+	no_nuke_state
+	straight_to_the_frontline
+	military_laths
+	militia
+}
+set_rule = {
+	can_puppet = no
+}
+set_major = yes
+set_war_support = 90
+#recruit_character = DPR_zakharchenko
+2014.1.1 = {
+    set_politics = {
+	    ruling_party = autoritarian_democracy
+	    last_election = "2014.04.07" #Дата появления ДНР   "2018.08.31"Дата смерти захарченка, в будущем переделать нада
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+		liberal_democratic = 40
+		nationalism_group = 10
+		autoritarian_democracy = 50
+	}
+	create_country_leader = {
+		name = DPR_Anarchy
+		#desc = dpr_pro_russian_separatists_desc
+		ideology = autoritarian_democractic
+		picture = gfx/leaders/DPR/DPR_Anarchy.dds
+		traits = {dpr_anarchy}
+	}
+	add_timed_idea = {
+		idea = DPR_independence_war
+		days = 120
+	}
+}
+2015.1.1 = {
+	set_politics = {
+		ruling_party = autoritarian_democracy
+		last_election = "2014.11.05"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	declare_war_on = {
+		target = UKR
+		type = annex_everything
+	}
+	set_popularities = {
+		liberal_democratic = 32
+		nationalism_group = 10
+		autoritarian_democracy = 58
+	}
+	create_country_leader = {
+		name = DPR_Zaharchenko
+		#desc = petro_poroshenko_desc
+		ideology = autoritarian_democractic 
+		picture = gfx/leaders/DPR/DPR_Zaharchenko.dds
+		traits = { }
+	}
 }
