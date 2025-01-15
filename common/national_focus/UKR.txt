@@ -568,6 +568,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_buy_weapon"
+
+			set_country_flag = UKR_arms_deconservation_flag
 		}
 	}
 	focus = {

@@ -431,4 +431,38 @@ ukraine_set_dem_zone = {
     353 = {
         set_demilitarized_zone = yes
     }
+    387 = {
+        set_demilitarized_zone = yes
+    }
+    396 = {
+        set_demilitarized_zone = yes
+    }
+    375 = {
+        set_demilitarized_zone = yes
+    }
+
+    355 = {
+        set_demilitarized_zone = yes
+    }
+    563 = {
+        set_demilitarized_zone = yes
+    }
+    529 = {
+        set_demilitarized_zone = yes
+    }
+    336 = {
+        set_demilitarized_zone = yes
+    }
+    330 = {
+        set_demilitarized_zone = yes
+    }
+    363 = {
+        set_demilitarized_zone = yes
+    }
+    377 = {
+        set_demilitarized_zone = yes
+    }
+    315 = {
+        set_demilitarized_zone = yes
+    }
 }

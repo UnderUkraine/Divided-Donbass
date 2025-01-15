@@ -64,9 +64,8 @@ UKR_arms_deconservation = {
 	}
 	visible_when_empty = yes
 	visible = {
-		always = yes
+		has_country_flag = UKR_arms_deconservation_flag
 	}
-	#scripted_gui = separatists_gui
 }
 
 UKR_SBU_operations = {
@@ -123,8 +122,7 @@ UKR_Negotations = {
 	}
 	visible_when_empty = yes
 	visible = {
-		#has_global_flag = UKR_Negotations_started
-		always = yes
+		has_global_flag = UKR_Negotations_started
 	}
 	scripted_gui = negotations_gui
 }
