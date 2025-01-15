@@ -200,7 +200,7 @@ duplicate_archetypes = {
 
 	bmd_chassis = {
 		archetype = bbm_chassis
-		type = { armor }
+		type = { armor bmd_type }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
 		}
