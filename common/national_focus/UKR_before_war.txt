@@ -78,7 +78,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Violent_suppression_of_protests
 		icon = GFX_focus_UKR_Victory_over_protesters
-		cost = 1
+		cost = 5
 		x = 1
 		y = 1
 
@@ -226,7 +226,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Negotiations_with_the_Maidan
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 5
 		x = -1
 		y = 1
 

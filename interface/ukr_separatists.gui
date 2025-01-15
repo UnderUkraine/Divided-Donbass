@@ -30,7 +30,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "separatists_gui_window1"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 500 }
+		size = { width = 1200 height = 800 }
 		orientation = center
 		origo = center 
 
@@ -45,11 +45,162 @@ guiTypes = {
 			quadTextureSprite = "GFX_background_gui_elections"
 		}
 
-        iconType ={
-            name ="rada_deputaty1"
+		#iconType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}   
+
+		iconType ={
+            name ="lvivska_oblast"
             spriteType = "GFX_lvivska_oblast"
-            position = { x= 10 y = 0 }
+            position = { x= -490 y = -185 }
             Orientation = "center"
         }    
+		iconType ={
+            name ="volynska_oblast"
+            spriteType = "GFX_volynska_oblast"
+            position = { x= -435 y = -300 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="AvtonomnaRespublikaKrym_oblast"
+            spriteType = "GFX_AvtonomnaRespublikaKrym"
+            position = { x= 55 y = 175 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Cherkaska_oblast"
+            spriteType = "GFX_Cherkaska"
+            position = { x= -103 y = -150 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Chernihivska_oblast"
+            spriteType = "GFX_Chernihivska"
+            position = { x= -55 y = -340 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Dnipropetrovska_oblast"
+            spriteType = "GFX_Dnipropetrovska"
+            position = { x= 82 y = -64 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Donetska_oblast"
+            spriteType = "GFX_Donetska"
+            position = { x= 277 y = -65 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="IvanoFrankivska_oblast"
+            spriteType = "GFX_IvanoFrankivska"
+            position = { x= -440 y = -92 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Kharkivska_oblast"
+            spriteType = "GFX_Kharkivska"
+            position = { x= 184 y = -170 }
+            Orientation = "center"
+        } 
+		iconType ={
+            name ="Khersonska_oblast"
+            spriteType = "GFX_Khersonska"
+            position = { x= 5 y = 66 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Khmelnytska_oblast"
+            spriteType = "GFX_Khmelnytska"
+            position = { x= -297 y = -180 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Kyivska_oblast"
+            spriteType = "GFX_Kyivska"
+            position = { x= -125 y = -263 }
+            Orientation = "center"
+        }  
+		iconType ={
+            name ="Kyrovohradska_oblast"
+            spriteType = "GFX_Kyrovohradska"
+            position = { x= -95 y = -55 }
+            Orientation = "center"
+        } 
+        iconType ={
+            name ="Luhanska_oblast"
+            spriteType = "GFX_Luhanska"
+            position = { x= 346 y = -139 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Mykolaivska_oblast"
+            spriteType = "GFX_Mykolaivska"
+            position = { x= -70 y = 18 }
+            Orientation = "center"
+        } 
+        iconType ={
+            name ="Odeska_oblast"
+            spriteType = "GFX_Odeska"
+            position = { x= -180 y = 17 }
+            Orientation = "center"
+        } 
+        iconType ={
+            name ="Poltavska_oblast"
+            spriteType = "GFX_Poltavska"
+            position = { x= 32 y = -180 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Sumska_oblast"
+            spriteType = "GFX_Sumska"
+            position = { x= 79 y = -338 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Zaporizka_oblast"
+            spriteType = "GFX_Zaporizka"
+            position = { x= 153 y = 23 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Ternopilska_oblast"
+            spriteType = "GFX_Ternopilska"
+            position = { x= -375 y = -152 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Vinnytska_oblast"
+            spriteType = "GFX_Vinnytska"
+            position = { x= -227 y = -122 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Zhytomyrska_oblast"
+            spriteType = "GFX_Zhytomyrska"
+            position = { x= -240 y = -274 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Rivnenska_oblast"
+            spriteType = "GFX_Rivnenska"
+            position = { x= -355 y = -300 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Zakarpattia_oblast"
+            spriteType = "GFX_Zakarpattia"
+            position = { x= -518 y = -55 }
+            Orientation = "center"
+        }  
+        iconType ={
+            name ="Chernivtsi_oblast"
+            spriteType = "GFX_Chernivtsi"
+            position = { x= -364 y = -20 }
+            Orientation = "center"
+        }  
 	}
 }
