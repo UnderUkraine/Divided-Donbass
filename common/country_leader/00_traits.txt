@@ -119,6 +119,14 @@ leader_traits = {
 		sprite = 0
 		political_power_factor = 0.15
 	}
+	BEL_Kidok = {
+		random = no
+		ai_join_ally_desire_factor = -300
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
     ###Vanila
 	dictator = {
 		random = no
