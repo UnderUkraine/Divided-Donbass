@@ -147,7 +147,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Razshireniye_opolcheniya
+		id = DPR_militia_expansion
 		icon = GFX_focus_DPR_Heroes_of_Donbass
 		cost = 20
 		x = 7
@@ -169,7 +169,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_heroi_donbasa
+		id = DPR_heroes_of_donbass
 		icon = GFX_focus_DPR_Heroes_of_Donbass
 		cost = 20
 		x = 7
@@ -347,9 +347,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_heroi_donbasa}
-
-		relative_position_id = DPR_heroi_donbasa
+		prerequisite = {focus = DPR_heroes_of_donbass }
+		relative_position_id = DPR_heroes_of_donbass
 		
 		ai_will_do = {
 			factor = 1
@@ -393,15 +392,169 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Minsk_protocols
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 22
-		y = 0
+		id = DPR_democratization_of_governance
+		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		cost = 25
+		x = -1
+		y = 2
+
+		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
+		relative_position_id = DPR_heroes_of_donbass
 		
 		ai_will_do = {
 			factor = 1
 		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_negotiations_start
+		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
+		cost = 25
+		x = 1
+		y = 2
+
+		prerequisite = {focus = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast}
+		relative_position_id = DPR_heroes_of_donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_Minsk_protocols
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 3
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {focus = DPR_negotiations_start}
+		relative_position_id = DPR_heroes_of_donbass
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_fragile_world
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {focus = DPR_Minsk_protocols}
+		relative_position_id = DPR_Minsk_protocols
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_rotation_militia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {focus = DPR_fragile_world}
+		relative_position_id = DPR_fragile_world
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_charges_against_Ukraine
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {focus = DPR_fragile_world}
+		relative_position_id = DPR_fragile_world
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DPR_In_time_for_the_new_peace
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 2
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {focus = DPR_rotation_militia}
+		prerequisite = {focus = DPR_charges_against_Ukraine}
+		relative_position_id = DPR_fragile_world
 
 		available = {
 			always = no
@@ -421,8 +574,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Minsk_protocols}
-		relative_position_id = DPR_Minsk_protocols
+		prerequisite = {focus = DPR_In_time_for_the_new_peace}
+		relative_position_id = DPR_In_time_for_the_new_peace
 		
 		ai_will_do = {
 			factor = 1
@@ -493,7 +646,7 @@ focus_tree = {
 		id = DPR_Friendship_of_people_republics
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 5
+		x = 7
 		y = 1
 
 		prerequisite = {focus = DPR_Free_state}
@@ -1098,7 +1251,7 @@ focus_tree = {
 		id = DPR_Fight_with_banderites
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 1
+		x = 3
 		y = 1
 
 		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
