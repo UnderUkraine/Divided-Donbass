@@ -5,63 +5,9 @@ state={
 		1045 2733 2786 3471 3927 4213 4303 4508 4605 5114 5220 5358 5565 6052 6124 6630 7033 7331 7489 7801 7918 12975 12988 13011 13021 13022 13040 13045 13055 13062 13063 13083 13084 13090 13091 13103 13110 13111 13122 13136 13137 13138 13139 13149 13150 13156 13157 13158 13168 13173 13178 13185 13190 13191 13198 13214 13215 13226 13233 13234 13235 13240 13248 13256 13259 13278 
 	}
 	history={
+		victory_points = { 5114 5 }
 		owner = UKR
 		add_core_of = UKR
-		victory_points = {
-			6124 5
-         }
-		 victory_points = {
-            4303 5
-         }
-		 victory_points = {
-            13084 3
-         }
-		 victory_points = {
-            3927 3
-         }
-		 victory_points = {
-            13157 5
-         }
-		 victory_points = {
-            13122 5
-         }
-		 victory_points = {
-            13168 3
-         }
-		 victory_points = {
-            5114 3
-         }
-		 victory_points = {
-            2786 3
-         }
-		 victory_points = {
-            13185 3
-         }
-		 victory_points = {
-            13191 3
-         }
-		 victory_points = {
-            13139 5
-         }
-		 victory_points = {
-            7801 3
-         }
-		 victory_points = {
-            13110 3
-         }
-		 victory_points = {
-            13190 3
-         }
-		 victory_points = {
-            13256 3
-         }
-		  victory_points = {
-            13090 3
-         }
-		 victory_points = {
-            4508 3
-         }
-	}
 	buildings_max_level_factor=1.000
         manpower=1
         state_category = town
