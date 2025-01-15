@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = UKR_The_regime_is_under_threat
 		icon = GFX_focus_UKR_Protests_on_streets
-		cost = 25
+		cost = 10
 		x = 13
 		y = 0
 
