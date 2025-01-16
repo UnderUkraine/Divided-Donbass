@@ -136,8 +136,8 @@ UKR_President_elections = {
 	}
 	visible_when_empty = yes
 	visible = {
-		#has_country_flag = UKR_Elections_started
-		always = yes
+		has_country_flag = UKR_Elections_started
+		#always = yes
 	}
 	scripted_gui = open_elections_button
 }

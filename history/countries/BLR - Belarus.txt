@@ -6,7 +6,7 @@ add_ideas = {
 	world_recognition
 }
 recruit_character = alexander_lykashenko
-2014.1.1 = {
+2013.11.21 = {
 	set_politics = {
 		ruling_party = autoritarian_democracy
 		last_election = "2010.12.19"

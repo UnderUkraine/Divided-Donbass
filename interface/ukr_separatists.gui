@@ -10,7 +10,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "maidan_description"
 			position = { x = 30 y = 10 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_separatists_in_Ukraine_description]"
 			maxWidth = 450

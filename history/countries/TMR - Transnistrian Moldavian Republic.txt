@@ -14,7 +14,7 @@ add_ideas = {
 	TMR_pobeda
 	TMR_bad_army
 }
-2014.1.1 = {
+2013.11.21 = {
     set_politics = {
 	    ruling_party = autoritarian_democracy
 	    last_election = "2011.12.30"

@@ -13,7 +13,7 @@ add_ideas = {
 	army_without_funding
 	contract_army
 }
-2014.1.1 = {
+2013.11.21 = {
     set_politics = {
 	    ruling_party = conservatism_democratic
 	    last_election = "2009.06.15"
