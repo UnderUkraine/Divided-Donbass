@@ -2,7 +2,7 @@ UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
 		is_good = yes
-		days_mission_timeout = 37 #37 to February 22
+		days_mission_timeout = 60 #37 to February 22
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
@@ -55,9 +55,29 @@ UKR_Maidan_Support_category = {
 				load_focus_tree = ukraine_focus
 			}
 			RUS = {
-				country_event = russia.1
+				country_event = {
+					id = russia.1
+					days = 4
+				}
 			}
 		}
+	}
+}
+
+UKR_operation_bumerang_and_khvylya = {
+	allowed = {
+		tag = UKR
+	}
+	visible = {
+		has_country_flag = UKR_Introduction_of_the_ATO_regime_in_Kyiv
+	}
+	available = {
+		has_country_flag = UKR_Introduction_of_the_ATO_regime_in_Kyiv
+	}
+	fire_only_once = yes
+	icon = GFX_icon_of_VSY_decision
+	priority = 10
+	remove_effect = {
 	}
 }
 }

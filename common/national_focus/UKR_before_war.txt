@@ -87,23 +87,30 @@ focus_tree = {
 		}
 		relative_position_id = UKR_Bend_the_center_line
 
-		mutually_exclusive = {
-			focus = UKR_Negotiations_with_the_Maidan
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Violent_suppression_of_protests"
+
+			add_to_variable = {
+				var = UKR_maidan_radicalization
+				value = 5
+				tooltip = UKR_radicalization_of_maidan_plus_5
+			}
+
+			add_days_mission_timeout = {
+				mission = yanukovich_overthrow
+				days = 15
+			}
 		}
 	}
 	focus = {
 		id = UKR_Legitimizing_security_measures
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
+		x = -1
 		y = 1
 
 		prerequisite = {
@@ -125,13 +132,13 @@ focus_tree = {
 		id = UKR_Attracting_Russian_support
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
+		x = 1
 		y = 1
 
 		prerequisite = {
-			focus = UKR_Legitimizing_security_measures
+			focus = UKR_Violent_suppression_of_protests
 		}
-		relative_position_id = UKR_Legitimizing_security_measures
+		relative_position_id = UKR_Violent_suppression_of_protests
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -147,11 +154,14 @@ focus_tree = {
 		id = UKR_Activation_of_law_enforcement_agencies
 		icon = GFX_goal_unknown
 		cost = 1
-		x = 0
+		x = -1
 		y = 1
 
 		prerequisite = {
 			focus = UKR_Attracting_Russian_support
+		}
+		prerequisite = {
+			focus = UKR_Legitimizing_security_measures
 		}
 		relative_position_id = UKR_Attracting_Russian_support
 
@@ -161,6 +171,17 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Activation_of_law_enforcement_agencies"
+
+			add_to_variable = {
+				var = UKR_maidan_radicalization
+				value = 5
+				tooltip = UKR_radicalization_of_maidan_plus_5
+			}
+
+			add_days_mission_timeout = {
+				mission = yanukovich_overthrow
+				days = 15
+			}
 		}
 	}
 	focus = {
@@ -221,23 +242,21 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Introduction_of_the_ATO_regime_in_Kyiv"
+
+            set_country_flag = UKR_Introduction_of_the_ATO_regime_in_Kyiv
 		}
 	}
 	focus = {
 		id = UKR_Negotiations_with_the_Maidan
 		icon = GFX_goal_unknown
 		cost = 5
-		x = -1
+		x = -2
 		y = 1
 
 		prerequisite = {
 			focus = UKR_Bend_the_center_line
 		}
 		relative_position_id = UKR_Bend_the_center_line
-
-		mutually_exclusive = {
-			focus = UKR_Violent_suppression_of_protests
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

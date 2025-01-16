@@ -3,23 +3,33 @@ guiTypes = {
 	containerWindowType = {
 		name = "maidan_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 300 }
+		size = { width = 500 height = 245 }
 		orientation = center
 		origo = center 
 
 		instantTextboxType = {
 			name = "maidan_support"
-			position = { x = -90 y = 260 }
-			font = "hoi_24header"
+			position = { x = -90 y = 170 }
+			font = "hoi_20b"
 			format = center
 			text = "[get_maidan_support]"
+			maxWidth = 700
+			maxHeight = 50
+		}
+		
+		instantTextboxType = {
+			name = "maidan_radicalization"
+			position = { x = -90 y = 200 }
+			font = "hoi_20b"
+			format = center
+			text = "[get_maidan_radicalization]"
 			maxWidth = 700
 			maxHeight = 50
 		}
 		instantTextboxType = {
 			name = "maidan_description"
 			position = { x = 25 y = 10 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_maidan_description]"
 			maxWidth = 450

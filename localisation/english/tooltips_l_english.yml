@@ -25,6 +25,8 @@
  Separatists_support_minus_5_kharkiv_tt:0 "§gSupport of separatists in [KPR.GetFlag]Kharkiv will decrease by §!§O5§!"
  Separatists_support_minus_5_odesa_tt:0 "§gSupport of separatists in [OPR.GetFlag]Odesa will decrease by §!§O5§!"
 
+ UKR_radicalization_of_maidan_plus_5:0 "Maidan £political_violence_texticon §RRadicalization§! will be increased by §R5§!."
+
  Separatists_won_tt:0 "Separatists won"
 
  Prepare_for_invinteble_mobilize_tt:0 "We will §Rmobilize§! small part of police to military reserve"

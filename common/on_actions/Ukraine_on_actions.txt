@@ -4,19 +4,21 @@ on_actions = {
 			every_country = {
 				limit = {
 					NOT = { is_ai = yes }
-					date = 2014.1.1
+					date = 2013.11.21
 				}
 
 				news_event = { 
 					id = news.1 
 					days = 6
 				}
-			}
 
-			UKR = {
-				country_event = { 
-					id = ukraine.1 
-					days = 15
+				UKR = {
+					activate_mission = yanukovich_overthrow
+
+					country_event = { 
+						id = ukraine.1 
+						days = 15
+					}
 				}
 			}
 		}

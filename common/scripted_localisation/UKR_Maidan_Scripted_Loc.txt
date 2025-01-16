@@ -6,6 +6,13 @@ defined_text = {
     }
 }
 defined_text = {
+    name = get_maidan_radicalization
+	
+    text = {
+        localization_key = "maidan_support_radicalization"
+    }
+}
+defined_text = {
     name = get_maidan_description
 	
     text = {

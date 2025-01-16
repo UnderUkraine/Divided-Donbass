@@ -17,7 +17,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_one"
 			position = { x = -110 y = 200 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_one]"
 			maxWidth = 700
@@ -26,7 +26,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_two"
 			position = { x = -110 y = 230 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_two]"
 			maxWidth = 700
@@ -35,7 +35,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_three"
 			position = { x = -110 y = 260 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_three]"
 			maxWidth = 700
@@ -44,7 +44,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_four"
 			position = { x = -110 y = 290 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_four]"
 			maxWidth = 700
@@ -53,7 +53,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_five"
 			position = { x = -110 y = 320 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_five]"
 			maxWidth = 700
@@ -62,7 +62,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "party_six"
 			position = { x = -110 y = 350 }
-			font = "hoi_24header"
+			font = "hoi_20b"
 			format = center
 			text = "[get_party_six]"
 			maxWidth = 700
