@@ -5,6 +5,13 @@ state={
 		2099 3008 5351 6651 6886 7165 7242 7822 12336 12352 12379 12380 12387 12388 12402 12403 12416 12425 12432 12433 12438 12451 12452 12458 12473 12477 12478 12488 12525 12538 12544 12563 12564 12569 12595 12615 
 	}
 	history={
+      victory_points = { 12438 3 }
+      victory_points = { 12336 3 }
+      victory_points = { 12402 5 }
+      victory_points = { 12569 3 }
+      victory_points = { 12538 3 }
+      victory_points = { 12488 5 }
+      victory_points = { 12478 3 }
 		owner = UKR
 		add_core_of = UKR
 		victory_points = {
