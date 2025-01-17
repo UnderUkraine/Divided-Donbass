@@ -14,39 +14,66 @@ create_faction = "NATO"
 		elections_allowed = no
 	}
 	set_popularities = {
-		liberal_democratic = 65
-		conservatism_democratic = 5
+		liberal_democratic = 
+		conservatism_democratic = 
 		social_democratic =
-		nationalism_group = 15
-		fascism = 25
+		nationalism_group = 
+		fascism = 
 		communism =
 		socialism =
 	}
 }
 #НЕ УДАЛЯТЬ, А ТО Я ТРАХНУ ТОГО КТО ЭТО СДЕЛАЕТ (Штирлиц)
-# Австрия = 1,98%
-# 2013.11.21 = {
-#	liberal_democratic = 65
-#   conservatism_democratic = 5
-#   social_democratic =
-#   nationalism_group = 15
-#   fascism = 25
-#   communism =
-#   socialism =
-#   }
-# Бельгия 
+# 2013.11.21 (Полит ориентация ЕС на тот момент)
+# Австрия = 1,98% 
+#    liberal_democratic = 8 = 0,16%
+#    conservatism_democratic = 27 = 0,53%
+#    social_democratic = 24 = 0,48%
+#    fascism = 19 = 0,38%
+# Бельгия  
 # Болгария 
-# Венгрия 
+# Венгрия = 2,19% 
+#   conservatism_democratic = 67 = 1,47%
+#	nationalism_group = 12 = 0,26%
+#	social_democratic = 19 = 0,42%
+#	liberal_democratic = 2 = 0,04%
 # Германия 
 # Греция 
 # Дания 
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# Ирландия 	
+# Испания 	
+# Италия 	
+# Кипр 	
+# Латвия 	
+# Литва 0,63%
+#   conservatism_democratic = 33 = 0,21%
+#   nationalism_group = 8 = 0,05%
+#   social_democratic = 31 = 0,2%
+#   liberal_democratic = 28 = 0,18%
+# Люксембург 	
+# Мальта 	
+# Нидерланды 	
+# Польша = 8,49%  	
+#   conservatism_democratic = 30 = 2,55%
+#	nationalism_group = 5 = 0,42%
+#	social_democratic = 15 = 1,27%
+#	liberal_democratic = 39 = 3,31%
+#   socialism = 11 = 0,93%
+# Португалия 	
+# Румыния = 4,34%
+#    conservatism_democratic = 16 = 0,69%
+#    nationalism_group = 5 = 0,22%
+#    social_democratic = 63 = 2,73%
+#    socialism = 14 = 0,61%
+#    autoritarian_democracy = 2 = 0,09
+# Словакия = 1,22%
+#    conservatism_democratic = 43 = 0,52%
+#    social_democratic = 44 = 0,54%
+#    liberal_democratic = 13 = 0,16%
+# Словения 	
+# Финляндия 	
+# Франция 	
+# Хорватия 	
+# Чехия 	
+# Швеция 	
+# Эстония
