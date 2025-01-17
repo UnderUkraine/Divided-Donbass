@@ -5,6 +5,11 @@ set_technology = {
 add_ideas = {
 	world_recognition
 }
+create_faction = "NATO (Eastern Europe)"
+add_to_faction = HUN
+add_to_faction = SLO
+add_to_faction = ROM
+add_to_faction = LIT
 2013.11.21 = {
     set_politics = {
 	    ruling_party = liberal_democratic

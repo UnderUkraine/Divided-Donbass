@@ -26,8 +26,6 @@
 #⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡄⢽⣿⣿⣿⣿⣿⣿⢌⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠆⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
 #Under & Kalm & Celodojmolvek - первые разрабы Divided Donbass (НЕ ТРОГАТЬ, ЭТО НА ПАМЯТЬ)
 #Under & Kalm & Celodojmolvek - first developers of Divided Donbass (DO NOT TOUCH, THIS IS FOR MEMORY)
-recruit_character = vladimir_putin
-capital = 558
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons_2 = 1
@@ -410,6 +408,8 @@ add_ideas = {
 }
 create_faction = "ОДКБ"
 add_to_faction = BLR
+recruit_character = vladimir_putin
+capital = 558
 2013.11.21 = {
 	recruit_character = aleksei_navalniy
 	set_politics = {

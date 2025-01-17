@@ -2,21 +2,51 @@
 set_technology = {
 	infantry_weapons = 1
 }
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "2010.02.07"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 65
-	fascism = 5
-	communism = 15
-	neutrality = 25
-}
-
 set_rule = {
 	can_puppet = no
 }
+create_faction = "NATO"
+2013.11.21 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2004.06.05"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		liberal_democratic = 65
+		conservatism_democratic = 5
+		social_democratic =
+		nationalism_group = 15
+		fascism = 25
+		communism =
+		socialism =
+	}
+}
+#НЕ УДАЛЯТЬ, А ТО Я ТРАХНУ ТОГО КТО ЭТО СДЕЛАЕТ (Штирлиц)
+# Австрия = 1,98%
+# 2013.11.21 = {
+#	liberal_democratic = 65
+#   conservatism_democratic = 5
+#   social_democratic =
+#   nationalism_group = 15
+#   fascism = 25
+#   communism =
+#   socialism =
+#   }
+# Бельгия 
+# Болгария 
+# Венгрия 
+# Германия 
+# Греция 
+# Дания 
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
