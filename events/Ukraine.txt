@@ -478,7 +478,7 @@ country_event = {
 	id = ukraine.15
 	title = ukraine.15.t
 	desc = ukraine.15.d
-	#picture = GFX_report_event_royal_parade
+	picture = GFX_report_event_appel_to_un
 	
 	is_triggered_only = yes
 	

@@ -600,7 +600,7 @@ equipment_modules = {
 
 		}
 	}
-	tank_combination_armor_one  = {
+	tank_combination_armor_one = {
 		abbreviation = "ca1"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
@@ -616,7 +616,7 @@ equipment_modules = {
 
 		}
 	}
-	tank_combination_armor_two  = {
+	tank_combination_armor_two = {
 		abbreviation = "ca1"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
@@ -632,7 +632,7 @@ equipment_modules = {
 
 		}
 	}
-	tank_rolled_homogeneous_armor_three = { ##Не очень уверен
+	tank_rolled_homogeneous_armor_three = {
 		abbreviation = "rha3"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
@@ -697,6 +697,38 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 
+		}
+	}
+
+	tank_aluminium_armor = {
+		abbreviation = "ala"
+		category = light_tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 7.5
+			armor_value = 8
+			breakthrough = 1
+		}
+		xp_cost = 999
+		multiply_stats = {
+			build_cost_ic = 0.15
+
+		}
+	}
+	tank_steel_armor = {
+		abbreviation = "sta"
+		category = light_tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			defense = 9.5
+			armor_value = 12
+			breakthrough = 1
+		}
+		xp_cost = 999
+		multiply_stats = {
+			build_cost_ic = 0.25
 		}
 	}
 

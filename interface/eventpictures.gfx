@@ -24,4 +24,8 @@ spriteTypes = {
 		name = "GFX_report_event_capture_of_dpr"
 		texturefile = "gfx/event_pictures/report_event_ukraine_capture_of_dpr.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_appel_to_un"
+		texturefile = "gfx/event_pictures/report_event_appel_to_un.dds"
+	}
 }

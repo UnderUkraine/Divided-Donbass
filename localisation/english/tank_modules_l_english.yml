@@ -648,3 +648,23 @@
  tank_152mm_2a64_arta: "152-mm 2A64"
  RUS_tank_152mm_2a88_rus_arta: "152-mm 2A88"
  UKR_tank_152mm_2a88_rus_arta: "155-mm"
+
+ EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Additional light weapons"
+ EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
+
+ tank_additional_7_62_mm:0 "Additional light weapons"
+ EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
+ EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Additional light weapons"
+ EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
+ EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Additional light weapons"
+ EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
+
+ tank_additional_7_62_mm: "7.62-mm PKT machine gun"
+ tank_additional_dshk_12_7mm: "12.7-mm DSHK machine gun"
+ tank_additional_nsvt_12_7mm: "12.7-mm NSVT machine gun"
+ tank_additional_cord_12_7mm_RUSSIA: "12.7-mm CORD machine gun"
+ tank_additional_automatic_grenade_launcher: "Automatic grenade launcher"
+
+ tank_additional_medium_anti_aircraft_missle_1: "Additional medium Anti-Aircraft Missle 1"
+ tank_additional_medium_anti_aircraft_missle_2: "Additional medium Anti-Aircraft Missle 2"
+ tank_additional_manpads_on_chassis: "MANPADS on chassis"

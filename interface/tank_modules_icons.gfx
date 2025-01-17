@@ -81,6 +81,111 @@ spriteTypes = {
 		name = "GFX_EMI_anticumulative_grids"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/Anti_cumulative_grids.dds"
 	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_aluminium_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/aluminium_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_steel_armor"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/steel_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_combination_armor_one"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_combination_armor_one.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_combination_armor_two"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_combination_armor_two.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_rolled_homogeneous_armor_three"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_rolled_homogeneous_armor_three.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_passive_protection_complex_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_passive_protection_complex_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_passive_protection_complex_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_passive_protection_complex_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_drozd2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_drozd2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_drozd"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_drozd.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_dozhd"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_dozhd.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_arena"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_arena.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_5"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_5.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_EMI_tank_7_62_mm"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_7_62_mm.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_dshk_12_7mm"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_dshk_12_7mm.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_nsvt_12_7mm"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_nsvt_12_7mm.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_cord_12_7mm_RUSSIA"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cord_12_7mm_RUSSIA.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_100mm_weapon_2a29"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_100mm_weapon_2a29.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_57mm_autocannon_2a91"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_57mm_autocannon_2a91.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_73mm_weapon_2a28"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_73mm_weapon_2a28.dds"
+	}
+
+    #CATEGORIES
+
+	spriteType = {
+		name = "GFX_EMI_tank_super_light_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_nsvt_12_7mm.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_medium_weapon_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_100mm_weapon_2a29.dds"
+		legacy_lazy_load = no
+	}
+
 	spriteType = {
 		name = "GFX_EMI_tank_atgms_category"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9K11_MALIUTKA.dds"
@@ -89,6 +194,32 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_tank_mgg_atgms_category"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bastion.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_dynamic_armor_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/kontakt_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gga_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/9k119_reflex.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_defense_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/Anti_cumulative_grids.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_active_defense_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_active_defense_drozd2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_passive_protection_complex_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_1.dds"
 		legacy_lazy_load = no
 	}
 
