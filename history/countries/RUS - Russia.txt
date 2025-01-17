@@ -24,44 +24,9 @@
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⢀⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣁⡀⠀⠀⠀⠀⣀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⢰⣿⣿⣿⣿⣿⣿⣿⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⢡⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
 #⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡄⢽⣿⣿⣿⣿⣿⣿⢌⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠆⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
-
 #Under & Kalm & Celodojmolvek - первые разрабы Divided Donbass (НЕ ТРОГАТЬ, ЭТО НА ПАМЯТЬ)
 #Under & Kalm & Celodojmolvek - first developers of Divided Donbass (DO NOT TOUCH, THIS IS FOR MEMORY)
-
 recruit_character = vladimir_putin
-recruit_character = aleksei_navalniy
-
-create_country_leader = {
-	name = vladimir_putin
-	#desc = petro_poroshenko_desc
-	ideology = autoritarian_democractic
-	picture = gfx/leaders/RUS/vladimir_putin.dds
-	traits = { president_of_russian_federation }
-}
-
-create_country_leader = {
-	name = aleksei_navalniy
-	#desc = petro_poroshenko_desc
-	ideology = liberalism
-	picture = gfx/leaders/RUS/aleksei_navalniy.dds
-	traits = { president_of_russian_federation }
-}
-
-aleksei_navalniy = {
-	name = aleksei_navalniy
-	portraits = {
-		civilian = {
-			large = "/gfx/leaders/RUS/aleksei_navalniy.dds"
-		}
-	}
-	country_leader = {
-		expire = "1965.1.1"
-		ideology = oligarchism
-		traits = {  
-		}
-	}
-}
-
 capital = 558
 set_technology = {
 	infantry_weapons = 1
@@ -127,7 +92,6 @@ set_technology = {
 	bbm_2_chassis = 1
 	bbm_3_chassis = 1
 }
-
 create_equipment_variant = {
     name = "Т-55"
     type = tank_chassis_1
@@ -147,7 +111,6 @@ create_equipment_variant = {
     icon = "GFX_tank1_chassis_medium"
     obsolete = yes
 }
-
 create_equipment_variant = {
     name = "Т-64"
     type = tank_chassis_2
@@ -167,7 +130,6 @@ create_equipment_variant = {
     icon = "GFX_tank2_chassis_medium"
     obsolete = yes
 }
-
 create_equipment_variant = {
 	name = "Т-72"
 	type = tank_chassis_1
@@ -187,7 +149,6 @@ create_equipment_variant = {
 	icon = "GFX_tank2_chassis_medium"
     obsolete = yes
 }
-
 create_equipment_variant = {
 	name = "Т-72А"
 	type = tank_chassis_2
@@ -209,8 +170,6 @@ create_equipment_variant = {
 	icon = "GFX_tank2_chassis_medium"
     obsolete = yes
 }
-
-
 create_equipment_variant = {
 	name = "Т-72Б"
 	type = tank_chassis_2
@@ -232,7 +191,6 @@ create_equipment_variant = {
 	icon = "GFX_tank2_chassis_medium"
     obsolete = yes
 }
-
 create_equipment_variant = {
 	name = "Т-80"
 	type = tank_chassis_3
@@ -334,7 +292,6 @@ create_equipment_variant = {
 	}
 	icon = "GFX_tank3_chassis_medium"
 }
-
 create_equipment_variant = {
     name = "Т-90"
     type = tank_chassis_4
@@ -355,7 +312,6 @@ create_equipment_variant = {
     icon = "GFX_RUS_tank4_chassis_medium"
     obsolete = yes
 }
-
 create_equipment_variant = {
     name = "Т-90А"
     type = tank_chassis_4
@@ -376,17 +332,74 @@ create_equipment_variant = {
     }
     icon = "GFX_RUS_tank4_chassis_medium"
 }
-
-set_politics = {
-    ruling_party = autoritarian_democracy
-    last_election = "2019.05.20"
-    election_frequency = 48
-    elections_allowed = no
+add_equipment_to_stockpile = {
+    type = tank_chassis_4
+    variant_name = "Т-90"
+    amount = 465
+    producer = RUS
 }
-
+add_equipment_to_stockpile = {
+    type = tank_chassis_4
+    variant_name = "Т-90А"
+    amount = 200
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80БВ"
+    amount = 500
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80У"
+    amount = 220
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80УД"
+    amount = 125
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_3
+    variant_name = "Т-80БВМ"
+    amount = 100
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б"
+    amount = 500
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б3"
+    amount = 300
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-72Б3М"
+    amount = 200
+    producer = RUS
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_2
+    variant_name = "Т-64"
+    amount = 500
+    producer = UKR
+}
+add_equipment_to_stockpile = {
+    type = tank_chassis_1
+    variant_name = "Т-55"
+    amount = 650
+    producer = RUS
+}
 add_ideas = {
     #RUS_defense_of_crimea_2014
-
     RUS_Autocracy
     RUS_Demographic_crisis
     RUS_Only_in_parades
@@ -395,91 +408,21 @@ add_ideas = {
 
     world_recognition
 }
-
 create_faction = "ОДКБ"
 add_to_faction = BLR
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_4
-    variant_name = "Т-90"
-    amount = 465
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_4
-    variant_name = "Т-90А"
-    amount = 200
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_3
-    variant_name = "Т-80БВ"
-    amount = 500
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_3
-    variant_name = "Т-80У"
-    amount = 220
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_3
-    variant_name = "Т-80УД"
-    amount = 125
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_3
-    variant_name = "Т-80БВМ"
-    amount = 100
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_2
-    variant_name = "Т-72Б"
-    amount = 500
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_2
-    variant_name = "Т-72Б3"
-    amount = 300
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_2
-    variant_name = "Т-72Б3М"
-    amount = 200
-    producer = RUS
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_2
-    variant_name = "Т-64"
-    amount = 500
-    producer = UKR
-}
-
-add_equipment_to_stockpile = {
-    type = tank_chassis_1
-    variant_name = "Т-55"
-    amount = 650
-    producer = RUS
-}
-
-set_popularities = {
-	liberal_democratic = 5
-	conservatism_democratic = 10
-	fascism = 5
-	communism = 5
-	autoritarian_democracy = 75
+2013.11.21 = {
+	recruit_character = aleksei_navalniy
+	set_politics = {
+		ruling_party = autoritarian_democracy
+		last_election = "2012.03.04"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		social_democratic = 4 
+		nationalism_group = 12
+		communism = 19
+		socialism = 13
+		autoritarian_democracy = 52
+	}
 }
