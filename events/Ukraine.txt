@@ -899,3 +899,37 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.38.a executed"
 	}
 }
+
+#Formation of Fenix
+country_event = {
+	id = ukraine.39
+	title = ukraine.39.t
+	desc = ukraine.39.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.39.a
+		log = "[GetDateText]: [This.GetName]: ukraine.39.a executed"
+
+		load_oob = "UKR_Fenix"
+	}
+}
+
+#Formation of Carpatska Sich
+country_event = {
+	id = ukraine.40
+	title = ukraine.40.t
+	desc = ukraine.40.d
+	#picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.40.a
+		log = "[GetDateText]: [This.GetName]: ukraine.40.a executed"
+
+		load_oob = "UKR_Carpatska_sich"
+	}
+}

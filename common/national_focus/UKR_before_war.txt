@@ -102,7 +102,7 @@ focus_tree = {
 
 			add_days_mission_timeout = {
 				mission = yanukovich_overthrow
-				days = 15
+				days = 18
 			}
 		}
 	}
