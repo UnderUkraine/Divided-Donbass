@@ -33,6 +33,10 @@ state={
 		victory_points = { 13452 10 }
 		owner = UKR
 		add_core_of = UKR 
+
+            buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=95838
 	buildings_max_level_factor=1.000

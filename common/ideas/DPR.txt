@@ -53,9 +53,9 @@ ideas = {
         
             
             modifier = {
-                army_attack_factor = 0.3
-                army_defence_factor = 0.35
-                army_speed_factor = 0.05
+                army_attack_factor = 0.45
+                army_defence_factor = 0.5
+                army_speed_factor = 0.1
             }
         }  
     }

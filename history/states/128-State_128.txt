@@ -10,6 +10,9 @@ state={
 		owner = RUS
 		add_core_of = RUS
 
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=2122766
 	buildings_max_level_factor=1.000

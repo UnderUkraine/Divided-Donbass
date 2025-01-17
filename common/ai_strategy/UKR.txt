@@ -158,6 +158,12 @@ UKR_counteroffensive_in_kramatorsk = {
 		execution_type = rush
 		manual_attack = yes
 	}
+
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 8
+		id = 237
+	}
 }
 
 UKR_counteroffensive_in_luhansk = {

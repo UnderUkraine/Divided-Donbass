@@ -5,10 +5,6 @@ division_template = {
 		militia = { x = 0 y = 1 }
 		militia = { x = 0 y = 2 }
         militia = { x = 0 y = 3 }
-        militia = { x = 0 y = 4 }
-
-        militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
 	}
 
     support = {
@@ -111,6 +107,95 @@ units = {
     }
     division= {
         name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11725
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+
+    division= {
+        name = "Opolchenie"
+        location = 11772
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11772
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11772
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
         location = 11772
         division_template = "Militia"
         start_experience_factor = 0.08
@@ -159,6 +244,31 @@ units = {
 		start_manpower_factor = 1
     }
 
+    division= {
+        name = "Opolchenie"
+        location = 11848
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+    division= {
+        name = "Opolchenie"
+        location = 11848
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+
+    division= {
+        name = "Opolchenie"
+        location = 5683
+        division_template = "Militia"
+        start_experience_factor = 0.08
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
     division= {
         name = "Opolchenie"
         location = 11848

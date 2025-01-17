@@ -61,6 +61,10 @@ state={
 				set_province_controller = 12291
 			}
 		}
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=1

@@ -21,6 +21,10 @@ state={
 		add_dynamic_modifier = {
 			modifier = City_of_Sevastopol
 		}
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=383907

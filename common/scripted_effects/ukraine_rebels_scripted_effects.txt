@@ -340,6 +340,7 @@ ukraine_rebel_kpr_1 = {
     }
 
     KPR = {
+        set_province_controller = 8873
         set_province_controller = 8936
         set_province_controller = 8996
         set_province_controller = 8966

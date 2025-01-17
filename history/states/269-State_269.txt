@@ -30,6 +30,10 @@ state={
 			transfer_state_to = LPR
 			add_core_of = LPR
 		}
+
+                buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=424113
