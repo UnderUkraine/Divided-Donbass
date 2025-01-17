@@ -5,10 +5,10 @@ on_actions = {
 				limit = { has_start_date < 2015.01.01 }
 
 				UKR = {
-					load_oob = "UKR_2014"
+					load_oob = "UKR_2013"
 				}
 				RUS = {
-					load_oob = "RUS_2014"
+					load_oob = "RUS_2013"
 				}
 				DPR = {
 					load_oob = "DPR_2014"
