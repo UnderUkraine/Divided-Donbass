@@ -46,10 +46,21 @@ DPR_start_of_rebeltion = {
 		always = no
 	}
 
+    #Бот будет пытатся соединится с Краматорской группировкой
+
 	ai_strategy = {
 		type = front_control
-        priority = 1000
-		strategic_region = 52
+        priority = 500
+		state = 272
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 301
 		ordertype = front
 		execution_type = rush
 		manual_attack = yes
@@ -57,7 +68,37 @@ DPR_start_of_rebeltion = {
 	ai_strategy = {
 		type = front_control
         priority = 500
-		state = 439
+		state = 284
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 237
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+	#Соединение с Горловской группой
+
+	ai_strategy = {
+		type = front_control
+        priority = 250
+		state = 315
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+	#Не штурмовать ДАП
+
+	ai_strategy = {
+		type = front_control
+        priority = -10000
+		state = 529
 		ordertype = front
 		execution_type = rush
 		manual_attack = yes

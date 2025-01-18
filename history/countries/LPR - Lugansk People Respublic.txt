@@ -117,7 +117,7 @@ recruit_character = LPR_bolotov
 	}
 	add_timed_idea = {
 		idea = LPR_independence_war
-		days = 120
+		days = 50
 	}
 }
 2015.1.1 = {

@@ -220,7 +220,7 @@ set_war_support = 90
 	}
 	add_timed_idea = {
 		idea = DPR_independence_war
-		days = 120
+		days = 50
 	}
 }
 2015.1.1 = {

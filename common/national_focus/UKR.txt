@@ -404,7 +404,7 @@ focus_tree = {
 	focus = {
 		id = UKR_ato
 		icon = GFX_focus_UKR_ato
-		cost = 15
+		cost = 5
 		x = 4
 		y = 1
 
@@ -434,7 +434,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations
 		icon = GFX_focus_UKR_Volunteer_formations
-		cost = 25
+		cost = 20
 		x = -2
 		y = 1
 
@@ -442,7 +442,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		cancel_if_invalid = yes
@@ -461,7 +461,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations_spesial_forces_mvs
 		icon = GFX_focus_UKR_Volunteer_formations_spesial_forces_mvs
-		cost = 25
+		cost = 15
 		x = -2
 		y = 2
 
@@ -469,7 +469,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 
 		cancel_if_invalid = yes
@@ -575,7 +575,7 @@ focus_tree = {
 	focus = {
 		id = UKR_general_staff
 		icon = GFX_focus_UKR_general_staff
-		cost = 20
+		cost = 15
 		x = 0
 		y = 1
 
@@ -583,7 +583,7 @@ focus_tree = {
 		relative_position_id = UKR_ato
 		
 		ai_will_do = {
-			factor = 50
+			factor = 65
 		}
 
 		cancel_if_invalid = yes
@@ -597,7 +597,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Start_of_operations_in_the_ATO_zone
 		icon = GFX_focus_UKR_ato
-		cost = 25
+		cost = 20
 		x = 0
 		y = 2
 

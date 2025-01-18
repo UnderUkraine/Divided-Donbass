@@ -16,10 +16,14 @@ RUS_rush_in_crimea_2014 = {
 	ai_strategy = {
 		type = front_control
 		tag = CRI
-		ratio = 0.1
 		ordertype = front
 		execution_type = rush
-		manual_attack = no
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -500
 	}
 }
 
