@@ -142,7 +142,7 @@ ukraine.10.d: "Today our troops have cleared the last regions where pro-Russian 
 ukraine.10.a: "There's still a little more to go..."
 
 ukraine.15.t: "Ukraine's appeal to the UN"
-ukraine.15.d: "Today, during a telephone conversation between the UN Secretary General and Acting President Turchynov, the latter called for a joint anti-terrorist operation in eastern Ukraine with an international peacekeeping contingent to confirm the legitimacy and legality of the government's actions. According to him, the situation in the east of Ukraine, particularly in Luhansk and Donetsk regions, repeats the scenario that has already been played out by Russia in Crimea. However, he emphasized that the situation in eastern Ukraine is different from the events in Crimea "because the majority of the population is not willing to support the separatists". For his part, Ban Ki-moon, the UN secretary general, expressed support for Turchynov and the people of Ukraine."
+ukraine.15.d: "Today, during a telephone conversation between the UN Secretary General and Acting President Turchynov, the latter called for a joint anti-terrorist operation in eastern Ukraine with an international peacekeeping contingent to confirm the legitimacy and legality of the government's actions. According to him, the situation in the east of Ukraine, particularly in Luhansk and Donetsk regions, repeats the scenario that has already been played out by Russia in Crimea. However, he emphasized that the situation in eastern Ukraine is different from the events in Crimea "because the majority of the population is not willing to support the separatists". For his part, Ki-moon, the UN secretary general, expressed support for Turchynov and the people of Ukraine."
 ukraine.15.a: "The whole world is with us."
 
 ukraine.37.t: "Legitimization of government measures"
@@ -152,6 +152,10 @@ ukraine.37.a: "..."
 ukraine.38.t: "Attracting Russian support"
 ukraine.38.d: "The government is considering turning to Russia for financial, political, and military support as protests intensify and the threat of losing control looms. This strategy may stabilize the situation in the short term, but risks provoking resentment among the population and the international community."
 ukraine.38.a: "..."
+
+ukraine.41.t: "New Year's greetings"
+ukraine.41.d: "With the advent of the new year, Viktor Yanukovych addressed the nation with a solemn greeting. His words about peace, prosperity and stability sounded from TV screens and radios. The President wished Ukrainians success, good health and faith in a better future. However, while some took his words with hope, others regarded the congratulatory message with distrust, given the growing political unrest in the country."
+ukraine.41.a: "These words sound hollow amidst the protests."
 
 donetsk.1.t: "Proclamation of the republic"
 donetsk.1.d: "Amid an escalating political crisis caused by protests and armed confrontation in Donetsk oblast, the Donetsk People's Republic was proclaimed. The leaders of the protest movement declared the independence of the region, stating that the results of the referendum on self-determination gave them full right to do so. The declaration of independence became the starting point for further escalation of the conflict, which rapidly turned into war. The Ukrainian government refused to recognize the republic, and the international community was split in its assessment of what was happening. How will events develop further? It is up to you to decide."
