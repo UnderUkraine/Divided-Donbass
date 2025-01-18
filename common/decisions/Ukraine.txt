@@ -830,6 +830,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -843,11 +846,6 @@ UKR_anti_terroristic_operation = {
         custom_cost_trigger = {
             command_power > 14
         }
-		available = {
-			NOT = {
-                has_country_flag = UKR_Outgoing_offensive_ATO
-			}
-		}
 		custom_cost_text = decision_cost_CP_15
 		complete_effect = {
 			hidden_effect = {
@@ -914,6 +912,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1041,6 +1042,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1129,6 +1133,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1270,6 +1277,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1431,6 +1441,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1540,6 +1553,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {
@@ -1625,6 +1641,9 @@ UKR_anti_terroristic_operation = {
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
+			NOT = {
+                has_country_flag = UKR_Outgoing_offensive_ATO
+			}
 		}
 		ai_will_do = {
 			modifier = {

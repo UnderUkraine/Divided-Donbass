@@ -466,4 +466,82 @@ ukraine_set_dem_zone = {
     315 = {
         set_demilitarized_zone = yes
     }
+    356 = {
+        set_demilitarized_zone = yes
+    }
+    340 = {
+        set_demilitarized_zone = yes
+    }
+    322 = {
+        set_demilitarized_zone = yes
+    }
+    289 = {
+        set_demilitarized_zone = yes
+    }
+    259 = {
+        set_demilitarized_zone = yes
+    }
+    237 = {
+        set_demilitarized_zone = yes
+    }
+    219 = {
+        set_demilitarized_zone = yes
+    }
+    253 = {
+        set_demilitarized_zone = yes
+    }
+    264 = {
+        set_demilitarized_zone = yes
+    }
+    284 = {
+        set_demilitarized_zone = yes
+    }
+    272 = {
+        set_demilitarized_zone = yes
+    }
+    301 = {
+        set_demilitarized_zone = yes
+    }
+    347 = {
+        set_demilitarized_zone = yes
+    }
+    532 = {
+        set_demilitarized_zone = yes
+    }
+    332 = {
+        set_demilitarized_zone = yes
+    }
+    331 = {
+        set_demilitarized_zone = yes
+    }
+    342 = {
+        set_demilitarized_zone = yes
+    }
+    295 = {
+        set_demilitarized_zone = yes
+    }
+    305 = {
+        set_demilitarized_zone = yes
+    }
+    317 = {
+        set_demilitarized_zone = yes
+    }
+    269 = {
+        set_demilitarized_zone = yes
+    }
+    265 = {
+        set_demilitarized_zone = yes
+    }
+    171 = {
+        set_demilitarized_zone = yes
+    }
+    136 = {
+        set_demilitarized_zone = yes
+    }
+    359 = {
+        set_demilitarized_zone = yes
+    }
+    210 = {
+        set_demilitarized_zone = yes
+    }
 }
