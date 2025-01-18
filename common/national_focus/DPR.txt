@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Donbass_will_be_free
 		icon = GFX_focus_DPR_Donbass_will_be_free
-		cost = 15
+		cost = 5
 		x = 20
 		y = 0
 		
@@ -27,12 +27,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_Donbass_will_be_free"
+
+			country_event = donetsk.1
 		}
 	}
 	focus = {
 		id = DPR_National_militia
 		icon = GFX_focus_DPR_National_militia
-		cost = 15
+		cost = 10
 		x = -3
 		y = 1
 
@@ -54,7 +56,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Tank_Battalion_Diesel
 		icon = GFX_focus_DPR_Tank_Battalion_Diesel
-		cost = 10
+		cost = 5
 		x = -1
 		y = 1
 
@@ -77,7 +79,7 @@ focus_tree = {
 	focus = {
 		id = DPR_brigada_oplot
 		icon = GFX_focus_DPR_brigada_oplot
-		cost = 10
+		cost = 5
 		x = 1
 		y = 1
 
@@ -103,7 +105,7 @@ focus_tree = {
 	focus = {
 		id = DPR_batalion_somali
 		icon = GFX_focus_DPR_batalion_somali
-		cost = 10
+		cost = 5
 		x = 3
 		y = 1
 
@@ -129,7 +131,7 @@ focus_tree = {
 	focus = {
 		id = DPR_battalion_sparta
 		icon = GFX_focus_DPR_battalion_sparta
-		cost = 10
+		cost = 5
 		x = -3
 		y = 1
 
@@ -155,7 +157,7 @@ focus_tree = {
 	focus = {
 		id = DPR_militia_expansion
 		icon = GFX_focus_DPR_Heroes_of_Donbass
-		cost = 20
+		cost = 15
 		x = 6
 		y = 1
 
@@ -205,7 +207,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Defense_of_Donetsk_Citadel
 		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
-		cost = 25
+		cost = 10
 		x = 3
 		y = 1
 
@@ -306,7 +308,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Defense_of_cities
 		icon = GFX_focus_DPR_Defense_of_cities
-		cost = 15
+		cost = 10
 		x = -1
 		y = 1
 
@@ -356,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
 		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
-		cost = 25
+		cost = 20
 		x = 0
 		y = 1
 

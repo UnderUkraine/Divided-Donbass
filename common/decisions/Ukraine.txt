@@ -1799,4 +1799,52 @@ UKR_anti_terroristic_operation = {
 			country_event = ukraine.35
 		}
 	}
+	UKR_formation_of_Fenix = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			country_event = ukraine.39
+		}
+	}
+	UKR_formation_of_Carpatska_Sich = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 25
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			country_event = ukraine.40
+		}
+	}
 }
