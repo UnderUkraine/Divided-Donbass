@@ -8,6 +8,7 @@ state={
 		steel = 4
 	}
 	history={
+      victory_points = { 7446 3 }
 		owner = UKR
 		add_core_of = UKR
 		victory_points = {

@@ -5,6 +5,9 @@ state={
 		2222 4180 4984 5177 5665 7273 7676 11590 11625 11653 11670 11685 11694 11704 11713 11727 11736 11754 11761 11796 11803 11845 11882 11900 11930 
 	}
 	history={
+      victory_points = { 11694 3 }
+      victory_points = { 11653 3 }
+      victory_points = { 7676 3 }
       victory_points = { 5010 3 }
       victory_points = { 11803 3 }
       victory_points = { 4984 5 }
