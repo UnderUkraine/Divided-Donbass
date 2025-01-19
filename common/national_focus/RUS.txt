@@ -33,7 +33,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_crisis_in_Ukraine
+		id = RUS_Situation_on_maidan
 		icon = GFX_focus_RUS_crisis_in_Ukraine
 		cost = 1
 		x = 0
@@ -59,14 +59,40 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = RUS_Call_Yanukovich
+		icon = GFX_focus_RUS_crisis_in_Ukraine
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Situation_on_maidan}
+		relative_position_id = RUS_Situation_on_maidan
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = RUS_Open_maidan_gui
+			#Event
+		}
+	}
+	focus = {
 		id = RUS_troops_in_sevastopol_port
 		icon = GFX_focus_RUS_troops_in_sevastopol_port
 		cost = 1
-		x = -1
+		x = -2
 		y = 1
 
-		prerequisite = {focus = RUS_crisis_in_Ukraine}
-		relative_position_id = RUS_crisis_in_Ukraine
+		prerequisite = {focus = RUS_Call_Yanukovich}
+		relative_position_id = RUS_Call_Yanukovich
 		
 		ai_will_do = {
 			factor = 1
@@ -83,14 +109,39 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_support_Yanukovich
+		id = RUS_Influence_on_the_Maidan
 		icon = GFX_focus_RUS_support_Yanukovich
 		cost = 1
-		x = 1
+		x = 2
 		y = 1
 
-		prerequisite = {focus = RUS_crisis_in_Ukraine}
-		relative_position_id = RUS_crisis_in_Ukraine
+		prerequisite = {focus = RUS_Call_Yanukovich}
+		relative_position_id = RUS_Call_Yanukovich
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Money to Ukraine
+		}
+	}
+	focus = {
+		id = RUS_Condemn_the_actions_of_the_protesters
+		icon = GFX_focus_RUS_support_Yanukovich
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = RUS_Call_Yanukovich}
+		relative_position_id = RUS_Call_Yanukovich
 		
 		ai_will_do = {
 			factor = 1
@@ -111,12 +162,13 @@ focus_tree = {
 		id = RUS_overthrow_of_Yanukovich
 		icon = GFX_focus_RUS_overthrow_of_Yanukovich
 		cost = 1
-		x = -1
+		x = 0
 		y = 1
 
-		prerequisite = {focus = RUS_support_Yanukovich}
+		prerequisite = {focus = RUS_Influence_on_the_Maidan}
 		prerequisite = {focus = RUS_troops_in_sevastopol_port}
-		relative_position_id = RUS_support_Yanukovich
+		prerequisite = {focus = RUS_Condemn_the_actions_of_the_protesters}
+		relative_position_id = RUS_Condemn_the_actions_of_the_protesters
 		
 		ai_will_do = {
 			factor = 1
