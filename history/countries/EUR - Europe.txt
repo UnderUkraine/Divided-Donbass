@@ -22,6 +22,37 @@ create_faction = "NATO"
 		communism =
 		socialism =
 	}
+	create_country_leader = {
+	    name = EUR_hose_manuel_barzoe
+	    #desc = petro_poroshenko_desc
+	    ideology = social_democracy
+	    picture = gfx/leaders/EUR/EUR_hose_manuel_barzoe.dds
+	    traits = { }
+    }
+}
+2015.01.01 = {
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "2014.11.01"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		liberal_democratic = 
+		conservatism_democratic = 
+		social_democratic =
+		nationalism_group = 
+		fascism = 
+		communism =
+		socialism =
+	}
+	create_country_leader = {
+	    name = EUR_zshan_klod_yunker
+	    #desc = petro_poroshenko_desc
+	    ideology = conservatism
+	    picture = gfx/leaders/EUR/EUR_zshan_klod_yunker.dds
+	    traits = { }
+    }
 }
 #НЕ УДАЛЯТЬ, А ТО Я ТРАХНУ ТОГО КТО ЭТО СДЕЛАЕТ (Штирлиц)
 # 2013.11.21 (Полит ориентация ЕС на тот момент)
@@ -42,11 +73,11 @@ create_faction = "NATO"
 #	social_democratic = 19 = 0,42%
 #	liberal_democratic = 2 = 0,04%
 # Германия = 18,58%
-#    liberal_democratic = 5 = 0,93%
-#    conservatism_democratic = 42 = 7,8%
-#    social_democratic = 26 = 4,83%
-#    fascism = 8 = 1,49%
-#    socialism = 9 = 1,67%
+#   liberal_democratic = 5 = 0,93%
+#   conservatism_democratic = 42 = 7,8%
+#   social_democratic = 26 = 4,83%
+#   fascism = 8 = 1,49%
+#   socialism = 9 = 1,67%
 # Греция = 2,4%
 # Дания = 1,3%
 # Ирландия = 1,1%	
@@ -85,6 +116,7 @@ create_faction = "NATO"
 # Словения = 0,47%
 # Финляндия = 1,24%
 # Франция =	15%
+#
 # Хорватия = 0,91%
 # Чехия = 2,38%
 # Швеция = 2,29%

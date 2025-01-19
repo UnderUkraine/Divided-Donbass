@@ -40,7 +40,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "infantry_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -65,7 +65,7 @@ guiTypes = {
 				iconType = {
 					name ="infantry_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
+					position = { x=-1 y=0 }
 					alwaystransparent = yes
 				}
 
@@ -73,7 +73,7 @@ guiTypes = {
                     name = "infantry_subtitle_weapons"
                     position = { x = 30 y = 140 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_WEAPONS"
                     maxWidth = 600
@@ -86,7 +86,7 @@ guiTypes = {
                     name = "infantry_subtitle_rpg"
                     position = { x = 30 y = 430 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_RPG"
                     maxWidth = 600
@@ -99,7 +99,7 @@ guiTypes = {
                     name = "infantry_subtitle_atgm"
                     position = { x = 30 y = 575 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_ATGM"
                     maxWidth = 600
@@ -112,7 +112,7 @@ guiTypes = {
                     name = "infantry_subtitle_manpads"
                     position = { x = 30 y = 720 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_MANPADS"
                     maxWidth = 600
@@ -125,7 +125,7 @@ guiTypes = {
                     name = "infantry_subtitle_mortars"
                     position = { x = 30 y = 860 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_MORTAR"
                     maxWidth = 600
@@ -138,7 +138,7 @@ guiTypes = {
                     name = "infantry_subtitle_trucks"
                     position = { x = 30 y = 1010 }
                     textureFile = ""
-                    font = "hoi_33"
+                    font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "INFANTRY_TITLE_TRUCKS"
                     maxWidth = 600
@@ -149,7 +149,7 @@ guiTypes = {
 
                 instantTextBoxType = {
                     name = "infantry_year6"
-                    position = { x = 400 y = 50 }
+                    position = { x = 185 y = 50 }
                     font = "hoi_36header"
                     borderSize = { x = 0 y = 0}
                     text = "1970"
@@ -234,7 +234,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "support_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -464,7 +464,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "armour_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -755,7 +755,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "nsb_armour_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -917,7 +917,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "artillery_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1037,7 +1037,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1328,7 +1328,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "mtgnavalfolder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1557,7 +1557,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "mtgnavalsupportfolder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1787,9 +1787,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air_techs_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 0 bottom = 24 right = 25}
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
@@ -2164,9 +2164,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "bba_air_techs_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 0 bottom = 24 right = 25}
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
@@ -2515,7 +2515,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "industry_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2841,7 +2841,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "electronics_folder"
-			position = { x=0 y=47 }
+			position = { x=86 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3284,119 +3284,131 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "folder_tabs"
-			position = { x=0 y=7 }
-			size = { width = 100%% height = 30 }
+			position = { x=8 y=51 }
+			size = { width = 79	height = 377 }
 
 			buttonType = {
 				name = "infantry_folder_tab"
-				position = { x = 22 y = 0 }
+				position = { x = -5 y = -10 }
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_infantry
+				shortcut = "1"
 			}
 
 			iconType = {
 				name = "highlight_infantry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=22 y=-5}
+				position = { x = -5 y = -10 }
 				hide = yes
 				alwaystransparent = yes
 			}
 
 			buttonType = {
 				name = "support_folder_tab"
-				position = { x = 110 y = 0 }
-				quadTextureSprite = "GFX_support_folder_tab"
+				position = { x = -5 y = 32 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_support
+				shortcut = "2"
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
+				position = { x = -5 y = 74 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_armor
+				shortcut = "3"
 			}
 
 			buttonType = {
 				name = "nsb_armour_folder_tab"
-				position = { x = 200 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
+				position = { x = -5 y = 74 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_armor
+				shortcut = "3"
 			}
 
 			buttonType = {
 				name = "artillery_folder_tab"
-				position = { x = 289 y = 0 }
-				quadTextureSprite = "GFX_artillery_folder_tab"
+				position = { x = -5 y = 116 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_artillery
+				shortcut = "4"
 			}
 
 			buttonType = {
 				name = "naval_folder_tab"
-				position = { x = 378 y = 0 }
-				quadTextureSprite = "GFX_naval_folder_tab"
+				position = { x = -5 y = 158 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "R"
 			}
 			buttonType = {
 				name = "mtgnavalfolder_tab"
-				position = { x = 378 y = 0 }
-				quadTextureSprite = "GFX_naval_folder_tab"
+				position = { x = -5 y = 158 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "5"
 			}
 			buttonType = {
 				name = "mtgnavalsupportfolder_tab"
-				position = { x = 467 y = 0 }
-				quadTextureSprite = "GFX_naval_support_tab"
+				position = { x = -5 y = 200 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "6"
 			}
 			buttonType = {
 				name = "air_techs_folder_tab"
-				position = { x = 556 y = 0 }
-				quadTextureSprite = "GFX_air_techs_folder_tab"
+				position = {x = -5 y = 242 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_air
+				shortcut = "Y"
 			}
 			buttonType = {
 				name = "bba_air_techs_folder_tab"
-				position = { x = 556 y = 0 }
-				quadTextureSprite = "GFX_air_techs_folder_tab"
+				position = { x = -5 y = 242 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_air
+				shortcut = "7"
 			}
 			buttonType = {
-				position = { x = 645 y = 0 }
 				name = "electronics_folder_tab"
-				quadTextureSprite = "GFX_techtree_engineering_tab"
+				position = { x = -5 y = 284 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_engineering
+				shortcut = "8"
 			}
 
 			iconType = {
 				name = "highlight_engineering_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=645 y=0}
+				position = { x = -8 y = 275 }
 				hide = yes
 				alwaystransparent = yes
 			}
 
 			buttonType = {
-				position = { x = 734 y = 0 }
 				name = "industry_folder_tab"
-				quadTextureSprite = "GFX_industry_folder_tab"
+				position = { x = -5 y = 326 }
+				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_industry
+				shortcut = "9"
 			}
 
 			iconType = {
 				name = "highlight_industry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=734 y=0}
+				position = { x = -8 y = 335 }
 				hide = yes
 				alwaystransparent = yes
 			}
