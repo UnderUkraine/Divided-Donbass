@@ -231,7 +231,7 @@ sub_units = {
 		max_strength = 10
 		max_organisation = 35
 		default_morale = 0.3
-		manpower = 75
+		manpower = 30
 
 		#Misc Abilities
 		training_time = 50
@@ -239,12 +239,12 @@ sub_units = {
 		supply_consumption = 0.05
 		breakthrough = -0.35
 		attack = -0.25
-		defence = -0.2
+		defence = -0.25
 		
 		supply_consumption = 0.06
 	
 		need = {
-			infantry_equipment = 50
+			infantry_equipment = 25
 			rpg_equipment = 10
 			#camo_equipment
 			truck_chassis = 5

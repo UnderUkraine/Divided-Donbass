@@ -933,3 +933,20 @@ country_event = {
 		load_oob = "UKR_Carpatska_sich"
 	}
 }
+
+#New year 2014
+country_event = {
+	id = ukraine.41
+	title = ukraine.41.t
+	desc = ukraine.41.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.41.a
+		log = "[GetDateText]: [This.GetName]: ukraine.41.a executed"
+
+		add_political_power = 5
+	}
+}

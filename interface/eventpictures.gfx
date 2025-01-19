@@ -28,4 +28,8 @@ spriteTypes = {
 		name = "GFX_report_event_appel_to_un"
 		texturefile = "gfx/event_pictures/report_event_appel_to_un.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_new_year_yanukovich"
+		texturefile = "gfx/event_pictures/report_event_new_year_yanukovich.dds"
+	}
 }
