@@ -5,6 +5,14 @@ state={
 		4131 4814 5446 6351 6683 6685 6721 7491 8109 12112 12142 12165 12166 12206 12207 12208 12209 12216 12217 12241 12253 12254 12260 12265 12271 12294 12295 12303 12304 12305 12316 12317 12326 12335 12343 12344 12351 12358 12359 12378 12386 12394 12400 12401 12415 12443 
 	}
 	history={
+      victory_points = { 12209 1 }
+      victory_points = { 12401 3 }
+      victory_points = { 12394 3 }
+      victory_points = { 5446 3 }
+      victory_points = { 4131 3 }
+      victory_points = { 12165 3 }
+      victory_points = { 12207 3 }
+      victory_points = { 12254 5 }
 		victory_points = { 6351 5 }
 		victory_points = { 12358 5 }
       victory_points = { 12378 3 }
