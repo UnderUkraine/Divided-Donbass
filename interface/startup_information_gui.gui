@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "startup_information_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 800 height = 401 }
+		size = { width = 1011 height = 680 }
 		orientation = center
 		origo = center 
 
@@ -14,13 +14,13 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_background_gui_small"
+			quadTextureSprite = "GFX_background_gui_startup"
 		}
 
 		buttonType = {
 			name = "close_button"
 			quadTextureSprite ="GFX_close_button_gui"
-			position = { x=700 y=10 }
+			position = { x=920 y=8 }
 			buttonText = ""
 			buttonFont = "hoi_16mbs"
 			Orientation = centre
@@ -29,7 +29,7 @@ guiTypes = {
 		buttonType = {
 			name ="country_info_button"
 			quadTextureSprite ="GFX_button_261x34"
-			position = { x=45 y=30 }
+			position = { x=200 y=30 }
 			#This will write onto the button the value and index of the array
 			buttonText = "[country_startup_information]"
 			buttonFont = "hoi_16mbs"
@@ -38,7 +38,7 @@ guiTypes = {
 		buttonType = {
 			name ="mod_info_button"
 			quadTextureSprite ="GFX_button_261x34"
-			position = { x=320 y=30 }
+			position = { x=550 y=30 }
 			#This will write onto the button the value and index of the array
 			buttonText = "[mod_startup_information]"
 			buttonFont = "hoi_16mbs"
@@ -59,29 +59,44 @@ guiTypes = {
 		click_to_front = no
 		clipping = no
 
+		iconType = {
+			name = "Background"
+			quadTextureSprite = "GFX_ukraine_background_gui_startup"
+			position = { x = -79 y = -73 }
+		}
+
 		instantTextboxType = {
 			name = "country_name"
-			position = { x = 160 y = 75 }
+			position = { x = 350 y = -40 }
 			font = "hoi_30header"
 			format = center
 			text = "[country_name_startup_info]"
-			maxWidth = 700
+			maxWidth = 100
 			maxHeight = 50
 		}
 		instantTextboxType = {
 			name = "country_desc"
-			position = { x = 280 y = 110 }
-			font = "hoi_16mbs"
+			position = { x = 310 y = 20 }
+			font = "hoi_20bs"
 			format = center
 			text = "[country_desc_startup_info]"
-			maxWidth = 480
+			maxWidth = 550
+			maxHeight = 50
+		} 
+		instantTextboxType = {
+			name = "country_paths"
+			position = { x = -200 y = 110 }
+			font = "hoi_20bs"
+			format = center
+			text = "[country_paths_startup_info]"
+			maxWidth = 550
 			maxHeight = 50
 		} 
 
 		iconType ={
             name ="country_flag"
             spriteType = "GFX_UKR_flag_gui"
-            position = { x= 30 y = 130 }
+            position = { x= -40 y = -55 }
            # Orientation = "center"
         }
 	}

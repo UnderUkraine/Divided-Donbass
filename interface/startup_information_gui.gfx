@@ -5,8 +5,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_background_gui_small"
-		textureFile = "/gfx/interface/small_gui_background.dds"
+		name = "GFX_background_gui_startup"
+		textureFile = "/gfx/interface/startup_gfx/startup_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_background_gui_startup"
+		textureFile = "/gfx/interface/startup_gfx/ukraine_bg.dds"
 	}
 
 	spriteType = {

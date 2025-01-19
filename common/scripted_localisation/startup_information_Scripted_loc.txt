@@ -25,6 +25,24 @@ defined_text = {
 }
 
 defined_text = {
+    name = country_paths_startup_info
+
+    text = {
+        trigger = {
+            tag = UKR
+        }
+        localization_key = "startup_info_ukraine_paths"
+    }
+
+    text = {
+        trigger = {
+            tag = RUS
+        }
+        localization_key = "startup_info_russia_paths"
+    }
+}
+
+defined_text = {
     name = country_startup_information
 
     text = {
