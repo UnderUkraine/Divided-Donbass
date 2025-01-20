@@ -844,6 +844,7 @@ UKR_anti_terroristic_operation = {
 				state = 237
         		state = 219
 				state = 259
+				state = 284
     		}
     		highlight_color_while_active = 3
     		highlight_color_before_active = 2
@@ -886,6 +887,13 @@ UKR_anti_terroristic_operation = {
 					days = 25
 				}
 			}
+			284 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
 		}
 		remove_effect = {
 			hidden_effect = {
@@ -898,6 +906,8 @@ UKR_anti_terroristic_operation = {
 						UKR = {
 							controls_province = 11420
 							controls_province = 4941
+							controls_province = 11615
+							}
 						}
 					}
 	
@@ -928,7 +938,6 @@ UKR_anti_terroristic_operation = {
 		highlight_states = {
     		highlight_state_targets = {
 				state = 171
-        		state = 210
 				state = 200
 				state = 203
 				state = 108
@@ -964,13 +973,6 @@ UKR_anti_terroristic_operation = {
 
 			# country_event = ukraine.32
 			171 = {
-				add_dynamic_modifier = {
-					modifier = ATO_Counteroffensive
-					scope = UKR
-					days = 25
-				}
-			}
-			210 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
@@ -1084,6 +1086,7 @@ UKR_anti_terroristic_operation = {
         		state = 228
 				state = 229
 				state = 248
+				state = 210
     		}
     		highlight_color_while_active = 3
     		highlight_color_before_active = 2
@@ -1119,6 +1122,13 @@ UKR_anti_terroristic_operation = {
 				}
 			}
 			228 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
+			210 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
@@ -1355,7 +1365,6 @@ UKR_anti_terroristic_operation = {
 				state = 253
 				state = 264
 				state = 272
-				state = 284
     		}
     		highlight_color_while_active = 3
     		highlight_color_before_active = 2
@@ -1467,13 +1476,6 @@ UKR_anti_terroristic_operation = {
 				}
 			}
 			272 = {
-				add_dynamic_modifier = {
-					modifier = ATO_Counteroffensive
-					scope = UKR
-					days = 25
-				}
-			}
-			284 = {
 				add_dynamic_modifier = {
 					modifier = ATO_Counteroffensive
 					scope = UKR
