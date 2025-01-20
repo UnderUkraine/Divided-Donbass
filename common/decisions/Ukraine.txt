@@ -839,6 +839,15 @@ UKR_anti_terroristic_operation = {
 				add = 100
 			}
 		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 237
+        		state = 219
+				state = 259
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
 		days_remove = 25
@@ -915,6 +924,22 @@ UKR_anti_terroristic_operation = {
 			NOT = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
+		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 171
+        		state = 210
+				state = 200
+				state = 203
+				state = 108
+				state = 170
+				state = 161
+				state = 156
+				state = 136
+				state = 180
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
 		}
 		ai_will_do = {
 			modifier = {
@@ -1001,6 +1026,13 @@ UKR_anti_terroristic_operation = {
 					days = 25
 				}
 			}
+			180 = {
+				add_dynamic_modifier = {
+					modifier = ATO_Counteroffensive
+					scope = UKR
+					days = 25
+				}
+			}
 		}
 		remove_effect = {
 			hidden_effect = {
@@ -1045,6 +1077,16 @@ UKR_anti_terroristic_operation = {
 			NOT = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
+		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 238
+        		state = 228
+				state = 229
+				state = 248
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
 		}
 		ai_will_do = {
 			modifier = {
@@ -1136,6 +1178,23 @@ UKR_anti_terroristic_operation = {
 			NOT = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
+		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 245
+				state = 269
+        		state = 263
+				state = 267
+				state = 242
+				state = 265
+				state = 271
+				state = 292
+				state = 280
+				state = 278
+				state = 304
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
 		}
 		ai_will_do = {
 			modifier = {
@@ -1280,6 +1339,26 @@ UKR_anti_terroristic_operation = {
 			NOT = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
+		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 336
+				state = 289
+        		state = 322
+				state = 330
+				state = 315
+				state = 317
+				state = 310
+				state = 301
+				state = 285
+				state = 283
+				state = 253
+				state = 264
+				state = 272
+				state = 284
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
 		}
 		ai_will_do = {
 			modifier = {
@@ -1445,6 +1524,19 @@ UKR_anti_terroristic_operation = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
 		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 364
+				state = 356
+				state = 340
+        		state = 359
+				state = 353
+				state = 369
+				state = 390
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
 		ai_will_do = {
 			modifier = {
 				add = 100
@@ -1557,6 +1649,16 @@ UKR_anti_terroristic_operation = {
                 has_country_flag = UKR_Outgoing_offensive_ATO
 			}
 		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 439
+				state = 405
+				state = 420
+        		state = 443
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
+		}
 		ai_will_do = {
 			modifier = {
 				add = 100
@@ -1638,6 +1740,20 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+		}
+		highlight_states = {
+    		highlight_state_targets = {
+				state = 355
+				state = 532
+				state = 347
+        		state = 529
+				state = 563
+				state = 355
+				state = 396
+				state = 375
+    		}
+    		highlight_color_while_active = 3
+    		highlight_color_before_active = 2
 		}
 		available = {
 			has_country_flag = UKR_ATO_Operations
