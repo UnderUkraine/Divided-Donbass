@@ -3,14 +3,28 @@ guiTypes = {
 	containerWindowType = {
 		name = "dpr_independence_war_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 500 height = 450 }
+		size = { width = 500 height = 700 }
 		orientation = center
 		origo = center 
 
+        iconType ={
+            name ="dpr_gerb"
+            spriteType = "GFX_dpr_gerb"
+            position = { x= 30 y = 170 }
+           # Orientation = "center"
+        }    
+        iconType ={
+            name ="lpr_gerb"
+            spriteType = "GFX_lpr_gerb"
+            position = { x= 320 y = 170 }
+           # Orientation = "center"
+        }    
+
+
 		instantTextboxType = {
 			name = "dpr_control_donetsk"
-			position = { x = -110 y = 210 }
-			font = "hoi_20b"
+			position = { x = -225 y = 280 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_donetsk]"
 			maxWidth = 700
@@ -18,8 +32,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_kramatorsk"
-			position = { x = -110 y = 240 }
-			font = "hoi_20b"
+			position = { x = -225 y = 310 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_kramatorsk]"
 			maxWidth = 700
@@ -27,8 +41,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_slavyansk"
-			position = { x = -110 y = 270 }
-			font = "hoi_20b"
+			position = { x = -225 y = 340 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_slavyansk]"
 			maxWidth = 700
@@ -36,8 +50,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_volnovaha"
-			position = { x = -110 y = 300 }
-			font = "hoi_20b"
+			position = { x = -225 y = 370 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_volnovaha]"
 			maxWidth = 700
@@ -45,8 +59,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_mariupol"
-			position = { x = -110 y = 330 }
-			font = "hoi_20b"
+			position = { x = -225 y = 400 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_mariupol]"
 			maxWidth = 700
@@ -54,8 +68,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_krasnoarmeisk"
-			position = { x = -110 y = 360 }
-			font = "hoi_20b"
+			position = { x = -225 y = 430 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_krasnoarmeisk]"
 			maxWidth = 700
@@ -63,8 +77,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "dpr_control_artemovsk"
-			position = { x = -110 y = 390 }
-			font = "hoi_20b"
+			position = { x = -225 y = 460 }
+			font = "hoi_18mbs"
 			format = center
 			text = "[get_dpr_control_artemovsk]"
 			maxWidth = 700

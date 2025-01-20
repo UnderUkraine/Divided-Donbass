@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dpr_gerb"
+		textureFile = "/gfx/interface/independence_war_people_republics/dpr_gerb.dds"
+	}
+	spriteType = {
+		name = "GFX_lpr_gerb"
+		textureFile = "/gfx/interface/independence_war_people_republics/lpr_gerb.dds"
+	}
+}
