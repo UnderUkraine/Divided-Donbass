@@ -14,13 +14,13 @@ create_faction = "NATO"
 		elections_allowed = no
 	}
 	set_popularities = {
-		liberal_democratic = 
-		conservatism_democratic = 
-		social_democratic =
-		nationalism_group = 
-		fascism = 
-		communism =
-		socialism =
+		liberal_democratic = 18
+		conservatism_democratic = 29
+		social_democratic = 23
+		nationalism_group = 7
+		fascism = 4
+		communism = 4
+		socialism = 14
 	}
 	create_country_leader = {
 	    name = EUR_hose_manuel_barzoe
@@ -38,13 +38,13 @@ create_faction = "NATO"
 		elections_allowed = no
 	}
 	set_popularities = {
-		liberal_democratic = 
-		conservatism_democratic = 
-		social_democratic =
-		nationalism_group = 
-		fascism = 
-		communism =
-		socialism =
+		liberal_democratic = 18
+		conservatism_democratic = 29
+		social_democratic = 23
+		nationalism_group = 7
+		fascism = 4
+		communism = 4
+		socialism = 14
 	}
 	create_country_leader = {
 	    name = EUR_zshan_klod_yunker
