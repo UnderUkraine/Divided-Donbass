@@ -119,7 +119,7 @@ division_template = {
 
 units = {
     division = {
-        name = "1-st rifle battalion of 138-th motorized rifle brigade"
+        name = "1-st Mechanized battalion of 138-th motorized rifle brigade"
         location = 8152
         division_template = "Mechanized Infantry"
         start_experience_factor = 0.4
@@ -135,7 +135,7 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "3-rd Mechanized battalion of 138-th motorized rifle brigade"
+        name = "3-rd Infantry battalion of 138-th motorized rifle brigade"
         location = 8152
         division_template = "Infantry Battalion"
         start_experience_factor = 0.4
@@ -143,7 +143,15 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "1-st rifle battalion of 25-th motorized rifle brigade"
+        name = "2-nd Mechanized battalion of 138-th motorized rifle brigade"
+        location = 8152
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Mechanized battalion of 25-th motorized rifle brigade"
         location = 6282
         division_template = "Mechanized Infantry"
         start_experience_factor = 0.4
@@ -151,7 +159,7 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "2-nd rifle battalion of 25-th motorized rifle brigade"
+        name = "2-nd Mechanized battalion of 25-th motorized rifle brigade"
         location = 6282
         division_template = "Mechanized Infantry"
         start_experience_factor = 0.4
@@ -159,9 +167,17 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "3-rd Mechanized battalion of 25-th motorized rifle brigade"
+        name = "3-rd Infantry battalion of 25-th motorized rifle brigade"
         location = 6282
         division_template = "Infantry Battalion"
+        start_experience_factor = 0.4
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Tank battalion of 25-th motorized rifle brigade"
+        location = 6282
+        division_template = "Tank Battalion"
         start_experience_factor = 0.4
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -231,7 +247,15 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "2-nd rifle battalion 136-th guards motorized rifle brigade"
+        name = "2-nd Mechanized battalion 136-th guards motorized rifle brigade"
+        location = 366
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "3-rd Mechanized battalion 136-th guards motorized rifle brigade"
         location = 366
         division_template = "Mechanized Infantry"
         start_experience_factor = 0.6
@@ -247,7 +271,7 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "1-st Mechanized battalion of 100-th guards razvdeka brigade"
+        name = "1-st SSO battalion of 100-th guards razvdeka brigade"
         location = 915
         division_template = "SSO"
         start_experience_factor = 1
@@ -255,7 +279,7 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "2-nd Mechanized battalion of 100-th guards razvdeka brigade"
+        name = "2-nd SSO battalion of 100-th guards razvdeka brigade"
         location = 915
         division_template = "SSO"
         start_experience_factor = 1
@@ -265,7 +289,7 @@ units = {
     division = {
         name = "1-st rifle battalion of 15-th guards motorized rifle brigade"
         location = 11588
-        division_template = "Mechanized Infantry"
+        division_template = "Infantry Battalion"
         start_experience_factor = 0.6
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -282,6 +306,14 @@ units = {
         name = "3-rd Mechanized battalion of 15-th guards motorized rifle brigade"
         location = 11588
         division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Tank battalion of 15-th guards motorized rifle brigade"
+        location = 11588
+        division_template = "Tank Battalion"
         start_experience_factor = 0.6
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -361,7 +393,7 @@ units = {
     division = {
         name = "1-st rifle battalion of 38-th guards motorized rifle brigade"
         location = 8198
-        division_template = "Mechanized Infantry"
+        division_template = "Infantry Battalion"
         start_experience_factor = 0.6
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -369,7 +401,31 @@ units = {
     division = {
         name = "2-nd rifle battalion of 38-th guards motorized rifle brigade"
         location = 8198
+        division_template = "Infantry Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Mechanized battalion of 38-th guards motorized rifle brigade"
+        location = 8198
         division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "2-st Mechanized battalion of 38-th guards motorized rifle brigade"
+        location = 8198
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Tank battalion of 38-th guards tank brigade"
+        location = 8198
+        division_template = "Tank Battalion"
         start_experience_factor = 0.6
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -407,7 +463,15 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "1-st Tank battalion of 5-st guards tank brigade"
+        name = "4-rd Mechanized battalion of 64-th guards motorized rifle brigade"
+        location = 185
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Tank battalion of 5-th guards tank brigade"
         location = 6411
         division_template = "Tank Battalion"
         start_experience_factor = 0.6
@@ -415,7 +479,7 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "2-nd Tank battalion of 5-st guards tank brigade"
+        name = "2-nd Tank battalion of 5-th guards tank brigade"
         location = 6411
         division_template = "Tank Battalion"
         start_experience_factor = 0.6
@@ -423,9 +487,25 @@ units = {
 		start_manpower_factor = 1
     }
     division = {
-        name = "3-rd Tank battalion of 5-st guards tank brigade"
+        name = "3-rd Tank battalion of 5-th guards tank brigade"
         location = 6411
         division_template = "Tank Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "1-st Mechanized battalion of 5-th guards tank brigade"
+        location = 6411
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "2-nd Mechanized battalion of 5-th guards tank brigade"
+        location = 6411
+        division_template = "Mechanized Infantry"
         start_experience_factor = 0.6
         start_equipment_factor = 1
 		start_manpower_factor = 1
@@ -440,6 +520,14 @@ units = {
     }
     division = {
         name = "2-nd Mechanized battalion of 37-th guards motorized rifle brigade"
+        location = 1555
+        division_template = "Mechanized Infantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "3-rd Mechanized battalion of 37-th guards motorized rifle brigade"
         location = 1555
         division_template = "Mechanized Infantry"
         start_experience_factor = 0.6
@@ -480,6 +568,14 @@ units = {
     }
     division = {
         name = "2-nd airborne battalion of 83-th guards paratroops brigade"
+        location = 5320
+        division_template = "Airborne Battalion"
+        start_experience_factor = 0.6
+        start_equipment_factor = 1
+		start_manpower_factor = 1
+    }
+    division = {
+        name = "3-rd airborne battalion of 83-th guards paratroops brigade"
         location = 5320
         division_template = "Airborne Battalion"
         start_experience_factor = 0.6
@@ -656,7 +752,7 @@ units = {
     }
     division = {
         name = "143-th special forces regiment"
-        location = 13455
+        location = 5121
         division_template = "SSO"
         start_experience_factor = 1
         start_equipment_factor = 1
