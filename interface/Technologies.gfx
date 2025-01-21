@@ -7994,11 +7994,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BBM3.dds"
 	}	
 	SpriteType = {
-		name = "GFX_bbm_chassis_3_medium"
+		name = "GFX_bmd_chassis_medium"
+		texturefile = "gfx/interface/technologies/BMD1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/BMD1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_1_chassis_medium"
+		texturefile = "gfx/interface/technologies/BMD2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/BMD2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_2_chassis_medium"
+		texturefile = "gfx/interface/technologies/BMD3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/BMD3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_bmd_3_chassis_medium"
 		texturefile = "gfx/interface/technologies/BBM4.dds"
 	}	
 	SpriteType = {
-		name = "GFX_bbm_3_chassis_medium"
+		name = "GFX_bmd_chassis_3_medium"
 		texturefile = "gfx/interface/technologies/BBM4.dds"
 	}	
 

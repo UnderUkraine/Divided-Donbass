@@ -457,6 +457,10 @@
  RUS_btr2_chassis_1:0 "BTR-K16"
  btr2_chassis_1:0 "APC Chassis"
 
+ UKR_tank_chassis:0 "T-55 chassis"
+ RUS_tank_chassis:0 "T-55 chassis"
+ tank_chassis:0 "First generation tank chassis"
+
  UKR_tank_chassis_0:0 "T-55 chassis"
  RUS_tank_chassis_0:0 "T-55 chassis"
  tank_chassis_0:0 "First generation tank chassis"
@@ -523,11 +527,32 @@
  RUS_armored_vehicle_chassis_4:0 "KAMAZ 53949 «Linza»"
  armored_vehicle_chassis_4:0 "Armored vehicle chassis"
 
- bbm_chassis:0 "TBM hull"
- bbm_chassis_0:0 "TBM hull 1"
- bbm_chassis_1:0 "TBM hull 2"
- bbm_chassis_2:0 "TBM hull 3"
- bbm_chassis_3:0 "TBM hull 4"
+ bbm_chassis:0 "IFV hull"
+ bbm_chassis_0:0 "IFV hull 1"
+ bbm_chassis_1:0 "IFV hull 2"
+ bbm_chassis_2:0 "IFV hull 3"
+
+ UKR_bbm_equipment_0:0 "BMP-1"
+ UKR_bbm_equipment_1:0 "BMP-2"
+ UKR_bbm_equipment_2:0 "BMP-3"
+ RUS_bbm_equipment_0:0 "BMP-1"
+ RUS_bbm_equipment_1:0 "BMP-2"
+ RUS_bbm_equipment_2:0 "BMP-3"
+
+ bmd_chassis:0 "BMD hull"
+ bmd_chassis_0:0 "BMD hull 1"
+ bmd_chassis_1:0 "BMD hull 2"
+ bmd_chassis_2:0 "BMD hull 3"
+ bmd_chassis_3:0 "BMD hull 4"
+
+ UKR_bmd_equipment_0:0 "BMD-1"
+ UKR_bmd_equipment_1:0 "BMD-2"
+ UKR_bmd_equipment_2:0 "BMD-3"
+ UKR_bmd_equipment_3:0 "BMD-4"
+ RUS_bmd_equipment_0:0 "BMD-1"
+ RUS_bmd_equipment_1:0 "BMD-2"
+ RUS_bmd_equipment_2:0 "BMD-3"
+ RUS_bmd_equipment_3:0 "BMD-4"
 
  tank_equipment_0:0 "T-55"
  tank_equipment_1:0 "T-64"

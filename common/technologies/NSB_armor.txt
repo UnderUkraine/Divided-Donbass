@@ -21,118 +21,116 @@ technologies = {
 
 		enable_equipments = {
 			tank_chassis_0
-			bmd_chassis_0
 		}
 		enable_equipment_modules = {
 			tank_rolled_homogeneous_armor
-			tank_combination_armor_one
-			tank_combination_armor_two
-			tank_rolled_homogeneous_armor_three
-			
-			tank_gtd_1000_engine
-			tank_gtd_1000TF_engine
-			tank_gtd_1250_engine
+            tank_combination_armor_one
+            tank_combination_armor_two
+            tank_rolled_homogeneous_armor_three
+            
+            tank_gtd_1000_engine
+            tank_gtd_1000TF_engine
+            tank_gtd_1250_engine
             tank_v_46_engine
-			tank_v_84_engine
-			tank_v_92С2_engine
-			tank_5tdf_engine
-			tank_6td2_engine
-			tank_a_85_3a_armata_engine
-			tank_kamaz_740_engine
-			tank_utd_20_engine
-			tank_3_td_engine
-			tank_ymz_5347_engine
-			tank_ymz_536_engine
+            tank_v_84_engine
+            tank_v_92С2_engine
+            tank_5tdf_engine
+            tank_6td2_engine
+            tank_a_85_3a_armata_engine
+            tank_kamaz_740_engine
+            tank_utd_20_engine
+            tank_3_td_engine
+            tank_ymz_5347_engine
+            tank_ymz_536_engine
 
             tank_open_armored_box
-			tank_remote_controlled_module
-			tank_light_tower_1
-			tank_enlarged_tower
-			tank_uninhabited_tower_1
-			tank_light_tower_2
-			tank_uninhabited_tower_2
-			tank_light_tower_3
-			tank_сasting_tower
-			tank_uninhabited_heavy_tower
-			tank_artillery_tower
-			tank_welded_tower
-			tank_uninhabited_artillery_tower
-			tank_no_tower_setup
+            tank_remote_controlled_module
+            tank_light_tower_1
+            tank_enlarged_tower
+            tank_uninhabited_tower_1
+            tank_light_tower_2
+            tank_uninhabited_tower_2
+            tank_light_tower_3
+            tank_сasting_tower
+            tank_uninhabited_heavy_tower
+            tank_artillery_tower
+            tank_welded_tower
+            tank_uninhabited_artillery_tower
+            tank_no_tower_setup
 
-			extra_ammo_storage
-			wet_ammo_storage
-			smoke_launchers
-			expanded_fuel_tank
-			tank_anti_armor_atgm_1
-			tank_anti_armor_atgm_2
-			tank_anti_armor_atgm_3
-			tank_medium_gun_guided_armament_atgm_1
-			tank_gun_guided_armament_1
-			tank_kontact_1
-			tank_kontact_5
-			tank_dynamic_armor_3
-			tank_dynamic_armor_4
-			additional_armor_plates
-			anticumulative_grids
-			tank_active_defense_drozd
-			tank_active_defense_drozd2
-			tank_active_defense_dozhd
-			tank_active_defense_arena
-			tank_active_defense_5
-			tank_passive_protection_complex_1
-			tank_passive_protection_complex_2
-			tank_passive_protection_complex_3
-			tank_passive_protection_complex_4
-			tank_survivability_module_1
-			tank_survivability_module_2
-			tank_anti_mine_module_1
+            extra_ammo_storage
+            wet_ammo_storage
+            smoke_launchers
+            expanded_fuel_tank
+            tank_anti_armor_atgm_1
+            tank_anti_armor_atgm_2
+            tank_anti_armor_atgm_3
+            tank_medium_gun_guided_armament_atgm_1
+            tank_gun_guided_armament_1
+            tank_kontact_1
+            tank_kontact_5
+            tank_dynamic_armor_3
+            tank_dynamic_armor_4
+            additional_armor_plates
+            anticumulative_grids
+            tank_active_defense_drozd
+            tank_active_defense_drozd2
+            tank_active_defense_dozhd
+            tank_active_defense_arena
+            tank_active_defense_5
+            tank_passive_protection_complex_1
+            tank_passive_protection_complex_2
+            tank_passive_protection_complex_3
+            tank_passive_protection_complex_4
+            tank_survivability_module_1
+            tank_survivability_module_2
+            tank_anti_mine_module_1
 
-			tank_122mm_MRLS
-			tank_220mm_MRLS
-			tank_220mm_flamethrower_MRLS
-			tank_medium_anti_aircraft_missle_1
-			tank_medium_anti_aircraft_missle_2
-			tank_manpads_on_chassis
-			tank_buk_m1_missles
-			tank_buk_m2_rus_missles
-			tank_buk_m3_rus_missles
+            tank_122mm_MRLS
+            tank_220mm_MRLS
+            tank_220mm_flamethrower_MRLS
+            tank_medium_anti_aircraft_missle_1
+            tank_medium_anti_aircraft_missle_2
+            tank_manpads_on_chassis
+            tank_buk_m1_missles
+            tank_buk_m2_rus_missles
+            tank_buk_m3_rus_missles
 
-			tank_122mm_2a18_arta
+            tank_122mm_2a18_arta
 
-			tank_152mm_2a83_ARMATA
-			tank_125mm_2a82_1m
-			tank_125mm_2a46m_5
-			tank_125mm_2a46
-			tank_100mm_weapon_2a29
-			tank_57mm_autocannon_2a91
-			tank_73mm_weapon_2a28
-			tank_dual_30mm_2a38
-			tank_23_mm_autocannon_azp_23_2
-			tank_23_mm_autocannon_azp_23
-			tank_30_mm_autocannon_2a72_2
-			tank_30_mm_autocannon_2a72
-			tank_30_mm_autocannon_2a42_2
-			tank_30_mm_autocannon_2a42
-			tank_kpvt_14_5mm
-			tank_cord_12_7mm_RUSSIA
-			tank_nsvt_12_7mm
-			tank_dshk_12_7mm
-			tank_7_62_mm
+            tank_152mm_2a83_ARMATA
+            tank_125mm_2a82_1m
+            tank_125mm_2a46m_5
+            tank_125mm_2a46
+            tank_100mm_weapon_2a29
+            tank_57mm_autocannon_2a91
+            tank_73mm_weapon_2a28
+            tank_dual_30mm_2a38
+            tank_23_mm_autocannon_azp_23_2
+            tank_23_mm_autocannon_azp_23
+            tank_30_mm_autocannon_2a72_2
+            tank_30_mm_autocannon_2a72
+            tank_30_mm_autocannon_2a42_2
+            tank_30_mm_autocannon_2a42
+            tank_kpvt_14_5mm
+            tank_cord_12_7mm_RUSSIA
+            tank_nsvt_12_7mm
+            tank_dshk_12_7mm
+            tank_7_62_mm
 
-			tank_additional_7_62_mm
-			tank_additional_dshk_12_7mm
-			tank_additional_nsvt_12_7mm
-			tank_additional_cord_12_7mm_RUSSIA
-			tank_additional_automatic_grenade_launcher
+            tank_additional_7_62_mm
+            tank_additional_dshk_12_7mm
+            tank_additional_nsvt_12_7mm
+            tank_additional_cord_12_7mm_RUSSIA
+            tank_additional_automatic_grenade_launcher
 
-			tank_additional_medium_anti_aircraft_missle_1
-			tank_additional_medium_anti_aircraft_missle_2
-			tank_additional_manpads_on_chassis
+            tank_additional_medium_anti_aircraft_missle_1
+            tank_additional_medium_anti_aircraft_missle_2
+            tank_additional_manpads_on_chassis
 
-			tank_wheelbase_suspension
-			tank_track_base_suspension
+            tank_wheelbase_suspension
+            tank_track_base_suspension
 		}
-		allow_equipment_type = bmd_type
 		enable_subunits = {
 			#tank_unit
 		}
@@ -169,7 +167,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 0 }
+			position = { x = 24 y = 0 }
 		}
 
 		ai_will_do = {
@@ -234,7 +232,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 2 }
+			position = { x = 24 y = 2 }
 		}
 
 		ai_will_do = {
@@ -279,7 +277,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 4 }
+			position = { x = 24 y = 4 }
 		}
 
 		ai_will_do = {
@@ -324,7 +322,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 6 }
+			position = { x = 24 y = 6 }
 		}
 
 		ai_will_do = {
@@ -369,7 +367,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 8 }
+			position = { x = 24 y = 8 }
 		}
 
 		ai_will_do = {
@@ -411,7 +409,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 22 y = 10 }
+			position = { x = 24 y = 10 }
 		}
 
 		ai_will_do = {
@@ -921,7 +919,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 16 y = 0 }
+			position = { x = 19 y = 0 }
 		}
 
 		path = {
@@ -970,7 +968,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 14 y = 2 }
+			position = { x = 17 y = 2 }
 		}
 
 		path = {
@@ -1015,7 +1013,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 18 y = 2 }
+			position = { x = 21 y = 2 }
 		}
 
 		path = {
@@ -1065,7 +1063,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 16 y = 4 }
+			position = { x = 19 y = 4 }
 		}
 
 		ai_will_do = {
@@ -1105,7 +1103,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 16 y = 6 }
+			position = { x = 19 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1326,12 +1324,148 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 10 y = 0 }
+			position = { x = 12 y = 0 }
 		}
 
 		path = {
 			leads_to_tech = bbm_1_chassis
 			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = bmd_chassis
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+	bmd_chassis = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = {
+			bmd_chassis_0
+		}
+		on_research_complete_limit = {
+			#NOT = {	has_template_containing_unit = light_armor }
+		}
+
+		research_cost = 2
+		start_year = 1959
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 2 }
+		}
+
+		path = {
+			leads_to_tech = bmd_1_chassis
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+	bmd_1_chassis = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = {
+			bmd_chassis_1
+		}
+		on_research_complete_limit = {
+			#NOT = {	has_template_containing_unit = light_armor }
+		}
+
+		research_cost = 2
+		start_year = 1959
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 4 }
+		}
+
+		path = {
+			leads_to_tech = bmd_2_chassis
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+	bmd_2_chassis = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = {
+			bmd_chassis_2
+		}
+		on_research_complete_limit = {
+			#NOT = {	has_template_containing_unit = light_armor }
+		}
+
+		research_cost = 2
+		start_year = 1959
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 6 }
+		}
+		path = {
+			leads_to_tech = bmd_3_chassis
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+	bmd_3_chassis = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = {
+			bmd_chassis_3
+		}
+		on_research_complete_limit = {
+			#NOT = {	has_template_containing_unit = light_armor }
+		}
+
+		research_cost = 2
+		start_year = 1959
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1414,41 +1548,6 @@ technologies = {
 		path = {
 			leads_to_tech = bbm_3_chassis
 			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
-		}
-	}
-	bbm_3_chassis = {
-
-		show_equipment_icon = yes
-
-		enable_equipments = {
-			bbm_chassis_3
-		}
-		enable_subunits = {
-			#btr1_unit
-		}
-		on_research_complete_limit = {
-			#NOT = {	has_template_containing_unit = light_armor }
-		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-
-		research_cost = 2
-		start_year = 1959
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 10 y = 6 }
 		}
 
 		ai_will_do = {

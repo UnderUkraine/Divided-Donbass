@@ -198,14 +198,6 @@ duplicate_archetypes = {
 		}
 	}
 
-	bmd_chassis = {
-		archetype = bbm_chassis
-		type = { armor bmd_type }
-		for_each = {
-			variant_name = { find_and_replace = { "chassis" "equipment" } }
-		}
-	}	
-
 	rocket_artillery_chassis = {
 		archetype = truck_chassis
 		type = { armor }
@@ -2231,7 +2223,6 @@ equipments = {
 		year = 1934
 
 		archetype = bmd_chassis
-		family = bbm_equipment_0
 		priority = 30
 		visual_level = 0
 		can_convert_from = { 

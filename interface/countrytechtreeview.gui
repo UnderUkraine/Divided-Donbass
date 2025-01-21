@@ -828,7 +828,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_bbm"
-					position = { x = -120 y = 0 }
+					position = { x = 30 y = 0 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -841,7 +841,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_tank"
-					position = { x = 725 y = 0  }
+					position = { x = 860 y = 0  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -853,7 +853,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_btr"
-					position = { x = 305 y = 0 }
+					position = { x = 520 y = 0 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
