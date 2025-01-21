@@ -6,7 +6,7 @@ HOL_gateway_to_europe_eng_category = {
 		icon = eng_trade_unions_demand
 
 		allowed = {
-			tag = ENG
+			tag = LPR
 		}
 
 		available = {
