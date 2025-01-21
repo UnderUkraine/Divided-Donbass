@@ -15,3 +15,245 @@ DPR_artillery_shelling = {
 		}
     }
 }
+DPR_recruitment_in_militia = {
+    DPR_recruitment_in_donetsk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_horlivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_mariupol = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_novoazovsk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_Kalmiusskoe = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_avdiivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_makiivka = {
+        allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_kurahovo = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_lozovoe = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_konstantinivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_druzhkivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_krasnoarmiysk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_volnovaha = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_artemivsk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_kramatorsk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+    DPR_recruitment_in_sloviansk = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+		}
+    }
+}
