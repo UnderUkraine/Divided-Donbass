@@ -17,6 +17,7 @@ DPR_artillery_shelling = {
 }
 DPR_recruitment_in_militia = {
   DPR_recruitment_in_horlivka = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -35,6 +36,7 @@ DPR_recruitment_in_militia = {
     }
   }  
   DPR_recruitment_in_donetsk_proletarsk_neighborhoods = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -55,6 +57,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_donetsk_Kuybyshevsky_neighborhoods = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -77,6 +80,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_donetsk_kirovsrkiy_neighborhoods = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -98,6 +102,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_donetsk_petrovskiy_neighborhoods = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -118,6 +123,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_donetsk_suburbs = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -141,6 +147,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_mariupol = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -159,6 +166,7 @@ DPR_recruitment_in_militia = {
 		}
   }  
   DPR_recruitment_in_center_mariupol = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -177,6 +185,7 @@ DPR_recruitment_in_militia = {
 		}
   }  
   DPR_recruitment_in_novoazovsk = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -195,6 +204,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_novoazovsk_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -213,6 +223,7 @@ DPR_recruitment_in_militia = {
 		}
   }   
   DPR_recruitment_in_kramatorsk_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -231,6 +242,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_kramatorsk = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -252,6 +264,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_sloviansk = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -272,6 +285,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_artemivsk = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -290,6 +304,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_artemivsk_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -308,6 +323,8 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_enakievo = {
+    cost = 10
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -326,6 +343,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_enakievo_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -344,6 +362,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_avdiivka = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -362,6 +381,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_avdiivka_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -383,6 +403,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_spartak = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -401,6 +422,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_dzerzhinsk = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -419,6 +441,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_dzerzhinsk_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -437,6 +460,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_konstantinovka = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -455,6 +479,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_konstantinovka_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -473,6 +498,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_dzuzhkivka= {
+    cost = 10
 		allowed = {
       tag = DPR
     }
@@ -491,6 +517,7 @@ DPR_recruitment_in_militia = {
 		}
   } 
   DPR_recruitment_in_dzuzhkivka_districts = {
+    cost = 10
 		allowed = {
       tag = DPR
     }
