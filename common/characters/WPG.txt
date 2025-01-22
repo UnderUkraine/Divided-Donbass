@@ -13,7 +13,7 @@ characters = {
 			#}
 		}
 		corps_commander = { 
-			traits = { }
+			traits = {PMC_leader Hides_Involvment}
 				
 			skill = 2
 			attack_skill = 3
