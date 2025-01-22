@@ -1,0 +1,31 @@
+characters = {
+	WPG_evgeniy_prigozhin = {
+		name = evgeniy_prigozhin
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/WPG/WPG_Prigozshin_2014.dds"
+			}
+			army={
+				large="/gfx/leaders/WPG/WPG_Prigozshin_2014.dds"
+			}
+			#army={
+			#	small="/gfx/interface/ideas/officer/WPG_Prigozshin_2014_small.dds"
+			#}
+		}
+		corps_commander = { 
+			traits = { }
+				
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+
+		}
+		country_leader = {
+			ideology = autoritarian_democractic
+			traits = {  
+			}
+		}
+	}
+}

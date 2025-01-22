@@ -96,6 +96,7 @@ set_rule = {
 set_major = yes
 set_war_support = 90
 recruit_character = LPR_bolotov
+recruit_character = WPG_evgeniy_prigozhin
 2013.11.21 = {
     set_politics = {
 	    ruling_party = autoritarian_democracy
@@ -121,6 +122,7 @@ recruit_character = LPR_bolotov
 	}
 }
 2015.1.1 = {
+	recruit_character = WPG_evgeniy_prigozhin
 	set_politics = {
 		ruling_party = autoritarian_democracy
 		last_election = "2014.11.02"
