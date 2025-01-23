@@ -127,7 +127,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="mod_version_label"
-			position = { x = 90 y = 170 }
+			position = { x = 145 y = 290 }
 			textureFile = ""
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
