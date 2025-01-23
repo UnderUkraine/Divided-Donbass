@@ -618,6 +618,8 @@ set_country_flag = startup_information_country_info
 	recruit_character = mihail_kychin
 	recruit_character = hryhoriy_pedchenko
 	recruit_character = oleksandr_polakov
+	recruit_character = serhii_zhadan
+	recruit_character = volodymir_zelenskyi
 
 	recruit_character = mykola_azarov
 	recruit_character = vitaly_zakharchenko

@@ -90,10 +90,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -114,10 +110,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -355,10 +347,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -780,10 +768,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -803,10 +787,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -830,10 +810,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -853,10 +829,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -880,10 +852,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -903,10 +871,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -931,10 +895,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -954,10 +914,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -981,10 +937,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1006,10 +958,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -1262,10 +1210,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1285,10 +1229,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes
@@ -1312,10 +1252,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		available = {
-			always = no
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1335,10 +1271,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			always = no
 		}
 
 		cancel_if_invalid = yes

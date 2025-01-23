@@ -119,6 +119,17 @@ leader_traits = {
 		sprite = 0
 		political_power_factor = 0.15
 	}
+	UKR_singer_1 = {
+		random = no
+		sprite = 0
+		political_power_factor = 0.05
+		war_support_factor = 0.05
+	}
+	UKR_comedian_actor_1 = {
+		random = no
+		sprite = 0
+		stability_factor = 0.1
+	}
 	BEL_Kidok = {
 		random = no
 		ai_join_ally_desire_factor = -300

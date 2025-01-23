@@ -284,6 +284,96 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 	}
+	sau_chassis_1 = {
+		abbreviation = "sau1"
+		derived_variant_name = sau_equipment_1
+		visual_level = 1
+		year = 1959
+		archetype = sau_chassis
+		parent = sau_chassis_0
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 5
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
+	sau_chassis_2 = {
+		abbreviation = "sau2"
+		derived_variant_name = sau_equipment_2
+		visual_level = 2
+		year = 1959
+		archetype = sau_chassis
+		parent = sau_chassis_1
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 5
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
+	sau_chassis_3 = {
+		abbreviation = "sau3"
+		derived_variant_name = sau_equipment_2
+		visual_level = 3
+		year = 1959
+		archetype = sau_chassis
+		parent = sau_chassis_2
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 5
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
+	sau_chassis_4_1 = {
+		abbreviation = "sau4_1"
+		derived_variant_name = sau_equipment_3
+		visual_level = 4
+		year = 1959
+		archetype = sau_chassis
+		parent = sau_chassis_3
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 5
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
+	sau_chassis_4_2 = {
+		abbreviation = "sau4_2"
+		derived_variant_name = sau_equipment_3
+		visual_level = 4
+		year = 1959
+		archetype = sau_chassis
+		parent = sau_chassis_3
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 5
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
 	
 	#Katyusha 
 	motorized_rocket_equipment = {

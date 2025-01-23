@@ -8024,6 +8024,59 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_bmd_chassis_3_medium"
 		texturefile = "gfx/interface/technologies/BBM4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery_medium"
+		texturefile = "gfx/interface/technologies/2s1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/2s1.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery1_medium"
+		texturefile = "gfx/interface/technologies/2s3ukr.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/2s3ukr.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery2_medium"
+		texturefile = "gfx/interface/technologies/2s5ukr.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/2s5ukr.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery3_medium"
+		texturefile = "gfx/interface/technologies/2s7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/2s7.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery4_1_medium"
+		texturefile = "gfx/interface/technologies/2s22.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_4_1_medium"
+		texturefile = "gfx/interface/technologies/2s22.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_artillery4_2_medium"
+		texturefile = "gfx/interface/technologies/2s19.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_sau_chassis_4_2_medium"
+		texturefile = "gfx/interface/technologies/2s19.dds"
 	}	
 
 	#RUSSIA

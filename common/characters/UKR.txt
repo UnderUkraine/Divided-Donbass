@@ -143,6 +143,54 @@ characters = {
 		}
 	}
 
+	serhii_zhadan = {
+		name = serhii_zhadan
+		portraits = {
+			civilian = {
+				small = "/gfx/interface/ideas/UKR/advisors/serhii_zhadan.dds"
+				large = "/gfx/interface/ideas/UKR/advisors/serhii_zhadan.dds"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = UKR_serhii_zhadan
+			can_be_fired = no
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+			}
+			traits = {
+				UKR_singer_1
+			}
+		}
+	}
+
+	volodymir_zelenskyi = {
+		name = volodymir_zelenskyi
+		portraits = {
+			civilian = {
+				small = "/gfx/interface/ideas/UKR/advisors/volodymyr_zelenskyi.dds"
+				large = "/gfx/interface/ideas/UKR/advisors/volodymyr_zelenskyi.dds"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = UKR_volodymir_zelenskyi
+			can_be_fired = no
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+			}
+			traits = {
+				UKR_comedian_actor_1
+			}
+		}
+	}
+
 	#Generals
 	oleksandr_sirskiy = {
 		name = oleksandr_sirskiy
