@@ -92,32 +92,55 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_combination_armor_one"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_combination_armor_one.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/combinirovanayabronya1.dds"
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_combination_armor_two"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_combination_armor_two.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/combinirovanayabronya2.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_rolled_homogeneous_armor_three"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_rolled_homogeneous_armor_three.dds"
+		name = "GFX_EMI_tank_combination_armor_three"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/combinirovanayabronya3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_combination_armor_four"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/combinirovanayabronya4.dds"
 	}
 
 	spriteType = {
-		name = "GFX_EMI_tank_passive_protection_complex_1"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_1.dds"
+		name = "GFX_EMI_tank_survivability_module_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bronekapsula1.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_passive_protection_complex_2"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_2.dds"
+		name = "GFX_EMI_tank_survivability_module_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bronekapsula2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_wheelbase_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/kolesnayabaza.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_passive_protection_complex_3"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_3.dds"
+		name = "GFX_EMI_tank_track_base_suspension"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/gusenica.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_open_lightly_armored_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_open_lightly_armored_module.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_passive_protection_complex_4"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_passive_protection_complex_4.dds"
+		name = "GFX_EMI_tank_armored_outdoor_unit"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_armored_outdoor_unit.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_remote_controlled_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_remote_controlled_module.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_anti_mine_module_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tral.dds"
 	}
 
 	spriteType = {

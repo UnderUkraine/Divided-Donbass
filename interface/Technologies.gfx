@@ -210,11 +210,6 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
-	}	
-	
-	SpriteType = {
 		name = "GFX_interwar_antiair_medium"
 		texturefile = "gfx/interface/technologies/AA_1_allies.dds"
 	}	
@@ -284,31 +279,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_rocket_artillery2_medium"
 		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_artillery5_medium"
-		texturefile = "gfx/interface/technologies/artillery5.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_artillery3_medium"
-		texturefile = "gfx/interface/technologies/artillery3.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_artillery2_medium"
-		texturefile = "gfx/interface/technologies/artillery2.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
 	}	
 	
 	SpriteType = {
@@ -7662,6 +7632,26 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/d20.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_artillery3_medium"
+		texturefile = "gfx/interface/technologies/2a65.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_artillery2_medium"
+		texturefile = "gfx/interface/technologies/2a36.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_artillery1_medium"
+		texturefile = "gfx/interface/technologies/d30.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_archetype_btr1_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_light_tank_equipment.dds"
 	}		
@@ -8063,20 +8053,12 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_UKR_sau_artillery4_1_medium"
+		name = "GFX_UKR_sau_artillery4_medium"
 		texturefile = "gfx/interface/technologies/2s22.dds"
 	}	
 	SpriteType = {
-		name = "GFX_UKR_sau_chassis_4_1_medium"
+		name = "GFX_UKR_sau_chassis_4_medium"
 		texturefile = "gfx/interface/technologies/2s22.dds"
-	}	
-	SpriteType = {
-		name = "GFX_UKR_sau_artillery4_2_medium"
-		texturefile = "gfx/interface/technologies/2s19.dds"
-	}	
-	SpriteType = {
-		name = "GFX_UKR_sau_chassis_4_2_medium"
-		texturefile = "gfx/interface/technologies/2s19.dds"
 	}	
 
 	#RUSSIA
@@ -8245,6 +8227,51 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_RUS_truck_chassis_3_medium"
 		texturefile = "gfx/interface/technologies/kamaz6550.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_RUS_sau_artillery_medium"
+		texturefile = "gfx/interface/technologies/2s1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_sau_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/2s1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RUS_sau_artillery1_medium"
+		texturefile = "gfx/interface/technologies/2s3RUS.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_sau_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/2s3RUS.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RUS_sau_artillery2_medium"
+		texturefile = "gfx/interface/technologies/2s5RUS.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_sau_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/2s5RUS.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RUS_sau_artillery3_medium"
+		texturefile = "gfx/interface/technologies/2s7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_sau_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/2s7.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_RUS_sau_artillery4_medium"
+		texturefile = "gfx/interface/technologies/2s19.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_sau_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/2s19.dds"
 	}	
 
 	#DPR
