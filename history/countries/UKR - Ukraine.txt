@@ -701,6 +701,21 @@ set_country_flag = startup_information_country_info
 		amount = 860
 	}
 
+	add_equipment_to_stockpile = {
+		type = gw_artillery
+		amount = 275
+	}
+
+	add_equipment_to_stockpile = {
+		type = artillery1
+		amount = 750
+	}
+
+	add_equipment_to_stockpile = {
+		type = artillery3
+		amount = 750
+	}
+
 	#add_equipment_to_stockpile = {
 	#	type = motorized_equipment_0
 	#	amount = 9450
