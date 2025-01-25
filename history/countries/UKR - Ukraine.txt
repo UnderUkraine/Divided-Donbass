@@ -702,17 +702,17 @@ set_country_flag = startup_information_country_info
 	}
 
 	add_equipment_to_stockpile = {
-		type = gw_artillery
+		type = artillery_equipment_1
 		amount = 275
 	}
 
 	add_equipment_to_stockpile = {
-		type = artillery1
+		type = artillery_equipment_2
 		amount = 750
 	}
 
 	add_equipment_to_stockpile = {
-		type = artillery3
+		type = artillery_equipment_3
 		amount = 750
 	}
 
