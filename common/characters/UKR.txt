@@ -233,7 +233,7 @@ characters = {
 		portraits = {
 			army = {
 				#small = GFX_Portrait_SLV_Leon_Rupnik_small
-				large = "/gfx/leaders/UKR/sirskiy.dds"
+				large = "/gfx/leaders/UKR/genadiy_vorobiev.dds"
 			}
 		}
 		corps_commander = {
