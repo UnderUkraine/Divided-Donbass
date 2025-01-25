@@ -563,7 +563,7 @@
  EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Противоминная защита"
  EQ_MOD_CAT_tank_gga_category_TITLE:0 "Управляемое вооружение"
 
- EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "Легкое РЗСО"
+ EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "РЗСО"
  EQ_MOD_CAT_tank_light_zrk_armament_TITLE:0 "Легкие ЗРК"
  EQ_MOD_CAT_tank_medium_zrk_armament_TITLE:0 "Среднее ПВО"
  EQ_MOD_CAT_tank_medium_artillery_armament_TITLE:0 "Средние артиллерийские орудия"
@@ -629,6 +629,7 @@
  tank_122mm_MRLS: "122-мм РСЗО"
  tank_220mm_MRLS: "220-мм РСЗО"
  tank_220mm_flamethrower_MRLS: "220-мм огнеметная РСЗО"
+ tank_300mm_MRLS: "300-мм РСЗО"
 
  tank_medium_anti_aircraft_missle_1: "Средняя зенитная ракета 1"
  tank_medium_anti_aircraft_missle_2: "Средняя зенитная ракета 2"
@@ -654,11 +655,11 @@
  EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Доп. лёгкое вооружение"
  EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Доп. вооружение ПВО"
 
- tank_additional_7_62_mm: "7,62-мм пулемёт ПКТ"
- tank_additional_dshk_12_7mm: "12.7-мм пулемёт ДШК"
- tank_additional_nsvt_12_7mm: "12.7-мм пулимёт НСВТ"
- tank_additional_cord_12_7mm_RUSSIA: "12.7-мм пулемёт Корд"
- tank_additional_automatic_grenade_launcher: "Автоматический гранатомёт"
+ tank_additional_7_62_mm: "Доп. 7,62-мм пулемёт ПКТ"
+ tank_additional_dshk_12_7mm: "Доп. 12.7-мм пулемёт ДШК"
+ tank_additional_nsvt_12_7mm: "Доп. 12.7-мм пулимёт НСВТ"
+ tank_additional_cord_12_7mm_RUSSIA: "Доп. 12.7-мм пулемёт Корд"
+ tank_additional_automatic_grenade_launcher: "Доп. Автоматический гранатомёт"
 
  tank_additional_medium_anti_aircraft_missle_1: "Дополнительная средняя ЗРК 1"
  tank_additional_medium_anti_aircraft_missle_2: "Дополнительная средняя ЗРК 2"

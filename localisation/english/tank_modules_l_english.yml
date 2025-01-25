@@ -590,7 +590,7 @@
  EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Survivability modules"
  EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Mine Countermeasures"
 
- EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "Light MRLS"
+ EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "MRLS"
  EQ_MOD_CAT_tank_light_zrk_armament_TITLE:0 "Light Anti-Aircraft missles"
  EQ_MOD_CAT_tank_medium_zrk_armament_TITLE:0 "Medium Anti-Aircraft missles"
  EQ_MOD_CAT_tank_medium_artillery_armament_TITLE:0 "Medium Artillery weapons"
@@ -666,6 +666,7 @@
  tank_122mm_MRLS: "122-mm MRLS"
  tank_220mm_MRLS: "220-mm MRLS"
  tank_220mm_flamethrower_MRLS: "220-mm flamethrower MRLS"
+ tank_300mm_MRLS: "300-mm MRLS"
 
  tank_medium_anti_aircraft_missle_1: "Medium Anti-Aircraft Missle 1"
  tank_medium_anti_aircraft_missle_2: "Medium Anti-Aircraft Missle 2"
@@ -684,10 +685,10 @@
  EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Additional light weapons"
  EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
 
- tank_additional_7_62_mm: "7.62-mm PKT machine gun"
- tank_additional_dshk_12_7mm: "12.7-mm DSHK machine gun"
- tank_additional_nsvt_12_7mm: "12.7-mm NSVT machine gun"
- tank_additional_cord_12_7mm_RUSSIA: "12.7-mm CORD machine gun"
+ tank_additional_7_62_mm: "Additional 7.62-mm PKT machine gun"
+ tank_additional_dshk_12_7mm: "Additional 12.7-mm DSHK machine gun"
+ tank_additional_nsvt_12_7mm: "Additional 12.7-mm NSVT machine gun"
+ tank_additional_cord_12_7mm_RUSSIA: "Additional 12.7-mm CORD machine gun"
  tank_additional_automatic_grenade_launcher: "Automatic grenade launcher"
 
  tank_additional_medium_anti_aircraft_missle_1: "Additional medium Anti-Aircraft Missle 1"
