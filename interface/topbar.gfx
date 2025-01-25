@@ -1,0 +1,331 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_INVISIBLE"
+		texturefile = "gfx/interface/INVISIBLE.png"
+	}	
+	spriteType = {
+		name = "GFX_playlist_button"
+		texturefile = "gfx/interface/topbar/musicplayer/playlist_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_airoverview_button"
+		texturefile = "gfx/interface/topbar/airoverview_button.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_navyoverview_button"
+		texturefile = "gfx/interface/topbar/navyoverview_button.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_armyoverview_button"
+		texturefile = "gfx/interface/topbar/armyoverview_button.dds"	
+	}
+	spriteType = {
+		name = "GFX_Button"
+		texturefile = "gfx/interface/topbar/Topbar_buttons.png"
+	}
+	spriteType = {
+		name = "GFX_menu_button"
+		texturefile = "gfx/interface/topbar/button_menu.dds"
+	}
+	spriteType = {
+		name = "GFX_button_speedup"
+		texturefile = "gfx/interface/topbar/Plus.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_button_speeddown"
+		texturefile = "gfx/interface/topbar/Minus.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_topbar_background_extended"
+		texturefile = "gfx/interface/topbar/background_extended.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_topbar_background"
+		texturefile = "gfx/interface/topbar/background_extended.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_armyoverview_buttons_bg"
+		texturefile = "gfx/interface/topbar/armyoverview_buttons_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_topbar_intelligence"
+		texturefile = "gfx/interface/topbar/Topbar_button_spy.png"	
+	}
+	spriteType = {
+		name = "GFX_POLITICAL_POWER_TOPBAR"
+		texturefile = "gfx/interface/topbar/pol_power_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_NUKES_TOPBAR"
+		texturefile = "gfx/interface/topbar/Nudes.png"
+	}
+	spriteType = {
+		name = "GFX_MANPOWER_TOPBAR"
+		texturefile = "gfx/interface/topbar/manpower_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_left_overlay"
+		texturefile = "gfx/interface/topbar/Topbar_left_overlay.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ARMY_XP_TOPBAR"
+		texturefile = "gfx/interface/topbar/Army_xp.png"
+	}
+	spriteType = {
+		name = "GFX_NAVY_XP_TOPBAR"
+		texturefile = "gfx/interface/topbar/Navy_xp.png"
+	}
+	spriteType = {
+		name = "GFX_AIR_XP_TOPBAR"
+		texturefile = "gfx/interface/topbar/Air_xp.png"
+	}
+	spriteType = {
+		name = "GFX_SUPPLY_STRIP_TOPBAR"
+		texturefile = "gfx/interface/topbar/equipment_icon.dds"
+		effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	spriteType = {
+		name = "GFX_STABILITY_ICON_TOPBAR"
+		texturefile = "gfx/interface/topbar/stability_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_COMAND_POWER_TOPBAR"
+		texturefile = "gfx/interface/topbar/command_power_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_industri_syze_icon"
+		texturefile = "gfx/interface/topbar/industri_syze_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_WAR_SUPPORT_TOPBAR"
+		texturefile = "gfx/interface/topbar/war_support_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_CONVOYS_TOPBAR"
+		texturefile = "gfx/interface/topbar/Convoys_topbar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_achievements_button"
+		texturefile = "gfx/interface/topbar/achievements_button.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_DVK_2"
+		texturefile = "gfx/interface/topbar/Da line.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_world_tension_icon_big_strip"
+		texturefile = "gfx/interface/world_tension_icon_big_strip.dds"
+		noOfFrames = 10		
+	}
+	spriteType = {
+		name = "GFX_date_pause_button_bg"
+		texturefile = "gfx/interface/topbar/date_play_button.dds"
+	}
+	spriteType = {
+		name = "GFX_date_pause_button"
+		texturefile = "gfx/interface/topbar/date_pause_button.dds"
+	}
+	spriteType = {
+		name = "GFX_speed_step"
+		texturefile = "gfx/interface/topbar/speed_step.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_fuel_state"
+		texturefile = "gfx/interface/topbar/fuel_state_icon.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3		
+	}
+	spriteType = {
+		name = "GFX_fuel_strip"
+		texturefile = "gfx/interface/unitcontrol/fuel_strip.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3		
+	}
+
+	spriteType = {
+		name = "GFX_fuel_extended_strip"
+		texturefile = "gfx/interface/unitcontrol/fuel_extended_strip.dds"
+		noOfFrames = 12
+	}
+
+	spriteType = {
+		name = "GFX_fuel"
+		texturefile = "gfx/interface/topbar/fuel_icon.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_supply_strip"
+		texturefile = "gfx/interface/unitcontrol/supply_strip.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3		
+	}
+	
+	spriteType = {
+		name = "GFX_playlist_bg"
+		texturefile = "gfx/interface/topbar/musicplayer/playlist_bg.dds"
+	}	
+	spriteType = {
+		name = "GFX_music_pause_button"
+		texturefile = "gfx/interface/topbar/musicplayer/music_pause_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_music_next_button"
+		texturefile = "gfx/interface/topbar/musicplayer/music_next_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_musicplayer_button"
+		texturefile = "gfx/interface/topbar/musicplayer/musicplayer_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow"
+		texturefile = "gfx/interface/decisionview/decisions_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_blue"
+		texturefile = "gfx/interface/decisionview/decisions_glow_blue.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_yellow"
+		texturefile = "gfx/interface/decisionview/decisions_glow_yellow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_glow_green"
+		texturefile = "gfx/interface/decisionview/decisions_glow_green.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+		spriteType = {
+		name = "GFX_topbar_alert_bg"
+		texturefile = "gfx/interface/topbar/toolbar/topbar_alert_bg.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_reopen_lobby"
+		texturefile = "gfx/interface/reopen_lobby.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_world_tension_icon"
+		texturefile = "gfx/interface/world_tension_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_industrial_capacity_icon"
+		texturefile = "gfx/interface/industrial_capacity_icon.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_topbar_convoys"
+		texturefile = "gfx/interface/topbar/topbar_convoys.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ships_icon"
+		texturefile = "gfx/interface/ships_icon.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_manpower_icon"
+		texturefile = "gfx/interface/manpower_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_pol_power_icon"
+		texturefile = "gfx/interface/pol_power_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_war_support_icon"
+		texturefile = "gfx/interface/war_support_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_stability_icon"
+		texturefile = "gfx/interface/stability_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_command_power"
+		texturefile = "gfx/interface/command_power_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_topbar_nuke"
+		texturefile = "gfx/interface/topbar/nuke_icon.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_topbar_fuel_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/fuel_bar.dds"
+		textureFile2 = "gfx/interface/fuel_bar_bg.dds"
+		size = { x = 45 y = 8 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_observer_flag_overlay"
+		texturefile = "gfx/interface/topbar/observer_flag_overlay.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	
+}

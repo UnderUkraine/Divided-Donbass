@@ -76,10 +76,11 @@ continent = {
 
 }
 UKR = {
-	#army = {
-	#	male = {
-	#	}
-	#}
+	army = {
+		male = {
+			"GFX_Hohol_1"
+		}
+	}
 	operative = {
 		male = {
 			"GFX_UKR_Agent_1"
