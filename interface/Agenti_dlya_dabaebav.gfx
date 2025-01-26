@@ -7,8 +7,4 @@ spriteTypes = {
 		name = "GFX_UKR_Agent_2"
 		texturefile = "gfx/leaders/UKR/Razkazchik.dds"
 	}
-	spriteType = {
-		name = "GFX_Hohol_1"
-		texturefile = "gfx/leaders/UKR/Hohol_ebaniy.dds"
-	}
 }		
