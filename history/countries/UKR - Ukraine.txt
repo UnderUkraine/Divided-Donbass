@@ -384,7 +384,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "БМД ТЕСТ"
+	name = "БМД-1"
 	type = bmd_chassis_0
 	parent_version = 0
 	modules = {
@@ -402,6 +402,48 @@ create_equipment_variant = {
 	}
 	icon = "GFX_bbm_chassis_medium"
 	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "БМД-2"
+	type = bmd_chassis_1
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_30_mm_autocannon_2a42
+		turret_type_slot = tank_light_tower_2
+		armor_type_slot = tank_aluminium_armor
+		engine_type_slot = tank_utd_20_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+		special_type_slot_2 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 2
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "БМД-3"
+	type = bmd_chassis_2
+	parent_version = 0
+	modules = {
+		main_armament_slot = tank_30_mm_autocannon_2a42
+		turret_type_slot = tank_light_tower_3
+		armor_type_slot = tank_aluminium_armor
+		engine_type_slot = tank_utd_20_engine
+		suspension_type_slot = tank_track_base_suspension
+		special_type_slot_1 = tank_additional_7_62_mm
+		special_type_slot_2 = tank_anti_armor_atgm_1
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 6
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_bbm_chassis_medium"
+	obsolete = no
 }
 
 create_equipment_variant = {
