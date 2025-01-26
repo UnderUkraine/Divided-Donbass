@@ -1,0 +1,20 @@
+separatists_controls_cities_2014 = {
+	DPR = {
+		controls_state = 355
+		controls_province = 11420
+		controls_province = 4941
+		controls_province = 13452
+		controls_state = 439
+		controls_province = 12304
+		controls_province = 11704
+	}
+	LPR = {
+		controls_province = 11725
+		controls_province = 5878
+		controls_province = 1837
+		controls_province = 12354
+		controls_province = 10351
+		controls_province = 9789
+		controls_province = 10102
+	}
+}

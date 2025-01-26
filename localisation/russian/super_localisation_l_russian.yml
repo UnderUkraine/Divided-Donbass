@@ -10,3 +10,7 @@ sp_event_Ukr_yanukovich_overthrow_REMARK:0 "Диктаторский режим 
 sp_event_UKR_Victory_over_separatists_event:0 "Украинская победа над сепаратистами"
 sp_event_UKR_Victory_over_separatists_event_QUOTE:0 "«У сепаратистов нет шансов. Украинская армия вернет контроль над всей территорией» \n- §YАрсен Аваков§!"
 sp_event_UKR_Victory_over_separatists_event_REMARK:0 "Слава Україні!"
+
+sp_event_UKR_Viсtory_of_separatists_event:0 "Победа сепаратистов"
+sp_event_UKR_Victory_over_separatists_event_QUOTE:0 "«мудро» \n- §Yіді нахуй§!"
+sp_event_UKR_Victory_over_separatists_event_REMARK:0 "Слава героям Донбасса!"

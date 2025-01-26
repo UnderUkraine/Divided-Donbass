@@ -86,7 +86,7 @@ technologies = {
 	artillery2 = {
 
 		enable_equipments = {
-			artillery_equipment_2
+			artillery_equipment_3
 		}
 
 		enable_equipment_modules = {
@@ -123,7 +123,7 @@ technologies = {
 	artillery3 = {
 
 		enable_equipments = {
-			artillery_equipment_3
+			artillery_equipment_4
 		}
 
 		enable_equipment_modules = {
