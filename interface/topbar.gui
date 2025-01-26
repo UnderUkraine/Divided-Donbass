@@ -715,7 +715,25 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
-				
+				iconType = {
+					name = "prototype_rewards_aquired_bg"
+					spriteType = "GFX_topbar_alert_bg"
+					position = { x = 18 y = 21}
+					alwaystransparent = yes
+					frame = 1
+				}
+
+				instantTextBoxType = {
+					name ="prototype_rewards_aquired"
+					position = { x= 18 y = 21 }
+					font = "hoi_16mbs"
+					text = "999"
+					format = center
+					alwaystransparent = yes
+					maxWidth = 20
+					maxHeight = 24
+					fixedsize = yes
+				}
 				buttonType = {
 					name = "diplomacy_button"
 					quadTextureSprite ="GFX_Button"
@@ -801,7 +819,12 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
-				
+				iconType = {
+					name = "production_button_glow"
+					position = { x = 243 y = 1 }
+					spriteType = "GFX_decisions_glow_yellow"
+					alwaystransparent = yes
+				}
 				buttonType = {
 					name = "deployment_button"
 					position = { x = 308 y = 1}
