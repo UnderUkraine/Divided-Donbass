@@ -251,7 +251,7 @@ characters = {
 		portraits = {
 			army = {
 				#small = GFX_Portrait_SLV_Leon_Rupnik_small
-				large = "/gfx/leaders/UKR/sirskiy.dds"
+				large = "/gfx/leaders/UKR/Sisida.dds"
 			}
 		}
 		corps_commander = {
@@ -269,7 +269,7 @@ characters = {
 		portraits = {
 			army = {
 				#small = GFX_Portrait_SLV_Leon_Rupnik_small
-				large = "/gfx/leaders/UKR/sirskiy.dds"
+				large = "/gfx/leaders/UKR/Kokesh.dds"
 			}
 		}
 		corps_commander = {
@@ -323,7 +323,7 @@ characters = {
 		portraits = {
 			army = {
 				#small = GFX_Portrait_SLV_Leon_Rupnik_small
-				large = "/gfx/leaders/UKR/sirskiy.dds"
+				large = "/gfx/leaders/UKR/Barinov.dds"
 			}
 		}
 		corps_commander = {
