@@ -51,6 +51,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_National_militia"
+
+			load_oob = "DPR_militia_focus_1"
 		}
 	}
 	focus = {
@@ -73,6 +75,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_Tank_Battalion_Diesel"
+
+			#event tyt
+			load_oob = "DPR_diesel"
 		}
 	}
 
@@ -96,6 +101,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_brigada_oplot"
+
+			#event tyt
+			load_oob = "DPR_oplot"
 		}
 	}
 	focus = {
@@ -118,6 +126,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_batalion_somali"
+
+			#event tyt
+			load_oob = "DPR_somali"
 		}
 	}
 	focus = {
@@ -140,6 +151,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_battalion_sparta"
+
+			#event tyt
+			load_oob = "DPR_sparta"
 		}
 	}
 	focus = {
@@ -167,6 +181,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_militia_expansion"
+
+			set_country_flag = DPR_militia_expansion_flag
 		}
 	}
 	focus = {

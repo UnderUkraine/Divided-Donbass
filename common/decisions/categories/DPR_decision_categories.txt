@@ -36,6 +36,6 @@ DPR_recruitment_in_militia = {
 	}
 	visible_when_empty = yes
 	visible = {
-		always = yes
+		has_country_flag = DPR_militia_expansion_flag
 	}
 }
