@@ -399,6 +399,14 @@ guiTypes = {
 			clicksound = click_default
 			quadTextureSprite ="GFX_tiled_window_transparent"
 		}
+		iconType ={
+			name ="threat_icon_glow"
+			spriteType = "GFX_WT_anim_strip"
+			position = { x=-96 y=9 }
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+		
 		instantTextBoxType = {
 			name ="threat_value"
 			position = { x=-98 y=69 }
