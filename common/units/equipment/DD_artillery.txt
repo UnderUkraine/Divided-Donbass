@@ -40,7 +40,7 @@ equipments = {
 	}
 
 	artillery_equipment_1 = {
-		year = 1934
+		year = 1947
 
 		archetype = artillery_equipment
 		priority = 50
@@ -48,7 +48,7 @@ equipments = {
 	}
 	
 	artillery_equipment_2 = {
-		year = 1939
+		year = 1960
 
 		archetype = artillery_equipment
 		parent = artillery_equipment_1
@@ -67,7 +67,7 @@ equipments = {
 	}
 	
 	artillery_equipment_3 = {
-		year = 1942
+		year = 1975
 
 		archetype = artillery_equipment
 		parent = artillery_equipment_2
@@ -85,8 +85,27 @@ equipments = {
 		}
 	}
 
+	artillery_equipment_4 = {
+		year = 1987
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_3
+		priority = 50
+		visual_level = 2
+		
+		defense = 18
+		breakthrough = 8
+		soft_attack = 34
+		
+		build_cost_ic = 4.5
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
+	}
+
 	sau_chassis = {
-		year = 1922
+		year = 1971
 		is_archetype = yes
 		is_buildable = no
 
@@ -256,13 +275,13 @@ equipments = {
 		#}
 
 		fuel_consumption = 0
-		maximum_speed = 4
+		maximum_speed = 30
 		build_cost_ic = 1
 		reliability = 0.8
 		hardness = 0.8
 		armor_value = 10
 		resources = {
-			steel = 1
+			steel = 2
 		}
 
 		lend_lease_cost = 10
@@ -274,7 +293,7 @@ equipments = {
 		abbreviation = "sau0"
 		derived_variant_name = sau_equipment_0
 		visual_level = 0
-		year = 1922
+		year = 1971
 		archetype = sau_chassis
 		priority = 2000
 		module_slots = inherit
@@ -288,13 +307,13 @@ equipments = {
 		abbreviation = "sau1"
 		derived_variant_name = sau_equipment_1
 		visual_level = 1
-		year = 1959
+		year = 1975
 		archetype = sau_chassis
 		parent = sau_chassis_0
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 40
+		maximum_speed = 30
 		reliability = 1.2
 		armor_value = 5
 		resources = {
@@ -306,13 +325,13 @@ equipments = {
 		abbreviation = "sau2"
 		derived_variant_name = sau_equipment_2
 		visual_level = 2
-		year = 1959
+		year = 1976
 		archetype = sau_chassis
 		parent = sau_chassis_1
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 45
+		maximum_speed = 30
 		reliability = 1.2
 		armor_value = 5
 		resources = {
@@ -324,13 +343,13 @@ equipments = {
 		abbreviation = "sau3"
 		derived_variant_name = sau_equipment_2
 		visual_level = 3
-		year = 1959
+		year = 1985
 		archetype = sau_chassis
 		parent = sau_chassis_2
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 45
+		maximum_speed = 30
 		reliability = 1.2
 		armor_value = 5
 		resources = {
@@ -342,13 +361,13 @@ equipments = {
 		abbreviation = "sau4"
 		derived_variant_name = sau_equipment_3
 		visual_level = 4
-		year = 1959
+		year = 2016
 		archetype = sau_chassis
 		parent = sau_chassis_3
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 12
-		maximum_speed = 5
+		build_cost_ic = 50
+		maximum_speed = 30
 		reliability = 1.2
 		armor_value = 5
 		resources = {

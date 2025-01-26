@@ -602,6 +602,15 @@ set_country_flag = startup_information_country_info
 		tech_trucks_3 = 1
 
 		gw_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		artillery3 = 1
+		
+		sau_artillery = 1
+		sau_artillery1 = 1
+		sau_artillery2 = 1
+		sau_artillery3 = 1
+
 
 		#SUPPORT
 		tech_support = 1
@@ -959,19 +968,13 @@ set_country_flag = startup_information_country_info
 	create_country_leader = {
 		name = petro_poroshenko
 		#desc = petro_poroshenko_desc
-		ideology = autoritarian_democractic
+		ideology = conservatism_democratic
 		picture = gfx/leaders/UKR/poroshenko.dds
 		traits = { }
 	}
 
-	set_party_name = {
-		ideology = democratic
-		long_name = UKR_democratic_party_long_BPP
-		name = UKR_democratic_party_BPP
-	}
-
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism_democratic
 		last_election = "2010.06.07"
 		election_frequency = 48
 		elections_allowed = no

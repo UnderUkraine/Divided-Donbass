@@ -94,12 +94,14 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_marine_commando_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_marine_commando_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_jungle_pioneers_support_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_jungle_pioneers_support_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_integralist_militia_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_integralist_militia_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_btr1_unit_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_integralist_militia_icon.dds" noOfFrames = 2 } #TODO Insert icon
-	spriteType = { name = "GFX_unit_bbm_unit_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_integralist_militia_icon.dds" noOfFrames = 2 } #TODO Insert icon
+	spriteType = { name = "GFX_unit_btr1_unit_icon_medium"						            textureFile = "gfx/interface/counters/divisions_large/btr.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_bbm_unit_icon_medium"						            textureFile = "gfx/interface/counters/divisions_large/bmp.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_tank_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_sniper_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_sniper_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_medical_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/medical_company.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_medical_company_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/medical_company.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_tank_unit_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/tank.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_bmd_unit_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/bmd.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_special_forces_infantry_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/sof.dds" noOfFrames = 2 }
 	
 
 	####################################################

@@ -545,3 +545,10 @@ ukraine_set_dem_zone = {
         set_demilitarized_zone = yes
     }
 }
+
+republics_victory_script = {
+    set_global_flag = Separatists_won
+
+    set_global_flag = UKR_Victory_of_separatists_event
+    set_global_flag = Super_Event_Visible
+}

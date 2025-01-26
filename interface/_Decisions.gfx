@@ -67,4 +67,9 @@ spriteTypes = {
 		name = "GFX_donbass_map_icon_decision"
 		textureFile = "gfx/interface/decisions/donbass_map_icon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_independence_war_background_image"
+		textureFile = "gfx/interface/decisions/independence_war_picture.dds"
+	}
 }

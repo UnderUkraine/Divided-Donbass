@@ -688,7 +688,9 @@
 
  #DIVIDED DONBASS
  btr1_unit: "Рота БТР"
- bbm_unit: "Рота ББМ"
+ bbm_unit: "Рота БМП"
+ bmd_unit: "Рота БМД"
+ tank_unit: "Танковая Рота"
  marine_infantry: "Морская пехота"
  marine_infantry_desc: ""
  mechanized_infantry: "Механизированная пехота"
