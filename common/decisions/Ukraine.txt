@@ -907,7 +907,6 @@ UKR_anti_terroristic_operation = {
 							controls_province = 11420
 							controls_province = 4941
 							controls_province = 11615
-							}
 						}
 					}
 	
