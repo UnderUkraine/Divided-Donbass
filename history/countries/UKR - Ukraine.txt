@@ -770,7 +770,24 @@ set_country_flag = startup_information_country_info
 	#	type = motorized_equipment_2
 	#	amount = 1945
 	#}
-
+	add_equipment_to_stockpile = {
+		type = bmd_chassis_0
+		variant_name = "БМД-1"
+		amount = 300
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = bmd_chassis_1
+		variant_name = "БМД-2"
+		amount = 150
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = bmd_chassis_2
+		variant_name = "БМД-3"
+		amount = 15
+		producer = UKR
+	}
 	add_equipment_to_stockpile = {
 		type = truck_chassis_0
 		variant_name = "ГАЗ-66"
