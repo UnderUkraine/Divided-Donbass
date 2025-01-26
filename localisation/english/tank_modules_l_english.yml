@@ -565,6 +565,7 @@
  UKR_sau_chassis_1:0 "2C3 “Acacia”"
  UKR_sau_chassis_2:0 "2C5 “Hyacinth-S”"
  UKR_sau_chassis_3:0 "2C7 “Peony”"
+ UKR_sau_chassis_4:0 "2S22 “Bogdana”"
 
  tank_equipment_0:0 "T-55"
  tank_equipment_1:0 "T-64"
@@ -586,15 +587,14 @@
  EQ_MOD_CAT_tank_additional_defense_category_TITLE:0 "Additional defense"
  EQ_MOD_CAT_tank_gga_category_TITLE:0 "Gun guided armament"
  EQ_MOD_CAT_tank_active_defense_category_TITLE:0 "Active defense"
- EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Passive protection complexes"
  EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Survivability modules"
  EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Mine Countermeasures"
- EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "Light MRLS"
+
+ EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "MRLS"
  EQ_MOD_CAT_tank_light_zrk_armament_TITLE:0 "Light Anti-Aircraft missles"
  EQ_MOD_CAT_tank_medium_zrk_armament_TITLE:0 "Medium Anti-Aircraft missles"
  EQ_MOD_CAT_tank_medium_artillery_armament_TITLE:0 "Medium Artillery weapons"
  EQ_MOD_CAT_tank_light_artillery_armament_TITLE:0 "Light Artillery weapons"
-
 
  tank_anti_armor_atgm_1:0 "9K11 “Malyutka”"
  tank_anti_armor_atgm_2:0 "9K111-1 “Konkurs”"
@@ -616,13 +616,8 @@
  UKR_tank_active_defense_5: "Zaslon"
  RUS_tank_active_defense_5: "Afganit"
 
- tank_passive_protection_complex_1: "Passive protection complex 1"
- tank_passive_protection_complex_2: "Passive protection complex 2"
- tank_passive_protection_complex_3: "Passive protection complex 3"
- tank_passive_protection_complex_4: "Passive protection complex 4"
-
- tank_survivability_module_1: "Armor niche"
- tank_survivability_module_2: "Armored capsule"
+ tank_survivability_module_1: "Armored capsule 1"
+ tank_survivability_module_2: "Armored capsule 2"
 
  tank_anti_mine_module_1: "Mine trawl"
 
@@ -671,6 +666,7 @@
  tank_122mm_MRLS: "122-mm MRLS"
  tank_220mm_MRLS: "220-mm MRLS"
  tank_220mm_flamethrower_MRLS: "220-mm flamethrower MRLS"
+ tank_300mm_MRLS: "300-mm MRLS"
 
  tank_medium_anti_aircraft_missle_1: "Medium Anti-Aircraft Missle 1"
  tank_medium_anti_aircraft_missle_2: "Medium Anti-Aircraft Missle 2"
@@ -686,13 +682,13 @@
  RUS_tank_152mm_2a88_rus_arta: "152-mm 2A88"
  UKR_tank_152mm_2a88_rus_arta: "155-mm"
 
- EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional light weapons"
+ EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Additional light weapons"
  EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Additional Anti-Air weapons"
 
- tank_additional_7_62_mm: "7.62-mm PKT machine gun"
- tank_additional_dshk_12_7mm: "12.7-mm DSHK machine gun"
- tank_additional_nsvt_12_7mm: "12.7-mm NSVT machine gun"
- tank_additional_cord_12_7mm_RUSSIA: "12.7-mm CORD machine gun"
+ tank_additional_7_62_mm: "Additional 7.62-mm PKT machine gun"
+ tank_additional_dshk_12_7mm: "Additional 12.7-mm DSHK machine gun"
+ tank_additional_nsvt_12_7mm: "Additional 12.7-mm NSVT machine gun"
+ tank_additional_cord_12_7mm_RUSSIA: "Additional 12.7-mm CORD machine gun"
  tank_additional_automatic_grenade_launcher: "Automatic grenade launcher"
 
  tank_additional_medium_anti_aircraft_missle_1: "Additional medium Anti-Aircraft Missle 1"

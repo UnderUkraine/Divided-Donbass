@@ -523,8 +523,7 @@
  UKR_sau_chassis_1:0 "2С3 «Акация»"
  UKR_sau_chassis_2:0 "2С5 «Гиацинт-С»"
  UKR_sau_chassis_3:0 "2С7 «Пион»"
- UKR_sau_chassis_4_1:0 "2С22 «Богдана»"
- UKR_sau_chassis_4_2:0 "2С19 «МСТА-С»"
+ UKR_sau_chassis_4:0 "2С22 «Богдана»"
 
  tank_equipment_0:0 "T-55"
  tank_equipment_1:0 "T-64"
@@ -535,14 +534,40 @@
  RUS_tank_equipment_4:0 "T-90"
  RUS_tank_equipment_5:0 "T-14 «Армата»"
 
- EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ПТРУы"
+ truck_chassis: "Шасси грузовкика"
+
+ UKR_truck_chassis_0: "Газ-66"
+ UKR_truck_chassis_0_desc:1 ""
+ UKR_truck_chassis_1:1 "Урал-375"
+ UKR_truck_chassis_1_desc:0 ""
+ UKR_truck_chassis_2:1 "КамАЗ-4310"
+ UKR_truck_chassis_2_desc:0 ""
+ UKR_truck_chassis_3:1 "КрАЗ-6322"
+ UKR_truck_chassis_3_desc:0 ""
+
+ RUS_truck_chassis_0: "Газ-66"
+ RUS_truck_chassis_0_desc:1 ""
+ RUS_truck_chassis_1:1 "Урал-375"
+ RUS_truck_chassis_1_desc:0 ""
+ RUS_truck_chassis_2:1 "КамАЗ-4310
+ RUS_truck_chassis_2_desc:0 ""
+ RUS_truck_chassis_3:1 "КамАЗ-6350"
+ RUS_truck_chassis_3_desc:0 ""
+
+ EQ_MOD_CAT_tank_atgms_category_TITLE:0 "ПТУРы"
  EQ_MOD_CAT_tank_dynamic_armor_category_TITLE:0 "Динамическая броня"
  EQ_MOD_CAT_tank_mgg_atgms_category_TITLE:0 "Среднее пушечное управляемое вооружение"
  EQ_MOD_CAT_tank_additional_defense_category_TITLE:0 "Дополнительная защита"
  EQ_MOD_CAT_tank_active_defense_category_TITLE:0 "Активная защита"
- EQ_MOD_CAT_tank_passive_protection_complex_category_TITLE:0 "Комплексы пассивной защиты"
  EQ_MOD_CAT_tank_survivability_module_category_TITLE:0 "Модули повышения живучести"
  EQ_MOD_CAT_tank_anti_mine_module_category_TITLE:0 "Противоминная защита"
+ EQ_MOD_CAT_tank_gga_category_TITLE:0 "Управляемое вооружение"
+
+ EQ_MOD_CAT_tank_light_rzso_weapon_armament_TITLE:0 "РЗСО"
+ EQ_MOD_CAT_tank_light_zrk_armament_TITLE:0 "Легкие ЗРК"
+ EQ_MOD_CAT_tank_medium_zrk_armament_TITLE:0 "Среднее ПВО"
+ EQ_MOD_CAT_tank_medium_artillery_armament_TITLE:0 "Средние артиллерийские орудия"
+ EQ_MOD_CAT_tank_light_artillery_armament_TITLE:0 "Легкие артиллерийские орудия"
 
  tank_anti_armor_atgm_1:0 "9K11 “Малютка”"
  tank_anti_armor_atgm_2:0 "9K111-1 “Конкурс”"
@@ -561,15 +586,64 @@
  UKR_tank_active_defense_5: "Заслон"
  RUS_tank_active_defense_5: "Афганит"
 
- tank_passive_protection_complex_1: "Комплекс пассивной защиты 1"
- tank_passive_protection_complex_2: "Комплекс пассивной защиты 2"
- tank_passive_protection_complex_3: "Комплекс пассивной защиты 3"
- tank_passive_protection_complex_4: "Комплекс пассивной защиты 4"
-
- tank_survivability_module_1: "Заброневая ниша"
- tank_survivability_module_2: "Бронекапсула"
+ tank_survivability_module_1: "Бронекапсула 1"
+ tank_survivability_module_2: "Бронекапсула 2"
 
  tank_anti_mine_module_1: "Минный трал"
+
+ EQ_MOD_CAT_tank_super_light_armament_TITLE:0 "Сверхлегкое вооружение"
+ EQ_MOD_CAT_tank_light_armament_TITLE:0 "Легкое вооружение"
+ EQ_MOD_CAT_tank_light_anti_aircraft_armament_TITLE:0 "Легкое ПВО"
+ EQ_MOD_CAT_tank_medium_weapon_armament_TITLE:0 "Среднее вооружение"
+ EQ_MOD_CAT_tank_tank_weapon_armament_TITLE:0 "Танковое вооружение"
+ EQ_MOD_CAT_tank_heavy_tank_weapon_armament_TITLE:0 "Тяжелое танковое вооружение"
+
+ tank_7_62_mm: "7,62-мм пулемёт ПКТ"
+ tank_dshk_12_7mm: "12.7-мм пулемёт ДШК"
+ tank_nsvt_12_7mm: "12.7-мм пулимёт НСВТ"
+ tank_cord_12_7mm_RUSSIA: "12.7-мм пулемёт Корд"
+
+ tank_kpvt_14_5mm: "14.5-мм пулемёт КПВТ"
+ tank_30_mm_autocannon_2a42: "30-мм автопушка 2A42"
+ tank_30_mm_autocannon_2a42_2: "30-мм двойная автопушка 2A42"
+ RUS_tank_30_mm_autocannon_2a72: "30-мм автопушка 2A72"
+ UKR_tank_30_mm_autocannon_2a72: "КБА-2"
+ RUS_tank_30_mm_autocannon_2a72_2: "30-мм двойная автопушка 2A72"
+ UKR_tank_30_mm_autocannon_2a72_2: "Двойной КБА-2"
+
+ tank_23_mm_autocannon_azp_23: "Сдвоенная 23-мм автоматическая пушка АЗП-23"
+ tank_23_mm_autocannon_azp_23_2: "Счетверенная 23-мм автоматическая пушка АЗП-23"
+ tank_dual_30mm_2a38: "Две 30-мм 2А38"
+
+ tank_73mm_weapon_2a28: "73-мм орудие 2А28"
+ tank_57mm_autocannon_2a91: "57-мм автопушка 2А91"
+ tank_100mm_weapon_2a29: "100-мм орудие 2А29"
+
+ RUS_tank_125mm_2a46: "125-мм 2А46"
+ UKR_tank_125mm_2a46: "КБА-3"
+ tank_125mm_2a46m_5: "125-мм 2А46М-5"
+ tank_125mm_2a82_1m: "125-мм 2А82-1М"
+
+ tank_152mm_2a83_ARMATA: "152-мм 2А83"
+
+ tank_122mm_MRLS: "122-мм РСЗО"
+ tank_220mm_MRLS: "220-мм РСЗО"
+ tank_220mm_flamethrower_MRLS: "220-мм огнеметная РСЗО"
+ tank_300mm_MRLS: "300-мм РСЗО"
+
+ tank_medium_anti_aircraft_missle_1: "Средняя зенитная ракета 1"
+ tank_medium_anti_aircraft_missle_2: "Средняя зенитная ракета 2"
+ tank_manpads_on_chassis: "ПЗРК на шасси"
+
+ tank_buk_m1_missles: "Ракеты БУК-М1"
+ tank_buk_m2_rus_missles: "Ракеты БУК-М2"
+ tank_buk_m3_rus_missles: "Ракеты БУК-М3"
+
+ tank_122mm_2a18_arta: "122-мм 2А18"
+ tank_152mm_2a36_arta: "152-мм 2А36"
+ tank_152mm_2a64_arta: "152-мм 2А64"
+ RUS_tank_152mm_2a88_rus_arta: "152-мм 2А88"
+ UKR_tank_152mm_2a88_rus_arta: "155-мм"
 
  tank_kontact_1: "Контакт-1"
  tank_kontact_5: "Контакт-5"
@@ -577,3 +651,16 @@
  UKR_tank_dynamic_armor_4: "Нож-2"
  RUS_tank_dynamic_armor_3: "Реликт"
  RUS_tank_dynamic_armor_4: "Малахит"
+
+ EQ_MOD_CAT_tank_additional_light_armament_TITLE:0 "Доп. лёгкое вооружение"
+ EQ_MOD_CAT_tank_additional_zrk_armament_TITLE:0 "Доп. вооружение ПВО"
+
+ tank_additional_7_62_mm: "Доп. 7,62-мм пулемёт ПКТ"
+ tank_additional_dshk_12_7mm: "Доп. 12.7-мм пулемёт ДШК"
+ tank_additional_nsvt_12_7mm: "Доп. 12.7-мм пулимёт НСВТ"
+ tank_additional_cord_12_7mm_RUSSIA: "Доп. 12.7-мм пулемёт Корд"
+ tank_additional_automatic_grenade_launcher: "Доп. Автоматический гранатомёт"
+
+ tank_additional_medium_anti_aircraft_missle_1: "Дополнительная средняя ЗРК 1"
+ tank_additional_medium_anti_aircraft_missle_2: "Дополнительная средняя ЗРК 2"
+ tank_additional_manpads_on_chassis: "ПЗРК на шасси"
