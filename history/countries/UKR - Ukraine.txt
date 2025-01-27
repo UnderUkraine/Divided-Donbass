@@ -858,6 +858,30 @@ set_country_flag = startup_information_country_info
 	#	amount = 1945
 	#}
 	add_equipment_to_stockpile = {
+		type = sau_chassis_0
+		variant_name = "2С1 «Гвоздинка»"
+		amount = 500
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = sau_chassis_1
+		variant_name = "2С3 «Акация»"
+		amount = 350
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = sau_chassis_2
+		variant_name = "2С5 «Гиацинт-С»"
+		amount = 90
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = sau_chassis_3
+		variant_name = "2С7 «Пион»"
+		amount = 100
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
 		type = bmd_chassis_0
 		variant_name = "БМД-1"
 		amount = 300
