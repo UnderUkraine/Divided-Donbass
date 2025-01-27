@@ -23,17 +23,15 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 			always = yes
-      NOT = { has_country_flag = decision_recruitment_in_horlivka }
     }
     available = {
       controls_province = 12219
       controls_province = 12200
-      NOT = { has_country_flag = decision_recruitment_in_horlivka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_horlivka
     }
   }  
   DPR_recruitment_in_donetsk = {
@@ -43,18 +41,16 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_donetsk }
     }
     available = {
       controls_province = 12894
       controls_province = 12932
       controls_province = 12931
-          NOT = { has_country_flag = decision_recruitment_in_donetsk  }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_donetsk 
 		}
   } 
   DPR_recruitment_in_mariupol = {
@@ -64,16 +60,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_mariupol }
     }
     available = {
           controls_state = 430
-          NOT = { has_country_flag = decision_recruitment_in_mariupol }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_mariupol
 		}
   }   
   DPR_recruitment_in_novoazovsk = {
@@ -83,16 +77,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_novoazovsk }
     }
     available = {
       controls_province = 13978
-          NOT = { has_country_flag = decision_recruitment_in_novoazovsk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_novoazovsk
 		}
   } 
   DPR_recruitment_in_kramatorsk = {
@@ -102,17 +94,15 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_kramatorsk }
     }
     available = {
       controls_province = 11420
       controls_province = 11387
-          NOT = { has_country_flag = decision_recruitment_in_kramatorsk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_novoazovsk_districts
 		}
   } 
   DPR_recruitment_in_sloviansk = {
@@ -122,16 +112,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_sloviansk }
     }
     available = {
       controls_province = 4941
-          NOT = { has_country_flag = decision_recruitment_in_sloviansk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_sloviansk
 		}
   } 
   DPR_recruitment_in_artemivsk = {
@@ -141,16 +129,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_artemivsk }
     }
     available = {
       controls_province = 11704
-          NOT = { has_country_flag = decision_recruitment_in_artemivsk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_artemivsk
 		}
   } 
   DPR_recruitment_in_avdiivka = {
@@ -160,16 +146,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_avdiivka }
     }
     available = {
       controls_province = 12546
-          NOT = { has_country_flag = decision_recruitment_in_avdiivka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_avdiivka
 		}
   }  
   DPR_recruitment_in_dzerzhinsk = {
@@ -179,16 +163,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_dzerzhinsk }
     }
     available = {
       controls_province = 12048
-          NOT = { has_country_flag = decision_recruitment_in_dzerzhinsk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_dzerzhinsk
 		}
   } 
   DPR_recruitment_in_konstantinovka = {
@@ -198,16 +180,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_konstantinovka }
     }
     available = {
       controls_province = 7090
-          NOT = { has_country_flag = decision_recruitment_in_konstantinovka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_konstantinovka
 		}
   } 
   DPR_recruitment_in_dzuzhkivka = {
@@ -217,16 +197,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_dzuzhkivka }
     }
     available = {
       controls_province = 11615
-          NOT = { has_country_flag = decision_recruitment_in_dzuzhkivka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_dzuzhkivka
 		}
   } 
   DPR_recruitment_in_makiivka = {
@@ -236,16 +214,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_makiivka }
     }
     available = {
       controls_province = 12788
-          NOT = { has_country_flag = decision_recruitment_in_makiivka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_makiivka
 		}
   } 
   DPR_recruitment_in_harcisk = {
@@ -255,16 +231,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_harcisk }
     }
     available = {
       controls_province = 12772
-          NOT = { has_country_flag = decision_recruitment_in_harcisk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_harcisk
 		}
   } 
   DPR_recruitment_in_kalmiusskoe = {
@@ -274,16 +248,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_kalmiusskoe }
     }
     available = {
       controls_province = 13258
-          NOT = { has_country_flag = decision_recruitment_in_kalmiusskoe }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_kalmiusskoe
 		}
   } 
   DPR_recruitment_in_volnovaha = {
@@ -293,16 +265,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_volnovaha }
     }
     available = {
       controls_province = 13452
-          NOT = { has_country_flag = decision_recruitment_in_volnovaha }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_volnovaha
 		}
   } 
   DPR_recruitment_in_kurahovo = {
@@ -312,16 +282,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_kurahovo }
     }
     available = {
       controls_province = 12880
-          NOT = { has_country_flag = decision_recruitment_in_kurahovo }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_kurahovo
 		}
   } 
   DPR_recruitment_in_krasnoarmeisk = {
@@ -331,16 +299,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_krasnoarmeisk }
     }
     available = {
       controls_province = 12304
-          NOT = { has_country_flag = decision_recruitment_in_krasnoarmeisk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_krasnoarmeisk
 		}
   }  
   DPR_recruitment_in_seversk = {
@@ -350,16 +316,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_seversk }
     }
     available = {
       controls_province = 7107
-          NOT = { has_country_flag = decision_recruitment_in_seversk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_seversk
 		}
   } 
   DPR_recruitment_in_chervoniy_liman = {
@@ -369,16 +333,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_chervoniy_liman }
     }
     available = {
       controls_province = 10999
-          NOT = { has_country_flag = decision_recruitment_in_chervoniy_liman }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_chervoniy_liman
 		}
   }  
   DPR_recruitment_in_ilovaisk = {
@@ -388,16 +350,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_ilovaisk }
     }
     available = {
       controls_province = 3476
-          NOT = { has_country_flag = decision_recruitment_in_ilovaisk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_ilovaisk
 		}
   } 
   DPR_recruitment_in_amvrosievka = {
@@ -407,16 +367,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_amvrosievka }
     }
     available = {
       controls_province = 13200
-          NOT = { has_country_flag = decision_recruitment_in_amvrosievka }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_amvrosievka
 		}
   } 
   DPR_recruitment_in_shahtersk = {
@@ -426,16 +384,14 @@ DPR_recruitment_in_militia = {
     }
     visible = {
 	    always = yes
-      NOT = { has_country_flag = decision_recruitment_in_shahtersk }
     }
     available = {
       controls_province = 12756
-          NOT = { has_country_flag = decision_recruitment_in_shahtersk }
     }
     icon = GFX_grad_icon
     priority = 10
+    fire_only_once = yes
     complete_effect = {
-      set_country_flag = decision_recruitment_in_shahtersk
 		}
   } 
 }
