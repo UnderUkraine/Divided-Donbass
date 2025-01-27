@@ -180,6 +180,10 @@ spriteTypes = {
 		name = "GFX_EMI_tank_additional_cord_12_7mm_RUSSIA"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/kord.dds"
 	}
+	spriteType = {
+		name = "GFX_EMI_tank_additional_automatic_grenade_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/ags.dds"
+	}
 
 
 	spriteType = {
@@ -231,8 +235,38 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_220mm_MRLS.dds"
 	}
 	spriteType = {
+		name = "GFX_EMI_tank_220mm_flamethrower_MRLS"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/TOS220.dds"
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_300mm_MRLS"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_300mm_MRLS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_buk_m1_missles"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_buk_m2_missles"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_buk_m3_missles"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_122mm_2a18_arta"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/2A18.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_152mm_2a36_arta"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/2A36.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_152mm_2a64_arta"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/2A64.dds" #Потом фикс, тут случайно 2А65
 	}
 
 	spriteType = {

@@ -53,6 +53,10 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
+            tank_122mm_2a18_arta
+		}
+
+		enable_equipment_modules = {
 			tank_medium_howitzer
 			tank_medium_cannon
 			lc_medium_cannon_turret #Module for Land Cruiser
@@ -90,6 +94,10 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
+            tank_152mm_2a36_arta
+		}
+
+		enable_equipment_modules = {
 			tank_medium_howitzer
 			tank_medium_cannon
 			lc_medium_cannon_turret #Module for Land Cruiser
@@ -124,6 +132,10 @@ technologies = {
 
 		enable_equipments = {
 			artillery_equipment_4
+		}
+
+		enable_equipment_modules = {
+            tank_152mm_2a64_arta
 		}
 
 		enable_equipment_modules = {

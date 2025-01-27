@@ -508,7 +508,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "ТЕСТ РЕАКТИВ АРТА"
-	type = rocket_artillery_chassis_0
+	type = rocket_artillery_equipment_0
 	parent_version = 0
 	modules = {
 		#main_armament_slot = tank_kpvt_14_5mm
@@ -561,7 +561,82 @@ create_equipment_variant = {
 		tank_nsb_armor_upgrade = 0
 	}
 	icon = "GFX_UKR_truck_chassis_2_medium"
-	obsolete = yes
+}
+
+create_equipment_variant = {
+    name = "2С1 «Гвоздика»"
+    type = sau_chassis_0
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_122mm_2a18_arta
+        turret_type_slot = tank_artillery_tower
+        armor_type_slot = tank_steel_armor
+        engine_type_slot = tank_utd_20_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_7_62_mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_UKR_truck_chassis_2_medium"
+}
+
+create_equipment_variant = {
+    name = "2С3 «Акация»"
+    type = sau_chassis_1
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_152mm_2a36_arta
+        turret_type_slot = tank_artillery_tower
+        armor_type_slot = tank_steel_armor
+        engine_type_slot = tank_utd_20_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_7_62_mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_UKR_sau_chassis_1_medium"
+}
+
+create_equipment_variant = {
+    name = "2С5 «Гиацинт-С»"
+    type = sau_chassis_2
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_152mm_2a36_arta #Тут потом другую надо
+        turret_type_slot = tank_artillery_tower
+        armor_type_slot = tank_steel_armor
+        engine_type_slot = tank_utd_20_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_7_62_mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_UKR_sau_artillery2_medium"
+}
+
+create_equipment_variant = {
+    name = "2С7 «Пион»"
+    type = sau_chassis_3
+    parent_version = 0
+    modules = {
+        main_armament_slot = tank_152mm_2a64_arta
+        turret_type_slot = tank_artillery_tower
+        armor_type_slot = tank_steel_armor
+        engine_type_slot = tank_utd_20_engine
+        suspension_type_slot = tank_track_base_suspension
+        special_type_slot_1 = tank_additional_7_62_mm
+    }
+    upgrades = {
+        tank_nsb_engine_upgrade = 0
+        tank_nsb_armor_upgrade = 0
+    }
+    icon = "GFX_UKR_truck_chassis_3_medium"
 }
 
 set_country_flag = startup_information_country_info
@@ -611,6 +686,9 @@ set_country_flag = startup_information_country_info
 		sau_artillery2 = 1
 		sau_artillery3 = 1
 
+		DD_rocket_artillery = 1
+		rocket_artillery_2 = 1
+		rocket_artillery_3 = 1
 
 		#SUPPORT
 		tech_support = 1
@@ -946,7 +1024,7 @@ set_country_flag = startup_information_country_info
 	set_variable = { UKR.party_five_deputaty = 32 }
 	set_variable = { UKR.party_six_deputaty = 51 }
 
-	set_variable = { global.escalation_on_donbass_variable = 1 }
+	#set_variable = { global.escalation_on_donbass_variable = 1 }
 	
 	add_manpower = 60000
 	
