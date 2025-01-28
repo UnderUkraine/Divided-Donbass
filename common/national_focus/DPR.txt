@@ -11,6 +11,27 @@ focus_tree = {
 	continuous_focus_position = { x = 4000 y = 2000 }
 	shared_focus = Novorosiya_joint
 	focus = {
+		id = DPR_Warlord_rivalry
+		icon = GFX_focus_DPR_Donbass_will_be_free
+		cost = 5
+		x = 5
+		y = 0
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus DPR_Donbass_will_be_free"
+
+			country_event = donetsk.1
+		}
+	}
+	focus = {
 		id = DPR_Donbass_will_be_free
 		icon = GFX_focus_DPR_Donbass_will_be_free
 		cost = 5
