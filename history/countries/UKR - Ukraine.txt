@@ -579,7 +579,7 @@ create_equipment_variant = {
         tank_nsb_engine_upgrade = 0
         tank_nsb_armor_upgrade = 0
     }
-    icon = "GFX_UKR_truck_chassis_2_medium"
+    icon = "GFX_UKR_sau_artillery_medium"
 }
 
 create_equipment_variant = {
@@ -636,7 +636,7 @@ create_equipment_variant = {
         tank_nsb_engine_upgrade = 0
         tank_nsb_armor_upgrade = 0
     }
-    icon = "GFX_UKR_truck_chassis_3_medium"
+    icon = "GFX_UKR_sau_artillery3_medium"
 }
 
 set_country_flag = startup_information_country_info

@@ -147,22 +147,20 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
 			armor_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armor_type
+					light_tank_armor_type
 				}
 			}
 
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_heavy_engine_type
-					tank_heavy_engine_diesel_type
+					tank_medium_engine_type
 				}
 			}
 

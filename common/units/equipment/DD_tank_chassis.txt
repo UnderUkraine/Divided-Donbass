@@ -2127,7 +2127,6 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_suspension_type
-					tank_non_tracked_suspension_type
 				}
 			}
 
@@ -2161,7 +2160,6 @@ equipments = {
 					tank_dynamic_armor_category
 					tank_additional_defense_category
 					tank_active_defense_category
-					tank_passive_protection_complex_category
 					tank_survivability_module_category
 					tank_anti_mine_module_category
 					tank_gga_category
@@ -2176,7 +2174,6 @@ equipments = {
 					tank_dynamic_armor_category
 					tank_additional_defense_category
 					tank_active_defense_category
-					tank_passive_protection_complex_category
 					tank_survivability_module_category
 					tank_anti_mine_module_category
 					tank_gga_category
@@ -2191,7 +2188,6 @@ equipments = {
 					tank_dynamic_armor_category
 					tank_additional_defense_category
 					tank_active_defense_category
-					tank_passive_protection_complex_category
 					tank_survivability_module_category
 					tank_anti_mine_module_category
 					tank_gga_category
@@ -2217,10 +2213,6 @@ equipments = {
 		}		
 		module_count_limit = {
 			category = tank_active_defense_category
-			count < 2
-		}		
-		module_count_limit = {
-			category = tank_passive_protection_complex_category
 			count < 2
 		}		
 		module_count_limit = {

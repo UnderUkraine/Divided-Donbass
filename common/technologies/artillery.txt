@@ -170,6 +170,10 @@ technologies = {
 			sau_chassis_0
 		}
 
+		enable_subunits = {
+			sau_artillery_company
+		}
+
 		path = {
 			leads_to_tech = sau_artillery1
 			research_cost_coeff = 1
