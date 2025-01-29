@@ -49,6 +49,29 @@
  get_dpr_control_yes_artemovsk:0 "Artemovsk: §GUnder our control§!"
  get_dpr_control_no_artemovsk:0 "Artyomovsk: §RUnder enemy control§!"
 
+ get_lpr_control_yes_lugansk:0 "Lugansk: §GUnder our control§!"
+ get_lpr_control_no_lugansk:0 "Lugansk: §RUnder enemy control§!"
+
+ get_lpr_control_yes_alchevsk:0 "Alchevsk: §GUnder our control§!"
+ get_lpr_control_no_alchevsk:0 "Alchevsk: §RUnder enemy control§!"
+
+ get_lpr_control_yes_antratsit:0 "Antratsit: §GUnder our control§!"
+ get_lpr_control_no_antratsit:0 "Antratsit: §RUnder enemy control§!"
+
+ get_lpr_control_yes_starobelsk:0 "Starobelsk: §GUnder our control§!"
+ get_lpr_control_no_starobelsk:0 "Starobelsk: §RUnder enemy control§!"
+
+ get_lpr_control_yes_aidar:0 "Aydar: §GUnder our control§!"
+ get_lpr_control_no_aidar:0 "Aydar: §RUnder enemy control§!"
+
+ get_lpr_control_yes_svatovo:0 "Svatovo: §GUnder our control§!"
+ get_lpr_control_no_svatovo:0 "Svatovo: §RUnder enemy control§!"
+
+ get_lpr_control_yes_severodonetsk:0 "Severodonetsk: §GUnder our control§!"
+ get_lpr_control_no_severodonetsk:0 "Severodonetsk: §RUnder enemy control§!"
+
+ get_if_control_every_region_text:0 "If all these cities are controlled, victory in Donbass will be declared."
+
  negotations_text:0 "Negotations progress"
 
  startup_info_ukraine_desc: "By November 21, 2013, Ukraine was in a state of tense anticipation related to its foreign policy choices. The country was on the verge of a key decision to sign the Association Agreement with the European Union, which was to take place at a summit in Vilnius in late November. However, internal and external factors created intense pressure on the country's leadership. \nPresident Viktor Yanukovych and his government, in power since 2010, tried to maneuver between two major forces - the European Union and the Russian Federation. On the one hand, a significant part of Ukrainian society, especially in the western and central regions, supported European integration as a way to modernize the country and improve life. On the other hand, Russia exerted powerful economic and political pressure to keep Ukraine in its orbit of influence. \nAgainst the backdrop of these contradictions, the Yanukovych government decided on November 21, 2013 to suspend the process of preparation for signing an agreement with the EU. This step was explained by the need to strengthen trade relations with Russia and reduce economic risks. However, for many citizens, this decision became a symbol of rejection of the European path of development. \nOn the same day, the first peaceful protests began in Kyiv, which later became known as Euromaidan. People gathered on Maidan Nezalezhnosti to express their disagreement with the government's decision. These events marked the beginning of one of the most difficult and fateful periods in the modern history of Ukraine."
