@@ -153,14 +153,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_clashes_odessa
+		id = UKR_Otrubit_vodu_Krimu
 		icon = GFX_focus_UKR_clashes_odessa
 		cost = 5
-		x = 2
+		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_deep_all_militsia_on_odessa}
+		relative_position_id = UKR_deep_all_militsia_on_odessa
 		
 		ai_will_do = {
 			factor = 1
@@ -351,11 +351,11 @@ focus_tree = {
 		id = UKR_deep_all_militsia_on_odessa
 		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
 		cost = 5
-		x = 0
+		x = 3
 		y = 1
 
-		prerequisite = {focus = UKR_clashes_odessa}
-		relative_position_id = UKR_clashes_odessa
+		prerequisite = {focus = UKR_destability_on_east}
+		relative_position_id = UKR_destability_on_east
 		
 		ai_will_do = {
 			factor = 1
@@ -384,15 +384,26 @@ focus_tree = {
 		id = UKR_Separatists_defeated
 		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 5
-		x = -1
+		x = 0
 		y = 1
 
 		prerequisite = {
 			focus = UKR_defence_Luhansk
+	    }
+		prerequisite = {
 			focus = UKR_defence_donbass
-			focus = UKR_deep_all_militsia_on_odessa
+	    }
+		prerequisite = {
 			focus = UKR_stabilisation_region
 	    }
+		prerequisite = {
+			focus = UKR_Otrubit_vodu_Krimu
+	    }
+		allow_branch = {
+			NOT = {
+			has_global_flag = UKR_ATO_Started
+			}
+		}
 		relative_position_id = UKR_stabilisation_region
 		mutually_exclusive = {
 			focus = UKR_preparing_for_the_inevitable
@@ -451,23 +462,25 @@ focus_tree = {
 		id = UKR_preparing_for_the_inevitable
 		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 5
-		x = 1
-		y = 1
+		x = 0
+		y = 0
 
 		prerequisite = {
 			focus = UKR_defence_Luhansk
 			focus = UKR_defence_donbass
-			focus = UKR_deep_all_militsia_on_odessa
+			focus = UKR_Otrubit_vodu_Krimu
 			focus = UKR_stabilisation_region
 	    }
-		relative_position_id = UKR_stabilisation_region
+		relative_position_id = UKR_Separatists_defeated
 		mutually_exclusive = {
 			focus = UKR_Separatists_defeated
 		}
 		ai_will_do = {
 			factor = 1
 		}
-
+		allow_branch = {
+			has_global_flag = UKR_ATO_Started
+		}
 		bypass = {
 			has_global_flag = UKR_ATO_Started
 		}
@@ -484,51 +497,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_convocation_nsds #СНБО / РНБО
-		icon = GFX_focus_UKR_convocation_nsds
-		cost = 1
-		x = -1
-		y = 2
-
-		prerequisite = {focus = UKR_preparing_for_the_inevitable
-		                focus = UKR_Form_Crimean_Liberation_Army}
-		relative_position_id = UKR_preparing_for_the_inevitable
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			always = no
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-            add_war_support = 0.05
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_convocation_nsds"
-
-			hidden_effect = {
-				add_manpower = 5000
-			}
-		}
-	}
-	focus = {
 		id = UKR_ato
 		icon = GFX_focus_UKR_ato
 		cost = 5
 		x = 4
-		y = 1
+		y = 2
 
-		prerequisite = {focus = UKR_convocation_nsds}
-		relative_position_id = UKR_convocation_nsds
-
-		allow_branch = {
-			has_global_flag = UKR_ATO_Started
-		}
-		
+		prerequisite = {focus = UKR_preparing_for_the_inevitable}
+		relative_position_id = UKR_preparing_for_the_inevitable
 		ai_will_do = {
 			factor = 1
 		}
@@ -543,6 +519,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_ato"
+			add_war_support = 0.05
+			hidden_effect = {
+				add_manpower = 5000
+			}
 		}
 	}
 	focus = {
@@ -994,10 +974,12 @@ focus_tree = {
 		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
 		cost = 1
 		x = -4
-		y = 1
-
-		prerequisite = {focus = UKR_convocation_nsds}
-		relative_position_id = UKR_convocation_nsds
+		y = 2
+		prerequisite = {
+			focus = UKR_preparing_for_the_inevitable
+			focus = UKR_Separatists_defeated
+	    }
+		relative_position_id = UKR_preparing_for_the_inevitable
 
 		allow_branch = {
 			has_country_flag = UKR_presidential_elections
