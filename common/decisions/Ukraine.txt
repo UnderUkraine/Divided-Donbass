@@ -16,10 +16,14 @@ UKR_Maidan_Support_category = {
 		}
 		timeout_effect = {
 			country_event = ukraine.2
-			set_variable = { UKR.dpr_support = 45 }
-			set_variable = { UKR.lpr_support = 45 }
-			set_variable = { UKR.kpr_support = 35 }
-			set_variable = { UKR.opr_support = 25 }
+			set_variable = { UKR.separatism_support_in_donetska = 60 }
+			set_variable = { UKR.separatism_support_in_luhanska = 55 }
+			set_variable = { UKR.separatism_support_in_kharkivska = 40 }
+			set_variable = { UKR.separatism_support_in_odeska = 25 }
+
+			set_variable = { UKR.separatism_support_in_krym = 100 }
+
+			set_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
 
 			hidden_effect = {
 			news_event = news.7
@@ -83,6 +87,65 @@ UKR_operation_bumerang_and_khvylya = {
 }
 
 UKR_Separatists_in_Ukraine = {
+	UKR_select_region_decision = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			check_variable = {select_separatists_region < 1}
+		}
+		available = {
+			always = no
+		}
+		fire_only_once = yes
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+
+	UKR_Disperse_pro_russian_rallies_donetsk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			check_variable = {select_separatists_region = 7}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 10
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+	UKR_SBU_raids_donetsk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			check_variable = {select_separatists_region = 7}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 25
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+
 	donetsk_uprising = {
 		icon = GFX_flag_of_dpr
 		is_good = yes

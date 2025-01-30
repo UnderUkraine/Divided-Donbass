@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_gui_background_separatists_small"
+		textureFile = "/gfx/interface/gui_background_separatists_small.dds"
+	}
+	spriteType = {
+		name = "GFX_separatists_gui_open_button"
+		textureFile = "/gfx/interface/separatism_open_gui_button.dds"
+	}
+	spriteType = {
 		name = "GFX_volynska_oblast1"
 		textureFile = "/gfx/interface/ukraine_map/Ukraine_Map.png"
 	}
@@ -14,6 +22,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_AvtonomnaRespublikaKrym"
 		textureFile = "/gfx/interface/ukraine_map/AvtonomnaRespublikaKrym.png"
+	}
+	spriteType = {
+		name = "GFX_AvtonomnaRespublikaKrym_separatism"
+		textureFile = "/gfx/interface/ukraine_map/AvtonomnaRespublikaKrym_separatism.png"
 	}
 	spriteType = {
 		name = "GFX_Cherkaska"
@@ -33,12 +45,20 @@ spriteTypes = {
 		textureFile = "/gfx/interface/ukraine_map/Donetska.png"
 	}
 	spriteType = {
+		name = "GFX_Donetska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Donetska_separatism.png"
+	}
+	spriteType = {
 		name = "GFX_IvanoFrankivska"
 		textureFile = "/gfx/interface/ukraine_map/IvanoFrankivska.png"
 	}
 	spriteType = {
 		name = "GFX_Kharkivska"
 		textureFile = "/gfx/interface/ukraine_map/Kharkivska.png"
+	}
+	spriteType = {
+		name = "GFX_Kharkivska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Kharkivska_separatism.png"
 	}
 	spriteType = {
 		name = "GFX_Khersonska"
@@ -61,12 +81,20 @@ spriteTypes = {
 		textureFile = "/gfx/interface/ukraine_map/Luhanska.png"
 	}
 	spriteType = {
+		name = "GFX_Luhanska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Luhanska_separatism.png"
+	}
+	spriteType = {
 		name = "GFX_Mykolaivska"
 		textureFile = "/gfx/interface/ukraine_map/Mykolaivska.png"
 	}
 	spriteType = {
 		name = "GFX_Odeska"
 		textureFile = "/gfx/interface/ukraine_map/Odeska.png"
+	}
+	spriteType = {
+		name = "GFX_Odeska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Odeska_separatism.png"
 	}
 	spriteType = {
 		name = "GFX_Poltavska"

@@ -33,3 +33,614 @@ defined_text = {
         localization_key = "separatists_in_Ukraine_description"
     }
 }
+
+defined_text = {
+    name = separatists_selected_oblast_name
+	
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 1}
+        }
+        localization_key = "separatists_selected_oblast_lvivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 2}
+        }
+        localization_key = "separatists_selected_oblast_volynska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+        }
+        localization_key = "separatists_selected_oblast_krym"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 4}
+        }
+        localization_key = "separatists_selected_oblast_cherskaska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 5}
+        }
+        localization_key = "separatists_selected_oblast_chernigivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 6}
+        }
+        localization_key = "separatists_selected_oblast_dnipropetrovska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 7}
+        }
+        localization_key = "separatists_selected_oblast_donetska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+        }
+        localization_key = "separatists_selected_oblast_luhanska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 9}
+        }
+        localization_key = "separatists_selected_oblast_ivano_frankivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+        }
+        localization_key = "separatists_selected_oblast_kharkivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 11}
+        }
+        localization_key = "separatists_selected_oblast_khersonska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 12}
+        }
+        localization_key = "separatists_selected_oblast_khmelnytska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 13}
+        }
+        localization_key = "separatists_selected_oblast_kyivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 14}
+        }
+        localization_key = "separatists_selected_oblast_kirovohradska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 15}
+        }
+        localization_key = "separatists_selected_oblast_mykolaivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+        }
+        localization_key = "separatists_selected_oblast_odeska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 17}
+        }
+        localization_key = "separatists_selected_oblast_poltavska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 18}
+        }
+        localization_key = "separatists_selected_oblast_sumska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 19}
+        }
+        localization_key = "separatists_selected_oblast_zaporizka"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 20}
+        }
+        localization_key = "separatists_selected_oblast_ternopilska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 21}
+        }
+        localization_key = "separatists_selected_oblast_vinnytska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 22}
+        }
+        localization_key = "separatists_selected_oblast_zhytomyrska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 23}
+        }
+        localization_key = "separatists_selected_oblast_rivnenska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 24}
+        }
+        localization_key = "separatists_selected_oblast_zakarpattia"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 25}
+        }
+        localization_key = "separatists_selected_oblast_chernivtsi"
+    }
+}
+
+defined_text = {
+    name = separatists_selected_oblast_separatism
+	
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 1}
+        }
+        localization_key = "separatists_selected_oblast_lvivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 2}
+        }
+        localization_key = "separatists_selected_oblast_volynska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+        }
+        localization_key = "separatists_selected_oblast_krym_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 4}
+        }
+        localization_key = "separatists_selected_oblast_cherskaska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 5}
+        }
+        localization_key = "separatists_selected_oblast_chernigivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 6}
+        }
+        localization_key = "separatists_selected_oblast_dnipropetrovska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 7}
+        }
+        localization_key = "separatists_selected_oblast_donetska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+        }
+        localization_key = "separatists_selected_oblast_luhanska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 9}
+        }
+        localization_key = "separatists_selected_oblast_ivano_frankivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+        }
+        localization_key = "separatists_selected_oblast_kharkivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 11}
+        }
+        localization_key = "separatists_selected_oblast_khersonska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 12}
+        }
+        localization_key = "separatists_selected_oblast_khmelnytska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 13}
+        }
+        localization_key = "separatists_selected_oblast_kyivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 14}
+        }
+        localization_key = "separatists_selected_oblast_kirovohradska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 15}
+        }
+        localization_key = "separatists_selected_oblast_mykolaivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+        }
+        localization_key = "separatists_selected_oblast_odeska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 17}
+        }
+        localization_key = "separatists_selected_oblast_poltavska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 18}
+        }
+        localization_key = "separatists_selected_oblast_sumska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 19}
+        }
+        localization_key = "separatists_selected_oblast_zaporizka_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 20}
+        }
+        localization_key = "separatists_selected_oblast_ternopilska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 21}
+        }
+        localization_key = "separatists_selected_oblast_vinnytska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 22}
+        }
+        localization_key = "separatists_selected_oblast_zhytomyrska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 23}
+        }
+        localization_key = "separatists_selected_oblast_rivnenska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 24}
+        }
+        localization_key = "separatists_selected_oblast_zakarpattia_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 25}
+        }
+        localization_key = "separatists_selected_oblast_chernivtsi_separatism"
+    }
+}
+
+defined_text = {
+    name = donetska_oblast_image
+    text = { 
+        trigger = {
+            check_variable = {select_separatists_region = 7}
+            check_variable = {separatism_support_in_donetska > 0}
+        }
+        localization_key = "GFX_Donetska_separatism"
+    }
+        text = {
+            trigger = {
+                check_variable = {select_separatists_region = 7}
+                check_variable = {separatism_support_in_donetska = 0}
+            }
+        localization_key = "GFX_Donetska"
+    }
+}
+
+defined_text = {
+    name = luhanska_oblast_image
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+            check_variable = {separatism_support_in_luhanska > 0}
+        }
+        localization_key = "GFX_Luhanska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+            check_variable = {separatism_support_in_luhanska = 0}
+        }
+        localization_key = "GFX_Luhanska"
+    }
+}
+
+
+defined_text = {
+    name = avtonomna_respublika_krym_oblast_image
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+            check_variable = {separatism_support_in_krym > 0}
+        }
+        localization_key = "GFX_AvtonomnaRespublikaKrym_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+            check_variable = {separatism_support_in_krym = 0}
+        }
+        localization_key = "GFX_AvtonomnaRespublikaKrym"
+    }
+}
+
+defined_text = {
+    name = kharkivska_oblast_image
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+            check_variable = {separatism_support_in_kharkivska > 0}
+        }
+        localization_key = "GFX_Kharkivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+            check_variable = {separatism_support_in_kharkivska = 0}
+        }
+        localization_key = "GFX_Kharkivska"
+    }
+}
+
+defined_text = {
+    name = odeska_oblast_image
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+            check_variable = {separatism_support_in_odeska > 0}
+        }
+        localization_key = "GFX_Odeska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+            check_variable = {separatism_support_in_odeska = 0}
+        }
+        localization_key = "GFX_Odeska"
+    }
+}
+
+
+defined_text = {
+    name = separatists_oblast_image
+	
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 1}
+        }
+        localization_key = "GFX_lvivska_oblast"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 2}
+        }
+        localization_key = "GFX_volynska_oblast"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+            check_variable = {separatism_support_in_krym > 0}
+        }
+        localization_key = "GFX_AvtonomnaRespublikaKrym_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 3}
+            check_variable = {separatism_support_in_krym = 0}
+        }
+        localization_key = "GFX_AvtonomnaRespublikaKrym"
+    }
+
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 4}
+        }
+        localization_key = "GFX_Cherkaska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 5}
+        }
+        localization_key = "GFX_Chernihivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 6}
+        }
+        localization_key = "GFX_Dnipropetrovska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 7}
+            check_variable = {separatism_support_in_donetska > 0}
+        }
+        localization_key = "GFX_Donetska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 7}
+            check_variable = {separatism_support_in_donetska = 0}
+        }
+        localization_key = "GFX_Donetska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+            check_variable = {separatism_support_in_luhanska > 0}
+        }
+        localization_key = "GFX_Luhanska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 8}
+            check_variable = {separatism_support_in_luhanska = 0}
+        }
+        localization_key = "GFX_Luhanska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 9}
+        }
+        localization_key = "GFX_IvanoFrankivska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+            check_variable = {separatism_support_in_kharkivska > 0}
+        }
+        localization_key = "GFX_Kharkivska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 10}
+            check_variable = {separatism_support_in_kharkivska = 0}
+        }
+        localization_key = "GFX_Kharkivska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 11}
+        }
+        localization_key = "GFX_Khersonska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 12}
+        }
+        localization_key = "GFX_Khmelnytska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 13}
+        }
+        localization_key = "GFX_Kyivska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 14}
+        }
+        localization_key = "GFX_Kyrovohradska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 15}
+        }
+        localization_key = "GFX_Mykolaivska"
+    }
+
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+            check_variable = {separatism_support_in_odeska > 0}
+        }
+        localization_key = "GFX_Odeska_separatism"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 16}
+            check_variable = {separatism_support_in_odeska = 0}
+        }
+        localization_key = "GFX_Odeska"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 17}
+        }
+        localization_key = "GFX_Poltavska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 18}
+        }
+        localization_key = "GFX_Sumska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 19}
+        }
+        localization_key = "GFX_Zaporizka"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 20}
+        }
+        localization_key = "GFX_Ternopilska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 21}
+        }
+        localization_key = "GFX_Vinnytska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 22}
+        }
+        localization_key = "GFX_Zhytomyrska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 23}
+        }
+        localization_key = "GFX_Rivnenska"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 24}
+        }
+        localization_key = "GFX_Zakarpattia"
+    }
+    text = {
+        trigger = {
+            check_variable = {select_separatists_region = 25}
+        }
+        localization_key = "GFX_Chernivtsi"
+    }
+}

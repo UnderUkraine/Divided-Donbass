@@ -18,11 +18,9 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name ="Button_1"
-			quadTextureSprite ="GFX_button_261x34"
-			position = { x=115 y=230 }
-			buttonText = "Add 1 to array"
-			buttonFont = "hoi_16mbs"
+			name ="Open_separatists_button"
+			quadTextureSprite ="GFX_separatists_gui_open_button"
+			position = { x=115 y=150 }
 			Orientation = centre
 		}
 	}
@@ -200,6 +198,57 @@ guiTypes = {
             name ="Chernivtsi_oblast"
             spriteType = "GFX_Chernivtsi"
             position = { x= -364 y = -20 }
+            Orientation = "center"
+        }  
+	}
+
+    containerWindowType = {
+		name = "separatists_dop_window"	
+		position = { x = 750 y = -180 }	
+		size = { width = 429 height = 394 }
+		orientation = center
+		origo = center 
+
+		fade_time = 100
+		moveable = no
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_gui_background_separatists_small"
+		}
+
+		#buttonType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}   
+
+        instantTextboxType = {
+			name = "oblast_name"
+			position = { x = -10 y = 50 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_name]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        instantTextboxType = {
+			name = "oblast_separatism_text"
+			position = { x = -10 y = 320 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_separatism]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        buttonType ={
+            name ="oblast_image"
+            spriteType = "GFX_Zakarpattia"
+            position = { x= -60 y = -80 }
             Orientation = "center"
         }  
 	}
