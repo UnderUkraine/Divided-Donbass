@@ -708,6 +708,17 @@ set_country_flag = startup_information_country_info
 	
 		bbm_chassis = 1
 		bbm_1_chassis = 1
+		# Soviet Doctrine
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+		large_front_operations  = 1
+		deep_operations = 1
+		operational_concentration = 1
+		vast_offensives = 1
+		breakthrough_priority = 1
+		mechanized_wave = 1
+		continuous_offensive = 1
 	}
 	
 	set_politics = {
