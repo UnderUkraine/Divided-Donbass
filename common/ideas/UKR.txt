@@ -13,11 +13,32 @@ ideas = {
         
             
             modifier = {
-                war_support_factor = -0.2
-				stability_factor = -0.35
+                war_support_factor = -0.35
+				stability_factor = -0.55
+                political_power_factor = -0.75
             }
         }  
     }    
+    country = {
+        UKR_after_maidan_anarchy = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                war_support_factor = -0.2
+				stability_factor = -0.35
+                political_power_factor = -0.5
+            }
+        }  
+    }   
     country = {
         UKR_cooperation_russia = {
             allowed = {
