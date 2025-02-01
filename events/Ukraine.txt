@@ -501,7 +501,7 @@ country_event = {
 		name = ukraine.16.a
 
 		ai_chance = {
-			modifier = 100
+			base = 100
 		}
 	}
 
@@ -524,6 +524,10 @@ country_event = {
 	
 	option = {
 		name = ukraine.17.a
+
+		ai_chance = {
+			base = 100
+		}
 	}
 
 	option = {
@@ -545,6 +549,10 @@ country_event = {
 	
 	option = {
 		name = ukraine.18.a
+
+		ai_chance = {
+			base = 100
+		}
 	}
 
 	option = {
@@ -566,6 +574,10 @@ country_event = {
 	
 	option = {
 		name = ukraine.19.a
+
+		ai_chance = {
+			base = 100
+		}
 	}
 
 	option = {
