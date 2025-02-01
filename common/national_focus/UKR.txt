@@ -63,7 +63,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_destability_on_east
+		id = UKR_predotvratit_krim_scenario
 		icon = GFX_focus_UKR_destability_on_east
 		cost = 10
 		x = 0
@@ -84,17 +84,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.opr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_odesa_tt
-			}
-			subtract_from_variable = {
-				var = UKR.kpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_kharkiv_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_destability_on_east"
 		}
 	}
 	focus = {
@@ -120,14 +109,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_resistance_kharkov
+		id = UKR_operations_in_slobod_ukraine
 		icon = GFX_focus_UKR_resistance_kharkov
 		cost = 5
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_predotvratit_krim_scenario}
+		relative_position_id = UKR_predotvratit_krim_scenario
 		
 		ai_will_do = {
 			factor = 1
@@ -144,12 +133,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.kpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_kharkiv_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_resistance_kharkov"
 		}
 	}
 	focus = {
@@ -159,8 +142,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_deep_all_militsia_on_odessa}
-		relative_position_id = UKR_deep_all_militsia_on_odessa
+		prerequisite = {focus = UKR_increas_militsia_in_odessa}
+		relative_position_id = UKR_increas_militsia_in_odessa
 		
 		ai_will_do = {
 			factor = 1
@@ -177,12 +160,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.opr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_odesa_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_clashes_odessa"
 		}
 	}
 	focus = {
@@ -192,8 +169,8 @@ focus_tree = {
 		x = -3
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_predotvratit_krim_scenario}
+		relative_position_id = UKR_predotvratit_krim_scenario
 		
 		ai_will_do = {
 			factor = 1
@@ -215,17 +192,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.dpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_donetsk_tt
-			}
-			subtract_from_variable = {
-				var = UKR.lpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_luhansk_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_sbu_on_donbass"
 	    }
     }
 	focus = {
@@ -258,17 +224,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.dpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_donetsk_tt
-			}
-			subtract_from_variable = {
-				var = UKR.lpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_luhansk_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_defence_donbass"
 		}
 	}
 	focus = {
@@ -301,28 +256,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.dpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_donetsk_tt
-			}
-			subtract_from_variable = {
-				var = UKR.lpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_luhansk_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_defence_donbass"
 		}
 	}
 	focus = {
-		id = UKR_stabilisation_region
+		id = UKR_Arrest_pro_russian_supporters_in_kharkov
 		icon = GFX_focus_UKR_stabilisation_region
 		cost = 5
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_resistance_kharkov}
-		relative_position_id = UKR_resistance_kharkov
+		prerequisite = {focus = UKR_operations_in_slobod_ukraine}
+		relative_position_id = UKR_operations_in_slobod_ukraine
 		
 		ai_will_do = {
 			factor = 1
@@ -339,23 +283,17 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.kpr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_kharkiv_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_stabilisation_region"
 		}
 	}
 	focus = {
-		id = UKR_deep_all_militsia_on_odessa
+		id = UKR_increas_militsia_in_odessa
 		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
 		cost = 5
 		x = 3
 		y = 1
 
-		prerequisite = {focus = UKR_destability_on_east}
-		relative_position_id = UKR_destability_on_east
+		prerequisite = {focus = UKR_predotvratit_krim_scenario}
+		relative_position_id = UKR_predotvratit_krim_scenario
 		
 		ai_will_do = {
 			factor = 1
@@ -372,12 +310,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			subtract_from_variable = {
-				var = UKR.opr_support
-				value = 5
-				tooltip = Separatists_support_minus_5_odesa_tt
-			}
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_deep_all_militsia_on_odessa"
 		}
 	}
 	focus = {
@@ -394,7 +326,7 @@ focus_tree = {
 			focus = UKR_defence_donbass
 	    }
 		prerequisite = {
-			focus = UKR_stabilisation_region
+			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
 	    }
 		prerequisite = {
 			focus = UKR_Otrubit_vodu_Krimu
@@ -404,7 +336,7 @@ focus_tree = {
 			has_global_flag = UKR_ATO_Started
 			}
 		}
-		relative_position_id = UKR_stabilisation_region
+		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
 		mutually_exclusive = {
 			focus = UKR_preparing_for_the_inevitable
 		}
@@ -421,10 +353,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
-			add_war_support = 0.05
-			add_manpower = 5000
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_preparing_for_the_inevitable"
 		}
 	}
 	focus = {
@@ -452,26 +380,22 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
-			add_war_support = 0.05
-			add_manpower = 5000
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_preparing_for_the_inevitable"
 		}
 	}
 	focus = {
-		id = UKR_preparing_for_the_inevitable
+		id = UKR_Vostanie_v_Slavianske
 		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 5
 		x = 0
-		y = 0
+		y = 1
 
 		prerequisite = {
 			focus = UKR_defence_Luhansk
 			focus = UKR_defence_donbass
 			focus = UKR_Otrubit_vodu_Krimu
-			focus = UKR_stabilisation_region
+			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
 	    }
-		relative_position_id = UKR_Separatists_defeated
+		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
 		mutually_exclusive = {
 			focus = UKR_Separatists_defeated
 		}
@@ -490,10 +414,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = Prepare_for_invinteble_mobilize_tt
-			add_war_support = 0.05
-			add_manpower = 5000
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_preparing_for_the_inevitable"
 		}
 	}
 	focus = {
@@ -503,8 +423,8 @@ focus_tree = {
 		x = 4
 		y = 2
 
-		prerequisite = {focus = UKR_preparing_for_the_inevitable}
-		relative_position_id = UKR_preparing_for_the_inevitable
+		prerequisite = {focus = UKR_Vostanie_v_Slavianske}
+		relative_position_id = UKR_Vostanie_v_Slavianske
 		ai_will_do = {
 			factor = 1
 		}
@@ -976,10 +896,10 @@ focus_tree = {
 		x = -4
 		y = 2
 		prerequisite = {
-			focus = UKR_preparing_for_the_inevitable
+			focus = UKR_Vostanie_v_Slavianske
 			focus = UKR_Separatists_defeated
 	    }
-		relative_position_id = UKR_preparing_for_the_inevitable
+		relative_position_id = UKR_Vostanie_v_Slavianske
 
 		allow_branch = {
 			has_country_flag = UKR_presidential_elections
