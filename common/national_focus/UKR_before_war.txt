@@ -11,7 +11,7 @@ focus_tree = {
 		focus = UKR_The_regime_is_under_threat
 	}
 	default = no
-	continuous_focus_position = { x = 2000 y = 1000 }
+	continuous_focus_position = { x = 2200 y = 1000 }
 	
 	focus = {
 		id = UKR_The_regime_is_under_threat
@@ -79,7 +79,7 @@ focus_tree = {
 		id = UKR_Violent_suppression_of_protests
 		icon = GFX_focus_UKR_Victory_over_protesters
 		cost = 5
-		x = 1
+		x = 0
 		y = 1
 
 		prerequisite = {
@@ -110,7 +110,7 @@ focus_tree = {
 		id = UKR_Legitimizing_security_measures
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -1
+		x = 0
 		y = 1
 
 		prerequisite = {
@@ -129,41 +129,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Attracting_Russian_support
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 1
-		y = 1
-
-		prerequisite = {
-			focus = UKR_Violent_suppression_of_protests
-		}
-		relative_position_id = UKR_Violent_suppression_of_protests
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_Attracting_Russian_support"
-
-			country_event = ukraine.38
-		}
-	}
-	focus = {
 		id = UKR_Activation_of_law_enforcement_agencies
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -1
+		x = 0
 		y = 1
 
 		prerequisite = {
-			focus = UKR_Attracting_Russian_support
-		}
-		prerequisite = {
 			focus = UKR_Legitimizing_security_measures
 		}
-		relative_position_id = UKR_Attracting_Russian_support
+		relative_position_id = UKR_Legitimizing_security_measures
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -247,10 +222,232 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = UKR_Attracting_Russian_support
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 4
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Bend_the_center_line
+		}
+		relative_position_id = UKR_Bend_the_center_line
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Attracting_Russian_support"
+
+			country_event = ukraine.38
+		}
+	}
+	focus = {
+		id = UKR_Expanding_economic_ties
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Attracting_Russian_support
+		}
+		relative_position_id = UKR_Attracting_Russian_support
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Expanding_economic_ties"
+		}
+	}
+	focus = {
+		id = UKR_Loan_agreement_with_Russia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Expanding_economic_ties
+		}
+		relative_position_id = UKR_Expanding_economic_ties
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Loan_agreement_with_Russia"
+		}
+	}
+	focus = {
+		id = UKR_Lower_gas_prices
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Loan_agreement_with_Russia
+		}
+		relative_position_id = UKR_Loan_agreement_with_Russia
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Lower_gas_prices"
+		}
+	}
+	focus = {
+		id = UKR_Countering_international_pressure
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Attracting_Russian_support
+		}
+		relative_position_id = UKR_Attracting_Russian_support
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Countering_international_pressure"
+		}
+	}
+	focus = {
+		id = UKR_Political_pressure_on_the_West_with_the_help_of_Russia
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Countering_international_pressure
+		}
+		relative_position_id = UKR_Countering_international_pressure
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Political_pressure_on_the_West_with_the_help_of_Russia"
+		}
+	}
+	focus = {
+		id = UKR_Information_campaign_against_Maidan
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Attracting_Russian_support
+		}
+		relative_position_id = UKR_Attracting_Russian_support
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Information_campaign_against_Maidan"
+		}
+	}
+	focus = {
+		id = UKR_Financing_pro_government_protests
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Information_campaign_against_Maidan
+		}
+		relative_position_id = UKR_Information_campaign_against_Maidan
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Financing_pro_government_protests"
+		}
+	}
+	focus = {
+		id = UKR_Coordination_with_pro_Russian_movements
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Financing_pro_government_protests
+		}
+		relative_position_id = UKR_Financing_pro_government_protests
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Coordination_with_pro_Russian_movements"
+		}
+	}
+	focus = {
+		id = UKR_Involvement_of_Russian_advisors
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Coordination_with_pro_Russian_movements
+		}
+		relative_position_id = UKR_Coordination_with_pro_Russian_movements
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Involvement_of_Russian_advisors"
+		}
+	}
+	focus = {
+		id = UKR_Deployment_of_Russian_forces_to_stabilize_the_situation
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Involvement_of_Russian_advisors
+		}
+		relative_position_id = UKR_Involvement_of_Russian_advisors
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Deployment_of_Russian_forces_to_stabilize_the_situation"
+		}
+	}
+	focus = {
 		id = UKR_Negotiations_with_the_Maidan
 		icon = GFX_goal_unknown
 		cost = 5
-		x = -2
+		x = -3
 		y = 1
 
 		prerequisite = {
@@ -367,51 +564,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Make_a_compromise
+		id = UKR_Agree_to_the_formation_of_a_transitional_government
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -3
+		x = 0
 		y = 1
 
-		available = {
-			always = no
-		}
-
 		prerequisite = {
-			focus = UKR_Next_steps
+			focus = UKR_Agree_to_early_elections_and_constitutional_amendments
 		}
-		relative_position_id = UKR_Next_steps
+		relative_position_id = UKR_Agree_to_early_elections_and_constitutional_amendments
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_Make_a_compromise"
-		}
-	}
-	focus = {
-		id = UKR_Power_scenario
-		icon = GFX_goal_unknown
-		cost = 1
-		x = 3
-		y = 1
-
-		available = {
-			always = no
-		}
-
-		prerequisite = {
-			focus = UKR_Next_steps
-		}
-		relative_position_id = UKR_Next_steps
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_Power_scenario"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Agree_to_the_formation_of_a_transitional_government"
 		}
 	}
 }
