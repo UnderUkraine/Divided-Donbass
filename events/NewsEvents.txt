@@ -723,3 +723,60 @@ news_event = {
         }
 	}
 }
+
+# Russian olimpic games
+news_event = {
+	id = news.17
+	title = news.17.t
+	desc = news.17.d
+	picture = GFX_news_event_001
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.17.a
+	}
+}
+
+# Tyrchinov in Ukraine
+news_event = {
+	id = news.18
+	title = news.18.t
+	desc = news.18.d
+	picture = GFX_news_event_001
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.18.a
+
+		trigger = {
+			NOT = {
+				TAG = UKR
+				TAG = RUS
+				TAG = DPR
+				TAG = LPR
+				TAG = KPR
+				TAG = OPR
+			}
+		}
+	}
+	option = {
+		name = news.18.u
+
+		trigger = {
+			TAG = UKR
+		}
+	}
+	option = {
+		name = news.18.r
+
+		trigger = {
+			TAG = RUS
+		}
+	}
+}

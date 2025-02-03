@@ -962,3 +962,45 @@ country_event = {
 		add_political_power = 5
 	}
 }
+
+#Turchinov in Ukraine
+country_event = {
+	id = ukraine.42
+	title = ukraine.42.t
+	desc = ukraine.42.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = alexander_tyrchinov
+				#desc = victor_yanukovich_desc
+				ideology = conservatism
+				picture = gfx/leaders/UKR/turchinov.dds
+				traits = {}
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.42.a
+		log = "[GetDateText]: [This.GetName]: ukraine.42.a executed"
+	}
+}
+#Instability in Donetsk Oblast
+country_event = {
+	id = ukraine.43
+	title = ukraine.43.t
+	desc = ukraine.43.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.43.a
+		log = "[GetDateText]: [This.GetName]: ukraine.43.a executed"
+	}
+}

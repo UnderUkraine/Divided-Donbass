@@ -43,8 +43,21 @@ UKR_Maidan_Support_category = {
 					remove_idea = UKR_protests
 					add_idea = UKR_after_maidan_anarchy
 				}
+
+				country_event = {
+					id = ukraine.43
+					days = 4
+				}
 				
 				retire_country_leader = yes
+
+				create_country_leader = {
+					name = verhovna_rada_ukrainy
+					#desc = victor_yanukovich_desc
+					ideology = conservatism
+					picture = gfx/leaders/UKR/turchinov.dds
+					traits = {}
+				}
 
 				set_politics = {
 				    ruling_party = conservatism_democratic
@@ -109,12 +122,13 @@ UKR_Separatists_in_Ukraine = {
 		}
 	}
 
+	#Donetsk decisions
 	UKR_Disperse_pro_russian_rallies_donetsk = {
 		allowed = {
 			tag = UKR
 		}
 		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 			check_variable = {select_separatists_region = 7}
 		}
 		available = {
@@ -134,8 +148,134 @@ UKR_Separatists_in_Ukraine = {
 			tag = UKR
 		}
 		visible = {
-			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 			check_variable = {select_separatists_region = 7}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 25
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+
+	#Luhansk decisions
+	UKR_Disperse_pro_russian_rallies_luhansk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+			check_variable = {select_separatists_region = 8}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 10
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+	UKR_SBU_raids_luhansk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
+			check_variable = {select_separatists_region = 8}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 25
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+
+	#Kharkiv decisions
+	UKR_Disperse_pro_russian_rallies_kharkiv = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
+			check_variable = {select_separatists_region = 10}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 10
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+	UKR_SBU_raids_kharkiv = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
+			check_variable = {select_separatists_region = 10}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 25
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+
+	#Odesa decisions
+	UKR_Disperse_pro_russian_rallies_odesa = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+			check_variable = {select_separatists_region = 16}
+		}
+		available = {
+			always = yes
+		}
+		fire_only_once = yes
+		days_re_enable = 10
+		days_remove = 10
+		cost = 10
+		icon = generic_formable_nations
+		priority = 10
+		remove_effect = {
+		}
+	}
+	UKR_SBU_raids_odesa = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
+			check_variable = {select_separatists_region = 16}
 		}
 		available = {
 			always = yes
