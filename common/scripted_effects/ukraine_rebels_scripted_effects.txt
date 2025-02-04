@@ -1,4 +1,19 @@
 ukraine_rebel_dpr_1 = {
+
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+        }
+    }
+
     355 = {
         add_core_of = DPR
         transfer_state_to = DPR
@@ -191,6 +206,20 @@ ukraine_rebel_dpr_1 = {
 }
 
 ukraine_rebel_lpr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+        }
+    }
+
     269 = {
         add_core_of = LPR
         transfer_state_to = LPR
@@ -328,6 +357,20 @@ ukraine_rebel_lpr_1 = {
 }
 
 ukraine_rebel_kpr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+        }
+    }
+
     137 = {
         add_core_of = KPR
         transfer_state_to = KPR
@@ -362,6 +405,20 @@ ukraine_rebel_kpr_1 = {
 }
 
 ukraine_rebel_opr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+        }
+    }
+
     467 = {
         add_core_of = OPR
         transfer_state_to = OPR

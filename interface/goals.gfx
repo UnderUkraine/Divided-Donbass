@@ -81,6 +81,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/UKR_general_staff.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Emergency_redeployment"
+	    texturefile = "gfx/interface/goals/UKR/5144ac425eda0b7d.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_informations_front"
 	    texturefile = "gfx/interface/goals/UKR/UKR_informations_front.dds"			
 	}	

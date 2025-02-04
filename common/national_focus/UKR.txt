@@ -337,9 +337,6 @@ focus_tree = {
 			}
 		}
 		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
-		mutually_exclusive = {
-			focus = UKR_preparing_for_the_inevitable
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -391,14 +388,17 @@ focus_tree = {
 
 		prerequisite = {
 			focus = UKR_defence_Luhansk
+	    }
+		prerequisite = {
 			focus = UKR_defence_donbass
-			focus = UKR_Otrubit_vodu_Krimu
+	    }
+		prerequisite = {
 			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
 	    }
+		prerequisite = {
+			focus = UKR_Otrubit_vodu_Krimu
+	    }
 		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
-		mutually_exclusive = {
-			focus = UKR_Separatists_defeated
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -421,7 +421,7 @@ focus_tree = {
 		icon = GFX_focus_UKR_ato
 		cost = 5
 		x = 4
-		y = 2
+		y = 1
 
 		prerequisite = {focus = UKR_Vostanie_v_Slavianske}
 		relative_position_id = UKR_Vostanie_v_Slavianske
@@ -446,14 +446,89 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Volunteer_formations
-		icon = GFX_focus_UKR_Volunteer_formations
-		cost = 20
-		x = -2
+		id = UKR_Emergency_redeployment
+		icon = GFX_focus_UKR_Emergency_redeployment
+		cost = 5
+		x = 0
 		y = 1
 
 		prerequisite = {focus = UKR_ato}
 		relative_position_id = UKR_ato
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Emergency_redeployment"
+		}
+	}
+	focus = {
+		id = UKR_Mobilization_of_SBU
+		icon = GFX_focus_UKR_ato
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Emergency_redeployment}
+		relative_position_id = UKR_Emergency_redeployment
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Mobilization_of_SBU"
+		}
+	}
+	focus = {
+		id = UKR_Stabilization_of_frontline
+		icon = GFX_focus_UKR_ato
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Mobilization_of_SBU}
+		relative_position_id = UKR_Mobilization_of_SBU
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Mobilization_of_SBU"
+		}
+	}
+	focus = {
+		id = UKR_Volunteer_formations
+		icon = GFX_focus_UKR_Volunteer_formations
+		cost = 20
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
 		
 		ai_will_do = {
 			factor = 100
@@ -476,11 +551,11 @@ focus_tree = {
 		id = UKR_Volunteer_formations_spesial_forces_mvs
 		icon = GFX_focus_UKR_Volunteer_formations_spesial_forces_mvs
 		cost = 15
-		x = -2
-		y = 2
+		x = 0
+		y = 1
 
 		prerequisite = {focus = UKR_Volunteer_formations}
-		relative_position_id = UKR_ato
+		relative_position_id = UKR_Volunteer_formations
 		
 		ai_will_do = {
 			factor = 50
@@ -498,11 +573,11 @@ focus_tree = {
 		id = UKR_battalion_azov
 		icon = GFX_focus_UKR_battalion_azov
 		cost = 20
-		x = -2
-		y = 3
+		x = 2
+		y = 1
 
-		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
-		relative_position_id = UKR_ato
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_Volunteer_formations
 		
 		ai_will_do = {
 			factor = 1
@@ -521,11 +596,11 @@ focus_tree = {
 		id = UKR_partial_mobilization
 		icon = GFX_focus_UKR_ato
 		cost = 20
-		x = -2
-		y = 4
+		x = 0
+		y = 1
 
-		prerequisite = {focus = UKR_battalion_azov}
-		relative_position_id = UKR_ato
+		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
+		relative_position_id = UKR_Volunteer_formations_spesial_forces_mvs
 		
 		ai_will_do = {
 			factor = 1
@@ -540,37 +615,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_army_question
-		icon = GFX_focus_UKR_army_question
-		cost = 15
-		x = 2
-		y = 1
-
-		prerequisite = {focus = UKR_ato}
-		relative_position_id = UKR_ato
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_army_question"
-		}
-	}
-	focus = {
 		###Changed to deconservation
-		id = UKR_buy_weapon 
+		id = UKR_deconservation_of_arms
 		icon = GFX_focus_UKR_buy_weapon
 		cost = 15
-		x = 2
-		y = 2
+		x = 4
+		y = 1
 
-		prerequisite = {focus = UKR_army_question}
-		relative_position_id = UKR_ato
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_Volunteer_formations
 		
 		ai_will_do = {
 			factor = 1
@@ -590,11 +643,11 @@ focus_tree = {
 		id = UKR_general_staff
 		icon = GFX_focus_UKR_general_staff
 		cost = 15
-		x = 0
+		x = -2
 		y = 1
 
-		prerequisite = {focus = UKR_ato}
-		relative_position_id = UKR_ato
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
 		
 		ai_will_do = {
 			factor = 65
@@ -613,10 +666,10 @@ focus_tree = {
 		icon = GFX_focus_UKR_ato
 		cost = 20
 		x = 0
-		y = 2
+		y = 1
 
 		prerequisite = {focus = UKR_general_staff}
-		relative_position_id = UKR_ato
+		relative_position_id = UKR_general_staff
 		
 		ai_will_do = {
 			factor = 100
@@ -633,16 +686,102 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = UKR_Our_next_steps
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
+		relative_position_id = UKR_Start_of_operations_in_the_ATO_zone
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Our_next_steps"
+		}
+	}
+	focus = {
+		id = UKR_Deep_offensive
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Our_next_steps}
+		relative_position_id = UKR_Our_next_steps
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Deep_offensive"
+		}
+	}
+	focus = {
+		id = UKR_End_separatism
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Deep_offensive}
+		relative_position_id = UKR_Deep_offensive
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_End_separatism"
+		}
+	}
+	focus = {
+		id = UKR_Accelerated_fortification_construction
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
+		relative_position_id = UKR_Start_of_operations_in_the_ATO_zone
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Accelerated_fortification_construction"
+		}
+	}
+	focus = {
 		id = UKR_informations_front
 		icon = GFX_focus_UKR_informations_front
 		cost = 10
-		x = 0
-		y = 2
+		x = -5
+		y = 1
 
-		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
-		prerequisite = {focus = UKR_buy_weapon}
-		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
-		relative_position_id = UKR_general_staff
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
 		
 		ai_will_do = {
 			factor = 1
@@ -693,28 +832,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_united_ukraine
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_operation_contr_razvedki_sbu}
-		relative_position_id = UKR_operation_contr_razvedki_sbu
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_united_ukraine"
-		}
-	}
-	focus = {
 		id = UKR_Need_for_negotiations
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -4
+		x = -10
 		y = 1
 
 		prerequisite = {focus = UKR_ato}
@@ -2166,8 +2287,9 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		prerequisite = {focus = UKR_buy_weapon }
-		relative_position_id = UKR_buy_weapon 
+		#Временно тут
+		prerequisite = {focus = UKR_The_beginning_of_hybrid_warfare }
+		relative_position_id = UKR_The_beginning_of_hybrid_warfare 
 		
 		ai_will_do = {
 			factor = 1

@@ -319,19 +319,6 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_DPR
-					if = {
-						limit = {
-							NOT = {
-							    has_global_flag = UKR_ATO_Started
-							}
-						}
-                        set_global_flag = UKR_ATO_Started
-						mark_focus_tree_layout_dirty = yes
-
-						RUS = {
-							activate_decision = RUS_end_the_war
-						}
-					}
 					UKR = {
 						add_dynamic_modifier = {
 							modifier = Escalation_modifier
@@ -373,19 +360,6 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_LPR
-					if = {
-						limit = {
-							NOT = {
-							    has_global_flag = UKR_ATO_Started
-							}
-						}
-						set_global_flag = UKR_ATO_Started
-						mark_focus_tree_layout_dirty = yes
-
-						RUS = {
-							activate_decision = RUS_end_the_war
-						}
-					}
 				LPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -430,19 +404,6 @@ UKR_Separatists_in_Ukraine = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 					}
 					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
-					if = {
-						limit = {
-							NOT = {
-							    has_global_flag = UKR_ATO_Started
-							}
-						}
-                        set_global_flag = UKR_ATO_Started
-						mark_focus_tree_layout_dirty = yes
-
-						RUS = {
-							activate_decision = RUS_end_the_war
-						}
-					}
 				KPR = {
 					add_dynamic_modifier = {
 						modifier = Escalation_modifier
@@ -493,20 +454,7 @@ UKR_Separatists_in_Ukraine = {
 					limit = {
 						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 					}
-				clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
-				if = {
-					limit = {
-						NOT = {
-							has_global_flag = UKR_ATO_Started
-						}
-					}
-                    set_global_flag = UKR_ATO_Started
-					mark_focus_tree_layout_dirty = yes
-
-					RUS = {
-						activate_decision = RUS_end_the_war
-					}
-				}
+				    clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 					IF = {
 						limit = {
 							check_variable = { UKR.separatism_support_in_odeska > 20}
