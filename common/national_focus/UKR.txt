@@ -160,6 +160,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_odeska
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
 		}
 	}
 	focus = {
@@ -283,6 +288,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_kharkivska
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_resistance_kharkov"
 		}
 	}
 	focus = {
@@ -835,7 +846,7 @@ focus_tree = {
 		id = UKR_Need_for_negotiations
 		icon = GFX_goal_unknown
 		cost = 1
-		x = -10
+		x = 8
 		y = 1
 
 		prerequisite = {focus = UKR_ato}
