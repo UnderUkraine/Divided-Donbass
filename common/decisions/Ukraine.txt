@@ -50,7 +50,6 @@ UKR_Maidan_Support_category = {
 				}
 				
 				retire_country_leader = yes
-
 				create_country_leader = {
 					name = verhovna_rada_ukrainy
 					#desc = victor_yanukovich_desc

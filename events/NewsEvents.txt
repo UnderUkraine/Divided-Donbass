@@ -682,12 +682,12 @@ news_event = {
 				}
 			}
 		}
-		NOT = { has_global_flag = DPR_capture_volnovaha_event } 
+		NOT = { has_global_flag = DPR_capture_slavyansk_event } 
 	}
 
 	immediate = {
-		set_global_flag = DPR_capture_volnovaha_event
-		set_global_flag = DPR_capture_volnovaha
+		set_global_flag = DPR_capture_slavyansk_event
+		set_global_flag = DPR_capture_slavyansk
 	}
 	
 	option = {
@@ -778,5 +778,57 @@ news_event = {
 		trigger = {
 			TAG = RUS
 		}
+	}
+}
+
+# Ukraine liberates Kramatorsk
+news_event = {
+	id = news.19
+	title = news.19.t
+	desc = news.19.d
+	picture = GFX_news_event_001
+	
+	major = yes
+
+	trigger = {
+		UKR = {
+			controls_province = 11420
+		}
+		NOT = { has_global_flag = UKR_capture_kramatorsk_event } 
+	}
+
+	immediate = {
+		set_global_flag = UKR_capture_kramatorsk_event
+		set_global_flag = UKR_capture_kramatorsk
+	}
+	
+	option = {
+		name = news.19.a
+	}
+}
+
+# Ukraine liberates Slovyansk
+news_event = {
+	id = news.20
+	title = news.20.t
+	desc = news.20.d
+	picture = GFX_news_event_001
+	
+	major = yes
+
+	trigger = {
+		UKR = {
+			controls_province = 4941
+		}
+		NOT = { has_global_flag = UKR_capture_slovyansk_event } 
+	}
+
+	immediate = {
+		set_global_flag = UKR_capture_slovyansk_event
+		set_global_flag = UKR_capture_slovyansk
+	}
+	
+	option = {
+		name = news.20.a
 	}
 }

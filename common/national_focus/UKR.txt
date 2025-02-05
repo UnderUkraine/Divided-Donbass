@@ -123,9 +123,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			KPR = {
-				exists = yes
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		cancel_if_invalid = yes
@@ -154,9 +152,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		bypass = {
-			OPR = {
-				exists = yes
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		completion_reward = {
@@ -186,14 +182,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		bypass = {
-			OR = {
-				DPR = {
-					exists = yes
-				}
-				LPR = {
-					exists = yes
-				}
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		completion_reward = {
@@ -218,14 +207,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		bypass = {
-			OR = {
-				DPR = {
-					exists = yes
-				}
-				LPR = {
-					exists = yes
-				}
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		completion_reward = {
@@ -250,14 +232,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		bypass = {
-			OR = {
-				DPR = {
-					exists = yes
-				}
-				LPR = {
-					exists = yes
-				}
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		completion_reward = {
@@ -278,9 +253,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			KPR = {
-				exists = yes
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		cancel_if_invalid = yes
@@ -311,9 +284,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			OPR = {
-				exists = yes
-			}
+			has_global_flag = UKR_ATO_Started
 		}
 
 		cancel_if_invalid = yes
@@ -479,6 +450,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Emergency_redeployment"
+
+            country_event = ukraine.44
+			add_timed_idea = {
+				idea = UKR_emergency_redeployment
+				days = 15
+			}
 		}
 	}
 	focus = {
@@ -504,6 +481,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Mobilization_of_SBU"
+
+			load_oob = "UKR_mobilization_of_SBU_2014"
 		}
 	}
 	focus = {
@@ -528,7 +507,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_Mobilization_of_SBU"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Stabilization_of_frontline"
+
+			add_timed_idea = {
+				idea = UKR_stabilization_of_frontline
+				days = 30
+			}
 		}
 	}
 	focus = {
@@ -577,7 +561,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_ato"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations_spesial_forces_mvs"
 		}
 	}
 	focus = {
@@ -626,7 +610,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		###Changed to deconservation
 		id = UKR_deconservation_of_arms
 		icon = GFX_focus_UKR_buy_weapon
 		cost = 15
@@ -782,6 +765,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Accelerated_fortification_construction"
+
+			add_timed_idea = {
+				idea = UKR_accelerated_fortification_construction
+				days = 100
+			}
 		}
 	}
 	focus = {
