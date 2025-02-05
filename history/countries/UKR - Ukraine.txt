@@ -1062,15 +1062,6 @@ set_country_flag = startup_information_country_info
 	#set_variable = { global.escalation_on_donbass_variable = 1 }
 	
 	add_manpower = 60000
-	
-	complete_national_focus = UKR_Yanukovich_rule
-	complete_national_focus = UKR_Eurointegration
-	complete_national_focus = UKR_Decline_to_sign_agreement
-	#complete_national_focus = UKR_Protests_on_streets
-	#complete_national_focus = UKR_Stop_protesters
-	complete_national_focus = UKR_Cooperate_with_russia
-	complete_national_focus = UKR_Kharkiv_pact
-	complete_national_focus = UKR_Sell_heavy_equipment
 }
 
 2015.1.1 = {
@@ -1114,6 +1105,7 @@ set_country_flag = startup_information_country_info
 	
 	add_manpower = 20000
 
+    set_global_flag = UKR_ATO_Started
 	load_focus_tree = ukraine_focus
 
 	complete_national_focus = UKR_anarchy_in_goverment

@@ -857,28 +857,9 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#Bend the center line
 	option = {
 		name = ukraine.36.a
 		log = "[GetDateText]: [This.GetName]: ukraine.36.a executed"
-
-		complete_national_focus = UKR_Bend_the_center_line
-	}
-
-	#Power scenario
-	option = {
-		name = ukraine.36.b
-		log = "[GetDateText]: [This.GetName]: ukraine.36.b executed"
-
-		complete_national_focus = UKR_Power_scenario
-	}
-
-	#Make a compromise
-	option = {
-		name = ukraine.36.c
-		log = "[GetDateText]: [This.GetName]: ukraine.36.c executed"
-	
-		complete_national_focus = UKR_Make_a_compromise
 	}
 }
 
@@ -990,7 +971,7 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.42.a executed"
 	}
 }
-#Instability in Donetsk Oblast
+#Instability in Donbass
 country_event = {
 	id = ukraine.43
 	title = ukraine.43.t
@@ -1002,5 +983,19 @@ country_event = {
 	option = {
 		name = ukraine.43.a
 		log = "[GetDateText]: [This.GetName]: ukraine.43.a executed"
+	}
+}
+#Emergency relocation
+country_event = {
+	id = ukraine.44
+	title = ukraine.44.t
+	desc = ukraine.44.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.44.a
+		log = "[GetDateText]: [This.GetName]: ukraine.44.a executed"
 	}
 }

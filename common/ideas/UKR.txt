@@ -183,4 +183,58 @@ ideas = {
             }
         }  
     }  
+    country = {
+        UKR_emergency_redeployment = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_speed_factor = 0.25
+            }
+        }  
+    }  
+    country = {
+        UKR_stabilization_of_frontline = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_defence_factor = 0.25
+            }
+        }  
+    }  
+    country = {
+        UKR_accelerated_fortification_construction = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                production_speed_industrial_bunker = 0.45
+            }
+        }  
+    }  
 }
