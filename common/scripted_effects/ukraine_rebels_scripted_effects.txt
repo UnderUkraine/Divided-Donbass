@@ -601,6 +601,75 @@ ukraine_set_dem_zone = {
     210 = {
         set_demilitarized_zone = yes
     }
+    283 = {
+        set_demilitarized_zone = yes
+    }
+    210 = {
+        set_demilitarized_zone = yes
+    }
+    285 = {
+        set_demilitarized_zone = yes
+    }
+    310 = {
+        set_demilitarized_zone = yes
+    }
+    292 = {
+        set_demilitarized_zone = yes
+    }
+    304 = {
+        set_demilitarized_zone = yes
+    }
+    271 = {
+        set_demilitarized_zone = yes
+    }
+    263 = {
+        set_demilitarized_zone = yes
+    }
+    238 = {
+        set_demilitarized_zone = yes
+    }
+    278 = {
+        set_demilitarized_zone = yes
+    }
+    280 = {
+        set_demilitarized_zone = yes
+    }
+    267 = {
+        set_demilitarized_zone = yes
+    }
+    245 = {
+        set_demilitarized_zone = yes
+    }
+    242 = {
+        set_demilitarized_zone = yes
+    }
+    248 = {
+        set_demilitarized_zone = yes
+    }
+    228 = {
+        set_demilitarized_zone = yes
+    }
+    229 = {
+        set_demilitarized_zone = yes
+    }
+    200 = {
+        set_demilitarized_zone = yes
+    }
+    203 = {
+        set_demilitarized_zone = yes
+    }
+    180 = {
+        set_demilitarized_zone = yes
+    }
+    170 = {
+        set_demilitarized_zone = yes
+    }
+    161 = {
+        set_demilitarized_zone = yes
+    }
+    156 = {
+        set_demilitarized_zone = yes
+    }
 }
 
 republics_victory_script = {
