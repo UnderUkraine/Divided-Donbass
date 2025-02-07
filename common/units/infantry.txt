@@ -195,7 +195,8 @@ sub_units = {
 			infantry_equipment = 100
 			rpg_equipment = 20
 			#camo_equipment
-			bmd_chassis = 25
+			armored_vehicle_chassis = 15
+			bmd_chassis = 10
 		}
 	}
 

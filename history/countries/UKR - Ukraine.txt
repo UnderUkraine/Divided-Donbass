@@ -708,6 +708,7 @@ set_country_flag = startup_information_country_info
 	
 		bbm_chassis = 1
 		bbm_1_chassis = 1
+		armored_vehicle_chassis = 1
 		# Soviet Doctrine
 		mass_assault = 1
 		pocket_defence = 1
