@@ -89,6 +89,33 @@ set_technology = {
 	bbm_1_chassis = 1
 	bbm_2_chassis = 1
 	bbm_3_chassis = 1
+	#Artilery
+	gw_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	artillery3 = 1
+	
+	sau_artillery = 1
+	sau_artillery1 = 1
+	sau_artillery2 = 1
+	sau_artillery3 = 1
+
+	DD_rocket_artillery = 1
+	rocket_artillery_2 = 1
+	rocket_artillery_3 = 1
+	#Support
+	tech_support = 1
+	# Soviet Doctrine
+	mass_assault = 1
+	pocket_defence = 1
+	defence_in_depth = 1
+	large_front_operations  = 1
+	deep_operations = 1
+	operational_concentration = 1
+	vast_offensives = 1
+	breakthrough_priority = 1
+	mechanized_wave = 1
+	continuous_offensive = 1
 }
 create_equipment_variant = {
     name = "Т-55"
