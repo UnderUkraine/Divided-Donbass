@@ -59,3 +59,6 @@
  lpr_uprising_tt:0 "§RUprising§! will start on territory of Luhansk oblast"
  kpr_uprising_tt:0 "§RUprising§! will start on territory of Kharkiv oblast"
  opr_uprising_tt:0 "§RUprising§! will start on territory of Odesa oblast"
+
+ dpr_gerb_tt:0 "Donetsk People's Republic"
+ lpr_gerb_tt:0 "Lugansk People's Republic"

@@ -1,38 +1,38 @@
 UKR = {
-	color = rgb { 55 108 163 }
-	color_ui = rgb { 55 108 163 }
+	color = rgb { 69 87 130  }
+	color_ui = rgb { 69 87 130  }
 }
 CRI = {
 	color = rgb { 112 144 194 }
 	color_ui = rgb { 95 121 163 }
 }
 RUS = {
-	color = rgb { 60 99 58 }
-	color_ui = rgb { 49 77 47 }
+	color = rgb { 70 102 54 }
+	color_ui = rgb { 70 102 54 }
 }
 TMR = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 48 48 }
+	color = rgb { 186 61 61 }
+	color_ui = rgb { 186 61 61 }
 }
 MLV = {
-	color = rgb { 255 191 28 }
-	color_ui = rgb { 255 205 79 }
+	color = rgb { 201 169 58 }
+	color_ui = rgb { 201 169 58 }
 }
 AZV = {
 	color = rgb { 182 191 86 }
 	color_ui = rgb { 182 191 86 }
 }
 ROM = {
-	color = rgb { 252 144 3 }
-	color_ui = rgb { 255 164 46 }
+	color = rgb { 201 139 58 }
+	color_ui = rgb { 201 139 58 }
 }
 DPR = {
 	color = rgb { 72 35 102 }
 	color_ui = rgb { 72 35 102 }
 }
 LPR = {
-	color = rgb { 148 1 1 }
-	color_ui = rgb { 138 15 15 }
+	color = rgb { 60 114 150 }
+	color_ui = rgb { 60 114 150 }
 }
 BOR = {
 	color = rgb { 74 74 74 }
@@ -47,12 +47,12 @@ KPR = {
 	color_ui = rgb { 90 145 63 }
 }
 POL = {
-	color = rgb { 158 40 40 }
-	color_ui = rgb { 163 52 52 }
+	color = rgb { 148 61 61 }
+	color_ui = rgb { 148 61 61 }
 }
 BLR = {
-	color = rgb { 184 184 184 }
-	color_ui = rgb { 184 184 184 }
+	color = rgb { 87 107 75 }
+	color_ui = rgb { 87 107 75 }
 }
 SLO = {
 	color = rgb { 74 96 130 }
@@ -63,8 +63,8 @@ HUN = {
 	color_ui = rgb {68 117 50}
 }
 SER = {
-	color = rgb { 50 62 102 }
-	color_ui = rgb { 62 77 125 }
+	color = rgb { 41 57 94 }
+	color_ui = rgb { 41 57 94 }
 }
 LIT = {
 	color = rgb { 219 219 119 }

@@ -794,6 +794,7 @@ news_event = {
 		UKR = {
 			controls_province = 11420
 		}
+		has_global_flag = UKR_ATO_Started
 		NOT = { has_global_flag = UKR_capture_kramatorsk_event } 
 	}
 
@@ -820,6 +821,7 @@ news_event = {
 		UKR = {
 			controls_province = 4941
 		}
+		has_global_flag = UKR_ATO_Started
 		NOT = { has_global_flag = UKR_capture_slovyansk_event } 
 	}
 
