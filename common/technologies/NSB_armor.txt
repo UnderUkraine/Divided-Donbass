@@ -80,10 +80,6 @@ technologies = {
             tank_active_defense_dozhd
             tank_active_defense_arena
             tank_active_defense_5
-            tank_passive_protection_complex_1
-            tank_passive_protection_complex_2
-            tank_passive_protection_complex_3
-            tank_passive_protection_complex_4
             tank_survivability_module_1
             tank_survivability_module_2
             tank_anti_mine_module_1
@@ -1328,7 +1324,7 @@ technologies = {
 		start_year = 1959
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 1 y = 8 }
+			position = { x = 1 y = 10 }
 		}
 
 		ai_will_do = {
