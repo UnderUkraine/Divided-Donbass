@@ -120,6 +120,12 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = yes }
+				}
+			}
 		}
 
 		bypass = {
@@ -211,6 +217,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			443 = { set_demilitarized_zone = no }
+			420 = { set_demilitarized_zone = no }
+			356 = { set_demilitarized_zone = no }
+			340 = { set_demilitarized_zone = no }
+			322 = { set_demilitarized_zone = no }
+			364 = { set_demilitarized_zone = no }
+			259 = { set_demilitarized_zone = no }
+			219 = { set_demilitarized_zone = no }
 		}
 	}
 	focus = {
@@ -236,6 +250,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			210 = { set_demilitarized_zone = no }
+			200 = { set_demilitarized_zone = no }
+			203 = { set_demilitarized_zone = no }
+			170 = { set_demilitarized_zone = no }
+			180 = { set_demilitarized_zone = no }
+			161 = { set_demilitarized_zone = no }
+			156 = { set_demilitarized_zone = no }
+			136 = { set_demilitarized_zone = no }
+			171 = { set_demilitarized_zone = no }
 		}
 	}
 	focus = {
@@ -250,6 +273,12 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = yes }
+				}
+			}
 		}
 
 		bypass = {
@@ -267,6 +296,42 @@ focus_tree = {
 				tooltip = Separatists_support_minus_5_kharkiv_tt
 			}
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_resistance_kharkov"
+			if = {
+				limit = {
+					is_ai = no
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 5
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				limit = {
+					is_historical_focus_on = no
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 5
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				limit = {
+					is_historical_focus_on = yes
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 100
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
 		}
 	}
 	focus = {
@@ -320,7 +385,13 @@ focus_tree = {
 		}
 		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
 		ai_will_do = {
-			factor = 1
+			factor = 0
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = no }
+				}
+			}
 		}
 
 		bypass = {
@@ -347,7 +418,13 @@ focus_tree = {
 		relative_position_id = UKR_Separatists_defeated
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0
+			modifier = {
+				factor = 10
+				if = {
+					limit = { is_historical_focus_on = no }
+				}
+			}
 		}
 
 		bypass = {

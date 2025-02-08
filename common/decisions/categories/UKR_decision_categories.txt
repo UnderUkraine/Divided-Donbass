@@ -37,6 +37,7 @@ UKR_Separatists_in_Ukraine = {
 	visible_when_empty = yes
 	visible = {
 		has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		tag = UKR
 	}
 	scripted_gui = open_separatists_button
 }

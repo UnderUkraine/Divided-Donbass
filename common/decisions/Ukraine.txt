@@ -246,7 +246,6 @@ UKR_Separatists_in_Ukraine = {
 		remove_effect = {
 		}
 	}
-
 	#Odesa decisions
 	UKR_Disperse_pro_russian_rallies_odesa = {
 		allowed = {
