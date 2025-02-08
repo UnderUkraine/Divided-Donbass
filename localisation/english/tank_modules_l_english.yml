@@ -507,25 +507,29 @@
 
  armored_vehicle_chassis:0 "Armored vehicle chassis"
 
- UKR_armored_vehicle_chassis_0:0 "Dozor-B"
- RUS_armored_vehicle_chassis_0:0 "Gaz 3937 «Vodnik»"
+ UKR_armored_vehicle_chassis_0:0 "UAZ-469"
+ RUS_armored_vehicle_chassis_0:0 "UAZ-469"
  armored_vehicle_chassis_0:0 "Armored vehicle chassis"
 
- UKR_armored_vehicle_chassis_1:0 "KrAZ Spartan"
- RUS_armored_vehicle_chassis_1:0 "Gaz 2330 «Tigr»"
+ UKR_armored_vehicle_chassis_1:0 "Dozor-B"
+ RUS_armored_vehicle_chassis_1:0 "Gaz 3937 «Vodnik»"
  armored_vehicle_chassis_1:0 "Armored vehicle chassis"
 
- UKR_armored_vehicle_chassis_2:0 "Kozak-2"
- RUS_armored_vehicle_chassis_2:0 "KamAZ-43269 «Vystrel»"
+ UKR_armored_vehicle_chassis_2:0 "KrAZ Spartan"
+ RUS_armored_vehicle_chassis_2:0 "Gaz 2330 «Tigr»"
  armored_vehicle_chassis_2:0 "Armored vehicle chassis"
 
- UKR_armored_vehicle_chassis_3:0 "Varta"
- RUS_armored_vehicle_chassis_3:0 "Buran"
+ UKR_armored_vehicle_chassis_3:0 "Kozak-2"
+ RUS_armored_vehicle_chassis_3:0 "KamAZ-43269 «Vystrel»"
  armored_vehicle_chassis_3:0 "Armored vehicle chassis"
 
- UKR_armored_vehicle_chassis_4:0 "Novator"
- RUS_armored_vehicle_chassis_4:0 "KamAZ 53949 «Linza»"
+ UKR_armored_vehicle_chassis_4:0 "Varta"
+ RUS_armored_vehicle_chassis_4:0 "Buran"
  armored_vehicle_chassis_4:0 "Armored vehicle chassis"
+
+ UKR_armored_vehicle_chassis_5:0 "Novator"
+ RUS_armored_vehicle_chassis_5:0 "KamAZ 53949 «Linza»"
+ armored_vehicle_chassis_5:0 "Armored vehicle chassis"
 
  bbm_chassis:0 "IFV hull"
  bbm_chassis_0:0 "IFV hull 1"

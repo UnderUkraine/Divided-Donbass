@@ -465,25 +465,29 @@
  RUS_tank_chassis_5:0 "Т-14 «Армата»"
  tank_chassis_5:0 "Шасси танка четвертого поколения"
 
- UKR_armored_vehicle_chassis_0:0 "Дозор-Б"
- RUS_armored_vehicle_chassis_0:0 "ГАЗ 3937 «Водник»"
+ UKR_armored_vehicle_chassis_0:0 "УАЗ-469"
+ RUS_armored_vehicle_chassis_0:0 "УАЗ-469"
  armored_vehicle_chassis_0:0 "Шасси бронеавтомобиля"
 
- UKR_armored_vehicle_chassis_1:0 "КрАЗ Спартан"
- RUS_armored_vehicle_chassis_1:0 "Газ 2330 «Тигр»"
+ UKR_armored_vehicle_chassis_1:0 "Дозор-Б"
+ RUS_armored_vehicle_chassis_1:0 "ГАЗ 3937 «Водник»"
  armored_vehicle_chassis_1:0 "Шасси бронеавтомобиля"
 
- UKR_armored_vehicle_chassis_2:0 "Козак-2"
- RUS_armored_vehicle_chassis_2:0 "КамАЗ-43269 «Выстрел»"
+ UKR_armored_vehicle_chassis_2:0 "КрАЗ Спартан"
+ RUS_armored_vehicle_chassis_2:0 "Газ 2330 «Тигр»"
  armored_vehicle_chassis_2:0 "Шасси бронеавтомобиля"
 
- UKR_armored_vehicle_chassis_3:0 "Варта"
- RUS_armored_vehicle_chassis_3:0 "Буран"
+ UKR_armored_vehicle_chassis_3:0 "Козак-2"
+ RUS_armored_vehicle_chassis_3:0 "КамАЗ-43269 «Выстрел»"
  armored_vehicle_chassis_3:0 "Шасси бронеавтомобиля"
 
- UKR_armored_vehicle_chassis_4:0 "Новатор"
- RUS_armored_vehicle_chassis_4:0 "КАМАЗ 53949 «Линза»"
+ UKR_armored_vehicle_chassis_4:0 "Варта"
+ RUS_armored_vehicle_chassis_4:0 "Буран"
  armored_vehicle_chassis_4:0 "Шасси бронеавтомобиля"
+
+ UKR_armored_vehicle_chassis_5:0 "Новатор"
+ RUS_armored_vehicle_chassis_5:0 "КАМАЗ 53949 «Линза»"
+ armored_vehicle_chassis_5:0 "Шасси бронеавтомобиля"
 
  bbm_chassis:0 "Корпус БМП"
  bbm_chassis_0:0 "Корпус БМП 1"

@@ -7834,86 +7834,102 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/T_14_Armata.dds"
 	}	
 
-	SpriteType = {
-		name = "GFX_UKR_armored_vehicle_chassis_medium"
-		texturefile = "gfx/interface/technologies/dozor.dds"
-	}	
-	SpriteType = {
-		name = "GFX_UKR_armored_vehicle_chassis_0_medium"
-		texturefile = "gfx/interface/technologies/dozor.dds"
-	}
+	#SpriteType = {
+	#	name = "GFX_UKR_armored_vehicle_chassis_medium"
+	#	texturefile = "gfx/interface/technologies/dozor.dds"
+	#}	
+	#SpriteType = {
+	#	name = "GFX_UKR_armored_vehicle_chassis_0_medium"
+	#	texturefile = "gfx/interface/technologies/dozor.dds"
+	#}
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_1_chassis_medium"
-		texturefile = "gfx/interface/technologies/kraz_spartan.dds"
+		texturefile = "gfx/interface/technologies/dozor.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_chassis_1_medium"
-		texturefile = "gfx/interface/technologies/kraz_spartan.dds"
+		texturefile = "gfx/interface/technologies/dozor.dds"
 	}
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_2_chassis_medium"
-		texturefile = "gfx/interface/technologies/kozak.dds"
+		texturefile = "gfx/interface/technologies/kraz_spartan.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_chassis_2_medium"
-		texturefile = "gfx/interface/technologies/kozak.dds"
+		texturefile = "gfx/interface/technologies/kraz_spartan.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_3_chassis_medium"
-		texturefile = "gfx/interface/technologies/varta.dds"
+		texturefile = "gfx/interface/technologies/kozak.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_chassis_3_medium"
-		texturefile = "gfx/interface/technologies/varta.dds"
+		texturefile = "gfx/interface/technologies/kozak.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_4_chassis_medium"
-		texturefile = "gfx/interface/technologies/novator.dds"
+		texturefile = "gfx/interface/technologies/varta.dds"
 	}	
 	SpriteType = {
 		name = "GFX_UKR_armored_vehicle_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/varta.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_5_chassis_medium"
+		texturefile = "gfx/interface/technologies/novator.dds"
+	}	
+	SpriteType = {
+		name = "GFX_UKR_armored_vehicle_chassis_5_medium"
 		texturefile = "gfx/interface/technologies/novator.dds"
 	}	
 
-	SpriteType = {
-		name = "GFX_RUS_armored_vehicle_chassis_medium"
-		texturefile = "gfx/interface/technologies/vodnik.dds"
-	}	
-	SpriteType = {
-		name = "GFX_RUS_armored_vehicle_chassis_0_medium"
-		texturefile = "gfx/interface/technologies/vodnik.dds"
-	}	
+	#SpriteType = {
+	#	name = "GFX_RUS_armored_vehicle_chassis_medium"
+	#	texturefile = "gfx/interface/technologies/vodnik.dds"
+	#}	
+	#SpriteType = {
+	#	name = "GFX_RUS_armored_vehicle_chassis_0_medium"
+	#	texturefile = "gfx/interface/technologies/vodnik.dds"
+	#}	
 
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_1_chassis_medium"
-		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
+		texturefile = "gfx/interface/technologies/vodnik.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_chassis_1_medium"
-		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
+		texturefile = "gfx/interface/technologies/vodnik.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_2_chassis_medium"
-		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
+		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_chassis_2_medium"
-		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
+		texturefile = "gfx/interface/technologies/gaz_tigr.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_3_chassis_medium"
-		texturefile = "gfx/interface/technologies/buran.dds"
+		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_chassis_3_medium"
-		texturefile = "gfx/interface/technologies/buran.dds"
+		texturefile = "gfx/interface/technologies/kamaz_vystrel.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_4_chassis_medium"
-		texturefile = "gfx/interface/technologies/taifun.dds"
+		texturefile = "gfx/interface/technologies/buran.dds"
 	}	
 	SpriteType = {
 		name = "GFX_RUS_armored_vehicle_chassis_4_medium"
+		texturefile = "gfx/interface/technologies/buran.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_armored_vehicle_5_chassis_medium"
+		texturefile = "gfx/interface/technologies/taifun.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RUS_armored_vehicle_chassis_5_medium"
 		texturefile = "gfx/interface/technologies/taifun.dds"
 	}	
 

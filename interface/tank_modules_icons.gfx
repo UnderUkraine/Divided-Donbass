@@ -248,11 +248,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm1.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_buk_m2_missles"
+		name = "GFX_EMI_tank_buk_m2_rus_missles"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm2.dds"
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_buk_m3_missles"
+		name = "GFX_EMI_tank_buk_m3_rus_missles"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/bukm3.dds"
 	}
 

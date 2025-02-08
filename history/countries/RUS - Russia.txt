@@ -88,7 +88,6 @@ set_technology = {
 	bbm_chassis = 1
 	bbm_1_chassis = 1
 	bbm_2_chassis = 1
-	bbm_3_chassis = 1
 	#Artilery
 	gw_artillery = 1
 	artillery1 = 1

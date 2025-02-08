@@ -1133,9 +1133,6 @@ technologies = {
 		on_research_complete_limit = {
 			#NOT = {	has_template_containing_unit = light_armor }
 		}
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		research_cost = 2
 		start_year = 1959
@@ -1281,6 +1278,44 @@ technologies = {
 
 		enable_equipments = {
 			armored_vehicle_chassis_4
+		}
+		enable_subunits = {
+			#btr1_unit
+		}
+		on_research_complete_limit = {
+			#NOT = {	has_template_containing_unit = light_armor }
+		}
+
+		research_cost = 2
+		start_year = 1959
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 1 y = 8 }
+		}
+
+		path = {
+			leads_to_tech = armored_vehicle_5_chassis
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+	armored_vehicle_5_chassis = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = {
+			armored_vehicle_chassis_5
 		}
 		enable_subunits = {
 			#btr1_unit

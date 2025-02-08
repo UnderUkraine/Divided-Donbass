@@ -2084,6 +2084,25 @@ equipments = {
 		}
 	}
 
+	armored_vehicle_chassis_5 = {
+		abbreviation = "av5"
+		derived_variant_name = armored_vehicle_equipment_5
+		visual_level = 4
+		year = 1959
+		archetype = armored_vehicle_chassis
+		parent = armored_vehicle_chassis_4
+		priority = 2000
+		module_slots = inherit
+		build_cost_ic = 12
+		maximum_speed = 5
+		reliability = 1.2
+		armor_value = 75
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+	}
+
 	bbm_chassis = {
 		year = 1922
 		is_archetype = yes
