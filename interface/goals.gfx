@@ -117,6 +117,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/d197507510675f4c.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Mobilization_of_SBU"
+	    texturefile = "gfx/interface/goals/UKR/UKR_Mobilization_of_SBU.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_buy_weapon"
 	    texturefile = "gfx/interface/goals/UKR/deconservation.dds"			
 	}	

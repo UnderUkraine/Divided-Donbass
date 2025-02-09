@@ -240,6 +240,7 @@ sub_units = {
 		breakthrough = -0.35
 		attack = -0.25
 		defence = -0.25
+		maximum_speed = -0.3
 		
 		supply_consumption = 0.06
 	

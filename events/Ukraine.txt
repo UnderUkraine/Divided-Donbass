@@ -1062,6 +1062,8 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+            load_oob = "UKR_2014_mobilization_wave_1"
+
 			country_event = {
 				id = ukraine.46
 				days = 61

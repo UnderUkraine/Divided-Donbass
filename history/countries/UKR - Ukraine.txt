@@ -1020,6 +1020,12 @@ set_country_flag = startup_information_country_info
 		producer = UKR
 	}
 
+	#Skriabin death
+	news_event = {
+		id = news.21
+		days = 438 #438
+	}
+
 	create_country_leader = {
 		name = alexander_tyrchinov
 		#desc = victor_yanukovich_desc
@@ -1111,6 +1117,12 @@ set_country_flag = startup_information_country_info
 	add_ideas = {
 		UKR_demographic_crisis1
 		UKR_dead_VPK
+	}
+
+	#Skriabin death
+	news_event = {
+		id = news.21
+		days = 32 #32
 	}
 	
 	add_manpower = 20000

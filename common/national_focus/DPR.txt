@@ -232,7 +232,7 @@ focus_tree = {
 	focus = {
 		id = DPR_Defense_of_Donetsk_Citadel
 		icon = GFX_focus_DPR_Defense_of_Donetsk_Citadel
-		cost = 10
+		cost = 5
 		x = 3
 		y = 1
 
@@ -310,7 +310,7 @@ focus_tree = {
 	focus = {
 		id = DPR_artillery_shelling
 		icon = GFX_focus_DPR_artillery_shelling
-		cost = 25
+		cost = 15
 		x = 0
 		y = 1
 
@@ -418,7 +418,7 @@ focus_tree = {
 	focus = {
 		id = DPR_democratization_of_governance
 		icon = GFX_focus_DPR_Plan_to_reach_the_borders_of_Donetsk_oblast
-		cost = 25
+		cost = 20
 		x = -1
 		y = 2
 

@@ -159,10 +159,6 @@ ukraine_rebel_dpr_1 = {
         set_province_controller = 12200
         set_province_controller = 12153
 
-        set_province_controller = 6124
-        set_province_controller = 12988
-        set_province_controller = 13022
-
         set_province_controller = 7290
 
         set_province_controller = 4941
@@ -175,6 +171,26 @@ ukraine_rebel_dpr_1 = {
         set_province_controller = 11459
 
         set_province_controller = 13978
+
+        #Соединение Горловка-Енакиево
+        set_province_controller = 6091
+        set_province_controller = 14847
+        set_province_controller = 12321
+        set_province_controller = 12300
+        set_province_controller = 12244
+        set_province_controller = 12256
+        set_province_controller = 12277
+        set_province_controller = 7730
+
+        #Соединение Краматорск-Славянск
+        set_province_controller = 11383
+        set_province_controller = 11336
+        set_province_controller = 11301
+        set_province_controller = 6992
+        set_province_controller = 11332
+        set_province_controller = 6355
+        set_province_controller = 11377
+
     }
 
     DPR = {

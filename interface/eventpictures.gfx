@@ -19,6 +19,34 @@ spriteTypes = {
 		name = "GFX_news_event_005"
 		texturefile = "gfx/event_pictures/news_event_005.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_010"
+		texturefile = "gfx/event_pictures/news_event_010.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_012"
+		texturefile = "gfx/event_pictures/news_event_012.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_013"
+		texturefile = "gfx/event_pictures/news_event_013.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_017"
+		texturefile = "gfx/event_pictures/news_event_017.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_019"
+		texturefile = "gfx/event_pictures/news_event_019.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_020"
+		texturefile = "gfx/event_pictures/news_event_020.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_021"
+		texturefile = "gfx/event_pictures/news_event_021.dds"
+	}
 
 	spriteType = {
 		name = "GFX_report_event_capture_of_dpr"
