@@ -36,7 +36,7 @@ DPR_start_of_rebeltion = {
 
 	enable = {
 		#has_war_with = UKR
-		always = yes
+		always = no
 	}
 
 	abort = {
@@ -99,6 +99,62 @@ DPR_start_of_rebeltion = {
 		type = front_control
         priority = -10000
 		state = 529
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+}
+
+DPR_start_of_rebeltion_test = {
+	allowed = {
+		original_tag = DPR
+	}
+
+	enable = {
+		#has_war_with = UKR
+		always = yes
+	}
+
+	abort = {
+		#NOT = {
+		#	has_war_with = UKR
+		#}
+		always = no
+	}
+
+	#Бот пытается захватить фулл Донецк и Горловку
+
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 355
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 347
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+    #Бот пытается разрезать фронт на 2 части через Шахтёрск и Иловайск
+
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 363
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+        priority = 500
+		state = 332
 		ordertype = front
 		execution_type = rush
 		manual_attack = yes
