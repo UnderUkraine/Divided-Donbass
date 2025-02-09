@@ -1,0 +1,10 @@
+units = {
+	division= {
+		name = "Volunteer battalion of the MIA “Poltava”"
+		location = 11056 #Локацию вписать
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.7
+		start_manpower_factor = 1
+	}
+}

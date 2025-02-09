@@ -593,7 +593,7 @@ focus_tree = {
 	focus = {
 		id = UKR_Volunteer_formations
 		icon = GFX_focus_UKR_Volunteer_formations
-		cost = 20
+		cost = 15
 		x = 2
 		y = 1
 
@@ -637,6 +637,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations_spesial_forces_mvs"
+
+			set_country_flag = UKR_ATO_Dobrobati_MVD
+			custom_effect_tooltip = UKR_Volunteer_formations_spesial_forces_mvs_tt
 		}
 	}
 	focus = {
@@ -682,6 +685,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_partial_mobilization"
+
+			hidden_effect = {
+				country_event = {
+					id = ukraine.45
+					days = 15
+				}
+			}
+            custom_effect_tooltip = UKR_partial_mobilization_events_tt
 		}
 	}
 	focus = {

@@ -1050,3 +1050,90 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.44.a executed"
 	}
 }
+
+#The first wave of mobilization
+country_event = {
+	id = ukraine.45
+	title = ukraine.45.t
+	desc = ukraine.45.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = ukraine.46
+				days = 61
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.45.a
+		log = "[GetDateText]: [This.GetName]: ukraine.45.a executed"
+	}
+}
+
+#The second wave of mobilization
+country_event = {
+	id = ukraine.46
+	title = ukraine.46.t
+	desc = ukraine.46.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = ukraine.47
+				days = 61
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.46.a
+		log = "[GetDateText]: [This.GetName]: ukraine.46.a executed"
+	}
+}
+
+#The third wave of mobilization
+country_event = {
+	id = ukraine.47
+	title = ukraine.47.t
+	desc = ukraine.47.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = ukraine.48
+				days = 184
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.47.a
+		log = "[GetDateText]: [This.GetName]: ukraine.47.a executed"
+	}
+}
+
+#The fourth wave of mobilization
+country_event = {
+	id = ukraine.48
+	title = ukraine.48.t
+	desc = ukraine.48.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.48.a
+		log = "[GetDateText]: [This.GetName]: ukraine.48.a executed"
+	}
+}

@@ -2026,6 +2026,7 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati
 		}
 		available = {
 			has_country_flag = UKR_ATO_Dobrobati
@@ -2037,7 +2038,7 @@ UKR_anti_terroristic_operation = {
 		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
-		days_remove = 25
+		days_remove = 10
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
@@ -2050,6 +2051,7 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati
 		}
 		available = {
 			has_country_flag = UKR_ATO_Dobrobati
@@ -2061,7 +2063,7 @@ UKR_anti_terroristic_operation = {
 		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
-		days_remove = 25
+		days_remove = 20
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
@@ -2074,6 +2076,7 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati
 		}
 		available = {
 			has_country_flag = UKR_ATO_Dobrobati
@@ -2085,7 +2088,7 @@ UKR_anti_terroristic_operation = {
 		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
-		days_remove = 25
+		days_remove = 10
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
@@ -2098,6 +2101,7 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati
 		}
 		available = {
 			has_country_flag = UKR_ATO_Dobrobati
@@ -2109,7 +2113,7 @@ UKR_anti_terroristic_operation = {
 		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
-		days_remove = 25
+		days_remove = 10
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
@@ -2122,6 +2126,7 @@ UKR_anti_terroristic_operation = {
 		}
 		visible = {
 			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati
 		}
 		available = {
 			has_country_flag = UKR_ATO_Dobrobati
@@ -2133,11 +2138,38 @@ UKR_anti_terroristic_operation = {
 		}
 		icon = GFX_Ukraine_and_russia_gerbs_decision
 		priority = 10
-		days_remove = 25
+		days_remove = 10
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
 			country_event = ukraine.40
+		}
+	}
+
+
+	UKR_formation_of_Dnipro_1 = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_Ukraine_and_russia_gerbs_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Dnipro_1"
 		}
 	}
 }

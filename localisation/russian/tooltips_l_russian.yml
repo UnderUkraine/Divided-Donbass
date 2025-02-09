@@ -25,3 +25,7 @@
 
  dpr_gerb_tt:0 "Донецкая Народная Республика"
  lpr_gerb_tt:0 "Луганская Народная Республика"
+
+ UKR_Volunteer_formations_spesial_forces_mvs_tt: "£decision_icon_small Решения о формировании §YДобровольческих батальонов МВД§! будут разблокированы"
+
+ UKR_partial_mobilization_events_tt: "§gВремя от времени, будут появлятся ивенты о§! §Yволнах мобилизации§!"

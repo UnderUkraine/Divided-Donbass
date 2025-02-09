@@ -12,7 +12,7 @@
  RUS_support_ideas_kpr:0 "We will support idea of [KPR.GetFlag]Kharkov PR by §O5§!."
  RUS_support_ideas_opr:0 "We will support idea of [OPR.GetFlag]Odesa PR by §O5§!."
 
- RUS_propaganda_on_donbass_tt:0 "The decision block with §Rpropaganda§! will open"
+ RUS_propaganda_on_donbass_tt:0 "The £decision_icon_small decision block with §Rpropaganda§! will open"
 
  Separatists_support_minus_5_tt:0 "§gSupport of separatists will decrease by §!§O5§!"
  Separatists_support_minus_4_tt:0 "§gSupport of separatists will decrease by §!§O4§!"
@@ -62,3 +62,7 @@
 
  dpr_gerb_tt:0 "Donetsk People's Republic"
  lpr_gerb_tt:0 "Lugansk People's Republic"
+
+ UKR_Volunteer_formations_spesial_forces_mvs_tt: "£decision_icon_small Decisions on the formation of §Yvolunteer battalions of MIA§! will be unlocked"
+
+ UKR_partial_mobilization_events_tt: "§gFrom time to time, there will be events about§! §Ymobilization waves§!"
