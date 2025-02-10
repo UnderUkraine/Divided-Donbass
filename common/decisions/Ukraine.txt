@@ -140,6 +140,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_donetska
+				value = 5
+				tooltip = Separatists_support_minus_5_donetsk_tt
+			}
 		}
 	}
 	UKR_SBU_raids_donetsk = {
@@ -160,6 +165,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_donetska
+				value = 5
+				tooltip = Separatists_support_minus_5_donetsk_tt
+			}
 		}
 	}
 
@@ -182,6 +192,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_luhanska
+				value = 5
+				tooltip = Separatists_support_minus_5_luhansk_tt
+			}
 		}
 	}
 	UKR_SBU_raids_luhansk = {
@@ -202,6 +217,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_luhanska
+				value = 5
+				tooltip = Separatists_support_minus_5_luhansk_tt
+			}
 		}
 	}
 
@@ -224,6 +244,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_kharkivska
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
 		}
 	}
 	UKR_SBU_raids_kharkiv = {
@@ -244,6 +269,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_kharkivska
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
 		}
 	}
 	#Odesa decisions
@@ -265,6 +295,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_odeska
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
 		}
 	}
 	UKR_SBU_raids_odesa = {
@@ -285,6 +320,11 @@ UKR_Separatists_in_Ukraine = {
 		icon = generic_formable_nations
 		priority = 10
 		remove_effect = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_odeska
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
 		}
 	}
 

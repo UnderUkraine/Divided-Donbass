@@ -24,7 +24,7 @@ UKR_no_war = {
 	}
 
 	abort = {
-		always = no
+        has_country_flag = UKR_Yanukovich_overthrown
 	}
 	
 	ai_strategy = {
