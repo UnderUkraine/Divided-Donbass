@@ -18,6 +18,9 @@ UKR_no_war = {
 				exists = no
 			}
 		}
+		NOT = {
+			has_country_flag = UKR_Yanukovich_overthrown
+		}
 	}
 
 	abort = {
