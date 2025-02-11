@@ -5,6 +5,7 @@ state={
 		2742 3979 5807 6995 14141 14178 14188 14258 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = TMR
 		add_core_of = TMR
         add_claim_by = MLV

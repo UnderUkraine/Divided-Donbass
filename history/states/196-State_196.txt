@@ -5,6 +5,7 @@ state={
 		408 972 1149 1342 1587 1694 1796 2147 3948 4639 5018 10659 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = SLO
 		add_core_of = SLO
 	}

@@ -5,6 +5,7 @@ state={
 		8 1093 3173 3256 3795 4509 4537 5372 8042 12693 12863 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = MLV
 		add_core_of = MLV
 	}

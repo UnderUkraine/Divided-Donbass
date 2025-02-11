@@ -5,6 +5,7 @@ state={
 		82 5135 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = SER
 		add_core_of = SER
 

@@ -5,6 +5,7 @@ state={
 		2739 3227 6452 9364 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = UKR
 		add_core_of = UKR
 	}

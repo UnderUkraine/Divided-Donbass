@@ -5,6 +5,7 @@ state={
 		1172 2398 4936 5427 6095 8549 8550 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		victory_points = { 1172 30 }
 		owner = UKR
 		add_core_of = UKR

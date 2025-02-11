@@ -5,6 +5,7 @@ state={
 		33 588 806 1175 1541 1810 2604 2833 3972 4779 5675 5913 13586 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = ROM
 		add_core_of = ROM
 	}

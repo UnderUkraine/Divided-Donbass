@@ -5,6 +5,7 @@ state={
 		2597 4029 
 	}
 	history={
+                buildings = {infrastructure = 2}
 		owner = LIT
 		add_core_of = LIT
 	}
