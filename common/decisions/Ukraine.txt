@@ -2203,13 +2203,214 @@ UKR_anti_terroristic_operation = {
 				add = 100
 			}
 		}
-		icon = GFX_Ukraine_and_russia_gerbs_decision
+		icon = GFX_MVD_Dnipro_1_decision
 		priority = 10
 		days_remove = 10
 		fire_only_once = yes
 		cost = 25
 		remove_effect = {
 			load_oob = "UKR_Dobrobat_MVD_Dnipro_1"
+		}
+	}
+	UKR_formation_of_Dnipro_2 = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Dnipro_2_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Dnipro_2"
+		}
+	}	
+	UKR_formation_of_Kyiv_1 = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Kyiv_1_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Kyiv_1"
+		}
+	}
+
+	UKR_formation_of_Kyiv_2 = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Kyiv_2_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Kyiv_2"
+		}
+	}
+	UKR_formation_of_Artemivsk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Artemivsk_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Artemivsk"
+		}
+	}
+	UKR_formation_of_Ivano_frankivsk = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Ivano_frankivsk_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Ivano_frankivsk"
+		}
+	}
+	UKR_formation_of_Kharkiv_1 = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Kharkiv_1_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Kharkiv_1"
+		}
+	}
+	UKR_formation_of_Slabozhanshchyna = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Slabozhanshchyna_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Slabozhanshchyna"
+		}
+	}
+	UKR_formation_of_Kherson = {
+		allowed = {
+			tag = UKR
+		}
+		visible = {
+			has_global_flag = UKR_ATO_Started
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		available = {
+			has_country_flag = UKR_ATO_Dobrobati_MVD
+		}
+		ai_will_do = {
+			modifier = {
+				add = 100
+			}
+		}
+		icon = GFX_MVD_Kherson_decision
+		priority = 10
+		days_remove = 10
+		fire_only_once = yes
+		cost = 25
+		remove_effect = {
+			load_oob = "UKR_Dobrobat_MVD_Kherson"
 		}
 	}
 }

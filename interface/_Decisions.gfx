@@ -72,4 +72,46 @@ spriteTypes = {
 		name = "GFX_independence_war_background_image"
 		textureFile = "gfx/interface/decisions/independence_war_picture.dds"
 	}
+
+	#DOBROBATI
+
+
+
+	#MVD
+	spriteType = {
+		name = "GFX_MVD_Dnipro_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Dnipro_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Dnipro_2_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Dnipro_2.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kyiv_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kyiv_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kyiv_2_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kyiv_2.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Artemivsk_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Artemivsk.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Ivano_frankivsk_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Ivano_frankivsk.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kharkiv_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kharkiv_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Slabozhanshchyna_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Slabozhanshchyna.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kherson_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kherson.dds"
+	}
 }
