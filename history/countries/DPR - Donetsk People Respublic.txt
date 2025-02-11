@@ -218,10 +218,6 @@ set_war_support = 90
 		picture = gfx/leaders/DPR/DPR_Anarchy.dds
 		traits = {dpr_anarchy}
 	}
-	add_timed_idea = {
-		idea = DPR_independence_war
-		days = 50
-	}
 }
 2015.1.1 = {
 	set_politics = {

@@ -18,7 +18,12 @@ DPR_independence_war = {
 	picture = GFX_independence_war_background_image
 	priority = 2000
 	allowed = {
-		original_tag = DPR
+		OR = {
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
 	}
 	visible_when_empty = yes
 	visible = {

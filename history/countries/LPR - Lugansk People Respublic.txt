@@ -115,10 +115,6 @@ recruit_character = LPR_bolotov
 		picture = gfx/leaders/LPR/LPR_Anarchy.dds
 		traits = { }
 	}
-	add_timed_idea = {
-		idea = LPR_independence_war
-		days = 50
-	}
 }
 2015.1.1 = {
 	recruit_character = WPG_evgeniy_prigozhin

@@ -36,7 +36,7 @@ country_event = {
 				}
 				add_timed_idea = {
 					idea = RUS_defense_of_crimea_2014
-					days = 90
+					days = 30
 				}
 				set_province_controller = 14681
 				set_province_controller = 3096

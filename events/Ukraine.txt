@@ -1139,3 +1139,18 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.48.a executed"
 	}
 }
+
+#End of first separatists offensive
+country_event = {
+	id = ukraine.49
+	title = ukraine.49.t
+	desc = ukraine.49.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.49.a
+		log = "[GetDateText]: [This.GetName]: ukraine.49.a executed"
+	}
+}

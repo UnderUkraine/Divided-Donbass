@@ -850,6 +850,66 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = news.20.a
+		name = news.21.a
+	}
+}
+#Creation of DPR
+news_event = {
+	id = news.22
+	title = news.22.t
+	desc = news.22.d
+	picture = GFX_news_event_021
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.22.a
+	}
+}
+#Creation of LPR
+news_event = {
+	id = news.23
+	title = news.23.t
+	desc = news.23.d
+	picture = GFX_news_event_021
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.23.a
+	}
+}
+#Creation of KPR
+news_event = {
+	id = news.24
+	title = news.24.t
+	desc = news.24.d
+	picture = GFX_news_event_021
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.24.a
+	}
+}
+#Creation of OPR
+news_event = {
+	id = news.25
+	title = news.25.t
+	desc = news.25.d
+	picture = GFX_news_event_021
+	
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = news.25.a
 	}
 }

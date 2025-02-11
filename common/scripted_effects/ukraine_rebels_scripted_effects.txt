@@ -12,7 +12,13 @@ ukraine_rebel_dpr_1 = {
         RUS = {
             activate_decision = RUS_end_the_war
         }
+
+        DPR = {
+            activate_mission = NVR_finish_operation
+        }
     }
+
+    news_event = news.22
 
     355 = {
         add_core_of = DPR
@@ -199,6 +205,11 @@ ukraine_rebel_dpr_1 = {
             modifier = Escalation_modifier
         }
 
+        add_timed_idea = {
+            idea = DPR_independence_war
+            days = 50
+        }
+
         set_capital = {
             state = 355
         }
@@ -234,7 +245,13 @@ ukraine_rebel_lpr_1 = {
         RUS = {
             activate_decision = RUS_end_the_war
         }
+
+        LPR = {
+            activate_mission = NVR_finish_operation
+        }
     }
+
+    news_event = news.23
 
     269 = {
         add_core_of = LPR
@@ -353,6 +370,11 @@ ukraine_rebel_lpr_1 = {
     LPR = {
         add_to_variable = { global.escalation_on_donbass_variable = 1 }
 
+        add_timed_idea = {
+            idea = LPR_independence_war
+            days = 50
+        }
+
         set_variable = {global.Escalation_stability_factor = -0.07}
         set_variable = {global.Escalation_war_support_factor = 0.07}
         set_variable = {global.Escalation_resistance_growth = 0.07}
@@ -382,10 +404,16 @@ ukraine_rebel_kpr_1 = {
         set_global_flag = UKR_ATO_Started
         mark_focus_tree_layout_dirty = yes
 
+        KPR = {
+            activate_mission = NVR_finish_operation
+        }
+
         RUS = {
             activate_decision = RUS_end_the_war
         }
     }
+
+    news_event = news.24
 
     137 = {
         add_core_of = KPR
@@ -405,6 +433,10 @@ ukraine_rebel_kpr_1 = {
         set_province_controller = 8966
         set_province_controller = 9015
         set_province_controller = 8997
+    }
+
+    DPR = {
+        add_to_faction = KPR
     }
 
     KPR = {
@@ -430,10 +462,16 @@ ukraine_rebel_opr_1 = {
         set_global_flag = UKR_ATO_Started
         mark_focus_tree_layout_dirty = yes
 
+        OPR = {
+            activate_mission = NVR_finish_operation
+        }
+
         RUS = {
             activate_decision = RUS_end_the_war
         }
     }
+
+    news_event = news.25
 
     467 = {
         add_core_of = OPR
