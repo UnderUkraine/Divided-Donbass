@@ -384,6 +384,48 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+        name = "БМП-2"
+        type = bbm_chassis_1
+        parent_version = 0
+        modules = {
+            main_armament_slot = tank_30_mm_autocannon_2a42
+            turret_type_slot = tank_light_tower_2
+            armor_type_slot = tank_steel_armor
+            engine_type_slot = tank_utd_20_engine
+            suspension_type_slot = tank_track_base_suspension
+            special_type_slot_1 = tank_additional_7_62_mm
+            special_type_slot_2 = tank_anti_armor_atgm_2
+        }
+        upgrades = {
+            tank_nsb_engine_upgrade = 0
+            tank_nsb_armor_upgrade = 0
+        }
+        icon = "GFX_UKR_tank5_chassis_medium"
+    }
+
+create_equipment_variant = {
+        name = "БМП-2М"
+        type = bbm_chassis_1
+        parent_version = 0
+        modules = {
+            main_armament_slot = tank_30_mm_autocannon_2a42
+            turret_type_slot = tank_light_tower_2
+            armor_type_slot = tank_steel_armor
+            engine_type_slot = tank_utd_20_engine
+            suspension_type_slot = tank_track_base_suspension
+            special_type_slot_1 = tank_additional_7_62_mm
+            special_type_slot_2 = tank_anti_armor_atgm_3
+        }
+        upgrades = {
+            tank_nsb_engine_upgrade = 0
+            tank_nsb_armor_upgrade = 0
+        }
+        icon = "GFX_UKR_tank5_chassis_medium"
+    }
+
+
+
+create_equipment_variant = {
 	name = "БМД-1"
 	type = bmd_chassis_0
 	parent_version = 0
