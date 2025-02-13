@@ -63,30 +63,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_predotvratit_krim_scenario
-		icon = GFX_focus_UKR_destability_on_east
-		cost = 10
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_appel_the_un}
-		relative_position_id = UKR_appel_the_un
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-	}
-	focus = {
 		id = UKR_appel_the_un
 		icon = GFX_focus_UKR_appel_the_un
 		cost = 3
@@ -108,6 +84,37 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_appel_the_un"
 		}
 	}
+
+	focus = {
+		id = UKR_partial_mobilization
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_appel_the_un}
+		relative_position_id = UKR_appel_the_un
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_partial_mobilization"
+
+			hidden_effect = {
+				country_event = {
+					id = ukraine.45
+					days = 15
+				}
+			}
+            custom_effect_tooltip = UKR_partial_mobilization_events_tt
+		}
+	}
 	focus = {
 		id = UKR_operations_in_slobod_ukraine
 		icon = GFX_focus_UKR_resistance_kharkov
@@ -115,8 +122,8 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_predotvratit_krim_scenario}
-		relative_position_id = UKR_predotvratit_krim_scenario
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
 		
 		ai_will_do = {
 			factor = 1
@@ -176,8 +183,8 @@ focus_tree = {
 		x = -3
 		y = 1
 
-		prerequisite = {focus = UKR_predotvratit_krim_scenario}
-		relative_position_id = UKR_predotvratit_krim_scenario
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
 		
 		ai_will_do = {
 			factor = 1
@@ -341,8 +348,8 @@ focus_tree = {
 		x = 3
 		y = 1
 
-		prerequisite = {focus = UKR_predotvratit_krim_scenario}
-		relative_position_id = UKR_predotvratit_krim_scenario
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
 		
 		ai_will_do = {
 			factor = 1
@@ -663,36 +670,6 @@ focus_tree = {
 		completion_reward = {
 			country_event = ukraine.4
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_battalion_azov"
-		}
-	}
-	focus = {
-		id = UKR_partial_mobilization
-		icon = GFX_focus_UKR_ato
-		cost = 20
-		x = 0
-		y = 1
-
-		prerequisite = {focus = UKR_Volunteer_formations_spesial_forces_mvs}
-		relative_position_id = UKR_Volunteer_formations_spesial_forces_mvs
-		
-		ai_will_do = {
-			factor = 1
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_partial_mobilization"
-
-			hidden_effect = {
-				country_event = {
-					id = ukraine.45
-					days = 15
-				}
-			}
-            custom_effect_tooltip = UKR_partial_mobilization_events_tt
 		}
 	}
 	focus = {
