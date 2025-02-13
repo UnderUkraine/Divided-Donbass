@@ -53,3 +53,21 @@ music = {
 		}
 	}
 }
+music = {
+	song = "zhadan_tyrchinov"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "argument"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 1
+		}
+	}
+}

@@ -22,3 +22,11 @@ music = {
 	name = "ne_zapisyite_v_geroi"
 	file = "UKR/ne_zapisyite_v_geroi.ogg"
 }
+music = {
+	name = "zhadan_tyrchinov"
+	file = "UKR/zhadan_tyrchinov.ogg"
+}
+music = {
+	name = "argument"
+	file = "UKR/argument.ogg"
+}
