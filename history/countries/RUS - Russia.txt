@@ -451,4 +451,9 @@ capital = 558
 		socialism = 13
 		autoritarian_democracy = 52
 	}
+
+	news_event = {
+		id = news.17
+		days = 78
+	}
 }

@@ -45,8 +45,13 @@ UKR_Maidan_Support_category = {
 				}
 
 				country_event = {
+					id = ukraine.42
+					days = 2
+				}
+
+				country_event = {
 					id = ukraine.43
-					days = 4
+					days = 5
 				}
 				
 				retire_country_leader = yes

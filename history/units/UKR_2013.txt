@@ -20,14 +20,19 @@ division_template = {
 		artillery = { x = 1 y = 1 }
 		recon = { x = 1 y = 2 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
 	name = "Mechanized Infantry"
 	regiments = {
-        mechanized_infantry = { x = 0 y = 0 }
-		mechanized_infantry = { x = 0 y = 1 }
-		mechanized_infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		bbm_unit = { x = 1 y = 0 }
+		bbm_unit = { x = 1 y = 1 }
+		btr1_unit = { x = 1 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -38,6 +43,8 @@ division_template = {
 		artillery = { x = 1 y = 1 }
 		recon = { x = 1 y = 2 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
@@ -58,6 +65,8 @@ division_template = {
 		mortar = { x = 1 y = 1 }
 		recon = { x = 1 y = 2 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
@@ -78,6 +87,8 @@ division_template = {
 		artillery = { x = 1 y = 1 }
 		recon = { x = 1 y = 2 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
@@ -100,6 +111,8 @@ division_template = {
 		recon = { x = 1 y = 2 }
 		maintenance_company = { x = 1 y = 3 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
@@ -120,6 +133,8 @@ division_template = {
 		maintenance_company = { x = 1 y = 1 }
 		anti_air = { x = 1 y = 2 }
 	}
+
+	is_locked = yes
 }
 
 units = {
