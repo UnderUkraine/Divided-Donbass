@@ -1154,3 +1154,39 @@ country_event = {
 		log = "[GetDateText]: [This.GetName]: ukraine.49.a executed"
 	}
 }
+
+#Raids on military storages
+country_event = {
+	id = ukraine.50
+	title = ukraine.50.t
+	desc = ukraine.50.d
+	picture = GFX_report_event_new_year_yanukovich
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -50000
+			}
+			add_equipment_to_stockpile = {
+				type = atgm_equipment
+				amount = -500
+			}
+			add_equipment_to_stockpile = {
+				type = truck_chassis
+				amount = -1500
+			}
+			add_equipment_to_stockpile = {
+				type = rpg_equipment
+				amount = -1500
+			}
+		}
+	}
+
+	option = {
+		name = ukraine.50.a
+		log = "[GetDateText]: [This.GetName]: ukraine.50.a executed"
+	}
+}
