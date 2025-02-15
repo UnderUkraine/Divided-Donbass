@@ -529,13 +529,32 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "УАЗ-469"
+	type = armored_vehicle_chassis_0
+	parent_version = 0
+	modules = {
+		#main_armament_slot = tank_kpvt_14_5mm
+		#turret_type_slot = tank_open_armored_box
+		armor_type_slot = tank_steel_armor
+		engine_type_slot = tank_ymz_536_engine
+		suspension_type_slot = tank_wheelbase_suspension
+		#special_type_slot_1 = tank_additional_7_62_mm
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_UKR_armored_vehicle_1_chassis_medium"
+}
+
+create_equipment_variant = {
 	name = "ГАЗ-66"
 	type = truck_chassis_0
 	parent_version = 0
 	modules = {
 		#main_armament_slot = tank_kpvt_14_5mm
 		#turret_type_slot = tank_open_armored_box
-		#armor_type_slot = tank_combination_armor_one
+		armor_type_slot = tank_steel_armor
 		engine_type_slot = tank_ymz_536_engine
 		suspension_type_slot = tank_wheelbase_suspension
 		#special_type_slot_1 = tank_additional_7_62_mm
@@ -574,7 +593,7 @@ create_equipment_variant = {
 	modules = {
 		#main_armament_slot = tank_kpvt_14_5mm
 		#turret_type_slot = tank_open_armored_box
-		#armor_type_slot = tank_combination_armor_one
+		armor_type_slot = tank_steel_armor
 		engine_type_slot = tank_ymz_536_engine
 		suspension_type_slot = tank_wheelbase_suspension
 		#special_type_slot_1 = tank_additional_7_62_mm
@@ -593,7 +612,7 @@ create_equipment_variant = {
 	modules = {
 		#main_armament_slot = tank_kpvt_14_5mm
 		#turret_type_slot = tank_open_armored_box
-		#armor_type_slot = tank_combination_armor_one
+		armor_type_slot = tank_steel_armor
 		engine_type_slot = tank_ymz_536_engine
 		suspension_type_slot = tank_wheelbase_suspension
 		#special_type_slot_1 = tank_additional_7_62_mm
@@ -951,6 +970,12 @@ set_country_flag = startup_information_country_info
 		type = bmd_chassis_2
 		variant_name = "БМД-3"
 		amount = 15
+		producer = UKR
+	}
+	add_equipment_to_stockpile = {
+		type = armored_vehicle_chassis_0
+		variant_name = "УАЗ-469"
+		amount = 2350
 		producer = UKR
 	}
 	add_equipment_to_stockpile = {
