@@ -410,12 +410,10 @@ DPR_independence_war = {
 			always = no
 		}
     visible = {
-      OR = {
-        original_tag = DPR
-        original_tag = LPR
-        original_tag = KPR
-        original_tag = OPR
-      }
+      original_tag = DPR
+      original_tag = LPR
+      original_tag = KPR
+      original_tag = OPR
     }
 		activation = {
 			always = no
