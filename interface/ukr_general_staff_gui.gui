@@ -1,0 +1,119 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "open_general_staff_button_gui"	
+		position = { x = 0 y = 0 }	
+		size = { width = 500 height = 400 }
+		orientation = center
+		origo = center 
+
+		buttonType = {
+			name ="open_general_staff_button"
+			quadTextureSprite ="GFX_separatists_gui_open_button"
+			position = { x=115 y=150 }
+			Orientation = centre
+		}
+	}
+
+	containerWindowType = {
+		name = "general_staff_gui_main_window"	
+		position = { x = 0 y = 0 }	
+		size = { width = 1200 height = 800 }
+		orientation = center
+		origo = center 
+
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_background_gui_elections"
+		}
+
+		#buttonType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}  
+        
+        buttonType ={
+            name ="holovnokomanchuvach_zsu"
+            spriteType = "GFX_holovnokomanchuvach_zsu"
+            position = { x= -500 y = -330 }
+            Orientation = "center"
+        }   
+        buttonType ={
+            name ="komanduvach_sukhoputnykh_viisk"
+            spriteType = "GFX_komanduvach_sukhoputnykh_viisk"
+            position = { x= -300 y = -330 }
+            Orientation = "center"
+        }   
+        buttonType ={
+            name ="komanduvach_morskoi_pikhoty"
+            spriteType = "GFX_komanduvach_morskoi_pikhoty"
+            position = { x= -100 y = -330 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="komanduvach_vdv"
+            spriteType = "GFX_komanduvach_vdv"
+            position = { x= 100 y = -330 }
+            Orientation = "center"
+        }  
+	}
+
+    containerWindowType = {
+		name = "separatists_dop_window"	
+		position = { x = 750 y = -180 }	
+		size = { width = 429 height = 394 }
+		orientation = center
+		origo = center 
+
+		fade_time = 100
+		moveable = no
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_gui_background_separatists_small"
+		}
+
+		#buttonType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}   
+
+        instantTextboxType = {
+			name = "oblast_name"
+			position = { x = -10 y = 50 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_name]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        instantTextboxType = {
+			name = "oblast_separatism_text"
+			position = { x = -10 y = 320 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_separatism]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        buttonType ={
+            name ="oblast_image"
+            spriteType = "GFX_Zakarpattia"
+            position = { x= -60 y = -80 }
+            Orientation = "center"
+        }  
+	}
+}

@@ -83,6 +83,20 @@ UKR_SBU_operations = {
 	#scripted_gui = separatists_gui
 }
 
+UKR_general_staff_category = {
+	icon = GFX_sbu_icon_decision
+	picture = GFX_separatists_background_image
+	priority = 500
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	scripted_gui = open_general_staff_button
+}
+
 UKR_Escalation = {
 	icon = GFX_donbass_map_icon_decision
 	#picture = GFX_separatists_background_image

@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holovnokomanchuvach_zsu"
+		textureFile = "/gfx/leaders/UKR/zelenskyy.dds"
+	}
+	spriteType = {
+		name = "GFX_komanduvach_sukhoputnykh_viisk"
+		textureFile = "/gfx/leaders/UKR/zelenskyy.dds"
+	}
+	spriteType = {
+		name = "GFX_komanduvach_morskoi_pikhoty"
+		textureFile = "/gfx/leaders/UKR/zelenskyy.dds"
+	}
+	spriteType = {
+		name = "GFX_komanduvach_vdv"
+		textureFile = "/gfx/leaders/UKR/zelenskyy.dds"
+	}
+}
