@@ -555,6 +555,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -577,6 +579,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -593,6 +597,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -615,6 +621,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -637,6 +645,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -659,6 +669,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -687,6 +699,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -715,6 +729,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -737,6 +753,8 @@ UKR_arms_deconservation = {
 		available = {
 			always = no
 	    }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -753,6 +771,8 @@ UKR_arms_deconservation = {
 		available = {
 			always = no
 	    }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -769,6 +789,8 @@ UKR_arms_deconservation = {
 		available = {
 			always = no
 	    }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -785,6 +807,8 @@ UKR_arms_deconservation = {
 		available = {
 			always = no
 	    }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -801,6 +825,8 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
@@ -823,10 +849,75 @@ UKR_arms_deconservation = {
         available = {
 			always = yes
         }
+		cost = 30
+		fire_only_once = yes
         icon = GFX_icon_of_VSY_decision
         priority = 10
         days_re_enable = 1
         complete_effect = {
+		}
+	}
+	UKR_deconservation_big_ammo_storage = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+		cost = 30
+		fire_only_once = yes
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_to_variable = {
+				JAM_ammo_stockpile = 200000
+			}
+		}
+	}
+	UKR_deconservation_medium_ammo_storage = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+		cost = 30
+		fire_only_once = yes
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_to_variable = {
+				JAM_ammo_stockpile = 100000
+			}
+		}
+	}
+	UKR_deconservation_small_ammo_storage = {
+		allowed = {
+            tag = UKR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+			always = yes
+        }
+		fire_only_once = yes
+		cost = 30
+        icon = GFX_icon_of_VSY_decision
+        priority = 10
+        days_re_enable = 1
+        complete_effect = {
+			add_to_variable = {
+				JAM_ammo_stockpile = 50000
+			}
 		}
 	}
 }
