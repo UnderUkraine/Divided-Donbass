@@ -66,3 +66,8 @@
  UKR_Volunteer_formations_spesial_forces_mvs_tt: "£decision_icon_small Decisions on the formation of §Yvolunteer battalions of MIA§! will be unlocked"
 
  UKR_partial_mobilization_events_tt: "§gFrom time to time, there will be events about§! §Ymobilization waves§!"
+
+ UKR_holovnokomanchuvach_zsu_tt: "§WVolodymyr Zelenskyy§!\n§YCommander in chief of the AFU§!\n\n§YEffects§!:\n£mil_factory Potom\n£mil_factory Potom"
+ UKR_komanduvach_sukhoputnykh_viisk_tt: "§WVolodymyr Zelenskyy§!\n§YGround army commander of AFU§!\n\n§YEffects§!:\n£mil_factory Potom\n£mil_factory Potom"
+ UKR_komanduvach_morskoi_pikhoty_tt: "§WVolodymyr Zelenskyy§!\n§YMarine Corps commander of AFU§!\n\n§YEffects§!:\n£mil_factory Potom\n£mil_factory Potom"
+ UKR_komanduvach_vdv_tt: "§WVolodymyr Zelenskyy§!\n§YAirborne commander of AFU§!\n\n§YEffects§!:\n£mil_factory Potom\n£mil_factory Potom"

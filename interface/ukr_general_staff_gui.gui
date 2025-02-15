@@ -45,24 +45,28 @@ guiTypes = {
             spriteType = "GFX_holovnokomanchuvach_zsu"
             position = { x= -500 y = -330 }
             Orientation = "center"
+			pdx_tooltip = UKR_holovnokomanchuvach_zsu_tt
         }   
         buttonType ={
             name ="komanduvach_sukhoputnykh_viisk"
             spriteType = "GFX_komanduvach_sukhoputnykh_viisk"
-            position = { x= -300 y = -330 }
+            position = { x= -500 y = -100 }
             Orientation = "center"
+			pdx_tooltip = UKR_komanduvach_sukhoputnykh_viisk_tt
         }   
         buttonType ={
             name ="komanduvach_morskoi_pikhoty"
             spriteType = "GFX_komanduvach_morskoi_pikhoty"
-            position = { x= -100 y = -330 }
+            position = { x= -300 y = -330 }
             Orientation = "center"
+			pdx_tooltip = UKR_komanduvach_morskoi_pikhoty_tt
         }  
         buttonType ={
             name ="komanduvach_vdv"
             spriteType = "GFX_komanduvach_vdv"
-            position = { x= 100 y = -330 }
+            position = { x= -300 y = -100 }
             Orientation = "center"
+			pdx_tooltip = UKR_komanduvach_vdv_tt
         }  
 	}
 
