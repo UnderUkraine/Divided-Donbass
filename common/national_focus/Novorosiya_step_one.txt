@@ -30,6 +30,13 @@ shared_focus = {
 			has_focus_tree = donetsk_focus
 		}
 	}
+	offset = {
+		x = 30
+		y = 0
+		trigger = {
+			has_focus_tree = luhansk_focus
+		}
+	}
 
 	complete_tooltip = {
 
