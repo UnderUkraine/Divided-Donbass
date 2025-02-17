@@ -800,12 +800,27 @@ focus_tree = {
 			factor = 100
 		}
 
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = UKR_End_separatism_trigger_tt
+				
+				controls_province = 13452
+				controls_province = 13978
+				controls_state = 238
+				controls_state = 304
+				controls_state = 283
+				controls_province = 12048
+			}
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_End_separatism"
+			
+			
 		}
 	}
 	focus = {
