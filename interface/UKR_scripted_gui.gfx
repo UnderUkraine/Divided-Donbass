@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_UKR_rada_seat"
+		texturefile = "gfx/interface/verkhovna_rada/UKR_rada_party.dds"
+		noOfFrames = 20
+	}
+}

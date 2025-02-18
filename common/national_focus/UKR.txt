@@ -51,12 +51,12 @@ focus_tree = {
 		completion_reward = {
             clr_country_flag = rada_2012
 
-			set_variable = { UKR.party_one_deputaty = 187 }
-			set_variable = { UKR.party_two_deputaty = 102 }
-			set_variable = { UKR.party_three_deputaty = 40 }
-			set_variable = { UKR.party_four_deputaty = 38 }
-			set_variable = { UKR.party_five_deputaty = 32 }
-			set_variable = { UKR.party_six_deputaty = 51 }
+			#set_variable = { UKR.party_one_deputaty = 187 }
+			#set_variable = { UKR.party_two_deputaty = 102 }
+			#set_variable = { UKR.party_three_deputaty = 40 }
+			#set_variable = { UKR.party_four_deputaty = 38 }
+			#set_variable = { UKR.party_five_deputaty = 32 }
+			#set_variable = { UKR.party_six_deputaty = 51 }
 
 			custom_effect_tooltip = UKR_new_rada_temp_government_tt
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_coalition_in_rada"
@@ -716,6 +716,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_general_staff"
+
+			custom_effect_tooltip = UKR_general_staff_tt
 		}
 	}
 	focus = {
@@ -739,6 +741,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Start_of_operations_in_the_ATO_zone"
 
+			custom_effect_tooltip = UKR_Start_of_operations_in_the_ATO_zone_tt
 			set_country_flag = UKR_ATO_Operations
 		}
 	}

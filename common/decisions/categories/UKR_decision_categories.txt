@@ -53,7 +53,7 @@ UKR_Verhovna_rada = {
 	visible = {
 		always = yes
 	}
-	scripted_gui = verhovna_rada_gui
+	scripted_gui = ukraine_rada_gui
 }
 
 UKR_arms_deconservation = {
