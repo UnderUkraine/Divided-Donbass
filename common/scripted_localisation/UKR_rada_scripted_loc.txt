@@ -166,7 +166,7 @@ defined_text = {
 		trigger = {
 			check_variable = { rada_seat_frame^seat_idx = 14 }
 		}
-		localization_key = UKR_seat_is_other
+		localization_key = UKR_seat_is_suverena_evropeiska_ukraina
 	}
 }
 

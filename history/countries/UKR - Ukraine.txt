@@ -2034,6 +2034,7 @@ set_country_flag = startup_information_country_info
     set_variable = { UKR_rada_kpu_seats = 32 }
     set_variable = { UKR_rada_right_sector_seats = 0 }
     set_variable = { UKR_rada_economic_development_seats = 0 }
+    set_variable = { UKR_rada_suverena_evropeiska_ukraina_seats = 0 }
     set_variable = { UKR_rada_peoples_will_seats = 0 }
     set_variable = { UKR_rada_peoples_front_seats = 0 }
     set_variable = { UKR_rada_european_solidarity_seats = 0 }
