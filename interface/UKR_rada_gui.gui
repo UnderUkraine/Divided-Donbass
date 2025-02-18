@@ -14,14 +14,14 @@ guiTypes = {
 			add_horizontal = no
 		}
 		
-		buttonType = {
-			name = "UKR_rada_language_button"
-			position = { x = 5 y = 5 }
-			quadTextureSprite = "GFX_ENG_UKR_button"
-			pdx_tooltip = "UKR_rada_language_button_tt"
-			scale = 1
-			orientation = upper_left
-		}
+		#buttonType = {
+		#	name = "UKR_rada_language_button"
+		#	position = { x = 5 y = 5 }
+		#	quadTextureSprite = "GFX_ENG_UKR_button"
+		#	pdx_tooltip = "UKR_rada_language_button_tt"
+		#	scale = 1
+		#	orientation = upper_left
+		#}
 		
 		instantTextBoxType = {
 			name ="rada_status_text_box"

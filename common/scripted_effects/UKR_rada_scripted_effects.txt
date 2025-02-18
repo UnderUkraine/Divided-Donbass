@@ -55,6 +55,7 @@ UKR_get_rada_seats={
 	set_temp_variable = { t11 = UKR_rada_servant_of_the_people_seats }
 	set_temp_variable = { t12 = UKR_rada_opposition_bloc_seats }
 	set_temp_variable = { t13 = 450 }
+	set_temp_variable = { t14 = UKR_rada_suverena_evropeiska_ukraina_seats }
 	
 	add_to_temp_variable = { t2 = t1 }
 	add_to_temp_variable = { t3 = t2 }
@@ -68,6 +69,7 @@ UKR_get_rada_seats={
 	add_to_temp_variable = { t11 = t10 }
 	add_to_temp_variable = { t12 = t11 }
 	add_to_temp_variable = { t13 = t12 }
+	add_to_temp_variable = { t14 = t13 }
 
 
 	clear_array = rada_seat_frame
@@ -137,6 +139,11 @@ UKR_get_rada_seats={
 		value = 13
 		size = t13
 	}	
+	resize_array = {
+		array = rada_seat_frame
+		value = 14
+		size = t14
+	}	
 }
 
 UKR_get_government_majority_status={
@@ -148,6 +155,7 @@ UKR_get_government_majority_status={
 	if={ limit = { has_country_flag = kpu_in_power } add_to_variable = { government_seats = UKR_rada_kpu_seats } }
 	if={ limit = { has_country_flag = right_sector_in_power } add_to_variable = { government_seats = UKR_rada_right_sector_seats } }
 	if={ limit = { has_country_flag = economic_development_in_power } add_to_variable = { government_seats = UKR_rada_economic_development_seats } }
+	if={ limit = { has_country_flag = suverena_evropeiska_ukraina_in_power } add_to_variable = { government_seats = UKR_rada_suverena_evropeiska_ukraina_seats } }
 	if={ limit = { has_country_flag = peoples_will_in_power } add_to_variable = { government_seats = UKR_rada_peoples_will_seats } }
 	if={ limit = { has_country_flag = peoples_front_in_power } add_to_variable = { government_seats = UKR_rada_peoples_front_seats } }
 	if={ limit = { has_country_flag = european_solidarity_in_power } add_to_variable = { government_seats = UKR_rada_european_solidarity_seats } }

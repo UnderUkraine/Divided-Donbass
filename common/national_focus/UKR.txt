@@ -57,6 +57,38 @@ focus_tree = {
 			#set_variable = { UKR.party_four_deputaty = 38 }
 			#set_variable = { UKR.party_five_deputaty = 32 }
 			#set_variable = { UKR.party_six_deputaty = 51 }
+			
+			set_variable = { UKR_rada_fatherland_seats = 86 }
+			set_variable = { UKR_rada_party_of_regions_seats = 78 }
+			set_variable = { UKR_rada_svoboda_seats = 35 }
+			set_variable = { UKR_rada_udar_seats = 41 }
+			set_variable = { UKR_rada_kpu_seats = 0 }
+			set_variable = { UKR_rada_right_sector_seats = 0 }
+			set_variable = { UKR_rada_economic_development_seats = 41 }
+			set_variable = { UKR_rada_suverena_evropeiska_ukraina_seats = 35 }
+			set_variable = { UKR_rada_peoples_will_seats = 0 }
+			set_variable = { UKR_rada_peoples_front_seats = 0 }
+			set_variable = { UKR_rada_european_solidarity_seats = 0 }
+			set_variable = { UKR_rada_servant_of_the_people_seats = 0 }
+			set_variable = { UKR_rada_opposition_bloc_seats = 0 }
+
+			set_country_flag = fatherland_in_power
+			set_country_flag = svoboda_in_power
+			set_country_flag = udar_in_power
+			set_country_flag = economic_development_in_power
+			set_country_flag = suverena_evropeiska_ukraina_in_power
+
+			set_country_flag = party_of_regions_in_opposition
+
+			clr_country_flag = fatherland_in_opposition
+			clr_country_flag = party_of_regions_in_power
+			clr_country_flag = svoboda_in_opposition
+			clr_country_flag = udar_in_opposition
+			clr_country_flag = kpu_in_power			#They were officially in opposition to everyone, but basically always voted with party of regions
+
+			UKR_get_non_aligned_seats = yes
+			UKR_get_rada_seats = yes
+			UKR_get_government_majority_status = yes
 
 			custom_effect_tooltip = UKR_new_rada_temp_government_tt
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_coalition_in_rada"

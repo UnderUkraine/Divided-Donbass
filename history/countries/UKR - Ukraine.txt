@@ -2027,10 +2027,10 @@ set_country_flag = startup_information_country_info
     add_to_array = { rada_seat_x = 481 }
     add_to_array = { rada_seat_y = 235 }
 			
-    set_variable = { UKR_rada_fatherland_seats = 92 }
-    set_variable = { UKR_rada_party_of_regions_seats = 204 }
-    set_variable = { UKR_rada_svoboda_seats = 36 }
-    set_variable = { UKR_rada_udar_seats = 42 }
+    set_variable = { UKR_rada_fatherland_seats = 62 }
+    set_variable = { UKR_rada_party_of_regions_seats = 113 }
+    set_variable = { UKR_rada_svoboda_seats = 25 }
+    set_variable = { UKR_rada_udar_seats = 34 }
     set_variable = { UKR_rada_kpu_seats = 32 }
     set_variable = { UKR_rada_right_sector_seats = 0 }
     set_variable = { UKR_rada_economic_development_seats = 0 }
@@ -2051,8 +2051,8 @@ set_country_flag = startup_information_country_info
     UKR_get_non_aligned_seats = yes
     UKR_get_rada_seats = yes
     UKR_get_government_majority_status = yes
-    UKR_bill_is_minor = yes
-    set_variable = { UKR_required_votes = 226 }	
+    #UKR_bill_is_minor = yes
+    #set_variable = { UKR_required_votes = 226 }	
 
 	#set_variable = { UKR.party_one_deputaty = 187 }
 	#set_variable = { UKR.party_two_deputaty = 102 }
