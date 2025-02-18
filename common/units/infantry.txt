@@ -191,15 +191,12 @@ sub_units = {
 		breakthrough = -0.35
 		attack = -0.25
 		defence = -0.25
-		maximum_speed = -0.3
 		
 		supply_consumption = 0.06
 	
 		need = {
 			infantry_equipment = 25
 			rpg_equipment = 10
-			#camo_equipment
-			truck_chassis = 5
 		}
 	}
 
