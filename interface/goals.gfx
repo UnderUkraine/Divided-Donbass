@@ -165,6 +165,10 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/UKR/bdec479ef5728e85.dds"			
 	}	
 	SpriteType = {
+	    name = "GFX_focus_UKR_Accelerated_fortification_construction"
+	    texturefile = "gfx/interface/goals/UKR/UKR_Accelerated_fortification_construction.dds"			
+	}	
+	SpriteType = {
 	    name = "GFX_focus_UKR_NABU"
 	    texturefile = "gfx/interface/goals/UKR/nabu.dds"			
 	}	

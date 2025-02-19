@@ -860,7 +860,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Accelerated_fortification_construction
-		icon = GFX_focus_UKR_ato
+		icon = GFX_focus_UKR_Accelerated_fortification_construction
 		cost = 20
 		x = -1
 		y = 1
