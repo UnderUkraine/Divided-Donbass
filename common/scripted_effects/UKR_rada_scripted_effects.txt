@@ -7,12 +7,12 @@ UKR_get_non_aligned_seats={
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_kpu_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_right_sector_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_economic_development_seats }
-	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_suverena_evropeiska_ukraina_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_peoples_will_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_peoples_front_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_european_solidarity_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_servant_of_the_people_seats }
 	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_opposition_bloc_seats }
+	subtract_from_variable = { UKR_rada_non_aligned_seats = UKR_rada_suverena_evropeiska_ukraina_seats }
 }
 
 UKR_clr_party_flags={
