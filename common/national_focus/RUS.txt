@@ -1720,7 +1720,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_send_kalashi
+		id = RUS_Arms_supplies
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 2
@@ -1753,7 +1753,7 @@ focus_tree = {
 
 		prerequisite = {focus = RUS_dableniye_na_ukrainu}
 		prerequisite = {focus = RUS_fondi_novososii}
-		prerequisite = {focus = RUS_send_kalashi}
+		prerequisite = {focus = RUS_Arms_supplies}
 		relative_position_id = RUS_ugol_po_skidke
 		
 		ai_will_do = {

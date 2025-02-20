@@ -12,7 +12,15 @@
 
  Escalation_Donbass_map_tt:0 "§Yworkz!!1§!"
 
- DPR_artillery_shelling_tt:0 "£decision_icon_small !§YРешения§!§g на !§!§RАртиллерийские§!§g обстрелы будут !§gоткрыты§!"
+ DPR_form_somali:0 "§GБудет сформирован батальйон «Сомали»§!"
+ DPR_form_oplot:0 "§GБудет сформирована бригада «Оплот»§!"
+ DPR_form_disel:0 "§GБудет сформирован танковый батальйон «Дизель»§!"
+ DPR_form_sparta:0 "§GБудет сформирован батальйон «Спарта»§!"
+
+ DPR_national_militia:0 "§gБудет открыты §!§Rрешения§! §gна§! §!§Rформирование ополчения§! §gв городах§!"
+ DPR_national_militia_two:0 "§GБудут сформированы отряды ополчения§!"
+
+ DPR_artillery_shelling_tt:0 "£decision_icon_small §YРешения§!§g на §!§RАртиллерийские§!§g обстрелы будут §gоткрыты§!"
 
  Peace_progress_plus_five_tt:0 "§gПроцесс переговоров будет увеличен на §!§G5§!"
  Peace_progress_invite_international_tt:0 "§gМы сможем пригласить§! §Yмеждународное§!§g сообщество для обеспечения мира§!"

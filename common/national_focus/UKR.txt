@@ -149,7 +149,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_operations_in_slobod_ukraine
-		icon = GFX_focus_UKR_resistance_kharkov
+		icon = GFX_goal_unknown
 		cost = 5
 		x = 0
 		y = 1
@@ -209,7 +209,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_sbu_on_donbass
+		id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
 		icon = GFX_focus_UKR_sbu_on_donbass
 		cost = 10
 		x = -3
@@ -234,14 +234,14 @@ focus_tree = {
 	    }
     }
 	focus = {
-		id = UKR_defence_donbass
+		id = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
 		icon = GFX_focus_UKR_defence_donbass
 		cost = 10
 		x = 1
 		y = 1
 
-		prerequisite = {focus = UKR_sbu_on_donbass}
-		relative_position_id = UKR_sbu_on_donbass
+		prerequisite = {focus = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass}
+		relative_position_id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
 		
 		ai_will_do = {
 			factor = 1
@@ -267,14 +267,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_defence_Luhansk
+		id = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
 		icon = GFX_focus_UKR_defence_donbass
 		cost = 10
 		x = -1
 		y = 1
 
-		prerequisite = {focus = UKR_sbu_on_donbass}
-		relative_position_id = UKR_sbu_on_donbass
+		prerequisite = {focus = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass}
+		relative_position_id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
 		
 		ai_will_do = {
 			factor = 1
@@ -302,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Arrest_pro_russian_supporters_in_kharkov
-		icon = GFX_focus_UKR_stabilisation_region
+		icon = GFX_goal_unknown
 		cost = 5
 		x = 0
 		y = 1
@@ -406,10 +406,10 @@ focus_tree = {
 		y = 1
 
 		prerequisite = {
-			focus = UKR_defence_Luhansk
+			focus = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
 	    }
 		prerequisite = {
-			focus = UKR_defence_donbass
+			focus = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
 	    }
 		prerequisite = {
 			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
@@ -478,17 +478,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_Vostanie_v_Slavianske
+		id = UKR_The_capture_of_Slavyansk
 		icon = GFX_focus_UKR_preparing_for_the_inevitable
 		cost = 5
 		x = 0
 		y = 1
 
 		prerequisite = {
-			focus = UKR_defence_Luhansk
+			focus = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
 	    }
 		prerequisite = {
-			focus = UKR_defence_donbass
+			focus = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
 	    }
 		prerequisite = {
 			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
@@ -515,41 +515,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_ato
-		icon = GFX_focus_UKR_ato
-		cost = 1
-		x = 4
-		y = 1
-
-		prerequisite = {focus = UKR_Vostanie_v_Slavianske}
-		relative_position_id = UKR_Vostanie_v_Slavianske
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_ato"
-
-			#event
-		}
-	}
-	focus = {
 		id = UKR_Emergency_redeployment
 		icon = GFX_focus_UKR_Emergency_redeployment
 		cost = 3
-		x = 0
-		y = 1
+		x = 4
+		y = 2
 
-		prerequisite = {focus = UKR_ato}
-		relative_position_id = UKR_ato
+		prerequisite = {focus = UKR_The_capture_of_Slavyansk}
+		relative_position_id = UKR_The_capture_of_Slavyansk
 		ai_will_do = {
 			factor = 1
 		}
@@ -908,8 +881,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UKR_razoblacheniye_feikov
-		icon = GFX_focus_UKR_razoblacheniye_feikov
+		id = UKR_Exposing_fakes
+		icon = GFX_focus_UKR_Exposing_fakes
 		cost = 1
 		x = 0
 		y = 1
@@ -922,25 +895,25 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_razoblacheniye_feikov"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Exposing_fakes"
 		}
 	}
 	focus = {
-		id = UKR_operation_contr_razvedki_sbu
+		id = UKR_SBU_counterintelligence_operations
 		icon = GFX_focus_UKR_ato
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = UKR_razoblacheniye_feikov}
-		relative_position_id = UKR_razoblacheniye_feikov
+		prerequisite = {focus = UKR_Exposing_fakes}
+		relative_position_id = UKR_Exposing_fakes
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus UKR_operation_contr_razvedki_sbu"
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_SBU_counterintelligence_operations"
 		}
 	}
 	focus = {
@@ -1071,7 +1044,7 @@ focus_tree = {
 	}
 	focus = {
 		id = UKR_Minsk_two
-		icon = GFX_goal_unknown
+		icon = GFX_UKR_Minsk_two
 		cost = 1
 		x = 0
 		y = 1
@@ -1129,10 +1102,10 @@ focus_tree = {
 		x = -4
 		y = 2
 		prerequisite = {
-			focus = UKR_Vostanie_v_Slavianske
+			focus = UKR_The_capture_of_Slavyansk
 			focus = UKR_Separatists_defeated
 	    }
-		relative_position_id = UKR_Vostanie_v_Slavianske
+		relative_position_id = UKR_The_capture_of_Slavyansk
 
 		allow_branch = {
 			has_country_flag = UKR_presidential_elections
