@@ -137,7 +137,7 @@ recruit_character = LPR_bolotov
 		name = LPR_Igor_Plotnitsky
 		#desc = petro_poroshenko_desc
 		ideology = autoritarian_democractic 
-		picture = gfx/leaders/LPR/#LPR_Igor_Plotnitsky.dds
+		picture = gfx/leaders/LPR/Plotnitsky.dds
 		traits = { }
 	}
 }
