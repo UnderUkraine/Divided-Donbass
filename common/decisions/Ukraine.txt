@@ -59,7 +59,7 @@ UKR_Maidan_Support_category = {
 					name = verhovna_rada_ukrainy
 					#desc = victor_yanukovich_desc
 					ideology = conservatism
-					picture = gfx/leaders/UKR/turchinov.dds
+					picture = gfx/leaders/UKR/03c666c6e41d46b8.dds
 					traits = {}
 				}
 
