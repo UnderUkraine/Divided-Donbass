@@ -33,7 +33,7 @@ ideas = {
                 #Это как то реализовать надо, но как
             }
         }    
-        AZV_cooperation_zsu = {
+        AZV_cooperation_afu = {
             allowed = {
                 always = yes
             }

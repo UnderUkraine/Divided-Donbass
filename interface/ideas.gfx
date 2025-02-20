@@ -21,41 +21,41 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_City_of_Sevastopol"
-		texturefile = "gfx/interface/ideas/cityofSevastopol.dds"
+		texturefile = "gfx/interface/ideas/City_of_Sevastopol.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_cooperation_russia"
-		texturefile = "gfx/interface/ideas/4149c45d450581c0.dds"
+		texturefile = "gfx/interface/ideas/UKR_cooperation_russia.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_dead_VPK"
-		texturefile = "gfx/interface/ideas/a9ffe8b5442d1566.dds"
+		texturefile = "gfx/interface/ideas/UKR_dead_VPK.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_demographic_crisis1"
-		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+		texturefile = "gfx/interface/ideas/UKR_demographic_crisis1.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_demographic_crisis2"
-		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+		texturefile = "gfx/interface/ideas/UKR_demographic_crisis1.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_protests"
-		texturefile = "gfx/interface/ideas/54b54c11682511ec.dds"
+		texturefile = "gfx/interface/ideas/UKR_protests.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_oligarhy_autocraty"
-		texturefile = "gfx/interface/ideas/5824646c41b3e6e2.dds"
+		texturefile = "gfx/interface/ideas/UKR_oligarhy_autocraty.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_confused_army"
-		texturefile = "gfx/interface/ideas/1320e5800033d2c9.dds"
+		texturefile = "gfx/interface/ideas/UKR_confused_army.dds"
 	}
 
 	#RUS
 	SpriteType = {
 		name = "GFX_idea_RUS_Autocracy"
-		texturefile = "gfx/interface/ideas/RUS/80746053f5070dfd.dds"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Autocracy.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_RUS_Demographic_crisis"
@@ -63,15 +63,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_RUS_Only_in_parades"
-		texturefile = "gfx/interface/ideas/RUS/c9c3e0432f2c9a02.dds"
+		texturefile = "gfx/interface/ideas/RUS/Only_in_parades.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_RUS_Poor_regions"
-		texturefile = "gfx/interface/ideas/RUS/76f22e9d38d64a56.dds"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Poor_regions.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_RUS_Gazprom"
-		texturefile = "gfx/interface/ideas/RUS/5b32d5c955a18c6b.dds"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Gazprom.dds"
 	}
 
     #LAWS

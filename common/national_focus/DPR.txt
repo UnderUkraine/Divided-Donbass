@@ -266,6 +266,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DPR_Defense_of_Donetsk_Citadel"
+			hidden_effect = {
              IF = {
 				limit = {
 					DPR = {
@@ -322,6 +323,8 @@ focus_tree = {
 					}
 				}
 			 }
+			}
+			 custom_effect_tooltip = DPR_trenching_Donetsk
 		}
 	}
 	focus = {
@@ -387,6 +390,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = DPR_trenching_Donetsk_neighborhoods
 		}
 	}
 	focus = {

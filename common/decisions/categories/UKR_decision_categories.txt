@@ -57,7 +57,7 @@ UKR_Verhovna_rada = {
 }
 
 UKR_arms_deconservation = {
-	icon = GFX_icon_of_VSY_decision
+	icon = GFX_icon_of_AFU_decision
 	picture = GFX_buy_equipment_background_image
 	priority = 100
 	allowed = {
