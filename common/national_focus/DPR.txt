@@ -900,6 +900,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -921,6 +922,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -943,6 +945,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			stability_factor = -0.05
+			#+5 заводов
 		}
 	}
 	focus = {
