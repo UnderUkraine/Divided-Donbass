@@ -639,10 +639,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			stability_factor = 0.05
 		}
 	}
 	focus = {
-		id = DPR_Free_state
+		id = DPR_Zaharchenko_is_our_leader
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
@@ -664,6 +665,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			stability_factor = 0.05
+			add_political_power = 50
+			#+10 поддержка авторитарной демократии
 		}
 	}
 	focus = {
@@ -673,8 +677,8 @@ focus_tree = {
 		x = 7
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
+		relative_position_id = DPR_Zaharchenko_is_our_leader
 		
 		ai_will_do = {
 			factor = 1
@@ -767,14 +771,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DPR_Zaharchenko_is_our_leader
+		id = DPR_domestic_issues
 		icon = GFX_goal_unknown
 		cost = 1
 		x = 0
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
+		relative_position_id = DPR_Zaharchenko_is_our_leader
 		
 		ai_will_do = {
 			factor = 1
@@ -798,8 +802,8 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
-		relative_position_id = DPR_Zaharchenko_is_our_leader
+		prerequisite = {focus = DPR_domestic_issues}
+		relative_position_id = DPR_domestic_issues
 		
 		ai_will_do = {
 			factor = 1
@@ -852,6 +856,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
+			stability_factor = 0.05
 		}
 	}
 	focus = {
@@ -1011,8 +1017,8 @@ focus_tree = {
 		x = -7
 		y = 1
 
-		prerequisite = {focus = DPR_Free_state}
-		relative_position_id = DPR_Free_state
+		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
+		relative_position_id = DPR_Zaharchenko_is_our_leader
 		
 		ai_will_do = {
 			factor = 1
@@ -1240,8 +1246,8 @@ focus_tree = {
 		x = 3
 		y = 1
 
-		prerequisite = {focus = DPR_Zaharchenko_is_our_leader}
-		relative_position_id = DPR_Zaharchenko_is_our_leader
+		prerequisite = {focus = DPR_domestic_issues}
+		relative_position_id = DPR_domestic_issues
 		
 		ai_will_do = {
 			factor = 1
