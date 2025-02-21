@@ -123,6 +123,7 @@ focus_tree = {
 		completion_reward = {
 			#TODO Dynamic modifier on Mariupol state
 			log = "[GetDateText]: [Root.GetName]: Focus AZV_form_base_in_Mariupol"
+			custom_effect_tooltip = AZV_base_in_mariupol
 		}
 	}
 	focus = {

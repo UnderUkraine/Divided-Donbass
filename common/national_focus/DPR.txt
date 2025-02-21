@@ -324,7 +324,7 @@ focus_tree = {
 				}
 			 }
 			}
-			 custom_effect_tooltip = DPR_trenching_Donetsk
+			custom_effect_tooltip = DPR_trenching_Donetsk
 		}
 	}
 	focus = {

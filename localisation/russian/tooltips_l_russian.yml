@@ -25,6 +25,8 @@
 
  DPR_artillery_shelling_tt:0 "£decision_icon_small §YРешения§!§g на §!§RАртиллерийские§!§g обстрелы будут §gоткрыты§!"
 
+ AZV_base_in_mariupol:0 "§GБудет сформирована база в Мариуполе §!"
+
  Peace_progress_plus_five_tt:0 "§gПроцесс переговоров будет увеличен на §!§G5§!"
  Peace_progress_invite_international_tt:0 "§gМы сможем пригласить§! §Yмеждународное§!§g сообщество для обеспечения мира§!"
  Initiate_discussions_on_a_peaceful_settlement_tt:0 "§gВремя от времени будут появлятся §!§Yсобытия§! с §!§Yрешениями§!§g о статусе §!§GДонбасса§!"
