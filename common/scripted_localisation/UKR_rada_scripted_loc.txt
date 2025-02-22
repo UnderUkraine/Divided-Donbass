@@ -162,12 +162,6 @@ defined_text = {
 		}
 		localization_key = UKR_seat_is_other
 	}
-	text = {
-		trigger = {
-			check_variable = { rada_seat_frame^seat_idx = 14 }
-		}
-		localization_key = UKR_seat_is_suverena_evropeiska_ukraina
-	}
 }
 
 defined_text = {
@@ -666,50 +660,6 @@ defined_text = {
         localization_key = ""
     }
 }
-
-defined_text = {
-	name = check_suverena_evropeiska_ukraina_in_power
-	text = {
-		trigger = {
-			check_variable = { var = UKR_rada_economic_development_seats value = 0 compare = greater_than }
-			has_country_flag = suverena_evropeiska_ukraina_in_power
-		}
-		localization_key = UKR_suverena_evropeiska_ukraina_is_in_power
-	}
-	text = {
-        localization_key = ""
-    }
-}
-
-defined_text = {
-	name = check_suverena_evropeiska_ukraina_in_opposition
-	text = {
-		trigger = {
-			check_variable = { var = UKR_rada_economic_development_seats value = 0 compare = greater_than }
-			has_country_flag = suverena_evropeiska_ukraina_in_opposition
-		}
-		localization_key = UKR_suverena_evropeiska_ukraina_is_in_opposition
-	}
-	text = {
-        localization_key = ""
-    }
-}
-
-defined_text = {
-	name = check_suverena_evropeiska_ukraina_neutral
-	text = {
-		trigger = {
-			check_variable = { var = UKR_rada_economic_development_seats value = 0 compare = greater_than }
-			NOT = { has_country_flag = suverena_evropeiska_ukraina_in_opposition }
-			NOT = { has_country_flag = suverena_evropeiska_ukraina_in_power }
-		}
-		localization_key = UKR_suverena_evropeiska_ukraina_is_neutral
-	}
-	text = {
-        localization_key = ""
-    }
-}
-
 
 defined_text = {
 	name = check_peoples_will_in_power
