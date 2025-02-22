@@ -519,7 +519,7 @@ focus_tree = {
 		icon = GFX_focus_UKR_Emergency_redeployment
 		cost = 3
 		x = 4
-		y = 2
+		y = 1
 
 		prerequisite = {focus = UKR_The_capture_of_Slavyansk}
 		relative_position_id = UKR_The_capture_of_Slavyansk

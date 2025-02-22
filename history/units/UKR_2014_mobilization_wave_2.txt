@@ -1,0 +1,34 @@
+units = {
+	division= {
+		name = "19th Territorial Defense Battalion"
+		location = 9181 #суда позицию
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "21st Territorial Defense Battalion"
+		location = 9181 #суда позицию
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "25st Territorial Defense Battalion “Kievan Rus”"
+		location = 9181 #суда позицию
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "34th Territorial Defense Battalion “Batkivshyna”"
+		location = 9181 #суда позицию
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+}

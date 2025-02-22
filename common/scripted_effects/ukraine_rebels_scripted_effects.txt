@@ -11,6 +11,7 @@ ukraine_rebel_dpr_1 = {
 
         RUS = {
             activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
         }
 
         DPR = {
@@ -171,6 +172,10 @@ ukraine_rebel_dpr_1 = {
         set_province_controller = 11254
         set_province_controller = 6172
 
+        #Мариуполь
+        set_province_controller = 13917
+        set_province_controller = 13933
+
         #Соединение Горловка-Енакиево
         set_province_controller = 6091
         set_province_controller = 14847
@@ -240,6 +245,7 @@ ukraine_rebel_lpr_1 = {
 
         RUS = {
             activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
         }
 
         LPR = {
@@ -406,6 +412,8 @@ ukraine_rebel_kpr_1 = {
 
         RUS = {
             activate_decision = RUS_end_the_war
+
+            complete_national_focus = RUS_russian_spring
         }
     }
 
@@ -462,6 +470,7 @@ ukraine_rebel_opr_1 = {
 
         RUS = {
             activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
         }
     }
 

@@ -1056,7 +1056,7 @@ country_event = {
 	id = ukraine.45
 	title = ukraine.45.t
 	desc = ukraine.45.d
-	picture = GFX_report_event_new_year_yanukovich
+	picture = GFX_report_event_ukraine_mobilization1
 	
 	is_triggered_only = yes
 
@@ -1082,12 +1082,14 @@ country_event = {
 	id = ukraine.46
 	title = ukraine.46.t
 	desc = ukraine.46.d
-	picture = GFX_report_event_new_year_yanukovich
+	picture = GFX_report_event_ukraine_mobilization1
 	
 	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {
+            load_oob = "UKR_2014_mobilization_wave_2"
+
 			country_event = {
 				id = ukraine.47
 				days = 61
@@ -1106,12 +1108,14 @@ country_event = {
 	id = ukraine.47
 	title = ukraine.47.t
 	desc = ukraine.47.d
-	picture = GFX_report_event_new_year_yanukovich
+	picture = GFX_report_event_ukraine_mobilization1
 	
 	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {
+            load_oob = "UKR_2014_mobilization_wave_3"
+
 			country_event = {
 				id = ukraine.48
 				days = 184
@@ -1130,9 +1134,15 @@ country_event = {
 	id = ukraine.48
 	title = ukraine.48.t
 	desc = ukraine.48.d
-	picture = GFX_report_event_new_year_yanukovich
+	picture = GFX_report_event_ukraine_mobilization1
 	
 	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+            load_oob = "UKR_2014_mobilization_wave_4"
+		}
+	}
 
 	option = {
 		name = ukraine.48.a
