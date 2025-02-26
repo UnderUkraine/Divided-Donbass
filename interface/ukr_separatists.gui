@@ -64,7 +64,7 @@ guiTypes = {
         }  
 		buttonType ={
             name ="AvtonomnaRespublikaKrym_oblast"
-            spriteType = "GFX_AvtonomnaRespublikaKrym"
+            spriteType = "GFX_AvtonomnaRespublikaKrym_separatism"
             position = { x= 55 y = 175 }
             Orientation = "center"
         }  
@@ -88,13 +88,13 @@ guiTypes = {
         }  
 		buttonType ={
             name ="Donetska_oblast"
-            spriteType = "GFX_Donetska"
+            spriteType = "GFX_Donetska_separatism"
             position = { x= 273 y = -65 }
             Orientation = "center"
         }  
         buttonType ={
             name ="Luhanska_oblast"
-            spriteType = "GFX_Luhanska"
+            spriteType = "GFX_Luhanska_separatism"
             position = { x= 343 y = -139 }
             Orientation = "center"
         }  
@@ -106,7 +106,7 @@ guiTypes = {
         }  
 		buttonType ={
             name ="Kharkivska_oblast"
-            spriteType = "GFX_Kharkivska"
+            spriteType = "GFX_Kharkivska_separatism"
             position = { x= 182 y = -170 }
             Orientation = "center"
         } 
@@ -142,7 +142,7 @@ guiTypes = {
         } 
         buttonType ={
             name ="Odeska_oblast"
-            spriteType = "GFX_Odeska"
+            spriteType = "GFX_Odeska_separatism"
             position = { x= -180 y = 16 }
             Orientation = "center"
         } 

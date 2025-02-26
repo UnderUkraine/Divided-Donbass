@@ -60,6 +60,9 @@
  kpr_uprising_tt:0 "§RUprising§! will start on territory of Kharkiv oblast"
  opr_uprising_tt:0 "§RUprising§! will start on territory of Odesa oblast"
 
+ kharkiv_pr_uprising_avaliable:0 "§RUprising§! will be failed if support of §Yseparatism§! in §Yoblast§! will be less than §Y20§!"
+ odesa_pr_uprising_avaliable:0 "§RUprising§! will be failed if support of §Yseparatism§! in §Yoblast§! will be less than §Y20§!"
+
  dpr_gerb_tt:0 "Donetsk People's Republic"
  lpr_gerb_tt:0 "Lugansk People's Republic"
 

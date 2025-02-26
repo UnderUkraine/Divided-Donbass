@@ -1,7 +1,7 @@
 UKR_Maidan_Support_category = {
 	yanukovich_overthrow = {
 		icon = mission_icon
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 60 #37 to February 22
 		selectable_mission = no
 		fire_only_once = yes
@@ -335,7 +335,7 @@ UKR_Separatists_in_Ukraine = {
 
 	donetsk_uprising = {
 		icon = GFX_flag_of_dpr
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 42 #42 days from Maidan to DPR independece proclamation
 		selectable_mission = no
 		fire_only_once = yes
@@ -380,7 +380,7 @@ UKR_Separatists_in_Ukraine = {
 	}
 	luhansk_uprising = {
 		icon = GFX_flag_of_lpr
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 62 #27 april luhansk pr (62 days after maidan)
 		selectable_mission = no
 		fire_only_once = yes
@@ -421,12 +421,15 @@ UKR_Separatists_in_Ukraine = {
 	}
 	Kharkiv_uprising = {
 		icon = GFX_flag_of_kpr
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 40 #7 апреля могли восстать (40 days)
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
-			check_variable = { UKR.separatism_support_in_kharkivska < 20 }
+			check_variable = {
+				UKR.separatism_support_in_kharkivska < 20 
+				tooltip = kharkiv_pr_uprising_avaliable
+			}
 		}
 		activation = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
@@ -434,6 +437,9 @@ UKR_Separatists_in_Ukraine = {
 		visible = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_KPR
 			original_tag = UKR
+		}
+		cancel_trigger = {
+			check_variable = { UKR.separatism_support_in_kharkivska < 20 }
 		}
 		cancel_effect = {
 			country_event = ukraine.21
@@ -472,12 +478,15 @@ UKR_Separatists_in_Ukraine = {
 	}
 	Odessa_uprising = {
 		icon = GFX_flag_of_opr
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 67 #4 мая могли восстать (67 days)
 		selectable_mission = no
 		fire_only_once = yes
 		available = {
-			check_variable = { UKR.separatism_support_in_odeska < 20}
+			check_variable = {
+				UKR.separatism_support_in_odeska < 20
+				tooltip = odesa_pr_uprising_avaliable
+			}
 		}
 		activation = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
@@ -485,6 +494,9 @@ UKR_Separatists_in_Ukraine = {
 		visible = {
 			has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_OPR
 			original_tag = UKR
+		}
+		cancel_trigger = {
+			check_variable = { UKR.separatism_support_in_odeska < 20 }
 		}
 		cancel_effect = {
 			country_event = ukraine.20
@@ -520,7 +532,7 @@ UKR_Separatists_in_Ukraine = {
 
 	RUS_end_the_war = {
 		icon = GFX_flag_of_dpr
-		is_good = yes
+		is_good = no
 		days_mission_timeout = 151
 		selectable_mission = no
 		fire_only_once = yes

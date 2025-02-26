@@ -727,6 +727,194 @@ ukraine_set_dem_zone = {
     156 = {
         set_demilitarized_zone = yes
     }
+
+    #Kharkiv oblast
+    185 = {
+        set_demilitarized_zone = yes
+    }
+    192 = {
+        set_demilitarized_zone = yes
+    }
+    197 = {
+        set_demilitarized_zone = yes
+    }
+    154 = {
+        set_demilitarized_zone = yes
+    }
+    133 = {
+        set_demilitarized_zone = yes
+    }
+    116 = {
+        set_demilitarized_zone = yes
+    }
+    104 = {
+        set_demilitarized_zone = yes
+    }
+    141 = {
+        set_demilitarized_zone = yes
+    }
+    179 = {
+        set_demilitarized_zone = yes
+    }
+    218 = {
+        set_demilitarized_zone = yes
+    }
+    117 = {
+        set_demilitarized_zone = yes
+    }
+    137 = {
+        set_demilitarized_zone = yes
+    }
+    142 = {
+        set_demilitarized_zone = yes
+    }
+    146 = {
+        set_demilitarized_zone = yes
+    }
+    159 = {
+        set_demilitarized_zone = yes
+    }
+    165 = {
+        set_demilitarized_zone = yes
+    }
+    109 = {
+        set_demilitarized_zone = yes
+    }
+    105 = {
+        set_demilitarized_zone = yes
+    }
+    115 = {
+        set_demilitarized_zone = yes
+    }
+    144 = {
+        set_demilitarized_zone = yes
+    }
+    159 = {
+        set_demilitarized_zone = yes
+    }
+    163 = {
+        set_demilitarized_zone = yes
+    }
+    174 = {
+        set_demilitarized_zone = yes
+    }
+    193 = {
+        set_demilitarized_zone = yes
+    }
+    239 = {
+        set_demilitarized_zone = yes
+    }
+    216 = {
+        set_demilitarized_zone = yes
+    }
+    191 = {
+        set_demilitarized_zone = yes
+    }
+    214 = {
+        set_demilitarized_zone = yes
+    }
+    208 = {
+        set_demilitarized_zone = yes
+    }
+    123 = {
+        set_demilitarized_zone = yes
+    }
+    153 = {
+        set_demilitarized_zone = yes
+    }
+    #Zaporizhia oblast
+    432 = {
+        set_demilitarized_zone = yes
+    }
+    398 = {
+        set_demilitarized_zone = yes
+    }
+    287 = {
+        set_demilitarized_zone = yes
+    }
+    #Azov base
+    562 = {
+        set_demilitarized_zone = yes
+    }
+    #Odesa oblast
+    454 = {
+        set_demilitarized_zone = yes
+    }
+    426 = {
+        set_demilitarized_zone = yes
+    }
+    401 = {
+        set_demilitarized_zone = yes
+    }
+    376 = {
+        set_demilitarized_zone = yes
+    }
+    362 = {
+        set_demilitarized_zone = yes
+    }
+    339 = {
+        set_demilitarized_zone = yes
+    }
+    341 = {
+        set_demilitarized_zone = yes
+    }
+    344 = {
+        set_demilitarized_zone = yes
+    }
+    382 = {
+        set_demilitarized_zone = yes
+    }
+    386 = {
+        set_demilitarized_zone = yes
+    }
+    418 = {
+        set_demilitarized_zone = yes
+    }
+    434 = {
+        set_demilitarized_zone = yes
+    }
+    409 = {
+        set_demilitarized_zone = yes
+    }
+    452 = {
+        set_demilitarized_zone = yes
+    }
+    467 = {
+        set_demilitarized_zone = yes
+    }
+    487 = {
+        set_demilitarized_zone = yes
+    }
+    492 = {
+        set_demilitarized_zone = yes
+    }
+    488 = {
+        set_demilitarized_zone = yes
+    }
+    494 = {
+        set_demilitarized_zone = yes
+    }
+    511 = {
+        set_demilitarized_zone = yes
+    }
+    482 = {
+        set_demilitarized_zone = yes
+    }
+    496 = {
+        set_demilitarized_zone = yes
+    }
+    513 = {
+        set_demilitarized_zone = yes
+    }
+    518 = {
+        set_demilitarized_zone = yes
+    }
+    527 = {
+        set_demilitarized_zone = yes
+    }
+    520 = {
+        set_demilitarized_zone = yes
+    }
 }
 
 republics_victory_script = {

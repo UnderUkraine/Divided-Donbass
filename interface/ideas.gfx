@@ -28,8 +28,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/UKR_cooperation_russia.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_UKR_dead_VPK"
-		texturefile = "gfx/interface/ideas/UKR_dead_VPK.dds"
+		name = "GFX_idea_UKR_Ukrainian_VPK"
+		texturefile = "gfx/interface/ideas/UKR_Ukrainian_VPK.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_UKR_demographic_crisis1"

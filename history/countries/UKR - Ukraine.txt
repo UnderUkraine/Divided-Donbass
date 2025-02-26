@@ -1115,7 +1115,7 @@ set_country_flag = startup_information_country_info
 		UKR_cooperation_russia
 		UKR_confused_army
 		UKR_demographic_crisis1
-		UKR_dead_VPK
+		UKR_Ukrainian_VPK
 
 		world_recognition
 		president_parlament_republic
