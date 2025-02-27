@@ -1,7 +1,0 @@
-ukraine_elections_set_support = {
-    set_variable = { id = ukr_poroshenko_support_in_kyiv value = 64 }
-    set_variable = { id = ukr_timoshenko_support_in_kyiv  value = 13 }
-
-    set_variable = { id = ukr_poroshenko_support_in_lviv_oblast value = 60 }
-    set_variable = { id = ukr_timoshenko_support_in_lviv_oblast value = 6 }
-}

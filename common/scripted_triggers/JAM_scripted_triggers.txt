@@ -1,6 +1,0 @@
-JAM_st_should_run_daily = {
-    OR = {
-        is_ai    = no
-        is_major = yes
-    }
-}
