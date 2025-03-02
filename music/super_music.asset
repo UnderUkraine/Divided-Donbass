@@ -1,0 +1,12 @@
+music = {
+	name = "super_start_ato"
+	file = "super_events/atostart.ogg"
+}
+music = {
+	name = "super_yanukovich_overthrow"
+	file = "super_events/yanukovichoverthrow.ogg"
+}
+music = {
+	name = "ukrainian_victory_over_separatists"
+	file = "super_events/ukrainianvictoryoverseparatists.ogg"
+}

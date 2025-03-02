@@ -1,0 +1,63 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		1292 1440 1627 1651 1973 2030 4003 4011 4175 4408 4468 4664 4715 4739 5015 5511 5699 6099 6312 6315 6364 6658 6699 6707 6736 6782 6848 7527 7580 7627 7759 7833 8020 13485 13500 13510 13530 13544 13559 13584 13585 13592 13599 13603 13611 13616 13628 13632 13633 13648 13653 13675 13709 13711 13737 13744 13745 13746 13756 13760 13767 13771 13776 13787 13791 13792 13800 13801 13807 13816 13817 13821 13833 13834 13839 13845 13850 13855 13861 13865 13866 13883 13886 13894 13903 13918 13936 13944 13945 13973 13992 13999 14006
+	}
+	history={
+      victory_points = { 6658 3 }
+      victory_points = { 13599 3 }
+      victory_points = { 13632 1 }
+      victory_points = { 4408 3 }
+      victory_points = { 13767 3 }
+      victory_points = { 13745 3 }
+      victory_points = { 13760 3 }
+      victory_points = { 4739 3 }
+      victory_points = { 6707 1 }
+		victory_points = { 13584 5 }
+		owner = UKR
+		add_core_of = UKR
+
+		victory_points = {
+			13992 3
+		}
+		victory_points = {
+			13944 3
+		}
+		victory_points = {
+			13918 5
+		}
+		victory_points = {
+			13833 3
+		}
+		victory_points = {
+			13801 3
+		}
+		victory_points = {
+			7527 3
+		}
+		victory_points = {
+			7627 3
+		}
+		victory_points = {
+			14006 3
+		}
+		victory_points = {
+			13792 3
+		}
+		victory_points = {
+			13746 3
+		}
+		victory_points = {
+			13653 5
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+on_actions = {
+	on_daily_DPR = {
+		effect = {
+			IF = {
+				limit = {
+					separatists_controls_cities_2014 = yes
+				}
+
+				republics_victory_script = yes
+			}
+		}
+	}
+}

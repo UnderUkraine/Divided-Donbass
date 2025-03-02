@@ -1,0 +1,29 @@
+characters = {
+	vladimir_putin = {
+		name = vladimir_putin
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/RUS/vladimir_putin.dds"
+			}
+		}
+		country_leader = {
+			ideology = autoritarian_democractic
+			traits = {  
+				president_of_russian_federation
+			}
+		}
+	}
+	aleksei_navalniy = {
+		name = aleksei_navalniy
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/RUS/aleksei_navalniy.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  
+			}
+		}
+	}
+}

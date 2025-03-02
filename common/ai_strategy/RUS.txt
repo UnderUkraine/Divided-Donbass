@@ -1,0 +1,75 @@
+RUS_rush_in_crimea_2014 = {
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		has_global_flag = RUS_rush_in_crimea
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = RUS_rush_in_crimea
+		}
+	}
+	
+	ai_strategy = {
+		type = front_control
+		tag = CRI
+		ordertype = front
+		execution_type = rush
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -500
+	}
+}
+
+RUS_units_on_border_with_Ukraine = {
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		always = yes
+	}
+
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 5
+		id = 128
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 5
+		id = 30
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 5
+		id = 49
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 5
+		id = 21
+	}
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		value = 5
+		id = 9
+	}
+
+	#Belarus
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = BLR
+		value = 10000
+	}
+}

@@ -1,0 +1,2572 @@
+focus_tree = {
+	id = ukraine_focus
+	country = {
+		factor = 0
+	}
+	default = no
+	continuous_focus_position = { x = 5500 y = 4000 }
+
+	initial_show_position = {
+		focus = UKR_anarchy_in_goverment
+	}
+	
+	focus = {
+		id = UKR_anarchy_in_goverment
+		icon = GFX_focus_UKR_anarchy_in_goverment
+		cost = 1
+		x = 25
+		y = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_anarchy_in_goverment"
+            #Автоскип
+		    add_political_power = -75
+		}
+	}
+	focus = {
+		id = UKR_coalition_in_rada
+		icon = GFX_focus_UKR_coalition_in_rada
+		cost = 3
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_anarchy_in_goverment}
+		relative_position_id = UKR_anarchy_in_goverment
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            clr_country_flag = rada_2012
+
+			#set_variable = { UKR.party_one_deputaty = 187 }
+			#set_variable = { UKR.party_two_deputaty = 102 }
+			#set_variable = { UKR.party_three_deputaty = 40 }
+			#set_variable = { UKR.party_four_deputaty = 38 }
+			#set_variable = { UKR.party_five_deputaty = 32 }
+			#set_variable = { UKR.party_six_deputaty = 51 }
+			
+			set_variable = { UKR_rada_fatherland_seats = 86 }
+			set_variable = { UKR_rada_party_of_regions_seats = 78 }
+			set_variable = { UKR_rada_svoboda_seats = 35 }
+			set_variable = { UKR_rada_udar_seats = 41 }
+			set_variable = { UKR_rada_kpu_seats = 0 }
+			set_variable = { UKR_rada_right_sector_seats = 0 }
+			set_variable = { UKR_rada_economic_development_seats = 41 }
+			set_variable = { UKR_rada_suverena_evropeiska_ukraina_seats = 35 }
+			set_variable = { UKR_rada_peoples_will_seats = 0 }
+			set_variable = { UKR_rada_peoples_front_seats = 0 }
+			set_variable = { UKR_rada_european_solidarity_seats = 0 }
+			set_variable = { UKR_rada_servant_of_the_people_seats = 0 }
+			set_variable = { UKR_rada_opposition_bloc_seats = 0 }
+
+			set_country_flag = fatherland_in_power
+			set_country_flag = svoboda_in_power
+			set_country_flag = udar_in_power
+			set_country_flag = economic_development_in_power
+			set_country_flag = suverena_evropeiska_ukraina_in_power
+
+			set_country_flag = party_of_regions_in_opposition
+
+			clr_country_flag = fatherland_in_opposition
+			clr_country_flag = party_of_regions_in_power
+			clr_country_flag = svoboda_in_opposition
+			clr_country_flag = udar_in_opposition
+			clr_country_flag = kpu_in_power			#They were officially in opposition to everyone, but basically always voted with party of regions
+
+			UKR_get_non_aligned_seats = yes
+			UKR_get_rada_seats = yes
+			UKR_get_government_majority_status = yes
+
+			custom_effect_tooltip = UKR_new_rada_temp_government_tt
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_coalition_in_rada"
+		}
+	}
+	focus = {
+		id = UKR_appel_the_un
+		icon = GFX_focus_UKR_appel_the_un
+		cost = 3
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_coalition_in_rada}
+		relative_position_id = UKR_coalition_in_rada
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		completion_reward = {
+			country_event = ukraine.15
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_appel_the_un"
+		}
+	}
+
+	focus = {
+		id = UKR_partial_mobilization
+		icon = GFX_focus_UKR_ato
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_appel_the_un}
+		relative_position_id = UKR_appel_the_un
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_partial_mobilization"
+
+			hidden_effect = {
+				country_event = {
+					id = ukraine.45
+					days = 15
+				}
+			}
+            custom_effect_tooltip = UKR_partial_mobilization_events_tt
+		}
+	}
+	focus = {
+		id = UKR_operations_in_slobod_ukraine
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = yes }
+				}
+			}
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Otrubit_vodu_Krimu
+		icon = GFX_focus_UKR_clashes_odessa
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_increas_militsia_in_odessa}
+		relative_position_id = UKR_increas_militsia_in_odessa
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_odeska
+				value = 5
+				tooltip = Separatists_support_minus_5_odesa_tt
+			}
+		}
+	}
+	focus = {
+		id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
+		icon = GFX_focus_UKR_sbu_on_donbass
+		cost = 10
+		x = -3
+		y = 1
+
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		completion_reward = {
+	    }
+    }
+	focus = {
+		id = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
+		icon = GFX_focus_UKR_defence_donbass
+		cost = 10
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass}
+		relative_position_id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		completion_reward = {
+			443 = { set_demilitarized_zone = no }
+			420 = { set_demilitarized_zone = no }
+			356 = { set_demilitarized_zone = no }
+			340 = { set_demilitarized_zone = no }
+			322 = { set_demilitarized_zone = no }
+			364 = { set_demilitarized_zone = no }
+			259 = { set_demilitarized_zone = no }
+			219 = { set_demilitarized_zone = no }
+		}
+	}
+	focus = {
+		id = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
+		icon = GFX_focus_UKR_defence_donbass
+		cost = 10
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass}
+		relative_position_id = UKR_Resistance_to_Pro_Russian_Rallies_in_Donbass
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		completion_reward = {
+			210 = { set_demilitarized_zone = no }
+			200 = { set_demilitarized_zone = no }
+			203 = { set_demilitarized_zone = no }
+			170 = { set_demilitarized_zone = no }
+			180 = { set_demilitarized_zone = no }
+			161 = { set_demilitarized_zone = no }
+			156 = { set_demilitarized_zone = no }
+			136 = { set_demilitarized_zone = no }
+			171 = { set_demilitarized_zone = no }
+		}
+	}
+	focus = {
+		id = UKR_Arrest_pro_russian_supporters_in_kharkov
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_operations_in_slobod_ukraine}
+		relative_position_id = UKR_operations_in_slobod_ukraine
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = yes }
+				}
+			}
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			subtract_from_variable = {
+				var = UKR.separatism_support_in_kharkivska
+				value = 5
+				tooltip = Separatists_support_minus_5_kharkiv_tt
+			}
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_resistance_kharkov"
+			if = {
+				limit = {
+					is_ai = no
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 5
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				limit = {
+					is_historical_focus_on = no
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 5
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				limit = {
+					is_historical_focus_on = yes
+				}
+				subtract_from_variable = {
+					var = UKR.separatism_support_in_kharkivska
+					value = 100
+					tooltip = Separatists_support_minus_5_kharkiv_tt
+				}
+			}
+		}
+	}
+	focus = {
+		id = UKR_increas_militsia_in_odessa
+		icon = GFX_focus_UKR_deep_all_militsia_on_odessa
+		cost = 5
+		x = 3
+		y = 1
+
+		prerequisite = {focus = UKR_partial_mobilization}
+		relative_position_id = UKR_partial_mobilization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Separatists_defeated
+		icon = GFX_focus_UKR_preparing_for_the_inevitable
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
+	    }
+		prerequisite = {
+			focus = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
+	    }
+		prerequisite = {
+			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
+	    }
+		prerequisite = {
+			focus = UKR_Otrubit_vodu_Krimu
+	    }
+		allow_branch = {
+			NOT = {
+			has_global_flag = UKR_ATO_Started
+			}
+		}
+		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor  = 10
+				if = {
+					limit = { is_historical_focus_on = no }
+				}
+			}
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Form_Crimean_Liberation_Army
+		icon = GFX_focus_UKR_preparing_for_the_inevitable
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_Separatists_defeated
+	    }
+		relative_position_id = UKR_Separatists_defeated
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 10
+				if = {
+					limit = { is_historical_focus_on = no }
+				}
+			}
+		}
+
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_The_capture_of_Slavyansk
+		icon = GFX_focus_UKR_preparing_for_the_inevitable
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = UKR_To_let_down_the_milice_in_parts_of_Luhansk_region
+	    }
+		prerequisite = {
+			focus = UKR_To_let_down_the_milice_in_parts_of_Donetsk_region
+	    }
+		prerequisite = {
+			focus = UKR_Arrest_pro_russian_supporters_in_kharkov
+	    }
+		prerequisite = {
+			focus = UKR_Otrubit_vodu_Krimu
+	    }
+		relative_position_id = UKR_Arrest_pro_russian_supporters_in_kharkov
+		ai_will_do = {
+			factor = 1
+		}
+		allow_branch = {
+			has_global_flag = UKR_ATO_Started
+		}
+		bypass = {
+			has_global_flag = UKR_ATO_Started
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Emergency_redeployment
+		icon = GFX_focus_UKR_Emergency_redeployment
+		cost = 3
+		x = 4
+		y = 1
+
+		prerequisite = {focus = UKR_The_capture_of_Slavyansk}
+		relative_position_id = UKR_The_capture_of_Slavyansk
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Emergency_redeployment"
+
+            country_event = ukraine.44
+			add_timed_idea = {
+				idea = UKR_emergency_redeployment
+				days = 15
+			}
+		}
+	}
+	focus = {
+		id = UKR_Mobilization_of_SBU
+		icon = GFX_focus_UKR_Mobilization_of_SBU
+		cost = 5
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Emergency_redeployment}
+		relative_position_id = UKR_Emergency_redeployment
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Mobilization_of_SBU"
+
+			load_oob = "UKR_mobilization_of_SBU_2014"
+		}
+	}
+	focus = {
+		id = UKR_Stabilization_of_frontline
+		icon = GFX_focus_UKR_ato
+		cost = 15
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Mobilization_of_SBU}
+		relative_position_id = UKR_Mobilization_of_SBU
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Stabilization_of_frontline"
+
+			add_timed_idea = {
+				idea = UKR_stabilization_of_frontline
+				days = 30
+			}
+		}
+	}
+	focus = {
+		id = UKR_Volunteer_formations
+		icon = GFX_focus_UKR_Volunteer_formations
+		cost = 15
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = UKR_confused_army
+				add_idea = UKR_volunteer_army
+			}
+			set_country_flag = UKR_ATO_Dobrobati
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations"
+		}
+	}
+	focus = {
+		id = UKR_Volunteer_formations_spesial_forces_mvs
+		icon = GFX_focus_UKR_Volunteer_formations_spesial_forces_mvs
+		cost = 15
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_Volunteer_formations
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Volunteer_formations_spesial_forces_mvs"
+
+			set_country_flag = UKR_ATO_Dobrobati_MVD
+			custom_effect_tooltip = UKR_Volunteer_formations_spesial_forces_mvs_tt
+		}
+	}
+	focus = {
+		id = UKR_battalion_azov
+		icon = GFX_focus_UKR_battalion_azov
+		cost = 20
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_Volunteer_formations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = ukraine.4
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_battalion_azov"
+		}
+	}
+	focus = {
+		id = UKR_deconservation_of_arms
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 15
+		x = 4
+		y = 1
+
+		prerequisite = {focus = UKR_Volunteer_formations}
+		relative_position_id = UKR_Volunteer_formations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_buy_weapon"
+
+			set_country_flag = UKR_arms_deconservation_flag
+		}
+	}
+	focus = {
+		id = UKR_general_staff
+		icon = GFX_focus_UKR_general_staff
+		cost = 20
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
+		
+		ai_will_do = {
+			factor = 65
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_general_staff"
+
+			custom_effect_tooltip = UKR_general_staff_tt
+		}
+	}
+	focus = {
+		id = UKR_Start_of_operations_in_the_ATO_zone
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_general_staff}
+		relative_position_id = UKR_general_staff
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Start_of_operations_in_the_ATO_zone"
+
+			custom_effect_tooltip = UKR_Start_of_operations_in_the_ATO_zone_tt
+			set_country_flag = UKR_ATO_Operations
+		}
+	}
+	focus = {
+		id = UKR_Our_next_steps
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
+		relative_position_id = UKR_Start_of_operations_in_the_ATO_zone
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Our_next_steps"
+		}
+	}
+	focus = {
+		id = UKR_Deep_offensive
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Our_next_steps}
+		relative_position_id = UKR_Our_next_steps
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Deep_offensive"
+		}
+	}
+	focus = {
+		id = UKR_End_separatism
+		icon = GFX_focus_UKR_ato
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Deep_offensive}
+		relative_position_id = UKR_Deep_offensive
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = UKR_End_separatism_trigger_tt
+				
+				controls_province = 13452
+				controls_province = 13978
+				controls_state = 238
+				controls_state = 304
+				controls_state = 283
+				controls_province = 12048
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_End_separatism"
+			
+			
+		}
+	}
+	focus = {
+		id = UKR_Accelerated_fortification_construction
+		icon = GFX_focus_UKR_Accelerated_fortification_construction
+		cost = 20
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Start_of_operations_in_the_ATO_zone}
+		relative_position_id = UKR_Start_of_operations_in_the_ATO_zone
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Accelerated_fortification_construction"
+
+			add_timed_idea = {
+				idea = UKR_accelerated_fortification_construction
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = UKR_informations_front
+		icon = GFX_focus_UKR_informations_front
+		cost = 20
+		x = -5
+		y = 1
+
+		prerequisite = {focus = UKR_Stabilization_of_frontline}
+		relative_position_id = UKR_Stabilization_of_frontline
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_informations_front"
+		}
+	}
+	focus = {
+		id = UKR_Exposing_fakes
+		icon = GFX_focus_UKR_Exposing_fakes
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_informations_front}
+		relative_position_id = UKR_informations_front
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Exposing_fakes"
+		}
+	}
+	focus = {
+		id = UKR_SBU_counterintelligence_operations
+		icon = GFX_focus_UKR_ato
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Exposing_fakes}
+		relative_position_id = UKR_Exposing_fakes
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_SBU_counterintelligence_operations"
+		}
+	}
+	focus = {
+		id = UKR_Need_for_negotiations
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 8
+		y = 1
+
+		prerequisite = {focus = UKR_ato}
+		relative_position_id = UKR_ato
+
+		allow_branch = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_to_variable = {
+				var = global.peace_progress_minsk
+				value = 5
+				tooltip = Peace_progress_plus_five_tt
+			}
+		}
+	}
+	focus = {
+		id = UKR_Convene_the_international_community
+		icon = GFX_goal_unknown
+		cost = 25
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Need_for_negotiations}
+		relative_position_id = UKR_Need_for_negotiations
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = Peace_progress_invite_international_tt
+
+			set_country_flag = UKR_Convene_the_international_community_flag
+		}
+	}
+	focus = {
+		id = UKR_Initiate_discussions_on_a_peaceful_settlement
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Convene_the_international_community}
+		relative_position_id = UKR_Convene_the_international_community
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = Initiate_discussions_on_a_peaceful_settlement_tt
+			hidden_effect = {
+				country_event = {
+					id = ukraine.22
+					days = 5
+				}
+			}
+		}
+	}
+	focus = {
+		id = UKR_Minsk_one
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Initiate_discussions_on_a_peaceful_settlement}
+		relative_position_id = UKR_Initiate_discussions_on_a_peaceful_settlement
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Negotiations_continue
+		icon = GFX_goal_unknown
+		cost = 25
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Minsk_one}
+		relative_position_id = UKR_Minsk_one
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Attempting_a_new_meeting
+		icon = GFX_goal_unknown
+		cost = 20
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Negotiations_continue}
+		relative_position_id = UKR_Negotiations_continue
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		available = {
+			has_global_flag = global_minsk_one_failed
+		}
+
+		completion_reward = {
+			#Unlock decisions
+		}
+	}
+	focus = {
+		id = UKR_Minsk_two
+		icon = GFX_UKR_Minsk_two
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Attempting_a_new_meeting}
+		relative_position_id = UKR_Attempting_a_new_meeting
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_The_beginning_of_hybrid_warfare
+		icon = GFX_goal_unknown
+		cost = 15
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Minsk_two}
+		relative_position_id = UKR_Minsk_two
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_Net_compliance_with_the_Minsk_protocols
+		icon = GFX_goal_unknown
+		cost = 15
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Minsk_two}
+		relative_position_id = UKR_Minsk_two
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = UKR_vneocheridnie_prezidenstkie_vibori
+		icon = GFX_focus_UKR_vneocheridnie_prezidenstkie_vibori
+		cost = 1
+		x = -4
+		y = 2
+		prerequisite = {
+			focus = UKR_The_capture_of_Slavyansk
+			focus = UKR_Separatists_defeated
+	    }
+		relative_position_id = UKR_The_capture_of_Slavyansk
+
+		allow_branch = {
+			has_country_flag = UKR_presidential_elections
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_vibori_v_verhovnuyu_radu
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = UKR_yulia_timoshenko
+		icon = GFX_focus_UKR_yulia_timoshenko
+		cost = 1
+		x = -30
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_yulia_timoshenko"
+		}
+	}
+	focus = {
+		id = UKR_petr_poroshenko
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -6
+		y = 1
+
+		prerequisite = {focus = UKR_vneocheridnie_prezidenstkie_vibori}
+		relative_position_id = UKR_vneocheridnie_prezidenstkie_vibori
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_petr_poroshenko"
+		}
+	}
+	focus = {
+		id = UKR_Post_Maidan_Stabilisierung
+		icon = GFX_focus_UKR_Post_Maidan_Stabilisierung
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_petr_poroshenko}
+		relative_position_id = UKR_petr_poroshenko
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Post_Maidan_Stabilisierung"
+		}
+	}
+	focus = {
+		id = UKR_poroshenko_economic_reforms
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
+		relative_position_id = UKR_Post_Maidan_Stabilisierung
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_poroshenko_economic_reforms"
+		}
+	}
+	focus = {
+		id = UKR_land_reform
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -10
+		y = 1
+
+		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
+		relative_position_id = UKR_Post_Maidan_Stabilisierung
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_land_reform"
+		}
+	}
+	focus = {
+		id = UKR_Liberalization_of_land_market
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_land_reform}
+		relative_position_id = UKR_land_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Liberalization_of_land_market"
+		}
+	}
+	focus = {
+		id = UKR_Decentralization
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_land_reform}
+		relative_position_id = UKR_land_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Decentralization"
+		}
+	}
+	focus = {
+		id = UKR_Establishment_of_OTGs
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Decentralization}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Establishment_of_OTGs"
+		}
+	}
+	focus = {
+		id = UKR_Law_On_voluntary_association_of_ter_communities
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Decentralization}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Law_On_voluntary_association_of_ter_communities"
+		}
+	}
+	focus = {
+		id = UKR_Tax_sphere
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_Law_On_voluntary_association_of_ter_communities}
+		prerequisite = {focus = UKR_Establishment_of_OTGs}
+		relative_position_id = UKR_Decentralization
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Tax_sphere"
+		}
+	}
+	focus = {
+		id = UKR_The_capital_is_more_important
+		icon = GFX_focus_UKR_The_capital_is_more_important
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Tax_sphere}
+		relative_position_id = UKR_Tax_sphere
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_The_capital_is_more_important"
+		}
+	}
+	focus = {
+		id = UKR_More_to_the_regions
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Tax_sphere}
+		relative_position_id = UKR_Tax_sphere
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_More_to_the_regions"
+		}
+	}
+	focus = {
+		id = UKR_poroshenko_corruption
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -17
+		y = 1
+
+		prerequisite = {focus = UKR_Post_Maidan_Stabilisierung}
+		relative_position_id = UKR_Post_Maidan_Stabilisierung
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_poroshenko_corruption"
+		}
+	}
+	focus = {
+		id = UKR_Fight_against_corruption
+		icon = GFX_focus_UKR_Fight_against_corruption
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_corruption}
+		relative_position_id = UKR_poroshenko_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Fight_against_corruption"
+		}
+	}
+	focus = {
+		id = UKR_NABU
+		icon = GFX_focus_UKR_NABU
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Fight_against_corruption}
+		relative_position_id = UKR_Fight_against_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_NABU"
+		}
+	}
+	focus = {
+		id = UKR_NAPK
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_NABU}
+		relative_position_id = UKR_NABU
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_NAPK"
+		}
+	}
+	focus = {
+		id = UKR_Privatization_of_private_property
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_SAP focus = UKR_NAPK}
+		relative_position_id = UKR_NAPK
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Privatization_of_private_property"
+		}
+	}
+	focus = {
+		id = UKR_SAP
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_NABU}
+		relative_position_id = UKR_NABU
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_SAP"
+		}
+	}
+	focus = {
+		id = UKR_Electronic_declaration_of_officials
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_SAP focus = UKR_NAPK}
+		relative_position_id = UKR_SAP
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Electronic_declaration_of_officials"
+		}
+	}
+	focus = {
+		id = UKR_Economic_machinations
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_corruption}
+		relative_position_id = UKR_poroshenko_corruption
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Roshen_factory
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_Economic_machinations}
+		relative_position_id = UKR_Economic_machinations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Offshoring
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Roshen_factory}
+		relative_position_id = UKR_Roshen_factory
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Ukroboronprom
+		icon = GFX_goal_unknown
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_Economic_machinations}
+		relative_position_id = UKR_Economic_machinations
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Smuggling_of_Russian_weapons
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Ukroboronprom}
+		relative_position_id = UKR_Ukroboronprom
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_negotations_with_MVF
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -4
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_economic_reforms}
+		relative_position_id = UKR_poroshenko_economic_reforms
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_negotations_with_MVF"
+		}
+	}
+	focus = {
+		id = UKR_MVF_agrees
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_MVF}
+		relative_position_id = UKR_negotations_with_MVF
+		mutually_exclusive = {
+			focus = UKR_negotations_failed
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_MVF_agrees"
+		}
+	}
+	focus = {
+		id = UKR_negotations_failed
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_MVF}
+		relative_position_id = UKR_negotations_with_MVF
+		mutually_exclusive = {
+			focus = UKR_MVF_agrees
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_negotations_failed"
+		}
+	}
+	focus = {
+		id = UKR_Extended_Funding_Program
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_failed focus = UKR_MVF_agrees}
+		relative_position_id = UKR_MVF_agrees
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Extended_Funding_Program"
+		}
+	}
+	focus = {
+		id = UKR_corruption_problem
+		icon = GFX_goal_unknown
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_failed focus = UKR_MVF_agrees}
+		relative_position_id = UKR_MVF_agrees
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_corruption_problem"
+		}
+	}
+	focus = {
+		id = UKR_Measures_to_reduce_deficit
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_failed focus = UKR_MVF_agrees}
+		relative_position_id = UKR_MVF_agrees
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_Measures_to_reduce_deficit"
+		}
+	}
+
+	focus = {
+		id = UKR_negotations_with_west_partners
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_economic_reforms}
+		relative_position_id = UKR_poroshenko_economic_reforms
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_cooperation_with_EU
+		icon = GFX_focus_UKR_cooperation_with_EU
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_west_partners}
+		relative_position_id = UKR_negotations_with_west_partners
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Macrofinance_assistance
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_cooperation_with_EU}
+		relative_position_id = UKR_cooperation_with_EU
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_American_cooperation
+		icon = GFX_focus_UKR_American_cooperation
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_west_partners}
+		relative_position_id = UKR_negotations_with_west_partners
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_American_credits
+		icon = GFX_focus_UKR_American_credits
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_American_cooperation}
+		relative_position_id = UKR_American_cooperation
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Export_development
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_American_credits}
+		prerequisite = {focus = UKR_Macrofinance_assistance}
+		relative_position_id = UKR_American_credits
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_West_partners
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_Export_development}
+		mutually_exclusive = {
+			focus = UKR_pragmatic_balance
+			focus = UKR_east_neighbor
+		}
+		relative_position_id = UKR_Export_development
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_EU_Association_Agreement
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_West_partners}
+		relative_position_id = UKR_West_partners
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Free_trade_zone_with_EU
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_EU_Association_Agreement}
+		relative_position_id = UKR_EU_Association_Agreement
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_pragmatic_balance
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Export_development}
+		mutually_exclusive = {
+			focus = UKR_West_partners
+			focus = UKR_east_neighbor
+		}
+		relative_position_id = UKR_Export_development
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_At_the_Europe_Asia_border
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_pragmatic_balance focus = UKR_West_partners}
+		relative_position_id = UKR_pragmatic_balance
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_European_weapons_imports
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_At_the_Europe_Asia_border}
+		relative_position_id = UKR_At_the_Europe_Asia_border
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_east_neighbor
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Export_development}
+		mutually_exclusive = {
+			focus = UKR_West_partners
+			focus = UKR_pragmatic_balance
+		}
+		relative_position_id = UKR_Export_development
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Trade_with_Russia
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_east_neighbor focus = UKR_pragmatic_balance}
+		relative_position_id = UKR_pragmatic_balance
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Purchase_of_Russian_weapons
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Trade_with_Russia}
+		relative_position_id = UKR_Trade_with_Russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_negotations_with_gaz_prom
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Trade_with_Russia}
+		relative_position_id = UKR_Trade_with_Russia
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_transportation_of_oil_to_europe
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_gaz_prom}
+		relative_position_id = UKR_negotations_with_gaz_prom
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Slow_down_the_pace
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_negotations_with_gaz_prom}
+		relative_position_id = UKR_negotations_with_gaz_prom
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = UKR_Strengthening_banking_system
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 5
+		y = 1
+
+		prerequisite = {focus = UKR_poroshenko_economic_reforms}
+		relative_position_id = UKR_poroshenko_economic_reforms
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Cleaning_up_banking_system
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = -2
+		y = 1
+
+		prerequisite = {focus = UKR_Strengthening_banking_system}
+		relative_position_id = UKR_Strengthening_banking_system
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Closing_insolvent_banks
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Cleaning_up_banking_system}
+		relative_position_id = UKR_Cleaning_up_banking_system
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Nationalize_Privatbank
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Strengthening_banking_system}
+		relative_position_id = UKR_Strengthening_banking_system
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_Tightening_control
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 2
+		y = 1
+
+		prerequisite = {focus = UKR_Strengthening_banking_system}
+		relative_position_id = UKR_Strengthening_banking_system
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_International_control
+		icon = GFX_focus_UKR_petr_poroshenko
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_Tightening_control}
+		relative_position_id = UKR_Tightening_control
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_completed_focus = UKR_cooperation_with_EU
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = UKR_start_army_reform
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 1
+		y = 1
+
+		#Временно тут
+		prerequisite = {focus = UKR_The_beginning_of_hybrid_warfare }
+		relative_position_id = UKR_The_beginning_of_hybrid_warfare 
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_start_army_reform"
+		}
+	}
+	focus = {
+		id = UKR_experience_donbass_war
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_start_army_reform }
+		relative_position_id = UKR_start_army_reform
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_experience_donbass_war"
+		}
+	}
+	focus = {
+		id = UKR_put_k_standart_nato
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 1
+
+		prerequisite = {focus = UKR_experience_donbass_war }
+		relative_position_id = UKR_experience_donbass_war
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_put_k_standart_nato"
+		}
+	}
+	focus = {
+		id = UKR_otkaz_ot_soveit_doctrine
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = -1
+		y = 1
+
+		prerequisite = {focus = UKR_put_k_standart_nato }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_otkaz_ot_soveit_doctrine"
+		}
+	}
+	focus = {
+		id = UKR_uvolit_starih_generalov
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 1
+		y = 1
+
+		prerequisite = {focus = UKR_put_k_standart_nato }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_uvolit_starih_generalov"
+		}
+	}
+	focus = {
+		id = UKR_naznachit_novogo_glavkoma
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 2
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_naznachit_novogo_glavkoma"
+		}
+	}
+	focus = {
+		id = UKR_vozrozhdeniye_ngu
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_vozrozhdeniye_ngu"
+		}
+	}
+	focus = {
+		id = UKR_cooruption_in_army
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = -2
+		y = 2
+
+		prerequisite = {focus = UKR_uvolit_starih_generalov }
+		prerequisite = {focus = UKR_otkaz_ot_soveit_doctrine }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_cooruption_in_army"
+		}
+	}
+	focus = {
+		id = UKR_new_general_school
+		icon = GFX_focus_UKR_buy_weapon
+		cost = 1
+		x = 0
+		y = 3
+
+		prerequisite = {focus = UKR_naznachit_novogo_glavkoma }
+		prerequisite = {focus = UKR_vozrozhdeniye_ngu }
+		prerequisite = {focus = UKR_cooruption_in_army }
+		relative_position_id = UKR_put_k_standart_nato
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus UKR_new_general_school"
+		}
+	}
+}	

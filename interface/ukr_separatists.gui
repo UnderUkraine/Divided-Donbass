@@ -1,0 +1,255 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "open_separatists_button_gui"	
+		position = { x = 0 y = 0 }	
+		size = { width = 500 height = 400 }
+		orientation = center
+		origo = center 
+
+		instantTextboxType = {
+			name = "maidan_description"
+			position = { x = 30 y = 10 }
+			font = "hoi_20b"
+			format = center
+			text = "[get_separatists_in_Ukraine_description]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+
+		buttonType = {
+			name ="Open_separatists_button"
+			quadTextureSprite ="GFX_separatists_gui_open_button"
+			position = { x=115 y=150 }
+			Orientation = centre
+		}
+	}
+
+	containerWindowType = {
+		name = "separatists_gui_window1"	
+		position = { x = 0 y = 0 }	
+		size = { width = 1200 height = 800 }
+		orientation = center
+		origo = center 
+
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_background_gui_elections"
+		}
+
+		#buttonType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}   
+
+		buttonType ={
+            name ="lvivska_oblast"
+            spriteType = "GFX_lvivska_oblast"
+            position = { x= -488 y = -185 }
+            Orientation = "center"
+        }    
+		buttonType ={
+            name ="volynska_oblast"
+            spriteType = "GFX_volynska_oblast"
+            position = { x= -435 y = -300 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="AvtonomnaRespublikaKrym_oblast"
+            spriteType = "GFX_AvtonomnaRespublikaKrym_separatism"
+            position = { x= 55 y = 175 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Cherkaska_oblast"
+            spriteType = "GFX_Cherkaska"
+            position = { x= -104 y = -150 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Chernihivska_oblast"
+            spriteType = "GFX_Chernihivska"
+            position = { x= -55 y = -340 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Dnipropetrovska_oblast"
+            spriteType = "GFX_Dnipropetrovska"
+            position = { x= 79 y = -64 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Donetska_oblast"
+            spriteType = "GFX_Donetska_separatism"
+            position = { x= 273 y = -65 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Luhanska_oblast"
+            spriteType = "GFX_Luhanska_separatism"
+            position = { x= 343 y = -139 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="IvanoFrankivska_oblast"
+            spriteType = "GFX_IvanoFrankivska"
+            position = { x= -438 y = -92 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Kharkivska_oblast"
+            spriteType = "GFX_Kharkivska_separatism"
+            position = { x= 182 y = -170 }
+            Orientation = "center"
+        } 
+		buttonType ={
+            name ="Khersonska_oblast"
+            spriteType = "GFX_Khersonska"
+            position = { x= 5 y = 66 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Khmelnytska_oblast"
+            spriteType = "GFX_Khmelnytska"
+            position = { x= -297 y = -180 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Kyivska_oblast"
+            spriteType = "GFX_Kyivska"
+            position = { x= -125 y = -263 }
+            Orientation = "center"
+        }  
+		buttonType ={
+            name ="Kyrovohradska_oblast"
+            spriteType = "GFX_Kyrovohradska"
+            position = { x= -97 y = -55 }
+            Orientation = "center"
+        } 
+        buttonType ={
+            name ="Mykolaivska_oblast"
+            spriteType = "GFX_Mykolaivska"
+            position = { x= -70 y = 17 }
+            Orientation = "center"
+        } 
+        buttonType ={
+            name ="Odeska_oblast"
+            spriteType = "GFX_Odeska_separatism"
+            position = { x= -180 y = 16 }
+            Orientation = "center"
+        } 
+        buttonType ={
+            name ="Poltavska_oblast"
+            spriteType = "GFX_Poltavska"
+            position = { x= 31 y = -180 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Sumska_oblast"
+            spriteType = "GFX_Sumska"
+            position = { x= 79 y = -338 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Zaporizka_oblast"
+            spriteType = "GFX_Zaporizka"
+            position = { x= 149 y = 23 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Ternopilska_oblast"
+            spriteType = "GFX_Ternopilska"
+            position = { x= -375 y = -152 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Vinnytska_oblast"
+            spriteType = "GFX_Vinnytska"
+            position = { x= -228 y = -122 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Zhytomyrska_oblast"
+            spriteType = "GFX_Zhytomyrska"
+            position = { x= -240 y = -274 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Rivnenska_oblast"
+            spriteType = "GFX_Rivnenska"
+            position = { x= -355 y = -300 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Zakarpattia_oblast"
+            spriteType = "GFX_Zakarpattia"
+            position = { x= -515 y = -55 }
+            Orientation = "center"
+        }  
+        buttonType ={
+            name ="Chernivtsi_oblast"
+            spriteType = "GFX_Chernivtsi"
+            position = { x= -364 y = -20 }
+            Orientation = "center"
+        }  
+	}
+
+    containerWindowType = {
+		name = "separatists_dop_window"	
+		position = { x = 750 y = -180 }	
+		size = { width = 429 height = 394 }
+		orientation = center
+		origo = center 
+
+		fade_time = 100
+		moveable = no
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_gui_background_separatists_small"
+		}
+
+		#buttonType ={
+        #    name ="ukrainemap"
+        #    spriteType = "GFX_volynska_oblast1"
+        #    position = { x= -520 y = -400 }
+        #    Orientation = "center"
+        #}   
+
+        instantTextboxType = {
+			name = "oblast_name"
+			position = { x = -10 y = 50 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_name]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        instantTextboxType = {
+			name = "oblast_separatism_text"
+			position = { x = -10 y = 320 }
+			font = "hoi_30header"
+			format = center
+			text = "[separatists_selected_oblast_separatism]"
+			maxWidth = 450
+			maxHeight = 50
+		}
+        buttonType ={
+            name ="oblast_image"
+            spriteType = "GFX_Zakarpattia"
+            position = { x= -60 y = -80 }
+            Orientation = "center"
+        }  
+	}
+}

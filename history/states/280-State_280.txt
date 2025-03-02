@@ -1,0 +1,39 @@
+state={
+	id=280
+	name="STATE_280"
+	provinces={
+		6821 7146 8099 11585 11592 11599 11604 11611 11627 11628 11638 11647 11654 11672 11675 11686 11692 11708 11738 
+	}
+	history={
+      victory_points = { 11647 5 }
+		victory_points = { 8099 3 }
+		owner = UKR
+		add_core_of = UKR
+		2015.1.1 = {
+			transfer_state_to = LPR
+			add_core_of = LPR
+
+			UKR = {
+				set_province_controller = 6821
+				set_province_controller = 8099
+				set_province_controller = 11672
+				set_province_controller = 11627
+				set_province_controller = 11585
+				set_province_controller = 11611
+				set_province_controller = 7146
+				set_province_controller = 11692
+				set_province_controller = 11738
+				set_province_controller = 11708
+				set_province_controller = 11686
+				set_province_controller = 11654
+			}
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

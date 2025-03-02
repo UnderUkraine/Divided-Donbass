@@ -1,0 +1,117 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_maidan_background_image"
+		textureFile = "gfx/interface/decisions/Maidan_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_separatists_background_image"
+		textureFile = "gfx/interface/decisions/Separatists_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_buy_equipment_background_image"
+		textureFile = "gfx/interface/decisions/Buy_equipment_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_gerb_Ukraine_decision"
+		textureFile = "gfx/interface/decisions/gerb_of_Ukraine.dds"
+	}
+	spriteType = {
+		name = "GFX_sbu_icon_decision"
+		textureFile = "gfx/interface/decisions/sbu_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_of_AFU_decision"
+		textureFile = "gfx/interface/decisions/icon_of_AFU.dds"
+	}
+
+	spriteType = {
+		name = "GFX_flag_of_kpr"
+		textureFile = "gfx/interface/decisions/flag_of_kpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_dpr"
+		textureFile = "gfx/interface/decisions/flag_of_dpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_lpr"
+		textureFile = "gfx/interface/decisions/flag_of_lpr.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_of_opr"
+		textureFile = "gfx/interface/decisions/flag_of_opr.dds"
+	}
+	spriteType = {
+		name = "GFX_grad_icon"
+		textureFile = "gfx/interface/decisions/grad_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Ukraine_and_russia_gerbs_decision"
+		textureFile = "gfx/interface/decisions/Ukraine_and_russia_gerbs.dds"
+	}
+	spriteType = {
+		name = "GFX_Minsk_image"
+		textureFile = "gfx/interface/decisions/Minsk_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_Verhovna_rada_decision"
+		textureFile = "gfx/interface/decisions/Verhovna_rada_decisions.dds"
+	}
+	spriteType = {
+		name = "GFX_Rada_image"
+		textureFile = "gfx/interface/decisions/Rada_picture.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_donbass_map_icon_decision"
+		textureFile = "gfx/interface/decisions/donbass_map_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_independence_war_background_image"
+		textureFile = "gfx/interface/decisions/independence_war_picture.dds"
+	}
+
+	#DOBROBATI
+
+
+
+	#MVD
+	spriteType = {
+		name = "GFX_MVD_Dnipro_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Dnipro_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Dnipro_2_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Dnipro_2.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kyiv_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kyiv_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kyiv_2_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kyiv_2.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Artemivsk_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Artemivsk.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Ivano_frankivsk_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Ivano_frankivsk.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kharkiv_1_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kharkiv_1.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Slabozhanshchyna_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Slabozhanshchyna.dds"
+	}
+	spriteType = {
+		name = "GFX_MVD_Kherson_decision"
+		textureFile = "gfx/interface/decisions/Dobrobati/MVD_Kherson.dds"
+	}
+}

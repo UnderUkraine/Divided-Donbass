@@ -1,0 +1,82 @@
+
+shared_focus = {
+	id = Novorosiya_joint
+	icon = GFX_focus_DPR_Donbass_will_be_free
+	x = 5
+    y = 0
+	any_allied_country = {
+		DPR
+		LPR
+	}
+	cost = 10
+	ai_will_do = {
+		factor = 1
+	}
+
+	joint_trigger = {
+  		NORDIC_basic_joint_trigger = yes 
+	}
+
+	available = {
+
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	offset = {
+		x = 30
+		y = 0
+		trigger = {
+			has_focus_tree = donetsk_focus
+		}
+	}
+	offset = {
+		x = 30
+		y = 0
+		trigger = {
+			has_focus_tree = luhansk_focus
+		}
+	}
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+joint_focus = {
+	id = Novorsiya_integration
+	
+	icon = GFX_goal_generic_army_doctrines
+	
+	prerequisite = { focus = Novorosiya_joint }
+	
+	x = 0
+	y = 1
+	cost = 5
+
+	text_icon = NORDIC_focus_style
+	relative_position_id = Novorosiya_joint
+
+	available = {
+		is_faction_leader = yes 
+		any_allied_country = {
+			DPR
+			LPR
+		}	
+	}
+	joint_trigger = {
+  		NORDIC_basic_joint_trigger = yes 
+	}
+
+
+	completion_reward = {
+		air_experience = 25
+		navy_experience = 25
+		army_experience = 25
+		add_command_power = 25		
+		add_ideas = { NORDIC_command_ns }
+	}
+}

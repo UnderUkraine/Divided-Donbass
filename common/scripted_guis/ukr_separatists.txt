@@ -1,0 +1,176 @@
+scripted_gui = {
+	separatists_gui = {
+		window_name = "separatists_gui_window1"
+		context_type = player_context
+	
+		visible = {
+			has_country_flag = ukr_separatists_ui_open
+			#always = yes
+		}
+	
+		effects = {
+			lvivska_oblast_click = {
+				set_variable = { select_separatists_region = 1}
+				log = "[?select_separatists_region]"
+			}
+			volynska_oblast_click = {
+				set_variable = { select_separatists_region = 2}
+				log = "[?select_separatists_region]"
+			}
+			AvtonomnaRespublikaKrym_oblast_click = {
+				set_variable = { select_separatists_region = 3}
+				log = "[?select_separatists_region]"
+			}
+			Cherkaska_oblast_click = {
+				set_variable = { select_separatists_region = 4}
+				log = "[?select_separatists_region]"
+			}
+			Chernihivska_oblast_click = {
+				set_variable = { select_separatists_region = 5}
+				log = "[?select_separatists_region]"
+			}
+			Dnipropetrovska_oblast_click = {
+				set_variable = { select_separatists_region = 6}
+				log = "[?select_separatists_region]"
+			}
+			Donetska_oblast_click = {
+				set_variable = { select_separatists_region = 7}
+				log = "[?select_separatists_region]"
+			}
+			Luhanska_oblast_click = {
+				set_variable = { select_separatists_region = 8}
+				log = "[?select_separatists_region]"
+			}
+			IvanoFrankivska_oblast_click = {
+				set_variable = { select_separatists_region = 9}
+				log = "[?select_separatists_region]"
+			}
+			Kharkivska_oblast_click = {
+				set_variable = { select_separatists_region = 10}
+				log = "[?select_separatists_region]"
+			}
+			Khersonska_oblast_click = {
+				set_variable = { select_separatists_region = 11}
+				log = "[?select_separatists_region]"
+			}
+			Khmelnytska_oblast_click = {
+				set_variable = { select_separatists_region = 12}
+				log = "[?select_separatists_region]"
+			}
+			Kyivska_oblast_click = {
+				set_variable = { select_separatists_region = 13}
+				log = "[?select_separatists_region]"
+			}
+			Kyrovohradska_oblast_click = {
+				set_variable = { select_separatists_region = 14}
+				log = "[?select_separatists_region]"
+			}
+			Mykolaivska_oblast_click = {
+				set_variable = { select_separatists_region = 15}
+				log = "[?select_separatists_region]"
+			}
+			Odeska_oblast_click = {
+				set_variable = { select_separatists_region = 16}
+				log = "[?select_separatists_region]"
+			}
+			Poltavska_oblast_click = {
+				set_variable = { select_separatists_region = 17}
+				log = "[?select_separatists_region]"
+			}
+			Sumska_oblast_click = {
+				set_variable = { select_separatists_region = 18}
+				log = "[?select_separatists_region]"
+			}
+			Zaporizka_oblast_click = {
+				set_variable = { select_separatists_region = 19}
+				log = "[?select_separatists_region]"
+			}
+			Ternopilska_oblast_click = {
+				set_variable = { select_separatists_region = 20}
+				log = "[?select_separatists_region]"
+			}
+			Vinnytska_oblast_click = {
+				set_variable = { select_separatists_region = 21}
+				log = "[?select_separatists_region]"
+			}
+			Zhytomyrska_oblast_click = {
+				set_variable = { select_separatists_region = 22}
+				log = "[?select_separatists_region]"
+			}
+			Rivnenska_oblast_click = {
+				set_variable = { select_separatists_region = 23}
+				log = "[?select_separatists_region]"
+			}
+			Zakarpattia_oblast_click = {
+				set_variable = { select_separatists_region = 24}
+				log = "[?select_separatists_region]"
+			}
+			Chernivtsi_oblast_click = {
+				set_variable = { select_separatists_region = 25}
+				log = "[?select_separatists_region]"
+			}
+		}
+
+		properties = {
+			Donetska_oblast = {
+				image = "[donetska_oblast_image]"
+			} 
+			Luhanska_oblast = {
+				image = "[luhanska_oblast_image]"
+			} 
+			AvtonomnaRespublikaKrym_oblast = {
+				image = "[avtonomna_respublika_krym_oblast_image]"
+			} 
+			Kharkivska_oblast = {
+				image = "[kharkivska_oblast_image]"
+			} 
+			Odeska_oblast = {
+				image = "[odeska_oblast_image]"
+			} 
+		}
+	}
+
+	separatists_dop_gui = {
+		window_name = "separatists_dop_window"
+		context_type = player_context
+		parent_window_name = separatists_gui_window1
+	
+		visible = {
+			check_variable = {select_separatists_region > 0}
+		}
+	
+		effects = {
+		}
+
+		properties = {
+			oblast_image = {
+				image = "[separatists_oblast_image]"
+			} 
+		}
+	}
+
+	open_separatists_button = {
+		window_name = "open_separatists_button_gui"
+		context_type = decision_category
+	
+		visible = {
+			  always = yes
+		}
+	
+		effects = {
+			Open_separatists_button_click = {
+				IF = {
+					limit = {
+						NOT = {
+							has_country_flag = ukr_separatists_ui_open
+						}
+					}
+					set_country_flag = ukr_separatists_ui_open
+					else = {
+						clr_country_flag = ukr_separatists_ui_open
+					}
+				}
+			}
+		}
+	}
+}

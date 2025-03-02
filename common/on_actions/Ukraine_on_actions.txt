@@ -1,0 +1,202 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = { is_ai = yes }
+					date = 2013.11.21
+				}
+
+				news_event = { 
+					id = news.1 
+					days = 6
+				}
+
+				UKR = {
+					activate_mission = yanukovich_overthrow
+
+					country_event = { 
+						id = ukraine.1 
+						days = 15
+					}
+
+					country_event = { 
+						id = ukraine.41
+						days = 41
+					}
+				}
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			#Minsk 1
+			IF = {
+				limit = {
+					check_variable = { global.peace_progress_minsk > 70 }
+
+					NOT = {
+						has_global_flag = global_minsk_one
+					}
+				}
+
+				set_global_flag = global_minsk_one
+
+                UKR = {
+					country_event = ukraine.6
+				}
+
+				RUS = {
+					country_event = russia.6
+				}
+
+				#Fail
+				UKR = {
+					country_event = {
+						id = ukraine.7
+						days = 31
+					}
+				}
+
+				news_event = { 
+					id = news.4
+				}
+			}
+			#Minsk 2
+			else_if = {
+				limit = {
+					check_variable = { global.peace_progress_minsk > 99 }
+
+					NOT = {
+						has_global_flag = global_minsk_two
+					}
+				}
+
+                set_global_flag = global_minsk_two
+
+				UKR = {
+					country_event = ukraine.8
+				}
+
+				RUS = {
+					country_event = russia.7
+				}
+
+				news_event = { 
+					id = news.6
+				}
+
+				minsk_two_effects = yes
+			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+			IF = {
+				limit = {
+					has_global_flag = UKR_ATO_Started
+				}
+
+				IF = {
+					LIMIT = {
+						check_variable = { global.escalation_on_donbass_variable = 1 }
+					}
+
+					escalation_level_one = yes
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { global.escalation_on_donbass_variable = 2 }
+					}
+
+					escalation_level_two = yes
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { global.escalation_on_donbass_variable = 3 }
+					}
+
+					escalation_level_three = yes
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { global.escalation_on_donbass_variable = 4 }
+					}
+
+					escalation_level_four = yes
+				}
+				IF = {
+					LIMIT = {
+						check_variable = { global.escalation_on_donbass_variable = 5 }
+					}
+
+					escalation_level_five = yes
+				}
+			}
+		}
+	}
+	on_capitulation_immediate = {
+		effect = {
+			IF = {
+				limit = {
+                    UKR = {
+						has_war_with = DPR
+					}
+					FROM = {
+						tag = DPR
+					}
+				}
+				UKR = {
+					annex_country = {
+						target = DPR
+					}
+					country_event = ukraine.9
+				}
+				IF = {
+					limit = {
+						NOT = {
+							country_exists = DPR
+							country_exists = LPR
+							country_exists = KPR
+							country_exists = OPR
+						}
+					}
+					UKR = {
+						country_event = ukraine.13
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					UKR = {
+						has_war_with = LPR
+					}
+					FROM = {
+						tag = LPR
+					}
+				}
+				UKR = {
+					annex_country = {
+						target = LPR
+					}
+					country_event = ukraine.10
+				}
+				IF = {
+					limit = {
+						NOT = {
+							country_exists = DPR
+							country_exists = LPR
+							country_exists = KPR
+							country_exists = OPR
+						}
+					}
+					UKR = {
+						country_event = ukraine.13
+					}
+				}
+			}
+		}
+	}
+}

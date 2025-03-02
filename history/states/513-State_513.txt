@@ -1,0 +1,15 @@
+state={
+	id=513
+	name="STATE_513"
+	provinces={
+		1317 1666 2843 4283 5205 6610 14457 14477 14501 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = UKR
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

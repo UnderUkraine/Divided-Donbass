@@ -1,0 +1,15 @@
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		92 211 348 648 791 1161 1208 1216 1284 1334 1426 1723 1729 1761 1762 1829 2590 2805 3069 3380 3583 3867 4205 4218 5167 5607 5610 6077 6225 6539 14606 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = ROM
+		add_core_of = ROM
+	}
+	buildings_max_level_factor=1.000
+        manpower=1800000
+        state_category = town
+}

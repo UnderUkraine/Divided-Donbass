@@ -1,0 +1,16 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		767 1477 1478 6901 13896 14024 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = TMR
+		add_core_of = TMR
+                add_claim_by = MLV
+	}
+	buildings_max_level_factor=1.000
+        manpower=44779
+        state_category = town
+}

@@ -1,0 +1,15 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		635 925 2701 5613 5869 13413 13533 13557 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = MLV
+		add_core_of = MLV
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

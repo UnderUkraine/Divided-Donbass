@@ -1,0 +1,61 @@
+scripted_gui = {
+
+	sp_event_window = {
+		window_name = "sp_event_window"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = Super_Event_Visible
+		}
+		
+		triggers = {
+			Super_Event_Image_Ukr_ato_start_visible = {
+				has_global_flag = UKR_ATO
+			}
+			Super_Event_Image_Ukr_Yanukovich_overthrow_visible = {
+				has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+			}
+			Super_Event_Image_Ukr_Victory_over_separatists_visible = {
+				has_global_flag = UKR_Victory_over_separatists_event
+			}
+			Super_Event_Image_Ukr_Victory_of_separatists_visible = {
+				has_global_flag = UKR_Victory_of_separatists_event
+			}
+		}
+		
+		############
+		###BUTTON###
+		############
+		
+		effects = {
+			sp_event_close_button_click = {
+				clr_global_flag = Super_Event_Visible
+				
+				if = {
+					limit = {
+						has_global_flag = UKR_ATO
+					}
+					clr_global_flag = UKR_ATO
+				}
+				if = {
+					limit = {
+						has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+					}
+					clr_global_flag = UKR_Yanukovich_After_Overthrow_Crisis_event
+				}
+				if = {
+					limit = {
+						has_global_flag = UKR_Victory_over_separatists_event
+					}
+					clr_global_flag = UKR_Victory_over_separatists_event
+				}
+				if = {
+					limit = {
+						has_global_flag = UKR_Victory_of_separatists_event
+					}
+					clr_global_flag = UKR_Victory_of_separatists_event
+				}
+			}
+		}
+	}
+}

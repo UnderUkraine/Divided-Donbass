@@ -1,0 +1,26 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		154 1132 1221 1325 2036 3674 3973 3986 4591 4744 5115 5128 6078 6337 6525 6648 6680 6732 7178 7257 14201 14223 14234 14235 14254 14256 14260 14263 14265 14278 14291 14294 14305 14313 14316 14317 14331 14349 14364 14375 
+	}
+	history={
+		victory_points = { 14256 3 }
+		owner = UKR
+		add_core_of = UKR
+
+		victory_points = {
+			14201 5
+		}
+		victory_points = {
+			6648 5
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=85352
+        state_category = town
+}

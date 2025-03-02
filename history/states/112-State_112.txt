@@ -1,0 +1,15 @@
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		2218 2392 2412 3284 3453 4585 5631 7734 7872 8097 8573 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = UKR
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

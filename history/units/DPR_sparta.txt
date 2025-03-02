@@ -1,0 +1,10 @@
+units = {
+	division= {
+        name = "Batalion Sparta"
+        location = 7663
+        division_template = "Infantry Battalion"
+        start_experience_factor = 0.13
+        start_equipment_factor = 0.95
+		start_manpower_factor = 1
+    }
+}

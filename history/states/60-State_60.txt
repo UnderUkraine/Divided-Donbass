@@ -1,0 +1,15 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		142 529 2552 2688 2756 3218 4463 6482 6489 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = POL
+		add_core_of = POL
+	}
+	buildings_max_level_factor=1.000
+        manpower=1246000
+        state_category = town
+}

@@ -1,0 +1,75 @@
+﻿l_english:
+ focus_in_developement_tt:0 "Focus don't give any effects. \n§GThis focus is in the works!§!"
+
+ UKR_start_fake_eurointegration_tt:0 "We will start §B“European integration”§! to §Rappease§! the people."
+ UKR_kharkiv_pact_tt:0 "Agreement on the presence of the [RUS.GetFlag]Russian fleet in the bay of §YSevastopol§! will be extended until §Y2017§!"
+ UKR_decline_to_sign_agreement_tt:0 "§gWe will refuse to sign the§! “Association Agreement with the EU” §RThis could lead to protests§!"
+ UKR_join_union_state_project_tt:0 "We will join "Union State" project"
+
+ russia_invastion_of_crimea_tt:0 "Together with the militia, we will launch an §Roperation to take over [CRI.GetFlag]Crimea§!."
+ RUS_support_ideas_dpr:0 "We will support idea of [DPR.GetFlag]Donetsk PR by §O5§!."
+ RUS_support_ideas_lpr:0 "We will support idea of [LPR.GetFlag]Lugansk PR by §O5§!."
+ RUS_support_ideas_kpr:0 "We will support idea of [KPR.GetFlag]Kharkov PR by §O5§!."
+ RUS_support_ideas_opr:0 "We will support idea of [OPR.GetFlag]Odesa PR by §O5§!."
+
+ RUS_propaganda_on_donbass_tt:0 "The £decision_icon_small decision block with §Rpropaganda§! will open"
+
+ Separatists_support_minus_5_tt:0 "§gSupport of separatists will decrease by §!§O5§!"
+ Separatists_support_minus_4_tt:0 "§gSupport of separatists will decrease by §!§O4§!"
+ Separatists_support_minus_3_tt:0 "§gSupport of separatists will decrease by §!§O3§!"
+ Separatists_support_minus_2_tt:0 "§gSupport of separatists will decrease by §!§O2§!"
+ Separatists_support_minus_1_tt:0 "§gSupport of separatists will decrease by §!§O1§!"
+
+ Separatists_support_minus_5_donetsk_tt:0 "§gSupport of separatists in [DPR.GetFlag]Donetsk will decrease by §!§O5§!"
+ Separatists_support_minus_5_luhansk_tt:0 "§gSupport of separatists in [LPR.GetFlag]Luhansk will decrease by §!§O5§!"
+ Separatists_support_minus_5_kharkiv_tt:0 "§gSupport of separatists in [KPR.GetFlag]Kharkiv will decrease by §!§O5§!"
+ Separatists_support_minus_5_odesa_tt:0 "§gSupport of separatists in [OPR.GetFlag]Odesa will decrease by §!§O5§!"
+
+ UKR_radicalization_of_maidan_plus_5:0 "Maidan £political_violence_texticon §RRadicalization§! will be increased by §R5§!."
+
+ Separatists_won_tt:0 "Separatists won"
+
+ Prepare_for_invinteble_mobilize_tt:0 "We will §Rmobilize§! small part of police to military reserve"
+
+ UKR_new_rada_temp_government_tt:0 "We will divide the seats in the Verkhovna Rada to create a majority"
+
+
+ Escalation_Donbass_map_tt:0 "§Yworkz!!1§!"
+
+ Escalation_1_tt:0 "Effects from §OEscalation§!:\n\n£stability_texticon Stability: §R-2%§!\n£war_support_modifiericons_texticon War Support: §G+5%§!\n£political_violence_gain_texticon Resistance Growh Speed: §R+2%§!"
+ Escalation_2_tt:0 "Effects from §OEscalation§!:\n\n£stability_texticon Stability: §R-5%§!\n£war_support_modifiericons_texticon War Support: §G+5%§!\n£political_violence_gain_texticon Resistance Growh Speed: §R+2%§!\n£improve_relations_texticon Improve relations opinion: §R-7%§!"
+ Escalation_3_tt:0 "Effects from §OEscalation§!:\n\n£stability_texticon Stability: §R-7%§!\n£war_support_modifiericons_texticon War Support: §G+7%§!\n£political_violence_gain_texticon Resistance Growh Speed: §R+7%§!\n£improve_relations_texticon Improve relations opinion: §R-12%§!\n£boost_popularity_texticon Daily Nationalism Support: §G+0.10§!"
+ Escalation_4_tt:0 "Effects from §OEscalation§!:\n\n£stability_texticon Stability: §R-15%§!\n£war_support_modifiericons_texticon War Support: §G+15%§!\n£political_violence_gain_texticon Resistance Growh Speed: §R+10%§!\n£improve_relations_texticon Improve relations opinion: §R-17%§!\n£boost_popularity_texticon Daily Nationalism Support: §G+0.25§!"
+ Escalation_5_tt:0 "Effects from §OEscalation§!:\n\n£stability_texticon Stability: §R-20%§!\n£war_support_modifiericons_texticon War Support: §G+20%§!\n£political_violence_gain_texticon Resistance Growh Speed: §R+17%§!\n£improve_relations_texticon Improve relations opinion: §R-25%§!\n£boost_popularity_texticon Daily Nationalism Support: §G+0.35§!\n[RUS.GetFlag]Russia may §Rjoin the conflict§!."
+
+ verhovna_rada_holova_effects_tt:0 "Effects we get from current Head of Verhovna Rada:\n§gNone!§!"
+
+ DPR_artillery_shelling_tt:0 "§RArtillery§! §gshelling £decision_icon_small §!§Ydecisions§!§g will be unlocked§!"
+
+ Peace_progress_plus_five_tt:0 "§gNegotiations progress will be increased by §!§G5§!"
+ Peace_progress_invite_international_tt:0 "§gWe will be able to invite the§! §Yinternational§!§g community to ensure peace§!"
+ Initiate_discussions_on_a_peaceful_settlement_tt:0 "§gFrom time to time there will appear §!§Yevents§! with §!§Ydecisions§!§g on the status of §!§GDonbass§!"
+
+ corruption_law_total_tt:0 "£mil_factory §Y40%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_strong_tt:0 "£mil_factory §Y30%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_medium_tt:0 "£mil_factory §Y15%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+ corruption_law_minimal_tt:0 "£mil_factory §Y5%§! of §Ypurchased arms§! and §Yammunition§! will §Rnot§! be delivered to the §Yfrontline§!"
+
+ dpr_uprising_tt:0 "§RUprising§! will start on territory of Donetsk oblast"
+ lpr_uprising_tt:0 "§RUprising§! will start on territory of Luhansk oblast"
+ kpr_uprising_tt:0 "§RUprising§! will start on territory of Kharkiv oblast"
+ opr_uprising_tt:0 "§RUprising§! will start on territory of Odesa oblast"
+
+ kharkiv_pr_uprising_avaliable:0 "§RUprising§! will be failed if support of §Yseparatism§! in §Yoblast§! will be less than §Y20§!"
+ odesa_pr_uprising_avaliable:0 "§RUprising§! will be failed if support of §Yseparatism§! in §Yoblast§! will be less than §Y20§!"
+
+ dpr_gerb_tt:0 "Donetsk People's Republic"
+ lpr_gerb_tt:0 "Lugansk People's Republic"
+
+ UKR_Volunteer_formations_spesial_forces_mvs_tt: "£decision_icon_small Decisions on the formation of §Yvolunteer battalions of MIA§! will be unlocked"
+
+ UKR_partial_mobilization_events_tt: "§gFrom time to time, there will be events about§! §Ymobilization waves§!"
+
+ UKR_general_staff_tt: "Unlocks §YGeneral Staff§! UI in £decision_icon_small decisions"
+ UKR_Start_of_operations_in_the_ATO_zone_tt: "Unlocks §Yoperations§! in §YGeneral Staff§!"
+ UKR_End_separatism_trigger_tt: "We have control on: §YVolnovakha§!, §YNovoazovsk§!, §YSieverodonetsk§!, §YAlchevsk§!, §YArtemivsk§!, §YDzerzhynsk§!."

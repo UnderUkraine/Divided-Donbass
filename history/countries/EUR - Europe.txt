@@ -1,0 +1,123 @@
+﻿capital = 146
+set_technology = {
+	infantry_weapons = 1
+}
+set_rule = {
+	can_puppet = no
+}
+create_faction = "NATO"
+2013.11.21 = {
+	set_politics = {
+		ruling_party = social_democratic
+		last_election = "2004.06.05"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		liberal_democratic = 18
+		conservatism_democratic = 29
+		social_democratic = 23
+		nationalism_group = 7
+		fascism = 4
+		communism = 4
+		socialism = 14
+	}
+	create_country_leader = {
+	    name = EUR_hose_manuel_barzoe
+	    #desc = petro_poroshenko_desc
+	    ideology = social_democracy
+	    picture = gfx/leaders/EUR/EUR_hose_manuel_barzoe.dds
+	    traits = { }
+    }
+}
+2015.01.01 = {
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "2014.11.01"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		liberal_democratic = 18
+		conservatism_democratic = 29
+		social_democratic = 23
+		nationalism_group = 7
+		fascism = 4
+		communism = 4
+		socialism = 14
+	}
+	create_country_leader = {
+	    name = EUR_zshan_klod_yunker
+	    #desc = petro_poroshenko_desc
+	    ideology = conservatism
+	    picture = gfx/leaders/EUR/EUR_zshan_klod_yunker.dds
+	    traits = { }
+    }
+}
+#НЕ УДАЛЯТЬ, А ТО Я ТРАХНУ ТОГО КТО ЭТО СДЕЛАЕТ (Штирлиц)
+# 2013.11.21 (Полит ориентация ЕС на тот момент)
+# Австрия = 1,98% 
+#   liberal_democratic = 8 = 0,16%
+#   conservatism_democratic = 27 = 0,53%
+#   social_democratic = 24 = 0,48%
+#   fascism = 19 = 0,38%
+# Бельгия = 2,57%
+#   liberal_democratic = 19 = 0,49%
+#   conservatism_democratic = 11 = 0,28% 
+#   social_democratic = 21 = 0,54%
+#   nationalism_group = 20 = 0,51%
+# Болгария = 1,57%
+# Венгрия = 2,19% 
+#   conservatism_democratic = 67 = 1,47%
+#	nationalism_group = 12 = 0,26%
+#	social_democratic = 19 = 0,42%
+#	liberal_democratic = 2 = 0,04%
+# Германия = 18,58%
+#   liberal_democratic = 5 = 0,93%
+#   conservatism_democratic = 42 = 7,8%
+#   social_democratic = 26 = 4,83%
+#   fascism = 8 = 1,49%
+#   socialism = 9 = 1,67%
+# Греция = 2,4%
+# Дания = 1,3%
+# Ирландия = 1,1%	
+# Испания = 10,51%
+# Италия = 13,51%
+# Кипр = 0,2%
+# Латвия = 0,43%
+# Литва = 0,63%
+#   conservatism_democratic = 33 = 0,21%
+#   nationalism_group = 8 = 0,05%
+#   social_democratic = 31 = 0,2%
+#   liberal_democratic = 28 = 0,18%
+# Люксембург = 0,14%
+# Мальта = 0,11%
+# Нидерланды = 3,87%
+# Польша = 8,49%  	
+#   conservatism_democratic = 30 = 2,55%
+#	nationalism_group = 5 = 0,42%
+#	social_democratic = 15 = 1,27%
+#	liberal_democratic = 39 = 3,31%
+#   socialism = 11 = 0,93%
+# Португалия = 2,3%
+#    conservatism_democratic = 12 = 0,28%
+#    social_democratic = 67 = 1,54%
+#    communism = 13 = 0,3%
+# Румыния = 4,34%
+#    conservatism_democratic = 16 = 0,69%
+#    nationalism_group = 5 = 0,22%
+#    social_democratic = 63 = 2,73%
+#    socialism = 14 = 0,61%
+#    autoritarian_democracy = 2 = 0,09
+# Словакия = 1,22%
+#    conservatism_democratic = 43 = 0,52%
+#    social_democratic = 44 = 0,54%
+#    liberal_democratic = 13 = 0,16%
+# Словения = 0,47%
+# Финляндия = 1,24%
+# Франция =	15%
+#
+# Хорватия = 0,91%
+# Чехия = 2,38%
+# Швеция = 2,29%
+# Эстония = 0,3%

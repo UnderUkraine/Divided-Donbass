@@ -1,0 +1,66 @@
+units = {
+	division= {
+		name = "3rd Territorial Defense Battalion"
+		location = 9181
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "6th Territorial Defense Battalion"
+		location = 3824
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "9th Territorial Defense Battalion"
+		location = 5803
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "10th Territorial Defense Battalion"
+		location = 1172
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "13th Territorial Defense Battalion"
+		location = 3176
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "15th Territorial Defense Battalion"
+		location = 5258
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "17th Territorial Defense Battalion"
+		location = 7501
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "22nd Territorial Defense Battalion “Kharkiv”"
+		location = 8873
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+}

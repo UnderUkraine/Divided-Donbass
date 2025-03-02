@@ -1,0 +1,137 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gui_background_separatists_small"
+		textureFile = "/gfx/interface/gui_background_separatists_small.dds"
+	}
+	spriteType = {
+		name = "GFX_separatists_gui_open_button"
+		textureFile = "/gfx/interface/separatism_open_gui_button.dds"
+	}
+	spriteType = {
+		name = "GFX_volynska_oblast1"
+		textureFile = "/gfx/interface/ukraine_map/Ukraine_Map.png"
+	}
+	spriteType = {
+		name = "GFX_lvivska_oblast"
+		textureFile = "/gfx/interface/ukraine_map/Lvivska.png"
+	}
+	spriteType = {
+		name = "GFX_volynska_oblast"
+		textureFile = "/gfx/interface/ukraine_map/Volynska.png"
+	}
+	spriteType = {
+		name = "GFX_AvtonomnaRespublikaKrym"
+		textureFile = "/gfx/interface/ukraine_map/AvtonomnaRespublikaKrym.png"
+	}
+	spriteType = {
+		name = "GFX_AvtonomnaRespublikaKrym_separatism"
+		textureFile = "/gfx/interface/ukraine_map/AvtonomnaRespublikaKrym_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_Cherkaska"
+		textureFile = "/gfx/interface/ukraine_map/Cherkaska.png"
+	}
+	spriteType = {
+		name = "GFX_Chernihivska"
+		textureFile = "/gfx/interface/ukraine_map/Chernihivska.png"
+	}
+	spriteType = {
+		name = "GFX_Dnipropetrovska"
+		textureFile = "/gfx/interface/ukraine_map/Dnipropetrovska.png"
+	}
+
+	spriteType = {
+		name = "GFX_Donetska"
+		textureFile = "/gfx/interface/ukraine_map/Donetska.png"
+	}
+	spriteType = {
+		name = "GFX_Donetska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Donetska_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_IvanoFrankivska"
+		textureFile = "/gfx/interface/ukraine_map/IvanoFrankivska.png"
+	}
+	spriteType = {
+		name = "GFX_Kharkivska"
+		textureFile = "/gfx/interface/ukraine_map/Kharkivska.png"
+	}
+	spriteType = {
+		name = "GFX_Kharkivska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Kharkivska_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_Khersonska"
+		textureFile = "/gfx/interface/ukraine_map/Khersonska.png"
+	}
+	spriteType = {
+		name = "GFX_Khmelnytska"
+		textureFile = "/gfx/interface/ukraine_map/Khmelnytska.png"
+	}
+	spriteType = {
+		name = "GFX_Kyivska"
+		textureFile = "/gfx/interface/ukraine_map/Kyivska.png"
+	}
+	spriteType = {
+		name = "GFX_Kyrovohradska"
+		textureFile = "/gfx/interface/ukraine_map/Kyrovohradska.png"
+	}
+	spriteType = {
+		name = "GFX_Luhanska"
+		textureFile = "/gfx/interface/ukraine_map/Luhanska.png"
+	}
+	spriteType = {
+		name = "GFX_Luhanska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Luhanska_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_Mykolaivska"
+		textureFile = "/gfx/interface/ukraine_map/Mykolaivska.png"
+	}
+	spriteType = {
+		name = "GFX_Odeska"
+		textureFile = "/gfx/interface/ukraine_map/Odeska.png"
+	}
+	spriteType = {
+		name = "GFX_Odeska_separatism"
+		textureFile = "/gfx/interface/ukraine_map/Odeska_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_Poltavska"
+		textureFile = "/gfx/interface/ukraine_map/Poltavska.png"
+	}
+	spriteType = {
+		name = "GFX_Sumska"
+		textureFile = "/gfx/interface/ukraine_map/Sumska.png"
+	}
+	spriteType = {
+		name = "GFX_Zaporizka"
+		textureFile = "/gfx/interface/ukraine_map/Zaporizka.png"
+	}
+	spriteType = {
+		name = "GFX_Ternopilska"
+		textureFile = "/gfx/interface/ukraine_map/Ternopilska.png"
+	}
+
+	spriteType = {
+		name = "GFX_Vinnytska"
+		textureFile = "/gfx/interface/ukraine_map/Vinnytska.png"
+	}
+	spriteType = {
+		name = "GFX_Zhytomyrska"
+		textureFile = "/gfx/interface/ukraine_map/Zhytomyrska.png"
+	}
+	spriteType = {
+		name = "GFX_Rivnenska"
+		textureFile = "/gfx/interface/ukraine_map/Rivnenska.png"
+	}
+
+	spriteType = {
+		name = "GFX_Chernivtsi"
+		textureFile = "/gfx/interface/ukraine_map/Chernivtsi.png"
+	}
+	spriteType = {
+		name = "GFX_Zakarpattia"
+		textureFile = "/gfx/interface/ukraine_map/Zakarpattia.png"
+	}
+}

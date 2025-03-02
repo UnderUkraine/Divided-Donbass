@@ -1,0 +1,15 @@
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		2597 4029 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = LIT
+		add_core_of = LIT
+	}
+	buildings_max_level_factor=1.000
+        manpower=144430
+        state_category = town
+}

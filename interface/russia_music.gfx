@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_russia_station_cover"
+		textureFile = "gfx/russia_station_icon.dds"
+		noOfFrames = 2
+	}
+}

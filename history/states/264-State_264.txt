@@ -1,0 +1,27 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		3573 4056 5617 5719 5765 7515 7696 7939 7989 8054 11368 11378 11389 11413 11422 11431 11432 11450 11462 11463 11465 11492 11493 11494 11501 11519 11520 11536 11540 11562 15142 15143 15144 15145 15146 15147 15148 15149 15150 15151 
+	}
+	history={
+      victory_points = { 11536 3 }
+      victory_points = { 11465 3 }
+      victory_points = { 11493 3 }
+      victory_points = { 5765 3 }
+      victory_points = { 5617 3 }
+      victory_points = { 3573 3 }
+      victory_points = { 11462 3 }
+      victory_points = { 11432 3 }
+		victory_points = { 11540 5 }
+		owner = UKR
+		add_core_of = UKR
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

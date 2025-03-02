@@ -1,0 +1,40 @@
+ideas = {
+    country = {
+        LPR_Peoples_republic = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                surrender_limit = 0.3
+            }
+        }  
+    }
+    country = {
+        LPR_independence_war = {
+            allowed = {
+                always = yes
+            }
+        
+            allowed_civil_war = {
+                always = no
+            }
+        
+            removal_cost = -1
+        
+            
+            modifier = {
+                army_attack_factor = 0.55
+                army_defence_factor = 0.55
+                army_speed_factor = 0.25
+            }
+        }  
+    }
+}

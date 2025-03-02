@@ -1,0 +1,15 @@
+state={
+	id=521
+	name="STATE_521"
+	provinces={
+		1517 4438 14489 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = MLV
+		add_core_of = MLV
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,19 @@
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		627 1779 1906 2395 2862 3090 4748 6381 6633 7570 9660 9964 10220 10370 
+	}
+	history={
+		victory_points = { 4748 30 }
+		owner = UKR
+		add_core_of = UKR
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

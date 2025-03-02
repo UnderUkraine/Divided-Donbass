@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_UKR_Yanukovich"
+		textureFile = "/gfx/leaders/UKR/Yanukovich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_background_gui_startup"
+		textureFile = "/gfx/interface/startup_gfx/startup_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_background_gui_startup"
+		textureFile = "/gfx/interface/startup_gfx/ukraine_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_UKR_flag_gui"
+		textureFile = "/gfx/interface/startup_gfx/UKR_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_flag_gui"
+		textureFile = "/gfx/interface/startup_gfx/RUS_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_close_button_gui"
+		textureFile = "/gfx/interface/startup_gfx/close_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DD_icon_gui"
+		textureFile = "/gfx/interface/startup_gfx/DD_icon.dds"
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	alexander_lykashenko = {
+		name = alexander_lykashenko
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/BLR/lukashenko.dds"
+			}
+		}
+		country_leader = {
+			ideology = autoritarian_democractic
+			traits = {
+				BEL_Kidok 
+			}
+		}
+	}
+}

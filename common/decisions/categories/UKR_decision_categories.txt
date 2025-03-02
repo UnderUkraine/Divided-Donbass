@@ -1,0 +1,158 @@
+UKR_Maidan_Support_category = {
+	icon = GFX_gerb_Ukraine_decision
+	picture = GFX_maidan_background_image
+	priority = 300
+	allowed = {
+		OR = {
+			original_tag = UKR
+			has_country_flag = RUS_Open_maidan_gui
+		}
+	}
+	visible_when_empty = yes
+	visible = {
+		NOT = {
+			has_country_flag = UKR_Yanukovich_overthrown
+		}
+	}
+	scripted_gui = maidan_gui
+}
+
+UKR_Separatists_in_Ukraine = {
+	icon = GFX_gerb_Ukraine_decision
+	picture = GFX_separatists_background_image
+	priority = 300
+	allowed = {
+		OR = {
+			original_tag = UKR
+			IF = {
+				limit = {
+					original_tag = RUS
+					RUS = {
+						has_country_flag = RUS_pro_russian_sentiment_focus_flag
+					}
+				}
+			}
+		}
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_Yanukovich_After_Overthrow_Crisis
+		tag = UKR
+	}
+	scripted_gui = open_separatists_button
+}
+
+UKR_Verhovna_rada = {
+	icon = GFX_Verhovna_rada_decision
+    picture = GFX_Rada_image
+	priority = 290
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	scripted_gui = ukraine_rada_gui
+}
+
+UKR_arms_deconservation = {
+	icon = GFX_icon_of_AFU_decision
+	picture = GFX_buy_equipment_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		has_country_flag = UKR_arms_deconservation_flag
+	}
+}
+
+UKR_SBU_operations = {
+	icon = GFX_sbu_icon_decision
+	picture = GFX_separatists_background_image
+	priority = 100
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		always = yes
+	}
+	#scripted_gui = separatists_gui
+}
+
+UKR_Escalation = {
+	icon = GFX_donbass_map_icon_decision
+	#picture = GFX_separatists_background_image
+	priority = 110
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = RUS
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
+		#has_global_flag = UKR_ATO_Started
+		always = yes
+	}
+	visible_when_empty = yes
+	visible = {
+		#has_global_flag = UKR_ATO_Started
+		always = yes
+	}
+	scripted_gui = escalation_gui
+}
+
+UKR_Negotations = {
+	icon = GFX_Ukraine_and_russia_gerbs_decision
+	picture = GFX_Minsk_image
+	priority = 300
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = RUS
+			original_tag = DPR
+			original_tag = LPR
+			original_tag = KPR
+			original_tag = OPR
+		}
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_Negotations_started
+	}
+	scripted_gui = negotations_gui
+}
+
+UKR_President_elections = {
+	icon = GFX_Verhovna_rada_decision
+	picture = GFX_Minsk_image
+	priority = 300
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		has_country_flag = UKR_Elections_started
+		#always = yes
+	}
+	scripted_gui = open_elections_button
+}
+
+UKR_anti_terroristic_operation = {
+	icon = GFX_donbass_map_icon_decision
+	picture = GFX_Minsk_image
+	priority = 1000
+	allowed = {
+		original_tag = UKR
+	}
+	visible_when_empty = yes
+	visible = {
+		has_global_flag = UKR_ATO_Started
+	}
+	#scripted_gui = negotations_gui
+}

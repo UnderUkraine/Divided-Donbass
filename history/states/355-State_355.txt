@@ -1,0 +1,91 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		3495 3535 3739 4104 4237 5380 6293 6909 7503 7663 7748 8074 12743 12834 12872 12873 12893 12894 12912 12913 12914 12926 12931 12932 12942 12949 12950 12958 12959 12960 12972 12976 12977 12982 12989 12990 12991 12992 12997 13013 13014 13026 13032 13041 13042 13046 13056 13057 13064 13079 
+	}
+	history={
+      victory_points = { 12949 3 }
+		owner = UKR
+		add_core_of = UKR
+		2015.1.1 = {
+           transfer_state_to = DPR
+		   add_core_of = DPR
+
+		   UKR = {
+			    set_province_controller = 15100
+				set_province_controller = 3184
+				set_province_controller = 12711
+				set_province_controller = 7503
+				set_province_controller = 12815
+				set_province_controller = 4957
+				set_province_controller = 12912
+				set_province_controller = 8064
+				set_province_controller = 7324
+				set_province_controller = 12808
+				set_province_controller = 5599
+				set_province_controller = 12719
+				set_province_controller = 12770
+		   }
+		}
+		victory_points = {
+			7663 100
+		}
+		victory_points = {
+			4104 5
+		}
+		victory_points = {
+			12872 5
+		}
+		victory_points = {
+			12872 5
+		}
+		victory_points = {
+			7748 5
+		}
+		victory_points = {
+			12893 5
+		}
+		victory_points = {
+			12982 5
+		}
+		victory_points = {
+			12894 5
+		}
+		victory_points = {
+			12674 5
+		}
+		victory_points = {
+			12637 5
+		}
+		victory_points = {
+			13026 5
+		}
+		victory_points = {
+			3495 5
+		}
+		victory_points = {
+			12992 3
+		}
+		victory_points = {
+			13042 5
+		}
+		victory_points = {
+			6909 3
+		}
+		victory_points = {
+			13056 3
+		}
+		victory_points = {
+			13046 3
+		}
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=949825
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

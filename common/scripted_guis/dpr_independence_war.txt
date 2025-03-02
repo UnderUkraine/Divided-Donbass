@@ -1,0 +1,16 @@
+scripted_gui = {
+	dpr_independence_war_window_gui = {
+		window_name = "dpr_independence_war_window"
+		context_type = decision_category
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+		}
+		
+		triggers = {
+		}
+	}
+}

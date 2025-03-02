@@ -1,0 +1,22 @@
+﻿capital = 146
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2010.02.07"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 65
+	fascism = 5
+	communism = 15
+	neutrality = 25
+}
+
+set_rule = {
+	can_puppet = no
+}

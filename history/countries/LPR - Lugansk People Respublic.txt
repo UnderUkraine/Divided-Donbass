@@ -1,0 +1,143 @@
+﻿capital = 202
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons_2 = 1
+	infantry_weapons1 = 1
+	infantry_weapons1_2 = 1
+	infantry_weapons2 = 1
+
+	rpg_weapons = 1
+	rpg_weapons1 = 1
+
+	atgm_weapons = 1
+	atgm_weapons1 = 1
+	atgm_weapons2 = 1
+	atgm_weapons3 = 1
+
+	manpads_weapons = 1
+	manpads_weapons1 = 1
+	manpads_weapons2 = 1
+
+	mortar_weapons = 1
+	mortar_weapons1 = 1
+	mortar_weapons2 = 1
+
+	tech_trucks = 1
+	tech_trucks_1 = 1
+	tech_trucks_2 = 1
+	tech_trucks_3 = 1
+
+	gw_artillery = 1
+
+	#SUPPORT
+	tech_support = 1
+
+	#ARMOR
+	tank_chassis = 1
+	tank1_chassis = 1
+	tank2_chassis = 1
+	tank3_chassis = 1
+	tank4_chassis = 1
+	tank5_chassis = 1
+
+	btr1_chassis = 1
+	btr1_1_chassis = 1
+	btr1_2_chassis = 1
+	btr2_chassis = 1
+
+	bbm_chassis = 1
+	bbm_1_chassis = 1
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 3000
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 500
+}
+add_equipment_to_stockpile = {
+	type = truck_chassis_0
+	variant_name = "ГАЗ-66"
+	amount = 50
+}
+add_equipment_to_stockpile = {
+	type = truck_chassis_1
+	variant_name = "Урал-375"
+	amount = 60
+}
+add_equipment_to_stockpile = {
+	type = truck_chassis_2
+	variant_name = "КамАЗ-4310"
+	amount = 1000
+}
+add_equipment_to_stockpile = {
+	type = btr1_chassis_0
+	variant_name = "БТР-60"
+	amount = 20
+}
+add_equipment_to_stockpile = {
+	type = btr1_chassis_1_1
+	variant_name = "БТР-70"
+	amount = 25
+}
+add_manpower = 5500
+add_ideas = {
+	LPR_Peoples_republic
+	not_recognized_state
+}
+set_rule = {
+	can_puppet = no
+}
+set_major = yes
+set_war_support = 90
+recruit_character = LPR_bolotov
+2013.11.21 = {
+    set_politics = {
+	    ruling_party = autoritarian_democracy
+	    last_election = "2014.04.27" #Дата появления ЛНР
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+		liberal_democratic = 20
+		conservatism_democratic = 20
+		autoritarian_democracy = 60
+	}
+	create_country_leader = {
+		name = LPR_Anarchy
+		#desc = petro_poroshenko_desc
+		ideology = autoritarian_democractic
+		picture = gfx/leaders/LPR/LPR_Anarchy.dds
+		traits = { }
+	}
+}
+2015.1.1 = {
+	recruit_character = WPG_evgeniy_prigozhin
+	set_politics = {
+		ruling_party = autoritarian_democracy
+		last_election = "2014.11.02"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	declare_war_on = {
+		target = UKR
+		type = annex_everything
+	}
+	set_popularities = {
+		liberal_democratic = 23
+		autoritarian_democracy = 67
+		conservatism_democratic = 10
+	}
+	create_country_leader = {
+		name = LPR_Igor_Plotnitsky
+		#desc = petro_poroshenko_desc
+		ideology = autoritarian_democractic 
+		picture = gfx/leaders/LPR/Plotnitsky.dds
+		traits = { }
+	}
+}

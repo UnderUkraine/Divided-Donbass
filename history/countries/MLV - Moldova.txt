@@ -1,0 +1,28 @@
+﻿capital = 202
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+	MLV_Transnistria_problem
+}
+2013.11.21 = {
+    set_politics = {
+	    ruling_party = social_democratic
+	    last_election = "2012.03.23"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    social_democratic = 28
+	    liberal_democratic = 30
+	    socialism = 21
+	    communism = 21
+    }
+    create_country_leader = {
+	    name = MLV_nicolae_timofti
+	    #desc = petro_poroshenko_desc
+	    ideology = social_democracy
+	    picture = gfx/leaders/MLV/MLV_nicolae_timofiti.dds
+	    traits = { }
+    }
+}

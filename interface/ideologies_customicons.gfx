@@ -1,0 +1,23 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_ideology_RUS_autoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/united_russia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_liberal_democratic_group"
+		texturefile = "gfx/interface/ideologies/liberal_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_democratic_group"
+		texturefile = "gfx/interface/ideologies/conservatism_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democratic_group"
+		texturefile = "gfx/interface/ideologies/social_democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_autoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	}
+}

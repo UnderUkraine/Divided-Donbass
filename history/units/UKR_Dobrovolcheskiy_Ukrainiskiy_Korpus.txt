@@ -1,0 +1,34 @@
+units = {
+	division= {
+		name = "1st Separate Assault Company of “DUK”"
+		location = 12052
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.7
+	}
+	division= {
+		name = "2nd Separate Fire Support Company of “DUK”"
+		location = 12052
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.7
+	}
+	division= {
+		name = "3rd Separate Rifle Company of “DUK”"
+		location = 12052
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.7
+	}
+	division= {
+		name = "Taktichna Grupa “DUK” Sapsan"
+		location = 12052
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.7
+	}
+}

@@ -1,0 +1,82 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+	SpriteType = {
+		name = "GFX_idea_Escalation_modifier"
+		texturefile = "gfx/interface/ideas/Escalation.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_AZV_fight_for_ukraine"
+		texturefile = "gfx/interface/ideas/Fight_for_Ukraine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_MLV_Transnistria_problem"
+		texturefile = "gfx/interface/ideas/Transnistria_problem.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_City_of_Sevastopol"
+		texturefile = "gfx/interface/ideas/City_of_Sevastopol.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_cooperation_russia"
+		texturefile = "gfx/interface/ideas/UKR_cooperation_russia.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_Ukrainian_VPK"
+		texturefile = "gfx/interface/ideas/UKR_Ukrainian_VPK.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_demographic_crisis1"
+		texturefile = "gfx/interface/ideas/UKR_demographic_crisis1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_demographic_crisis2"
+		texturefile = "gfx/interface/ideas/UKR_demographic_crisis1.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_protests"
+		texturefile = "gfx/interface/ideas/UKR_protests.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_oligarhy_autocraty"
+		texturefile = "gfx/interface/ideas/UKR_oligarhy_autocraty.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_UKR_confused_army"
+		texturefile = "gfx/interface/ideas/UKR_confused_army.dds"
+	}
+
+	#RUS
+	SpriteType = {
+		name = "GFX_idea_RUS_Autocracy"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Autocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Demographic_crisis"
+		texturefile = "gfx/interface/ideas/4990217e960b29b3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Only_in_parades"
+		texturefile = "gfx/interface/ideas/RUS/Only_in_parades.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Poor_regions"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Poor_regions.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_Gazprom"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Gazprom.dds"
+	}
+
+    #LAWS
+	SpriteType = {
+		name = "GFX_idea_world_recognition"
+		texturefile = "gfx/interface/ideas/world_recognition.dds"
+	}
+}

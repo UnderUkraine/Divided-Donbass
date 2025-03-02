@@ -1,0 +1,338 @@
+defined_text = {
+    name = get_dpr_independence_war_description
+	
+    text = {
+        localization_key = "get_dpr_independence_war_description"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_donetsk
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_state = 355
+            }
+        }
+        localization_key = "get_dpr_control_yes_donetsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_state = 355
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_donetsk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_kramatorsk
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 11420
+            }
+        }
+        localization_key = "get_dpr_control_yes_kramatorsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 11420
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_kramatorsk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_slavyansk
+	
+    #nado pofiksit
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 4941
+            }
+        }
+        localization_key = "get_dpr_control_yes_slavyansk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 4941
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_slavyansk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_volnovaha
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 13452
+            }
+        }
+        localization_key = "get_dpr_control_yes_volnovaha"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 13452
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_volnovaha"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_mariupol
+	
+    text = {
+        trigger = {
+            DPR = {
+                controls_state = 439
+            }
+        }
+        localization_key = "get_dpr_control_yes_mariupol"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_state = 439
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_mariupol"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_krasnoarmeisk
+    
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 12304
+            }
+        }
+        localization_key = "get_dpr_control_yes_krasnoarmeisk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 12304
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_krasnoarmeisk"
+    }
+}
+
+defined_text = {
+    name = get_dpr_control_artemovsk
+    
+    text = {
+        trigger = {
+            DPR = {
+                controls_province = 11704
+            }
+        }
+        localization_key = "get_dpr_control_yes_artemovsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                DPR = {
+                    controls_province = 11704
+                }
+            }
+        }
+        localization_key = "get_dpr_control_no_artemovsk"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_lugansk
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 11725
+            }
+        }
+        localization_key = "get_lpr_control_yes_lugansk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 11725
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_lugansk"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_alchevsk
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 1837
+            }
+        }
+        localization_key = "get_lpr_control_yes_alchevsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 1837
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_alchevsk"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_antratsit
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 12354
+            }
+        }
+        localization_key = "get_lpr_control_yes_antratsit"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 12354
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_antratsit"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_starobelsk
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 10351
+            }
+        }
+        localization_key = "get_lpr_control_yes_starobelsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 10351
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_starobelsk"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_aidar
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 9789
+            }
+        }
+        localization_key = "get_lpr_control_yes_aidar"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 9789
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_aidar"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_svatovo
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 10102
+            }
+        }
+        localization_key = "get_lpr_control_yes_svatovo"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 10102
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_svatovo"
+    }
+}
+
+defined_text = {
+    name = get_lpr_control_severodonetsk
+    
+    text = {
+        trigger = {
+            LPR = {
+                controls_province = 5878
+            }
+        }
+        localization_key = "get_lpr_control_yes_severodonetsk"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                LPR = {
+                    controls_province = 5878
+                }
+            }
+        }
+        localization_key = "get_lpr_control_no_severodonetsk"
+    }
+}
+
+defined_text = {
+    name = get_if_control_every_region
+	
+    text = {
+        localization_key = "get_if_control_every_region_text"
+    }
+}

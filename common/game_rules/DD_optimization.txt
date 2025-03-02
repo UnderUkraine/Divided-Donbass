@@ -1,0 +1,20 @@
+DD_optimization_europe = {
+    name  = "DD_optimization_in_europe"
+    group = "RULE_GROUP_GAMEPLAY"
+    icon  = "GFX_JAM_ammo_small"
+    
+    option = {
+        name = disable
+        text = "DD_no_optimization_in_europe_enable_name"
+        desc = "DD_no_optimization_in_europe_enable_name_desc"
+        
+        allow_achievements = yes
+    }
+    option = {
+        name = enable
+        text = "DD_optimization_in_europe_enable_name"
+        desc = "DD_optimization_in_europe_enable_desc"
+        
+        allow_achievements = yes
+    }
+}

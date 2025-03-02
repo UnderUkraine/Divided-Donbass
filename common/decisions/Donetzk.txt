@@ -1,0 +1,538 @@
+DPR_artillery_shelling = {
+	select_shelling_region_avdiivka = {
+		allowed = {
+            tag = DPR
+        }
+        visible = {
+			always = yes
+        }
+        available = {
+        }
+        icon = GFX_grad_icon
+        priority = 10
+
+        complete_effect = {
+		}
+    }
+}
+DPR_recruitment_in_militia = {
+  DPR_recruitment_in_horlivka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+			always = yes
+    }
+    available = {
+      controls_province = 12219
+      controls_province = 12200
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_horlivka_militia"
+    }
+  }  
+  DPR_recruitment_in_donetsk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12894
+      controls_province = 12932
+      controls_province = 12931
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_donetsk_militia"
+		}
+  } 
+  DPR_recruitment_in_mariupol = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+          controls_state = 430
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_mariupol_militia"
+		}
+  }   
+  DPR_recruitment_in_novoazovsk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 13978
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_novoazovsk_militia"
+		}
+  } 
+  DPR_recruitment_in_kramatorsk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 11420
+      controls_province = 11387
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_kramatorsk_militia"
+		}
+  } 
+  DPR_recruitment_in_sloviansk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 4941
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_sloviansk_militia"
+		}
+  } 
+  DPR_recruitment_in_artemivsk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 11704
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_artemivsk_militia"
+		}
+  } 
+  DPR_recruitment_in_avdiivka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12546
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_avdiivka_militia"
+		}
+  }  
+  DPR_recruitment_in_dzerzhinsk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12048
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+		}
+  } 
+  DPR_recruitment_in_konstantinovka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 7090
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_konstantinovka_militia"
+		}
+  } 
+  DPR_recruitment_in_dzuzhkivka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 11615
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_dzuzhkivka_militia"
+		}
+  } 
+  DPR_recruitment_in_makiivka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12788
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_makiivka_militia"
+		}
+  } 
+  DPR_recruitment_in_harcisk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12772
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_harcisk_militia"
+		}
+  } 
+  DPR_recruitment_in_volnovaha = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 13452
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_volnovaha_militia"
+		}
+  } 
+  DPR_recruitment_in_kurahovo = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12880
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_kurahovo_militia"
+		}
+  } 
+  DPR_recruitment_in_krasnoarmeisk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12304
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_krasnoarmeisk_militia"
+		}
+  }  
+  DPR_recruitment_in_seversk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    available = {
+      controls_province = 7107
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_seversk_militia"
+		}
+  } 
+  DPR_recruitment_in_chervoniy_liman = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 10999
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_chervoniy_liman_militia"
+		}
+  }  
+  DPR_recruitment_in_ilovaisk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 3476
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_ilovaisk_militia"
+		}
+  } 
+  DPR_recruitment_in_amvrosievka = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 13200
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_amvrosievka_militia"
+		}
+  } 
+  DPR_recruitment_in_shahtersk = {
+    cost = 10
+		allowed = {
+      tag = DPR
+    }
+    visible = {
+	    always = yes
+    }
+    available = {
+      controls_province = 12756
+    }
+    ai_will_do = {
+      modifier = {
+        factor = 100
+      }
+    }
+    icon = GFX_grad_icon
+    priority = 10
+    fire_only_once = yes
+    complete_effect = {
+      load_oob = "DPR_shahtersk_militia"
+		}
+  } 
+}
+
+DPR_independence_war = {
+  NVR_finish_operation = {
+		icon = mission_icon
+		is_good = yes
+		days_mission_timeout = 50
+		selectable_mission = no
+		fire_only_once = yes
+		available = {
+			always = no
+		}
+    visible = {
+      OR = {
+        original_tag = DPR
+        original_tag = LPR
+        original_tag = KPR
+        original_tag = OPR
+      }
+    }
+		activation = {
+			always = no
+		}
+		timeout_effect = {
+        hidden_effect = {
+          UKR = {
+            country_event = ukraine.49
+          }
+
+          #nado eshe separam eventi sdelat
+      }
+	  }
+  }  
+}

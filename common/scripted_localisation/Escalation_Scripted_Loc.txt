@@ -1,0 +1,124 @@
+defined_text = {
+    name = get_escalation_variable
+	
+    text = {
+        localization_key = "escalation_variable"
+    }
+}
+defined_text = {
+    name = get_weekly_escalation_variable
+	
+    text = {
+        localization_key = "weekly_escalation_variable"
+    }
+}
+defined_text = {
+    name = escalation1_status
+	
+    text = {
+        trigger = {
+            check_variable = {
+                global.escalation_on_donbass_variable = 1
+            }
+        }
+        localization_key = "GFX_escalation1"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                check_variable = {
+                    global.escalation_on_donbass_variable = 1
+                }
+            }
+        }
+        localization_key = "GFX_escalation1_inactive"
+    }
+}
+defined_text = {
+    name = escalation2_status
+	
+    text = {
+        trigger = {
+            check_variable = {
+                global.escalation_on_donbass_variable = 2
+            }
+        }
+        localization_key = "GFX_escalation2"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                check_variable = {
+                    global.escalation_on_donbass_variable = 2
+                }
+            }
+        }
+        localization_key = "GFX_escalation2_inactive"
+    }
+}
+defined_text = {
+    name = escalation3_status
+	
+    text = {
+        trigger = {
+            check_variable = {
+                global.escalation_on_donbass_variable = 3
+            }
+        }
+        localization_key = "GFX_escalation3"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                check_variable = {
+                    global.escalation_on_donbass_variable = 3
+                }
+            }
+        }
+        localization_key = "GFX_escalation3_inactive"
+    }
+}
+defined_text = {
+    name = escalation4_status
+	
+    text = {
+        trigger = {
+            check_variable = {
+                global.escalation_on_donbass_variable = 4
+            }
+        }
+        localization_key = "GFX_escalation4"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                check_variable = {
+                    global.escalation_on_donbass_variable = 4
+                }
+            }
+        }
+        localization_key = "GFX_escalation4_inactive"
+    }
+}
+defined_text = {
+    name = escalation5_status
+	
+    text = {
+        trigger = {
+            check_variable = {
+                global.escalation_on_donbass_variable = 5
+            }
+        }
+        localization_key = "GFX_escalation5"
+    }
+    text = {
+        trigger = {
+            NOT = {
+                check_variable = {
+                    global.escalation_on_donbass_variable = 5
+                }
+            }
+        }
+        localization_key = "GFX_escalation5_inactive"
+    }
+}

@@ -1,0 +1,39 @@
+scripted_gui = {
+  elections_gui = {
+    window_name = "elections_gui_window"
+    context_type = player_context
+
+    visible = {
+		   has_country_flag = ukr_elections_gui_open
+    }
+
+    effects = {
+      #close_button_click = {
+      #  clr_country_flag = ukr_elections_gui_open
+      #}
+    }
+  }
+
+  open_elections_button = {
+    window_name = "open_elections_button_gui"
+    context_type = decision_category
+
+    visible = {
+		  always = yes
+    }
+
+    effects = {
+      Button_1_click = {
+        IF = {
+          limit = {
+            has_country_flag = ukr_elections_gui_open
+          }
+          clr_country_flag = ukr_elections_gui_open
+          else = {
+            set_country_flag = ukr_elections_gui_open
+          }
+        }
+      }
+    }
+  }
+}

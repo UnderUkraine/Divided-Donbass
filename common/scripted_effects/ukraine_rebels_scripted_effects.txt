@@ -1,0 +1,925 @@
+ukraine_rebel_dpr_1 = {
+
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
+        }
+
+        DPR = {
+            activate_mission = NVR_finish_operation
+        }
+    }
+
+    news_event = news.22
+
+    355 = {
+        add_core_of = DPR
+        transfer_state_to = DPR
+        set_state_controller_to = UKR
+    }
+
+    #Cores
+    422 = {
+        add_core_of = DPR
+    }
+    387 = {
+        add_core_of = DPR
+    }
+    301 = {
+        add_core_of = DPR
+    }
+    364 = {
+        add_core_of = DPR
+    }
+    340 = {
+        add_core_of = DPR
+    }
+    356 = {
+        add_core_of = DPR
+    }
+    396 = {
+        add_core_of = DPR
+    }
+    390 = {
+        add_core_of = DPR
+    }
+    405 = {
+        add_core_of = DPR
+    }
+    420 = {
+        add_core_of = DPR
+    }
+    443 = {
+        add_core_of = DPR
+    }
+    359 = {
+        add_core_of = DPR
+    }
+    330 = {
+        add_core_of = DPR
+    }
+    322 = {
+        add_core_of = DPR
+    }
+    289 = {
+        add_core_of = DPR
+    }
+    237 = {
+        add_core_of = DPR
+    }
+    317 = {
+        add_core_of = DPR
+    }
+    310 = {
+        add_core_of = DPR
+    }
+    285 = {
+        add_core_of = DPR
+    }
+    253 = {
+        add_core_of = DPR
+    }
+    272 = {
+        add_core_of = DPR
+    }
+    284 = {
+        add_core_of = DPR
+    }
+    264 = {
+        add_core_of = DPR
+    }
+    259 = {
+        add_core_of = DPR
+    }
+    283 = {
+        add_core_of = DPR
+    }
+    219 = {
+        add_core_of = DPR
+    }
+    439 = {
+        add_core_of = DPR
+    }
+    259 = {
+        add_core_of = DPR
+    }
+    377 = {
+        add_core_of = DPR
+    }
+    363 = {
+        add_core_of = DPR
+    }
+    332 = {
+        add_core_of = DPR
+    }
+    375 = {
+        add_core_of = DPR
+    }
+    347 = {
+        add_core_of = DPR
+    }
+    315 = {
+        add_core_of = DPR
+    }
+    529 = {
+        add_core_of = DPR
+    }
+    336 = {
+        add_core_of = DPR
+    }
+    353 = {
+        add_core_of = DPR
+    }
+    532 = {
+        add_core_of = DPR
+    }
+    563 = {
+        add_core_of = DPR
+    }
+    369 = {
+        add_core_of = DPR
+    }
+
+    DPR = {
+        set_province_controller = 7663
+        set_province_controller = 4104
+        set_province_controller = 12834
+        set_province_controller = 4237
+        set_province_controller = 12873
+        set_province_controller = 12893
+
+        set_province_controller = 12788
+        set_province_controller = 3287
+        set_province_controller = 12764
+
+        set_province_controller = 12219
+        set_province_controller = 12168
+        set_province_controller = 12200
+        set_province_controller = 12153
+
+        set_province_controller = 7290
+
+        set_province_controller = 4941
+        set_province_controller = 11254
+        set_province_controller = 6172
+
+        #Мариуполь
+        set_province_controller = 13917
+        set_province_controller = 13933
+
+        #Соединение Горловка-Енакиево
+        set_province_controller = 6091
+        set_province_controller = 14847
+        set_province_controller = 12321
+        set_province_controller = 12300
+        set_province_controller = 12244
+        set_province_controller = 12256
+        set_province_controller = 12277
+        set_province_controller = 7730
+
+        #Соединение Краматорск-Славянск
+        set_province_controller = 11301
+        set_province_controller = 6992
+        set_province_controller = 11332
+        set_province_controller = 6355
+        set_province_controller = 11377
+        set_province_controller = 11420
+        set_province_controller = 11387
+        set_province_controller = 11412
+        set_province_controller = 11459
+        set_province_controller = 7716
+        set_province_controller = 15127
+    }
+
+    DPR = {
+        create_faction = "Новороссия"
+        add_dynamic_modifier = {
+            modifier = Escalation_modifier
+        }
+
+        add_timed_idea = {
+            idea = DPR_independence_war
+            days = 50
+        }
+
+        set_capital = {
+            state = 355
+        }
+
+        add_to_variable = { global.escalation_on_donbass_variable = 1 }
+
+        set_variable = {global.Escalation_stability_factor = -0.07}
+        set_variable = {global.Escalation_war_support_factor = 0.07}
+        set_variable = {global.Escalation_resistance_growth = 0.07}
+        set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+        set_variable = {global.Escalation_fascism_drift = 0.1}
+
+        declare_war_on = {
+            target = UKR
+            type = annex_everything
+        }
+        load_oob = "DPR_2014"
+    }
+
+    country_event = ukraine.16
+}
+
+ukraine_rebel_lpr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
+        }
+
+        LPR = {
+            activate_mission = NVR_finish_operation
+        }
+    }
+
+    news_event = news.23
+
+    269 = {
+        add_core_of = LPR
+        transfer_state_to = LPR
+        set_state_controller_to = UKR
+    }
+    304 = {
+        add_core_of = LPR
+    }
+    305 = {
+        add_core_of = LPR
+    }
+    295 = {
+        add_core_of = LPR
+    }
+    331 = {
+        add_core_of = LPR
+    }
+    342 = {
+        add_core_of = LPR
+    }
+    292 = {
+        add_core_of = LPR
+    }
+    271 = {
+        add_core_of = LPR
+    }
+    280 = {
+        add_core_of = LPR
+    }
+    278 = {
+        add_core_of = LPR
+    }
+    263 = {
+        add_core_of = LPR
+    }
+    238 = {
+        add_core_of = LPR
+    }
+    210 = {
+        add_core_of = LPR
+    }
+    171 = {
+        add_core_of = LPR
+    }
+    136 = {
+        add_core_of = LPR
+    }
+    156 = {
+        add_core_of = LPR
+    }
+    161 = {
+        add_core_of = LPR
+    }
+    170 = {
+        add_core_of = LPR
+    }
+    180 = {
+        add_core_of = LPR
+    }
+    248 = {
+        add_core_of = LPR
+    }
+    228 = {
+        add_core_of = LPR
+    }
+    200 = {
+        add_core_of = LPR
+    }
+    203 = {
+        add_core_of = LPR
+    }
+    242 = {
+        add_core_of = LPR
+    }
+    265 = {
+        add_core_of = LPR
+    }
+    245 = {
+        add_core_of = LPR
+    }
+    267 = {
+        add_core_of = LPR
+    }
+    229 = {
+        add_core_of = LPR
+    }
+
+    LPR = {
+        set_province_controller = 11805
+        set_province_controller = 11847
+        set_province_controller = 5683
+        set_province_controller = 11848
+        set_province_controller = 11813
+        set_province_controller = 11725
+        set_province_controller = 11772
+        set_province_controller = 11748
+
+        set_province_controller = 5878
+        set_province_controller = 11085
+        set_province_controller = 5709
+        set_province_controller = 11035
+
+        set_province_controller = 1837
+        set_province_controller = 11783
+        set_province_controller = 11875
+        set_province_controller = 11922
+        set_province_controller = 11949
+        set_province_controller = 3079
+    }
+
+    DPR = {
+        add_to_faction = LPR
+    }
+
+    LPR = {
+        add_to_variable = { global.escalation_on_donbass_variable = 1 }
+
+        add_timed_idea = {
+            idea = LPR_independence_war
+            days = 50
+        }
+
+        set_variable = {global.Escalation_stability_factor = -0.07}
+        set_variable = {global.Escalation_war_support_factor = 0.07}
+        set_variable = {global.Escalation_resistance_growth = 0.07}
+        set_variable = {global.Escalation_opinion_gain_monthly_factor = -0.12} #Не могу найти стоимость
+        set_variable = {global.Escalation_fascism_drift = 0.1}
+
+        set_capital = {
+            state = 269
+        }
+        declare_war_on = {
+            target = UKR
+            type = annex_everything
+        }
+        load_oob = "LPR_2014"
+    }
+
+    country_event = ukraine.17
+}
+
+ukraine_rebel_kpr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        KPR = {
+            activate_mission = NVR_finish_operation
+        }
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+
+            complete_national_focus = RUS_russian_spring
+        }
+    }
+
+    news_event = news.24
+
+    137 = {
+        add_core_of = KPR
+        transfer_state_to = KPR
+        set_state_controller_to = UKR
+    }
+    117 = {
+        add_core_of = KPR
+        transfer_state_to = UKR
+        set_state_controller_to = UKR
+    }
+
+    KPR = {
+        set_province_controller = 8873
+        set_province_controller = 8912
+        set_province_controller = 8868
+        set_province_controller = 7635
+    }
+
+    DPR = {
+        add_to_faction = KPR
+    }
+
+    KPR = {
+        set_capital = {
+            state = 137
+        }
+        declare_war_on = {
+            target = UKR
+            type = annex_everything
+        }
+    }
+
+    country_event = ukraine.18
+}
+
+ukraine_rebel_opr_1 = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_flag = UKR_ATO_Started
+            }
+        }
+        set_global_flag = UKR_ATO_Started
+        mark_focus_tree_layout_dirty = yes
+
+        OPR = {
+            activate_mission = NVR_finish_operation
+        }
+
+        RUS = {
+            activate_decision = RUS_end_the_war
+            complete_national_focus = RUS_russian_spring
+        }
+    }
+
+    news_event = news.25
+
+    467 = {
+        add_core_of = OPR
+        transfer_state_to = OPR
+        set_state_controller_to = UKR
+    }
+
+    OPR = {
+        set_province_controller = 14299
+        set_province_controller = 4498
+        set_province_controller = 14320
+        set_province_controller = 14282
+        set_province_controller = 14270
+
+        set_province_controller = 5346
+        set_province_controller = 14343
+        set_province_controller = 6823
+        set_province_controller = 3143
+    }
+
+    DPR = {
+        add_to_faction = OPR
+    }
+
+    OPR = {
+        set_capital = {
+            state = 467
+        }
+        declare_war_on = {
+            target = UKR
+            type = annex_everything
+        }
+    }
+
+    OPR = {
+        add_dynamic_modifier = {
+            modifier = Escalation_modifier
+        }
+    }
+
+    country_event = ukraine.19
+}
+
+ukraine_set_dem_zone = {
+    422 = {
+        set_demilitarized_zone = yes
+    }
+    405 = {
+        set_demilitarized_zone = yes
+    }
+    439 = {
+        set_demilitarized_zone = yes
+    }
+    443 = {
+        set_demilitarized_zone = yes
+    }
+    420 = {
+        set_demilitarized_zone = yes
+    }
+    390 = {
+        set_demilitarized_zone = yes
+    }
+    369 = {
+        set_demilitarized_zone = yes
+    }
+    364 = {
+        set_demilitarized_zone = yes
+    }
+    353 = {
+        set_demilitarized_zone = yes
+    }
+    387 = {
+        set_demilitarized_zone = yes
+    }
+    396 = {
+        set_demilitarized_zone = yes
+    }
+    375 = {
+        set_demilitarized_zone = yes
+    }
+
+    355 = {
+        set_demilitarized_zone = yes
+    }
+    563 = {
+        set_demilitarized_zone = yes
+    }
+    529 = {
+        set_demilitarized_zone = yes
+    }
+    336 = {
+        set_demilitarized_zone = yes
+    }
+    330 = {
+        set_demilitarized_zone = yes
+    }
+    363 = {
+        set_demilitarized_zone = yes
+    }
+    377 = {
+        set_demilitarized_zone = yes
+    }
+    315 = {
+        set_demilitarized_zone = yes
+    }
+    356 = {
+        set_demilitarized_zone = yes
+    }
+    340 = {
+        set_demilitarized_zone = yes
+    }
+    322 = {
+        set_demilitarized_zone = yes
+    }
+    289 = {
+        set_demilitarized_zone = yes
+    }
+    259 = {
+        set_demilitarized_zone = yes
+    }
+    237 = {
+        set_demilitarized_zone = yes
+    }
+    219 = {
+        set_demilitarized_zone = yes
+    }
+    253 = {
+        set_demilitarized_zone = yes
+    }
+    264 = {
+        set_demilitarized_zone = yes
+    }
+    284 = {
+        set_demilitarized_zone = yes
+    }
+    272 = {
+        set_demilitarized_zone = yes
+    }
+    301 = {
+        set_demilitarized_zone = yes
+    }
+    347 = {
+        set_demilitarized_zone = yes
+    }
+    532 = {
+        set_demilitarized_zone = yes
+    }
+    332 = {
+        set_demilitarized_zone = yes
+    }
+    331 = {
+        set_demilitarized_zone = yes
+    }
+    342 = {
+        set_demilitarized_zone = yes
+    }
+    295 = {
+        set_demilitarized_zone = yes
+    }
+    305 = {
+        set_demilitarized_zone = yes
+    }
+    317 = {
+        set_demilitarized_zone = yes
+    }
+    269 = {
+        set_demilitarized_zone = yes
+    }
+    265 = {
+        set_demilitarized_zone = yes
+    }
+    171 = {
+        set_demilitarized_zone = yes
+    }
+    136 = {
+        set_demilitarized_zone = yes
+    }
+    359 = {
+        set_demilitarized_zone = yes
+    }
+    210 = {
+        set_demilitarized_zone = yes
+    }
+    283 = {
+        set_demilitarized_zone = yes
+    }
+    210 = {
+        set_demilitarized_zone = yes
+    }
+    285 = {
+        set_demilitarized_zone = yes
+    }
+    310 = {
+        set_demilitarized_zone = yes
+    }
+    292 = {
+        set_demilitarized_zone = yes
+    }
+    304 = {
+        set_demilitarized_zone = yes
+    }
+    271 = {
+        set_demilitarized_zone = yes
+    }
+    263 = {
+        set_demilitarized_zone = yes
+    }
+    238 = {
+        set_demilitarized_zone = yes
+    }
+    278 = {
+        set_demilitarized_zone = yes
+    }
+    280 = {
+        set_demilitarized_zone = yes
+    }
+    267 = {
+        set_demilitarized_zone = yes
+    }
+    245 = {
+        set_demilitarized_zone = yes
+    }
+    242 = {
+        set_demilitarized_zone = yes
+    }
+    248 = {
+        set_demilitarized_zone = yes
+    }
+    228 = {
+        set_demilitarized_zone = yes
+    }
+    229 = {
+        set_demilitarized_zone = yes
+    }
+    200 = {
+        set_demilitarized_zone = yes
+    }
+    203 = {
+        set_demilitarized_zone = yes
+    }
+    180 = {
+        set_demilitarized_zone = yes
+    }
+    170 = {
+        set_demilitarized_zone = yes
+    }
+    161 = {
+        set_demilitarized_zone = yes
+    }
+    156 = {
+        set_demilitarized_zone = yes
+    }
+
+    #Kharkiv oblast
+    185 = {
+        set_demilitarized_zone = yes
+    }
+    192 = {
+        set_demilitarized_zone = yes
+    }
+    197 = {
+        set_demilitarized_zone = yes
+    }
+    154 = {
+        set_demilitarized_zone = yes
+    }
+    133 = {
+        set_demilitarized_zone = yes
+    }
+    116 = {
+        set_demilitarized_zone = yes
+    }
+    104 = {
+        set_demilitarized_zone = yes
+    }
+    141 = {
+        set_demilitarized_zone = yes
+    }
+    179 = {
+        set_demilitarized_zone = yes
+    }
+    218 = {
+        set_demilitarized_zone = yes
+    }
+    117 = {
+        set_demilitarized_zone = yes
+    }
+    137 = {
+        set_demilitarized_zone = yes
+    }
+    142 = {
+        set_demilitarized_zone = yes
+    }
+    146 = {
+        set_demilitarized_zone = yes
+    }
+    159 = {
+        set_demilitarized_zone = yes
+    }
+    165 = {
+        set_demilitarized_zone = yes
+    }
+    109 = {
+        set_demilitarized_zone = yes
+    }
+    105 = {
+        set_demilitarized_zone = yes
+    }
+    115 = {
+        set_demilitarized_zone = yes
+    }
+    144 = {
+        set_demilitarized_zone = yes
+    }
+    159 = {
+        set_demilitarized_zone = yes
+    }
+    163 = {
+        set_demilitarized_zone = yes
+    }
+    174 = {
+        set_demilitarized_zone = yes
+    }
+    193 = {
+        set_demilitarized_zone = yes
+    }
+    239 = {
+        set_demilitarized_zone = yes
+    }
+    216 = {
+        set_demilitarized_zone = yes
+    }
+    191 = {
+        set_demilitarized_zone = yes
+    }
+    214 = {
+        set_demilitarized_zone = yes
+    }
+    208 = {
+        set_demilitarized_zone = yes
+    }
+    123 = {
+        set_demilitarized_zone = yes
+    }
+    153 = {
+        set_demilitarized_zone = yes
+    }
+    #Zaporizhia oblast
+    432 = {
+        set_demilitarized_zone = yes
+    }
+    398 = {
+        set_demilitarized_zone = yes
+    }
+    287 = {
+        set_demilitarized_zone = yes
+    }
+    #Azov base
+    562 = {
+        set_demilitarized_zone = yes
+    }
+    #Odesa oblast
+    454 = {
+        set_demilitarized_zone = yes
+    }
+    426 = {
+        set_demilitarized_zone = yes
+    }
+    401 = {
+        set_demilitarized_zone = yes
+    }
+    376 = {
+        set_demilitarized_zone = yes
+    }
+    362 = {
+        set_demilitarized_zone = yes
+    }
+    339 = {
+        set_demilitarized_zone = yes
+    }
+    341 = {
+        set_demilitarized_zone = yes
+    }
+    344 = {
+        set_demilitarized_zone = yes
+    }
+    382 = {
+        set_demilitarized_zone = yes
+    }
+    386 = {
+        set_demilitarized_zone = yes
+    }
+    418 = {
+        set_demilitarized_zone = yes
+    }
+    434 = {
+        set_demilitarized_zone = yes
+    }
+    409 = {
+        set_demilitarized_zone = yes
+    }
+    452 = {
+        set_demilitarized_zone = yes
+    }
+    467 = {
+        set_demilitarized_zone = yes
+    }
+    487 = {
+        set_demilitarized_zone = yes
+    }
+    492 = {
+        set_demilitarized_zone = yes
+    }
+    488 = {
+        set_demilitarized_zone = yes
+    }
+    494 = {
+        set_demilitarized_zone = yes
+    }
+    511 = {
+        set_demilitarized_zone = yes
+    }
+    482 = {
+        set_demilitarized_zone = yes
+    }
+    496 = {
+        set_demilitarized_zone = yes
+    }
+    513 = {
+        set_demilitarized_zone = yes
+    }
+    518 = {
+        set_demilitarized_zone = yes
+    }
+    527 = {
+        set_demilitarized_zone = yes
+    }
+    520 = {
+        set_demilitarized_zone = yes
+    }
+}
+
+republics_victory_script = {
+    set_global_flag = Separatists_won
+
+    set_global_flag = UKR_Victory_of_separatists_event
+    set_global_flag = Super_Event_Visible
+}

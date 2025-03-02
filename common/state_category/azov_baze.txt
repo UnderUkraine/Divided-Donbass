@@ -1,0 +1,8 @@
+state_categories={
+	azov_baze = {
+		local_building_slots = 0
+	
+		color = { 160 160 0 }
+
+	}
+}

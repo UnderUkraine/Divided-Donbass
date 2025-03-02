@@ -1,0 +1,26 @@
+units = {
+	division= {
+		name = "46th Separate special operations battalion “Donbas-Ukraina”"
+		location = 9181 #суда позицию
+		division_template = "SSO"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "57th Separate motorized infantry brigade"
+		location = 9181 #суда позицию
+		division_template = "Mechanized Infantry"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+	division= {
+		name = "59th Separate motorized infantry brigade"
+		location = 9181 #суда позицию
+		division_template = "Mechanized Infantry"
+		start_experience_factor = 0.07
+		start_equipment_factor = 0.75
+		start_manpower_factor = 0.8
+	}
+}

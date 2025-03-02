@@ -1,0 +1,56 @@
+﻿capital = 146
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+	world_recognition
+	medium_corruption
+	parlament_president_republic
+
+
+	no_nuke_state
+	nato_standarts
+	army_without_funding
+	contract_army
+}
+2013.11.21 = {
+    set_politics = {
+	    ruling_party = conservatism_democratic
+	    last_election = "2009.06.15"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    conservatism_democratic = 43
+	    social_democratic = 44
+	    liberal_democratic = 13
+    }
+	create_country_leader = {
+		name = SLO_Ivan_Gasparovic
+		#desc = petro_poroshenko_desc
+		ideology = conservatism
+		picture = gfx/leaders/SLO/SLO_Ivan_Gasparovic.dds
+		traits = { }
+	}
+}
+2015.1.1 = {
+    set_politics = {
+	    ruling_party = conservatism_democratic
+	    last_election = "2014.06.15"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    set_popularities = {
+	    conservatism_democratic = 44
+		nationalism_group = 13
+	    social_democratic = 31
+	    liberal_democratic = 12
+    }
+	create_country_leader = {
+		name = SLO_Andrej_Kiska
+		#desc = petro_poroshenko_desc
+		ideology = conservatism
+		picture = gfx/leaders/SLO/SLO_Andrej_Kiska.dds
+		traits = { }
+	}
+}

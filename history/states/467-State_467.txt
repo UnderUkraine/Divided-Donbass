@@ -1,0 +1,26 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		1179 2824 3031 3087 4271 4498 4524 5054 5886 6102 6153 6254 6287 6371 6731 6823 6953 7424 7620 7661 7880 14237 14247 14261 14269 14270 14272 14282 14293 14299 14319 14320 14325 14343 14371 
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			14299 30
+		}
+		buildings = {
+			infrastructure = 3
+			synthetic_refinery = 2
+			fuel_silo = 3
+
+			14299 = {
+				naval_base = 3
+			}
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

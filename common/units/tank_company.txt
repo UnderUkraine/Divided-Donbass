@@ -1,0 +1,70 @@
+sub_units = {
+	tank_company = {
+		abbreviation = "TNC"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		need = {
+			tank_chassis = 5
+		}
+		manpower = 15
+		max_organisation = 15
+		default_morale = 0.3
+		training_time = 150
+		max_strength = 2
+		weight = 3
+		supply_consumption = 0.15
+
+		breakthrough = 0.25
+		suppression = 2.5
+
+		forest = {
+		    attack = -0.4
+			movement = -0.4
+		}
+		mountain = 	{
+		    attack = -0.5
+		}
+		jungle = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.2 
+			movement = -0.2
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.4
+		}	
+
+		same_support_type = tank_company
+	}
+}

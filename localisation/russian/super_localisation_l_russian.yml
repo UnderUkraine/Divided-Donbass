@@ -1,0 +1,16 @@
+﻿l_russian:
+ sp_event_Ukr_ato_start:0 "Начало Анти-Террористической операции"
+ sp_event_Ukr_ato_start_QUOTE:0 "«На востоке Украины начинается антитеррористическая операция с участием Вооруженных сил Украины. Мы не позволим России повторить крымский сценарий в восточных регионах». \n- §Олександр Турчинов§!"
+ sp_event_Ukr_ato_start_REMARK:0 "Начало новой войны..."
+
+sp_event_Ukr_yanukovich_overthrow:0 "Победа Майдана"
+sp_event_Ukr_yanukovich_overthrow_QUOTE:0 "“Революция достоинства доказала, что украинский народ способен отстаивать свои права и свободы. Мы выбрали европейский путь, и никто не сможет сбить нас с этого пути.”. \n- §YПётр Порошенко§!"
+sp_event_Ukr_yanukovich_overthrow_REMARK:0 "Диктаторский режим пал!"
+
+sp_event_UKR_Victory_over_separatists_event:0 "Украинская победа над сепаратистами"
+sp_event_UKR_Victory_over_separatists_event_QUOTE:0 "«У сепаратистов нет шансов. Украинская армия вернет контроль над всей территорией» \n- §YАрсен Аваков§!"
+sp_event_UKR_Victory_over_separatists_event_REMARK:0 "Слава Україні!"
+
+sp_event_UKR_Viсtory_of_separatists_event:0 "Победа сепаратистов"
+sp_event_UKR_Victory_of_separatists_event_QUOTE:0 "«мудро» \n- §Yіді нахуй§!"
+sp_event_UKR_Victory_of_separatists_event_REMARK:0 "Слава героям Донбасса!"

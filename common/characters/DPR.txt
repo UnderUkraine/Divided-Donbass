@@ -1,0 +1,16 @@
+characters = {
+	DPR_zakharchenko = {
+		name = DPR_zakharchenko
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/DPR/zakharcenko.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = autoritarian_democractic
+			traits = {
+			}
+		}
+	}
+}

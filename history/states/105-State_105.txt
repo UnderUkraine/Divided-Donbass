@@ -1,0 +1,16 @@
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		557 2780 3240 3343 4460 4594 5055 5184 5447 5827 5890 6929 7260 7526 7695 8061 8063 8090 8561 8562 8567 8570 8571 8572 8574 8582 8584 8585 8586 8587 8588 8596 8601 8602 8604 8617 8618 8622 8625 8633 8634 8635 8639 8645 8654 8655 8660 8668 8673 8690 8695 8698 8707 8715 8720 8725 8740 8756 
+	}
+	history={
+		victory_points = { 8574 5 }
+                buildings = {infrastructure = 2}
+		owner = UKR
+		add_core_of = UKR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

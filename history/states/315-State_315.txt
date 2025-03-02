@@ -1,0 +1,94 @@
+state={
+	id=315
+	name="STATE_315"
+	provinces={
+		301 2270 2617 2736 2938 3823 3926 4260 4270 5021 5100 5193 5360 5429 5949 6114 6523 6926 7271 7730 8082 11970 11985 11998 12008 12028 12029 12038 12064 12065 12066 12088 12093 12101 12104 12115 12121 12131 12138 12153 12157 12158 12159 12168 12180 12200 12201 12210 12219 12220 12226 12234 12244 12256 12261 12277 12278 12290 12296 12300 12307 12319 12320 12321 12346 12353 12362 12366 12367 12374 12404 12417 12418 12419 12439 12453 12460 12465 12474 12479 12494 12495 12503 12516 
+	}
+	history={
+      victory_points = { 12353 3 }
+      victory_points = { 14847 3 }
+      victory_points = { 12321 3 }
+      victory_points = { 6926 3 }
+      victory_points = { 12200 3 }
+      victory_points = { 5193 3 }
+      victory_points = { 12088 3 }
+      victory_points = { 12038 3 }
+      victory_points = { 12008 3 }
+      victory_points = { 12008 3 }
+      victory_points = { 12028 3 }
+      victory_points = { 12320 3 }
+		owner = UKR
+		add_core_of = UKR
+		2015.1.1 = {
+			transfer_state_to = DPR
+			add_core_of = DPR
+
+			UKR = {
+				#set_province_controller = 7271
+				set_province_controller = 12479
+				set_province_controller = 4260
+				set_province_controller = 12417
+				set_province_controller = 12366
+				set_province_controller = 12353
+
+				set_province_controller = 12307
+				set_province_controller = 12290
+				set_province_controller = 4270
+				set_province_controller = 5100
+
+				set_province_controller = 12346
+				set_province_controller = 12404
+				set_province_controller = 6114
+
+				set_province_controller = 12101
+				set_province_controller = 2270
+				set_province_controller = 5021
+				set_province_controller = 12338
+				set_province_controller = 12368
+				set_province_controller = 301
+
+				set_province_controller = 12319
+				set_province_controller = 12220
+				set_province_controller = 12210
+				set_province_controller = 12159
+				set_province_controller = 12131
+
+				set_province_controller = 4451
+
+				set_province_controller = 12038
+				set_province_controller = 3823
+				set_province_controller = 12065
+				set_province_controller = 12028
+				set_province_controller = 11998
+				set_province_controller = 12029
+				set_province_controller = 11985
+				set_province_controller = 5949
+				set_province_controller = 12008
+				set_province_controller = 11970
+		   }
+		}
+		victory_points = {
+			12219 10
+		}
+		victory_points = {
+			12465 5
+		}
+		victory_points = {
+			12503 3
+		}
+		victory_points = {
+			12495 3
+		}
+		victory_points = {
+			8082 3
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=254416
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

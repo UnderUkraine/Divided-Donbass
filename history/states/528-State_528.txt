@@ -1,0 +1,24 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		328 405 2184 2333 2547 2892 2942 3412 3912 4147 4188 4296 4578 5733 5811 5858 6486 6565 6716 7542 7784 7895 14556 14560 14566 14571 14575 14579 14586 14587 14591 14592 14599 14601 14602 14603 14607 14608 14611 14621 14622 14623 14638 14649 14653 
+	}
+	history={
+		owner = UKR
+		add_core_of = UKR
+		add_core_of = CRI
+
+		2015.1.1 = {
+			transfer_state_to = RUS
+			add_core_of = RUS
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=13539
+        state_category = town
+}

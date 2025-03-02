@@ -1,0 +1,27 @@
+﻿capital = 202
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2014.08.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	LPR_Peoples_republic
+
+	not_recognized_state
+}
+
+set_major = yes
+
+set_popularities = {
+	liberal_democratic = 0
+	conservatism_democratic = 0
+	fascism = 10
+	communism = 15
+	autoritarian_democracy = 75
+}

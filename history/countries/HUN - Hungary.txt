@@ -1,0 +1,36 @@
+﻿capital = 370
+set_technology = {
+	infantry_weapons = 1
+}
+add_ideas = {
+	world_recognition
+	medium_corruption
+	parlament_president_republic
+
+
+	no_nuke_state
+	nato_standarts
+	minimal_expenses
+	contract_army
+}
+2013.11.21 = {
+	set_politics = {
+		ruling_party = conservatism_democratic
+		last_election = "2012.05.10"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism_democratic = 67
+		nationalism_group = 12
+		social_democratic = 19
+		liberal_democratic = 2
+	}
+	create_country_leader = {
+		name = HUN_janos_ader
+		#desc = dpr_pro_russian_separatists_desc
+		ideology = conservatism
+		picture = gfx/leaders/HUN/HUN_janos_ader.dds
+		traits = {}
+	}
+}

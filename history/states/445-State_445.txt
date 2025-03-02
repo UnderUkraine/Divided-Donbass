@@ -1,0 +1,15 @@
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		1903 3272 
+	}
+	history={
+                buildings = {infrastructure = 2}
+		owner = HUN
+		add_core_of = HUN
+	}
+	buildings_max_level_factor=1.000
+        manpower=371322
+        state_category = town
+}
